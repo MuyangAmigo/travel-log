@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: site
-        run: npm ci
+        run: npm install --no-audit --no-fund --prefer-offline
 
       - name: Build Next.js site
         working-directory: site
