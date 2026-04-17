@@ -12,7 +12,9 @@ A bilingual (zh/en) travel journal rendered as scrapbook-style "cards". The aest
 - **`scripts/upload-trip-images.sh`** — uploads a trip's photos to `junjieblob` blob storage
 - **`.github/workflows/azure-static-web-apps.yml`** — builds `site/out` and deploys to Azure Static Web Apps on push to `main`
 
-Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Node 20, same Tailwind v4 setup, same static export + SWA deploy pattern.
+Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup, same static export + SWA deploy pattern. CI runs Node 22.
+
+Live at https://agreeable-tree-0b1f10200.7.azurestaticapps.net. Azure SWA `travel-log` lives in resource group `junjieweb`, region `eastasia`, Free tier. Deploy token is stored as `AZURE_STATIC_WEB_APPS_API_TOKEN` in the GitHub repo secrets.
 
 ## Dev commands
 

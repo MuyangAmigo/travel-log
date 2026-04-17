@@ -45,7 +45,7 @@ for FILE in "$SRC_DIR"/*.{jpeg,jpg,png,webp,JPEG,JPG,PNG,WEBP}; do
         --account-name "$STORAGE_ACCOUNT" \
         --container-name "$CONTAINER" \
         --name "$BLOB_NAME" \
-        --auth-mode login \
+        --auth-mode key \
         >/dev/null 2>&1; then
     echo "  [skip] $FNAME  (already in blob)"
     SKIPPED=$((SKIPPED + 1))
@@ -58,7 +58,7 @@ for FILE in "$SRC_DIR"/*.{jpeg,jpg,png,webp,JPEG,JPG,PNG,WEBP}; do
     --container-name "$CONTAINER" \
     --file "$FILE" \
     --name "$BLOB_NAME" \
-    --auth-mode login \
+    --auth-mode key \
     --only-show-errors >/dev/null
   UPLOADED=$((UPLOADED + 1))
 done
