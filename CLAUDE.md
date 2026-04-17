@@ -67,5 +67,5 @@ Lightweight. Locale lives in the URL segment (`/[locale]/...`). `locales = ["zh"
 ## Gotchas
 
 - Changing image paths means re-uploading to blob storage. The dev site points at blob URLs in every environment.
-- The root `plog.html` is the original design reference — leave it in place as a source of truth for the visual vocabulary, even after the port.
-- Node 20 is pinned in CI. Match locally if you see `engines` warnings.
+- CI runs Node 22 and regenerates `site/package-lock.json` on every build — a workaround for a stale empty-version entry that local npm keeps re-adding to the lockfile. Don't restore `npm ci` without verifying the lockfile parses cleanly on the runner.
+- The original single-file prototype (`plog.html`) was removed after porting. Recover via `git show <sha>:plog.html` if you ever want to visually diff against it.
