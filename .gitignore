@@ -1,0 +1,21 @@
+# Node / Next.js
+node_modules/
+.next/
+site/.next/
+site/out/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Source photos — uploaded to Azure Blob Storage, not tracked in git
+IMGSource/
