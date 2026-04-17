@@ -3,7 +3,7 @@ import CardScaleController from "@/components/CardScaleController";
 
 export default function BangkokEN() {
   return (
-    <div className="bangkok-trip">
+    <div className="bangkok-trip" style={{ display: "contents" }}>
       <CardScaleController />
 
       {/* ========= CARD 1: COVER ========= */}
