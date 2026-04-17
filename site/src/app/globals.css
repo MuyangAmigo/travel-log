@@ -272,6 +272,13 @@ body {
 .cover-border::before { content: ''; position: absolute; inset: 7px; border: 1px solid var(--accent-gold); opacity: .35; border-radius: 1px; }
 .cover-border::after { content: ''; position: absolute; inset: 13px; border: 1px dashed var(--accent-gold); opacity: .25; border-radius: 1px; }
 .cover-line { width: 60px; height: 1px; background: var(--accent-gold); margin: 20px auto; }
+.cover-emoji { font-size: 44px; letter-spacing: 14px; margin-bottom: 16px; }
+.cover-title { font-family: var(--font-display); font-size: 52px; font-weight: 700; letter-spacing: 8px; }
+.cover-subtitle { font-family: var(--font-hand); font-size: 30px; color: var(--accent-gold); letter-spacing: 3px; margin: 6px 0 20px; }
+.cover-date { font-size: 15px; color: var(--ink-light); letter-spacing: 5px; margin-bottom: 24px; }
+.ending-flag { font-size: 48px; margin-bottom: 20px; }
+.ending-title { font-family: var(--font-display); font-size: 34px; margin-bottom: 8px; }
+.ending-subtitle { font-family: var(--font-hand); font-size: 24px; color: var(--accent-gold); margin-bottom: 30px; }
 
 /* ===== TRIP INDEX (non-scrapbook, minimal editorial shell) ===== */
 .index-wrap {
@@ -453,6 +460,23 @@ body {
     flex-wrap: wrap;
     row-gap: 10px;
   }
+
+  .bangkok-trip .card-wrap {
+    --s: 1;
+    width: calc(100vw - 24px);
+    height: auto !important;
+    overflow: visible;
+  }
+  .bangkok-trip .card-wrap .card {
+    transform: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .bangkok-trip .cover-emoji { font-size: 34px; letter-spacing: 8px; }
+  .bangkok-trip .cover-title { font-size: 42px; letter-spacing: 4px; }
+  .bangkok-trip .cover-subtitle { font-size: 26px; letter-spacing: 2px; }
+  .bangkok-trip .cover-date { letter-spacing: 3px; }
 }
 
 @media (max-width: 640px) {
@@ -524,6 +548,17 @@ body {
     letter-spacing: 1px;
     font-size: 12px;
   }
+
+  .bangkok-trip .card-wrap {
+    width: calc(100vw - 16px);
+  }
+  .bangkok-trip .cover-emoji { font-size: 28px; letter-spacing: 5px; }
+  .bangkok-trip .cover-title { font-size: 34px; letter-spacing: 2px; }
+  .bangkok-trip .cover-subtitle { font-size: 22px; }
+  .bangkok-trip .cover-date { font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  .bangkok-trip .ending-flag { font-size: 38px; margin-bottom: 14px; }
+  .bangkok-trip .ending-title { font-size: 28px; }
+  .bangkok-trip .ending-subtitle { font-size: 20px; margin-bottom: 22px; }
 }
 
 @media (max-width: 400px) {
@@ -536,5 +571,9 @@ body {
   }
   .route {
     gap: 6px;
+  }
+
+  .bangkok-trip .card-wrap {
+    width: calc(100vw - 12px);
   }
 }

@@ -3,7 +3,7 @@ import CardScaleController from "@/components/CardScaleController";
 
 export default function BangkokEN() {
   return (
-    <>
+    <div className="bangkok-trip">
       <CardScaleController />
 
       {/* ========= CARD 1: COVER ========= */}
@@ -13,15 +13,15 @@ export default function BangkokEN() {
             <div>THAILAND<br />2026</div>
           </div>
           <div className="cover-border">
-            <div style={{ fontSize: 44, letterSpacing: 14, marginBottom: 16 }}>🇹🇭 ✈️ 🏝️</div>
-            <h1 style={{ fontFamily: "var(--font-display)", fontSize: 52, fontWeight: 700, letterSpacing: 8 }}>
+            <div className="cover-emoji">🇹🇭 ✈️ 🏝️</div>
+            <h1 className="cover-title">
               BANGKOK
             </h1>
-            <div style={{ fontFamily: "var(--font-hand)", fontSize: 30, color: "var(--accent-gold)", letterSpacing: 3, margin: "6px 0 20px" }}>
+            <div className="cover-subtitle">
               Travel Journal
             </div>
             <div className="cover-line" />
-            <div style={{ fontSize: 15, color: "var(--ink-light)", letterSpacing: 5, marginBottom: 24 }}>
+            <div className="cover-date">
               2026.04.02 — 04.06
             </div>
             <div className="cover-line" />
@@ -577,9 +577,9 @@ export default function BangkokEN() {
           <div className="deco" style={{ width: 260, height: 260, top: "50%", left: "50%", transform: "translate(-50%, -50%)" }} />
 
           <div style={{ position: "relative", zIndex: 1 }}>
-            <div style={{ fontSize: 48, marginBottom: 20 }}>🇹🇭</div>
-            <h2 style={{ fontFamily: "var(--font-display)", fontSize: 34, marginBottom: 8 }}>See You Next Time</h2>
-            <p style={{ fontFamily: "var(--font-hand)", fontSize: 24, color: "var(--accent-gold)", marginBottom: 30 }}>
+            <div className="ending-flag">🇹🇭</div>
+            <h2 className="ending-title">See You Next Time</h2>
+            <p className="ending-subtitle">
               Bangkok, Thailand
             </p>
             <div className="cover-line" />
@@ -609,6 +609,6 @@ export default function BangkokEN() {
           <div className="page-num">- 11 -</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
