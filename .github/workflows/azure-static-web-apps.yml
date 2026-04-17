@@ -22,12 +22,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
 
       - name: Install dependencies
         working-directory: site
-        run: npm install --no-audit --no-fund --prefer-offline
+        run: |
+          rm -f package-lock.json
+          npm install --no-audit --no-fund
 
       - name: Build Next.js site
         working-directory: site
