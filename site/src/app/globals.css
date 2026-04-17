@@ -49,8 +49,8 @@ body {
 
 /* ===== SCALE WRAPPER ===== */
 .card-wrap {
-  --sw: calc((100vw - 40px) / 1200);
-  --s: min(var(--sw), 1);
+  --card-scale-width: calc((100vw - 40px) / 1200);
+  --s: min(var(--card-scale-width), 1);
   width: calc(1200px * var(--s));
   flex-shrink: 0;
   position: relative;
@@ -365,7 +365,7 @@ body {
   }
 
   .card-wrap {
-    --sw: calc((100vw - 24px) / 1200);
+    --card-scale-width: calc((100vw - 24px) / 1200);
   }
 
   .card {
@@ -457,7 +457,7 @@ body {
 
 @media (max-width: 640px) {
   .card-wrap {
-    --sw: calc((100vw - 16px) / 1200);
+    --card-scale-width: calc((100vw - 16px) / 1200);
   }
 
   .card {
