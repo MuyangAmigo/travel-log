@@ -46,24 +46,11 @@ export default async function TripPage({
   const t = dict[locale as Locale];
 
   return (
-    <>
-      <header
-        style={{
-          width: "min(1200px, calc(100vw - 40px))",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          paddingBottom: "4px",
-          fontFamily: "var(--font-display)",
-          fontSize: "13px",
-          letterSpacing: "2px",
-          textTransform: "uppercase",
-          color: "var(--ink-light)",
-        }}
-      >
+      <>
+      <header className="trip-shell-header">
         <Link
           href={`/${locale}`}
-          style={{ color: "var(--ink-light)", textDecoration: "none" }}
+          className="trip-shell-back"
         >
           ← {t.back}
         </Link>

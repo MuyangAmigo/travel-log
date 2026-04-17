@@ -18,14 +18,7 @@ export default async function LocaleHome({
 
   return (
     <div className="index-wrap">
-      <header
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          marginBottom: "40px",
-        }}
-      >
+      <header className="index-header">
         <div>
           <h1 className="site-title">{t.siteTitle}</h1>
           <p className="site-sub">{t.siteSub}</p>
