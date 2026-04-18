@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A bilingual (zh/en) travel journal rendered as scrapbook-style "cards". The aesthetic (washi tape, polaroids, rubber stamps, timelines, handwritten captions) is the whole point — see how it renders before changing visual tokens.
+A bilingual (zh/en) travel journal with a **two-layer visual system**:
+- **Shell** (index, site header, trip-page chrome): clean Airbnb-inspired design — pure-white canvas, Rausch Red (`#ff385c`) as singular accent, Inter typography, photography-first listing grid with three-layer warm shadows. Spec lives in `DESIGN.md`.
+- **Trip content** (inner pages): hand-authored scrapbook "cards" with washi tape, polaroids, rubber stamps, timelines, and handwritten captions. Each trip is bespoke JSX — that aesthetic is the whole point of the inner pages. See how it renders before changing scrapbook tokens.
 
 ## Stack
 
@@ -50,12 +52,26 @@ Every trip component must render `<CardScaleController />` once at the top of it
 
 ### Design tokens in `globals.css`
 
-`:root` has the scrapbook palette (`--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*`). Font stack: EB Garamond (`--font-display`, structured English serif) · Homemade Apple (`--font-script`, large handwritten cursive for cover/ending titles) · Caveat (`--font-hand`, small handwritten labels/captions) — all via `next/font/google` in `layout.tsx`. Chinese is LXGW 霞鹜文楷 loaded via a jsDelivr CDN `<link>`, used as the primary family in `--font-serif-cn` and `--font-sans-cn`. The script face doesn't tolerate `letter-spacing` or all-caps — keep it for `.cover-title` / `.ending-title` / `.site-title` only. Change tokens here to reskin the whole journal.
+Two token families coexist in `:root`:
+
+**Shell (Airbnb-style)** — `--palette-bg-primary-core` (Rausch Red `#ff385c`), `--palette-text-primary` (`#222222`), `--palette-text-secondary` (`#6a6a6a`), `--palette-surface` / `--palette-surface-muted` (`#f2f2f2`), `--ab-radius-sm|badge|card|lg` (8 / 14 / 20 / 32 px), `--ab-shadow-card` (three-layer warm lift: ring + soft blur + stronger blur), `--ab-shadow-hover`. Full palette/role list is in `DESIGN.md`.
+
+**Scrapbook (trip inner pages)** — `--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*`.
+
+Font stack: **Inter** (`--font-ui`) for all shell UI — stands in for the proprietary Airbnb Cereal VF, weight range 400–700. **EB Garamond** (`--font-display`, structured English serif) · **Homemade Apple** (`--font-script`, large handwritten cursive for cover/ending titles) · **Caveat** (`--font-hand`, small handwritten labels/captions) for scrapbook content. All via `next/font/google` in `layout.tsx`. Chinese is LXGW 霞鹜文楷 loaded via a jsDelivr CDN `<link>`, used as the primary family in `--font-serif-cn` / `--font-sans-cn`. The script face doesn't tolerate `letter-spacing` or all-caps — keep it for `.cover-title` / `.ending-title` only. Change tokens here to reskin the whole journal.
 
 ### Reusable class vocabulary
 
 Composed, not written from scratch. Key classes defined in `globals.css`:
 
+**Shell (Airbnb-style)**:
+- **Header / nav**: `.site-header`, `.site-brand` (Rausch Red logo mark — rendered by `components/SiteHeader.tsx`)
+- **Index**: `.index-wrap`, `.index-hero`, `.index-eyebrow`, `.site-title`, `.site-sub`, `.index-tagline`, `.trip-grid` (4→3→2→1 cols)
+- **Listing card**: `.trip-card` + `.tc-media` (1:1 aspect, 20px radius, three-layer shadow, hover scales image + lifts shadow) + `.tc-badge` (+`.private` for Rausch Red variant) + `.tc-body`, `.tc-title-row`, `.tc-title`, `.tc-date`, `.tc-location`, `.tc-sub`
+- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (flex-column wrapper that gives scrapbook cards their 30px vertical rhythm)
+- **Language switch**: `.lang-switch` (pill-track group, `.active` = white pill with soft shadow)
+
+**Scrapbook (trip content)**:
 - **Photo frames**: `.pf` + aspect `.sq|.ls|.wd|.pt|.hero` + filter `.fw|.ff|.fg|.fc|.fv|.fs|.fn` + optional tilt `.tl-tilt|.tr-tilt`
 - **Grids**: `.pgrid` + `.g1|.g2|.g3|.g4|.g12|.g21`
 - **Washi tape**: `.tape` + color `.ty|.tp|.tg|.tb` + position `.t-tl|.t-tr|.t-tc` — parent needs `position: relative`
@@ -69,7 +85,7 @@ Lightweight. Locale lives in the URL segment (`/[locale]/...`). `locales = ["zh"
 
 ### Private trips (staticrypt password gate)
 
-A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a small 🔒 badge on the card title), but clicking it lands on a staticrypt password prompt — the generated HTML is AES-encrypted at build time. The flow:
+A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a Rausch-Red "Private" pill badge overlaid on the cover image), but clicking it lands on a staticrypt password prompt — the generated HTML is AES-encrypted at build time. The flow:
 
 1. `npm run build` runs `next build`, then `scripts/encrypt-private-trips.mjs` regex-scans every `site/src/content/trips/*/meta.ts` for `private: true`, finds the rendered `site/out/<locale>/trips/<slug>/index.html` for each slug × locale, and overwrites it in place with a staticrypt-encrypted payload (via a temp dir hop so the source isn't open-while-written).
 2. The shared password comes from the `TRAVEL_LOG_PRIVATE_PASSWORD` env var. The script **aborts the build** if a private trip exists but the password is unset — unprotected content never ships.
