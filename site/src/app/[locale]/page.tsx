@@ -53,7 +53,7 @@ export default async function LocaleHome({
         {t.tagline}
       </p>
 
-      {trips.filter((trip) => !trip.private).map((trip) => (
+      {trips.map((trip) => (
         <Link
           key={trip.slug}
           href={`/${locale}/trips/${trip.slug}`}
