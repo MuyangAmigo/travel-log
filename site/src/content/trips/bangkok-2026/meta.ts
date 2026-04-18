@@ -22,4 +22,5 @@ export const meta: TripMeta = {
     zh: "泰国 · 曼谷",
     en: "Bangkok, Thailand",
   },
+  private: true,
 };
