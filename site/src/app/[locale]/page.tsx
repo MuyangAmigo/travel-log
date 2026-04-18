@@ -61,7 +61,12 @@ export default async function LocaleHome({
         >
           <img src={trip.coverImage} alt={trip.title[locale as Locale]} />
           <div>
-            <div className="tc-title">{trip.title[locale as Locale]}</div>
+            <div className="tc-title">
+              {trip.title[locale as Locale]}
+              {trip.private && (
+                <span className="tc-lock" aria-label={locale === "zh" ? "需要密码" : "Password protected"}>🔒</span>
+              )}
+            </div>
             <div className="tc-sub">{trip.subtitle[locale as Locale]}</div>
             <div className="tc-meta">
               {trip.dateRange} · {trip.location[locale as Locale]}
