@@ -15,7 +15,7 @@ export default function BangkokEN() {
           <div className="cover-border">
             <div className="cover-emoji">🇹🇭 ✈️ 🏝️</div>
             <h1 className="cover-title">
-              BANGKOK
+              Bangkok
             </h1>
             <div className="cover-subtitle">
               Travel Journal

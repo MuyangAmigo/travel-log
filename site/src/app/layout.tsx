@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Caveat, Noto_Serif_SC, Noto_Sans_SC } from "next/font/google";
+import { EB_Garamond, Caveat, Homemade_Apple } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const ebGaramond = EB_Garamond({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  variable: "--font-playfair",
+  variable: "--font-eb-garamond",
   display: "swap",
 });
 
@@ -17,17 +17,10 @@ const caveat = Caveat({
   display: "swap",
 });
 
-const notoSerifSC = Noto_Serif_SC({
+const homemadeApple = Homemade_Apple({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-noto-serif-sc",
-  display: "swap",
-});
-
-const notoSansSC = Noto_Sans_SC({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-noto-sans-sc",
+  weight: ["400"],
+  variable: "--font-homemade-apple",
   display: "swap",
 });
 
@@ -47,10 +40,13 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css"
+        />
       </head>
-      <body
-        className={`${playfair.variable} ${caveat.variable} ${notoSerifSC.variable} ${notoSansSC.variable}`}
-      >
+      <body className={`${ebGaramond.variable} ${caveat.variable} ${homemadeApple.variable}`}>
         {children}
       </body>
     </html>

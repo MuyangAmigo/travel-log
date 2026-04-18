@@ -6,10 +6,11 @@
    ================================================================ */
 
 @theme {
-  --font-display: var(--font-playfair), 'Noto Serif SC', serif;
+  --font-display: var(--font-eb-garamond), 'LXGW WenKai', 'Noto Serif SC', serif;
   --font-hand: var(--font-caveat), cursive;
-  --font-serif-cn: var(--font-noto-serif-sc), serif;
-  --font-sans-cn: var(--font-noto-sans-sc), 'Noto Serif SC', serif;
+  --font-script: var(--font-homemade-apple), var(--font-caveat), cursive;
+  --font-serif-cn: 'LXGW WenKai', var(--font-eb-garamond), 'Noto Serif SC', serif;
+  --font-sans-cn: 'LXGW WenKai', var(--font-eb-garamond), 'Noto Sans SC', sans-serif;
 }
 
 :root {
@@ -273,11 +274,11 @@ body {
 .cover-border::after { content: ''; position: absolute; inset: 13px; border: 1px dashed var(--accent-gold); opacity: .25; border-radius: 1px; }
 .cover-line { width: 60px; height: 1px; background: var(--accent-gold); margin: 20px auto; }
 .cover-emoji { font-size: 44px; letter-spacing: 14px; margin-bottom: 16px; }
-.cover-title { font-family: var(--font-display); font-size: 52px; font-weight: 700; letter-spacing: 8px; }
+.cover-title { font-family: var(--font-script); font-size: 88px; font-weight: 400; letter-spacing: 0; line-height: 1; }
 .cover-subtitle { font-family: var(--font-hand); font-size: 30px; color: var(--accent-gold); letter-spacing: 3px; margin: 6px 0 20px; }
 .cover-date { font-size: 15px; color: var(--ink-light); letter-spacing: 5px; margin-bottom: 24px; }
 .ending-flag { font-size: 48px; margin-bottom: 20px; }
-.ending-title { font-family: var(--font-display); font-size: 34px; margin-bottom: 8px; }
+.ending-title { font-family: var(--font-script); font-size: 52px; font-weight: 400; line-height: 1.1; margin-bottom: 8px; }
 .ending-subtitle { font-family: var(--font-hand); font-size: 24px; color: var(--accent-gold); margin-bottom: 30px; }
 
 /* ===== TRIP INDEX (non-scrapbook, minimal editorial shell) ===== */
@@ -298,7 +299,7 @@ body {
 }
 .index-wrap > * { position: relative; z-index: 1; }
 
-.site-title { font-family: var(--font-display); font-size: 40px; font-weight: 700; letter-spacing: 4px; color: var(--ink); }
+.site-title { font-family: var(--font-script); font-size: 52px; font-weight: 400; letter-spacing: 0; color: var(--ink); line-height: 1.1; }
 .site-sub { font-family: var(--font-hand); font-size: 22px; color: var(--accent-gold); margin-top: 4px; letter-spacing: 1px; }
 .index-header {
   display: flex;
@@ -474,7 +475,7 @@ body {
   }
 
   .bangkok-trip .cover-emoji { font-size: 34px; letter-spacing: 8px; }
-  .bangkok-trip .cover-title { font-size: 42px; letter-spacing: 4px; }
+  .bangkok-trip .cover-title { font-size: 68px; letter-spacing: 0; }
   .bangkok-trip .cover-subtitle { font-size: 26px; letter-spacing: 2px; }
   .bangkok-trip .cover-date { letter-spacing: 3px; }
 }
@@ -553,11 +554,11 @@ body {
     width: calc(100vw - 16px);
   }
   .bangkok-trip .cover-emoji { font-size: 28px; letter-spacing: 5px; }
-  .bangkok-trip .cover-title { font-size: 34px; letter-spacing: 2px; }
+  .bangkok-trip .cover-title { font-size: 52px; letter-spacing: 0; }
   .bangkok-trip .cover-subtitle { font-size: 22px; }
   .bangkok-trip .cover-date { font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
   .bangkok-trip .ending-flag { font-size: 38px; margin-bottom: 14px; }
-  .bangkok-trip .ending-title { font-size: 28px; }
+  .bangkok-trip .ending-title { font-size: 42px; }
   .bangkok-trip .ending-subtitle { font-size: 20px; margin-bottom: 22px; }
 }
 
