@@ -31,7 +31,9 @@ jobs:
 
       - name: Build Next.js site
         working-directory: site
-        run: npx next build
+        env:
+          TRAVEL_LOG_PRIVATE_PASSWORD: ${{ secrets.TRAVEL_LOG_PRIVATE_PASSWORD }}
+        run: npm run build
 
       - name: Deploy to Azure Static Web Apps
         id: deploy

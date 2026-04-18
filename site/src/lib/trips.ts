@@ -12,6 +12,12 @@ export interface TripMeta {
   title: Record<Locale, string>;
   subtitle: Record<Locale, string>;
   location: Record<Locale, string>;
+  /**
+   * When true, the trip is hidden from the public index and its generated
+   * HTML is encrypted at build time by scripts/encrypt-private-trips.mjs.
+   * Viewers must enter the shared password to decrypt.
+   */
+  private?: boolean;
 }
 
 import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
@@ -24,6 +30,10 @@ export function getTrip(slug: string): TripMeta | undefined {
 
 export function getAllTripSlugs(): string[] {
   return trips.map((t) => t.slug);
+}
+
+export function getPrivateTripSlugs(): string[] {
+  return trips.filter((t) => t.private).map((t) => t.slug);
 }
 
 export async function loadTripContent(
