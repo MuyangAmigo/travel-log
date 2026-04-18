@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Caveat, Homemade_Apple } from "next/font/google";
+import { EB_Garamond, Caveat, Homemade_Apple, Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const ebGaramond = EB_Garamond({
   subsets: ["latin"],
@@ -46,7 +53,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css"
         />
       </head>
-      <body className={`${ebGaramond.variable} ${caveat.variable} ${homemadeApple.variable}`}>
+      <body className={`${inter.variable} ${ebGaramond.variable} ${caveat.variable} ${homemadeApple.variable}`}>
         {children}
       </body>
     </html>

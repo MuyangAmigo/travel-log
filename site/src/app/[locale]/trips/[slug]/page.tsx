@@ -9,6 +9,7 @@ import {
   type Locale,
 } from "@/lib/trips";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import SiteHeader from "@/components/SiteHeader";
 
 export function generateStaticParams() {
   const slugs = getAllTripSlugs();
@@ -37,29 +38,28 @@ export default async function TripPage({
 }) {
   const { locale, slug } = await params;
   if (!locales.includes(locale as Locale)) notFound();
+  const loc = locale as Locale;
   const trip = getTrip(slug);
   if (!trip) notFound();
 
-  const Content = await loadTripContent(slug, locale as Locale);
+  const Content = await loadTripContent(slug, loc);
   if (!Content) notFound();
 
-  const t = dict[locale as Locale];
+  const t = dict[loc];
 
   return (
-      <>
+    <>
+      <SiteHeader locale={loc} />
       <header className="trip-shell-header">
-        <Link
-          href={`/${locale}`}
-          className="trip-shell-back"
-        >
-          ← {t.back}
+        <Link href={`/${loc}`} className="trip-shell-back">
+          <span className="arrow" aria-hidden="true">←</span>
+          {t.back}
         </Link>
-        <LanguageSwitcher
-          current={locale as Locale}
-          basePath={`/trips/${slug}`}
-        />
+        <LanguageSwitcher current={loc} basePath={`/trips/${slug}`} />
       </header>
-      <Content />
+      <div className="trip-content">
+        <Content />
+      </div>
     </>
   );
 }

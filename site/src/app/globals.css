@@ -1,19 +1,50 @@
 @import "tailwindcss";
 
 /* ================================================================
-   Travel Log — Scrapbook design tokens
-   Ported verbatim from plog.html so the look stays 1:1.
+   Travel Log — design tokens
+   Shell: Airbnb-inspired clean white canvas + Rausch Red accent.
+   Scrapbook: retained for hand-authored trip pages.
    ================================================================ */
 
 @theme {
+  /* Scrapbook type (trip inner pages) */
   --font-display: var(--font-eb-garamond), 'LXGW WenKai', 'Noto Serif SC', serif;
   --font-hand: var(--font-caveat), cursive;
   --font-script: var(--font-homemade-apple), var(--font-caveat), cursive;
   --font-serif-cn: 'LXGW WenKai', var(--font-eb-garamond), 'Noto Serif SC', serif;
   --font-sans-cn: 'LXGW WenKai', var(--font-eb-garamond), 'Noto Sans SC', sans-serif;
+
+  /* Shell type — Inter stands in for the proprietary Airbnb Cereal VF */
+  --font-ui: var(--font-inter), Circular, -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', 'LXGW WenKai', 'Noto Sans SC', sans-serif;
 }
 
 :root {
+  /* --- Airbnb palette (shell) --- */
+  --palette-bg-primary-core: #ff385c;        /* Rausch Red */
+  --palette-bg-tertiary-core: #e00b41;       /* Deep Rausch (pressed) */
+  --palette-text-primary: #222222;           /* warm near-black */
+  --palette-text-focused: #3f3f3f;
+  --palette-text-secondary: #6a6a6a;
+  --palette-text-disabled: rgba(0, 0, 0, 0.24);
+  --palette-text-link-disabled: #929292;
+  --palette-text-legal: #428bff;
+  --palette-text-error: #c13515;
+  --palette-border: #c1c1c1;
+  --palette-surface: #ffffff;
+  --palette-surface-muted: #f2f2f2;
+
+  --ab-shadow-card:
+    rgba(0, 0, 0, 0.02) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.04) 0px 2px 6px,
+    rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  --ab-shadow-hover: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+
+  --ab-radius-sm: 8px;
+  --ab-radius-badge: 14px;
+  --ab-radius-card: 20px;
+  --ab-radius-lg: 32px;
+
+  /* --- Scrapbook palette (trip inner pages) --- */
   --ink: #3a3226;
   --ink-light: #6b5e4f;
   --accent-gold: #c9a84c;
@@ -37,15 +68,17 @@
 html, body { margin: 0; padding: 0; }
 
 body {
-  background: #c8bfae;
-  font-family: var(--font-sans-cn);
-  color: var(--ink);
+  background: #ffffff;
+  font-family: var(--font-ui);
+  color: var(--palette-text-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
-  gap: 30px;
+  padding: 0;
+  gap: 0;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ===== SCALE WRAPPER ===== */
@@ -281,96 +314,311 @@ body {
 .ending-title { font-family: var(--font-script); font-size: 52px; font-weight: 400; line-height: 1.1; margin-bottom: 8px; }
 .ending-subtitle { font-family: var(--font-hand); font-size: 24px; color: var(--accent-gold); margin-bottom: 30px; }
 
-/* ===== TRIP INDEX (non-scrapbook, minimal editorial shell) ===== */
-.index-wrap {
-  width: min(920px, calc(100vw - 40px));
-  padding: 60px 40px 80px;
-  background: var(--bg);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.18);
-  position: relative;
-}
-.index-wrap::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
-  pointer-events: none;
-  mix-blend-mode: multiply;
-}
-.index-wrap > * { position: relative; z-index: 1; }
+/* ================================================================
+   Airbnb-style shell (index, header, listing grid)
+   ================================================================ */
 
-.site-title { font-family: var(--font-script); font-size: 52px; font-weight: 400; letter-spacing: 0; color: var(--ink); line-height: 1.1; }
-.site-sub { font-family: var(--font-hand); font-size: 22px; color: var(--accent-gold); margin-top: 4px; letter-spacing: 1px; }
-.index-header {
+.site-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-ui);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.44px;
+  line-height: 1;
+  color: var(--palette-bg-primary-core);
+  text-decoration: none;
+}
+.site-brand svg { display: block; }
+
+.index-wrap {
+  width: 100%;
+  max-width: 1440px;
+  padding: 48px 40px 96px;
+}
+
+.index-hero {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
+  gap: 24px;
   margin-bottom: 40px;
-  gap: 16px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.site-title {
+  font-family: var(--font-ui);
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -0.88px;
+  line-height: 1.1;
+  color: var(--palette-text-primary);
+  margin: 0;
+}
+.site-sub {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--palette-text-secondary);
+  margin: 8px 0 0;
+  letter-spacing: -0.18px;
+}
+.index-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  color: var(--palette-bg-primary-core);
+  margin: 0 0 8px;
+}
+.index-tagline {
+  font-family: var(--font-ui);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--palette-text-primary);
+  letter-spacing: -0.18px;
+  margin: 0 0 32px;
+  max-width: 640px;
+  line-height: 1.35;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 24px;
 }
 
 .trip-card {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 24px;
-  padding: 20px 0;
-  border-bottom: 1px solid var(--kraft-dark);
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   text-decoration: none;
   color: inherit;
-  transition: opacity 200ms ease;
+  transition: transform 200ms ease;
 }
-.trip-card:hover { opacity: 0.7; }
-.trip-card:last-child { border-bottom: none; }
-.trip-card img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-radius: 3px;
-  box-shadow: 0 2px 8px var(--shadow);
+.trip-card:hover .tc-media {
+  box-shadow: var(--ab-shadow-hover);
 }
-.trip-card .tc-title { font-family: var(--font-display); font-size: 24px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
-.trip-card .tc-lock { margin-left: 8px; font-size: 0.7em; opacity: 0.55; vertical-align: middle; }
-.trip-card .tc-sub { font-family: var(--font-hand); font-size: 18px; color: var(--accent-gold); margin-bottom: 10px; }
-.trip-card .tc-meta { font-family: var(--font-sans-cn); font-size: 13px; color: var(--ink-light); letter-spacing: 1px; }
+.trip-card:hover .tc-media img {
+  transform: scale(1.03);
+}
 
-.lang-switch {
-  display: flex;
+.tc-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--ab-radius-card);
+  overflow: hidden;
+  background: var(--palette-surface-muted);
+  box-shadow: var(--ab-shadow-card);
+  transition: box-shadow 240ms ease;
+}
+.tc-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 400ms ease;
+}
+.tc-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: inline-flex;
+  align-items: center;
   gap: 4px;
-  font-family: var(--font-display);
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--palette-text-primary);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: var(--ab-radius-badge);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
+}
+.tc-badge.private { color: var(--palette-bg-primary-core); }
+
+.tc-body { padding: 0 4px; }
+.tc-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.tc-title {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  color: var(--palette-text-primary);
+  line-height: 1.25;
+  margin: 0;
+}
+.tc-date {
+  font-family: var(--font-ui);
   font-size: 13px;
-  letter-spacing: 2px;
+  font-weight: 400;
+  color: var(--palette-text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tc-sub {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--palette-text-secondary);
+  line-height: 1.35;
+  margin: 4px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tc-location {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--palette-text-primary);
+  margin: 4px 0 0;
+}
+
+/* Language switch — pill group */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  background: var(--palette-surface-muted);
+  border-radius: 999px;
+  padding: 4px;
+  gap: 2px;
 }
 .lang-switch a {
-  color: var(--ink-light);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  color: var(--palette-text-secondary);
   text-decoration: none;
-  padding: 2px 8px;
-  border: 1px solid transparent;
+  padding: 6px 14px;
+  border-radius: 999px;
+  line-height: 1;
+  transition: color 160ms ease, background 160ms ease;
 }
-.lang-switch a.active { color: var(--ink); border-color: var(--kraft-dark); }
-.lang-switch a:hover { color: var(--ink); }
+.lang-switch a:hover { color: var(--palette-text-primary); }
+.lang-switch a.active {
+  background: #ffffff;
+  color: var(--palette-text-primary);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
+}
 
+/* Trip page shell header */
 .trip-shell-header {
-  width: min(1200px, calc(100vw - 40px));
+  width: 100%;
+  max-width: 1440px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 4px;
-  font-family: var(--font-display);
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--ink-light);
+  gap: 16px;
 }
 .trip-shell-back {
-  color: var(--ink-light);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px 10px 14px;
+  background: var(--palette-surface-muted);
+  color: var(--palette-text-primary);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.18px;
   text-decoration: none;
+  border-radius: 999px;
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+.trip-shell-back:hover {
+  box-shadow: var(--ab-shadow-hover);
+}
+.trip-shell-back .arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Scrapbook trip content wrapper — restores the vertical rhythm
+   the old body flex-column used to provide between cards. */
+.trip-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0 60px;
+}
+
+/* ================================================================
+   Responsive overrides
+   ================================================================ */
+
+@media (max-width: 1280px) {
+  .trip-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 900px) {
-  body {
-    padding: 16px 0;
+  .site-header {
+    padding: 14px 20px;
+  }
+
+  .index-wrap {
+    padding: 32px 20px 72px;
+  }
+  .index-hero {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 16px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+  }
+  .site-title { font-size: 32px; letter-spacing: -0.64px; }
+  .index-tagline { font-size: 17px; }
+
+  .trip-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 16px;
+  }
+
+  .trip-shell-header {
+    padding: 14px 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .trip-content {
+    gap: 16px;
+    padding: 4px 0 40px;
   }
 
   .card-wrap {
@@ -447,22 +695,6 @@ body {
     min-width: 68px;
   }
 
-  .index-wrap {
-    width: calc(100vw - 24px);
-    padding: 32px 18px 48px;
-  }
-  .index-header {
-    margin-bottom: 28px;
-    flex-wrap: wrap;
-  }
-
-  .trip-shell-header {
-    width: calc(100vw - 24px);
-    align-items: flex-start;
-    flex-wrap: wrap;
-    row-gap: 10px;
-  }
-
   .bangkok-trip .card-wrap {
     --s: 1;
     width: calc(100vw - 24px);
@@ -522,33 +754,25 @@ body {
     padding: 36px 18px;
   }
 
-  .trip-card {
-    grid-template-columns: 1fr;
-    gap: 16px;
+  .site-header {
+    padding: 12px 16px;
   }
-  .trip-card .tc-title {
-    font-size: 20px;
-  }
-  .trip-card .tc-sub {
-    font-size: 16px;
-  }
+  .site-brand { font-size: 18px; }
 
-  .site-title {
-    font-size: 30px;
-    letter-spacing: 2px;
+  .index-wrap {
+    padding: 24px 16px 64px;
   }
-  .site-sub {
-    font-size: 20px;
+  .site-title { font-size: 28px; letter-spacing: -0.56px; }
+  .index-tagline { font-size: 16px; margin-bottom: 24px; }
+
+  .trip-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
-  .lang-switch {
-    font-size: 12px;
-    letter-spacing: 1px;
-  }
+  .tc-media { aspect-ratio: 4 / 3; }
 
   .trip-shell-header {
-    width: calc(100vw - 16px);
-    letter-spacing: 1px;
-    font-size: 12px;
+    padding: 12px 16px;
   }
 
   .bangkok-trip .card-wrap {

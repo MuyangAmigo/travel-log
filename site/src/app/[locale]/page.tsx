@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trips, locales, dict, type Locale } from "@/lib/trips";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import SiteHeader from "@/components/SiteHeader";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -14,66 +15,54 @@ export default async function LocaleHome({
 }) {
   const { locale } = await params;
   if (!locales.includes(locale as Locale)) notFound();
-  const t = dict[locale as Locale];
+  const loc = locale as Locale;
+  const t = dict[loc];
 
   return (
-    <div className="index-wrap">
-      <header className="index-header">
-        <div>
-          <h1 className="site-title">{t.siteTitle}</h1>
-          <p className="site-sub">{t.siteSub}</p>
-        </div>
-        <LanguageSwitcher current={locale as Locale} />
-      </header>
-
-      <div className="dv mb20">
-        <span>✈️</span>
-      </div>
-
-      <h2
-        style={{
-          fontFamily: "var(--font-display)",
-          fontSize: "20px",
-          letterSpacing: "3px",
-          textTransform: "uppercase",
-          color: "var(--ink-light)",
-          marginBottom: "4px",
-        }}
-      >
-        {t.allTrips}
-      </h2>
-      <p
-        style={{
-          fontFamily: "var(--font-hand)",
-          fontSize: "18px",
-          color: "var(--ink-light)",
-          marginBottom: "24px",
-        }}
-      >
-        {t.tagline}
-      </p>
-
-      {trips.map((trip) => (
-        <Link
-          key={trip.slug}
-          href={`/${locale}/trips/${trip.slug}`}
-          className="trip-card"
-        >
-          <img src={trip.coverImage} alt={trip.title[locale as Locale]} />
+    <>
+      <SiteHeader locale={loc} />
+      <main className="index-wrap">
+        <section className="index-hero">
           <div>
-            <div className="tc-title">
-              {trip.title[locale as Locale]}
-              {trip.private && (
-                <span className="tc-lock" aria-label={locale === "zh" ? "需要密码" : "Password protected"}>🔒</span>
-              )}
-            </div>
-            <div className="tc-sub">{trip.subtitle[locale as Locale]}</div>
-            <div className="tc-meta">
-              {trip.dateRange} · {trip.location[locale as Locale]}
-            </div>
+            <p className="index-eyebrow">{t.allTrips}</p>
+            <h1 className="site-title">{t.siteTitle}</h1>
+            <p className="site-sub">{t.siteSub}</p>
           </div>
-        </Link>
-      ))}
-    </div>
+          <LanguageSwitcher current={loc} />
+        </section>
+
+        <p className="index-tagline">{t.tagline}</p>
+
+        <div className="trip-grid">
+          {trips.map((trip) => (
+            <Link
+              key={trip.slug}
+              href={`/${loc}/trips/${trip.slug}`}
+              className="trip-card"
+            >
+              <div className="tc-media">
+                <img src={trip.coverImage} alt={trip.title[loc]} loading="lazy" />
+                {trip.private && (
+                  <span className="tc-badge private" aria-label={loc === "zh" ? "需要密码" : "Password protected"}>
+                    <svg width="10" height="12" viewBox="0 0 10 12" fill="none" aria-hidden="true">
+                      <path d="M5 1a2 2 0 012 2v2H3V3a2 2 0 012-2zM1 6h8v5H1V6z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
+                    </svg>
+                    {loc === "zh" ? "私密" : "Private"}
+                  </span>
+                )}
+              </div>
+              <div className="tc-body">
+                <div className="tc-title-row">
+                  <h2 className="tc-title">{trip.title[loc]}</h2>
+                  <span className="tc-date">{trip.dateRange.split(" — ")[0]}</span>
+                </div>
+                <p className="tc-location">{trip.location[loc]}</p>
+                <p className="tc-sub">{trip.subtitle[loc]}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </main>
+    </>
   );
 }
