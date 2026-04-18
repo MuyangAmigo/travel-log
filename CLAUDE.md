@@ -10,6 +10,7 @@ A bilingual (zh/en) travel journal rendered as scrapbook-style "cards". The aest
 
 - **`site/`** — Next.js 16 App Router · React 19 · TypeScript · Tailwind v4 · static export (`output: "export"`)
 - **`scripts/upload-trip-images.sh`** — uploads a trip's photos to `junjieblob` blob storage
+- **`scripts/encrypt-private-trips.mjs`** — post-build step that AES-encrypts any trip marked `private: true` using staticrypt; runs as part of `npm run build`
 - **`.github/workflows/azure-static-web-apps.yml`** — builds `site/out` and deploys to Azure Static Web Apps on push to `main`
 
 Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup, same static export + SWA deploy pattern. CI runs Node 22.
@@ -49,7 +50,7 @@ Every trip component must render `<CardScaleController />` once at the top of it
 
 ### Design tokens in `globals.css`
 
-`:root` has the scrapbook palette (`--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*`). Fonts (Playfair Display · Noto Serif SC · Caveat · Noto Sans SC) are loaded as variable fonts in `layout.tsx` and exposed as `--font-display`, `--font-hand`, `--font-serif-cn`, `--font-sans-cn`. Change tokens here to reskin the whole journal.
+`:root` has the scrapbook palette (`--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*`). Font stack: EB Garamond (`--font-display`, structured English serif) · Homemade Apple (`--font-script`, large handwritten cursive for cover/ending titles) · Caveat (`--font-hand`, small handwritten labels/captions) — all via `next/font/google` in `layout.tsx`. Chinese is LXGW 霞鹜文楷 loaded via a jsDelivr CDN `<link>`, used as the primary family in `--font-serif-cn` and `--font-sans-cn`. The script face doesn't tolerate `letter-spacing` or all-caps — keep it for `.cover-title` / `.ending-title` / `.site-title` only. Change tokens here to reskin the whole journal.
 
 ### Reusable class vocabulary
 
@@ -66,8 +67,20 @@ Composed, not written from scratch. Key classes defined in `globals.css`:
 
 Lightweight. Locale lives in the URL segment (`/[locale]/...`). `locales = ["zh", "en"]` and a `dict` object live in `lib/trips.ts`. No i18n library. `/` redirects to `/zh`.
 
+### Private trips (staticrypt password gate)
+
+A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a small 🔒 badge on the card title), but clicking it lands on a staticrypt password prompt — the generated HTML is AES-encrypted at build time. The flow:
+
+1. `npm run build` runs `next build`, then `scripts/encrypt-private-trips.mjs` regex-scans every `site/src/content/trips/*/meta.ts` for `private: true`, finds the rendered `site/out/<locale>/trips/<slug>/index.html` for each slug × locale, and overwrites it in place with a staticrypt-encrypted payload (via a temp dir hop so the source isn't open-while-written).
+2. The shared password comes from the `TRAVEL_LOG_PRIVATE_PASSWORD` env var. The script **aborts the build** if a private trip exists but the password is unset — unprotected content never ships.
+3. The salt in `site/.staticrypt.json` is committed so the password-hash output is stable across builds.
+
+**Caveat:** images live in the public blob container, so cover images and any blob URLs referenced inside a private trip are still directly reachable. Encryption covers the trip page's text + layout only — if image privacy matters, that's a separate change (private container + SAS tokens).
+
 ## Gotchas
 
 - Changing image paths means re-uploading to blob storage. The dev site points at blob URLs in every environment.
 - CI runs Node 22 and regenerates `site/package-lock.json` on every build — a workaround for a stale empty-version entry that local npm keeps re-adding to the lockfile. Don't restore `npm ci` without verifying the lockfile parses cleanly on the runner.
+- Any build that includes a `private: true` trip needs `TRAVEL_LOG_PRIVATE_PASSWORD` set — stored as a GitHub Actions repo secret for CI and passed through the workflow's `env:` block. For a local production preview: `TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build`. `npm run dev` never encrypts; private trips render normally in dev.
+- After flipping a trip's `private` flag, existing visitors may still see the stale cached HTML until a hard refresh (`Cmd+Shift+R`) — the encrypted page itself ships `no-cache` meta headers, but anything cached before the flip is held by the browser.
 - The original single-file prototype (`plog.html`) was removed after porting. Recover via `git show <sha>:plog.html` if you ever want to visually diff against it.
