@@ -34,15 +34,13 @@ export default async function LocaleHome({
         <p className="index-tagline">{t.tagline}</p>
 
         <div className="trip-grid">
-          {trips.map((trip) => (
-            <Link
-              key={trip.slug}
-              href={`/${loc}/trips/${trip.slug}`}
-              className="trip-card"
-            >
-              <div className="tc-media">
-                <img src={trip.coverImage} alt={trip.title[loc]} loading="lazy" />
-                {trip.private && (
+          {trips.map((trip) => {
+            const href = `/${loc}/trips/${trip.slug}`;
+            const content = (
+              <>
+                <div className="tc-media">
+                  <img src={trip.coverImage} alt={trip.title[loc]} loading="lazy" />
+                  {trip.private && (
                   <span className="tc-badge private" aria-label={loc === "zh" ? "需要密码" : "Password protected"}>
                     <svg width="10" height="12" viewBox="0 0 10 12" fill="none" aria-hidden="true">
                       <path d="M5 1a2 2 0 012 2v2H3V3a2 2 0 012-2zM1 6h8v5H1V6z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
@@ -59,8 +57,23 @@ export default async function LocaleHome({
                 <p className="tc-location">{trip.location[loc]}</p>
                 <p className="tc-sub">{trip.subtitle[loc]}</p>
               </div>
-            </Link>
-          ))}
+              </>
+            );
+
+            if (trip.private) {
+              return (
+                <a key={trip.slug} href={href} className="trip-card">
+                  {content}
+                </a>
+              );
+            }
+
+            return (
+              <Link key={trip.slug} href={href} className="trip-card">
+                {content}
+              </Link>
+            );
+          })}
         </div>
       </main>
     </>

@@ -5,6 +5,7 @@ import { locales } from "@/lib/trips";
 interface Props {
   current: Locale;
   basePath?: string;
+  forceDocumentNavigation?: boolean;
 }
 
 const LABELS: Record<Locale, string> = {
@@ -12,18 +13,31 @@ const LABELS: Record<Locale, string> = {
   en: "EN",
 };
 
-export default function LanguageSwitcher({ current, basePath = "" }: Props) {
+export default function LanguageSwitcher({
+  current,
+  basePath = "",
+  forceDocumentNavigation = false,
+}: Props) {
   return (
     <nav className="lang-switch" aria-label="Language">
-      {locales.map((l) => (
-        <Link
-          key={l}
-          href={`/${l}${basePath}`}
-          className={l === current ? "active" : ""}
-        >
-          {LABELS[l]}
-        </Link>
-      ))}
+      {locales.map((l) => {
+        const href = `/${l}${basePath}`;
+        const className = l === current ? "active" : "";
+
+        if (forceDocumentNavigation) {
+          return (
+            <a key={l} href={href} className={className}>
+              {LABELS[l]}
+            </a>
+          );
+        }
+
+        return (
+          <Link key={l} href={href} className={className}>
+            {LABELS[l]}
+          </Link>
+        );
+      })}
     </nav>
   );
 }
