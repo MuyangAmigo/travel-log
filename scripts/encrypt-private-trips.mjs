@@ -10,6 +10,7 @@
 
 import {
   readFileSync,
+  writeFileSync,
   readdirSync,
   existsSync,
   copyFileSync,
@@ -40,6 +41,29 @@ function findPrivateSlugs() {
     }
   }
   return slugs;
+}
+
+function disableRememberedDecrypt(htmlPath) {
+  const html = readFileSync(htmlPath, "utf8");
+  const autoDecryptCall =
+    "const { isSuccessful } = await staticrypt.handleDecryptOnLoad();";
+  const hardenedAutoDecrypt = [
+    'window.localStorage.removeItem("staticrypt_passphrase");',
+    'window.localStorage.removeItem("staticrypt_expiration");',
+    "const isSuccessful = false;",
+  ].join("\n                ");
+
+  if (!html.includes(autoDecryptCall)) {
+    throw new Error(
+      `[encrypt] could not find staticrypt auto-decrypt hook in ${htmlPath}`
+    );
+  }
+
+  writeFileSync(
+    htmlPath,
+    html.replace(autoDecryptCall, hardenedAutoDecrypt),
+    "utf8"
+  );
 }
 
 const password = process.env.TRAVEL_LOG_PRIVATE_PASSWORD;
@@ -81,13 +105,14 @@ try {
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
       execSync(
-        `npx --yes staticrypt ${JSON.stringify(htmlPath)} --short -d ${JSON.stringify(tmpDir)}`,
+        `npx --yes staticrypt ${JSON.stringify(htmlPath)} --short --remember=false -d ${JSON.stringify(tmpDir)}`,
         {
           stdio: "inherit",
           env: { ...process.env, STATICRYPT_PASSWORD: password },
         }
       );
       copyFileSync(join(tmpDir, "index.html"), htmlPath);
+      disableRememberedDecrypt(htmlPath);
       encryptedCount++;
     }
   }

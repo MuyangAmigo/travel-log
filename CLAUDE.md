@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A bilingual (zh/en) travel journal with a **two-layer visual system**:
 - **Shell** (index, site header, trip-page chrome): clean Airbnb-inspired design — pure-white canvas, Rausch Red (`#ff385c`) as singular accent, Inter typography, photography-first listing grid with three-layer warm shadows. Spec lives in `DESIGN.md`.
-- **Trip content** (inner pages): hand-authored scrapbook "cards" with washi tape, polaroids, rubber stamps, timelines, and handwritten captions. Each trip is bespoke JSX — that aesthetic is the whole point of the inner pages. See how it renders before changing scrapbook tokens.
+- **Trip content** (inner pages): hand-authored mobile-editorial travel logs inspired by Chinese social travel posts — 750px fixed canvas, #f5f5f0 page background, white content sections, #ff2442 red badges, rounded photo grids, timelines, note cards, and clean PingFang/LXGW typography. Each trip is still bespoke JSX, but presentation is now controlled by the trip-content override block at the end of `globals.css`.
 
 ## Stack
 
@@ -44,9 +44,9 @@ New trips must be added to the `trips` array in `site/src/lib/trips.ts`. The dyn
 
 All `<img>` src attributes in trip content go through `img(filename)` from `meta.ts`, which prefixes `travel/<slug>/`. The source photos are never committed — `IMGSource/` is gitignored. Upload order matters: **upload first, then the live site can render**. Local dev against unuploaded images will 404.
 
-### Card rendering (1200px canvas + scale-transform)
+### Card rendering (750px canvas + scale-transform)
 
-Every `.card` is authored at a fixed 1200px width. `.card-wrap` computes `--s = min((100vw-40px)/1200, 1)` and `transform: scale(var(--s))` shrinks it to fit. A client component — `CardScaleController.tsx` — measures the unscaled card height and writes `height = card.offsetHeight * s` back to the wrapper, otherwise the surrounding layout collapses (transformed elements don't contribute to layout size).
+Every `.card` is displayed at a fixed 750px width by the final trip-content CSS override in `globals.css`. On tablet/desktop, `.card-wrap` computes `--s = min((100vw - gutter)/750, 1)` and `transform: scale(var(--s))` shrinks it to fit. On phones (`max-width: 760px`), transforms are disabled and cards become fluid `width: 100%` with true mobile font sizes so text doesn't render too small. A client component — `CardScaleController.tsx` — measures the unscaled card height and writes `height = card.offsetHeight * s` back to the wrapper, otherwise the surrounding layout collapses (transformed elements don't contribute to layout size).
 
 Every trip component must render `<CardScaleController />` once at the top of its tree.
 
@@ -56,9 +56,9 @@ Two token families coexist in `:root`:
 
 **Shell (Airbnb-style)** — `--palette-bg-primary-core` (Rausch Red `#ff385c`), `--palette-text-primary` (`#222222`), `--palette-text-secondary` (`#6a6a6a`), `--palette-surface` / `--palette-surface-muted` (`#f2f2f2`), `--ab-radius-sm|badge|card|lg` (8 / 14 / 20 / 32 px), `--ab-shadow-card` (three-layer warm lift: ring + soft blur + stronger blur), `--ab-shadow-hover`. Full palette/role list is in `DESIGN.md`.
 
-**Scrapbook (trip inner pages)** — `--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*`.
+**Legacy scrapbook tokens** — `--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*` still exist because old class names are reused, but the active trip inner-page look is defined by the final “Trip inner pages — mobile editorial / red-note style” block in `globals.css`.
 
-Font stack: **Inter** (`--font-ui`) for all shell UI — stands in for the proprietary Airbnb Cereal VF, weight range 400–700. **EB Garamond** (`--font-display`, structured English serif) · **Homemade Apple** (`--font-script`, large handwritten cursive for cover/ending titles) · **Caveat** (`--font-hand`, small handwritten labels/captions) for scrapbook content. All via `next/font/google` in `layout.tsx`. Chinese is LXGW 霞鹜文楷 loaded via a jsDelivr CDN `<link>`, used as the primary family in `--font-serif-cn` / `--font-sans-cn`. The script face doesn't tolerate `letter-spacing` or all-caps — keep it for `.cover-title` / `.ending-title` only. Change tokens here to reskin the whole journal.
+Font stack: **Inter** (`--font-ui`) for all shell UI — stands in for the proprietary Airbnb Cereal VF, weight range 400–700. Trip content uses `--font-sans-cn` / `--font-serif-cn`, with LXGW 霞鹜文楷 loaded via jsDelivr and system Chinese fallbacks. EB Garamond / Homemade Apple / Caveat remain available for legacy classes but are no longer the dominant inner-page style.
 
 ### Reusable class vocabulary
 
@@ -68,14 +68,14 @@ Composed, not written from scratch. Key classes defined in `globals.css`:
 - **Header / nav**: `.site-header`, `.site-brand` (Rausch Red logo mark — rendered by `components/SiteHeader.tsx`)
 - **Index**: `.index-wrap`, `.index-hero`, `.index-eyebrow`, `.site-title`, `.site-sub`, `.index-tagline`, `.trip-grid` (4→3→2→1 cols)
 - **Listing card**: `.trip-card` + `.tc-media` (1:1 aspect, 20px radius, three-layer shadow, hover scales image + lifts shadow) + `.tc-badge` (+`.private` for Rausch Red variant) + `.tc-body`, `.tc-title-row`, `.tc-title`, `.tc-date`, `.tc-location`, `.tc-sub`
-- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (flex-column wrapper that gives scrapbook cards their 30px vertical rhythm)
+- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (mobile-editorial wrapper with #f5f5f0 background and 16px section rhythm)
 - **Language switch**: `.lang-switch` (pill-track group, `.active` = white pill with soft shadow)
 
-**Scrapbook (trip content)**:
-- **Photo frames**: `.pf` + aspect `.sq|.ls|.wd|.pt|.hero` + filter `.fw|.ff|.fg|.fc|.fv|.fs|.fn` + optional tilt `.tl-tilt|.tr-tilt`
+**Trip content classes**:
+- **Photo frames**: `.pf` + aspect `.sq|.ls|.wd|.pt|.hero`; legacy filter/tilt classes may remain in JSX but the active style normalizes them into clean rounded image cards.
 - **Grids**: `.pgrid` + `.g1|.g2|.g3|.g4|.g12|.g21`
-- **Washi tape**: `.tape` + color `.ty|.tp|.tg|.tb` + position `.t-tl|.t-tr|.t-tc` — parent needs `position: relative`
-- **Structural**: `.day-header` + `.day-circle`, `.tlwrap` + `.tl-item` (timeline), `.route` + `.rs` + `.ra`, `.sgrid` + `.sc` (shopping), `.bill` + `.br` (receipt), `.pol` (polaroid), `.rbox` (+`.warn`), `.nbox`, `.tags` + `.tag-*`, `.stamp-circle` + `.stamp-box`, `.dv` (divider), `.cover-border`, `.spacer`
+- **Decorative legacy no-ops**: `.tape`, `.deco`, `.sticker` are hidden in the active mobile-editorial style.
+- **Structural**: `.day-header` + `.day-circle`, `.tlwrap` + `.tl-item` (timeline cards), `.route` + `.rs` + `.ra`, `.sgrid` + `.sc` (shopping), `.bill` + `.br` (receipt), `.pol`, `.rbox` (+`.warn`), `.nbox`, `.tags` + `.tag-*`, `.stamp-circle` + `.stamp-box`, `.dv` (divider), `.cover-border`, `.spacer`
 
 > Note: `.tl`/`.tr` (tilt) were renamed to `.tl-tilt`/`.tr-tilt` when porting from `plog.html` to avoid a collision with Tailwind's top/right utilities. The raw CSS timeline wrapper was renamed `.tlwrap` for the same reason.
 

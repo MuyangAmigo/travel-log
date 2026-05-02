@@ -217,7 +217,20 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 - Heart overlay positioned consistently across sizes
 - Photo quality adjusts based on viewport
 
-## 9. Agent Prompt Guide
+## 9. Trip Inner Pages
+
+Trip detail pages intentionally diverge from the Airbnb-style shell. They use a mobile-editorial travel post aesthetic inspired by Chinese social travel guides:
+
+- **Canvas**: fixed 750px `.card` sections scaled down by `.card-wrap` with `--s = min((100vw - gutter) / 750, 1)` on tablet/desktop. At `max-width: 760px`, transforms are disabled and cards become fluid-width with true mobile type sizes for readability.
+- **Background**: page-level warm off-white `#f5f5f0`; each content card is flat white with 44px padding and 16px vertical rhythm.
+- **Accent**: social-red `#ff2442` for cover tags, day badges, timeline times, and pill tags.
+- **Type**: Chinese-first UI/body stack through `--font-sans-cn`; body text is large and readable (26px on the 750px canvas, 1.9 line-height).
+- **Images**: rounded 12–16px photo grids, no old scrapbook filters, tape, or tilted frames. Captions sit below images in muted gray.
+- **Content components**: `.nbox` becomes a yellow-highlight note block, `.rbox.warn` becomes an orange warning block, `.tlwrap` becomes a stacked timeline-card list, and `.route` becomes a chip grid.
+
+Keep trip content hand-authored in JSX, but prefer existing class names so this shared presentation layer continues to style all trips consistently.
+
+## 10. Agent Prompt Guide
 
 ### Quick Color Reference
 - Background: Pure White (`#ffffff`)
