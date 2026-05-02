@@ -26,6 +26,7 @@ const __dirname = dirname(__filename);
 const REPO_ROOT = join(__dirname, "..");
 const TRIPS_SRC = join(REPO_ROOT, "site", "src", "content", "trips");
 const OUT_DIR = join(REPO_ROOT, "site", "out");
+const TEMPLATE_PATH = join(REPO_ROOT, "scripts", "staticrypt-template.html");
 const LOCALES = ["zh", "en"];
 
 function findPrivateSlugs() {
@@ -105,7 +106,30 @@ try {
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
       execSync(
-        `npx --yes staticrypt ${JSON.stringify(htmlPath)} --short --remember=false -d ${JSON.stringify(tmpDir)}`,
+        [
+          "npx --yes staticrypt",
+          JSON.stringify(htmlPath),
+          "--short",
+          "--remember=false",
+          "--template",
+          JSON.stringify(TEMPLATE_PATH),
+          "--template-title",
+          JSON.stringify("Private Travel Log"),
+          "--template-instructions",
+          JSON.stringify("输入密码继续阅读这篇私密游记。Enter the shared password to continue."),
+          "--template-placeholder",
+          JSON.stringify("输入密码 / Password"),
+          "--template-button",
+          JSON.stringify("Unlock entry"),
+          "--template-error",
+          JSON.stringify("密码不对，请再试一次。"),
+          "--template-toggle-show",
+          JSON.stringify("显示密码"),
+          "--template-toggle-hide",
+          JSON.stringify("隐藏密码"),
+          "-d",
+          JSON.stringify(tmpDir),
+        ].join(" "),
         {
           stdio: "inherit",
           env: { ...process.env, STATICRYPT_PASSWORD: password },
