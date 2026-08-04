@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/trips";
 import { locales } from "@/lib/trips";
+import { withBasePath } from "@/lib/base-path";
 
 interface Props {
   current: Locale;
@@ -26,7 +27,7 @@ export default function LanguageSwitcher({
 
         if (forceDocumentNavigation) {
           return (
-            <a key={l} href={href} className={className}>
+            <a key={l} href={withBasePath(href)} className={className}>
               {LABELS[l]}
             </a>
           );

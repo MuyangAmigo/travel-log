@@ -1,7 +1,8 @@
 import { defaultLocale } from "@/lib/trips";
+import { withBasePath } from "@/lib/base-path";
 
 export default function Root() {
-  const href = `/${defaultLocale}/`;
+  const href = withBasePath(`/${defaultLocale}/`);
   return (
     <>
       <meta httpEquiv="refresh" content={`0; url=${href}`} />
