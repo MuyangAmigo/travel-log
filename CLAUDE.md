@@ -13,11 +13,11 @@ A bilingual (zh/en) travel journal with a **two-layer visual system**:
 - **`site/`** — Next.js 16 App Router · React 19 · TypeScript · Tailwind v4 · static export (`output: "export"`)
 - **`scripts/upload-trip-images.sh`** — uploads a trip's photos to `junjieblob` blob storage
 - **`scripts/encrypt-private-trips.mjs`** — post-build step that AES-encrypts any trip marked `private: true` using staticrypt; runs as part of `npm run build`
-- **`.github/workflows/azure-static-web-apps.yml`** — builds `site/out` and deploys to Azure Static Web Apps on push to `main`
+- **`.github/workflows/github-pages.yml`** — builds `site/out` and deploys to GitHub Pages on push to `main`
 
-Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup, same static export + SWA deploy pattern. CI runs Node 22.
+Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup and static export pattern. CI runs Node 22.
 
-Live at https://agreeable-tree-0b1f10200.7.azurestaticapps.net. Azure SWA `travel-log` lives in resource group `junjieweb`, region `eastasia`, Free tier. Deploy token is stored as `AZURE_STATIC_WEB_APPS_API_TOKEN` in the GitHub repo secrets.
+Live at https://muyangamigo.github.io/travel-log/. GitHub Pages serves this project beneath `/travel-log`, configured at build time through `NEXT_PUBLIC_BASE_PATH`.
 
 ## Dev commands
 
@@ -98,5 +98,7 @@ A trip with `private: true` in its `meta.ts` is **still listed on the public loc
 - Changing image paths means re-uploading to blob storage. The dev site points at blob URLs in every environment.
 - CI runs Node 22 and regenerates `site/package-lock.json` on every build — a workaround for a stale empty-version entry that local npm keeps re-adding to the lockfile. Don't restore `npm ci` without verifying the lockfile parses cleanly on the runner.
 - Any build that includes a `private: true` trip needs `TRAVEL_LOG_PRIVATE_PASSWORD` set — stored as a GitHub Actions repo secret for CI and passed through the workflow's `env:` block. For a local production preview: `TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build`. `npm run dev` never encrypts; private trips render normally in dev.
+- GitHub Pages production builds set `NEXT_PUBLIC_BASE_PATH=/travel-log`. Keep application routes root-relative when using `next/link`; use `withBasePath()` from `site/src/lib/base-path.ts` only for raw anchors and document-level redirects.
+- GitHub Pages does not create per-pull-request preview environments. Pull requests run the production-path build as validation, while only `main` and manual workflow runs deploy.
 - After flipping a trip's `private` flag, existing visitors may still see the stale cached HTML until a hard refresh (`Cmd+Shift+R`) — the encrypted page itself ships `no-cache` meta headers, but anything cached before the flip is held by the browser.
 - The original single-file prototype (`plog.html`) was removed after porting. Recover via `git show <sha>:plog.html` if you ever want to visually diff against it.

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trips, locales, dict, type Locale } from "@/lib/trips";
+import { withBasePath } from "@/lib/base-path";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
 
@@ -35,7 +36,7 @@ export default async function LocaleHome({
 
         <div className="trip-grid">
           {trips.map((trip) => {
-            const href = `/${loc}/trips/${trip.slug}`;
+            const route = `/${loc}/trips/${trip.slug}`;
             const content = (
               <>
                 <div className="tc-media">
@@ -62,14 +63,14 @@ export default async function LocaleHome({
 
             if (trip.private) {
               return (
-                <a key={trip.slug} href={href} className="trip-card">
+                <a key={trip.slug} href={withBasePath(route)} className="trip-card">
                   {content}
                 </a>
               );
             }
 
             return (
-              <Link key={trip.slug} href={href} className="trip-card">
+              <Link key={trip.slug} href={route} className="trip-card">
                 {content}
               </Link>
             );
