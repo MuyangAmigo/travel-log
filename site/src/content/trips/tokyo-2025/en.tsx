@@ -444,7 +444,7 @@ export default function TokyoEN() {
 
           <div className="nbox mt16">
             <div className="nbox-lbl">🎟️ DPA strategy</div>
-            <p>During a National Day week, DPA is the only way to keep your sanity. Priority: Peter Pan and Tangled — both are boat-ride-style experiences that are absolutely worth the upcharge. Frozen&apos;s DPA sells out instantly; standby hovers around 2 hours, but it&apos;s still worth it if you time it right.</p>
+            <p>During a National Day week, DPA is the only way to keep your sanity. Priority: Peter Pan and Tangled — one is a 3D ride and the other a boat ride, and both are absolutely worth the upcharge. Frozen&apos;s DPA sells out instantly; standby hovers around 2 hours, but it&apos;s still worth it if you time it right.</p>
           </div>
 
           <div className="page-num">- 07 -</div>
