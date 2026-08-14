@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2025-03-28",
   dateRange: "2025.03.28 — 03.30",
-  coverImage: img("traditional-canal-boats-alley.jpeg"),
+  coverImage: img("cover-2026-08.png"),
   title: {
     zh: "绍兴 · 水巷墨香",
     en: "Shaoxing · Canals and Ink",
