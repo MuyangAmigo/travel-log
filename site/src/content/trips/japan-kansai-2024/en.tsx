@@ -147,10 +147,11 @@ export default function KansaiEN() {
           <Photo file="hogwarts-castle-turrets.jpg" alt="Tall Hogwarts Castle turrets beneath an overcast sky" caption="The cloudy sky gave Hogwarts its own film filter" />
           <Photo file="universal-studios-japan-nintendo-world-tickets.jpg" alt="A hand holding paper entry tickets for Super Nintendo World at USJ" caption="Timed entry secured; the Mario window was officially on the schedule" />
         </div>
-        <div className="pgrid g3 mt12">
+        <div className="pgrid g4 mt12">
           <Photo file="palm-lined-city-street-scene.jpg" alt="Visitors walking along a palm-lined avenue at Universal Studios Japan" caption="Crowds and palms pushed the morning straight into excitement" shape="sq" />
           <Photo file="doraemon-adventureland-entrance-signs.jpg" alt="Colourful Doraemon attraction entrance signs" caption="Familiar characters all the way through, like walking across childhood channels" shape="sq" />
           <Photo file="sesame-street-central-park-mascot.jpg" alt="A pink Sesame Street character statue in the themed area" caption="Even the roadside characters stayed at maximum saturation" shape="sq" />
+          <Photo file="usj-concrete-attraction-building.jpg" alt="Sculptural concrete attraction building inside Universal Studios Japan" caption="A concrete park building unfolding like a monumental sculpture" shape="sq" />
         </div>
 
         <div className="rbox mt16">

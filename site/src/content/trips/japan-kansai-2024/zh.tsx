@@ -146,10 +146,11 @@ export default function KansaiZH() {
           <Photo file="hogwarts-castle-turrets.jpg" alt="阴天下霍格沃茨城堡的高耸尖塔" caption="阴天替霍格沃茨加了一层电影滤镜" />
           <Photo file="universal-studios-japan-nintendo-world-tickets.jpg" alt="手持环球影城任天堂世界纸质票券" caption="整理券到手，马里奥世界的时间窗口确定了" />
         </div>
-        <div className="pgrid g3 mt12">
+        <div className="pgrid g4 mt12">
           <Photo file="palm-lined-city-street-scene.jpg" alt="棕榈树围绕的环球影城大道与游客" caption="园区大道的人潮和棕榈树，把早晨迅速推入兴奋模式" shape="sq" />
           <Photo file="doraemon-adventureland-entrance-signs.jpg" alt="哆啦A梦主题区域彩色入口牌" caption="一路都是熟悉角色，像穿过童年频道" shape="sq" />
           <Photo file="sesame-street-central-park-mascot.jpg" alt="芝麻街主题区域的粉色角色雕像" caption="连路边角色都保持着饱和度满格" shape="sq" />
+          <Photo file="usj-concrete-attraction-building.jpg" alt="环球影城园区内具有雕塑感的混凝土建筑" caption="园区里像巨型雕塑一样展开的混凝土建筑" shape="sq" />
         </div>
 
         <div className="rbox mt16">
