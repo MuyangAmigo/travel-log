@@ -1,4 +1,4 @@
-import { createHash, createHmac, timingSafeEqual } from "node:crypto";
+import { createHmac, scryptSync, timingSafeEqual } from "node:crypto";
 
 const LOCALES = new Set(["zh", "en"]);
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
@@ -18,7 +18,8 @@ export function isValidPrivatePasscode(candidate, expected) {
     return false;
   }
 
-  const candidateDigest = createHash("sha256").update(candidate).digest();
-  const expectedDigest = createHash("sha256").update(expected).digest();
+  const salt = "travel-log-private-passcode:v1";
+  const candidateDigest = scryptSync(candidate, salt, 64);
+  const expectedDigest = scryptSync(expected, salt, 64);
   return timingSafeEqual(candidateDigest, expectedDigest);
 }
