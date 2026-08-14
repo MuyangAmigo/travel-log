@@ -197,10 +197,10 @@ export default function ShaoxingEN() {
             <div className="ending-subtitle">Two days, from Lu Xun&apos;s old home to Wang Xizhi&apos;s Lanting.</div>
           </div>
           <div className="tags mt20">
-            <span className="tag-pink">Lu Xun</span>
-            <span className="tag-blue">Canal Boats</span>
-            <span className="tag-gold">Lanting</span>
-            <span className="tag-green">Winding Stream</span>
+            <span className="tag tag-p">Lu Xun</span>
+            <span className="tag tag-b">Canal Boats</span>
+            <span className="tag tag-g">Lanting</span>
+            <span className="tag tag-t">Winding Stream</span>
           </div>
           <div className="page-num">- 06 -</div>
         </div>
