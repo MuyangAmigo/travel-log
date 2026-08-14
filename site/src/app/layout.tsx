@@ -2,6 +2,27 @@ import type { Metadata } from "next";
 import { EB_Garamond, Caveat, Homemade_Apple, Inter } from "next/font/google";
 import "./globals.css";
 
+const themeInitializationScript = `
+  (() => {
+    const storageKey = "travel-log-theme";
+    let savedTheme = null;
+
+    try {
+      const value = window.localStorage.getItem(storageKey);
+      if (value === "light" || value === "dark") savedTheme = value;
+    } catch (error) {
+      console.warn("Unable to read the saved theme preference.", error);
+    }
+
+    const theme = savedTheme ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    const root = document.documentElement;
+    root.dataset.theme = theme;
+    root.dataset.themeSource = savedTheme ? "user" : "system";
+    root.style.colorScheme = theme;
+  })();
+`;
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -44,9 +65,11 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta name="color-scheme" content="light dark" />
+        <script dangerouslySetInnerHTML={{ __html: themeInitializationScript }} />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
         <link
           rel="stylesheet"

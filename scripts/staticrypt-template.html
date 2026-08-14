@@ -9,6 +9,26 @@
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (() => {
+        const storageKey = "travel-log-theme";
+        let savedTheme = null;
+
+        try {
+          const value = window.localStorage.getItem(storageKey);
+          if (value === "light" || value === "dark") savedTheme = value;
+        } catch (error) {
+          console.warn("Unable to read the saved theme preference.", error);
+        }
+
+        const theme = savedTheme ||
+          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themeSource = savedTheme ? "user" : "system";
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
     <style>
       :root {
         --red: #ff2442;
@@ -18,6 +38,44 @@
         --paper: #fffaf3;
         --line: rgba(31, 31, 31, 0.1);
         --shadow: 0 24px 70px rgba(51, 22, 12, 0.18);
+        --page: #f5f5f0;
+        --page-gradient:
+          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
+          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.16), transparent 30%),
+          linear-gradient(135deg, #fff8ef 0%, #f5f5f0 44%, #f7ede8 100%);
+        --grid-line: rgba(31, 31, 31, 0.045);
+        --grid-line-secondary: rgba(31, 31, 31, 0.035);
+        --form-shell: rgba(255, 255, 255, 0.76);
+        --form-border: rgba(255, 255, 255, 0.85);
+        --form-panel: rgba(255, 255, 255, 0.92);
+        --input: #fffaf7;
+        --input-focus: #ffffff;
+        --label: #4b4b4b;
+        --fine-print: #9a8f89;
+        --theme-control: rgba(255, 255, 255, 0.86);
+      }
+
+      :root[data-theme="dark"] {
+        --ink: #f5f5f5;
+        --muted: #b7b7ba;
+        --paper: #1c1c1e;
+        --line: rgba(255, 255, 255, 0.12);
+        --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+        --page: #111113;
+        --page-gradient:
+          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
+          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.1), transparent 30%),
+          linear-gradient(135deg, #181416 0%, #111113 44%, #1c1718 100%);
+        --grid-line: rgba(255, 255, 255, 0.045);
+        --grid-line-secondary: rgba(255, 255, 255, 0.03);
+        --form-shell: rgba(28, 28, 30, 0.82);
+        --form-border: rgba(255, 255, 255, 0.1);
+        --form-panel: rgba(28, 28, 30, 0.96);
+        --input: #262628;
+        --input-focus: #2c2c2f;
+        --label: #d0d0d3;
+        --fine-print: #929298;
+        --theme-control: rgba(38, 38, 40, 0.9);
       }
 
       * {
@@ -38,7 +96,7 @@
         margin: 0;
         font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
         color: var(--ink);
-        background: #f5f5f0;
+        background: var(--page);
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -51,10 +109,7 @@
         place-items: center;
         overflow: hidden;
         padding: 32px 18px;
-        background:
-          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
-          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.16), transparent 30%),
-          linear-gradient(135deg, #fff8ef 0%, #f5f5f0 44%, #f7ede8 100%);
+        background: var(--page-gradient);
       }
 
       .staticrypt-content::before {
@@ -63,8 +118,8 @@
         inset: 0;
         pointer-events: none;
         background-image:
-          linear-gradient(rgba(31, 31, 31, 0.045) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(31, 31, 31, 0.035) 1px, transparent 1px);
+          linear-gradient(var(--grid-line) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-line-secondary) 1px, transparent 1px);
         background-size: 44px 44px;
         mask-image: radial-gradient(circle at center, #000 0%, transparent 78%);
       }
@@ -89,7 +144,7 @@
         min-height: 100svh;
         display: grid;
         place-items: center;
-        background: #f5f5f0;
+        background: var(--page);
       }
 
       .staticrypt-spinner {
@@ -113,14 +168,68 @@
         width: min(100%, 860px);
       }
 
+      .theme-toggle {
+        position: fixed;
+        top: max(18px, env(safe-area-inset-top));
+        right: max(18px, env(safe-area-inset-right));
+        z-index: 3;
+        width: 44px;
+        height: 44px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--form-border);
+        border-radius: 999px;
+        background: var(--theme-control);
+        color: var(--ink);
+        padding: 0;
+        cursor: pointer;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(16px);
+      }
+
+      .theme-toggle:hover {
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+      }
+
+      .theme-toggle:focus-visible {
+        outline: 2px solid var(--red);
+        outline-offset: 3px;
+      }
+
+      .theme-toggle-icon {
+        grid-area: 1 / 1;
+        font-size: 20px;
+        line-height: 1;
+        transition: opacity 160ms ease, transform 220ms ease;
+      }
+
+      .theme-toggle-sun {
+        opacity: 0;
+        transform: rotate(-45deg) scale(0.7);
+      }
+
+      .theme-toggle-moon {
+        opacity: 1;
+      }
+
+      :root[data-theme="dark"] .theme-toggle-sun {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+      }
+
+      :root[data-theme="dark"] .theme-toggle-moon {
+        opacity: 0;
+        transform: rotate(45deg) scale(0.7);
+      }
+
       .staticrypt-form {
         position: relative;
         display: grid;
         grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.8fr);
         overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.85);
+        border: 1px solid var(--form-border);
         border-radius: 34px;
-        background: rgba(255, 255, 255, 0.76);
+        background: var(--form-shell);
         box-shadow: var(--shadow);
         backdrop-filter: blur(22px);
       }
@@ -241,7 +350,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 46px 42px;
-        background: rgba(255, 255, 255, 0.92);
+        background: var(--form-panel);
       }
 
       .staticrypt-instructions {
@@ -265,7 +374,7 @@
       .field-label {
         display: block;
         margin-bottom: 9px;
-        color: #4b4b4b;
+        color: var(--label);
         font-size: 13px;
         font-weight: 800;
         letter-spacing: 0.08em;
@@ -284,7 +393,7 @@
         border: 1px solid var(--line);
         border-radius: 18px;
         outline: 0;
-        background: #fffaf7;
+        background: var(--input);
         color: var(--ink);
         padding: 16px 52px 16px 18px;
         font: inherit;
@@ -295,7 +404,7 @@
       .staticrypt-form input[type="password"]:focus,
       .staticrypt-form input[type="text"]:focus {
         border-color: rgba(255, 36, 66, 0.64);
-        background: #ffffff;
+        background: var(--input-focus);
         box-shadow: 0 0 0 5px rgba(255, 36, 66, 0.12);
       }
 
@@ -356,7 +465,7 @@
 
       .fine-print {
         margin-top: 18px;
-        color: #9a8f89;
+        color: var(--fine-print);
         font-size: 12px;
         line-height: 1.6;
       }
@@ -412,6 +521,10 @@
     </div>
 
     <main id="staticrypt_content" class="staticrypt-content hidden">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到深色模式 / Switch to dark theme">
+        <span class="theme-toggle-icon theme-toggle-sun" aria-hidden="true">☀</span>
+        <span class="theme-toggle-icon theme-toggle-moon" aria-hidden="true">☾</span>
+      </button>
       <div class="staticrypt-page">
         <section class="staticrypt-form" aria-label="Private travel entry password">
           <aside class="travel-panel" aria-hidden="true">
@@ -487,6 +600,53 @@
       };
 
       const staticrypt = staticryptInitiator.init(staticryptConfig, templateConfig);
+      const themeStorageKey = "travel-log-theme";
+      const themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
+      const themeToggle = document.getElementById("theme-toggle");
+
+      function readSavedTheme() {
+        try {
+          const value = window.localStorage.getItem(themeStorageKey);
+          return value === "light" || value === "dark" ? value : null;
+        } catch (error) {
+          console.warn("Unable to read the saved theme preference.", error);
+          return null;
+        }
+      }
+
+      function applyTheme(theme, source) {
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themeSource = source;
+        document.documentElement.style.colorScheme = theme;
+        themeToggle.setAttribute(
+          "aria-label",
+          theme === "dark"
+            ? "切换到浅色模式 / Switch to light theme"
+            : "切换到深色模式 / Switch to dark theme"
+        );
+        themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
+      }
+
+      applyTheme(
+        document.documentElement.dataset.theme === "dark" ? "dark" : "light",
+        readSavedTheme() ? "user" : "system"
+      );
+
+      themeMedia.addEventListener("change", (event) => {
+        if (readSavedTheme()) return;
+        applyTheme(event.matches ? "dark" : "light", "system");
+      });
+
+      themeToggle.addEventListener("click", () => {
+        const nextTheme =
+          document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        applyTheme(nextTheme, "user");
+        try {
+          window.localStorage.setItem(themeStorageKey, nextTheme);
+        } catch (error) {
+          console.warn("Unable to save the theme preference.", error);
+        }
+      });
 
       window.onload = async function () {
         const { isSuccessful } = await staticrypt.handleDecryptOnLoad();

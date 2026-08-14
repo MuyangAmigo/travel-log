@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/trips";
+import ThemeToggle from "@/components/ThemeToggle";
 
 interface Props {
   locale: Locale;
@@ -14,6 +15,9 @@ export default function SiteHeader({ locale }: Props) {
         </svg>
         <span>travel</span>
       </Link>
+      <div className="site-actions">
+        <ThemeToggle locale={locale} />
+      </div>
     </header>
   );
 }
