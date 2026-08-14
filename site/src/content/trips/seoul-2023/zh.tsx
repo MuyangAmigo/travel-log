@@ -338,7 +338,7 @@ export default function SeoulZH() {
 
         <div className="tlwrap mt20">
           <div className="tl-item"><span className="tm">带对了</span><div className="ev">充电宝、当地电话卡、转换插头、T-Money</div><div className="dt">中国电话卡的境外流量不一定能打开所有韩国 App</div></div>
-          <div className="tl-item"><span className="tm">App</span><div className="ev">Naver 导航，Papago / Kulikuli 翻译</div><div className="dt">路线和语言都不要只依赖一个工具</div></div>
+          <div className="tl-item"><span className="tm">App</span><div className="ev">Naver 导航，Papago / Kuli Kuli 翻译</div><div className="dt">路线和语言都不要只依赖一个工具</div></div>
           <div className="tl-item"><span className="tm">出门前</span><div className="ev">穿软底鞋，先找洗手间</div><div className="dt">首尔街头公共厕所与垃圾桶比预想中少</div></div>
           <div className="tl-item"><span className="tm">手帐余额</span><div className="ev">3,500 / 3,600 韩币</div><div className="dt">原笔记最后留下的数字，原样保留</div></div>
         </div>
