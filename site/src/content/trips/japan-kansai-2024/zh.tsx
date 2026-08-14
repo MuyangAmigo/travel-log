@@ -94,7 +94,7 @@ export default function KansaiZH() {
           <div className="rs"><div className="ic">🍵</div><div className="lb">宇治</div></div>
         </div>
 
-        <div className="pgrid g21 mt20">
+        <div className="pgrid g2 mt20">
           <Photo file="kyoto-temple-and-tower.jpg" alt="古寺屋顶后方升起京都塔" caption="古寺与京都塔同框，关西的旧与新叠在一起" shape="ls" />
           <Photo file="japanese-temple-garden-pond.jpg" alt="春日阳光下的寺院池塘与松树" caption="春天还在水面和松枝上留着安静的一面" shape="ls" />
         </div>
@@ -142,7 +142,7 @@ export default function KansaiZH() {
           <p>第一站直奔哈利波特禁忌之旅。灰蓝天空压在霍格沃茨尖塔后面，城堡反而更像电影里的样子；手里那张任天堂世界票券，则把下午的期待提前装进口袋。</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="hogwarts-castle-turrets.jpg" alt="阴天下霍格沃茨城堡的高耸尖塔" caption="阴天替霍格沃茨加了一层电影滤镜" />
           <Photo file="universal-studios-japan-nintendo-world-tickets.jpg" alt="手持环球影城任天堂世界纸质票券" caption="整理券到手，马里奥世界的时间窗口确定了" />
         </div>
@@ -207,7 +207,7 @@ export default function KansaiZH() {
           <p>午餐用鳗鱼饭补体力，木盒揭开时米饭和酱汁还冒着热气。Patagonia Kyoto 的货品很全，但独立店不能退税，也没有购物袋；这条实用信息，比“值得逛”三个字更应该留给下次。</p>
         </div>
 
-        <div className="pgrid g21 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="shinkyogoku-shopping-arcade-kyoto.jpg" alt="新京极拱顶商店街的人流和店铺招牌" caption="新京极的长廊，把一天的购物路线串起来" shape="ls" />
           <Photo file="grilled-eel-rice-bowl-meal.jpg" alt="木桶里的烤鳗鱼饭与配汤" caption="11,370 JPY 的鳗鱼饭，是下午继续走路的燃料" shape="ls" />
         </div>
@@ -293,7 +293,7 @@ export default function KansaiZH() {
           <p>晚餐是现金支付的亲子鸡蛋拌饭，之后去 Taiyoo Massage 给双腿补偿。甜点 42 CNY，是这场长距离商场徒步最后的一点糖分。</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="hanshin-railway-umeda-station-sign.jpg" alt="大阪城市建筑前的阪神电车梅田站蓝色招牌" caption="梅田的坐标：电车、百货与密集楼群" shape="ls" />
           <Photo file="the-north-face-store-display.jpg" alt="绿植围绕的 The North Face 店铺标志" caption="户外品牌继续接管购物清单" shape="ls" />
         </div>
@@ -323,11 +323,11 @@ export default function KansaiZH() {
           <p>宇治是那种会主动让人慢下来的地方。茶铺把抹茶气味送到街上，河水从树木和山坡之间摊开；长椅上的人低头读书，咖啡师在吧台后认真工作，这些安静画面反而比“打卡完成”更像这一天。</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="narrow-japanese-residential-street.jpg" alt="宇治安静狭窄的日式住宅街" caption="离开车站后，街道先把声音降下来" />
           <Photo file="barista-behind-coffee-counter.jpg" alt="白衬衫咖啡师在木质吧台后制作饮品" caption="吧台后的动作很慢，正好配合宇治的节奏" />
         </div>
-        <div className="pgrid g21 mt12">
+        <div className="pgrid g2 mt12">
           <Photo file="person-reading-on-park-bench.jpg" alt="树影下一人坐在公园长椅阅读" caption="树下读书的人，像是这座城市给出的步速示范" shape="ls" />
           <Photo file="japanese-shrine-torii-gate.jpg" alt="树林深处通向宇治神社的红色鸟居" caption="红色鸟居藏在层层绿意之间" shape="ls" />
         </div>

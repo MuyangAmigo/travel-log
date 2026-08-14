@@ -95,7 +95,7 @@ export default function KansaiEN() {
           <div className="rs"><div className="ic">🍵</div><div className="lb">Uji</div></div>
         </div>
 
-        <div className="pgrid g21 mt20">
+        <div className="pgrid g2 mt20">
           <Photo file="kyoto-temple-and-tower.jpg" alt="Kyoto Tower rising behind the roof of a historic temple" caption="Old and new Kyoto stacked in a single frame" shape="ls" />
           <Photo file="japanese-temple-garden-pond.jpg" alt="Temple garden pond and pine trees in spring sunlight" caption="Spring kept a quieter face on the water and pine branches" shape="ls" />
         </div>
@@ -143,7 +143,7 @@ export default function KansaiEN() {
           <p>Harry Potter and the Forbidden Journey came first. Grey-blue cloud sat behind the Hogwarts turrets and made the castle feel even more cinematic. The Nintendo World ticket in hand carried the promise of the afternoon long before we reached it.</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="hogwarts-castle-turrets.jpg" alt="Tall Hogwarts Castle turrets beneath an overcast sky" caption="The cloudy sky gave Hogwarts its own film filter" />
           <Photo file="universal-studios-japan-nintendo-world-tickets.jpg" alt="A hand holding paper entry tickets for Super Nintendo World at USJ" caption="Timed entry secured; the Mario window was officially on the schedule" />
         </div>
@@ -208,7 +208,7 @@ export default function KansaiEN() {
           <p>Unagi rice restored enough energy for the afternoon, still steaming when the wooden tub opened. Patagonia Kyoto had a broad selection, but the standalone shop offered neither tax-free shopping nor bags. That practical detail deserved a place in the journal more than another generic “worth visiting.”</p>
         </div>
 
-        <div className="pgrid g21 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="shinkyogoku-shopping-arcade-kyoto.jpg" alt="Crowds and shop signs beneath Shinkyogoku's covered arcade" caption="Shinkyogoku&apos;s long corridor tied the day&apos;s shopping route together" shape="ls" />
           <Photo file="grilled-eel-rice-bowl-meal.jpg" alt="Grilled eel over rice in a wooden tub with soup" caption="An 11,370 JPY unagi lunch, fuel for the rest of the afternoon" shape="ls" />
         </div>
@@ -294,7 +294,7 @@ export default function KansaiEN() {
           <p>Dinner was an oyakodon-style egg-and-chicken rice bowl paid in cash, followed by Taiyoo Massage as compensation for our legs. A 42 CNY dessert supplied the final sugar for this long-distance indoor hike.</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="hanshin-railway-umeda-station-sign.jpg" alt="Blue Hanshin Railway Umeda Station sign against Osaka buildings" caption="Umeda&apos;s coordinates: railway, department stores and dense towers" shape="ls" />
           <Photo file="the-north-face-store-display.jpg" alt="The North Face store logo framed by indoor plants" caption="Outdoor labels continued to control the shopping list" shape="ls" />
         </div>
@@ -324,11 +324,11 @@ export default function KansaiEN() {
           <p>Uji slows you down without asking. Tea shops sent matcha into the street; the river opened between trees and wooded slopes. Someone read on a bench while a barista worked carefully behind a counter. Those quiet scenes felt more like the day than any completed checklist.</p>
         </div>
 
-        <div className="pgrid g12 mt16">
+        <div className="pgrid g2 mt16">
           <Photo file="narrow-japanese-residential-street.jpg" alt="A quiet narrow residential lane in Uji" caption="Beyond the station, the streets lowered the volume first" />
           <Photo file="barista-behind-coffee-counter.jpg" alt="A barista in a white shirt preparing drinks behind a timber counter" caption="The movement behind the counter was slow enough to match Uji" />
         </div>
-        <div className="pgrid g21 mt12">
+        <div className="pgrid g2 mt12">
           <Photo file="person-reading-on-park-bench.jpg" alt="A person reading on a park bench beneath leafy trees" caption="A reader under the trees, demonstrating the city&apos;s preferred pace" shape="ls" />
           <Photo file="japanese-shrine-torii-gate.jpg" alt="A red torii leading into a wooded shrine in Uji" caption="The red torii sat deep inside layers of green" shape="ls" />
         </div>
