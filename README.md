@@ -3,7 +3,7 @@
 A bilingual travel journal. The shell is an Airbnb-inspired listing grid; trip inner pages use a 750px mobile-editorial travel-log style with white content sections, red accent badges, rounded photo grids, timelines, and note cards.
 
 - **Stack**: Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4
-- **Hosting**: GitHub Pages (static export)
+- **Hosting**: GitHub Pages (static export) + Azure Functions authentication API
 - **Images**: Azure Blob Storage — `junjieblob/images/travel/<slug>/`
 - **Languages**: zh (default) · en
 
@@ -31,6 +31,8 @@ npm run dev        # http://localhost:3000
 
 The site is published at https://muyangamigo.github.io/travel-log/.
 
-Pushes to `main` trigger `.github/workflows/github-pages.yml`, which builds `site/out` with the `/travel-log` base path, encrypts private trips using the `TRAVEL_LOG_PRIVATE_PASSWORD` repository secret, and deploys the artifact to GitHub Pages. Pull requests run the same build as a validation check without publishing a preview site.
+Pushes to `main` trigger `.github/workflows/github-pages.yml`, which builds `site/out` with the `/travel-log` base path, encrypts private trips using the `TRAVEL_LOG_PRIVATE_PASSWORD` repository secret, and deploys the artifact to GitHub Pages. Private entries support either Microsoft personal-account sign-in or a private passcode; the Azure Function in `api/` validates the chosen credential before releasing a page-specific key. Pull requests test the API and run the same production build without publishing a preview site.
 
 Trip images remain hosted in Azure Blob Storage.
+
+See [Microsoft authentication setup](docs/microsoft-auth.md) for the app registration, Function settings, and GitHub configuration.

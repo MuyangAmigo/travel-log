@@ -238,7 +238,7 @@ Keep trip content hand-authored in JSX, but prefer existing class names so this 
 - Apply the resolved theme to `data-theme` on `<html>` before first paint. Update `color-scheme` so native controls match.
 - Use semantic surface, text, border, note, and warning tokens from `globals.css`; do not add component-specific dark-mode color patches.
 - The dark theme lifts the red text accent to `#ff4163` (and editorial red text to `#ff5a70`) for small-text contrast while keeping the same brand hue.
-- Theme shell pages, trip content, and the staticrypt password gate consistently. Do not dim or recolor travel photography.
+- Theme shell pages, trip content, and the private-journal authentication gate consistently. Do not dim or recolor travel photography.
 - Dark-theme text and contextual note colors must meet WCAG AA contrast against their surfaces.
 
 ## 11. Agent Prompt Guide

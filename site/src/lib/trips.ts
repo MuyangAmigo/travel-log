@@ -13,9 +13,9 @@ export interface TripMeta {
   subtitle: Record<Locale, string>;
   location: Record<Locale, string>;
   /**
-   * When true, the trip is hidden from the public index and its generated
-   * HTML is encrypted at build time by scripts/encrypt-private-trips.mjs.
-   * Viewers must enter the shared password to decrypt.
+   * When true, the trip remains listed but its generated HTML is encrypted at
+   * build time. The server-side authentication API releases a page-specific
+   * decryption key after Microsoft account or passcode authentication.
    */
   private?: boolean;
 }
