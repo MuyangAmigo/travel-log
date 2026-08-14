@@ -11,8 +11,8 @@ export const meta: TripMeta = {
   dateRange: "2026.04.02 — 04.06",
   coverImage: img("IMG_1725.jpeg"),
   title: {
-    zh: "曼谷 · 四天三夜",
-    en: "Bangkok · Four Days, Three Nights",
+    zh: "曼谷 · 热浪漫游",
+    en: "Bangkok · Heatwave Wanderings",
   },
   subtitle: {
     zh: "从浦东深夜落地，到素万那普清晨告别",

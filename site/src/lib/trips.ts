@@ -21,9 +21,14 @@ export interface TripMeta {
 }
 
 import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
+import { meta as chengdu2025Meta } from "@/content/trips/chengdu-2025/meta";
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
 
-export const trips: TripMeta[] = [hangzhouConcert2026Meta, bangkok2026Meta];
+export const trips: TripMeta[] = [
+  bangkok2026Meta,
+  hangzhouConcert2026Meta,
+  chengdu2025Meta,
+];
 
 export function getTrip(slug: string): TripMeta | undefined {
   return trips.find((t) => t.slug === slug);

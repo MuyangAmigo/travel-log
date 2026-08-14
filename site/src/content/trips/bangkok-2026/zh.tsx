@@ -15,7 +15,7 @@ export default function BangkokZH() {
           <div className="cover-border">
             <div className="cover-emoji">🇹🇭 ✈️ 🏝️</div>
             <h1 className="cover-title">
-              Bangkok
+              曼谷热浪漫游
             </h1>
             <div className="cover-subtitle">
               Travel Journal
