@@ -134,7 +134,7 @@ export default function ShaoxingEN() {
           <div className="day-header">
             <div className="day-circle"><span className="lbl">Day</span><span className="num">2</span></div>
             <div>
-              <div className="day-title">Lanting, Following the Calligraphy In</div>
+              <div className="day-title">Walking into Lanting through Calligraphy</div>
               <div className="day-sub">Goose Pond · Winding Stream · Wang Youjun Shrine · Calligraphy Museum</div>
             </div>
             <div className="day-weather">✒️</div>
