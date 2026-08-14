@@ -214,7 +214,7 @@ export default function TokyoEN() {
           </div>
 
           <div className="jtxt">
-            <p>Slept in, then headed straight to Shinjuku after lunch. Rokkasen&apos;s wagyu yakiniku recharged us for the afternoon — ¥406 per person. Then the spending began: an Arc&apos;teryx tee at Ishii Sports, the Montbell Thunder Pass and ski accessories, a Purple Label sweatshirt and jeans at United Arrows, a full outfit for my partner at City Tokyo, the Salomon XT Whisper and four pairs of On runners, and basics at Uniqlo. Feet were numb by dinner; a quick massage at 31,000 JPY sorted it out. Hakata Furyu ramen closed the night.</p>
+            <p>Slept in, then headed straight to Shinjuku after lunch. Rokkasen&apos;s wagyu yakiniku recharged us for the afternoon — ¥406 per person. Then the spending began: an Arc&apos;teryx tee at Ishii Sports, the Montbell Thunder Pass and ski accessories, a Purple Label sweatshirt and jeans at United Arrows, a full outfit for my partner at City Tokyo, the Salomon XT Whisper and four pairs of On runners, and basics at Uniqlo. Feet were numb by dinner; a quick massage sorted it out. Hakata Furyu ramen closed the night.</p>
           </div>
 
           <div className="pgrid g2 mt12">
