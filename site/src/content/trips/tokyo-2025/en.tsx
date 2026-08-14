@@ -140,7 +140,7 @@ export default function TokyoEN() {
           </div>
 
           <div className="jtxt">
-            <p>Gokurakuji&apos;s temple gate is so small you almost miss it; bought a goshuin book inside. At Hase-ji I got so absorbed writing my goshuin that I completely forgot to walk over to the Great Buddha — classic travel-brain fail. Komachi-dōri rewarded me with a bag of pigeon-shaped cookies, absolutely worth a try. Tsurugaoka Hachimangū at night hits different under the lights, and Maizara tonkatsu was the perfect closing act.</p>
+            <p>Gokurakuji&apos;s temple gate is so small you almost miss it; bought a goshuin book inside. At Hase-ji I got so absorbed writing my goshuin that I completely forgot to walk over to the Great Buddha — classic travel-brain fail. Komachi-dōri rewarded me with a bag of pigeon-shaped cookies, absolutely worth a try. Tsurugaoka Hachimangū at night hits different under the lights, and Maisen tonkatsu was the perfect closing act.</p>
           </div>
 
           <div className="pgrid g1">
