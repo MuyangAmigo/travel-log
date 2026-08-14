@@ -9,6 +9,7 @@ site/out/
 .env
 .env.local
 .env.*.local
+api/local.settings.json
 
 # macOS
 .DS_Store

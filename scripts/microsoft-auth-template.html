@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>/*[|template_title|]*/0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <style>
+      :root {
+        --red: #ff2442;
+        --red-dark: #d90f2f;
+        --ink: #1f1f1f;
+        --muted: #767676;
+        --line: rgba(31, 31, 31, 0.1);
+        --shadow: 0 24px 70px rgba(51, 22, 12, 0.18);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: #f5f5f0;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      .loading {
+        display: grid;
+        min-height: 100vh;
+        min-height: 100svh;
+        place-items: center;
+      }
+
+      .spinner {
+        width: 42px;
+        height: 42px;
+        border: 3px solid rgba(255, 36, 66, 0.18);
+        border-top-color: var(--red);
+        border-radius: 999px;
+        animation: spin 0.8s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .gate {
+        position: relative;
+        display: grid;
+        min-height: 100vh;
+        min-height: 100svh;
+        overflow: hidden;
+        place-items: center;
+        padding: 32px 18px;
+        background:
+          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
+          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.16), transparent 30%),
+          linear-gradient(135deg, #fff8ef 0%, #f5f5f0 44%, #f7ede8 100%);
+      }
+
+      .gate::before {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(31, 31, 31, 0.045) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(31, 31, 31, 0.035) 1px, transparent 1px);
+        background-size: 44px 44px;
+        content: "";
+        mask-image: radial-gradient(circle at center, #000 0%, transparent 78%);
+        pointer-events: none;
+      }
+
+      .gate-card {
+        position: relative;
+        display: grid;
+        z-index: 1;
+        width: min(100%, 860px);
+        grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.8fr);
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.85);
+        border-radius: 34px;
+        background: rgba(255, 255, 255, 0.76);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(22px);
+      }
+
+      .travel-panel {
+        position: relative;
+        min-height: 520px;
+        padding: 42px;
+        color: #ffffff;
+        background:
+          linear-gradient(to top, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.08) 64%),
+          radial-gradient(circle at 70% 18%, rgba(255, 36, 66, 0.78), transparent 32%),
+          radial-gradient(circle at 22% 18%, rgba(255, 190, 89, 0.44), transparent 28%),
+          linear-gradient(135deg, #1f1f1f 0%, #392c28 55%, #131313 100%);
+      }
+
+      .brand-row {
+        display: flex;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border-radius: 14px;
+        background: var(--red);
+        font-size: 23px;
+        box-shadow: 0 12px 32px rgba(255, 36, 66, 0.36);
+      }
+
+      .brand-text {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      .panel-copy {
+        position: relative;
+        z-index: 1;
+        margin-top: 128px;
+      }
+
+      .kicker {
+        display: inline-flex;
+        margin-bottom: 18px;
+        padding: 6px 14px;
+        border-radius: 999px;
+        background: rgba(255, 36, 66, 0.92);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+      }
+
+      .panel-title {
+        max-width: 420px;
+        margin: 0;
+        font-size: clamp(42px, 5vw, 64px);
+        line-height: 1.06;
+        letter-spacing: -0.04em;
+        text-shadow: 0 3px 24px rgba(0, 0, 0, 0.28);
+      }
+
+      .panel-subtitle {
+        max-width: 380px;
+        margin: 18px 0 0;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      .form-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 46px 42px;
+        background: rgba(255, 255, 255, 0.94);
+      }
+
+      .form-panel h2 {
+        margin: 0 0 10px;
+        font-size: 28px;
+        letter-spacing: -0.04em;
+      }
+
+      .instructions {
+        margin: 0 0 28px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .sign-in-button {
+        display: flex;
+        width: 100%;
+        min-height: 58px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: #ffffff;
+        color: var(--ink);
+        cursor: pointer;
+        font: inherit;
+        font-size: 15px;
+        font-weight: 750;
+        box-shadow: 0 12px 28px rgba(31, 31, 31, 0.1);
+        transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+      }
+
+      .sign-in-button:hover,
+      .sign-in-button:focus {
+        border-color: rgba(31, 31, 31, 0.28);
+        box-shadow: 0 16px 34px rgba(31, 31, 31, 0.14);
+        transform: translateY(-1px);
+      }
+
+      .sign-in-button:disabled {
+        cursor: wait;
+        opacity: 0.65;
+        transform: none;
+      }
+
+      .microsoft-logo {
+        width: 21px;
+        height: 21px;
+        flex: 0 0 auto;
+      }
+
+      .auth-divider {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 20px 0;
+        color: #9a8f89;
+        font-size: 12px;
+      }
+
+      .auth-divider::before,
+      .auth-divider::after {
+        height: 1px;
+        flex: 1;
+        background: var(--line);
+        content: "";
+      }
+
+      .passcode-form {
+        display: grid;
+        gap: 10px;
+      }
+
+      .passcode-input {
+        width: 100%;
+        min-height: 52px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        outline: 0;
+        background: #fffaf7;
+        color: var(--ink);
+        padding: 14px 16px;
+        font: inherit;
+        font-size: 16px;
+        transition: border-color 180ms ease, box-shadow 180ms ease;
+      }
+
+      .passcode-input:focus {
+        border-color: rgba(255, 36, 66, 0.64);
+        box-shadow: 0 0 0 4px rgba(255, 36, 66, 0.11);
+      }
+
+      .passcode-button {
+        min-height: 50px;
+        border: 0;
+        border-radius: 16px;
+        background: linear-gradient(135deg, var(--red), var(--red-dark));
+        color: #ffffff;
+        cursor: pointer;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 800;
+        box-shadow: 0 12px 28px rgba(255, 36, 66, 0.22);
+      }
+
+      .passcode-button:disabled,
+      .passcode-input:disabled {
+        cursor: wait;
+        opacity: 0.65;
+      }
+
+      .auth-status {
+        min-height: 40px;
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .auth-status.error {
+        color: var(--red-dark);
+      }
+
+      .fine-print {
+        margin: 8px 0 0;
+        color: #9a8f89;
+        font-size: 12px;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 760px) {
+        .gate {
+          align-items: start;
+          padding: 14px;
+        }
+
+        .gate-card {
+          grid-template-columns: 1fr;
+          border-radius: 28px;
+        }
+
+        .travel-panel {
+          min-height: 330px;
+          padding: 28px 24px;
+        }
+
+        .panel-copy {
+          margin-top: 72px;
+        }
+
+        .panel-title {
+          font-size: 40px;
+        }
+
+        .panel-subtitle {
+          font-size: 14px;
+        }
+
+        .form-panel {
+          padding: 28px 22px 24px;
+        }
+
+        .form-panel h2 {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading" class="loading">
+      <div class="spinner" aria-label="Loading"></div>
+    </div>
+
+    <main id="gate" class="gate hidden">
+      <section class="gate-card" aria-label="Private travel entry sign-in">
+        <aside class="travel-panel" aria-hidden="true">
+          <div class="brand-row">
+            <div class="brand-mark">✈️</div>
+            <div class="brand-text">Junjie's Travel Journal</div>
+          </div>
+          <div class="panel-copy">
+            <div class="kicker">Private Journal</div>
+            <h1 class="panel-title">这篇游记上了锁</h1>
+            <p class="panel-subtitle">使用获准的 Microsoft 个人账号或私密口令，继续翻开这本旅行手帐。</p>
+          </div>
+        </aside>
+
+        <div class="form-panel">
+          <h2>/*[|template_title|]*/0</h2>
+          <p class="instructions">/*[|template_instructions|]*/0</p>
+          <button id="microsoft-sign-in" class="sign-in-button" type="button">
+            <svg class="microsoft-logo" viewBox="0 0 21 21" aria-hidden="true">
+              <path fill="#f25022" d="M1 1h9v9H1z"/>
+              <path fill="#7fba00" d="M11 1h9v9h-9z"/>
+              <path fill="#00a4ef" d="M1 11h9v9H1z"/>
+              <path fill="#ffb900" d="M11 11h9v9h-9z"/>
+            </svg>
+            <span>使用 Microsoft 个人账号登录</span>
+          </button>
+          <div class="auth-divider"><span>或者 / OR</span></div>
+          <form id="passcode-form" class="passcode-form">
+            <input
+              id="private-passcode"
+              class="passcode-input"
+              type="password"
+              name="passcode"
+              placeholder="输入私密口令 / Private passcode"
+              autocomplete="current-password"
+              minlength="12"
+              required
+            />
+            <button id="passcode-submit" class="passcode-button" type="submit">
+              使用口令解锁 / Unlock with passcode
+            </button>
+          </form>
+          <p id="auth-status" class="auth-status" aria-live="polite"></p>
+          <p class="fine-print">Use the authorized Microsoft personal account or the private passcode. Neither the passcode nor the encryption master key is embedded in this page.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const staticryptInitiator = /*[|js_staticrypt|]*/ 0;
+      const staticryptConfig = /*[|staticrypt_config|]*/ 0;
+      const authApiUrl = __TRAVEL_LOG_AUTH_API_URL__;
+      const authCallbackUrl = __TRAVEL_LOG_AUTH_CALLBACK_URL__;
+      const journalLocale = __TRAVEL_LOG_LOCALE__;
+      const journalSlug = __TRAVEL_LOG_SLUG__;
+      const accessTokenStorageKey = "travel-log-microsoft-access-token";
+      const staticrypt = staticryptInitiator.init(staticryptConfig, {
+        rememberExpirationKey: "unused_staticrypt_expiration",
+        rememberPassphraseKey: "unused_staticrypt_passphrase",
+        replaceHtmlCallback: null,
+        clearLocalStorageCallback: null,
+      });
+      const signInButton = document.getElementById("microsoft-sign-in");
+      const passcodeForm = document.getElementById("passcode-form");
+      const passcodeInput = document.getElementById("private-passcode");
+      const passcodeSubmit = document.getElementById("passcode-submit");
+      const authStatus = document.getElementById("auth-status");
+
+      function setBusy(isBusy) {
+        signInButton.disabled = isBusy;
+        passcodeInput.disabled = isBusy;
+        passcodeSubmit.disabled = isBusy;
+      }
+
+      function showGate(message = "", isError = false) {
+        document.getElementById("loading").classList.add("hidden");
+        document.getElementById("gate").classList.remove("hidden");
+        authStatus.textContent = message;
+        authStatus.classList.toggle("error", isError);
+        setBusy(false);
+        signInButton.focus();
+      }
+
+      function readAccessToken() {
+        try {
+          const stored = JSON.parse(
+            window.sessionStorage.getItem(accessTokenStorageKey)
+          );
+          if (
+            !stored ||
+            typeof stored.accessToken !== "string" ||
+            typeof stored.expiresAt !== "number" ||
+            stored.expiresAt <= Date.now()
+          ) {
+            window.sessionStorage.removeItem(accessTokenStorageKey);
+            return null;
+          }
+          return stored.accessToken;
+        } catch {
+          window.sessionStorage.removeItem(accessTokenStorageKey);
+          return null;
+        }
+      }
+
+      async function unlockPage({ accessToken, passcode }) {
+        const requestHeaders = {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        };
+        if (accessToken) {
+          requestHeaders.Authorization = `Bearer ${accessToken}`;
+        }
+
+        const response = await fetch(authApiUrl, {
+          method: "POST",
+          headers: requestHeaders,
+          body: JSON.stringify({
+            locale: journalLocale,
+            ...(passcode ? { passcode } : {}),
+            slug: journalSlug,
+          }),
+        });
+
+        if (accessToken && (response.status === 401 || response.status === 403)) {
+          window.sessionStorage.removeItem(accessTokenStorageKey);
+        }
+        if (!response.ok) {
+          if (accessToken && response.status === 403) {
+            throw new Error("此 Microsoft 账号没有阅读权限。This account is not authorized.");
+          }
+          if (response.status === 401) {
+            throw new Error(
+              accessToken
+                ? "登录已过期，请重新登录。Your sign-in has expired."
+                : "口令不正确，请重试。The passcode is incorrect."
+            );
+          }
+          throw new Error("认证服务暂时不可用，请稍后重试。Authentication is unavailable.");
+        }
+
+        const result = await response.json();
+        if (!result || typeof result.passphrase !== "string") {
+          throw new Error("认证服务返回了无效响应。Authentication returned an invalid response.");
+        }
+
+        const { isSuccessful } = await staticrypt.handleDecryptionOfPage(
+          result.passphrase,
+          false
+        );
+        if (!isSuccessful) {
+          throw new Error("页面密钥不匹配，请联系站点管理员。The journal key is out of sync.");
+        }
+      }
+
+      window.addEventListener("load", async function () {
+        const accessToken = readAccessToken();
+        if (!accessToken) {
+          showGate();
+          return;
+        }
+
+        try {
+          await unlockPage({ accessToken });
+        } catch (error) {
+          console.error("Private journal unlock failed", error);
+          showGate(error instanceof Error ? error.message : String(error), true);
+        }
+      });
+
+      signInButton.addEventListener("click", function () {
+        setBusy(true);
+        authStatus.classList.remove("error");
+        authStatus.textContent = "正在前往 Microsoft 登录… Redirecting to Microsoft…";
+        const callback = new URL(authCallbackUrl);
+        callback.searchParams.set("start", "1");
+        callback.searchParams.set("returnUrl", window.location.href);
+        window.location.assign(callback);
+      });
+
+      passcodeForm.addEventListener("submit", async function (event) {
+        event.preventDefault();
+        if (!passcodeInput.value) return;
+
+        setBusy(true);
+        authStatus.classList.remove("error");
+        authStatus.textContent = "正在验证口令… Verifying passcode…";
+        try {
+          await unlockPage({ passcode: passcodeInput.value });
+        } catch (error) {
+          console.error("Private journal passcode unlock failed", error);
+          passcodeInput.value = "";
+          showGate(error instanceof Error ? error.message : String(error), true);
+          passcodeInput.focus();
+        }
+      });
+    </script>
+  </body>
+</html>

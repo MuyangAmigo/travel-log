@@ -10,7 +10,6 @@ import {
 } from "@/lib/trips";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
-import PrivateTripAuthGuard from "@/components/PrivateTripAuthGuard";
 
 export function generateStaticParams() {
   const slugs = getAllTripSlugs();
@@ -50,7 +49,6 @@ export default async function TripPage({
 
   return (
     <>
-      {trip.private && <PrivateTripAuthGuard />}
       <SiteHeader locale={loc} />
       <header className="trip-shell-header">
         <Link href={`/${loc}`} className="trip-shell-back">
