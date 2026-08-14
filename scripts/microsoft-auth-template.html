@@ -8,6 +8,26 @@
     <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="expires" content="0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (() => {
+        const storageKey = "travel-log-theme";
+        let savedTheme = null;
+
+        try {
+          const value = window.localStorage.getItem(storageKey);
+          if (value === "light" || value === "dark") savedTheme = value;
+        } catch (error) {
+          console.warn("Unable to read the saved theme preference.", error);
+        }
+
+        const theme = savedTheme ||
+          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themeSource = savedTheme ? "user" : "system";
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
     <style>
       :root {
         --red: #ff2442;
@@ -16,6 +36,45 @@
         --muted: #767676;
         --line: rgba(31, 31, 31, 0.1);
         --shadow: 0 24px 70px rgba(51, 22, 12, 0.18);
+        --page: #f5f5f0;
+        --gate-background:
+          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
+          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.16), transparent 30%),
+          linear-gradient(135deg, #fff8ef 0%, #f5f5f0 44%, #f7ede8 100%);
+        --grid-line: rgba(31, 31, 31, 0.045);
+        --grid-line-secondary: rgba(31, 31, 31, 0.035);
+        --card-shell: rgba(255, 255, 255, 0.76);
+        --card-border: rgba(255, 255, 255, 0.85);
+        --form-panel: rgba(255, 255, 255, 0.94);
+        --control: #ffffff;
+        --input: #fffaf7;
+        --label: #4b4b4b;
+        --fine-print: #9a8f89;
+        --error-text: var(--red-dark);
+        --theme-control: rgba(255, 255, 255, 0.86);
+      }
+
+      :root[data-theme="dark"] {
+        --ink: #f5f5f5;
+        --muted: #b7b7ba;
+        --line: rgba(255, 255, 255, 0.12);
+        --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+        --page: #111113;
+        --gate-background:
+          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
+          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.1), transparent 30%),
+          linear-gradient(135deg, #181416 0%, #111113 44%, #1c1718 100%);
+        --grid-line: rgba(255, 255, 255, 0.045);
+        --grid-line-secondary: rgba(255, 255, 255, 0.03);
+        --card-shell: rgba(28, 28, 30, 0.82);
+        --card-border: rgba(255, 255, 255, 0.1);
+        --form-panel: rgba(28, 28, 30, 0.96);
+        --control: #262628;
+        --input: #262628;
+        --label: #d0d0d3;
+        --fine-print: #929298;
+        --error-text: #ff8a9b;
+        --theme-control: rgba(38, 38, 40, 0.9);
       }
 
       * {
@@ -30,7 +89,7 @@
       body {
         margin: 0;
         color: var(--ink);
-        background: #f5f5f0;
+        background: var(--page);
         font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
         -webkit-font-smoothing: antialiased;
       }
@@ -69,18 +128,15 @@
         overflow: hidden;
         place-items: center;
         padding: 32px 18px;
-        background:
-          radial-gradient(circle at 15% 18%, rgba(255, 36, 66, 0.18), transparent 28%),
-          radial-gradient(circle at 86% 78%, rgba(255, 193, 7, 0.16), transparent 30%),
-          linear-gradient(135deg, #fff8ef 0%, #f5f5f0 44%, #f7ede8 100%);
+        background: var(--gate-background);
       }
 
       .gate::before {
         position: absolute;
         inset: 0;
         background-image:
-          linear-gradient(rgba(31, 31, 31, 0.045) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(31, 31, 31, 0.035) 1px, transparent 1px);
+          linear-gradient(var(--grid-line) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-line-secondary) 1px, transparent 1px);
         background-size: 44px 44px;
         content: "";
         mask-image: radial-gradient(circle at center, #000 0%, transparent 78%);
@@ -94,9 +150,9 @@
         width: min(100%, 860px);
         grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.8fr);
         overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.85);
+        border: 1px solid var(--card-border);
         border-radius: 34px;
-        background: rgba(255, 255, 255, 0.76);
+        background: var(--card-shell);
         box-shadow: var(--shadow);
         backdrop-filter: blur(22px);
       }
@@ -179,7 +235,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 46px 42px;
-        background: rgba(255, 255, 255, 0.94);
+        background: var(--form-panel);
       }
 
       .form-panel h2 {
@@ -204,7 +260,7 @@
         gap: 12px;
         border: 1px solid var(--line);
         border-radius: 18px;
-        background: #ffffff;
+        background: var(--control);
         color: var(--ink);
         cursor: pointer;
         font: inherit;
@@ -238,7 +294,7 @@
         align-items: center;
         gap: 12px;
         margin: 20px 0;
-        color: #9a8f89;
+        color: var(--fine-print);
         font-size: 12px;
       }
 
@@ -256,7 +312,7 @@
       }
 
       .passcode-label {
-        color: #4b4b4b;
+        color: var(--label);
         font-size: 13px;
         font-weight: 750;
       }
@@ -267,7 +323,7 @@
         border: 1px solid var(--line);
         border-radius: 16px;
         outline: 0;
-        background: #fffaf7;
+        background: var(--input);
         color: var(--ink);
         padding: 14px 16px;
         font: inherit;
@@ -308,14 +364,68 @@
       }
 
       .auth-status.error {
-        color: var(--red-dark);
+        color: var(--error-text);
       }
 
       .fine-print {
         margin: 8px 0 0;
-        color: #9a8f89;
+        color: var(--fine-print);
         font-size: 12px;
         line-height: 1.6;
+      }
+
+      .theme-toggle {
+        position: fixed;
+        top: max(18px, env(safe-area-inset-top));
+        right: max(18px, env(safe-area-inset-right));
+        z-index: 3;
+        width: 44px;
+        height: 44px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--card-border);
+        border-radius: 999px;
+        background: var(--theme-control);
+        color: var(--ink);
+        padding: 0;
+        cursor: pointer;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(16px);
+      }
+
+      .theme-toggle:hover {
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+      }
+
+      .theme-toggle:focus-visible {
+        outline: 2px solid var(--red);
+        outline-offset: 3px;
+      }
+
+      .theme-toggle-icon {
+        grid-area: 1 / 1;
+        font-size: 20px;
+        line-height: 1;
+        transition: opacity 160ms ease, transform 220ms ease;
+      }
+
+      .theme-toggle-sun {
+        opacity: 0;
+        transform: rotate(-45deg) scale(0.7);
+      }
+
+      .theme-toggle-moon {
+        opacity: 1;
+      }
+
+      :root[data-theme="dark"] .theme-toggle-sun {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+      }
+
+      :root[data-theme="dark"] .theme-toggle-moon {
+        opacity: 0;
+        transform: rotate(45deg) scale(0.7);
       }
 
       @media (max-width: 760px) {
@@ -362,6 +472,10 @@
     </div>
 
     <main id="gate" class="gate hidden">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到深色模式 / Switch to dark theme">
+        <span class="theme-toggle-icon theme-toggle-sun" aria-hidden="true">☀</span>
+        <span class="theme-toggle-icon theme-toggle-moon" aria-hidden="true">☾</span>
+      </button>
       <section class="gate-card" aria-label="Private travel entry sign-in">
         <aside class="travel-panel" aria-hidden="true">
           <div class="brand-row">
@@ -430,6 +544,52 @@
       const passcodeInput = document.getElementById("private-passcode");
       const passcodeSubmit = document.getElementById("passcode-submit");
       const authStatus = document.getElementById("auth-status");
+      const themeStorageKey = "travel-log-theme";
+      const themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
+      const themeToggle = document.getElementById("theme-toggle");
+
+      function readSavedTheme() {
+        try {
+          const value = window.localStorage.getItem(themeStorageKey);
+          return value === "light" || value === "dark" ? value : null;
+        } catch (error) {
+          console.warn("Unable to read the saved theme preference.", error);
+          return null;
+        }
+      }
+
+      function applyTheme(theme, source) {
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themeSource = source;
+        document.documentElement.style.colorScheme = theme;
+        themeToggle.setAttribute(
+          "aria-label",
+          theme === "dark"
+            ? "切换到浅色模式 / Switch to light theme"
+            : "切换到深色模式 / Switch to dark theme"
+        );
+      }
+
+      applyTheme(
+        document.documentElement.dataset.theme === "dark" ? "dark" : "light",
+        readSavedTheme() ? "user" : "system"
+      );
+
+      themeMedia.addEventListener("change", (event) => {
+        if (readSavedTheme()) return;
+        applyTheme(event.matches ? "dark" : "light", "system");
+      });
+
+      themeToggle.addEventListener("click", () => {
+        const nextTheme =
+          document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        applyTheme(nextTheme, "user");
+        try {
+          window.localStorage.setItem(themeStorageKey, nextTheme);
+        } catch (error) {
+          console.warn("Unable to save the theme preference.", error);
+        }
+      });
 
       function setBusy(isBusy) {
         signInButton.disabled = isBusy;

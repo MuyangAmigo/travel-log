@@ -2,14 +2,14 @@
 
 ## 1. Visual Theme & Atmosphere
 
-Airbnb's website is a warm, photography-forward marketplace that feels like flipping through a travel magazine where every page invites you to book. The design operates on a foundation of pure white (`#ffffff`) with the iconic Rausch Red (`#ff385c`) — named after Airbnb's first street address — serving as the singular brand accent. The result is a clean, airy canvas where listing photography, category icons, and the red CTA button are the only sources of color.
+Airbnb's website is a warm, photography-forward marketplace that feels like flipping through a travel magazine where every page invites you to book. The light theme operates on a foundation of pure white (`#ffffff`), while the dark theme uses a warm near-black (`#111113`). The iconic Rausch Red (`#ff385c`) — named after Airbnb's first street address — remains the singular brand accent in both themes. The result is a clean canvas where listing photography, category icons, and the red CTA button are the primary sources of color.
 
 The typography uses Airbnb Cereal VF — a custom variable font that's warm and approachable, with rounded terminals that echo the brand's "belong anywhere" philosophy. The font operates in a tight weight range: 500 (medium) for most UI, 600 (semibold) for emphasis, and 700 (bold) for primary headings. Slight negative letter-spacing (-0.18px to -0.44px) on headings creates a cozy, intimate reading experience rather than the compressed efficiency of tech companies.
 
 What distinguishes Airbnb is its palette-based token system (`--palette-*`) and multi-layered shadow approach. The primary card shadow uses a three-layer stack (`rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px`) that creates a subtle, warm lift. Combined with generous border-radius (8px–32px), circular navigation controls (50%), and a category pill bar with horizontal scrolling, the interface feels tactile and inviting — designed for browsing, not commanding.
 
 **Key Characteristics:**
-- Pure white canvas with Rausch Red (`#ff385c`) as singular brand accent
+- Adaptive white / warm near-black canvas with Rausch Red (`#ff385c`) as singular brand accent
 - Airbnb Cereal VF — custom variable font with warm, rounded terminals
 - Palette-based token system (`--palette-*`) for systematic color management
 - Three-layer card shadows: border ring + soft blur + stronger blur
@@ -45,6 +45,8 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 
 ### Surface & Shadows
 - **Pure White** (`#ffffff`): Page background, card surfaces
+- **Dark Canvas** (`#111113`): Dark-theme page background
+- **Dark Surface** (`#1c1c1e`): Dark-theme card and editorial surfaces
 - **Card Shadow** (`rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px`): Three-layer warm lift
 - **Hover Shadow** (`rgba(0,0,0,0.08) 0px 4px 12px`): Button hover elevation
 
@@ -113,7 +115,7 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 - Radius: depends on context (search bar uses pill-like rounding)
 
 ### Navigation
-- White sticky header with search bar centered
+- Sticky header using the active theme surface
 - Airbnb logo (Rausch Red) left-aligned
 - Category filter pills: horizontal scroll below search
 - Circular nav controls for carousel navigation
@@ -222,7 +224,7 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 Trip detail pages intentionally diverge from the Airbnb-style shell. They use a mobile-editorial travel post aesthetic inspired by Chinese social travel guides:
 
 - **Canvas**: fixed 750px `.card` sections scaled down by `.card-wrap` with `--s = min((100vw - gutter) / 750, 1)` on tablet/desktop. At `max-width: 760px`, transforms are disabled and cards become fluid-width with true mobile type sizes for readability.
-- **Background**: page-level warm off-white `#f5f5f0`; each content card is flat white with 44px padding and 16px vertical rhythm.
+- **Background**: page-level warm off-white `#f5f5f0` with flat white cards in light mode; warm near-black `#111113` with `#1c1c1e` cards in dark mode. Cards retain 44px padding and 16px vertical rhythm.
 - **Accent**: social-red `#ff2442` for cover tags, day badges, timeline times, and pill tags.
 - **Type**: Chinese-first UI/body stack through `--font-sans-cn`; body text is large and readable (26px on the 750px canvas, 1.9 line-height).
 - **Images**: rounded 12–16px photo grids, no old scrapbook filters, tape, or tilted frames. Captions sit below images in muted gray.
@@ -230,11 +232,21 @@ Trip detail pages intentionally diverge from the Airbnb-style shell. They use a 
 
 Keep trip content hand-authored in JSX, but prefer existing class names so this shared presentation layer continues to style all trips consistently.
 
-## 10. Agent Prompt Guide
+## 10. Theme Behavior
+
+- The first visit follows `prefers-color-scheme`; the header toggle saves an explicit `light` or `dark` choice in `travel-log-theme`.
+- Apply the resolved theme to `data-theme` on `<html>` before first paint. Update `color-scheme` so native controls match.
+- Use semantic surface, text, border, note, and warning tokens from `globals.css`; do not add component-specific dark-mode color patches.
+- The dark theme lifts the red text accent to `#ff4163` (and editorial red text to `#ff5a70`) for small-text contrast while keeping the same brand hue.
+- Theme shell pages, trip content, and the private-journal authentication gate consistently. Do not dim or recolor travel photography.
+- Dark-theme text and contextual note colors must meet WCAG AA contrast against their surfaces.
+
+## 11. Agent Prompt Guide
 
 ### Quick Color Reference
-- Background: Pure White (`#ffffff`)
-- Text: Near Black (`#222222`)
+- Background: Pure White (`#ffffff`) / Dark Canvas (`#111113`)
+- Surface: White (`#ffffff`) / Dark Surface (`#1c1c1e`)
+- Text: Near Black (`#222222`) / Soft White (`#f5f5f5`)
 - Brand accent: Rausch Red (`#ff385c`)
 - Secondary text: `#6a6a6a`
 - Disabled: `rgba(0,0,0,0.24)`

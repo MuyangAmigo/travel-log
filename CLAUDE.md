@@ -5,8 +5,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this repo is
 
 A bilingual (zh/en) travel journal with a **two-layer visual system**:
-- **Shell** (index, site header, trip-page chrome): clean Airbnb-inspired design — pure-white canvas, Rausch Red (`#ff385c`) as singular accent, Inter typography, photography-first listing grid with three-layer warm shadows. Spec lives in `DESIGN.md`.
-- **Trip content** (inner pages): hand-authored mobile-editorial travel logs inspired by Chinese social travel posts — 750px fixed canvas, #f5f5f0 page background, white content sections, #ff2442 red badges, rounded photo grids, timelines, note cards, and clean PingFang/LXGW typography. Each trip is still bespoke JSX, but presentation is now controlled by the trip-content override block at the end of `globals.css`.
+- **Shell** (index, site header, trip-page chrome): clean Airbnb-inspired design — adaptive light/dark canvas, Rausch Red (`#ff385c`) as singular accent, Inter typography, photography-first listing grid with three-layer warm shadows. Spec lives in `DESIGN.md`.
+- **Trip content** (inner pages): hand-authored mobile-editorial travel logs inspired by Chinese social travel posts — 750px fixed canvas, theme-aware editorial surfaces, #ff2442 red badges, rounded photo grids, timelines, note cards, and clean PingFang/LXGW typography. Each trip is still bespoke JSX, but presentation is now controlled by the trip-content override block at the end of `globals.css`.
 
 ## Stack
 
@@ -55,7 +55,9 @@ Every trip component must render `<CardScaleController />` once at the top of it
 
 Two token families coexist in `:root`:
 
-**Shell (Airbnb-style)** — `--palette-bg-primary-core` (Rausch Red `#ff385c`), `--palette-text-primary` (`#222222`), `--palette-text-secondary` (`#6a6a6a`), `--palette-surface` / `--palette-surface-muted` (`#f2f2f2`), `--ab-radius-sm|badge|card|lg` (8 / 14 / 20 / 32 px), `--ab-shadow-card` (three-layer warm lift: ring + soft blur + stronger blur), `--ab-shadow-hover`. Full palette/role list is in `DESIGN.md`.
+**Shell (Airbnb-style)** — `--palette-bg-primary-core` (Rausch Red `#ff385c`), semantic page/surface/text variables with `[data-theme="dark"]` overrides, `--ab-radius-sm|badge|card|lg` (8 / 14 / 20 / 32 px), `--ab-shadow-card` (three-layer warm lift: ring + soft blur + stronger blur), `--ab-shadow-hover`. Full palette/role list is in `DESIGN.md`.
+
+**Theme behavior** — `components/ThemeToggle.tsx` follows `prefers-color-scheme` until a visitor chooses a theme, then saves `light` or `dark` under `travel-log-theme`. The root layout applies that preference before first paint. `scripts/microsoft-auth-template.html` uses the same key and behavior for private-trip authentication pages.
 
 **Legacy scrapbook tokens** — `--ink`, `--accent-gold/coral/teal/blue/pink`, `--tape-*`, `--stamp-red`, `--bg`, `--kraft-*` still exist because old class names are reused, but the active trip inner-page look is defined by the final “Trip inner pages — mobile editorial / red-note style” block in `globals.css`.
 
@@ -66,11 +68,11 @@ Font stack: **Inter** (`--font-ui`) for all shell UI — stands in for the propr
 Composed, not written from scratch. Key classes defined in `globals.css`:
 
 **Shell (Airbnb-style)**:
-- **Header / nav**: `.site-header`, `.site-brand` (Rausch Red logo mark — rendered by `components/SiteHeader.tsx`)
+- **Header / nav**: `.site-header`, `.site-brand` (Rausch Red logo mark), `.theme-toggle` — rendered by `components/SiteHeader.tsx`
 - **Index**: `.index-wrap`, `.index-hero`, `.index-eyebrow`, `.site-title`, `.site-sub`, `.index-tagline`, `.trip-grid` (4→3→2→1 cols)
 - **Listing card**: `.trip-card` + `.tc-media` (1:1 aspect, 20px radius, three-layer shadow, hover scales image + lifts shadow) + `.tc-badge` (+`.private` for Rausch Red variant) + `.tc-body`, `.tc-title-row`, `.tc-title`, `.tc-date`, `.tc-location`, `.tc-sub`
-- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (mobile-editorial wrapper with #f5f5f0 background and 16px section rhythm)
-- **Language switch**: `.lang-switch` (pill-track group, `.active` = white pill with soft shadow)
+- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (theme-aware mobile-editorial wrapper with 16px section rhythm)
+- **Language switch**: `.lang-switch` (pill-track group, `.active` = elevated theme surface with soft shadow)
 
 **Trip content classes**:
 - **Photo frames**: `.pf` + aspect `.sq|.ls|.wd|.pt|.hero`; legacy filter/tilt classes may remain in JSX but the active style normalizes them into clean rounded image cards.
