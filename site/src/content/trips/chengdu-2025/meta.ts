@@ -11,8 +11,8 @@ export const meta: TripMeta = {
   dateRange: "2025.01.01 — 01.04",
   coverImage: img("giant-panda-sitting-by-bamboo.jpeg"),
   title: {
-    zh: "成都 · 四天三夜",
-    en: "Chengdu · Four Days, Three Nights",
+    zh: "成都 · 慢慢耍",
+    en: "Chengdu · Take It Slow",
   },
   subtitle: {
     zh: "花花、春熙路、蜀宴赋，还有吃不完的成都味道",

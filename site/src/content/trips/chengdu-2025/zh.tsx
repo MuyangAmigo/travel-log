@@ -13,7 +13,7 @@ export default function ChengduZH() {
           </div>
           <div className="cover-border">
             <div className="cover-emoji">🐼 成都旅行日记</div>
-            <h1 className="cover-title">四天三夜，慢慢耍成都</h1>
+            <h1 className="cover-title">在成都，慢慢耍</h1>
             <div className="cover-subtitle">Chengdu Travel Journal</div>
             <div className="cover-date">2025.01.01 — 01.04</div>
             <p>从春熙路一路逛到熊猫基地，在按摩、火锅气和锦江夜色里，过一个松弛的春节假期。</p>

@@ -13,7 +13,7 @@ export default function ChengduEN() {
           </div>
           <div className="cover-border">
             <div className="cover-emoji">🐼 Chengdu Diary</div>
-            <h1 className="cover-title">Four Slow Days in Chengdu</h1>
+            <h1 className="cover-title">Chengdu, Take It Slow</h1>
             <div className="cover-subtitle">Chengdu Travel Journal</div>
             <div className="cover-date">2025.01.01 — 01.04</div>
             <p>From Chunxi Road to the panda base, with massages, hotpot steam, and the Jin River lights filling a laid-back New Year escape.</p>
