@@ -8,6 +8,7 @@ import {
   derivePrivateTripPassphrase,
   isValidPrivatePasscode,
 } from "../private-trip-key.js";
+import { createPasscodeRateLimiter } from "../passcode-rate-limit.js";
 
 function corsHeaders(allowedOrigin) {
   return {
@@ -27,6 +28,7 @@ function response(status, headers, jsonBody) {
 
 export function createUnlockHandler({
   getConfig = loadConfig,
+  passcodeLimiter = createPasscodeRateLimiter(),
   verifyToken = verifyMicrosoftAccessToken,
 } = {}) {
   return async function unlock(request, context) {
@@ -76,16 +78,65 @@ export function createUnlockHandler({
       }
       authMethod = "microsoft";
       subject = payload.sub;
-    } else if (
-      isValidPrivatePasscode(
-        requestedTrip?.passcode,
-        config.privatePasscode
-      )
-    ) {
-      authMethod = "passcode";
     } else {
-      context.warn("Private journal authentication failed.");
-      return response(401, headers, { error: "Authentication failed." });
+      let throttle;
+      try {
+        throttle = await passcodeLimiter.check(
+          request,
+          config.masterPassphrase
+        );
+      } catch (error) {
+        context.error("Passcode rate-limit check failed.", error);
+        return response(503, headers, {
+          error: "Authentication service is unavailable.",
+        });
+      }
+
+      if (throttle.blocked) {
+        return response(
+          429,
+          { ...headers, "Retry-After": String(throttle.retryAfter) },
+          { error: "Too many authentication attempts." }
+        );
+      }
+
+      if (
+        isValidPrivatePasscode(
+          requestedTrip?.passcode,
+          config.privatePasscode
+        )
+      ) {
+        try {
+          await passcodeLimiter.clear(request, config.masterPassphrase);
+        } catch (error) {
+          context.error("Passcode rate-limit reset failed.", error);
+          return response(503, headers, {
+            error: "Authentication service is unavailable.",
+          });
+        }
+        authMethod = "passcode";
+      } else {
+        context.warn("Private journal authentication failed.");
+        try {
+          throttle = await passcodeLimiter.recordFailure(
+            request,
+            config.masterPassphrase
+          );
+        } catch (error) {
+          context.error("Passcode rate-limit update failed.", error);
+          return response(503, headers, {
+            error: "Authentication service is unavailable.",
+          });
+        }
+        if (throttle.blocked) {
+          return response(
+            429,
+            { ...headers, "Retry-After": String(throttle.retryAfter) },
+            { error: "Too many authentication attempts." }
+          );
+        }
+        return response(401, headers, { error: "Authentication failed." });
+      }
     }
 
     let passphrase;

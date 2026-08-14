@@ -27,7 +27,9 @@ Create a Node.js 22 Azure Function app and configure these application settings:
 
 Obtain the account's `sub` claim during a controlled local bootstrap, then set it as `ALLOWED_MICROSOFT_SUB` before exposing the Function. Microsoft documents `sub` as immutable; email and `preferred_username` claims are never used for authorization.
 
-The private passcode must not match `TRAVEL_LOG_PRIVATE_PASSWORD`. The passcode is sent only to the HTTPS Function for constant-time validation and is never embedded in the static site or used directly as an encryption key.
+The private passcode must not match `TRAVEL_LOG_PRIVATE_PASSWORD`. The passcode is sent only to the HTTPS Function for scrypt-based constant-time validation and is never embedded in the static site or used directly as an encryption key. Failed attempts are durably limited to five per source per 15-minute window in the Function app's `AzureWebJobsStorage` table account.
+
+The Microsoft callback returns its bearer token once in the private page's URL fragment. The gate removes the fragment before calling the Function and never stores the bearer token in origin-scoped Web Storage.
 
 Download the Function app publish profile and add it as the repository secret `AZURE_FUNCTION_PUBLISH_PROFILE`.
 
@@ -44,7 +46,7 @@ Add these Actions values:
 | Secret | `TRAVEL_LOG_PRIVATE_PASSCODE` | Recovery copy of the Function's separate private passcode |
 | Secret | `AZURE_FUNCTION_PUBLISH_PROFILE` | Function app publish profile XML |
 
-The GitHub Pages workflow tests and deploys the Function first, performs a real passcode-authenticated canary, and verifies that Azure and GitHub derive the same page key before it builds and deploys the site. It refuses to emit private pages if any authentication setting is missing, malformed, or out of sync.
+The GitHub Pages workflow serializes the entire promotion: it tests the API, builds the site artifact, deploys the Function, performs a real passcode-authenticated canary, verifies that Azure and GitHub derive the same page key, and only then deploys Pages. It refuses to emit private pages if any authentication setting is missing, malformed, or out of sync.
 
 ## Local production build
 

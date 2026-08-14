@@ -13,7 +13,7 @@ A bilingual (zh/en) travel journal with a **two-layer visual system**:
 - **`site/`** — Next.js 16 App Router · React 19 · TypeScript · Tailwind v4 · static export (`output: "export"`)
 - **`scripts/upload-trip-images.sh`** — uploads a trip's photos to `junjieblob` blob storage
 - **`scripts/encrypt-private-trips.mjs`** — post-build step that AES-encrypts any trip marked `private: true` using staticrypt and injects the Microsoft authentication gate; runs as part of `npm run build`
-- **`api/`** — Azure Functions API that validates Microsoft personal-account access tokens and releases the private-page passphrase only to the configured account
+- **`api/`** — Azure Functions API that validates the pinned Microsoft personal account or rate-limited private passcode before releasing a page-specific key
 - **`.github/workflows/github-pages.yml`** — builds `site/out` and deploys to GitHub Pages on push to `main`
 
 Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup and static export pattern. CI runs Node 22.
@@ -89,8 +89,8 @@ Lightweight. Locale lives in the URL segment (`/[locale]/...`). `locales = ["zh"
 A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a Rausch-Red "Private" pill badge overlaid on the cover image), but clicking it lands on a dual Microsoft personal-account / private-passcode gate. The generated HTML is AES-encrypted at build time. The flow:
 
 1. `npm run build` runs `next build`, then `scripts/encrypt-private-trips.mjs` regex-scans every `site/src/content/trips/*/meta.ts` for `private: true`, finds the rendered `site/out/<locale>/trips/<slug>/index.html` for each slug × locale, overwrites it with a staticrypt-encrypted payload, and removes the route's plaintext React Server Component `.txt` payloads.
-2. The gate either starts Microsoft authorization-code flow with PKCE through `/auth/callback/` and requests the custom `PrivateJournal.Read` scope, or sends the entered passcode directly to the HTTPS Function.
-3. The Azure Function validates the Microsoft consumer token and configured identity, or constant-time compares the separate `TRAVEL_LOG_PRIVATE_PASSCODE`, before deriving a locale-and-trip-specific key from `TRAVEL_LOG_PRIVATE_PASSWORD`. Neither reusable credential is returned to the browser.
+2. The gate either starts Microsoft authorization-code flow with PKCE through `/auth/callback/` and requests the custom `PrivateJournal.Read` scope, or sends the entered passcode directly to the HTTPS Function. The callback carries the access token once in the URL fragment; the encrypted page removes it from the URL immediately and never retains it in Web Storage.
+3. The Azure Function validates the Microsoft consumer token and configured identity, or checks the durably rate-limited `TRAVEL_LOG_PRIVATE_PASSCODE`, before deriving a locale-and-trip-specific key from `TRAVEL_LOG_PRIVATE_PASSWORD`. Neither reusable credential is returned to the browser.
 4. The build script aborts if the password, Microsoft client ID, callback URL, or authentication API URL is missing or malformed. The salt in `site/.staticrypt.json` remains committed so encrypted output is stable.
 
 **Caveat:** images live in the public blob container, so cover images and any blob URLs referenced inside a private trip are still directly reachable. Encryption covers the trip page's text + layout only — if image privacy matters, that's a separate change (private container + SAS tokens).

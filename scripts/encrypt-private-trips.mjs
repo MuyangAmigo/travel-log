@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Post-build step: AES-encrypt the HTML of trips marked `private: true`.
-// The passphrase remains server-side and is released by the authentication API
-// only after it validates the authorized Microsoft personal account.
+// The master passphrase remains server-side. The authentication API releases
+// only a page-specific key after Microsoft-account or passcode validation.
 //
 // Private slugs are discovered by regex-scanning each trip's meta.ts for
 // `private: true` — avoids needing ts-node / tsconfig-paths to import the
@@ -18,7 +18,7 @@ import {
 } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 import { derivePrivateTripPassphrase } from "../api/src/private-trip-key.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -48,7 +48,7 @@ function findPrivateSlugs() {
   return slugs;
 }
 
-const password = process.env.TRAVEL_LOG_PRIVATE_PASSWORD;
+const password = process.env.TRAVEL_LOG_PRIVATE_PASSWORD?.trim();
 const microsoftClientId =
   process.env.NEXT_PUBLIC_MICROSOFT_CLIENT_ID?.trim();
 const authApiUrl = process.env.TRAVEL_LOG_AUTH_API_URL?.trim();
@@ -120,8 +120,11 @@ function injectAuthConfig(htmlPath, { locale, slug }) {
 function removePlaintextRoutePayloads(routeDirectory) {
   let removed = 0;
   for (const entry of readdirSync(routeDirectory, { withFileTypes: true })) {
-    if (entry.isFile() && entry.name.endsWith(".txt")) {
-      rmSync(join(routeDirectory, entry.name));
+    const entryPath = join(routeDirectory, entry.name);
+    if (entry.isDirectory()) {
+      removed += removePlaintextRoutePayloads(entryPath);
+    } else if (entry.isFile() && entry.name.endsWith(".txt")) {
+      rmSync(entryPath);
       removed++;
     }
   }
@@ -148,37 +151,38 @@ try {
     for (const locale of LOCALES) {
       const htmlPath = join(OUT_DIR, locale, "trips", slug, "index.html");
       if (!existsSync(htmlPath)) {
-        console.warn(`[encrypt] missing (skipping): ${htmlPath}`);
-        continue;
+        throw new Error(`[encrypt] missing private route HTML: ${htmlPath}`);
       }
       const tmpDir = join(tmpRoot, `${locale}-${slug}`);
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
-      execSync(
+      execFileSync(
+        "npx",
         [
-          "npx --yes staticrypt",
-          JSON.stringify(htmlPath),
+          "--yes",
+          "staticrypt",
+          htmlPath,
           "--short",
           "--remember=false",
           "--template",
-          JSON.stringify(TEMPLATE_PATH),
+          TEMPLATE_PATH,
           "--template-title",
-          JSON.stringify("Private Travel Log"),
+          "Private Travel Log",
           "--template-instructions",
-          JSON.stringify("使用 Microsoft 个人账号或私密口令继续阅读。Sign in with Microsoft or use the private passcode."),
+          "使用 Microsoft 个人账号或私密口令继续阅读。Sign in with Microsoft or use the private passcode.",
           "--template-placeholder",
-          JSON.stringify("输入密码 / Password"),
+          "输入密码 / Password",
           "--template-button",
-          JSON.stringify("Unlock entry"),
+          "Unlock entry",
           "--template-error",
-          JSON.stringify("密码不对，请再试一次。"),
+          "密码不对，请再试一次。",
           "--template-toggle-show",
-          JSON.stringify("显示密码"),
+          "显示密码",
           "--template-toggle-hide",
-          JSON.stringify("隐藏密码"),
+          "隐藏密码",
           "-d",
-          JSON.stringify(tmpDir),
-        ].join(" "),
+          tmpDir,
+        ],
         {
           stdio: "inherit",
           env: {
@@ -193,7 +197,13 @@ try {
       );
       copyFileSync(join(tmpDir, "index.html"), htmlPath);
       injectAuthConfig(htmlPath, { locale, slug });
-      removedPayloadCount += removePlaintextRoutePayloads(dirname(htmlPath));
+      const routePayloadCount = removePlaintextRoutePayloads(dirname(htmlPath));
+      if (routePayloadCount === 0) {
+        throw new Error(
+          `[encrypt] no plaintext route payloads found for ${locale}/trips/${slug}; refusing to deploy`
+        );
+      }
+      removedPayloadCount += routePayloadCount;
       encryptedCount++;
     }
   }

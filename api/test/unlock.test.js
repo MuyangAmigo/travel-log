@@ -32,6 +32,12 @@ function context() {
   };
 }
 
+const passcodeLimiter = {
+  check: async () => ({ blocked: false, retryAfter: 0 }),
+  clear: async () => {},
+  recordFailure: async () => ({ blocked: false, retryAfter: 0 }),
+};
+
 test("returns the passphrase only to the authorized account", async () => {
   const handler = createUnlockHandler({
     getConfig: () => config,
@@ -71,6 +77,7 @@ test("rejects another valid Microsoft account", async () => {
 test("returns the page key for the valid private passcode", async () => {
   const handler = createUnlockHandler({
     getConfig: () => config,
+    passcodeLimiter,
     verifyToken: async () => {
       throw new Error("Microsoft verification should not run.");
     },
@@ -92,12 +99,50 @@ test("returns the page key for the valid private passcode", async () => {
 });
 
 test("rejects an invalid private passcode", async () => {
-  const handler = createUnlockHandler({ getConfig: () => config });
+  const handler = createUnlockHandler({
+    getConfig: () => config,
+    passcodeLimiter,
+  });
   const result = await handler(
     request({ authorization: "", passcode: "wrong-passcode" }),
     context()
   );
   assert.equal(result.status, 401);
+  assert.equal(result.jsonBody.passphrase, undefined);
+});
+
+test("returns retry guidance when passcode attempts are throttled", async () => {
+  const handler = createUnlockHandler({
+    getConfig: () => config,
+    passcodeLimiter: {
+      ...passcodeLimiter,
+      check: async () => ({ blocked: true, retryAfter: 321 }),
+    },
+  });
+  const result = await handler(
+    request({ authorization: "", passcode: "wrong-passcode" }),
+    context()
+  );
+  assert.equal(result.status, 429);
+  assert.equal(result.headers["Retry-After"], "321");
+  assert.equal(result.jsonBody.passphrase, undefined);
+});
+
+test("fails closed when durable passcode throttling is unavailable", async () => {
+  const handler = createUnlockHandler({
+    getConfig: () => config,
+    passcodeLimiter: {
+      ...passcodeLimiter,
+      check: async () => {
+        throw new Error("storage unavailable");
+      },
+    },
+  });
+  const result = await handler(
+    request({ authorization: "", passcode: "wrong-passcode" }),
+    context()
+  );
+  assert.equal(result.status, 503);
   assert.equal(result.jsonBody.passphrase, undefined);
 });
 

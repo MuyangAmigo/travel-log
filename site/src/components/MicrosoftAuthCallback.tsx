@@ -32,7 +32,11 @@ export default function MicrosoftAuthCallback() {
         const state = parameters.get("state");
         if (!code || !state) throw new Error("The Microsoft sign-in response is incomplete.");
 
-        const returnUrl = await completeMicrosoftAuthentication(code, state);
+        const authentication = await completeMicrosoftAuthentication(code, state);
+        const returnUrl = new URL(authentication.returnUrl);
+        returnUrl.hash = new URLSearchParams({
+          microsoft_access_token: authentication.accessToken,
+        }).toString();
         window.location.replace(returnUrl);
       } catch (error) {
         console.error("Microsoft authentication failed", error);

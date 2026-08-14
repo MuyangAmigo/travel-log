@@ -12,6 +12,7 @@
     "test": "node --test"
   },
   "dependencies": {
+    "@azure/data-tables": "^13.3.2",
     "@azure/functions": "^4.7.2",
     "jose": "^6.1.0"
   }

@@ -255,6 +255,12 @@
         gap: 10px;
       }
 
+      .passcode-label {
+        color: #4b4b4b;
+        font-size: 13px;
+        font-weight: 750;
+      }
+
       .passcode-input {
         width: 100%;
         min-height: 52px;
@@ -383,6 +389,9 @@
           </button>
           <div class="auth-divider"><span>或者 / OR</span></div>
           <form id="passcode-form" class="passcode-form">
+            <label class="passcode-label" for="private-passcode">
+              私密口令 / Private passcode
+            </label>
             <input
               id="private-passcode"
               class="passcode-input"
@@ -410,7 +419,6 @@
       const authCallbackUrl = __TRAVEL_LOG_AUTH_CALLBACK_URL__;
       const journalLocale = __TRAVEL_LOG_LOCALE__;
       const journalSlug = __TRAVEL_LOG_SLUG__;
-      const accessTokenStorageKey = "travel-log-microsoft-access-token";
       const staticrypt = staticryptInitiator.init(staticryptConfig, {
         rememberExpirationKey: "unused_staticrypt_expiration",
         rememberPassphraseKey: "unused_staticrypt_passphrase",
@@ -438,25 +446,17 @@
         signInButton.focus();
       }
 
-      function readAccessToken() {
-        try {
-          const stored = JSON.parse(
-            window.sessionStorage.getItem(accessTokenStorageKey)
+      function consumeMicrosoftAccessToken() {
+        const fragment = new URLSearchParams(window.location.hash.slice(1));
+        const accessToken = fragment.get("microsoft_access_token");
+        if (accessToken) {
+          window.history.replaceState(
+            null,
+            document.title,
+            `${window.location.pathname}${window.location.search}`
           );
-          if (
-            !stored ||
-            typeof stored.accessToken !== "string" ||
-            typeof stored.expiresAt !== "number" ||
-            stored.expiresAt <= Date.now()
-          ) {
-            window.sessionStorage.removeItem(accessTokenStorageKey);
-            return null;
-          }
-          return stored.accessToken;
-        } catch {
-          window.sessionStorage.removeItem(accessTokenStorageKey);
-          return null;
         }
+        return accessToken;
       }
 
       async function unlockPage({ accessToken, passcode }) {
@@ -478,9 +478,6 @@
           }),
         });
 
-        if (accessToken && (response.status === 401 || response.status === 403)) {
-          window.sessionStorage.removeItem(accessTokenStorageKey);
-        }
         if (!response.ok) {
           if (accessToken && response.status === 403) {
             throw new Error("此 Microsoft 账号没有阅读权限。This account is not authorized.");
@@ -490,6 +487,12 @@
               accessToken
                 ? "登录已过期，请重新登录。Your sign-in has expired."
                 : "口令不正确，请重试。The passcode is incorrect."
+            );
+          }
+          if (response.status === 429) {
+            const retryAfter = response.headers.get("Retry-After");
+            throw new Error(
+              `尝试次数过多，请稍后重试。Too many attempts; retry in ${retryAfter ?? "a few"} seconds.`
             );
           }
           throw new Error("认证服务暂时不可用，请稍后重试。Authentication is unavailable.");
@@ -510,7 +513,7 @@
       }
 
       window.addEventListener("load", async function () {
-        const accessToken = readAccessToken();
+        const accessToken = consumeMicrosoftAccessToken();
         if (!accessToken) {
           showGate();
           return;

@@ -13,6 +13,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}
+  cancel-in-progress: false
+
 jobs:
   auth-api-test:
     name: Test authentication API
@@ -39,7 +43,7 @@ jobs:
   auth-api-deploy:
     name: Deploy authentication API
     if: github.event_name != 'pull_request'
-    needs: auth-api-test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -76,13 +80,7 @@ jobs:
 
   build:
     name: Build
-    if: >-
-      always() &&
-      needs.auth-api-test.result == 'success' &&
-      (github.event_name == 'pull_request' || needs.auth-api-deploy.result == 'success')
-    needs:
-      - auth-api-test
-      - auth-api-deploy
+    needs: auth-api-test
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -124,7 +122,7 @@ jobs:
   deploy:
     name: Deploy
     if: github.event_name != 'pull_request'
-    needs: build
+    needs: auth-api-deploy
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -132,9 +130,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    concurrency:
-      group: pages
-      cancel-in-progress: false
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

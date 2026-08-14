@@ -2,7 +2,6 @@
 
 import { siteBasePath } from "@/lib/base-path";
 
-export const ACCESS_TOKEN_STORAGE_KEY = "travel-log-microsoft-access-token";
 const PENDING_AUTH_STORAGE_KEY = "travel-log-microsoft-pkce";
 const CONSUMER_TENANT_ID = "9188040d-6c67-4c5b-b112-36a304b66dad";
 const AUTHORIZATION_ENDPOINT =
@@ -23,7 +22,6 @@ interface TokenResponse {
   access_token?: string;
   error?: string;
   error_description?: string;
-  expires_in?: number;
   id_token?: string;
 }
 
@@ -184,12 +182,8 @@ export async function completeMicrosoftAuthentication(
     throw new Error("The Microsoft sign-in response could not be verified.");
   }
 
-  const expiresAt =
-    Date.now() + Math.max(0, (tokenResponse.expires_in ?? 0) - 30) * 1000;
-  window.sessionStorage.setItem(
-    ACCESS_TOKEN_STORAGE_KEY,
-    JSON.stringify({ accessToken: tokenResponse.access_token, expiresAt })
-  );
-
-  return getSafeReturnUrl(pending.returnUrl);
+  return {
+    accessToken: tokenResponse.access_token,
+    returnUrl: getSafeReturnUrl(pending.returnUrl),
+  };
 }
