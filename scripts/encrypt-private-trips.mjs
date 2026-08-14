@@ -19,7 +19,7 @@ import {
 } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -105,31 +105,33 @@ try {
       const tmpDir = join(tmpRoot, `${locale}-${slug}`);
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
-      execSync(
+      execFileSync(
+        "npx",
         [
-          "npx --yes staticrypt",
-          JSON.stringify(htmlPath),
+          "--yes",
+          "staticrypt",
+          htmlPath,
           "--short",
           "--remember=false",
           "--template",
-          JSON.stringify(TEMPLATE_PATH),
+          TEMPLATE_PATH,
           "--template-title",
-          JSON.stringify("Private Travel Log"),
+          "Private Travel Log",
           "--template-instructions",
-          JSON.stringify("输入密码继续阅读这篇私密游记。Enter the shared password to continue."),
+          "输入密码继续阅读这篇私密游记。Enter the shared password to continue.",
           "--template-placeholder",
-          JSON.stringify("输入密码 / Password"),
+          "输入密码 / Password",
           "--template-button",
-          JSON.stringify("Unlock entry"),
+          "Unlock entry",
           "--template-error",
-          JSON.stringify("密码不对，请再试一次。"),
+          "密码不对，请再试一次。",
           "--template-toggle-show",
-          JSON.stringify("显示密码"),
+          "显示密码",
           "--template-toggle-hide",
-          JSON.stringify("隐藏密码"),
+          "隐藏密码",
           "-d",
-          JSON.stringify(tmpDir),
-        ].join(" "),
+          tmpDir,
+        ],
         {
           stdio: "inherit",
           env: { ...process.env, STATICRYPT_PASSWORD: password },
