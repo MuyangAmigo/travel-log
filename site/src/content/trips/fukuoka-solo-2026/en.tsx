@@ -12,7 +12,7 @@ type PhotoProps = {
 function Photo({ file, alt, caption, shape = "pt" }: PhotoProps) {
   return (
     <div className="pf">
-      <img src={img(file)} alt={alt} className={shape} />
+      <img src={img(file)} alt={alt} className={shape} loading="lazy" decoding="async" />
       <div className="cap">{caption}</div>
     </div>
   );
@@ -120,7 +120,7 @@ export default function FukuokaSoloEN() {
         </div>
 
         <div className="jtxt">
-          <p>I had overdone the exercise the day before and hadn&apos;t slept soundly either. In the morning I drowsily scrolled through Microsoft Build news, then did not leave home until after ten. A ¥40 taxi took me to the Jinghong Road station for the Airport Link; the train was almost perfectly timed, and I reached Pudong Airport in a little over twenty minutes.</p>
+          <p>I had overdone the exercise the day before and hadn&apos;t slept soundly either. In the morning I drowsily scrolled through Microsoft Build news, then did not leave home until after ten. An RMB 40 taxi took me to the Jinghong Road station for the Airport Link; the train was almost perfectly timed, and I reached Pudong Airport in a little over twenty minutes.</p>
           <p>By 11:45, I was seated in Lounge 170. The hot dishes, salads, pastries, and fruit were more plentiful than I had expected, and I grabbed water, a sandwich, and coffee after eating. I had not thought through Fukuoka in detail. I was on my own, after all—I could figure it out once I got there.</p>
         </div>
 

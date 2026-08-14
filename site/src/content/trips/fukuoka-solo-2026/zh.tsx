@@ -12,7 +12,7 @@ type PhotoProps = {
 function Photo({ file, alt, caption, shape = "pt" }: PhotoProps) {
   return (
     <div className="pf">
-      <img src={img(file)} alt={alt} className={shape} />
+      <img src={img(file)} alt={alt} className={shape} loading="lazy" decoding="async" />
       <div className="cap">{caption}</div>
     </div>
   );
