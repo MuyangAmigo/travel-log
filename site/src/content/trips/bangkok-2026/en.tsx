@@ -61,12 +61,12 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_1721.jpeg")} alt="Airport lounge soup" className="pt" />
+              <img src={img("IMG_1721.jpeg")} alt="Airport lounge soup" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Noodles &amp; wontons at the lounge</div>
             </div>
             <div className="pf fn tr-tilt" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_1722.jpeg")} alt="Peace sign airplane" className="pt" />
+              <img src={img("IMG_1722.jpeg")} alt="Peace sign airplane" className="pt" loading="lazy" decoding="async" />
               <div className="cap">✨ Let&apos;s go Bangkok!</div>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function BangkokEN() {
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tl" />
               <div className="tape tg t-tr" />
-              <img src={img("IMG_1725.jpeg")} alt="Bangkok skyline" className="hero" />
+              <img src={img("IMG_1725.jpeg")} alt="Bangkok skyline" className="hero" loading="lazy" decoding="async" />
               <div className="cap">Bangkok from the hotel window — that skyline, right away</div>
             </div>
           </div>
@@ -130,12 +130,12 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt8">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("IMG_1733.jpeg")} alt="Khao Soi" className="sq" />
+              <img src={img("IMG_1733.jpeg")} alt="Khao Soi" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Khao Soi 🍜 rich curry broth</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1731.jpeg")} alt="Ginger Farm" className="sq" />
+              <img src={img("IMG_1731.jpeg")} alt="Ginger Farm" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Ginger Farm Kitchen</div>
             </div>
           </div>
@@ -147,9 +147,9 @@ export default function BangkokEN() {
           </div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fg"><img src={img("IMG_1739.jpeg")} alt="Rama VI" className="sq" /><div className="cap">Statue of Rama VI</div></div>
-            <div className="pf fc"><img src={img("IMG_1747.jpeg")} alt="Lumpini lake" className="sq" /><div className="cap">An urban oasis 🏙️</div></div>
-            <div className="pf fw"><img src={img("IMG_1751.jpeg")} alt="Monitor lizard" className="sq" /><div className="cap">Monitor lizard sighting! 🦎</div></div>
+            <div className="pf fg"><img src={img("IMG_1739.jpeg")} alt="Rama VI" className="sq" loading="lazy" decoding="async" /><div className="cap">Statue of Rama VI</div></div>
+            <div className="pf fc"><img src={img("IMG_1747.jpeg")} alt="Lumpini lake" className="sq" loading="lazy" decoding="async" /><div className="cap">An urban oasis 🏙️</div></div>
+            <div className="pf fw"><img src={img("IMG_1751.jpeg")} alt="Monitor lizard" className="sq" loading="lazy" decoding="async" /><div className="cap">Monitor lizard sighting! 🦎</div></div>
           </div>
 
           <div className="nbox mt12">
@@ -174,8 +174,8 @@ export default function BangkokEN() {
           </div>
 
           <div className="pgrid g2">
-            <div className="pf fs"><img src={img("IMG_1767.jpeg")} alt="BACC spiral" className="ls" /><div className="cap">Inside the BACC spiral</div></div>
-            <div className="pf fn"><img src={img("IMG_1784.jpeg")} alt="Siam night" className="ls" /><div className="cap">Bangkok at night</div></div>
+            <div className="pf fs"><img src={img("IMG_1767.jpeg")} alt="BACC spiral" className="ls" loading="lazy" decoding="async" /><div className="cap">Inside the BACC spiral</div></div>
+            <div className="pf fn"><img src={img("IMG_1784.jpeg")} alt="Siam night" className="ls" loading="lazy" decoding="async" /><div className="cap">Bangkok at night</div></div>
           </div>
 
           <div className="dv mt16 mb12"><span>🌌</span></div>
@@ -187,12 +187,12 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn tl-tilt" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("IMG_1813.jpeg")} alt="Song Song" className="ls" />
+              <img src={img("IMG_1813.jpeg")} alt="Song Song" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Song Song 🦀 queue was brutal</div>
             </div>
             <div className="pf fw tr-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1812.jpeg")} alt="Basil squid" className="ls" />
+              <img src={img("IMG_1812.jpeg")} alt="Basil squid" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Jae Keang basil sea bass 🤩</div>
             </div>
           </div>
@@ -203,8 +203,8 @@ export default function BangkokEN() {
           </div>
 
           <div className="pgrid g2 mt16" style={{ maxWidth: 520, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1800.jpeg")} alt="Milk Boy" /><div className="pol-t">That packaging</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1794.jpeg")} alt="Cow Moo Moo" /><div className="pol-t">Dragon mural 🐉</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1800.jpeg")} alt="Milk Boy" loading="lazy" decoding="async" /><div className="pol-t">That packaging</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1794.jpeg")} alt="Cow Moo Moo" loading="lazy" decoding="async" /><div className="pol-t">Dragon mural 🐉</div></div>
           </div>
 
           <div className="spacer" />
@@ -242,8 +242,8 @@ export default function BangkokEN() {
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 560, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1828.jpeg")} alt="Tom Yum" /><div className="pol-t">Tom Yum 🔥</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1812.jpeg")} alt="Stir fry" /><div className="pol-t">Basil sea bass 🤩</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1828.jpeg")} alt="Tom Yum" loading="lazy" decoding="async" /><div className="pol-t">Tom Yum 🔥</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1812.jpeg")} alt="Stir fry" loading="lazy" decoding="async" /><div className="pol-t">Basil sea bass 🤩</div></div>
           </div>
 
           <div className="dv mt20 mb12"><span>🏛️</span></div>
@@ -256,15 +256,15 @@ export default function BangkokEN() {
             <div className="pf fg" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1854.jpeg")} alt="Golden Buddha" className="ls" style={{ objectPosition: "center 20%" }} />
+              <img src={img("IMG_1854.jpeg")} alt="Golden Buddha" className="ls" style={{ objectPosition: "center 20%" }} loading="lazy" decoding="async" />
               <div className="cap">The river-side view — the most stunning moment of the trip</div>
             </div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fg"><img src={img("IMG_1905.jpeg")} alt="Buddha head" className="sq" /><div className="cap">Buddha&apos;s head behind the eaves</div></div>
-            <div className="pf fg"><img src={img("IMG_1969.jpeg")} alt="Temple spires" className="sq" /><div className="cap">Gilded spires</div></div>
-            <div className="pf fw"><img src={img("IMG_1975.jpeg")} alt="Stilt house" className="sq" /><div className="cap">Riverside stilt houses</div></div>
+            <div className="pf fg"><img src={img("IMG_1905.jpeg")} alt="Buddha head" className="sq" loading="lazy" decoding="async" /><div className="cap">Buddha&apos;s head behind the eaves</div></div>
+            <div className="pf fg"><img src={img("IMG_1969.jpeg")} alt="Temple spires" className="sq" loading="lazy" decoding="async" /><div className="cap">Gilded spires</div></div>
+            <div className="pf fw"><img src={img("IMG_1975.jpeg")} alt="Stilt house" className="sq" loading="lazy" decoding="async" /><div className="cap">Riverside stilt houses</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -300,20 +300,20 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1993.jpeg")} alt="Skyline" className="sq" />
+              <img src={img("IMG_1993.jpeg")} alt="Skyline" className="sq" loading="lazy" decoding="async" />
               <div className="cap">The Bangkok skyline from the top</div>
             </div>
             <div className="pf fv" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1998.jpeg")} alt="Molly" className="sq" />
+              <img src={img("IMG_1998.jpeg")} alt="Molly" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Giant Molly 👑</div>
             </div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fv"><img src={img("IMG_1992.jpeg")} alt="Popbean" className="sq" /><div className="cap">Popbean spiral 🌀</div></div>
-            <div className="pf fw"><img src={img("IMG_2019.jpeg")} alt="Tonkatsu" className="sq" /><div className="cap">Wako tonkatsu 🍛</div></div>
-            <div className="pf fc"><img src={img("IMG_2004.jpeg")} alt="Mirror pillars" className="sq" /><div className="cap">Mirror pillar installation ✨</div></div>
+            <div className="pf fv"><img src={img("IMG_1992.jpeg")} alt="Popbean" className="sq" loading="lazy" decoding="async" /><div className="cap">Popbean spiral 🌀</div></div>
+            <div className="pf fw"><img src={img("IMG_2019.jpeg")} alt="Tonkatsu" className="sq" loading="lazy" decoding="async" /><div className="cap">Wako tonkatsu 🍛</div></div>
+            <div className="pf fc"><img src={img("IMG_2004.jpeg")} alt="Mirror pillars" className="sq" loading="lazy" decoding="async" /><div className="cap">Mirror pillar installation ✨</div></div>
           </div>
 
           <div className="dv mt16 mb12"><span>🛍️</span></div>
@@ -360,12 +360,12 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tl" />
-              <img src={img("IMG_2028.jpeg")} alt="Pool" className="ls" />
+              <img src={img("IMG_2028.jpeg")} alt="Pool" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Rooftop pool 🏊</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_2029.jpeg")} alt="Room view" className="ls" />
+              <img src={img("IMG_2029.jpeg")} alt="Room view" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Bangkok from the room</div>
             </div>
           </div>
@@ -373,9 +373,9 @@ export default function BangkokEN() {
           <div className="dv mt20 mb12"><span>🍜</span></div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fw"><img src={img("IMG_2037.jpeg")} alt="Crab" className="sq" /><div className="cap">Glass noodle crab pot 🤩</div></div>
-            <div className="pf fw"><img src={img("IMG_2035.jpeg")} alt="Curry" className="sq" /><div className="cap">Green curry 🌿</div></div>
-            <div className="pf fw"><img src={img("IMG_2040.jpeg")} alt="Coffee" className="sq" /><div className="cap">Bean iced coffee ☕</div></div>
+            <div className="pf fw"><img src={img("IMG_2037.jpeg")} alt="Crab" className="sq" loading="lazy" decoding="async" /><div className="cap">Glass noodle crab pot 🤩</div></div>
+            <div className="pf fw"><img src={img("IMG_2035.jpeg")} alt="Curry" className="sq" loading="lazy" decoding="async" /><div className="cap">Green curry 🌿</div></div>
+            <div className="pf fw"><img src={img("IMG_2040.jpeg")} alt="Coffee" className="sq" loading="lazy" decoding="async" /><div className="cap">Bean iced coffee ☕</div></div>
           </div>
 
           <div className="rbox mt20">
@@ -410,7 +410,7 @@ export default function BangkokEN() {
 
           <div className="sgrid mt16">
             <div className="sc">
-              <img src={img("IMG_2081.jpeg")} alt="Good Goods" />
+              <img src={img("IMG_2081.jpeg")} alt="Good Goods" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Good Goods gifts</h5>
                 <div className="pr">3,770 THB</div>
@@ -418,7 +418,7 @@ export default function BangkokEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2063.jpeg")} alt="Panpuri" />
+              <img src={img("IMG_2063.jpeg")} alt="Panpuri" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Panpuri rollerballs</h5>
                 <div className="pr">3,180 THB</div>
@@ -426,7 +426,7 @@ export default function BangkokEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2069.jpeg")} alt="Pop Mart" />
+              <img src={img("IMG_2069.jpeg")} alt="Pop Mart" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Pop Mart blind boxes</h5>
                 <div className="pr">1,780 THB</div>
@@ -434,7 +434,7 @@ export default function BangkokEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2070.jpeg")} alt="Perfumes" />
+              <img src={img("IMG_2070.jpeg")} alt="Perfumes" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Fragrance collection</h5>
                 <div className="pr">2,695 THB</div>
@@ -453,7 +453,7 @@ export default function BangkokEN() {
             <div className="pf fs" style={{ padding: 8, position: "relative" }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("IMG_2054.jpeg")} alt="Towel elephant" className="pt" />
+              <img src={img("IMG_2054.jpeg")} alt="Towel elephant" className="pt" loading="lazy" decoding="async" />
               <div className="cap" style={{ fontSize: 18, marginTop: 6 }}>🐘 Towel elephant — MVP of the trip</div>
             </div>
           </div>
@@ -481,12 +481,12 @@ export default function BangkokEN() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_2103.jpeg")} alt="Breakfast" className="sq" />
+              <img src={img("IMG_2103.jpeg")} alt="Breakfast" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Final breakfast (one star)</div>
             </div>
             <div className="pf fs tr-tilt" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("IMG_2110.jpeg")} alt="Elephant bye" className="sq" />
+              <img src={img("IMG_2110.jpeg")} alt="Elephant bye" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Bye little elephant 👋</div>
             </div>
           </div>

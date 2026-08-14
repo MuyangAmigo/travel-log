@@ -35,7 +35,7 @@ export default function ShaoxingZH() {
 
           <div className="pgrid g1">
             <div className="pf fc">
-              <img src={img("traditional-water-town-mural.jpeg")} alt="描绘绍兴水乡街巷的水墨壁画" className="hero" />
+              <img src={img("traditional-water-town-mural.jpeg")} alt="描绘绍兴水乡街巷的水墨壁画" className="hero" loading="lazy" decoding="async" />
               <div className="cap">白墙、黛瓦、水巷——旅程先从一幅江南画面开始</div>
             </div>
           </div>
@@ -67,16 +67,16 @@ export default function ShaoxingZH() {
 
           <div className="pgrid g12">
             <div className="pf fc">
-              <img src={img("traditional-canal-boats-alley.jpeg")} alt="绍兴窄河道里依次驶过的乌篷船" className="pt" />
+              <img src={img("traditional-canal-boats-alley.jpeg")} alt="绍兴窄河道里依次驶过的乌篷船" className="pt" loading="lazy" decoding="async" />
               <div className="cap">窄窄水巷里，乌篷船一艘接一艘</div>
             </div>
             <div className="pgrid g1">
               <div className="pf fw">
-                <img src={img("hand-adjusting-world-map-art.jpeg")} alt="鲁迅故里街区里的互动艺术装置" className="sq" />
+                <img src={img("hand-adjusting-world-map-art.jpeg")} alt="鲁迅故里街区里的互动艺术装置" className="sq" loading="lazy" decoding="async" />
                 <div className="cap">旧街里的小巧思</div>
               </div>
               <div className="pf fn">
-                <img src={img("person-posing-with-blue-statue.jpeg")} alt="游客在鲁迅故里蓝衣人物雕塑旁留影" className="sq" />
+                <img src={img("person-posing-with-blue-statue.jpeg")} alt="游客在鲁迅故里蓝衣人物雕塑旁留影" className="sq" loading="lazy" decoding="async" />
                 <div className="cap">和蓝衣人物雕塑留一张纪念照</div>
               </div>
             </div>
@@ -113,12 +113,12 @@ export default function ShaoxingZH() {
           </div>
 
           <div className="pgrid g3 mt16">
-            <div className="pf fw"><img src={img("mushroom-tofu-chicken-stirfry.jpeg")} alt="菌菇豆腐鸡肉小炒" className="sq" /><div className="cap">菌菇豆腐鸡肉</div></div>
-            <div className="pf fn"><img src={img("spicy-seafood-hot-pot.jpeg")} alt="红汤海鲜锅" className="sq" /><div className="cap">热辣海鲜锅</div></div>
-            <div className="pf fc"><img src={img("steamed-square-rice-cakes.jpeg")} alt="方形蒸糕" className="sq" /><div className="cap">软糯蒸糕</div></div>
-            <div className="pf fs"><img src={img("creamy-vegetable-seafood-soup.jpeg")} alt="蔬菜海鲜浓汤" className="sq" /><div className="cap">蔬菜海鲜浓汤</div></div>
-            <div className="pf fw"><img src={img("char-siu-bao-buns.jpeg")} alt="一笼叉烧包" className="sq" /><div className="cap">叉烧包</div></div>
-            <div className="pf fn"><img src={img("tofu-and-pickled-mustard-stew.jpeg")} alt="雪菜豆腐煲" className="sq" /><div className="cap">雪菜豆腐煲</div></div>
+            <div className="pf fw"><img src={img("mushroom-tofu-chicken-stirfry.jpeg")} alt="菌菇豆腐鸡肉小炒" className="sq" loading="lazy" decoding="async" /><div className="cap">菌菇豆腐鸡肉</div></div>
+            <div className="pf fn"><img src={img("spicy-seafood-hot-pot.jpeg")} alt="红汤海鲜锅" className="sq" loading="lazy" decoding="async" /><div className="cap">热辣海鲜锅</div></div>
+            <div className="pf fc"><img src={img("steamed-square-rice-cakes.jpeg")} alt="方形蒸糕" className="sq" loading="lazy" decoding="async" /><div className="cap">软糯蒸糕</div></div>
+            <div className="pf fs"><img src={img("creamy-vegetable-seafood-soup.jpeg")} alt="蔬菜海鲜浓汤" className="sq" loading="lazy" decoding="async" /><div className="cap">蔬菜海鲜浓汤</div></div>
+            <div className="pf fw"><img src={img("char-siu-bao-buns.jpeg")} alt="一笼叉烧包" className="sq" loading="lazy" decoding="async" /><div className="cap">叉烧包</div></div>
+            <div className="pf fn"><img src={img("tofu-and-pickled-mustard-stew.jpeg")} alt="雪菜豆腐煲" className="sq" loading="lazy" decoding="async" /><div className="cap">雪菜豆腐煲</div></div>
           </div>
 
           <div className="nbox mt20">
@@ -141,13 +141,13 @@ export default function ShaoxingZH() {
           </div>
 
           <div className="pgrid g2">
-            <div className="pf fw"><img src={img("kuaijishan-lanting-display.jpeg")} alt="会稽山兰亭序主题景观" className="ls" /><div className="cap">从《兰亭集序》的故事走进景区</div></div>
-            <div className="pf fc"><img src={img("arched-bridge-over-river.jpeg")} alt="兰亭山水间横跨河面的石拱桥" className="ls" /><div className="cap">远山、流水与一座石桥</div></div>
+            <div className="pf fw"><img src={img("kuaijishan-lanting-display.jpeg")} alt="会稽山兰亭序主题景观" className="ls" loading="lazy" decoding="async" /><div className="cap">从《兰亭集序》的故事走进景区</div></div>
+            <div className="pf fc"><img src={img("arched-bridge-over-river.jpeg")} alt="兰亭山水间横跨河面的石拱桥" className="ls" loading="lazy" decoding="async" /><div className="cap">远山、流水与一座石桥</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fn"><img src={img("goose-pond-stone-tablet.jpeg")} alt="竹林前的鹅池石碑亭" className="pt" /><div className="cap">竹林里的鹅池碑亭</div></div>
-            <div className="pf fs"><img src={img("calligraphy-zhi-wall.jpeg")} alt="兰亭景区巨幅之字书法装置" className="pt" /><div className="cap">把一个「之」字放大到整面墙</div></div>
+            <div className="pf fn"><img src={img("goose-pond-stone-tablet.jpeg")} alt="竹林前的鹅池石碑亭" className="pt" loading="lazy" decoding="async" /><div className="cap">竹林里的鹅池碑亭</div></div>
+            <div className="pf fs"><img src={img("calligraphy-zhi-wall.jpeg")} alt="兰亭景区巨幅之字书法装置" className="pt" loading="lazy" decoding="async" /><div className="cap">把一个「之」字放大到整面墙</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -170,12 +170,12 @@ export default function ShaoxingZH() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("calligraphy-ribbon-corridor-group.jpeg")} alt="四人在悬挂书法绸带的兰亭廊桥合影" className="wd" /><div className="cap">书法绸带从廊桥顶端垂下来，留下一张周末合影</div></div>
+            <div className="pf fc"><img src={img("calligraphy-ribbon-corridor-group.jpeg")} alt="四人在悬挂书法绸带的兰亭廊桥合影" className="wd" loading="lazy" decoding="async" /><div className="cap">书法绸带从廊桥顶端垂下来，留下一张周末合影</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("person-in-black-jacket.jpeg")} alt="穿黑色外套的游客在兰亭景区留影" className="pt" /><div className="cap">竹林和碑刻之间慢慢走</div></div>
-            <div className="pf fn"><img src={img("two-people-standing-outdoors.jpeg")} alt="两位游客在兰亭户外合影" className="pt" /><div className="cap">兰亭里的周日纪念照</div></div>
+            <div className="pf fw"><img src={img("person-in-black-jacket.jpeg")} alt="穿黑色外套的游客在兰亭景区留影" className="pt" loading="lazy" decoding="async" /><div className="cap">竹林和碑刻之间慢慢走</div></div>
+            <div className="pf fn"><img src={img("two-people-standing-outdoors.jpeg")} alt="两位游客在兰亭户外合影" className="pt" loading="lazy" decoding="async" /><div className="cap">兰亭里的周日纪念照</div></div>
           </div>
 
           <div className="nbox mt16">

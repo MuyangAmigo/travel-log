@@ -996,6 +996,66 @@ body {
   padding: 16px 0 72px;
 }
 
+.trip-content img[role="button"] {
+  cursor: zoom-in;
+}
+
+.trip-content img[role="button"]:focus-visible {
+  outline: 4px solid var(--palette-bg-primary-core);
+  outline-offset: -6px;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px 24px;
+  background: rgba(0, 0, 0, .88);
+  cursor: zoom-out;
+}
+
+.image-lightbox-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100dvh - 88px);
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: default;
+}
+
+.image-lightbox-close {
+  position: fixed;
+  top: max(16px, env(safe-area-inset-top));
+  right: max(16px, env(safe-area-inset-right));
+  z-index: 1;
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 999px;
+  background: rgba(20, 20, 20, .72);
+  color: #ffffff;
+  font: 400 32px/1 var(--font-ui);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+}
+
+.image-lightbox-close:hover {
+  background: rgba(55, 55, 55, .9);
+}
+
+.image-lightbox-close:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
 .trip-content .card-wrap,
 .bangkok-trip .card-wrap,
 .hangzhou-trip .card-wrap {
