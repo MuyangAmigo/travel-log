@@ -10,6 +10,7 @@ import {
 } from "@/lib/trips";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export function generateStaticParams() {
   const slugs = getAllTripSlugs();
@@ -64,6 +65,7 @@ export default async function TripPage({
       <div className="trip-content">
         <Content />
       </div>
+      <ImageLightbox locale={loc} />
     </>
   );
 }
