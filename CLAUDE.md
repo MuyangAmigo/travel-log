@@ -12,7 +12,8 @@ A bilingual (zh/en) travel journal with a **two-layer visual system**:
 
 - **`site/`** — Next.js 16 App Router · React 19 · TypeScript · Tailwind v4 · static export (`output: "export"`)
 - **`scripts/upload-trip-images.sh`** — uploads a trip's photos to `junjieblob` blob storage
-- **`scripts/encrypt-private-trips.mjs`** — post-build step that AES-encrypts any trip marked `private: true` using staticrypt; runs as part of `npm run build`
+- **`scripts/encrypt-private-trips.mjs`** — post-build step that AES-encrypts any trip marked `private: true` using staticrypt and injects the Microsoft authentication gate; runs as part of `npm run build`
+- **`api/`** — Azure Functions API that validates the pinned Microsoft personal account or rate-limited private passcode before releasing a page-specific key
 - **`.github/workflows/github-pages.yml`** — builds `site/out` and deploys to GitHub Pages on push to `main`
 
 Mirrors the PersonalWeb (`../PersonalWeb/site-next/`) tech stack by design — same Tailwind v4 setup and static export pattern. CI runs Node 22.
@@ -83,13 +84,14 @@ Composed, not written from scratch. Key classes defined in `globals.css`:
 
 Lightweight. Locale lives in the URL segment (`/[locale]/...`). `locales = ["zh", "en"]` and a `dict` object live in `lib/trips.ts`. No i18n library. `/` redirects to `/zh`.
 
-### Private trips (staticrypt password gate)
+### Private trips (Microsoft account + passcode gate)
 
-A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a Rausch-Red "Private" pill badge overlaid on the cover image), but clicking it lands on a staticrypt password prompt — the generated HTML is AES-encrypted at build time. The flow:
+A trip with `private: true` in its `meta.ts` is **still listed on the public locale index** (with a Rausch-Red "Private" pill badge overlaid on the cover image), but clicking it lands on a dual Microsoft personal-account / private-passcode gate. The generated HTML is AES-encrypted at build time. The flow:
 
-1. `npm run build` runs `next build`, then `scripts/encrypt-private-trips.mjs` regex-scans every `site/src/content/trips/*/meta.ts` for `private: true`, finds the rendered `site/out/<locale>/trips/<slug>/index.html` for each slug × locale, and overwrites it in place with a staticrypt-encrypted payload (via a temp dir hop so the source isn't open-while-written).
-2. The shared password comes from the `TRAVEL_LOG_PRIVATE_PASSWORD` env var. The script **aborts the build** if a private trip exists but the password is unset — unprotected content never ships.
-3. The salt in `site/.staticrypt.json` is committed so the password-hash output is stable across builds.
+1. `npm run build` runs `next build`, then `scripts/encrypt-private-trips.mjs` regex-scans every `site/src/content/trips/*/meta.ts` for `private: true`, finds the rendered `site/out/<locale>/trips/<slug>/index.html` for each slug × locale, overwrites it with a staticrypt-encrypted payload, and removes the route's plaintext React Server Component `.txt` payloads.
+2. The gate either starts Microsoft authorization-code flow with PKCE through `/auth/callback/` and requests the custom `PrivateJournal.Read` scope, or sends the entered passcode directly to the HTTPS Function. The callback carries the access token once in the URL fragment; the encrypted page removes it from the URL immediately and never retains it in Web Storage.
+3. The Azure Function validates the Microsoft consumer token and configured identity, or checks the durably rate-limited `TRAVEL_LOG_PRIVATE_PASSCODE`, before deriving a locale-and-trip-specific key from `TRAVEL_LOG_PRIVATE_PASSWORD`. Neither reusable credential is returned to the browser.
+4. The build script aborts if the password, Microsoft client ID, callback URL, or authentication API URL is missing or malformed. The salt in `site/.staticrypt.json` remains committed so encrypted output is stable.
 
 **Caveat:** images live in the public blob container, so cover images and any blob URLs referenced inside a private trip are still directly reachable. Encryption covers the trip page's text + layout only — if image privacy matters, that's a separate change (private container + SAS tokens).
 
@@ -97,7 +99,7 @@ A trip with `private: true` in its `meta.ts` is **still listed on the public loc
 
 - Changing image paths means re-uploading to blob storage. The dev site points at blob URLs in every environment.
 - CI runs Node 22 and regenerates `site/package-lock.json` on every build — a workaround for a stale empty-version entry that local npm keeps re-adding to the lockfile. Don't restore `npm ci` without verifying the lockfile parses cleanly on the runner.
-- Any build that includes a `private: true` trip needs `TRAVEL_LOG_PRIVATE_PASSWORD` set — stored as a GitHub Actions repo secret for CI and passed through the workflow's `env:` block. For a local production preview: `TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build`. `npm run dev` never encrypts; private trips render normally in dev.
+- Any build that includes a `private: true` trip needs `TRAVEL_LOG_PRIVATE_PASSWORD`, `NEXT_PUBLIC_MICROSOFT_CLIENT_ID`, `NEXT_PUBLIC_MICROSOFT_REDIRECT_URI`, and `TRAVEL_LOG_AUTH_API_URL`. See `docs/microsoft-auth.md` for local and deployment values. `npm run dev` never encrypts; private trips render normally in dev.
 - GitHub Pages production builds set `NEXT_PUBLIC_BASE_PATH=/travel-log`. Keep application routes root-relative when using `next/link`; use `withBasePath()` from `site/src/lib/base-path.ts` only for raw anchors and document-level redirects.
 - GitHub Pages does not create per-pull-request preview environments. Pull requests run the production-path build as validation, while only `main` and manual workflow runs deploy.
 - After flipping a trip's `private` flag, existing visitors may still see the stale cached HTML until a hard refresh (`Cmd+Shift+R`) — the encrypted page itself ships `no-cache` meta headers, but anything cached before the flip is held by the browser.

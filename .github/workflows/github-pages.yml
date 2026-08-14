@@ -10,9 +10,77 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}
+  cancel-in-progress: false
+
 jobs:
+  auth-api-test:
+    name: Test authentication API
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+
+      - name: Install dependencies
+        working-directory: api
+        run: npm ci --no-audit --no-fund
+
+      - name: Run tests
+        working-directory: api
+        run: npm test
+
+  auth-api-deploy:
+    name: Deploy authentication API
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+
+      - name: Install dependencies
+        working-directory: api
+        run: npm ci --no-audit --no-fund
+
+      - name: Deploy function package
+        uses: Azure/functions-action@v1
+        with:
+          app-name: ${{ vars.AZURE_FUNCTION_APP_NAME }}
+          package: api
+          publish-profile: ${{ secrets.AZURE_FUNCTION_PUBLISH_PROFILE }}
+          scm-do-build-during-deployment: true
+          enable-oryx-build: true
+
+      - name: Check authentication API
+        env:
+          MICROSOFT_CLIENT_ID: ${{ vars.MICROSOFT_CLIENT_ID }}
+          TRAVEL_LOG_AUTH_API_URL: ${{ vars.TRAVEL_LOG_AUTH_API_URL }}
+          TRAVEL_LOG_AUTH_ORIGIN: https://muyangamigo.github.io
+          TRAVEL_LOG_PRIVATE_PASSCODE: ${{ secrets.TRAVEL_LOG_PRIVATE_PASSCODE }}
+          TRAVEL_LOG_PRIVATE_PASSWORD: ${{ secrets.TRAVEL_LOG_PRIVATE_PASSWORD }}
+        run: node scripts/check-auth-api.mjs
+
   build:
     name: Build
+    needs: auth-api-test
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -39,6 +107,9 @@ jobs:
         working-directory: site
         env:
           NEXT_PUBLIC_BASE_PATH: /travel-log
+          NEXT_PUBLIC_MICROSOFT_CLIENT_ID: ${{ vars.MICROSOFT_CLIENT_ID }}
+          NEXT_PUBLIC_MICROSOFT_REDIRECT_URI: https://muyangamigo.github.io/travel-log/auth/callback/
+          TRAVEL_LOG_AUTH_API_URL: ${{ vars.TRAVEL_LOG_AUTH_API_URL }}
           TRAVEL_LOG_PRIVATE_PASSWORD: ${{ secrets.TRAVEL_LOG_PRIVATE_PASSWORD }}
         run: npm run build
 
@@ -51,7 +122,7 @@ jobs:
   deploy:
     name: Deploy
     if: github.event_name != 'pull_request'
-    needs: build
+    needs: auth-api-deploy
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -59,9 +130,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    concurrency:
-      group: pages
-      cancel-in-progress: false
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

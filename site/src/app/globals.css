@@ -81,6 +81,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.auth-callback {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 20% 15%, rgba(255, 56, 92, 0.14), transparent 30%),
+    var(--palette-surface-muted);
+}
+
+.auth-callback-card {
+  width: min(100%, 440px);
+  padding: 40px 34px;
+  border-radius: var(--ab-radius-lg);
+  background: var(--palette-surface);
+  box-shadow: var(--ab-shadow-card);
+  text-align: center;
+}
+
+.auth-callback-mark {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 22px;
+  place-items: center;
+  border-radius: 16px;
+  background: var(--palette-bg-primary-core);
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.auth-callback-mark.failed {
+  background: var(--palette-text-error);
+}
+
+.auth-callback-card h1 {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: -0.03em;
+}
+
+.auth-callback-card p {
+  margin: 12px 0 0;
+  color: var(--palette-text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
 /* ===== SCALE WRAPPER ===== */
 .card-wrap {
   --card-scale-width: calc((100vw - 40px) / 1200);

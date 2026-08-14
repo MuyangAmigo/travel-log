@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "MICROSOFT_CLIENT_ID": "11111111-2222-3333-4444-555555555555",
+    "ALLOWED_MICROSOFT_SUB": "immutable-sub-claim-from-the-authorized-account",
+    "ALLOWED_ORIGIN": "http://localhost:3000",
+    "TRAVEL_LOG_PRIVATE_PASSWORD": "use-the-same-value-as-the-site-build",
+    "TRAVEL_LOG_PRIVATE_PASSCODE": "choose-a-different-12-character-passcode"
+  }
+}

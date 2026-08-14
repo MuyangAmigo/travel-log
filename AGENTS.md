@@ -65,7 +65,7 @@ Use these instructions when creating or revising a trip in this repository.
 ## Validation and delivery
 
 - Run the production build from `site/`:
-  `TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build`
+  `NEXT_PUBLIC_MICROSOFT_CLIENT_ID=11111111-2222-3333-4444-555555555555 NEXT_PUBLIC_MICROSOFT_REDIRECT_URI=http://localhost:3000/auth/callback/ TRAVEL_LOG_AUTH_API_URL=http://localhost:7071/api/unlock TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build`
 - A successful private-trip build must generate and encrypt both locale pages.
 - If dependencies are absent and the committed lockfile has the known invalid-version issue, follow CI behavior: regenerate the lockfile for local installation, build, then avoid committing unrelated generated lockfile changes.
 - Next.js may modify `site/next-env.d.ts` or generate `site/AGENTS.md` and `site/CLAUDE.md`. Do not include these unrelated generated changes with a trip unless intentionally updating them.
