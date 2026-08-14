@@ -276,7 +276,7 @@ export default function KansaiZH() {
         </div>
 
         <div className="bill mt20">
-          <div className="br total"><span>Day 3 购物小计</span><span>8,656 CNY</span></div>
+          <div className="br total"><span>Day 3 当日小计</span><span>8,656 CNY</span></div>
         </div>
       </JournalCard>
 
