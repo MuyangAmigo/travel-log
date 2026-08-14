@@ -544,7 +544,7 @@ export default function TokyoZH() {
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
               <img src={img("day5-ginza-cocoon-tower.jpeg")} alt="Ginza Cocoon" className="hero" />
-              <div className="cap">银座的 Cocoon 塔 —— 百货大战开始</div>
+              <div className="cap">新宿的 Cocoon 塔 —— 百货大战开始</div>
             </div>
           </div>
 
