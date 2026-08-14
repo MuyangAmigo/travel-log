@@ -1002,7 +1002,7 @@ body {
 
 .trip-content img[role="button"]:focus-visible {
   outline: 4px solid var(--palette-bg-primary-core);
-  outline-offset: 4px;
+  outline-offset: -6px;
 }
 
 .image-lightbox {
