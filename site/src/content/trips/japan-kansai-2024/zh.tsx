@@ -211,11 +211,6 @@ export default function KansaiZH() {
           <Photo file="shinkyogoku-shopping-arcade-kyoto.jpg" alt="新京极拱顶商店街的人流和店铺招牌" caption="新京极的长廊，把一天的购物路线串起来" shape="ls" />
           <Photo file="grilled-eel-rice-bowl-meal.jpg" alt="木桶里的烤鳗鱼饭与配汤" caption="11,370 JPY 的鳗鱼饭，是下午继续走路的燃料" shape="ls" />
         </div>
-        <div className="pgrid g3 mt12">
-          <Photo file="human-made-store-mirror.jpg" alt="两个人在 Human Made 店内镜面前合影" caption="Human Made 店里的镜面打卡" shape="sq" />
-          <Photo file="two-people-by-cat-mural.jpeg" alt="两个人站在松树与猫壁画前合影" caption="购物间隙，遇见一面安静又有点古怪的猫墙" shape="sq" />
-          <Photo file="cat-mural-under-pine-tree.jpg" alt="松树下卧着巨大猫咪的日式壁画" caption="把人移出画面后，才看清松树下那只巨猫" shape="sq" />
-        </div>
       </JournalCard>
 
       <JournalCard page={7}>
@@ -260,6 +255,12 @@ export default function KansaiZH() {
 
         <div className="jtxt">
           <p>这天真正的主线仍然是买买买：外套、T 恤、鞋一路加入购物袋。夜樱负责把一天变得浪漫，账单则负责把现实一项项写清楚。</p>
+        </div>
+
+        <div className="pgrid g3 mt16">
+          <Photo file="human-made-store-mirror.jpg" alt="两个人在 Human Made 店内镜面前合影" caption="Human Made 店里的镜面打卡" shape="sq" />
+          <Photo file="two-people-by-cat-mural.jpeg" alt="两个人站在松树与猫壁画前合影" caption="购物间隙，遇见一面安静又有点古怪的猫墙" shape="sq" />
+          <Photo file="cat-mural-under-pine-tree.jpg" alt="松树下卧着巨大猫咪的日式壁画" caption="把人移出画面后，才看清松树下那只巨猫" shape="sq" />
         </div>
 
         <div className="sgrid mt16">

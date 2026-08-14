@@ -212,11 +212,6 @@ export default function KansaiEN() {
           <Photo file="shinkyogoku-shopping-arcade-kyoto.jpg" alt="Crowds and shop signs beneath Shinkyogoku's covered arcade" caption="Shinkyogoku&apos;s long corridor tied the day&apos;s shopping route together" shape="ls" />
           <Photo file="grilled-eel-rice-bowl-meal.jpg" alt="Grilled eel over rice in a wooden tub with soup" caption="An 11,370 JPY unagi lunch, fuel for the rest of the afternoon" shape="ls" />
         </div>
-        <div className="pgrid g3 mt12">
-          <Photo file="human-made-store-mirror.jpg" alt="Two travellers posing in a mirror inside Human Made" caption="A mirror stop inside Human Made" shape="sq" />
-          <Photo file="two-people-by-cat-mural.jpeg" alt="Two travellers posing in front of a pine-tree and cat mural" caption="Between shops, a quiet and slightly strange giant-cat wall" shape="sq" />
-          <Photo file="cat-mural-under-pine-tree.jpg" alt="A Japanese mural of a giant cat resting beneath a pine tree" caption="Without us in frame, the enormous cat beneath the pine finally appeared" shape="sq" />
-        </div>
       </JournalCard>
 
       <JournalCard page={7}>
@@ -261,6 +256,12 @@ export default function KansaiEN() {
 
         <div className="jtxt">
           <p>Shopping remained the real daytime plot: jackets, tees and shoes kept joining the bags. The blossoms made the ending romantic; the ledger made every earlier decision explicit.</p>
+        </div>
+
+        <div className="pgrid g3 mt16">
+          <Photo file="human-made-store-mirror.jpg" alt="Two travellers posing in a mirror inside Human Made" caption="A mirror stop inside Human Made" shape="sq" />
+          <Photo file="two-people-by-cat-mural.jpeg" alt="Two travellers posing in front of a pine-tree and cat mural" caption="Between shops, a quiet and slightly strange giant-cat wall" shape="sq" />
+          <Photo file="cat-mural-under-pine-tree.jpg" alt="A Japanese mural of a giant cat resting beneath a pine tree" caption="Without us in frame, the enormous cat beneath the pine finally appeared" shape="sq" />
         </div>
 
         <div className="sgrid mt16">
