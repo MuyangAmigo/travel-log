@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2025-01-01",
   dateRange: "2025.01.01 — 01.04",
-  coverImage: img("two-people-outdoor-cafe.jpeg"),
+  coverImage: img("giant-panda-sitting-by-bamboo.jpeg"),
   title: {
     zh: "成都 · 四天三夜",
     en: "Chengdu · Four Days, Three Nights",
