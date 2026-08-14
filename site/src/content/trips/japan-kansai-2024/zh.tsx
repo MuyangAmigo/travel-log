@@ -306,7 +306,7 @@ export default function KansaiZH() {
           <div className="br"><span>Lululemon × 2</span><span>1,181 CNY</span></div>
           <div className="br"><span>保温杯 × 6</span><span>808 CNY</span></div>
           <div className="br"><span>G-Star Raw 牛仔裤</span><span>763 CNY</span></div>
-          <div className="br total"><span>Day 4 购物小计</span><span>7,591 CNY</span></div>
+          <div className="br total"><span>Day 4 当日小计</span><span>7,591 CNY</span></div>
         </div>
       </JournalCard>
 

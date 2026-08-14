@@ -277,7 +277,7 @@ export default function KansaiEN() {
         </div>
 
         <div className="bill mt20">
-          <div className="br total"><span>Day 3 shopping</span><span>8,656 CNY</span></div>
+          <div className="br total"><span>Day 3 total</span><span>8,656 CNY</span></div>
         </div>
       </JournalCard>
 
@@ -307,7 +307,7 @@ export default function KansaiEN() {
           <div className="br"><span>Lululemon × 2</span><span>1,181 CNY</span></div>
           <div className="br"><span>Thermal tumblers × 6</span><span>808 CNY</span></div>
           <div className="br"><span>G-Star Raw jeans</span><span>763 CNY</span></div>
-          <div className="br total"><span>Day 4 shopping</span><span>7,591 CNY</span></div>
+          <div className="br total"><span>Day 4 total</span><span>7,591 CNY</span></div>
         </div>
       </JournalCard>
 
