@@ -238,14 +238,14 @@ export default function KansaiEN() {
           <Photo file="illuminated-pagoda-cherry-blossoms-night.jpg" alt="Tō-ji's illuminated five-storey pagoda behind night cherry blossoms" caption="Tō-ji under night blossoms—the image that became this Kansai trip&apos;s cover" shape="hero" />
         </div>
         <div className="pgrid g3 mt12">
-          <Photo file="cherry-blossoms-around-temple-at-night.jpg" alt="Cherry blossoms surrounding a temple in the dark" caption="Blossoms slowly traced the edge of the temple" shape="ls" />
-          <Photo file="illuminated-japanese-pagoda-night.jpg" alt="A five-storey pagoda illuminated alone against the night sky" caption="Remove the foreground and only tower and pure black remain" shape="ls" />
-          <Photo file="traditional-japanese-teahouse-entrance.jpg" alt="A traditional teahouse entrance with a red noren among trees" caption="A timber doorway tucked quietly into daytime green" />
+          <Photo file="cherry-blossoms-around-temple-at-night.jpg" alt="Cherry blossoms surrounding a temple in the dark" caption="Blossoms slowly traced the edge of the temple" shape="sq" />
+          <Photo file="illuminated-japanese-pagoda-night.jpg" alt="A five-storey pagoda illuminated alone against the night sky" caption="Remove the foreground and only tower and pure black remain" shape="sq" />
+          <Photo file="traditional-japanese-teahouse-entrance.jpg" alt="A traditional teahouse entrance with a red noren among trees" caption="A timber doorway tucked quietly into daytime green" shape="sq" />
         </div>
         <div className="pgrid g3 mt12">
-          <Photo file="japanese-garden-shrine-altar.jpg" alt="A tiny shrine altar beside a stone lantern in a Japanese garden" caption="Stone lantern, paper light and a small altar made the street corner still" />
-          <Photo file="night-temple-selfie-japan.jpeg" alt="Two travellers posing with an illuminated pagoda at night" caption="After a full day on foot, one portrait with the night blossoms" shape="ls" />
-          <Photo file="kyoto-okonomiyaki-restaurant-sign.jpg" alt="A Japanese okonomiyaki restaurant sign glowing at night" caption="Leaving the temple, a restaurant sign pulled us back into everyday warmth" shape="ls" />
+          <Photo file="japanese-garden-shrine-altar.jpg" alt="A tiny shrine altar beside a stone lantern in a Japanese garden" caption="Stone lantern, paper light and a small altar made the street corner still" shape="sq" />
+          <Photo file="night-temple-selfie-japan.jpeg" alt="Two travellers posing with an illuminated pagoda at night" caption="After a full day on foot, one portrait with the night blossoms" shape="sq" />
+          <Photo file="kyoto-okonomiyaki-restaurant-sign.jpg" alt="A Japanese okonomiyaki restaurant sign glowing at night" caption="Leaving the temple, a restaurant sign pulled us back into everyday warmth" shape="sq" />
         </div>
       </JournalCard>
 
@@ -381,10 +381,10 @@ export default function KansaiEN() {
         </div>
 
         <div className="pgrid g4 mt16">
-          <Photo file="weathered-wooden-building-japan-street.jpg" alt="A weathered wooden corner building with hand-painted signs in Nakazakichō" caption="Nakazakichō&apos;s old timber houses briefly shrank Osaka into a neighbourhood" />
-          <Photo file="white-stucco-cafe-exterior-planter.jpg" alt="A white stucco café entrance with plants and a small window" caption="White wall, plants and a tiny window—the lightest corner of the walk" />
-          <Photo file="urban-office-building-street-traffic.jpg" alt="Modern Osaka office buildings above street traffic" caption="Turn one corner and the old lanes reconnect to modern Osaka" shape="ls" />
-          <Photo file="holding-passionfruit-drinks-outdoors.jpg" alt="Two hands raising iced fruit drinks outdoors" caption="One last cold drink, finished while walking" shape="ls" />
+          <Photo file="weathered-wooden-building-japan-street.jpg" alt="A weathered wooden corner building with hand-painted signs in Nakazakichō" caption="Nakazakichō&apos;s old timber houses briefly shrank Osaka into a neighbourhood" shape="sq" />
+          <Photo file="white-stucco-cafe-exterior-planter.jpg" alt="A white stucco café entrance with plants and a small window" caption="White wall, plants and a tiny window—the lightest corner of the walk" shape="sq" />
+          <Photo file="urban-office-building-street-traffic.jpg" alt="Modern Osaka office buildings above street traffic" caption="Turn one corner and the old lanes reconnect to modern Osaka" shape="sq" />
+          <Photo file="holding-passionfruit-drinks-outdoors.jpg" alt="Two hands raising iced fruit drinks outdoors" caption="One last cold drink, finished while walking" shape="sq" />
         </div>
 
         <div className="bill mt16">

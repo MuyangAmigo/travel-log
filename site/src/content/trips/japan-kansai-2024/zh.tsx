@@ -237,14 +237,14 @@ export default function KansaiZH() {
           <Photo file="illuminated-pagoda-cherry-blossoms-night.jpg" alt="夜樱前方灯光照亮的东寺五重塔" caption="东寺夜樱：这张照片成了整趟关西的封面" shape="hero" />
         </div>
         <div className="pgrid g3 mt12">
-          <Photo file="cherry-blossoms-around-temple-at-night.jpg" alt="黑夜里围绕寺院绽放的樱花" caption="樱花把寺院边缘一点点照亮" shape="ls" />
-          <Photo file="illuminated-japanese-pagoda-night.jpg" alt="黑夜中独自被灯光照亮的五重塔" caption="拿掉前景，只剩塔与纯黑夜色" shape="ls" />
-          <Photo file="traditional-japanese-teahouse-entrance.jpg" alt="绿树间带红色门帘的传统茶屋入口" caption="白天经过的木门茶屋，安静藏在绿意里" />
+          <Photo file="cherry-blossoms-around-temple-at-night.jpg" alt="黑夜里围绕寺院绽放的樱花" caption="樱花把寺院边缘一点点照亮" shape="sq" />
+          <Photo file="illuminated-japanese-pagoda-night.jpg" alt="黑夜中独自被灯光照亮的五重塔" caption="拿掉前景，只剩塔与纯黑夜色" shape="sq" />
+          <Photo file="traditional-japanese-teahouse-entrance.jpg" alt="绿树间带红色门帘的传统茶屋入口" caption="白天经过的木门茶屋，安静藏在绿意里" shape="sq" />
         </div>
         <div className="pgrid g3 mt12">
-          <Photo file="japanese-garden-shrine-altar.jpg" alt="日式庭院石灯笼旁的小型神社供奉处" caption="石灯笼、纸灯与小小供奉处，把街角收得很静" />
-          <Photo file="night-temple-selfie-japan.jpeg" alt="两个人与夜间点灯五重塔合影" caption="走了一整天，还是要和夜樱留下一张合影" shape="ls" />
-          <Photo file="kyoto-okonomiyaki-restaurant-sign.jpg" alt="夜间大阪烧餐厅的日文灯牌" caption="从寺院走回街巷，灯牌把人重新拉回烟火气" shape="ls" />
+          <Photo file="japanese-garden-shrine-altar.jpg" alt="日式庭院石灯笼旁的小型神社供奉处" caption="石灯笼、纸灯与小小供奉处，把街角收得很静" shape="sq" />
+          <Photo file="night-temple-selfie-japan.jpeg" alt="两个人与夜间点灯五重塔合影" caption="走了一整天，还是要和夜樱留下一张合影" shape="sq" />
+          <Photo file="kyoto-okonomiyaki-restaurant-sign.jpg" alt="夜间大阪烧餐厅的日文灯牌" caption="从寺院走回街巷，灯牌把人重新拉回烟火气" shape="sq" />
         </div>
       </JournalCard>
 
@@ -380,10 +380,10 @@ export default function KansaiZH() {
         </div>
 
         <div className="pgrid g4 mt16">
-          <Photo file="weathered-wooden-building-japan-street.jpg" alt="中崎町街角带手写招牌的旧木楼" caption="中崎町的旧木屋，让大阪忽然缩小成邻里街巷" />
-          <Photo file="white-stucco-cafe-exterior-planter.jpg" alt="白色灰泥咖啡馆门口的植物与小窗" caption="白墙、植物和小窗，是 City Walk 里最轻的一角" />
-          <Photo file="urban-office-building-street-traffic.jpg" alt="大阪现代办公楼与路口车流" caption="转过街角，旧街区又接回现代大阪" shape="ls" />
-          <Photo file="holding-passionfruit-drinks-outdoors.jpg" alt="两只手在户外举着冰果饮碰杯" caption="临走前的最后一杯，边走边喝完" shape="ls" />
+          <Photo file="weathered-wooden-building-japan-street.jpg" alt="中崎町街角带手写招牌的旧木楼" caption="中崎町的旧木屋，让大阪忽然缩小成邻里街巷" shape="sq" />
+          <Photo file="white-stucco-cafe-exterior-planter.jpg" alt="白色灰泥咖啡馆门口的植物与小窗" caption="白墙、植物和小窗，是 City Walk 里最轻的一角" shape="sq" />
+          <Photo file="urban-office-building-street-traffic.jpg" alt="大阪现代办公楼与路口车流" caption="转过街角，旧街区又接回现代大阪" shape="sq" />
+          <Photo file="holding-passionfruit-drinks-outdoors.jpg" alt="两只手在户外举着冰果饮碰杯" caption="临走前的最后一杯，边走边喝完" shape="sq" />
         </div>
 
         <div className="bill mt16">
