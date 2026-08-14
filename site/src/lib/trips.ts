@@ -24,6 +24,7 @@ import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
 import { meta as chengdu2025Meta } from "@/content/trips/chengdu-2025/meta";
 import { meta as fukuokaSolo2026Meta } from "@/content/trips/fukuoka-solo-2026/meta";
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
+import { meta as japan2023Meta } from "@/content/trips/japan-2023/meta";
 import { meta as japanKansai2024Meta } from "@/content/trips/japan-kansai-2024/meta";
 import { meta as seoul2023Meta } from "@/content/trips/seoul-2023/meta";
 import { meta as shaoxing2025Meta } from "@/content/trips/shaoxing-2025/meta";
@@ -40,6 +41,7 @@ export const trips: TripMeta[] = [
   shaoxing2025Meta,
   chengdu2025Meta,
   seoul2023Meta,
+  japan2023Meta,
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getTrip(slug: string): TripMeta | undefined {
