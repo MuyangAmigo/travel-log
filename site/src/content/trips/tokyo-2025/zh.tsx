@@ -101,7 +101,7 @@ export default function TokyoZH() {
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <img src={img("green-train-at-station.jpeg")} alt="Enoden green train" className="ls" />
-              <div className="cap">倒挂电车 —— 镰仓的标志</div>
+              <div className="cap">江之电 —— 镰仓的标志</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
