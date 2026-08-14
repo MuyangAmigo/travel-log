@@ -81,7 +81,6 @@ export default function ThemeToggle({ locale }: { locale: Locale }) {
       className="theme-toggle"
       onClick={handleToggle}
       aria-label={label}
-      aria-pressed={theme === "dark"}
       title={label}
     >
       <svg className="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
