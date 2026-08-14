@@ -23,12 +23,16 @@ export interface TripMeta {
 import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
 import { meta as chengdu2025Meta } from "@/content/trips/chengdu-2025/meta";
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
+import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 
+// Newest first — sort by ISO `date` descending so the index/cover page
+// always lists trips in reverse chronological order regardless of insertion.
 export const trips: TripMeta[] = [
   bangkok2026Meta,
   hangzhouConcert2026Meta,
+  tokyo2025Meta,
   chengdu2025Meta,
-];
+].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getTrip(slug: string): TripMeta | undefined {
   return trips.find((t) => t.slug === slug);
