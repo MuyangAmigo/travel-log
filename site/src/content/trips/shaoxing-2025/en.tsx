@@ -35,7 +35,7 @@ export default function ShaoxingEN() {
 
           <div className="pgrid g1">
             <div className="pf fc">
-              <img src={img("traditional-water-town-mural.jpeg")} alt="Ink-wash mural of Shaoxing water-town lanes" className="hero" />
+              <img src={img("traditional-water-town-mural.jpeg")} alt="Ink-wash mural of Shaoxing water-town lanes" className="hero" loading="lazy" decoding="async" />
               <div className="cap">White walls, dark tiles, and canals — the trip began with a Jiangnan scene</div>
             </div>
           </div>
@@ -67,16 +67,16 @@ export default function ShaoxingEN() {
 
           <div className="pgrid g12">
             <div className="pf fc">
-              <img src={img("traditional-canal-boats-alley.jpeg")} alt="Black-canopy boats moving through a narrow Shaoxing canal" className="pt" />
+              <img src={img("traditional-canal-boats-alley.jpeg")} alt="Black-canopy boats moving through a narrow Shaoxing canal" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Black-canopy boats passing one after another through the narrow canal</div>
             </div>
             <div className="pgrid g1">
               <div className="pf fw">
-                <img src={img("hand-adjusting-world-map-art.jpeg")} alt="Interactive artwork in the Lu Xun hometown district" className="sq" />
+                <img src={img("hand-adjusting-world-map-art.jpeg")} alt="Interactive artwork in the Lu Xun hometown district" className="sq" loading="lazy" decoding="async" />
                 <div className="cap">A playful detail in the old neighborhood</div>
               </div>
               <div className="pf fn">
-                <img src={img("person-posing-with-blue-statue.jpeg")} alt="Visitor posing beside a blue-robed figure statue" className="sq" />
+                <img src={img("person-posing-with-blue-statue.jpeg")} alt="Visitor posing beside a blue-robed figure statue" className="sq" loading="lazy" decoding="async" />
                 <div className="cap">A quick portrait with the blue-robed figure</div>
               </div>
             </div>
@@ -113,12 +113,12 @@ export default function ShaoxingEN() {
           </div>
 
           <div className="pgrid g3 mt16">
-            <div className="pf fw"><img src={img("mushroom-tofu-chicken-stirfry.jpeg")} alt="Mushroom, tofu, and chicken stir-fry" className="sq" /><div className="cap">Mushroom, tofu, and chicken</div></div>
-            <div className="pf fn"><img src={img("spicy-seafood-hot-pot.jpeg")} alt="Spicy red-broth seafood pot" className="sq" /><div className="cap">Spicy seafood pot</div></div>
-            <div className="pf fc"><img src={img("steamed-square-rice-cakes.jpeg")} alt="Square steamed rice cakes" className="sq" /><div className="cap">Soft steamed cakes</div></div>
-            <div className="pf fs"><img src={img("creamy-vegetable-seafood-soup.jpeg")} alt="Creamy vegetable and seafood soup" className="sq" /><div className="cap">Vegetable and seafood soup</div></div>
-            <div className="pf fw"><img src={img("char-siu-bao-buns.jpeg")} alt="Basket of char siu buns" className="sq" /><div className="cap">Char siu buns</div></div>
-            <div className="pf fn"><img src={img("tofu-and-pickled-mustard-stew.jpeg")} alt="Tofu and pickled mustard stew" className="sq" /><div className="cap">Tofu and pickled mustard</div></div>
+            <div className="pf fw"><img src={img("mushroom-tofu-chicken-stirfry.jpeg")} alt="Mushroom, tofu, and chicken stir-fry" className="sq" loading="lazy" decoding="async" /><div className="cap">Mushroom, tofu, and chicken</div></div>
+            <div className="pf fn"><img src={img("spicy-seafood-hot-pot.jpeg")} alt="Spicy red-broth seafood pot" className="sq" loading="lazy" decoding="async" /><div className="cap">Spicy seafood pot</div></div>
+            <div className="pf fc"><img src={img("steamed-square-rice-cakes.jpeg")} alt="Square steamed rice cakes" className="sq" loading="lazy" decoding="async" /><div className="cap">Soft steamed cakes</div></div>
+            <div className="pf fs"><img src={img("creamy-vegetable-seafood-soup.jpeg")} alt="Creamy vegetable and seafood soup" className="sq" loading="lazy" decoding="async" /><div className="cap">Vegetable and seafood soup</div></div>
+            <div className="pf fw"><img src={img("char-siu-bao-buns.jpeg")} alt="Basket of char siu buns" className="sq" loading="lazy" decoding="async" /><div className="cap">Char siu buns</div></div>
+            <div className="pf fn"><img src={img("tofu-and-pickled-mustard-stew.jpeg")} alt="Tofu and pickled mustard stew" className="sq" loading="lazy" decoding="async" /><div className="cap">Tofu and pickled mustard</div></div>
           </div>
 
           <div className="nbox mt20">
@@ -141,13 +141,13 @@ export default function ShaoxingEN() {
           </div>
 
           <div className="pgrid g2">
-            <div className="pf fw"><img src={img("kuaijishan-lanting-display.jpeg")} alt="Kuaiji Mountain display inspired by the Lanting Preface" className="ls" /><div className="cap">Entering through the story of the Lanting Preface</div></div>
-            <div className="pf fc"><img src={img("arched-bridge-over-river.jpeg")} alt="Stone bridge crossing the water beneath the hills at Lanting" className="ls" /><div className="cap">Distant hills, calm water, and a stone bridge</div></div>
+            <div className="pf fw"><img src={img("kuaijishan-lanting-display.jpeg")} alt="Kuaiji Mountain display inspired by the Lanting Preface" className="ls" loading="lazy" decoding="async" /><div className="cap">Entering through the story of the Lanting Preface</div></div>
+            <div className="pf fc"><img src={img("arched-bridge-over-river.jpeg")} alt="Stone bridge crossing the water beneath the hills at Lanting" className="ls" loading="lazy" decoding="async" /><div className="cap">Distant hills, calm water, and a stone bridge</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fn"><img src={img("goose-pond-stone-tablet.jpeg")} alt="Goose Pond stone tablet pavilion before a bamboo grove" className="pt" /><div className="cap">The Goose Pond pavilion in the bamboo</div></div>
-            <div className="pf fs"><img src={img("calligraphy-zhi-wall.jpeg")} alt="Large zhi character installation at Lanting" className="pt" /><div className="cap">A single “zhi” character expanded across an entire wall</div></div>
+            <div className="pf fn"><img src={img("goose-pond-stone-tablet.jpeg")} alt="Goose Pond stone tablet pavilion before a bamboo grove" className="pt" loading="lazy" decoding="async" /><div className="cap">The Goose Pond pavilion in the bamboo</div></div>
+            <div className="pf fs"><img src={img("calligraphy-zhi-wall.jpeg")} alt="Large zhi character installation at Lanting" className="pt" loading="lazy" decoding="async" /><div className="cap">A single “zhi” character expanded across an entire wall</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -170,12 +170,12 @@ export default function ShaoxingEN() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("calligraphy-ribbon-corridor-group.jpeg")} alt="Four travelers beneath hanging calligraphy ribbons at Lanting" className="wd" /><div className="cap">Calligraphy ribbons overhead and one weekend group portrait beneath them</div></div>
+            <div className="pf fc"><img src={img("calligraphy-ribbon-corridor-group.jpeg")} alt="Four travelers beneath hanging calligraphy ribbons at Lanting" className="wd" loading="lazy" decoding="async" /><div className="cap">Calligraphy ribbons overhead and one weekend group portrait beneath them</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("person-in-black-jacket.jpeg")} alt="Visitor in a black jacket at Lanting" className="pt" /><div className="cap">Walking slowly between bamboo and stone inscriptions</div></div>
-            <div className="pf fn"><img src={img("two-people-standing-outdoors.jpeg")} alt="Two visitors posing outdoors at Lanting" className="pt" /><div className="cap">A Sunday portrait at Lanting</div></div>
+            <div className="pf fw"><img src={img("person-in-black-jacket.jpeg")} alt="Visitor in a black jacket at Lanting" className="pt" loading="lazy" decoding="async" /><div className="cap">Walking slowly between bamboo and stone inscriptions</div></div>
+            <div className="pf fn"><img src={img("two-people-standing-outdoors.jpeg")} alt="Two visitors posing outdoors at Lanting" className="pt" loading="lazy" decoding="async" /><div className="cap">A Sunday portrait at Lanting</div></div>
           </div>
 
           <div className="nbox mt16">

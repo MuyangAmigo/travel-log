@@ -40,9 +40,9 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g3 mt16">
-            <div className="pf fn"><img src={img("modern-dark-lounge-bar.jpeg")} alt="Dark lounge seating at Hongqiao Airport" className="sq" /><div className="cap">A calm pocket before takeoff</div></div>
-            <div className="pf fw"><img src={img("nio-storefront-logo-wall.jpeg")} alt="NIO House logo wall" className="sq" /><div className="cap">Our first taste of “first-class waiting”</div></div>
-            <div className="pf fc"><img src={img("panda-lobby-art-installation.jpeg")} alt="Panda installation in a Chengdu hotel lobby" className="sq" /><div className="cap">Straight into the panda universe</div></div>
+            <div className="pf fn"><img src={img("modern-dark-lounge-bar.jpeg")} alt="Dark lounge seating at Hongqiao Airport" className="sq" loading="lazy" decoding="async" /><div className="cap">A calm pocket before takeoff</div></div>
+            <div className="pf fw"><img src={img("nio-storefront-logo-wall.jpeg")} alt="NIO House logo wall" className="sq" loading="lazy" decoding="async" /><div className="cap">Our first taste of “first-class waiting”</div></div>
+            <div className="pf fc"><img src={img("panda-lobby-art-installation.jpeg")} alt="Panda installation in a Chengdu hotel lobby" className="sq" loading="lazy" decoding="async" /><div className="cap">Straight into the panda universe</div></div>
           </div>
 
           <div className="tlwrap mt20">
@@ -72,7 +72,7 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("two-people-outdoor-cafe.jpeg")} alt="Two people sitting at an outdoor cafe in Chengdu" className="hero" /><div className="cap">The best Chengdu rhythm: walk slowly, sit whenever you like</div></div>
+            <div className="pf fc"><img src={img("two-people-outdoor-cafe.jpeg")} alt="Two people sitting at an outdoor cafe in Chengdu" className="hero" loading="lazy" decoding="async" /><div className="cap">The best Chengdu rhythm: walk slowly, sit whenever you like</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -82,13 +82,13 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("couple-in-winter-jackets-outdoors.jpeg")} alt="Couple in winter jackets on Chunxi Road" className="ls" /><div className="cap">New Year on Chunxi Road</div></div>
-            <div className="pf fn"><img src={img("people-with-large-panda-statue.jpeg")} alt="Two people with the giant IFS panda sculpture" className="ls" /><div className="cap">Up to level seven for the panda&apos;s face</div></div>
+            <div className="pf fw"><img src={img("couple-in-winter-jackets-outdoors.jpeg")} alt="Couple in winter jackets on Chunxi Road" className="ls" loading="lazy" decoding="async" /><div className="cap">New Year on Chunxi Road</div></div>
+            <div className="pf fn"><img src={img("people-with-large-panda-statue.jpeg")} alt="Two people with the giant IFS panda sculpture" className="ls" loading="lazy" decoding="async" /><div className="cap">Up to level seven for the panda&apos;s face</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("traditional-chinese-temple-courtyard.jpeg")} alt="Traditional courtyard at Daci Temple" className="pt" /><div className="cap">Daci Temple, wrapped inside Taikoo Li</div></div>
-            <div className="pf fc"><img src={img("person-standing-by-bamboo-wall.jpeg")} alt="Person standing beside a bamboo wall" className="pt" /><div className="cap">Temple calm beside modern storefronts</div></div>
+            <div className="pf fs"><img src={img("traditional-chinese-temple-courtyard.jpeg")} alt="Traditional courtyard at Daci Temple" className="pt" loading="lazy" decoding="async" /><div className="cap">Daci Temple, wrapped inside Taikoo Li</div></div>
+            <div className="pf fc"><img src={img("person-standing-by-bamboo-wall.jpeg")} alt="Person standing beside a bamboo wall" className="pt" loading="lazy" decoding="async" /><div className="cap">Temple calm beside modern storefronts</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -117,8 +117,8 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fn"><img src={img("night-river-selfie-city-lights.jpeg")} alt="Night selfie beside the Jin River" className="pt" /><div className="cap">Anshun Bridge and the Jin River at night</div></div>
-            <div className="pf fw"><img src={img("two-people-in-traditional-backdrop.jpeg")} alt="Two people posing in a traditional backdrop" className="pt" /><div className="cap">Still wandering long after dark</div></div>
+            <div className="pf fn"><img src={img("night-river-selfie-city-lights.jpeg")} alt="Night selfie beside the Jin River" className="pt" loading="lazy" decoding="async" /><div className="cap">Anshun Bridge and the Jin River at night</div></div>
+            <div className="pf fw"><img src={img("two-people-in-traditional-backdrop.jpeg")} alt="Two people posing in a traditional backdrop" className="pt" loading="lazy" decoding="async" /><div className="cap">Still wandering long after dark</div></div>
           </div>
 
           <div className="route mt20" style={{ flexWrap: "wrap", gap: 4 }}>
@@ -150,7 +150,7 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("giant-panda-sitting-by-bamboo.jpeg")} alt="Giant panda Huahua sitting beside bamboo" className="hero" /><div className="cap">One hour in line, three minutes together — still worth it</div></div>
+            <div className="pf fc"><img src={img("giant-panda-sitting-by-bamboo.jpeg")} alt="Giant panda Huahua sitting beside bamboo" className="hero" loading="lazy" decoding="async" /><div className="cap">One hour in line, three minutes together — still worth it</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -160,13 +160,13 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("person-pointing-at-panda-enclosure.jpeg")} alt="Person pointing toward a panda enclosure" className="pt" /><div className="cap">The west gate was quieter — straight to Huahua</div></div>
-            <div className="pf fn"><img src={img("two-people-by-wooden-tower.jpeg")} alt="Two people beside a wooden tower at the panda base" className="pt" /><div className="cap">Winter sun inside the panda base</div></div>
+            <div className="pf fw"><img src={img("person-pointing-at-panda-enclosure.jpeg")} alt="Person pointing toward a panda enclosure" className="pt" loading="lazy" decoding="async" /><div className="cap">The west gate was quieter — straight to Huahua</div></div>
+            <div className="pf fn"><img src={img("two-people-by-wooden-tower.jpeg")} alt="Two people beside a wooden tower at the panda base" className="pt" loading="lazy" decoding="async" /><div className="cap">Winter sun inside the panda base</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("two-people-near-pig-statue.jpeg")} alt="Two people posing beside a sculpture" className="ls" /><div className="cap">An easy stroll through Kuanzhai Alley</div></div>
-            <div className="pf fc"><img src={img("two-people-peace-signs-building.jpeg")} alt="Two people making peace signs outside a traditional building" className="ls" /><div className="cap">A slower afternoon near People&apos;s Park</div></div>
+            <div className="pf fs"><img src={img("two-people-near-pig-statue.jpeg")} alt="Two people posing beside a sculpture" className="ls" loading="lazy" decoding="async" /><div className="cap">An easy stroll through Kuanzhai Alley</div></div>
+            <div className="pf fc"><img src={img("two-people-peace-signs-building.jpeg")} alt="Two people making peace signs outside a traditional building" className="ls" loading="lazy" decoding="async" /><div className="cap">A slower afternoon near People&apos;s Park</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -195,14 +195,14 @@ export default function ChengduEN() {
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fn"><img src={img("pink-event-tickets-in-hand.jpeg")} alt="Pink Shuyan Fu tickets held in one hand" className="pt" /><div className="cap">Tickets to today&apos;s royal banquet</div></div>
-            <div className="pf fw"><img src={img("japanese-tea-ceremony-set.jpeg")} alt="Tea set on the Shuyan Fu table" className="pt" /><div className="cap">The ceremony began with the tableware</div></div>
-            <div className="pf fc"><img src={img("wooden-serving-tray-with-bowls.jpeg")} alt="Small dishes arranged on a wooden tray" className="pt" /><div className="cap">Sichuan flavors arriving course by course</div></div>
+            <div className="pf fn"><img src={img("pink-event-tickets-in-hand.jpeg")} alt="Pink Shuyan Fu tickets held in one hand" className="pt" loading="lazy" decoding="async" /><div className="cap">Tickets to today&apos;s royal banquet</div></div>
+            <div className="pf fw"><img src={img("japanese-tea-ceremony-set.jpeg")} alt="Tea set on the Shuyan Fu table" className="pt" loading="lazy" decoding="async" /><div className="cap">The ceremony began with the tableware</div></div>
+            <div className="pf fc"><img src={img("wooden-serving-tray-with-bowls.jpeg")} alt="Small dishes arranged on a wooden tray" className="pt" loading="lazy" decoding="async" /><div className="cap">Sichuan flavors arriving course by course</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("traditional-dance-stage-performance.jpeg")} alt="Traditional dance performance at Shuyan Fu" className="ls" /><div className="cap">Traditional dance alongside lunch</div></div>
-            <div className="pf fw"><img src={img("xiaobanyouli-cafe-storefront.jpeg")} alt="Xiaobanyouli storefront at Eastern Suburb Memory" className="ls" /><div className="cap">New life inside an old industrial district</div></div>
+            <div className="pf fs"><img src={img("traditional-dance-stage-performance.jpeg")} alt="Traditional dance performance at Shuyan Fu" className="ls" loading="lazy" decoding="async" /><div className="cap">Traditional dance alongside lunch</div></div>
+            <div className="pf fw"><img src={img("xiaobanyouli-cafe-storefront.jpeg")} alt="Xiaobanyouli storefront at Eastern Suburb Memory" className="ls" loading="lazy" decoding="async" /><div className="cap">New life inside an old industrial district</div></div>
           </div>
 
           <div className="nbox mt16">

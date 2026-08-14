@@ -35,12 +35,18 @@ export default async function LocaleHome({
         <p className="index-tagline">{t.tagline}</p>
 
         <div className="trip-grid">
-          {trips.map((trip) => {
+          {trips.map((trip, index) => {
             const route = `/${loc}/trips/${trip.slug}`;
             const content = (
               <>
                 <div className="tc-media">
-                  <img src={trip.coverImage} alt={trip.title[loc]} loading="lazy" />
+                  <img
+                    src={trip.coverImage}
+                    alt={trip.title[loc]}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    decoding="async"
+                    fetchPriority={index === 0 ? "high" : "auto"}
+                  />
                   {trip.private && (
                   <span className="tc-badge private" aria-label={loc === "zh" ? "需要密码" : "Password protected"}>
                     <svg width="10" height="12" viewBox="0 0 10 12" fill="none" aria-hidden="true">

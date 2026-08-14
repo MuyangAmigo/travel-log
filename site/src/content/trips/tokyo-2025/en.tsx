@@ -63,7 +63,7 @@ export default function TokyoEN() {
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tl" />
               <div className="tape tg t-tr" />
-              <img src={img("day0-menya-musashi-ramen-receipts.jpeg")} alt="Menya Musashi ramen tickets" className="hero" />
+              <img src={img("day0-menya-musashi-ramen-receipts.jpeg")} alt="Menya Musashi ramen tickets" className="hero" loading="lazy" decoding="async" />
               <div className="cap">First meal on the ground: Menya Musashi, Takadanobaba</div>
             </div>
           </div>
@@ -102,12 +102,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("green-train-at-station.jpeg")} alt="Enoden green train" className="ls" />
+              <img src={img("green-train-at-station.jpeg")} alt="Enoden green train" className="ls" loading="lazy" decoding="async" />
               <div className="cap">The Enoden hanging train — Kamakura&apos;s signature</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("coastal-stream-between-trees.jpeg")} alt="Coastal stream" className="ls" />
+              <img src={img("coastal-stream-between-trees.jpeg")} alt="Coastal stream" className="ls" loading="lazy" decoding="async" />
               <div className="cap">A tree-shaded stream down to the coast</div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function TokyoEN() {
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("illuminated-japanese-temple-at-night.jpeg")} alt="Tsurugaoka Hachimangu at night" className="hero" />
+              <img src={img("illuminated-japanese-temple-at-night.jpeg")} alt="Tsurugaoka Hachimangu at night" className="hero" loading="lazy" decoding="async" />
               <div className="cap">Tsurugaoka Hachimangū at night — Kamakura&apos;s full stop</div>
             </div>
           </div>
@@ -155,12 +155,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("urban-street-red-traffic-light.jpeg")} alt="Komachi street red light" className="sq" />
+              <img src={img("urban-street-red-traffic-light.jpeg")} alt="Komachi street red light" className="sq" loading="lazy" decoding="async" />
               <div className="cap">A red light on Komachi-dōri</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tr" />
-              <img src={img("japanese-tonkatsu-set-meal.jpeg")} alt="Maizara tonkatsu set" className="sq" />
+              <img src={img("japanese-tonkatsu-set-meal.jpeg")} alt="Maizara tonkatsu set" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Maizara tonkatsu — Kamakura&apos;s perfect ending 🍛</div>
             </div>
           </div>
@@ -168,12 +168,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tc" />
-              <img src={img("gucci-bag-cafe-table.jpeg")} alt="Cafe table" className="sq" />
+              <img src={img("gucci-bag-cafe-table.jpeg")} alt="Cafe table" className="sq" loading="lazy" decoding="async" />
               <div className="cap">A street-side café</div>
             </div>
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("two-people-on-beach.jpeg")} alt="Shonan beach" className="sq" />
+              <img src={img("two-people-on-beach.jpeg")} alt="Shonan beach" className="sq" loading="lazy" decoding="async" />
               <div className="cap">The Shichirigahama shore</div>
             </div>
           </div>
@@ -220,12 +220,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("two-people-wearing-patterned-aprons.jpeg")} alt="Grill aprons" className="ls" />
+              <img src={img("two-people-wearing-patterned-aprons.jpeg")} alt="Grill aprons" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Rokkasen aprons — about to start grilling</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("wagyu-beef-slices-platter.jpeg")} alt="Wagyu platter" className="ls" />
+              <img src={img("wagyu-beef-slices-platter.jpeg")} alt="Wagyu platter" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Wagyu platter 🥩</div>
             </div>
           </div>
@@ -233,12 +233,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("shrimp-and-scallops-on-grill.jpeg")} alt="Shrimp scallops grill" className="sq" />
+              <img src={img("shrimp-and-scallops-on-grill.jpeg")} alt="Shrimp scallops grill" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Shrimp and scallops on the grill</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("japanese-wall-art-interior.jpeg")} alt="Restaurant wall art" className="sq" />
+              <img src={img("japanese-wall-art-interior.jpeg")} alt="Restaurant wall art" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Ukiyo-e wall art inside</div>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function TokyoEN() {
 
           <div className="sgrid mt16">
             <div className="sc">
-              <img src={img("mont-bell-black-jacket.jpeg")} alt="Montbell jacket" />
+              <img src={img("mont-bell-black-jacket.jpeg")} alt="Montbell jacket" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Montbell Thunder Pass</h5>
                 <div className="pr">¥ 640 · 14,800 JPY</div>
@@ -259,7 +259,7 @@ export default function TokyoEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("on-running-shoes-box.jpeg")} alt="On shoes" />
+              <img src={img("on-running-shoes-box.jpeg")} alt="On shoes" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>On Cloud runners ×4</h5>
                 <div className="pr">¥ 892 · 19,380 JPY</div>
@@ -267,7 +267,7 @@ export default function TokyoEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("folded-north-face-tshirt.jpeg")} alt="North Face tee" />
+              <img src={img("folded-north-face-tshirt.jpeg")} alt="North Face tee" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Purple Label long-sleeve</h5>
                 <div className="pr">¥ 470 · 10,200 JPY</div>
@@ -275,7 +275,7 @@ export default function TokyoEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("white-sneakers-on-shoebox.jpeg")} alt="Salomon XT Whisper" />
+              <img src={img("white-sneakers-on-shoebox.jpeg")} alt="Salomon XT Whisper" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Salomon XT Whisper</h5>
                 <div className="pr">¥ 939 · 20,400 JPY</div>
@@ -283,7 +283,7 @@ export default function TokyoEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("gray-tapered-leg-jeans.jpeg")} alt="UA jeans" />
+              <img src={img("gray-tapered-leg-jeans.jpeg")} alt="UA jeans" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>United Arrows jeans</h5>
                 <div className="pr">¥ 850 · 18,462 JPY</div>
@@ -291,7 +291,7 @@ export default function TokyoEN() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("folded-black-graphic-tshirts.jpeg")} alt="Black tees" />
+              <img src={img("folded-black-graphic-tshirts.jpeg")} alt="Black tees" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Arc&apos;teryx tees ×2</h5>
                 <div className="pr">¥ 1,012</div>
@@ -342,12 +342,12 @@ export default function TokyoEN() {
           <div className="pgrid g2">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("day3-yoyogi-street.jpeg")} alt="Yoyogi street" className="ls" />
+              <img src={img("day3-yoyogi-street.jpeg")} alt="Yoyogi street" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Road toward Yoyogi Park</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("day3-meiji-jingu-poem-board.jpeg")} alt="Meiji poem board" className="ls" />
+              <img src={img("day3-meiji-jingu-poem-board.jpeg")} alt="Meiji poem board" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Emperor Meiji&apos;s poem at the shrine</div>
             </div>
           </div>
@@ -356,7 +356,7 @@ export default function TokyoEN() {
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("day3-tokyo-street-trees.jpeg")} alt="Tokyo tree-lined street" className="hero" />
+              <img src={img("day3-tokyo-street-trees.jpeg")} alt="Tokyo tree-lined street" className="hero" loading="lazy" decoding="async" />
               <div className="cap">A tree-lined street under the expressway</div>
             </div>
           </div>
@@ -370,12 +370,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("arcteryx-paygate-store-receipt.jpeg")} alt="Arcteryx receipt" className="sq" />
+              <img src={img("arcteryx-paygate-store-receipt.jpeg")} alt="Arcteryx receipt" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Paygate store receipt</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("don-quijote-shopping-bag.jpeg")} alt="Don Quijote bag" className="sq" />
+              <img src={img("don-quijote-shopping-bag.jpeg")} alt="Don Quijote bag" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Don Quijote drugstore haul</div>
             </div>
           </div>
@@ -410,12 +410,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("day4-disney-resort-line-tickets.jpeg")} alt="Disney monorail tickets" className="ls" />
+              <img src={img("day4-disney-resort-line-tickets.jpeg")} alt="Disney monorail tickets" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Disney Resort Line single tickets</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("day4-fortress-ship-ride.jpeg")} alt="Fortress ship ride" className="ls" />
+              <img src={img("day4-fortress-ship-ride.jpeg")} alt="Fortress ship ride" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Wooden ship at Fortress Explorations</div>
             </div>
           </div>
@@ -423,12 +423,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("day4-arabian-coast.jpeg")} alt="Arabian coast" className="sq" />
+              <img src={img("day4-arabian-coast.jpeg")} alt="Arabian coast" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Arabian Coast&apos;s domes 🕌</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("day4-tower-of-terror-hotel.jpeg")} alt="Tower of Terror hotel" className="sq" />
+              <img src={img("day4-tower-of-terror-hotel.jpeg")} alt="Tower of Terror hotel" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Tower of Terror in daylight</div>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function TokyoEN() {
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("day4-tangled-lantern-ride.jpeg")} alt="Tangled lanterns ride" className="hero" />
+              <img src={img("day4-tangled-lantern-ride.jpeg")} alt="Tangled lanterns ride" className="hero" loading="lazy" decoding="async" />
               <div className="cap">Tangled lanterns — floating lights from a little boat</div>
             </div>
           </div>
@@ -473,7 +473,7 @@ export default function TokyoEN() {
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("day4-mermaid-lagoon-night.jpeg")} alt="Mermaid lagoon at night" className="hero" />
+              <img src={img("day4-mermaid-lagoon-night.jpeg")} alt="Mermaid lagoon at night" className="hero" loading="lazy" decoding="async" />
               <div className="cap">Mermaid Lagoon — DisneySea at night is straight out of a fairytale</div>
             </div>
           </div>
@@ -481,12 +481,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("day4-tower-of-terror-ride-photo.jpeg")} alt="Tower of Terror ride photo" className="sq" />
+              <img src={img("day4-tower-of-terror-ride-photo.jpeg")} alt="Tower of Terror ride photo" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Tower of Terror ride photo</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("day4-tower-of-terror-dpa-ticket.jpeg")} alt="Tower of Terror DPA" className="sq" />
+              <img src={img("day4-tower-of-terror-dpa-ticket.jpeg")} alt="Tower of Terror DPA" className="sq" loading="lazy" decoding="async" />
               <div className="cap">DPA ticket — the best ride in the park</div>
             </div>
           </div>
@@ -494,12 +494,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("day4-night-fountain-show.jpeg")} alt="Night fountain show" className="sq" />
+              <img src={img("day4-night-fountain-show.jpeg")} alt="Night fountain show" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Nighttime fountain show</div>
             </div>
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("day4-disney-night-selfie.jpeg")} alt="Disney night selfie" className="sq" />
+              <img src={img("day4-disney-night-selfie.jpeg")} alt="Disney night selfie" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Quick selfie in the park at night</div>
             </div>
           </div>
@@ -514,7 +514,7 @@ export default function TokyoEN() {
             <div className="pf fc" style={{ position: "relative", padding: 8 }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("pink-plush-toys-with-stickers.png")} alt="Disney plush" className="pt" />
+              <img src={img("pink-plush-toys-with-stickers.png")} alt="Disney plush" className="pt" loading="lazy" decoding="async" />
               <div className="cap" style={{ fontSize: 17, marginTop: 6 }}>The crystal strap — Disney&apos;s official parting gift</div>
             </div>
           </div>
@@ -545,7 +545,7 @@ export default function TokyoEN() {
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("day5-ginza-cocoon-tower.jpeg")} alt="Ginza Cocoon" className="hero" />
+              <img src={img("day5-ginza-cocoon-tower.jpeg")} alt="Ginza Cocoon" className="hero" loading="lazy" decoding="async" />
               <div className="cap">Shinjuku&apos;s Cocoon Tower — the department-store war begins</div>
             </div>
           </div>
@@ -553,12 +553,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("day5-chanel-19m-tokyo-banner.jpeg")} alt="Chanel 19M Tokyo banner" className="ls" />
+              <img src={img("day5-chanel-19m-tokyo-banner.jpeg")} alt="Chanel 19M Tokyo banner" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Chanel La Galerie du 19M Tokyo</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tr" />
-              <img src={img("day5-chanel-exhibition-outfits.jpeg")} alt="Chanel exhibition outfits" className="ls" />
+              <img src={img("day5-chanel-exhibition-outfits.jpeg")} alt="Chanel exhibition outfits" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Ready-to-wear pieces in the century exhibition</div>
             </div>
           </div>
@@ -566,12 +566,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("day5-mori-art-museum.jpeg")} alt="Mori Art Museum" className="sq" />
+              <img src={img("day5-mori-art-museum.jpeg")} alt="Mori Art Museum" className="sq" loading="lazy" decoding="async" />
               <div className="cap">A pass-by at Mori Art Museum</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("black-louis-vuitton-handbag-cat.jpeg")} alt="LV Keepall" className="sq" />
+              <img src={img("black-louis-vuitton-handbag-cat.jpeg")} alt="LV Keepall" className="sq" loading="lazy" decoding="async" />
               <div className="cap">LV Keepall 35 + a cat 👜</div>
             </div>
           </div>
@@ -579,12 +579,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("folded-black-puffer-jacket.jpeg")} alt="Canada Goose" className="sq" />
+              <img src={img("folded-black-puffer-jacket.jpeg")} alt="Canada Goose" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Canada Goose parka</div>
             </div>
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tr" />
-              <img src={img("louis-vuitton-wallet-box.jpeg")} alt="LV wallet" className="sq" />
+              <img src={img("louis-vuitton-wallet-box.jpeg")} alt="LV wallet" className="sq" loading="lazy" decoding="async" />
               <div className="cap">LV compact wallet (Takashimaya)</div>
             </div>
           </div>
@@ -592,12 +592,12 @@ export default function TokyoEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("lancome-skincare-products-flatlay.jpeg")} alt="Skincare flatlay" className="sq" />
+              <img src={img("lancome-skincare-products-flatlay.jpeg")} alt="Skincare flatlay" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Counter purchases from the day</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("kanebo-sealed-cosmetic-sample.jpeg")} alt="Kanebo sample" className="sq" />
+              <img src={img("kanebo-sealed-cosmetic-sample.jpeg")} alt="Kanebo sample" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Kanebo sealed sample</div>
             </div>
           </div>
