@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2026-06-03",
   dateRange: "2026.06.03 — 06.07",
-  coverImage: img("20-seaside-torii.webp"),
+  coverImage: img("cover-2026-08.png"),
   title: {
     zh: "福冈 · 一个人慢慢走",
     en: "Fukuoka · Wandering at My Own Pace",

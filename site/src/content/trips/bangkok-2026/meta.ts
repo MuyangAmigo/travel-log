@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2026-04-02",
   dateRange: "2026.04.02 — 04.06",
-  coverImage: img("IMG_1725.jpeg"),
+  coverImage: img("cover-2026-08.png"),
   title: {
     zh: "曼谷 · 热浪漫游",
     en: "Bangkok · Heatwave Wanderings",

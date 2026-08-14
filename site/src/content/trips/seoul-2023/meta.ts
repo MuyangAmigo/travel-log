@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2023-12-29",
   dateRange: "2023.12.29 — 2024.01.01",
-  coverImage: img("24-namsan-cover.webp"),
+  coverImage: img("cover-2026-08.jpeg"),
   title: {
     zh: "首尔 · 雪坡霓虹跨年夜",
     en: "Seoul · Snow, Slopes & Midnight Neon",

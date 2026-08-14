@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2025-10-05",
   dateRange: "2025.10.05 — 10.10",
-  coverImage: img("illuminated-japanese-temple-at-night.jpeg"),
+  coverImage: img("cover-2026-08.png"),
   title: {
     zh: "东京 · 海岸、迪士尼与买买买",
     en: "Tokyo · Coasts, Disney & a Shopping Spree",

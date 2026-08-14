@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2024-04-10",
   dateRange: "2024.04.10 — 04.15",
-  coverImage: img("illuminated-pagoda-cherry-blossoms-night.jpg"),
+  coverImage: img("cover-2026-08.jpeg"),
   title: {
     zh: "关西 · 樱灯、魔法与抹茶",
     en: "Kansai · Cherry Lights, Magic & Matcha",
