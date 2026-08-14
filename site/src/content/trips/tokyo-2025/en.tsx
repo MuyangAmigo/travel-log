@@ -546,7 +546,7 @@ export default function TokyoEN() {
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
               <img src={img("day5-ginza-cocoon-tower.jpeg")} alt="Ginza Cocoon" className="hero" />
-              <div className="cap">Ginza&apos;s Cocoon Tower — the department-store war begins</div>
+              <div className="cap">Shinjuku&apos;s Cocoon Tower — the department-store war begins</div>
             </div>
           </div>
 
