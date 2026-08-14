@@ -755,7 +755,7 @@ export default function TokyoEN() {
             <div className="hwcn" style={{ maxWidth: 500, margin: "20px auto", textAlign: "center" }}>
               <p>From the Kamakura shoreline to the Shinjuku shopping streets,</p>
               <p>from a DisneySea night to the last room of the Chanel exhibition,</p>
-              <p>five days and four nights,</p>
+              <p>six days and five nights,</p>
               <p>a pile of bags and a whole new journal.</p>
               <p style={{ marginTop: 20 }}>The meaning of travel isn&apos;t the destination —</p>
               <p>it&apos;s the roads we walked together.</p>
