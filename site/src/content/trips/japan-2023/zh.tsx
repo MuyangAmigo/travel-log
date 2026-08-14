@@ -80,10 +80,9 @@ export default function Japan2023ZH() {
           <div className="tl-item"><span className="tm">Day 4–5</span><div className="ev">原宿涩谷 → 皇居银座秋叶原</div><div className="dt">白天穿街区，晚上看东京铺成灯海</div></div>
           <div className="tl-item"><span className="tm">Day 6–7</span><div className="ev">购物 → 横滨 → 哈利波特影城 → 回家</div><div className="dt">城市建筑、港口天际线、电影布景和最后一轮采购</div></div>
         </div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g2 guide-thumbs" photos={[
           { file: "tokyo-city-one-day-tour.jpeg", alt: "东京一日游路线参考图", caption: "出发前收藏的东京一日路线" },
           { file: "lake-kawaguchi-hotel-areas-map.jpeg", alt: "河口湖酒店区域分布图", caption: "河口湖住宿区域参考" },
-          { file: "tokyo-city-tour-map.jpeg", alt: "东京景点与交通路线地图", caption: "把东京几天的移动先摊在地图上" },
         ]} />
       </JournalCard>
 
@@ -97,10 +96,12 @@ export default function Japan2023ZH() {
           <p>从东京出发来到河口湖，住进湖边的富士吟景。推开窗就是富士山，温泉旅馆的安静让整趟旅行先慢了下来。天气并不完美，但山、湖和低低的云仍然足够让人停下来多看一会儿。</p>
           <p>两天里经过河口湖站、新仓山浅间公园一带，也把忍野八海与河口湖音乐森林附近的炸鸡店记进路线。这里没有东京那么满，风景本身就是行程。</p>
         </div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g1" photos={[
+          { file: "mount-fuji-lake-view.png", alt: "河口湖畔远望富士山", caption: "湖水、富士山与旅馆窗外的安静", shape: "hero" },
+        ]} />
+        <Gallery grid="g2" photos={[
           { file: "kawaguchiko-station-sign-entrance.png", alt: "河口湖站入口与站名标识", caption: "抵达河口湖，富士山段正式开始", shape: "sq" },
           { file: "chureito-pagoda-overlooking-fujiyoshida.png", alt: "新仓山浅间公园五重塔俯瞰富士吉田", caption: "五重塔与山下城市铺在同一层景深里", shape: "sq" },
-          { file: "mount-fuji-lake-view.png", alt: "河口湖畔远望富士山", caption: "湖水、富士山与旅馆窗外的安静", shape: "pt" },
         ]} />
         <Gallery photos={[
           { file: "group-at-japanese-temple.jpeg", alt: "一行人在日本寺社建筑前合影", caption: "富士山脚下的同行合影", shape: "ls" },
@@ -140,14 +141,14 @@ export default function Japan2023ZH() {
           <p>白天的路线在明治神宫、原宿、表参道与根津美术馆一带展开，到了晚上，Shibuya Sky 成了这天最强烈的记忆。站在高处，东京不再是一条街，而是一整片向远处延伸的灯光。</p>
           <p>购物也在这天突然加速：ATOMS 两件 T 恤 11,019 日元；PSG 店一件 T 恤加一件卫衣 31,900 日元；ABC Mart 的 Nike 板鞋 14,000 日元；两件 Aape 毛衣 28,666 日元；Air Jordan 板鞋 18,315 日元。原笔记合计 103,900 日元，约 5,082 元。</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g1" photos={[
           { file: "night-city-view-observatory-couple.jpeg", alt: "两个人在观景台前看东京夜景", caption: "Shibuya Sky 上，城市灯光铺到视线尽头", shape: "ls" },
-          { file: "two-people-outdoors-near-building.jpeg", alt: "两个人在东京建筑旁合影", caption: "白天穿过原宿与表参道", shape: "pt" },
         ]} />
-        <Gallery grid="g3" photos={[
-          { file: "friends-on-observation-deck.png", alt: "朋友们站在东京高空观景台", caption: "在观景台留下合影", shape: "pt" },
-          { file: "group-city-night-view.jpeg", alt: "一行人在东京城市夜景前合影", caption: "一群人与一整座夜东京", shape: "ls" },
-          { file: "two-people-city-night-view.jpeg", alt: "两个人以东京夜景为背景合影", caption: "夜景很震撼，照片只是缩小版", shape: "ls" },
+        <Gallery grid="g4" photos={[
+          { file: "two-people-outdoors-near-building.jpeg", alt: "两个人在东京建筑旁合影", caption: "白天穿过原宿与表参道", shape: "sq" },
+          { file: "friends-on-observation-deck.png", alt: "朋友们站在东京高空观景台", caption: "在观景台留下合影", shape: "sq" },
+          { file: "group-city-night-view.jpeg", alt: "一行人在东京城市夜景前合影", caption: "一群人与一整座夜东京", shape: "sq" },
+          { file: "two-people-city-night-view.jpeg", alt: "两个人以东京夜景为背景合影", caption: "夜景很震撼，照片只是缩小版", shape: "sq" },
         ]} />
       </JournalCard>
 
@@ -161,7 +162,7 @@ export default function Japan2023ZH() {
           <p>这天从皇居一带的开阔道路走进银座整齐的商业建筑，再转向秋叶原。东京的反差被压在一天里：树木与商务区、GINZA SIX 的玻璃幕墙、密集招牌，以及雨水反射出来的夜色。</p>
           <p>购物记录比行程更简短：优衣库 1,060.52 元。前一天的大采购之后，这个数字反而显得克制。</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "modern-city-intersection-buildings.png", alt: "东京现代建筑围绕的城市路口", caption: "从皇居一带走向商业区", shape: "pt" },
           { file: "ginza-six-shopping-center.png", alt: "GINZA SIX 购物中心外立面", caption: "银座的建筑与购物动线", shape: "pt" },
           { file: "tokyo-business-district-parkway.png", alt: "东京商务区林荫道路", caption: "高楼之间仍留着宽阔树影", shape: "pt" },
@@ -201,7 +202,7 @@ export default function Japan2023ZH() {
           <p>最后一天去了东京华纳兄弟哈利波特影城。对哈迷来说，这里确实像圣地：电影里的海报、服装、道具与布景从屏幕里变成立体空间，连搅动发光坩埚这样的互动也足够让人停很久。</p>
           <p>返程前的购物仍然没有收手：松本清药妆 853.96 元、哈利波特周边 585.02 元、祖马龙香水 758.83 元、伴手礼 720.60 元、日上免税 4,438.55 元；Day 7 合计 7,356.96 元。</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "wizard-robe-by-display-case.jpeg", alt: "穿巫师袍站在哈利波特展柜旁", caption: "换上巫师袍，走进电影世界", shape: "pt" },
           { file: "harry-potter-undesirable-no-1-poster.png", alt: "哈利波特头号不受欢迎人物海报", caption: "熟悉的通缉海报变成实景陈列", shape: "pt" },
           { file: "harry-potter-poster-display.png", alt: "哈利波特主题海报展陈", caption: "片场里的海报与道具细节", shape: "pt" },
@@ -215,7 +216,7 @@ export default function Japan2023ZH() {
           <div><div className="day-title">战利品摊开，鞋服先占满一地</div><div className="day-sub">Sneakers · streetwear · outerwear</div></div>
         </div>
         <div className="jtxt"><p>原笔记说“每次都买太多了”，照片把这句话证明得很彻底。鞋盒、T 恤、卫衣、羽绒服、长裤与背包逐件铺开，购物不只是附带项目，而是这趟东京旅行的一条主线。</p></div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "nike-shoes-in-open-boxes.png", alt: "打开鞋盒摆放的 Nike 运动鞋", caption: "两双鞋盒打开，板鞋采购正式入账", shape: "pt" },
           { file: "folded-puffer-jacket-and-pants.png", alt: "叠放的羽绒服与长裤", caption: "外套与裤装战利品", shape: "pt" },
           { file: "black-backpack-and-khaki-pants.png", alt: "黑色背包与卡其色长裤", caption: "背包和日常裤装", shape: "pt" },
@@ -233,11 +234,13 @@ export default function Japan2023ZH() {
           <div><div className="day-title">药妆、零食、厨具与魔法周边</div><div className="day-sub">Drugstore · snacks · souvenirs · kitchenware</div></div>
         </div>
         <div className="jtxt"><p>另一半行李箱属于药妆、零食与伴手礼。哈利波特周边单独成组，眼药水、感冒药、护肤品与点心盒则把返程前的采购铺得密密麻麻；三把陶瓷刀是其中最不一样的一组。</p></div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g4" photos={[
           { file: "harry-potter-souvenir-items.png", alt: "哈利波特主题纪念品摆放在一起", caption: "影城带回的魔法世界周边", shape: "pt" },
           { file: "japanese-snack-boxes-on-carpet-2.png", alt: "地毯上摆放的日本点心礼盒", caption: "伴手礼与点心盒第一组", shape: "pt" },
           { file: "japanese-healthcare-products-flatlay.png", alt: "日本保健与药妆产品平铺", caption: "药妆店采购摊开记录", shape: "pt" },
           { file: "three-ceramic-kitchen-knives.png", alt: "三把陶瓷厨房刀具", caption: "行李里很有存在感的三把陶瓷刀", shape: "pt" },
+        ]} />
+        <Gallery grid="g3" photos={[
           { file: "japanese-eye-and-cold-medicines.png", alt: "日本眼药水与感冒药", caption: "眼药水与常用药补货", shape: "pt" },
           { file: "japanese-snack-boxes-on-carpet.png", alt: "多盒日本零食与伴手礼", caption: "点心盒第二组，返程行李继续膨胀", shape: "pt" },
           { file: "korean-skincare-products-flatlay.png", alt: "多件护肤品平铺陈列", caption: "护肤品集中记录", shape: "pt" },

@@ -72,10 +72,9 @@ export default function Japan2023EN() {
           <div className="tl-item"><span className="tm">Day 4–5</span><div className="ev">Harajuku and Shibuya → Imperial Palace, Ginza, Akihabara</div><div className="dt">Neighborhoods by day and Tokyo spread into a sea of lights by night</div></div>
           <div className="tl-item"><span className="tm">Day 6–7</span><div className="ev">Shopping → Yokohama → Harry Potter Studio Tour → home</div><div className="dt">Architecture, harbor skyline, film sets, and one final buying round</div></div>
         </div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g2 guide-thumbs" photos={[
           { file: "tokyo-city-one-day-tour.jpeg", alt: "Reference itinerary for a one-day Tokyo tour", caption: "A Tokyo day route saved before departure" },
           { file: "lake-kawaguchi-hotel-areas-map.jpeg", alt: "Map of hotel areas around Lake Kawaguchi", caption: "A guide to where to stay around the lake" },
-          { file: "tokyo-city-tour-map.jpeg", alt: "Map of Tokyo attractions and transit routes", caption: "Several Tokyo days laid out on one map" },
         ]} />
       </JournalCard>
 
@@ -89,10 +88,12 @@ export default function Japan2023EN() {
           <p>We came from Tokyo to Lake Kawaguchi and checked into Fuji Ginkei beside the water. Mount Fuji filled the view when we opened the window, and the quiet onsen hotel slowed the whole trip down before it had properly begun. The weather was not perfect, but the mountain, lake, and low clouds still made us stop and look.</p>
           <p>The two days took us through Kawaguchiko Station and the Chureito Pagoda area, with Oshino Hakkai and a karaage shop near the Kawaguchiko Music Forest also saved on the route. Nothing here felt as packed as Tokyo; the scenery itself was the itinerary.</p>
         </div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g1" photos={[
+          { file: "mount-fuji-lake-view.png", alt: "Mount Fuji seen across Lake Kawaguchi", caption: "Lake water, Mount Fuji, and the stillness outside the hotel", shape: "hero" },
+        ]} />
+        <Gallery grid="g2" photos={[
           { file: "kawaguchiko-station-sign-entrance.png", alt: "Entrance and station sign at Kawaguchiko Station", caption: "Arriving at Kawaguchiko—the Fuji chapter begins", shape: "sq" },
           { file: "chureito-pagoda-overlooking-fujiyoshida.png", alt: "Chureito Pagoda overlooking Fujiyoshida", caption: "The five-story pagoda and city sharing one deep view", shape: "sq" },
-          { file: "mount-fuji-lake-view.png", alt: "Mount Fuji seen across Lake Kawaguchi", caption: "Lake water, Mount Fuji, and the stillness outside the hotel", shape: "pt" },
         ]} />
         <Gallery photos={[
           { file: "group-at-japanese-temple.jpeg", alt: "Travel group posing before a Japanese temple building", caption: "A group portrait below Mount Fuji", shape: "ls" },
@@ -132,14 +133,14 @@ export default function Japan2023EN() {
           <p>The daytime route moved around Meiji Jingu, Harajuku, Omotesando, and the Nezu Museum area. At night, Shibuya Sky became the day&apos;s strongest memory. From above, Tokyo stopped being a sequence of streets and became an entire field of light stretching toward the horizon.</p>
           <p>Shopping accelerated too: two ATOMS T-shirts for JPY 11,019; a T-shirt and sweatshirt at the PSG store for JPY 31,900; Nike sneakers at ABC Mart for JPY 14,000; two Aape sweaters for JPY 28,666; and Air Jordan sneakers for JPY 18,315. The note totals Day 4 at JPY 103,900, or about RMB 5,082.</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g1" photos={[
           { file: "night-city-view-observatory-couple.jpeg", alt: "Two people overlooking Tokyo at night from an observation deck", caption: "Tokyo&apos;s lights reaching the horizon from Shibuya Sky", shape: "ls" },
-          { file: "two-people-outdoors-near-building.jpeg", alt: "Two people posing beside a Tokyo building", caption: "Moving through Harajuku and Omotesando by day", shape: "pt" },
         ]} />
-        <Gallery grid="g3" photos={[
-          { file: "friends-on-observation-deck.png", alt: "Friends standing on a high observation deck in Tokyo", caption: "A group portrait on the observation deck", shape: "pt" },
-          { file: "group-city-night-view.jpeg", alt: "Travel group posing before the Tokyo night skyline", caption: "A whole group against a whole city of lights", shape: "ls" },
-          { file: "two-people-city-night-view.jpeg", alt: "Two people posing with Tokyo at night behind them", caption: "The photograph is only a reduced version of the view", shape: "ls" },
+        <Gallery grid="g4" photos={[
+          { file: "two-people-outdoors-near-building.jpeg", alt: "Two people posing beside a Tokyo building", caption: "Moving through Harajuku and Omotesando by day", shape: "sq" },
+          { file: "friends-on-observation-deck.png", alt: "Friends standing on a high observation deck in Tokyo", caption: "A group portrait on the observation deck", shape: "sq" },
+          { file: "group-city-night-view.jpeg", alt: "Travel group posing before the Tokyo night skyline", caption: "A whole group against a whole city of lights", shape: "sq" },
+          { file: "two-people-city-night-view.jpeg", alt: "Two people posing with Tokyo at night behind them", caption: "The photograph is only a reduced version of the view", shape: "sq" },
         ]} />
       </JournalCard>
 
@@ -153,7 +154,7 @@ export default function Japan2023EN() {
           <p>We moved from the open roads around the Imperial Palace into Ginza&apos;s ordered commercial blocks, then on to Akihabara. Tokyo&apos;s contrasts fit into one day: trees and business towers, the glass façade of GINZA SIX, dense signs, and rain reflecting the city after dark.</p>
           <p>The shopping record is much shorter: RMB 1,060.52 at Uniqlo. After the previous day&apos;s haul, the number almost looks restrained.</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "modern-city-intersection-buildings.png", alt: "Tokyo intersection framed by modern buildings", caption: "Leaving the Imperial Palace area for the commercial district", shape: "pt" },
           { file: "ginza-six-shopping-center.png", alt: "Exterior of GINZA SIX shopping center", caption: "Ginza&apos;s architecture and shopping route", shape: "pt" },
           { file: "tokyo-business-district-parkway.png", alt: "Tree-lined road in a Tokyo business district", caption: "Broad tree cover between the towers", shape: "pt" },
@@ -193,7 +194,7 @@ export default function Japan2023EN() {
           <p>The last day went to Warner Bros. Studio Tour Tokyo. For a Harry Potter fan, it really did feel like a pilgrimage: posters, costumes, props, and sets stepped out of the screen and became full rooms, while interactions such as stirring a glowing cauldron made it easy to linger.</p>
           <p>Shopping continued before the flight: RMB 853.96 at Matsumoto Kiyoshi, RMB 585.02 in Harry Potter merchandise, RMB 758.83 for Jo Malone perfume, RMB 720.60 in gifts, and RMB 4,438.55 at Sunrise Duty Free. Day 7 totaled RMB 7,356.96.</p>
         </div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "wizard-robe-by-display-case.jpeg", alt: "Visitor in wizard robes beside a Harry Potter display case", caption: "Robes on, stepping into the film world", shape: "pt" },
           { file: "harry-potter-undesirable-no-1-poster.png", alt: "Harry Potter Undesirable No. 1 poster", caption: "A familiar wanted poster as a physical prop", shape: "pt" },
           { file: "harry-potter-poster-display.png", alt: "Harry Potter posters displayed in the studio tour", caption: "Posters and prop details inside the studio", shape: "pt" },
@@ -207,7 +208,7 @@ export default function Japan2023EN() {
           <div><div className="day-title">Shoes and Clothes Taking Over the Floor</div><div className="day-sub">Sneakers · streetwear · outerwear</div></div>
         </div>
         <div className="jtxt"><p>The journal says, “I buy too much every time,” and the photographs prove it thoroughly. Shoe boxes, T-shirts, sweatshirts, a puffer, trousers, and a backpack are laid out one by one. Shopping was not a side activity here; it was one of the trip&apos;s main routes.</p></div>
-        <Gallery photos={[
+        <Gallery grid="g4" photos={[
           { file: "nike-shoes-in-open-boxes.png", alt: "Nike sneakers displayed in open shoe boxes", caption: "Two open boxes marking the sneaker haul", shape: "pt" },
           { file: "folded-puffer-jacket-and-pants.png", alt: "Folded puffer jacket and trousers", caption: "Outerwear and trousers from the haul", shape: "pt" },
           { file: "black-backpack-and-khaki-pants.png", alt: "Black backpack and khaki trousers", caption: "A backpack and everyday trousers", shape: "pt" },
@@ -225,11 +226,13 @@ export default function Japan2023EN() {
           <div><div className="day-title">Drugstore Finds, Snacks, Knives, and Wizarding Souvenirs</div><div className="day-sub">Drugstore · snacks · souvenirs · kitchenware</div></div>
         </div>
         <div className="jtxt"><p>The other half of the suitcase belonged to drugstore products, snacks, and gifts. Harry Potter merchandise formed its own group; eye drops, cold remedies, skincare, and confectionery boxes filled the rest of the floor. Three ceramic knives were the most unexpected set.</p></div>
-        <Gallery grid="g3" photos={[
+        <Gallery grid="g4" photos={[
           { file: "harry-potter-souvenir-items.png", alt: "Harry Potter souvenir items arranged together", caption: "Wizarding World souvenirs from the studio", shape: "pt" },
           { file: "japanese-snack-boxes-on-carpet-2.png", alt: "Japanese confectionery boxes arranged on a carpet", caption: "The first group of gifts and snack boxes", shape: "pt" },
           { file: "japanese-healthcare-products-flatlay.png", alt: "Japanese healthcare and drugstore products laid flat", caption: "The drugstore haul spread out", shape: "pt" },
           { file: "three-ceramic-kitchen-knives.png", alt: "Three ceramic kitchen knives", caption: "Three ceramic knives standing out in the luggage", shape: "pt" },
+        ]} />
+        <Gallery grid="g3" photos={[
           { file: "japanese-eye-and-cold-medicines.png", alt: "Japanese eye drops and cold medicine", caption: "Restocking eye drops and everyday medicine", shape: "pt" },
           { file: "japanese-snack-boxes-on-carpet.png", alt: "Multiple Japanese snack and gift boxes", caption: "A second group of snacks expanding the suitcase", shape: "pt" },
           { file: "korean-skincare-products-flatlay.png", alt: "Skincare products arranged in a flat lay", caption: "The skincare purchases in one record", shape: "pt" },
