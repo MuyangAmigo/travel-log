@@ -60,12 +60,12 @@ export default function HangzhouConcertZH() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_1546.jpeg")} alt="Concert ticket outside the stadium" className="pt" />
+              <img src={img("IMG_1546.jpeg")} alt="Concert ticket outside the stadium" className="pt" loading="lazy" decoding="async" />
               <div className="cap">大莲花外的票根照：我真的来了</div>
             </div>
             <div className="pf fn tr-tilt" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_1534.jpeg")} alt="Concert stage before opening" className="pt" />
+              <img src={img("IMG_1534.jpeg")} alt="Concert stage before opening" className="pt" loading="lazy" decoding="async" />
               <div className="cap">入场前的大莲花舞台 ✨</div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function HangzhouConcertZH() {
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("IMG_1508.jpeg")} alt="Phoenix Legend concert stage" className="hero" />
+              <img src={img("IMG_1508.jpeg")} alt="Phoenix Legend concert stage" className="hero" loading="lazy" decoding="async" />
               <div className="cap">巨幅玫瑰亮起的瞬间，全场一起上头</div>
             </div>
           </div>
@@ -118,12 +118,12 @@ export default function HangzhouConcertZH() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1534.jpeg")} alt="Auspicious concert opening screen" className="ls" />
+              <img src={img("IMG_1534.jpeg")} alt="Auspicious concert opening screen" className="ls" loading="lazy" decoding="async" />
               <div className="cap">开场前的「吉祥如意」</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tc" />
-              <img src={img("IMG_1546.jpeg")} alt="Concert ticket with Big Lotus lights" className="ls" />
+              <img src={img("IMG_1546.jpeg")} alt="Concert ticket with Big Lotus lights" className="ls" loading="lazy" decoding="async" />
               <div className="cap">票根和远处亮起的大莲花</div>
             </div>
           </div>
@@ -156,24 +156,24 @@ export default function HangzhouConcertZH() {
           <div className="pgrid g3 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("IMG_1549.jpeg")} alt="Spicy pork with peppers" className="sq" />
+              <img src={img("IMG_1549.jpeg")} alt="Spicy pork with peppers" className="sq" loading="lazy" decoding="async" />
               <div className="cap">辣椒炒肉：光看颜色就冒汗</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1550.jpeg")} alt="Braised chicken feet" className="sq" />
+              <img src={img("IMG_1550.jpeg")} alt="Braised chicken feet" className="sq" loading="lazy" decoding="async" />
               <div className="cap">卤凤爪，软烂入味</div>
             </div>
             <div className="pf fv" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1553.jpeg")} alt="Stone pot chicken" className="sq" />
+              <img src={img("IMG_1553.jpeg")} alt="Stone pot chicken" className="sq" loading="lazy" decoding="async" />
               <div className="cap">石锅鸡，热气腾腾</div>
             </div>
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 620, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1551.jpeg")} alt="Boiled squid" /><div className="pol-t">白灼鱿鱼：清爽喘息位</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1552.jpeg")} alt="Cheers at Ouji" /><div className="pol-t">一粉一绿，碰杯收尾 🍹</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1551.jpeg")} alt="Boiled squid" loading="lazy" decoding="async" /><div className="pol-t">白灼鱿鱼：清爽喘息位</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1552.jpeg")} alt="Cheers at Ouji" loading="lazy" decoding="async" /><div className="pol-t">一粉一绿，碰杯收尾 🍹</div></div>
           </div>
 
           <div className="rbox warn mt16">
@@ -206,12 +206,12 @@ export default function HangzhouConcertZH() {
           <div className="pgrid g12 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tl" />
-              <img src={img("IMG_1562.jpeg")} alt="Wuliu Lane canal and blossoms" className="pt" />
+              <img src={img("IMG_1562.jpeg")} alt="Wuliu Lane canal and blossoms" className="pt" loading="lazy" decoding="async" />
               <div className="cap">粉花、河道、老街的慢镜头</div>
             </div>
             <div className="pgrid g1">
-              <div className="pf fw"><img src={img("IMG_1556.jpeg")} alt="Cafe and bar sign" className="sq" /><div className="cap">日咖夜酒</div></div>
-              <div className="pf fs"><img src={img("IMG_1558.jpeg")} alt="Small tableware shop" className="sq" /><div className="cap">器物小店</div></div>
+              <div className="pf fw"><img src={img("IMG_1556.jpeg")} alt="Cafe and bar sign" className="sq" loading="lazy" decoding="async" /><div className="cap">日咖夜酒</div></div>
+              <div className="pf fs"><img src={img("IMG_1558.jpeg")} alt="Small tableware shop" className="sq" loading="lazy" decoding="async" /><div className="cap">器物小店</div></div>
             </div>
           </div>
 
@@ -222,9 +222,9 @@ export default function HangzhouConcertZH() {
           </div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fg"><img src={img("IMG_1563.jpeg")} alt="Calico cat watching blossoms" className="sq" /><div className="cap">看花的三花猫</div></div>
-            <div className="pf fw"><img src={img("IMG_1555.jpeg")} alt="White wall and old wooden window" className="sq" /><div className="cap">白墙黑瓦，老木窗</div></div>
-            <div className="pf fc"><img src={img("IMG_1566.jpeg")} alt="Stinky tofu banner" className="sq" /><div className="cap">臭豆腐旗幡</div></div>
+            <div className="pf fg"><img src={img("IMG_1563.jpeg")} alt="Calico cat watching blossoms" className="sq" loading="lazy" decoding="async" /><div className="cap">看花的三花猫</div></div>
+            <div className="pf fw"><img src={img("IMG_1555.jpeg")} alt="White wall and old wooden window" className="sq" loading="lazy" decoding="async" /><div className="cap">白墙黑瓦，老木窗</div></div>
+            <div className="pf fc"><img src={img("IMG_1566.jpeg")} alt="Stinky tofu banner" className="sq" loading="lazy" decoding="async" /><div className="cap">臭豆腐旗幡</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -252,7 +252,7 @@ export default function HangzhouConcertZH() {
             <div className="pf fg" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1572.jpeg")} alt="Deshou Palace red wall sign" className="hero" />
+              <img src={img("IMG_1572.jpeg")} alt="Deshou Palace red wall sign" className="hero" loading="lazy" decoding="async" />
               <div className="cap">朱红宫墙配上「丙午御吉」，还没进去就已经有感觉</div>
             </div>
           </div>
@@ -264,15 +264,15 @@ export default function HangzhouConcertZH() {
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fg"><img src={img("IMG_1578.jpeg")} alt="Restored Song dynasty hall" className="sq" /><div className="cap">复原寝殿，水墨山屏</div></div>
-            <div className="pf fc"><img src={img("IMG_1580.jpeg")} alt="Archaeological site hall" className="sq" /><div className="cap">地下原址遗迹展厅</div></div>
-            <div className="pf fw"><img src={img("IMG_1579.jpeg")} alt="Longquan celadon vase" className="sq" /><div className="cap">龙泉窑青釉瓶</div></div>
+            <div className="pf fg"><img src={img("IMG_1578.jpeg")} alt="Restored Song dynasty hall" className="sq" loading="lazy" decoding="async" /><div className="cap">复原寝殿，水墨山屏</div></div>
+            <div className="pf fc"><img src={img("IMG_1580.jpeg")} alt="Archaeological site hall" className="sq" loading="lazy" decoding="async" /><div className="cap">地下原址遗迹展厅</div></div>
+            <div className="pf fw"><img src={img("IMG_1579.jpeg")} alt="Longquan celadon vase" className="sq" loading="lazy" decoding="async" /><div className="cap">龙泉窑青釉瓶</div></div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fs"><img src={img("IMG_1575.jpeg")} alt="Pine in Deshou Palace" className="sq" /><div className="cap">松树与白墙</div></div>
-            <div className="pf fg"><img src={img("IMG_1581.jpeg")} alt="Deshou Palace garden" className="sq" /><div className="cap">御苑庭院</div></div>
-            <div className="pf fc"><img src={img("IMG_1582.jpeg")} alt="Covered garden corridor" className="sq" /><div className="cap">古今叠加的走廊</div></div>
+            <div className="pf fs"><img src={img("IMG_1575.jpeg")} alt="Pine in Deshou Palace" className="sq" loading="lazy" decoding="async" /><div className="cap">松树与白墙</div></div>
+            <div className="pf fg"><img src={img("IMG_1581.jpeg")} alt="Deshou Palace garden" className="sq" loading="lazy" decoding="async" /><div className="cap">御苑庭院</div></div>
+            <div className="pf fc"><img src={img("IMG_1582.jpeg")} alt="Covered garden corridor" className="sq" loading="lazy" decoding="async" /><div className="cap">古今叠加的走廊</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -303,18 +303,18 @@ export default function HangzhouConcertZH() {
           <div className="pgrid g12 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tb t-tl" />
-              <img src={img("IMG_1588.jpeg")} alt="Dongpo Wenren Noodle House storefront" className="pt" />
+              <img src={img("IMG_1588.jpeg")} alt="Dongpo Wenren Noodle House storefront" className="pt" loading="lazy" decoding="async" />
               <div className="cap">白墙黛瓦，门头很江南</div>
             </div>
             <div className="pgrid g1">
-              <div className="pf fg"><img src={img("IMG_1590.jpeg")} alt="Signature soup noodles" className="sq" /><div className="cap">招牌汤面，奶白浓汤</div></div>
-              <div className="pf fv"><img src={img("IMG_1593.jpeg")} alt="Dongpo pork" className="sq" /><div className="cap">东坡肉，酥烂即化</div></div>
+              <div className="pf fg"><img src={img("IMG_1590.jpeg")} alt="Signature soup noodles" className="sq" loading="lazy" decoding="async" /><div className="cap">招牌汤面，奶白浓汤</div></div>
+              <div className="pf fv"><img src={img("IMG_1593.jpeg")} alt="Dongpo pork" className="sq" loading="lazy" decoding="async" /><div className="cap">东坡肉，酥烂即化</div></div>
             </div>
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1591.jpeg")} alt="Scallion oil noodles" /><div className="pol-t">葱油拌面，油润顺口</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1592.jpeg")} alt="Braised river shrimp" /><div className="pol-t">油焖河虾，鲜香下饭</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1591.jpeg")} alt="Scallion oil noodles" loading="lazy" decoding="async" /><div className="pol-t">葱油拌面，油润顺口</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1592.jpeg")} alt="Braised river shrimp" loading="lazy" decoding="async" /><div className="pol-t">油焖河虾，鲜香下饭</div></div>
           </div>
 
           <div className="dv mt20 mb12"><span>🗺️</span></div>

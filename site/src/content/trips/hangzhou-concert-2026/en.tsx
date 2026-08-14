@@ -60,12 +60,12 @@ export default function HangzhouConcertEN() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_1546.jpeg")} alt="Concert ticket outside the stadium" className="pt" />
+              <img src={img("IMG_1546.jpeg")} alt="Concert ticket outside the stadium" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Ticket photo outside Big Lotus: we really made it</div>
             </div>
             <div className="pf fn tr-tilt" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_1534.jpeg")} alt="Concert stage before opening" className="pt" />
+              <img src={img("IMG_1534.jpeg")} alt="Concert stage before opening" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Big Lotus stage before the opening ✨</div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function HangzhouConcertEN() {
             <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("IMG_1508.jpeg")} alt="Phoenix Legend concert stage" className="hero" />
+              <img src={img("IMG_1508.jpeg")} alt="Phoenix Legend concert stage" className="hero" loading="lazy" decoding="async" />
               <div className="cap">The giant rose moment — the whole stadium went with it</div>
             </div>
           </div>
@@ -118,12 +118,12 @@ export default function HangzhouConcertEN() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1534.jpeg")} alt="Auspicious concert opening screen" className="ls" />
+              <img src={img("IMG_1534.jpeg")} alt="Auspicious concert opening screen" className="ls" loading="lazy" decoding="async" />
               <div className="cap">Before the opening: Jixiang Ruyi</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tc" />
-              <img src={img("IMG_1546.jpeg")} alt="Concert ticket with Big Lotus lights" className="ls" />
+              <img src={img("IMG_1546.jpeg")} alt="Concert ticket with Big Lotus lights" className="ls" loading="lazy" decoding="async" />
               <div className="cap">The ticket with Big Lotus glowing behind it</div>
             </div>
           </div>
@@ -156,24 +156,24 @@ export default function HangzhouConcertEN() {
           <div className="pgrid g3 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("IMG_1549.jpeg")} alt="Spicy pork with peppers" className="sq" />
+              <img src={img("IMG_1549.jpeg")} alt="Spicy pork with peppers" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Chili pork: sweating before the first bite</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1550.jpeg")} alt="Braised chicken feet" className="sq" />
+              <img src={img("IMG_1550.jpeg")} alt="Braised chicken feet" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Braised chicken feet, soft and sticky</div>
             </div>
             <div className="pf fv" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1553.jpeg")} alt="Stone pot chicken" className="sq" />
+              <img src={img("IMG_1553.jpeg")} alt="Stone pot chicken" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Stone-pot chicken, still steaming</div>
             </div>
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 620, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1551.jpeg")} alt="Boiled squid" /><div className="pol-t">Boiled squid: the refresh button</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1552.jpeg")} alt="Cheers at Ouji" /><div className="pol-t">Pink + green, cheers 🍹</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1551.jpeg")} alt="Boiled squid" loading="lazy" decoding="async" /><div className="pol-t">Boiled squid: the refresh button</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1552.jpeg")} alt="Cheers at Ouji" loading="lazy" decoding="async" /><div className="pol-t">Pink + green, cheers 🍹</div></div>
           </div>
 
           <div className="rbox warn mt16">
@@ -206,12 +206,12 @@ export default function HangzhouConcertEN() {
           <div className="pgrid g12 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tl" />
-              <img src={img("IMG_1562.jpeg")} alt="Wuliu Lane canal and blossoms" className="pt" />
+              <img src={img("IMG_1562.jpeg")} alt="Wuliu Lane canal and blossoms" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Blossoms, canal, old-lane slow motion</div>
             </div>
             <div className="pgrid g1">
-              <div className="pf fw"><img src={img("IMG_1556.jpeg")} alt="Cafe and bar sign" className="sq" /><div className="cap">Coffee by day, drinks by night</div></div>
-              <div className="pf fs"><img src={img("IMG_1558.jpeg")} alt="Small tableware shop" className="sq" /><div className="cap">A tiny tableware shop</div></div>
+              <div className="pf fw"><img src={img("IMG_1556.jpeg")} alt="Cafe and bar sign" className="sq" loading="lazy" decoding="async" /><div className="cap">Coffee by day, drinks by night</div></div>
+              <div className="pf fs"><img src={img("IMG_1558.jpeg")} alt="Small tableware shop" className="sq" loading="lazy" decoding="async" /><div className="cap">A tiny tableware shop</div></div>
             </div>
           </div>
 
@@ -222,9 +222,9 @@ export default function HangzhouConcertEN() {
           </div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fg"><img src={img("IMG_1563.jpeg")} alt="Calico cat watching blossoms" className="sq" /><div className="cap">The blossom-watching cat</div></div>
-            <div className="pf fw"><img src={img("IMG_1555.jpeg")} alt="White wall and old wooden window" className="sq" /><div className="cap">White walls and an old wooden window</div></div>
-            <div className="pf fc"><img src={img("IMG_1566.jpeg")} alt="Stinky tofu banner" className="sq" /><div className="cap">Stinky tofu banner</div></div>
+            <div className="pf fg"><img src={img("IMG_1563.jpeg")} alt="Calico cat watching blossoms" className="sq" loading="lazy" decoding="async" /><div className="cap">The blossom-watching cat</div></div>
+            <div className="pf fw"><img src={img("IMG_1555.jpeg")} alt="White wall and old wooden window" className="sq" loading="lazy" decoding="async" /><div className="cap">White walls and an old wooden window</div></div>
+            <div className="pf fc"><img src={img("IMG_1566.jpeg")} alt="Stinky tofu banner" className="sq" loading="lazy" decoding="async" /><div className="cap">Stinky tofu banner</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -252,7 +252,7 @@ export default function HangzhouConcertEN() {
             <div className="pf fg" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1572.jpeg")} alt="Deshou Palace red wall sign" className="hero" />
+              <img src={img("IMG_1572.jpeg")} alt="Deshou Palace red wall sign" className="hero" loading="lazy" decoding="async" />
               <div className="cap">The red wall and gold sign set the tone before we even entered</div>
             </div>
           </div>
@@ -264,15 +264,15 @@ export default function HangzhouConcertEN() {
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fg"><img src={img("IMG_1578.jpeg")} alt="Restored Song dynasty hall" className="sq" /><div className="cap">Restored hall, ink landscape screen</div></div>
-            <div className="pf fc"><img src={img("IMG_1580.jpeg")} alt="Archaeological site hall" className="sq" /><div className="cap">Underground ruins gallery</div></div>
-            <div className="pf fw"><img src={img("IMG_1579.jpeg")} alt="Longquan celadon vase" className="sq" /><div className="cap">Longquan celadon vase</div></div>
+            <div className="pf fg"><img src={img("IMG_1578.jpeg")} alt="Restored Song dynasty hall" className="sq" loading="lazy" decoding="async" /><div className="cap">Restored hall, ink landscape screen</div></div>
+            <div className="pf fc"><img src={img("IMG_1580.jpeg")} alt="Archaeological site hall" className="sq" loading="lazy" decoding="async" /><div className="cap">Underground ruins gallery</div></div>
+            <div className="pf fw"><img src={img("IMG_1579.jpeg")} alt="Longquan celadon vase" className="sq" loading="lazy" decoding="async" /><div className="cap">Longquan celadon vase</div></div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fs"><img src={img("IMG_1575.jpeg")} alt="Pine in Deshou Palace" className="sq" /><div className="cap">Pine against white walls</div></div>
-            <div className="pf fg"><img src={img("IMG_1581.jpeg")} alt="Deshou Palace garden" className="sq" /><div className="cap">Palace garden</div></div>
-            <div className="pf fc"><img src={img("IMG_1582.jpeg")} alt="Covered garden corridor" className="sq" /><div className="cap">Old and new layered together</div></div>
+            <div className="pf fs"><img src={img("IMG_1575.jpeg")} alt="Pine in Deshou Palace" className="sq" loading="lazy" decoding="async" /><div className="cap">Pine against white walls</div></div>
+            <div className="pf fg"><img src={img("IMG_1581.jpeg")} alt="Deshou Palace garden" className="sq" loading="lazy" decoding="async" /><div className="cap">Palace garden</div></div>
+            <div className="pf fc"><img src={img("IMG_1582.jpeg")} alt="Covered garden corridor" className="sq" loading="lazy" decoding="async" /><div className="cap">Old and new layered together</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -303,18 +303,18 @@ export default function HangzhouConcertEN() {
           <div className="pgrid g12 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tb t-tl" />
-              <img src={img("IMG_1588.jpeg")} alt="Dongpo Wenren Noodle House storefront" className="pt" />
+              <img src={img("IMG_1588.jpeg")} alt="Dongpo Wenren Noodle House storefront" className="pt" loading="lazy" decoding="async" />
               <div className="cap">White walls, black tiles, very Hangzhou</div>
             </div>
             <div className="pgrid g1">
-              <div className="pf fg"><img src={img("IMG_1590.jpeg")} alt="Signature soup noodles" className="sq" /><div className="cap">Signature soup noodles, milky broth</div></div>
-              <div className="pf fv"><img src={img("IMG_1593.jpeg")} alt="Dongpo pork" className="sq" /><div className="cap">Dongpo pork, soft and glossy</div></div>
+              <div className="pf fg"><img src={img("IMG_1590.jpeg")} alt="Signature soup noodles" className="sq" loading="lazy" decoding="async" /><div className="cap">Signature soup noodles, milky broth</div></div>
+              <div className="pf fv"><img src={img("IMG_1593.jpeg")} alt="Dongpo pork" className="sq" loading="lazy" decoding="async" /><div className="cap">Dongpo pork, soft and glossy</div></div>
             </div>
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1591.jpeg")} alt="Scallion oil noodles" /><div className="pol-t">Scallion oil noodles</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1592.jpeg")} alt="Braised river shrimp" /><div className="pol-t">Braised river shrimp</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1591.jpeg")} alt="Scallion oil noodles" loading="lazy" decoding="async" /><div className="pol-t">Scallion oil noodles</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1592.jpeg")} alt="Braised river shrimp" loading="lazy" decoding="async" /><div className="pol-t">Braised river shrimp</div></div>
           </div>
 
           <div className="dv mt20 mb12"><span>🗺️</span></div>

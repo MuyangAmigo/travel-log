@@ -40,9 +40,9 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g3 mt16">
-            <div className="pf fn"><img src={img("modern-dark-lounge-bar.jpeg")} alt="虹桥机场蔚来牛屋休息区" className="sq" /><div className="cap">候机时的一点松弛感</div></div>
-            <div className="pf fw"><img src={img("nio-storefront-logo-wall.jpeg")} alt="蔚来牛屋品牌墙" className="sq" /><div className="cap">第一次体验“头等舱候机”</div></div>
-            <div className="pf fc"><img src={img("panda-lobby-art-installation.jpeg")} alt="成都酒店大堂熊猫装置" className="sq" /><div className="cap">一落地就进入熊猫宇宙</div></div>
+            <div className="pf fn"><img src={img("modern-dark-lounge-bar.jpeg")} alt="虹桥机场蔚来牛屋休息区" className="sq" loading="lazy" decoding="async" /><div className="cap">候机时的一点松弛感</div></div>
+            <div className="pf fw"><img src={img("nio-storefront-logo-wall.jpeg")} alt="蔚来牛屋品牌墙" className="sq" loading="lazy" decoding="async" /><div className="cap">第一次体验“头等舱候机”</div></div>
+            <div className="pf fc"><img src={img("panda-lobby-art-installation.jpeg")} alt="成都酒店大堂熊猫装置" className="sq" loading="lazy" decoding="async" /><div className="cap">一落地就进入熊猫宇宙</div></div>
           </div>
 
           <div className="tlwrap mt20">
@@ -72,7 +72,7 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("two-people-outdoor-cafe.jpeg")} alt="两人在成都户外咖啡座合影" className="hero" /><div className="cap">成都最舒服的打开方式：慢慢走，随时坐下</div></div>
+            <div className="pf fc"><img src={img("two-people-outdoor-cafe.jpeg")} alt="两人在成都户外咖啡座合影" className="hero" loading="lazy" decoding="async" /><div className="cap">成都最舒服的打开方式：慢慢走，随时坐下</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -82,13 +82,13 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("couple-in-winter-jackets-outdoors.jpeg")} alt="穿冬装的两人在春熙路合影" className="ls" /><div className="cap">春节档的春熙路街头</div></div>
-            <div className="pf fn"><img src={img("people-with-large-panda-statue.jpeg")} alt="两人与 IFS 大熊猫雕塑合影" className="ls" /><div className="cap">IFS 七楼看趴墙熊猫的正脸</div></div>
+            <div className="pf fw"><img src={img("couple-in-winter-jackets-outdoors.jpeg")} alt="穿冬装的两人在春熙路合影" className="ls" loading="lazy" decoding="async" /><div className="cap">春节档的春熙路街头</div></div>
+            <div className="pf fn"><img src={img("people-with-large-panda-statue.jpeg")} alt="两人与 IFS 大熊猫雕塑合影" className="ls" loading="lazy" decoding="async" /><div className="cap">IFS 七楼看趴墙熊猫的正脸</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("traditional-chinese-temple-courtyard.jpeg")} alt="大慈寺传统庭院" className="pt" /><div className="cap">被太古里环抱的大慈寺</div></div>
-            <div className="pf fc"><img src={img("person-standing-by-bamboo-wall.jpeg")} alt="竹墙边的人像" className="pt" /><div className="cap">古寺、竹影与现代商业区同框</div></div>
+            <div className="pf fs"><img src={img("traditional-chinese-temple-courtyard.jpeg")} alt="大慈寺传统庭院" className="pt" loading="lazy" decoding="async" /><div className="cap">被太古里环抱的大慈寺</div></div>
+            <div className="pf fc"><img src={img("person-standing-by-bamboo-wall.jpeg")} alt="竹墙边的人像" className="pt" loading="lazy" decoding="async" /><div className="cap">古寺、竹影与现代商业区同框</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -117,8 +117,8 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fn"><img src={img("night-river-selfie-city-lights.jpeg")} alt="锦江夜景中的两人自拍" className="pt" /><div className="cap">安顺廊桥与锦江夜色</div></div>
-            <div className="pf fw"><img src={img("two-people-in-traditional-backdrop.jpeg")} alt="传统布景前的两人合影" className="pt" /><div className="cap">一路逛到夜里，成都还很热闹</div></div>
+            <div className="pf fn"><img src={img("night-river-selfie-city-lights.jpeg")} alt="锦江夜景中的两人自拍" className="pt" loading="lazy" decoding="async" /><div className="cap">安顺廊桥与锦江夜色</div></div>
+            <div className="pf fw"><img src={img("two-people-in-traditional-backdrop.jpeg")} alt="传统布景前的两人合影" className="pt" loading="lazy" decoding="async" /><div className="cap">一路逛到夜里，成都还很热闹</div></div>
           </div>
 
           <div className="route mt20" style={{ flexWrap: "wrap", gap: 4 }}>
@@ -150,7 +150,7 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g1">
-            <div className="pf fc"><img src={img("giant-panda-sitting-by-bamboo.jpeg")} alt="坐在竹子旁的大熊猫花花" className="hero" /><div className="cap">排队一小时，只看三分钟，还是觉得值</div></div>
+            <div className="pf fc"><img src={img("giant-panda-sitting-by-bamboo.jpeg")} alt="坐在竹子旁的大熊猫花花" className="hero" loading="lazy" decoding="async" /><div className="cap">排队一小时，只看三分钟，还是觉得值</div></div>
           </div>
 
           <div className="jtxt mt16">
@@ -160,13 +160,13 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fw"><img src={img("person-pointing-at-panda-enclosure.jpeg")} alt="在熊猫馆舍前指向大熊猫" className="pt" /><div className="cap">西门进园人更少，直奔花花</div></div>
-            <div className="pf fn"><img src={img("two-people-by-wooden-tower.jpeg")} alt="两人在熊猫基地木塔旁合影" className="pt" /><div className="cap">园区里的木塔与冬日阳光</div></div>
+            <div className="pf fw"><img src={img("person-pointing-at-panda-enclosure.jpeg")} alt="在熊猫馆舍前指向大熊猫" className="pt" loading="lazy" decoding="async" /><div className="cap">西门进园人更少，直奔花花</div></div>
+            <div className="pf fn"><img src={img("two-people-by-wooden-tower.jpeg")} alt="两人在熊猫基地木塔旁合影" className="pt" loading="lazy" decoding="async" /><div className="cap">园区里的木塔与冬日阳光</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("two-people-near-pig-statue.jpeg")} alt="两人在雕塑旁合影" className="ls" /><div className="cap">宽窄巷子随意走走</div></div>
-            <div className="pf fc"><img src={img("two-people-peace-signs-building.jpeg")} alt="两人在传统建筑前比耶" className="ls" /><div className="cap">人民公园附近的慢生活</div></div>
+            <div className="pf fs"><img src={img("two-people-near-pig-statue.jpeg")} alt="两人在雕塑旁合影" className="ls" loading="lazy" decoding="async" /><div className="cap">宽窄巷子随意走走</div></div>
+            <div className="pf fc"><img src={img("two-people-peace-signs-building.jpeg")} alt="两人在传统建筑前比耶" className="ls" loading="lazy" decoding="async" /><div className="cap">人民公园附近的慢生活</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -195,14 +195,14 @@ export default function ChengduZH() {
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fn"><img src={img("pink-event-tickets-in-hand.jpeg")} alt="手中的蜀宴赋粉色票券" className="pt" /><div className="cap">今天的宫廷入场券</div></div>
-            <div className="pf fw"><img src={img("japanese-tea-ceremony-set.jpeg")} alt="蜀宴赋桌上的茶具" className="pt" /><div className="cap">从器皿开始营造仪式感</div></div>
-            <div className="pf fc"><img src={img("wooden-serving-tray-with-bowls.jpeg")} alt="木托盘上的精致餐食" className="pt" /><div className="cap">一席蜀地风味慢慢展开</div></div>
+            <div className="pf fn"><img src={img("pink-event-tickets-in-hand.jpeg")} alt="手中的蜀宴赋粉色票券" className="pt" loading="lazy" decoding="async" /><div className="cap">今天的宫廷入场券</div></div>
+            <div className="pf fw"><img src={img("japanese-tea-ceremony-set.jpeg")} alt="蜀宴赋桌上的茶具" className="pt" loading="lazy" decoding="async" /><div className="cap">从器皿开始营造仪式感</div></div>
+            <div className="pf fc"><img src={img("wooden-serving-tray-with-bowls.jpeg")} alt="木托盘上的精致餐食" className="pt" loading="lazy" decoding="async" /><div className="cap">一席蜀地风味慢慢展开</div></div>
           </div>
 
           <div className="pgrid g2 mt12">
-            <div className="pf fs"><img src={img("traditional-dance-stage-performance.jpeg")} alt="蜀宴赋传统舞蹈演出" className="ls" /><div className="cap">边吃边看的传统舞台演出</div></div>
-            <div className="pf fw"><img src={img("xiaobanyouli-cafe-storefront.jpeg")} alt="东郊记忆的小伴有礼店铺" className="ls" /><div className="cap">东郊记忆：老工厂里的新生活</div></div>
+            <div className="pf fs"><img src={img("traditional-dance-stage-performance.jpeg")} alt="蜀宴赋传统舞蹈演出" className="ls" loading="lazy" decoding="async" /><div className="cap">边吃边看的传统舞台演出</div></div>
+            <div className="pf fw"><img src={img("xiaobanyouli-cafe-storefront.jpeg")} alt="东郊记忆的小伴有礼店铺" className="ls" loading="lazy" decoding="async" /><div className="cap">东郊记忆：老工厂里的新生活</div></div>
           </div>
 
           <div className="nbox mt16">

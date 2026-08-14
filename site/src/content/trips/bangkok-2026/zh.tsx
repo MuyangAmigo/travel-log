@@ -60,12 +60,12 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_1721.jpeg")} alt="Airport lounge soup" className="pt" />
+              <img src={img("IMG_1721.jpeg")} alt="Airport lounge soup" className="pt" loading="lazy" decoding="async" />
               <div className="cap">Lounge 的面和小馄饨</div>
             </div>
             <div className="pf fn tr-tilt" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_1722.jpeg")} alt="Peace sign airplane" className="pt" />
+              <img src={img("IMG_1722.jpeg")} alt="Peace sign airplane" className="pt" loading="lazy" decoding="async" />
               <div className="cap">✨ Let&apos;s go Bangkok!</div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function BangkokZH() {
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tg t-tl" />
               <div className="tape tg t-tr" />
-              <img src={img("IMG_1725.jpeg")} alt="Bangkok skyline" className="hero" />
+              <img src={img("IMG_1725.jpeg")} alt="Bangkok skyline" className="hero" loading="lazy" decoding="async" />
               <div className="cap">酒店窗外的曼谷 — 第一眼就被天际线震撼</div>
             </div>
           </div>
@@ -128,12 +128,12 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt8">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tc" />
-              <img src={img("IMG_1733.jpeg")} alt="Khao Soi" className="sq" />
+              <img src={img("IMG_1733.jpeg")} alt="Khao Soi" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Khao Soi 🍜 香浓的咖喱汤底</div>
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1731.jpeg")} alt="Ginger Farm" className="sq" />
+              <img src={img("IMG_1731.jpeg")} alt="Ginger Farm" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Ginger Farm Kitchen 餐厅</div>
             </div>
           </div>
@@ -145,9 +145,9 @@ export default function BangkokZH() {
           </div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fg"><img src={img("IMG_1739.jpeg")} alt="Rama VI" className="sq" /><div className="cap">拉玛六世像</div></div>
-            <div className="pf fc"><img src={img("IMG_1747.jpeg")} alt="Lumpini lake" className="sq" /><div className="cap">城市绿洲 🏙️</div></div>
-            <div className="pf fw"><img src={img("IMG_1751.jpeg")} alt="Monitor lizard" className="sq" /><div className="cap">巨蜥出没！🦎</div></div>
+            <div className="pf fg"><img src={img("IMG_1739.jpeg")} alt="Rama VI" className="sq" loading="lazy" decoding="async" /><div className="cap">拉玛六世像</div></div>
+            <div className="pf fc"><img src={img("IMG_1747.jpeg")} alt="Lumpini lake" className="sq" loading="lazy" decoding="async" /><div className="cap">城市绿洲 🏙️</div></div>
+            <div className="pf fw"><img src={img("IMG_1751.jpeg")} alt="Monitor lizard" className="sq" loading="lazy" decoding="async" /><div className="cap">巨蜥出没！🦎</div></div>
           </div>
 
           <div className="nbox mt12">
@@ -172,8 +172,8 @@ export default function BangkokZH() {
           </div>
 
           <div className="pgrid g2">
-            <div className="pf fs"><img src={img("IMG_1767.jpeg")} alt="BACC spiral" className="ls" /><div className="cap">BACC 螺旋内部</div></div>
-            <div className="pf fn"><img src={img("IMG_1784.jpeg")} alt="Siam night" className="ls" /><div className="cap">曼谷夜晚的霸气</div></div>
+            <div className="pf fs"><img src={img("IMG_1767.jpeg")} alt="BACC spiral" className="ls" loading="lazy" decoding="async" /><div className="cap">BACC 螺旋内部</div></div>
+            <div className="pf fn"><img src={img("IMG_1784.jpeg")} alt="Siam night" className="ls" loading="lazy" decoding="async" /><div className="cap">曼谷夜晚的霸气</div></div>
           </div>
 
           <div className="dv mt16 mb12"><span>🌌</span></div>
@@ -185,12 +185,12 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt12">
             <div className="pf fn tl-tilt" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("IMG_1813.jpeg")} alt="Song Song" className="ls" />
+              <img src={img("IMG_1813.jpeg")} alt="Song Song" className="ls" loading="lazy" decoding="async" />
               <div className="cap">松松海鲜 🦀 排队太久</div>
             </div>
             <div className="pf fw tr-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1812.jpeg")} alt="Basil squid" className="ls" />
+              <img src={img("IMG_1812.jpeg")} alt="Basil squid" className="ls" loading="lazy" decoding="async" />
               <div className="cap">姐娟的罗勒鲈鱼 🤩</div>
             </div>
           </div>
@@ -201,8 +201,8 @@ export default function BangkokZH() {
           </div>
 
           <div className="pgrid g2 mt16" style={{ maxWidth: 520, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1800.jpeg")} alt="Milk Boy" /><div className="pol-t">超可爱的包装</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1794.jpeg")} alt="Cow Moo Moo" /><div className="pol-t">龙的壁画 🐉</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1800.jpeg")} alt="Milk Boy" loading="lazy" decoding="async" /><div className="pol-t">超可爱的包装</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1794.jpeg")} alt="Cow Moo Moo" loading="lazy" decoding="async" /><div className="pol-t">龙的壁画 🐉</div></div>
           </div>
 
           <div className="spacer" />
@@ -240,8 +240,8 @@ export default function BangkokZH() {
           </div>
 
           <div className="pgrid g2 mt12" style={{ maxWidth: 560, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pol tl-tilt"><img src={img("IMG_1828.jpeg")} alt="Tom Yum" /><div className="pol-t">冬阴功汤 🔥</div></div>
-            <div className="pol tr-tilt"><img src={img("IMG_1812.jpeg")} alt="Stir fry" /><div className="pol-t">罗勒鲈鱼 🤩</div></div>
+            <div className="pol tl-tilt"><img src={img("IMG_1828.jpeg")} alt="Tom Yum" loading="lazy" decoding="async" /><div className="pol-t">冬阴功汤 🔥</div></div>
+            <div className="pol tr-tilt"><img src={img("IMG_1812.jpeg")} alt="Stir fry" loading="lazy" decoding="async" /><div className="pol-t">罗勒鲈鱼 🤩</div></div>
           </div>
 
           <div className="dv mt20 mb12"><span>🏛️</span></div>
@@ -254,15 +254,15 @@ export default function BangkokZH() {
             <div className="pf fg" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
               <div className="tape ty t-tr" />
-              <img src={img("IMG_1854.jpeg")} alt="Golden Buddha" className="ls" style={{ objectPosition: "center 20%" }} />
+              <img src={img("IMG_1854.jpeg")} alt="Golden Buddha" className="ls" style={{ objectPosition: "center 20%" }} loading="lazy" decoding="async" />
               <div className="cap">河边视角的金色大佛 — 本次旅行最震撼的一幕</div>
             </div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fg"><img src={img("IMG_1905.jpeg")} alt="Buddha head" className="sq" /><div className="cap">屋檐后的佛首</div></div>
-            <div className="pf fg"><img src={img("IMG_1969.jpeg")} alt="Temple spires" className="sq" /><div className="cap">金碧辉煌的塔尖</div></div>
-            <div className="pf fw"><img src={img("IMG_1975.jpeg")} alt="Stilt house" className="sq" /><div className="cap">河边的吃水屋</div></div>
+            <div className="pf fg"><img src={img("IMG_1905.jpeg")} alt="Buddha head" className="sq" loading="lazy" decoding="async" /><div className="cap">屋檐后的佛首</div></div>
+            <div className="pf fg"><img src={img("IMG_1969.jpeg")} alt="Temple spires" className="sq" loading="lazy" decoding="async" /><div className="cap">金碧辉煌的塔尖</div></div>
+            <div className="pf fw"><img src={img("IMG_1975.jpeg")} alt="Stilt house" className="sq" loading="lazy" decoding="async" /><div className="cap">河边的吃水屋</div></div>
           </div>
 
           <div className="nbox mt16">
@@ -298,20 +298,20 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt12">
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape tg t-tc" />
-              <img src={img("IMG_1993.jpeg")} alt="Skyline" className="sq" />
+              <img src={img("IMG_1993.jpeg")} alt="Skyline" className="sq" loading="lazy" decoding="async" />
               <div className="cap">Icon Siam 顶楼的曼谷天际线</div>
             </div>
             <div className="pf fv" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
-              <img src={img("IMG_1998.jpeg")} alt="Molly" className="sq" />
+              <img src={img("IMG_1998.jpeg")} alt="Molly" className="sq" loading="lazy" decoding="async" />
               <div className="cap">巨型 Molly 👑</div>
             </div>
           </div>
 
           <div className="pgrid g3 mt12">
-            <div className="pf fv"><img src={img("IMG_1992.jpeg")} alt="Popbean" className="sq" /><div className="cap">Popbean 螺旋 🌀</div></div>
-            <div className="pf fw"><img src={img("IMG_2019.jpeg")} alt="Tonkatsu" className="sq" /><div className="cap">和幸炸猪排 🍛</div></div>
-            <div className="pf fc"><img src={img("IMG_2004.jpeg")} alt="Mirror pillars" className="sq" /><div className="cap">镜柱装置艺术 ✨</div></div>
+            <div className="pf fv"><img src={img("IMG_1992.jpeg")} alt="Popbean" className="sq" loading="lazy" decoding="async" /><div className="cap">Popbean 螺旋 🌀</div></div>
+            <div className="pf fw"><img src={img("IMG_2019.jpeg")} alt="Tonkatsu" className="sq" loading="lazy" decoding="async" /><div className="cap">和幸炸猪排 🍛</div></div>
+            <div className="pf fc"><img src={img("IMG_2004.jpeg")} alt="Mirror pillars" className="sq" loading="lazy" decoding="async" /><div className="cap">镜柱装置艺术 ✨</div></div>
           </div>
 
           <div className="dv mt16 mb12"><span>🛍️</span></div>
@@ -358,12 +358,12 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tl" />
-              <img src={img("IMG_2028.jpeg")} alt="Pool" className="ls" />
+              <img src={img("IMG_2028.jpeg")} alt="Pool" className="ls" loading="lazy" decoding="async" />
               <div className="cap">酒店天台泳池 🏊</div>
             </div>
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("IMG_2029.jpeg")} alt="Room view" className="ls" />
+              <img src={img("IMG_2029.jpeg")} alt="Room view" className="ls" loading="lazy" decoding="async" />
               <div className="cap">房间窗外的曼谷</div>
             </div>
           </div>
@@ -371,9 +371,9 @@ export default function BangkokZH() {
           <div className="dv mt20 mb12"><span>🍜</span></div>
 
           <div className="pgrid g3 mt8">
-            <div className="pf fw"><img src={img("IMG_2037.jpeg")} alt="Crab" className="sq" /><div className="cap">粉丝蟹肉煲 🤩</div></div>
-            <div className="pf fw"><img src={img("IMG_2035.jpeg")} alt="Curry" className="sq" /><div className="cap">绿咖喱 🌿</div></div>
-            <div className="pf fw"><img src={img("IMG_2040.jpeg")} alt="Coffee" className="sq" /><div className="cap">Bean 冰咖啡 ☕</div></div>
+            <div className="pf fw"><img src={img("IMG_2037.jpeg")} alt="Crab" className="sq" loading="lazy" decoding="async" /><div className="cap">粉丝蟹肉煲 🤩</div></div>
+            <div className="pf fw"><img src={img("IMG_2035.jpeg")} alt="Curry" className="sq" loading="lazy" decoding="async" /><div className="cap">绿咖喱 🌿</div></div>
+            <div className="pf fw"><img src={img("IMG_2040.jpeg")} alt="Coffee" className="sq" loading="lazy" decoding="async" /><div className="cap">Bean 冰咖啡 ☕</div></div>
           </div>
 
           <div className="rbox mt20">
@@ -408,7 +408,7 @@ export default function BangkokZH() {
 
           <div className="sgrid mt16">
             <div className="sc">
-              <img src={img("IMG_2081.jpeg")} alt="Good Goods" />
+              <img src={img("IMG_2081.jpeg")} alt="Good Goods" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Good Goods 伴手礼</h5>
                 <div className="pr">3,770 THB</div>
@@ -416,7 +416,7 @@ export default function BangkokZH() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2063.jpeg")} alt="Panpuri" />
+              <img src={img("IMG_2063.jpeg")} alt="Panpuri" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Panpuri 滚珠香水</h5>
                 <div className="pr">3,180 THB</div>
@@ -424,7 +424,7 @@ export default function BangkokZH() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2069.jpeg")} alt="Pop Mart" />
+              <img src={img("IMG_2069.jpeg")} alt="Pop Mart" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>Pop Mart 盲盒</h5>
                 <div className="pr">1,780 THB</div>
@@ -432,7 +432,7 @@ export default function BangkokZH() {
               </div>
             </div>
             <div className="sc">
-              <img src={img("IMG_2070.jpeg")} alt="Perfumes" />
+              <img src={img("IMG_2070.jpeg")} alt="Perfumes" loading="lazy" decoding="async" />
               <div className="sc-info">
                 <h5>香氛收藏</h5>
                 <div className="pr">2,695 THB</div>
@@ -451,7 +451,7 @@ export default function BangkokZH() {
             <div className="pf fs" style={{ padding: 8, position: "relative" }}>
               <div className="tape tp t-tl" />
               <div className="tape tp t-tr" />
-              <img src={img("IMG_2054.jpeg")} alt="Towel elephant" className="pt" />
+              <img src={img("IMG_2054.jpeg")} alt="Towel elephant" className="pt" loading="lazy" decoding="async" />
               <div className="cap" style={{ fontSize: 18, marginTop: 6 }}>🐘 毛巾小象 — 本次旅行的 MVP</div>
             </div>
           </div>
@@ -479,12 +479,12 @@ export default function BangkokZH() {
           <div className="pgrid g2 mt16">
             <div className="pf fw tl-tilt" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <img src={img("IMG_2103.jpeg")} alt="Breakfast" className="sq" />
+              <img src={img("IMG_2103.jpeg")} alt="Breakfast" className="sq" loading="lazy" decoding="async" />
               <div className="cap">最后的早餐（测评一星）</div>
             </div>
             <div className="pf fs tr-tilt" style={{ position: "relative" }}>
               <div className="tape tg t-tr" />
-              <img src={img("IMG_2110.jpeg")} alt="Elephant bye" className="sq" />
+              <img src={img("IMG_2110.jpeg")} alt="Elephant bye" className="sq" loading="lazy" decoding="async" />
               <div className="cap">再见啦小象 👋</div>
             </div>
           </div>

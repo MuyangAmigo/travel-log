@@ -58,6 +58,7 @@ for FILE in "$SRC_DIR"/*.{jpeg,jpg,png,webp,JPEG,JPG,PNG,WEBP}; do
     --container-name "$CONTAINER" \
     --file "$FILE" \
     --name "$BLOB_NAME" \
+    --content-cache-control "public, max-age=2592000" \
     --auth-mode key \
     --only-show-errors >/dev/null
   UPLOADED=$((UPLOADED + 1))
