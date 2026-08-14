@@ -197,10 +197,10 @@ export default function ShaoxingZH() {
             <div className="ending-subtitle">两天，从鲁迅的旧宅走到王羲之的兰亭。</div>
           </div>
           <div className="tags mt20">
-            <span className="tag-pink">鲁迅故里</span>
-            <span className="tag-blue">乌篷船</span>
-            <span className="tag-gold">兰亭</span>
-            <span className="tag-green">曲水流觞</span>
+            <span className="tag tag-p">鲁迅故里</span>
+            <span className="tag tag-b">乌篷船</span>
+            <span className="tag tag-g">兰亭</span>
+            <span className="tag tag-t">曲水流觞</span>
           </div>
           <div className="page-num">- 06 -</div>
         </div>
