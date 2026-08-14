@@ -9,14 +9,14 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2023-12-29",
   dateRange: "2023.12.29 — 2024.01.01",
-  coverImage: img("07-namsan-tower-city-view.webp"),
+  coverImage: img("24-namsan-cover.webp"),
   title: {
     zh: "首尔 · 雪坡霓虹跨年夜",
     en: "Seoul · Snow, Slopes & Midnight Neon",
   },
   subtitle: {
-    zh: "弘大扫货、南山雪路、梨泰院 City Walk，以及在烟花里迎来的 2024",
-    en: "Hongdae shopping, snowy Namsan paths, an Itaewon city walk, and welcoming 2024 beneath fireworks",
+    zh: "弘大逛店、南山雪路、梨泰院 City Walk，以及在烟花里迎来的 2024",
+    en: "Hongdae browsing, snowy Namsan paths, an Itaewon city walk, and welcoming 2024 beneath fireworks",
   },
   location: {
     zh: "韩国 · 首尔",

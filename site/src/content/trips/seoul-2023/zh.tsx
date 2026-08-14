@@ -82,7 +82,7 @@ export default function SeoulZH() {
 
         <div className="jtxt">
           <p>12 月 29 日 11:35 起飞，14:30 抵达仁川 T1；1 月 1 日 14:10 从首尔返程，15:10 落地上海浦东 T2。住在梨花女子大学站附近的 H Avenue Hotel Idae Shinchon，把四天压缩在首尔西侧与市中心。</p>
-          <p>出发前的攻略写得很满，真正打勾的路线却很清楚：弘大扫货、解放村与南山、梨泰院小坡、乱打秀、明洞 ALAND，以及最后的跨年活动。</p>
+          <p>出发前的攻略写得很满，真正打勾的路线却很清楚：弘大逛店、解放村与南山、梨泰院小坡、乱打秀、明洞 ALAND，以及最后的跨年活动。</p>
         </div>
 
         <div className="tlwrap mt20">
@@ -103,7 +103,7 @@ export default function SeoulZH() {
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">1</span></div>
           <div>
-            <div className="day-title">落地就去弘大扫货</div>
+            <div className="day-title">落地就去弘大逛店</div>
             <div className="day-sub">Friday, December 29th · Hongdae</div>
           </div>
           <div className="day-weather">🌙</div>
@@ -122,12 +122,6 @@ export default function SeoulZH() {
           <Photo file="03-hongdae-shopping-map.webp" alt="标注弘大潮牌店铺的购物地图" caption="出发前做的弘大潮牌地图，最后真的按图扫了几家" shape="hero" />
         </div>
 
-        <div className="rbox mt20">
-          <h4>第一晚实际买到</h4>
-          <div className="ri"><span className="nm">Griptok</span><span className="cm">爱豆同款手机壳与手机支架</span></div>
-          <div className="ri"><span className="nm">Covernat</span><span className="cm">明星同款很多，帽子尤其好买</span></div>
-          <div className="ri"><span className="nm">what it isn&apos;t</span><span className="cm">小飞鸟很火，质感在线，价格也友好</span></div>
-        </div>
         <div className="nbox mt16">
           <div className="nbox-lbl">看了但没有特别心动</div>
           <p>Nerdy 有折扣，Marithé François Girbaud 的同款很多；thisisneverthat 像韩版 Supreme，但当时觉得价格没有那么合适。</p>
@@ -219,7 +213,7 @@ export default function SeoulZH() {
         </div>
 
         <div className="rbox mt16">
-          <h4>这趟实际确认的购物收获</h4>
+          <h4>这趟实际确认的逛店记录</h4>
           <div className="ri"><span className="nm">明洞 ALAND</span><span className="cm">潮牌聚集地，12 月 31 日完成打卡</span></div>
           <div className="ri"><span className="nm">Le Labo</span><span className="cm">首尔限定味道，手帐特意写下“已买到！”</span></div>
         </div>
@@ -229,7 +223,7 @@ export default function SeoulZH() {
         <div className="day-header">
           <div className="day-circle"><span style={{ fontSize: 23 }}>🛍️</span><span style={{ fontSize: 12 }}>SHOP</span></div>
           <div>
-            <div className="day-title">收藏很多，真正买到的更值得记</div>
+            <div className="day-title">收藏很多，真正逛到的更值得记</div>
             <div className="day-sub">Hongdae · Myeongdong · the wish list left for next time</div>
           </div>
         </div>

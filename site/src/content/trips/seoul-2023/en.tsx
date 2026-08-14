@@ -83,7 +83,7 @@ export default function SeoulEN() {
 
         <div className="jtxt">
           <p>The outbound flight left at 11:35 on December 29 and reached Incheon T1 at 14:30. On January 1, the return flight departed Seoul at 14:10 and landed at Shanghai Pudong T2 at 15:10. We stayed at H Avenue Hotel Idae Shinchon near Ewha Womans University Station, keeping the four days around western and central Seoul.</p>
-          <p>The pre-trip plan was packed, but the checked-off route was much clearer: shopping in Hongdae, Haebangchon and Namsan, the Itaewon hill, NANTA, ALAND in Myeongdong, and finally the New Year celebration.</p>
+          <p>The pre-trip plan was packed, but the checked-off route was much clearer: browsing Hongdae, Haebangchon and Namsan, the Itaewon hill, NANTA, ALAND in Myeongdong, and finally the New Year celebration.</p>
         </div>
 
         <div className="tlwrap mt20">
@@ -104,7 +104,7 @@ export default function SeoulEN() {
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">1</span></div>
           <div>
-            <div className="day-title">Straight from the Airport to Hongdae</div>
+            <div className="day-title">Straight from the Airport to Browse Hongdae</div>
             <div className="day-sub">Friday, December 29th · Hongdae</div>
           </div>
           <div className="day-weather">🌙</div>
@@ -123,12 +123,6 @@ export default function SeoulEN() {
           <Photo file="03-hongdae-shopping-map.webp" alt="Shopping map marked with Hongdae streetwear stores" caption="The Hongdae streetwear map—several stops really did get checked off" shape="hero" />
         </div>
 
-        <div className="rbox mt20">
-          <h4>What I actually bought that night</h4>
-          <div className="ri"><span className="nm">Griptok</span><span className="cm">Idol-style phone cases and phone grips</span></div>
-          <div className="ri"><span className="nm">Covernat</span><span className="cm">Plenty of celebrity-worn pieces; hats were especially easy to buy</span></div>
-          <div className="ri"><span className="nm">what it isn&apos;t</span><span className="cm">The little bird logo was everywhere, with good quality at a friendly price</span></div>
-        </div>
         <div className="nbox mt16">
           <div className="nbox-lbl">Browsed, but not quite convinced</div>
           <p>Nerdy had discounts and Marithé François Girbaud had plenty of celebrity-linked pieces. thisisneverthat felt like a Korean Supreme, but the pricing did not feel as attractive that day.</p>
@@ -220,7 +214,7 @@ export default function SeoulEN() {
         </div>
 
         <div className="rbox mt16">
-          <h4>Shopping wins confirmed in the journal</h4>
+          <h4>Shopping stops confirmed in the journal</h4>
           <div className="ri"><span className="nm">ALAND, Myeongdong</span><span className="cm">A streetwear collection store, checked off on December 31</span></div>
           <div className="ri"><span className="nm">Le Labo</span><span className="cm">The Seoul-exclusive scent, proudly marked “bought it!”</span></div>
         </div>
@@ -230,7 +224,7 @@ export default function SeoulEN() {
         <div className="day-header">
           <div className="day-circle"><span style={{ fontSize: 23 }}>🛍️</span><span style={{ fontSize: 12 }}>SHOP</span></div>
           <div>
-            <div className="day-title">Many Saves, but the Purchases Matter More</div>
+            <div className="day-title">Many Saves, but the Stops We Made Matter More</div>
             <div className="day-sub">Hongdae · Myeongdong · the wish list left for next time</div>
           </div>
         </div>
