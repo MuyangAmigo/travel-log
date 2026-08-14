@@ -96,7 +96,7 @@ export default function TokyoEN() {
           </div>
 
           <div className="jtxt">
-            <p>Two onigiri from the convenience store for breakfast, then JR from central Tokyo to Ofuna, switching onto the Enoden hanging train. Ice cream and pudding on Enoshima, then a slow walk through the shopping street. Lunch at a seaside restaurant in Shichirigahama — the one famous for its Mount Fuji view, except the clouds rolled in and Fuji-san played shy all afternoon.</p>
+            <p>Two onigiri from the convenience store for breakfast, then JR from central Tokyo to Ofuna, switching onto the Shonan Monorail. Ice cream and pudding on Enoshima, then a slow walk through the shopping street. Lunch at a seaside restaurant in Shichirigahama — the one famous for its Mount Fuji view, except the clouds rolled in and Fuji-san played shy all afternoon.</p>
           </div>
 
           <div className="pgrid g2 mt12">
