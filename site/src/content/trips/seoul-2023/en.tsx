@@ -339,7 +339,7 @@ export default function SeoulEN() {
 
         <div className="tlwrap mt20">
           <div className="tl-item"><span className="tm">Packed right</span><div className="ev">Power bank, local SIM, plug adapter, and T-Money</div><div className="dt">A Chinese carrier&apos;s roaming package may not open every Korean app</div></div>
-          <div className="tl-item"><span className="tm">Apps</span><div className="ev">Naver for navigation; Papago and Kulikuli for translation</div><div className="dt">Do not depend on a single tool for either routes or language</div></div>
+          <div className="tl-item"><span className="tm">Apps</span><div className="ev">Naver for navigation; Papago and Kuli Kuli for translation</div><div className="dt">Do not depend on a single tool for either routes or language</div></div>
           <div className="tl-item"><span className="tm">Before leaving</span><div className="ev">Wear soft-soled shoes and use the restroom</div><div className="dt">Public toilets and bins were much harder to find than expected</div></div>
           <div className="tl-item"><span className="tm">Journal balance</span><div className="ev">KRW 3,500 / 3,600</div><div className="dt">The final numbers in the original note, preserved without interpretation</div></div>
         </div>
