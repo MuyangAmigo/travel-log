@@ -158,7 +158,7 @@ export default function TokyoZH() {
             </div>
             <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tr" />
-              <img src={img("japanese-tonkatsu-set-meal.jpeg")} alt="Maizara tonkatsu set" className="sq" />
+              <img src={img("japanese-tonkatsu-set-meal.jpeg")} alt="Maisen tonkatsu set" className="sq" />
               <div className="cap">舞泉炸猪排 —— 镰仓的完美收尾 🍛</div>
             </div>
           </div>
