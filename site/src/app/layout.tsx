@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Caveat, Homemade_Apple, Inter } from "next/font/google";
+import "./fonts/lxgw-wenkai/style.css";
 import "./globals.css";
 
 const themeInitializationScript = `
@@ -70,11 +71,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="color-scheme" content="light dark" />
         <script dangerouslySetInnerHTML={{ __html: themeInitializationScript }} />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css"
-        />
       </head>
       <body className={`${inter.variable} ${ebGaramond.variable} ${caveat.variable} ${homemadeApple.variable}`}>
         {children}
