@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trips, locales, dict, type Locale } from "@/lib/trips";
 import { withBasePath } from "@/lib/base-path";
+import IndexViewSwitcher from "@/components/IndexViewSwitcher";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
 
@@ -32,9 +33,14 @@ export default async function LocaleHome({
           <LanguageSwitcher current={loc} />
         </section>
 
-        <p className="index-tagline">{t.tagline}</p>
-
-        <div className="trip-grid">
+        <IndexViewSwitcher
+          tagline={t.tagline}
+          labels={{
+            group: t.viewSwitcher,
+            gallery: t.galleryView,
+            list: t.listView,
+          }}
+        >
           {trips.map((trip, index) => {
             const route = `/${loc}/trips/${trip.slug}`;
             const content = (
@@ -81,7 +87,7 @@ export default async function LocaleHome({
               </Link>
             );
           })}
-        </div>
+        </IndexViewSwitcher>
       </main>
     </>
   );

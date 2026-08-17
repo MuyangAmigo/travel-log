@@ -26,6 +26,14 @@ const __dirname = dirname(__filename);
 const REPO_ROOT = join(__dirname, "..");
 const TRIPS_SRC = join(REPO_ROOT, "site", "src", "content", "trips");
 const OUT_DIR = join(REPO_ROOT, "site", "out");
+const STATICRYPT_CLI = join(
+  REPO_ROOT,
+  "site",
+  "node_modules",
+  "staticrypt",
+  "cli",
+  "index.js"
+);
 const TEMPLATE_PATH = join(
   REPO_ROOT,
   "scripts",
@@ -157,10 +165,9 @@ try {
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
       execFileSync(
-        "npx",
+        process.execPath,
         [
-          "--yes",
-          "staticrypt",
+          STATICRYPT_CLI,
           htmlPath,
           "--short",
           "--remember=false",
