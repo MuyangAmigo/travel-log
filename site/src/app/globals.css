@@ -866,6 +866,11 @@ body {
   .tc-media img {
     transition: none;
   }
+  .index-view-switch button:active,
+  .trip-grid[data-view="list"] .trip-card:hover,
+  .trip-card:hover .tc-media img {
+    transform: none;
+  }
 }
 
 /* ================================================================
