@@ -7,6 +7,7 @@ export const img = (filename: string) => tripImage(SLUG, filename);
 
 export const meta: TripMeta = {
   slug: SLUG,
+  private: true,
   date: "2025-03-28",
   dateRange: "2025.03.28 — 03.30",
   coverImage: img("cover-2026-08.png"),
