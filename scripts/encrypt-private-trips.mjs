@@ -19,6 +19,7 @@ import {
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
+import { createRequire } from "node:module";
 import { derivePrivateTripPassphrase } from "../api/src/private-trip-key.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -32,6 +33,40 @@ const TEMPLATE_PATH = join(
   "microsoft-auth-template.html"
 );
 const LOCALES = ["zh", "en"];
+
+function resolveStaticryptCli() {
+  const siteRequire = createRequire(join(REPO_ROOT, "site", "package.json"));
+  let packagePath;
+  try {
+    packagePath = siteRequire.resolve("staticrypt/package.json");
+  } catch (error) {
+    throw new Error(
+      "[encrypt] staticrypt is not installed. Run npm install in site/ before building.",
+      { cause: error }
+    );
+  }
+
+  const packageJson = JSON.parse(readFileSync(packagePath, "utf8"));
+  const binPath =
+    typeof packageJson.bin === "string"
+      ? packageJson.bin
+      : packageJson.bin?.staticrypt;
+  if (!binPath) {
+    throw new Error(
+      "[encrypt] the installed staticrypt package does not declare a staticrypt CLI."
+    );
+  }
+
+  const cliPath = join(dirname(packagePath), binPath);
+  if (!existsSync(cliPath)) {
+    throw new Error(
+      `[encrypt] the staticrypt CLI declared by the package does not exist: ${cliPath}`
+    );
+  }
+  return cliPath;
+}
+
+const STATICRYPT_CLI = resolveStaticryptCli();
 
 function findPrivateSlugs() {
   if (!existsSync(TRIPS_SRC)) return [];
@@ -157,10 +192,9 @@ try {
       mkdirSync(tmpDir, { recursive: true });
       console.log(`[encrypt] ${locale}/trips/${slug}/`);
       execFileSync(
-        "npx",
+        process.execPath,
         [
-          "--yes",
-          "staticrypt",
+          STATICRYPT_CLI,
           htmlPath,
           "--short",
           "--remember=false",

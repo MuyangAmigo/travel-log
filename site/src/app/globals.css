@@ -570,9 +570,63 @@ body {
   font-weight: 500;
   color: var(--palette-text-primary);
   letter-spacing: -0.18px;
-  margin: 0 0 32px;
+  margin: 0;
   max-width: 640px;
   line-height: 1.35;
+}
+
+.index-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.index-view-switch {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--palette-surface-muted);
+}
+.index-view-switch button {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--palette-text-secondary);
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+.index-view-switch button:hover {
+  color: var(--palette-text-primary);
+}
+.index-view-switch button:active {
+  transform: scale(.94);
+}
+.index-view-switch button:focus-visible {
+  outline: 2px solid var(--palette-bg-primary-core);
+  outline-offset: 2px;
+}
+.index-view-switch button.active {
+  background: var(--surface-elevated);
+  color: var(--palette-text-primary);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
+}
+.index-view-switch svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .trip-grid {
@@ -594,6 +648,11 @@ body {
 }
 .trip-card:hover .tc-media img {
   transform: scale(1.03);
+}
+.trip-card:focus-visible {
+  outline: 2px solid var(--palette-bg-primary-core);
+  outline-offset: 4px;
+  border-radius: var(--ab-radius-card);
 }
 
 .tc-media {
@@ -677,6 +736,51 @@ body {
   margin: 4px 0 0;
 }
 
+.trip-grid[data-view="list"] {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+.trip-grid[data-view="list"] .trip-card {
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--ab-radius-card);
+  background: var(--palette-surface);
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+.trip-grid[data-view="list"] .trip-card:hover {
+  box-shadow: var(--ab-shadow-hover);
+  transform: translateY(-1px);
+}
+.trip-grid[data-view="list"] .tc-media {
+  width: 180px;
+  flex: 0 0 180px;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--ab-radius-badge);
+  box-shadow: none;
+}
+.trip-grid[data-view="list"] .trip-card:hover .tc-media {
+  box-shadow: none;
+}
+.trip-grid[data-view="list"] .tc-badge {
+  top: 8px;
+  left: 8px;
+}
+.trip-grid[data-view="list"] .tc-body {
+  min-width: 0;
+  flex: 1;
+  padding: 0 14px 0 0;
+}
+.trip-grid[data-view="list"] .tc-title {
+  font-size: 18px;
+}
+.trip-grid[data-view="list"] .tc-sub {
+  max-width: 760px;
+}
+
 /* Language switch — pill group */
 .lang-switch {
   display: inline-flex;
@@ -755,6 +859,20 @@ body {
   padding: 10px 0 60px;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .index-view-switch button,
+  .trip-card,
+  .tc-media,
+  .tc-media img {
+    transition: none;
+  }
+  .index-view-switch button:active,
+  .trip-grid[data-view="list"] .trip-card:hover,
+  .trip-card:hover .tc-media img {
+    transform: none;
+  }
+}
+
 /* ================================================================
    Responsive overrides
    ================================================================ */
@@ -782,6 +900,7 @@ body {
   }
   .site-title { font-size: 32px; letter-spacing: -0.64px; }
   .index-tagline { font-size: 17px; }
+  .index-toolbar { margin-bottom: 28px; }
 
   .trip-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -892,6 +1011,40 @@ body {
 }
 
 @media (max-width: 640px) {
+  .index-toolbar {
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .trip-grid[data-view="list"] .trip-card {
+    gap: 12px;
+    padding: 8px;
+  }
+  .trip-grid[data-view="list"] .tc-media {
+    width: 116px;
+    flex-basis: 116px;
+  }
+  .trip-grid[data-view="list"] .tc-body {
+    padding-right: 6px;
+  }
+  .trip-grid[data-view="list"] .tc-title-row {
+    display: block;
+  }
+  .trip-grid[data-view="list"] .tc-title {
+    font-size: 16px;
+  }
+  .trip-grid[data-view="list"] .tc-date {
+    display: block;
+    margin-top: 3px;
+  }
+  .trip-grid[data-view="list"] .tc-location {
+    font-size: 13px;
+  }
+  .trip-grid[data-view="list"] .tc-sub {
+    font-size: 13px;
+    -webkit-line-clamp: 1;
+  }
+
   .card-wrap {
     --card-scale-width: calc((100vw - 16px) / 1200);
   }
