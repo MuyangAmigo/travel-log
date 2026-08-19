@@ -2133,9 +2133,22 @@ body {
    Trip entry pilot — symmetrical desktop editorial rails
    ================================================================ */
 
-.trip-entry-layout,
-.trip-entry-main {
+.trip-entry-layout {
   display: contents;
+}
+
+.trip-entry-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 760px) {
+  .trip-entry-main {
+    gap: 12px;
+  }
 }
 
 .trip-entry-rail,
