@@ -16,6 +16,15 @@
 > paths walked. people met. meals eaten. 走过的路，遇过的人，吃过的饭。
 ```
 
+[![CI](https://github.com/MuyangAmigo/travel-log/actions/workflows/github-pages.yml/badge.svg)](https://github.com/MuyangAmigo/travel-log/actions/workflows/github-pages.yml)
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind-4-38BDF8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Static export](https://img.shields.io/badge/static-export-0e0e0e?logo=nextdotjs&logoColor=white)](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
+[![Private](https://img.shields.io/badge/private-encrypted-e00b41)](https://github.com/robinmoisson/staticrypt)
+[![Trips](https://img.shields.io/badge/trips-9-f5f5f0)](https://muyangamigo.github.io/travel-log/)
+
 ## SYNOPSIS
 
 A bilingual (中文 / English) travel journal running as a **fully static** Next.js export.
