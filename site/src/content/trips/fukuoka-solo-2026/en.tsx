@@ -1,6 +1,66 @@
 import type { ReactNode } from "react";
 import CardScaleController from "@/components/CardScaleController";
+import TripEntryLayout, {
+  type TripEntrySection,
+} from "@/components/TripEntryLayout";
 import { img } from "./meta";
+
+const SECTIONS = [
+  {
+    id: "overview",
+    marker: "FUKUOKA",
+    label: "Trip cover",
+    detail: "Wandering at my own pace · June 3–7, 2026",
+  },
+  {
+    id: "route",
+    marker: "ROUTE",
+    label: "Trip overview",
+    detail: "Fukuoka City · Seaside · Dazaifu · Five days, four nights",
+  },
+  {
+    id: "day-1",
+    marker: "DAY 1",
+    label: "Arriving in Fukuoka",
+    detail: "Shanghai to Hakata · Ramen, shrines, and a Nakasu night walk",
+  },
+  {
+    id: "day-2",
+    marker: "DAY 2",
+    label: "Shrines in the rain",
+    detail: "Goshuin, Tenjin, and a shopping day rewritten by heavy rain",
+  },
+  {
+    id: "day-3",
+    marker: "DAY 3",
+    label: "An impromptu seaside",
+    detail: "Parks, castle ruins, tsukemen, and a long walk home",
+  },
+  {
+    id: "day-4",
+    marker: "DAY 4",
+    label: "A day in Dazaifu",
+    detail: "Tenmangu, the Kyushu National Museum, and Kamado Shrine",
+  },
+  {
+    id: "day-5",
+    marker: "DAY 5",
+    label: "An easy goodbye",
+    detail: "Fukuoka Airport to Shanghai · One last photo above the clouds",
+  },
+  {
+    id: "notes",
+    marker: "NOTES",
+    label: "Shopping and reflection",
+    detail: "The bill, the unused plan, and what a first solo trip left behind",
+  },
+] satisfies readonly TripEntrySection[];
+
+const RAIL_LABELS = {
+  navigation: "Trip chapters",
+  current: "Current chapter",
+  progress: "Reading progress",
+};
 
 type PhotoProps = {
   file: string;
@@ -19,29 +79,51 @@ function Photo({ file, alt, caption, shape = "pt" }: PhotoProps) {
 }
 
 function JournalCard({
+  anchor = false,
   page,
+  sectionId,
   children,
 }: {
+  anchor?: boolean;
   page: number;
+  sectionId: string;
   children: ReactNode;
 }) {
   return (
-    <div className="card-wrap">
+    <section
+      className="card-wrap"
+      id={anchor ? sectionId : undefined}
+      data-trip-section={sectionId}
+    >
       <div className="card">
         {children}
         <div className="page-num">- {String(page).padStart(2, "0")} -</div>
       </div>
-    </div>
+    </section>
   );
 }
 
 export default function FukuokaSoloEN() {
   return (
-    <div className="fukuoka-solo-trip" style={{ display: "contents" }}>
+    <TripEntryLayout
+      className="fukuoka-solo-trip"
+      labels={RAIL_LABELS}
+      sections={SECTIONS}
+    >
       <CardScaleController />
 
-      <div className="card-wrap">
+      <section
+        className="card-wrap"
+        id="overview"
+        data-trip-section="overview"
+      >
         <div className="card" style={{ padding: "50px 55px" }}>
+          <img
+            className="trip-cover-image"
+            src={img("cover-2026-08.png")}
+            alt=""
+            aria-hidden="true"
+          />
           <div className="stamp-circle" style={{ position: "absolute", top: 30, right: 30 }}>
             <div>FUKUOKA<br />2026</div>
           </div>
@@ -76,9 +158,9 @@ export default function FukuokaSoloEN() {
           </div>
           <div className="page-num">- 01 -</div>
         </div>
-      </div>
+      </section>
 
-      <JournalCard page={2}>
+      <JournalCard page={2} sectionId="route" anchor>
         <div className="day-header">
           <div className="day-circle">
             <span style={{ fontSize: 23 }}>🗺️</span>
@@ -109,7 +191,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={3}>
+      <JournalCard page={3} sectionId="day-1" anchor>
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">1</span></div>
           <div>
@@ -144,7 +226,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={4}>
+      <JournalCard page={4} sectionId="day-1">
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">1</span></div>
           <div>
@@ -183,7 +265,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={5}>
+      <JournalCard page={5} sectionId="day-2" anchor>
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">2</span></div>
           <div>
@@ -222,7 +304,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={6}>
+      <JournalCard page={6} sectionId="day-2">
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">2</span></div>
           <div>
@@ -261,7 +343,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={7}>
+      <JournalCard page={7} sectionId="day-3" anchor>
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">3</span></div>
           <div>
@@ -300,7 +382,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={8}>
+      <JournalCard page={8} sectionId="day-3">
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">3</span></div>
           <div>
@@ -334,7 +416,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={9}>
+      <JournalCard page={9} sectionId="day-4" anchor>
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">4</span></div>
           <div>
@@ -373,7 +455,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={10}>
+      <JournalCard page={10} sectionId="day-4">
         <div className="day-header">
           <div className="day-circle">
             <span style={{ fontSize: 23 }}>🏛️</span>
@@ -406,7 +488,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={11}>
+      <JournalCard page={11} sectionId="day-4">
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">4</span></div>
           <div>
@@ -440,7 +522,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={12}>
+      <JournalCard page={12} sectionId="day-4">
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">4</span></div>
           <div>
@@ -480,7 +562,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={13}>
+      <JournalCard page={13} sectionId="day-5" anchor>
         <div className="day-header">
           <div className="day-circle"><span className="lbl">Day</span><span className="num">5</span></div>
           <div>
@@ -506,7 +588,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={14}>
+      <JournalCard page={14} sectionId="notes" anchor>
         <div className="day-header">
           <div className="day-circle">
             <span style={{ fontSize: 23 }}>🛍️</span>
@@ -554,7 +636,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={15}>
+      <JournalCard page={15} sectionId="notes">
         <div className="day-header">
           <div className="day-circle">
             <span style={{ fontSize: 23 }}>📋</span>
@@ -588,7 +670,7 @@ export default function FukuokaSoloEN() {
         </div>
       </JournalCard>
 
-      <JournalCard page={16}>
+      <JournalCard page={16} sectionId="notes">
         <div className="day-header">
           <div className="day-circle">
             <span style={{ fontSize: 23 }}>💭</span>
@@ -630,6 +712,6 @@ export default function FukuokaSoloEN() {
           <span className="stamp-box" style={{ transform: "rotate(0)" }}>FIN · 2026.06</span>
         </div>
       </JournalCard>
-    </div>
+    </TripEntryLayout>
   );
 }
