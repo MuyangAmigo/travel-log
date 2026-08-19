@@ -2138,17 +2138,11 @@ body {
 }
 
 .trip-entry-main {
-  width: 100%;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-}
-
-@media (max-width: 760px) {
-  .trip-entry-main {
-    gap: 12px;
-  }
 }
 
 .trip-entry-rail,
@@ -2265,6 +2259,12 @@ body {
   }
 }
 
+@media (max-width: 760px) {
+  .trip-entry-main {
+    gap: 12px;
+  }
+}
+
 @media (min-width: 1280px) {
   .trip-entry-layout {
     display: grid;
@@ -2277,11 +2277,8 @@ body {
   }
 
   .trip-entry-main {
-    display: flex;
     min-width: 0;
-    flex-direction: column;
     align-items: stretch;
-    gap: 16px;
   }
 
   .trip-entry-rail {

@@ -25,10 +25,13 @@ export default function CardScaleController() {
       });
     }
 
-    const observer = new ResizeObserver(sync);
-    document
-      .querySelectorAll<HTMLElement>(".card-wrap .card")
-      .forEach((card) => observer.observe(card));
+    const observer =
+      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(sync);
+    if (observer) {
+      document
+        .querySelectorAll<HTMLElement>(".card-wrap .card")
+        .forEach((card) => observer.observe(card));
+    }
 
     sync();
     window.addEventListener("load", sync);
@@ -39,7 +42,7 @@ export default function CardScaleController() {
 
     return () => {
       cancelled = true;
-      observer.disconnect();
+      observer?.disconnect();
       window.removeEventListener("load", sync);
       window.removeEventListener("resize", sync);
     };
