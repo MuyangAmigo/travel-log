@@ -20,3 +20,6 @@ api/local.settings.json
 
 # Source photos — uploaded to Azure Blob Storage, not tracked in git
 IMGSource/
+
+# Agent memory (not part of the repo)
+.workbuddy/
