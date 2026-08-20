@@ -43,16 +43,18 @@ Use these instructions when creating or revising a trip in this repository.
 1. Create `site/src/content/trips/<slug>/meta.ts`, `zh.tsx`, and `en.tsx`.
 2. In `meta.ts`, export `SLUG`, `img`, and localized `TripMeta`.
 3. Preserve the requested privacy state. A private trip must set `private: true`.
-4. Render `<CardScaleController />` exactly once at the top of each locale component.
-5. Compose the existing classes from `globals.css`; do not introduce a new visual system for one trip.
-6. Build the entry as an editorial sequence rather than a raw note dump:
+4. Do not render `CardScaleController` or `TripEntryLayout` inside locale components. The shared trip route applies scaling and responsive editorial rails to every entry by default.
+5. Keep each editorial page in a `.card-wrap > .card` structure. The shared layout derives rail labels from `.cover-title`, `.day-title`, `.day-sub`, and `.day-circle`.
+6. To group multiple cards into one rail chapter, give them the same `data-trip-section`, put the matching `id` on the first card, and export a localized `sections` array typed with `TripEntrySection` when curated labels or descriptions are needed.
+7. Compose the existing classes from `globals.css`; do not introduce a new visual system for one trip.
+8. Build the entry as an editorial sequence rather than a raw note dump:
    - named cover
    - chronological day sections
    - photo grids with useful captions and descriptive alt text
    - timelines or route summaries where they clarify movement
    - candid notes, tips, highlights, and disappointments from the source
    - expense summary when the source includes costs
-7. Register the trip in `site/src/lib/trips.ts`, keeping the newest trips first.
+9. Register the trip in `site/src/lib/trips.ts`, keeping the newest trips first.
 
 ## Writing quality
 
@@ -69,5 +71,5 @@ Use these instructions when creating or revising a trip in this repository.
 - A successful private-trip build must generate and encrypt both locale pages.
 - If dependencies are absent and the committed lockfile has the known invalid-version issue, follow CI behavior: regenerate the lockfile for local installation, build, then avoid committing unrelated generated lockfile changes.
 - Next.js may modify `site/next-env.d.ts` or generate `site/AGENTS.md` and `site/CLAUDE.md`. Do not include these unrelated generated changes with a trip unless intentionally updating them.
-- Preview the Chinese index and trip page locally after changes. Check the cover crop, title, mobile card layout, and image loading.
+- Preview the Chinese index and trip page locally after changes. Check the cover crop, title, desktop rails, tablet chapter menu, mobile card layout, and image loading.
 - Commit only files belonging to the requested change. When a PR already exists, push follow-up commits and keep its description accurate.

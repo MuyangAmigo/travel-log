@@ -11,6 +11,8 @@ import {
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
 import ImageLightbox from "@/components/ImageLightbox";
+import CardScaleController from "@/components/CardScaleController";
+import TripEntryLayout from "@/components/TripEntryLayout";
 
 export function generateStaticParams() {
   const slugs = getAllTripSlugs();
@@ -43,8 +45,9 @@ export default async function TripPage({
   const trip = getTrip(slug);
   if (!trip) notFound();
 
-  const Content = await loadTripContent(slug, loc);
-  if (!Content) notFound();
+  const tripContent = await loadTripContent(slug, loc);
+  if (!tripContent) notFound();
+  const { Content, sections } = tripContent;
 
   const t = dict[loc];
 
@@ -63,7 +66,10 @@ export default async function TripPage({
         />
       </header>
       <div className="trip-content">
-        <Content />
+        <TripEntryLayout locale={loc} sections={sections}>
+          <CardScaleController />
+          <Content />
+        </TripEntryLayout>
       </div>
       <ImageLightbox locale={loc} />
     </>

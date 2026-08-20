@@ -1,11 +1,8 @@
 import type { ReactNode } from "react";
-import CardScaleController from "@/components/CardScaleController";
-import TripEntryLayout, {
-  type TripEntrySection,
-} from "@/components/TripEntryLayout";
+import type { TripEntrySection } from "@/components/TripEntryLayout";
 import { img } from "./meta";
 
-const SECTIONS = [
+export const sections = [
   {
     id: "overview",
     marker: "FUKUOKA",
@@ -56,12 +53,6 @@ const SECTIONS = [
   },
 ] satisfies readonly TripEntrySection[];
 
-const RAIL_LABELS = {
-  navigation: "旅程章节",
-  current: "当前章节",
-  progress: "阅读进度",
-};
-
 type PhotoProps = {
   file: string;
   alt: string;
@@ -105,13 +96,7 @@ function JournalCard({
 
 export default function FukuokaSoloZH() {
   return (
-    <TripEntryLayout
-      className="fukuoka-solo-trip"
-      labels={RAIL_LABELS}
-      sections={SECTIONS}
-    >
-      <CardScaleController />
-
+    <div className="fukuoka-solo-trip" style={{ display: "contents" }}>
       <section
         className="card-wrap"
         id="overview"
@@ -711,6 +696,6 @@ export default function FukuokaSoloZH() {
           <span className="stamp-box" style={{ transform: "rotate(0)" }}>FIN · 2026.06</span>
         </div>
       </JournalCard>
-    </TripEntryLayout>
+    </div>
   );
 }

@@ -1,11 +1,8 @@
 import { img } from "./meta";
-import CardScaleController from "@/components/CardScaleController";
 
 export default function HangzhouConcertZH() {
   return (
     <div className="hangzhou-trip" style={{ display: "contents" }}>
-      <CardScaleController />
-
       {/* ========= CARD 1: COVER ========= */}
       <div className="card-wrap">
         <div className="card" style={{ padding: "50px 55px" }}>

@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import CardScaleController from "@/components/CardScaleController";
+
 import { img } from "./meta";
 
 type Photo = {
@@ -36,8 +36,6 @@ function JournalCard({ page, children }: { page: number; children: ReactNode }) 
 export default function Japan2023ZH() {
   return (
     <div className="japan-2023-trip" style={{ display: "contents" }}>
-      <CardScaleController />
-
       <div className="card-wrap">
         <div className="card" style={{ padding: "50px 55px" }}>
           <div className="stamp-circle" style={{ position: "absolute", top: 30, right: 30 }}>
