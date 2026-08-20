@@ -55,7 +55,7 @@ Every `.card` is displayed at a fixed 750px width by the final trip-content CSS 
 
 `TripEntryLayout.tsx` is the shared responsive frame for every trip. Desktop pages get symmetrical sticky chapter/current-section rails, tablets get a compact sticky chapter menu, and phones retain the single-column card flow.
 
-The layout discovers `.card-wrap` elements and derives chapter copy from existing `.cover-title`, `.day-title`, `.day-sub`, and `.day-circle` content. It assigns stable generated anchors when an entry has no explicit section metadata. For authored grouping, use the same `data-trip-section` on every card in a chapter, place the matching `id` on its first card, and optionally export a localized `sections` array typed as `TripEntrySection`; `loadTripContent()` forwards that metadata to the shared layout.
+The layout discovers `.card-wrap` elements and derives chapter copy from existing `.cover-title`, `.day-title`, `.day-sub`, and `.day-circle` content. When an entry has no explicit section metadata, it generates anchors for each card (currently based on card order). For authored grouping, use the same `data-trip-section` on every card in a chapter, place the matching `id` on its first card, and optionally export a localized `sections` array typed as `TripEntrySection`; `loadTripContent()` forwards that metadata to the shared layout.
 
 ### Design tokens in `globals.css`
 
