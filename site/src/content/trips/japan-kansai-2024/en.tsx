@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import CardScaleController from "@/components/CardScaleController";
+
 import { img } from "./meta";
 
 type PhotoProps = {
@@ -32,8 +32,6 @@ function JournalCard({ page, children }: { page: number; children: ReactNode }) 
 export default function KansaiEN() {
   return (
     <div className="kansai-trip" style={{ display: "contents" }}>
-      <CardScaleController />
-
       <div className="card-wrap">
         <div className="card" style={{ padding: "50px 55px" }}>
           <div className="stamp-circle" style={{ position: "absolute", top: 30, right: 30 }}>

@@ -47,9 +47,15 @@ All `<img>` src attributes in trip content go through `img(filename)` from `meta
 
 ### Card rendering (750px canvas + scale-transform)
 
-Every `.card` is displayed at a fixed 750px width by the final trip-content CSS override in `globals.css`. On tablet/desktop, `.card-wrap` computes `--s = min((100vw - gutter)/750, 1)` and `transform: scale(var(--s))` shrinks it to fit. On phones (`max-width: 760px`), transforms are disabled and cards become fluid `width: 100%` with true mobile font sizes so text doesn't render too small. A client component — `CardScaleController.tsx` — measures the unscaled card height and writes `height = card.offsetHeight * s` back to the wrapper, otherwise the surrounding layout collapses (transformed elements don't contribute to layout size).
+Every `.card` is displayed at a fixed 750px width by the final trip-content CSS override in `globals.css`. On tablet, `.card-wrap` computes `--s = min((100vw - gutter)/750, 1)` and `transform: scale(var(--s))` shrinks it to fit. On phones (`max-width: 760px`), transforms are disabled and cards become fluid `width: 100%` with true mobile font sizes so text doesn't render too small. On desktop (`min-width: 1280px`), the default editorial layout renders cards fluidly in a 720px center column between two rails.
 
-Every trip component must render `<CardScaleController />` once at the top of its tree.
+`site/src/app/[locale]/trips/[slug]/page.tsx` wraps every trip in `TripEntryLayout` and renders `CardScaleController` once. Locale components must not add either component themselves.
+
+### Default editorial rails
+
+`TripEntryLayout.tsx` is the shared responsive frame for every trip. Desktop pages get symmetrical sticky chapter/current-section rails, tablets get a compact sticky chapter menu, and phones retain the single-column card flow.
+
+The layout discovers `.card-wrap` elements and derives chapter copy from existing `.cover-title`, `.day-title`, `.day-sub`, and `.day-circle` content. It assigns stable generated anchors when an entry has no explicit section metadata. For authored grouping, use the same `data-trip-section` on every card in a chapter, place the matching `id` on its first card, and optionally export a localized `sections` array typed as `TripEntrySection`; `loadTripContent()` forwards that metadata to the shared layout.
 
 ### Design tokens in `globals.css`
 
@@ -71,7 +77,7 @@ Composed, not written from scratch. Key classes defined in `globals.css`:
 - **Header / nav**: `.site-header`, `.site-brand` (Rausch Red logo mark), `.theme-toggle` — rendered by `components/SiteHeader.tsx`
 - **Index**: `.index-wrap`, `.index-hero`, `.index-eyebrow`, `.site-title`, `.site-sub`, `.index-tagline`, `.trip-grid` (4→3→2→1 cols)
 - **Listing card**: `.trip-card` + `.tc-media` (1:1 aspect, 20px radius, three-layer shadow, hover scales image + lifts shadow) + `.tc-badge` (+`.private` for Rausch Red variant) + `.tc-body`, `.tc-title-row`, `.tc-title`, `.tc-date`, `.tc-location`, `.tc-sub`
-- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (theme-aware mobile-editorial wrapper with 16px section rhythm)
+- **Trip chrome**: `.trip-shell-header`, `.trip-shell-back` (rounded pill back button), `.trip-content` (theme-aware mobile-editorial wrapper), `.trip-entry-layout` + `.trip-entry-rail` + `.trip-entry-compact` (default responsive chapter navigation)
 - **Language switch**: `.lang-switch` (pill-track group, `.active` = elevated theme surface with soft shadow)
 
 **Trip content classes**:

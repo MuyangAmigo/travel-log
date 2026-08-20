@@ -1,11 +1,8 @@
-import CardScaleController from "@/components/CardScaleController";
 import { img } from "./meta";
 
 export default function ShaoxingEN() {
   return (
     <div className="shaoxing-trip" style={{ display: "contents" }}>
-      <CardScaleController />
-
       <div className="card-wrap">
         <div className="card">
           <div className="stamp-circle" style={{ position: "absolute", top: 30, right: 30 }}>

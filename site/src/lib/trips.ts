@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import type { TripEntrySection } from "@/components/TripEntryLayout";
 
 export type Locale = "zh" | "en";
 export const locales: Locale[] = ["zh", "en"];
@@ -59,10 +60,19 @@ export function getPrivateTripSlugs(): string[] {
 export async function loadTripContent(
   slug: string,
   locale: Locale
-): Promise<(() => ReactNode) | null> {
+): Promise<{
+  Content: () => ReactNode;
+  sections?: readonly TripEntrySection[];
+} | null> {
   try {
-    const mod = await import(`@/content/trips/${slug}/${locale}`);
-    return mod.default as () => ReactNode;
+    const mod = (await import(`@/content/trips/${slug}/${locale}`)) as {
+      default: () => ReactNode;
+      sections?: readonly TripEntrySection[];
+    };
+    return {
+      Content: mod.default,
+      sections: mod.sections,
+    };
   } catch {
     return null;
   }
