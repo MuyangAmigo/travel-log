@@ -228,16 +228,21 @@ export default function PhuketEN() {
             <div className="ri"><span className="nm">FM831 in-flight chicken noodles</span><span className="st">⭐</span><span className="cm">Barely edible. Phone dramas saved the night 😖</span></div>
           </div>
 
-          <div className="pgrid g2 mt16" style={{ maxWidth: 420, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pf fs tl-tilt" style={{ position: "relative" }}>
+          <div className="pgrid g3 mt16">
+            <div className="pf fs" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("sassy-dianping.jpeg")} alt="Dianping page for Sassy restaurant" className="pt" loading="lazy" decoding="async" />
-              <div className="cap">Sassy on Dianping · taste 4.2</div>
+              <img src={img("sassy-morning-glory.jpeg")} alt="Stir-fried morning glory at Sassy" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">Stir-fried morning glory</div>
             </div>
-            <div className="pf fc tr-tilt" style={{ position: "relative" }}>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tc" />
+              <img src={img("sassy-pad-thai-closeup.jpeg")} alt="Pad Thai with lime and bean sprouts" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">Pad Thai with lime and bean sprouts</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("sassy-shrimp-salad.jpeg")} alt="Close-up of raw shrimp salad" className="pt" loading="lazy" decoding="async" />
-              <div className="cap">Isaan-style raw shrimp salad</div>
+              <img src={img("sassy-tom-yum-soup.jpeg")} alt="Tom yum soup with shrimp" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">Tom yum soup with shrimp</div>
             </div>
           </div>
 

@@ -226,16 +226,21 @@ export default function PhuketZH() {
             <div className="ri"><span className="nm">FM831 航空餐鸡肉面</span><span className="st">⭐</span><span className="cm">特别难吃，全靠修仙短剧撑过去 😖</span></div>
           </div>
 
-          <div className="pgrid g2 mt16" style={{ maxWidth: 420, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pf fs tl-tilt" style={{ position: "relative" }}>
+          <div className="pgrid g3 mt16">
+            <div className="pf fs" style={{ position: "relative" }}>
               <div className="tape tp t-tl" />
-              <img src={img("sassy-dianping.jpeg")} alt="Sassy 餐厅在大众点评的页面截图" className="pt" loading="lazy" decoding="async" />
-              <div className="cap">Sassy 点评页 · 口味 4.2</div>
+              <img src={img("sassy-morning-glory.jpeg")} alt="Sassy 泰式炒含羞草" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">泰式炒含羞草</div>
             </div>
-            <div className="pf fc tr-tilt" style={{ position: "relative" }}>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tc" />
+              <img src={img("sassy-pad-thai-closeup.jpeg")} alt="Sassy Pad Thai 配青柠豆芽" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">Pad Thai 配青柠豆芽</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
               <div className="tape tb t-tr" />
-              <img src={img("sassy-shrimp-salad.jpeg")} alt="生虾米粉丝沙拉特写" className="pt" loading="lazy" decoding="async" />
-              <div className="cap">伊桑风味的生虾沙拉</div>
+              <img src={img("sassy-tom-yum-soup.jpeg")} alt="Sassy 冬阴功虾汤" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">冬阴功虾汤</div>
             </div>
           </div>
 
