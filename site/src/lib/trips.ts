@@ -23,6 +23,7 @@ export interface TripMeta {
 
 import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
 import { meta as chengdu2025Meta } from "@/content/trips/chengdu-2025/meta";
+import { meta as phuket2026Meta } from "@/content/trips/phuket-2026/meta";
 import { meta as fukuokaSolo2026Meta } from "@/content/trips/fukuoka-solo-2026/meta";
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
 import { meta as japan2023Meta } from "@/content/trips/japan-2023/meta";
@@ -34,6 +35,7 @@ import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 // Newest first — sort by ISO `date` descending so the index/cover page
 // always lists trips in reverse chronological order regardless of insertion.
 export const trips: TripMeta[] = [
+  phuket2026Meta,
   fukuokaSolo2026Meta,
   bangkok2026Meta,
   hangzhouConcert2026Meta,
