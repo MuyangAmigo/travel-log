@@ -1,13 +1,39 @@
+import type { TripEntrySection } from "@/components/TripEntryLayout";
 import { img } from "./meta";
-import CardScaleController from "@/components/CardScaleController";
+
+export const sections = [
+  {
+    id: "overview",
+    marker: "PHUKET",
+    label: "Trip Cover",
+    detail: "Island laziness · 2026.08.20 — 08.24",
+  },
+  {
+    id: "day-1",
+    marker: "DAY 1",
+    label: "Delayed Takeoff, Midnight Landing",
+    detail: "Shanghai ✈️ Phuket · Goose Island, Sassy, and 3:30 a.m.",
+  },
+  {
+    id: "day-2",
+    marker: "DAY 2",
+    label: "Waking Up Slowly",
+    detail: "Hotel breakfast · pool · doing nothing",
+  },
+  {
+    id: "food-bill",
+    marker: "FOOD",
+    label: "Food & Bills",
+    detail: "Honest restaurant notes & running expenses",
+  },
+] satisfies readonly TripEntrySection[];
 
 export default function PhuketEN() {
   return (
     <div className="phuket-trip" style={{ display: "contents" }}>
-      <CardScaleController />
 
       {/* ========= CARD 1: COVER ========= */}
-      <div className="card-wrap">
+      <section className="card-wrap" id="overview" data-trip-section="overview">
         <div className="card" style={{ padding: "50px 55px" }}>
           <div className="stamp-circle" style={{ position: "absolute", top: 30, right: 30 }}>
             <div>PHUKET<br />2026</div>
@@ -35,10 +61,10 @@ export default function PhuketEN() {
           </div>
           <div className="page-num">- 01 -</div>
         </div>
-      </div>
+      </section>
 
       {/* ========= CARD 2: DAY 1 DEPARTURE & ARRIVAL ========= */}
-      <div className="card-wrap">
+      <section className="card-wrap" data-trip-section="day-1">
         <div className="card">
           <div className="deco" style={{ width: 130, height: 130, top: -30, right: -20 }} />
 
@@ -117,10 +143,10 @@ export default function PhuketEN() {
 
           <div className="page-num">- 02 -</div>
         </div>
-      </div>
+      </section>
 
       {/* ========= CARD 3: DAY 2 SLOW MORNING ========= */}
-      <div className="card-wrap">
+      <section className="card-wrap" data-trip-section="day-2">
         <div className="card">
           <div className="day-header">
             <div className="day-circle"><span className="lbl">Day</span><span className="num">2</span></div>
@@ -172,10 +198,10 @@ export default function PhuketEN() {
 
           <div className="page-num">- 03 -</div>
         </div>
-      </div>
+      </section>
 
       {/* ========= CARD 4: FOOD & EXPENSES ========= */}
-      <div className="card-wrap">
+      <section className="card-wrap" data-trip-section="food-bill">
         <div className="card">
           <div className="sticker" style={{ top: 18, right: 60, fontSize: 34 }}>🍴</div>
 
@@ -249,7 +275,7 @@ export default function PhuketEN() {
 
           <div className="page-num">- 04 -</div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
