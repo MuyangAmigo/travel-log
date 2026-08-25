@@ -59,7 +59,7 @@ export default function PhuketEN() {
           <div className="cover-border">
             <div className="cover-emoji">🏝️ 🌴 ✈️</div>
             <h1 className="cover-title">
-              Phuket · Slow Days by the Sea
+              Phuket · An Unexpected Dive
             </h1>
             <div className="cover-subtitle">
               Travel Journal
