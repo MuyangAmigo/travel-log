@@ -545,6 +545,8 @@
       const passcodeSubmit = document.getElementById("passcode-submit");
       const authStatus = document.getElementById("auth-status");
       const themeStorageKey = "travel-log-theme";
+      const microsoftSessionStorageKey = "travel-log-microsoft-auth-session";
+      const tokenExpirySkewMilliseconds = 60 * 1000;
       const themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
       const themeToggle = document.getElementById("theme-toggle");
 
@@ -619,6 +621,39 @@
         return accessToken;
       }
 
+      function readMicrosoftSession() {
+        try {
+          const stored = window.sessionStorage.getItem(
+            microsoftSessionStorageKey
+          );
+          if (!stored) return null;
+
+          const session = JSON.parse(stored);
+          if (
+            !session ||
+            typeof session.accessToken !== "string" ||
+            typeof session.expiresAt !== "number" ||
+            session.expiresAt <= Date.now() + tokenExpirySkewMilliseconds
+          ) {
+            clearMicrosoftSession();
+            return null;
+          }
+          return session;
+        } catch (error) {
+          console.warn("Unable to read the Microsoft sign-in session.", error);
+          clearMicrosoftSession();
+          return null;
+        }
+      }
+
+      function clearMicrosoftSession() {
+        try {
+          window.sessionStorage.removeItem(microsoftSessionStorageKey);
+        } catch (error) {
+          console.warn("Unable to clear the Microsoft sign-in session.", error);
+        }
+      }
+
       async function unlockPage({ accessToken, passcode }) {
         const requestHeaders = {
           Accept: "application/json",
@@ -639,6 +674,9 @@
         });
 
         if (!response.ok) {
+          if (accessToken && (response.status === 401 || response.status === 403)) {
+            clearMicrosoftSession();
+          }
           if (accessToken && response.status === 403) {
             throw new Error("此 Microsoft 账号没有阅读权限。This account is not authorized.");
           }
@@ -673,7 +711,8 @@
       }
 
       window.addEventListener("load", async function () {
-        const accessToken = consumeMicrosoftAccessToken();
+        const accessToken =
+          consumeMicrosoftAccessToken() ?? readMicrosoftSession()?.accessToken;
         if (!accessToken) {
           showGate();
           return;

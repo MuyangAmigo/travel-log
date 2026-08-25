@@ -29,7 +29,7 @@ Obtain the account's `sub` claim during a controlled local bootstrap, then set i
 
 The private passcode must not match `TRAVEL_LOG_PRIVATE_PASSWORD`. The passcode is sent only to the HTTPS Function for scrypt-based constant-time validation and is never embedded in the static site or used directly as an encryption key. Failed attempts are durably limited to five per source per 15-minute window in the Function app's `AzureWebJobsStorage` table account.
 
-The Microsoft callback returns its bearer token once in the private page's URL fragment. The gate removes the fragment before calling the Function and never stores the bearer token in origin-scoped Web Storage.
+The Microsoft callback keeps the bearer token in `sessionStorage` for the lifetime of the current browser tab, then returns to the requested private page. Other private entries opened in that tab reuse the valid token and unlock without another sign-in. Closing the tab ends the journal session; the token is never persisted in `localStorage` or a cookie. The gate clears expired, rejected, and malformed sessions.
 
 Download the Function app publish profile and add it as the repository secret `AZURE_FUNCTION_PUBLISH_PROFILE`.
 

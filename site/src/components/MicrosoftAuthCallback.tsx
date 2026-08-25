@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import {
   completeMicrosoftAuthentication,
+  saveMicrosoftAuthenticationSession,
   startMicrosoftAuthentication,
 } from "@/lib/microsoft-auth";
 
@@ -33,11 +34,11 @@ export default function MicrosoftAuthCallback() {
         if (!code || !state) throw new Error("The Microsoft sign-in response is incomplete.");
 
         const authentication = await completeMicrosoftAuthentication(code, state);
-        const returnUrl = new URL(authentication.returnUrl);
-        returnUrl.hash = new URLSearchParams({
-          microsoft_access_token: authentication.accessToken,
-        }).toString();
-        window.location.replace(returnUrl);
+        saveMicrosoftAuthenticationSession(
+          authentication.accessToken,
+          authentication.expiresAt
+        );
+        window.location.replace(authentication.returnUrl);
       } catch (error) {
         console.error("Microsoft authentication failed", error);
         setMessage(
