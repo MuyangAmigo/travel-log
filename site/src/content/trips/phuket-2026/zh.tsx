@@ -59,7 +59,7 @@ export default function PhuketZH() {
           <div className="cover-border">
             <div className="cover-emoji">🏝️ 🌴 ✈️</div>
             <h1 className="cover-title">
-              普吉慢慢躺
+              普吉 · 一场不期而遇的潜水
             </h1>
             <div className="cover-subtitle">
               Travel Journal
