@@ -24,7 +24,7 @@ export const sections = [
     id: "day-2-sunset",
     marker: "DAY 2",
     label: "日落、滑翔伞与海风",
-    detail: "芭东散步 · Malin Plaza 夜市 · 毛巾小象",
+    detail: "SIAM Phuket · 芭东散步 · Malin Plaza 夜市",
   },
   {
     id: "day-3",
@@ -135,12 +135,7 @@ export default function PhuketZH() {
             <p>原定傍晚的航班，拖到夜里近八点才离地。机上那份鸡肉面实在难以下咽，全靠修仙短剧撑过漫长的夜航，觉也没睡踏实。落地已是午夜，取了租来的车穿过夜色开了一小时，终于到了酒店。本想吃口东西就睡，没想到酒店附近藏着一家很 Local 的小店——Sassy traditional Isaan Thai restaurant，一桌宵夜下肚，瞬间原谅了这一路的折腾。</p>
           </div>
 
-          <div className="pgrid g3 mt12">
-            <div className="pf fw" style={{ position: "relative" }}>
-              <div className="tape tg t-tl" />
-              <img src={img("sassy-restaurant.jpeg")} alt="Sassy traditional Isaan Thai restaurant 店面" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">Sassy · 酒店附近的深夜食堂</div>
-            </div>
+          <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
               <img src={img("sassy-shrimp-salad.jpeg")} alt="Sassy 生虾米粉丝沙拉" className="sq" loading="lazy" decoding="async" />
@@ -257,10 +252,36 @@ export default function PhuketZH() {
             </div>
             <div>
               <div className="day-title">日落、滑翔伞与海风</div>
-              <div className="day-sub">Friday, August 21st · 芭东散步 · Malin Plaza · 毛巾小象</div>
+              <div className="day-sub">Friday, August 21st · SIAM Phuket · 芭东散步 · Malin Plaza</div>
             </div>
             <div className="day-weather">🌅</div>
           </div>
+
+          <div className="dv mt20 mb12"><span>🍤</span></div>
+
+          <div className="jtxt">
+            <p>SIAM Phuket 是一家在巴东 Thawewong Rd 上的海鲜餐厅，评分 4.8。冬阴功入味微辣、柠檬蒸鱼用柠檬直接蒸、国内少见的吃法，青芒沙拉爽口、木瓜沙拉花生豆芽辣椒齐上。一桌菜下来，比国内划算很多。</p>
+          </div>
+
+          <div className="pgrid g3 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <img src={img("siam-tomyum.jpeg")} alt="SIAM 冬阴功汤" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">冬阴功汤 · 入味微辣</div>
+            </div>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape tp t-tc" />
+              <img src={img("siam-fish.jpeg")} alt="SIAM 柠檬蒸鱼" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">柠檬蒸鱼 · 国内少见的吃法</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tg t-tr" />
+              <img src={img("siam-somtam.jpeg")} alt="SIAM 木瓜沙拉" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">木瓜沙拉 · 花生 + 豆芽 + 辣椒</div>
+            </div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🌅</span></div>
 
           <div className="jtxt">
             <p>吃完晚饭，趁着天色还早，在芭东海滩散了好久的步。海被傍晚的云烧成了一整片橙红色，浪声很轻，偶尔有人冲浪、游泳。最好看的是天上的滑翔伞——被快艇拉着在天空飞，彩色的伞在云层间起伏、转向、盘旋，像是有人在用天空当画布。看着看着就忘了时间。还有你和身后那把伞，恰好同时入了镜。</p>
@@ -698,30 +719,6 @@ export default function PhuketZH() {
             <h4>⚠️ 踩雷榜</h4>
             <div className="ri"><span className="nm">FM831 航空餐鸡肉面</span><span className="st">⭐</span><span className="cm">特别难吃，全靠修仙短剧撑过去 😖</span></div>
             <div className="ri"><span className="nm">Naughty Nuri's Phuket</span><span className="st">⭐⭐⭐</span><span className="cm">网红 BBQ · 4 人共 ¥550。装修有特色、招财猪打卡足；肋排有点腻、加肋排有点贵，最多 3 星</span></div>
-          </div>
-
-          <div className="dv mt20 mb12"><span>🍤</span></div>
-
-          <div className="jtxt">
-            <p>SIAM Phuket 是一家在巴东 Thawewong Rd 上的海鲜餐厅，评分 4.8。冬阴功入味微辣、柠檬蒸鱼用柠檬直接蒸、国内少见的吃法，青芒沙拉爽口、木瓜沙拉花生豆芽辣椒齐上。一桌菜下来，比国内划算很多。</p>
-          </div>
-
-          <div className="pgrid g3 mt12">
-            <div className="pf fw" style={{ position: "relative" }}>
-              <div className="tape ty t-tl" />
-              <img src={img("siam-tomyum.jpeg")} alt="SIAM 冬阴功汤" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">冬阴功汤 · 入味微辣</div>
-            </div>
-            <div className="pf fc" style={{ position: "relative" }}>
-              <div className="tape tp t-tc" />
-              <img src={img("siam-fish.jpeg")} alt="SIAM 柠檬蒸鱼" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">柠檬蒸鱼 · 国内少见的吃法</div>
-            </div>
-            <div className="pf fn" style={{ position: "relative" }}>
-              <div className="tape tg t-tr" />
-              <img src={img("siam-somtam.jpeg")} alt="SIAM 木瓜沙拉" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">木瓜沙拉 · 花生 + 豆芽 + 辣椒</div>
-            </div>
           </div>
 
           <div className="dv mt20 mb12"><span>💰</span></div>

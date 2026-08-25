@@ -24,7 +24,7 @@ export const sections = [
     id: "day-2-sunset",
     marker: "DAY 2",
     label: "Sunset, Paragliding, and Sea Wind",
-    detail: "Patong stroll · Malin Plaza · towel elephant",
+    detail: "SIAM Phuket · Patong stroll · Malin Plaza",
   },
   {
     id: "day-3",
@@ -135,12 +135,7 @@ export default function PhuketEN() {
             <p>The evening flight didn't lift off until nearly 8 p.m. The in-flight chicken noodle was barely edible, and I only made it through the long red-eye by binge-watching cultivation dramas. Touchdown at midnight, an hour's drive through the dark, and we finally rolled into the hotel. I was ready to collapse, but a tiny Isaan spot sat right next door — Sassy traditional Isaan Thai restaurant — and one late-night table erased every hour of the journey.</p>
           </div>
 
-          <div className="pgrid g3 mt12">
-            <div className="pf fw" style={{ position: "relative" }}>
-              <div className="tape tg t-tl" />
-              <img src={img("sassy-restaurant.jpeg")} alt="Sassy traditional Isaan Thai restaurant storefront" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">Sassy · the late-night canteen next door</div>
-            </div>
+          <div className="pgrid g2 mt12">
             <div className="pf fc" style={{ position: "relative" }}>
               <div className="tape tp t-tc" />
               <img src={img("sassy-shrimp-salad.jpeg")} alt="Sassy raw shrimp glass-noodle salad" className="sq" loading="lazy" decoding="async" />
@@ -257,10 +252,36 @@ export default function PhuketEN() {
             </div>
             <div>
               <div className="day-title">Sunset, Paragliding, and Sea Wind</div>
-              <div className="day-sub">Friday, August 21st · Patong stroll · Malin Plaza · towel elephant</div>
+              <div className="day-sub">Friday, August 21st · SIAM Phuket · Patong stroll · Malin Plaza</div>
             </div>
             <div className="day-weather">🌅</div>
           </div>
+
+          <div className="dv mt20 mb12"><span>🍤</span></div>
+
+          <div className="jtxt">
+            <p>SIAM Phuket is a Thawewong Rd seafood spot with a 4.8 rating. Bold tom yum, lemon-steamed fish you don't see in China, refreshing green mango salad, and a punchy som tam with peanuts, bean sprouts, and chili. The whole table cost less than the same meal back home.</p>
+          </div>
+
+          <div className="pgrid g3 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <img src={img("siam-tomyum.jpeg")} alt="SIAM tom yum" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">Tom yum · bold and slightly spicy</div>
+            </div>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape tp t-tc" />
+              <img src={img("siam-fish.jpeg")} alt="SIAM lemon-steamed fish" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">Lemon-steamed fish · rarely seen in China</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tg t-tr" />
+              <img src={img("siam-somtam.jpeg")} alt="SIAM som tam" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">Som tam · peanuts + bean sprouts + chili</div>
+            </div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🌅</span></div>
 
           <div className="jtxt">
             <p>After dinner, while the light was still warm, we walked Patong Beach for a long stretch. The sea burned orange under evening clouds, the surf was gentle, a few swimmers and surfers drifted. The best part was up in the sky — paragliders being tugged by speedboats, the colored canoes banking and turning between clouds like someone was painting the sky. We lost track of time. You and the parachute behind you ended up in the same frame, perfectly.</p>
@@ -698,30 +719,6 @@ export default function PhuketEN() {
             <h4>⚠️ Skip / so-so</h4>
             <div className="ri"><span className="nm">FM831 in-flight chicken noodle</span><span className="st">⭐</span><span className="cm">Truly awful, only the cultivation dramas saved the night 😖</span></div>
             <div className="ri"><span className="nm">Naughty Nuri's Phuket</span><span className="st">⭐⭐⭐</span><span className="cm">网红 BBQ · 4 people, ¥550. Cool decor, lucky pig photo op; ribs a bit greasy, add-on ribs cost extra — 3 stars max</span></div>
-          </div>
-
-          <div className="dv mt20 mb12"><span>🍤</span></div>
-
-          <div className="jtxt">
-            <p>SIAM Phuket is a Thawewong Rd seafood spot with a 4.8 rating. Bold tom yum, lemon-steamed fish you don't see in China, refreshing green mango salad, and a punchy som tam with peanuts, bean sprouts, and chili. The whole table cost less than the same meal back home.</p>
-          </div>
-
-          <div className="pgrid g3 mt12">
-            <div className="pf fw" style={{ position: "relative" }}>
-              <div className="tape ty t-tl" />
-              <img src={img("siam-tomyum.jpeg")} alt="SIAM tom yum" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">Tom yum · bold and slightly spicy</div>
-            </div>
-            <div className="pf fc" style={{ position: "relative" }}>
-              <div className="tape tp t-tc" />
-              <img src={img("siam-fish.jpeg")} alt="SIAM lemon-steamed fish" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">Lemon-steamed fish · rarely seen in China</div>
-            </div>
-            <div className="pf fn" style={{ position: "relative" }}>
-              <div className="tape tg t-tr" />
-              <img src={img("siam-somtam.jpeg")} alt="SIAM som tam" className="sq" loading="lazy" decoding="async" />
-              <div className="cap">Som tam · peanuts + bean sprouts + chili</div>
-            </div>
           </div>
 
           <div className="dv mt20 mb12"><span>💰</span></div>
