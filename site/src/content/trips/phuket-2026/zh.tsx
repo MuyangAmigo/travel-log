@@ -29,8 +29,14 @@ export const sections = [
   {
     id: "day-3",
     marker: "DAY 3",
-    label: "Racha 岛体验潜水",
-    detail: "Patong Dive Center · DSD 全天行程",
+    label: "Racha 岛 · 失控到入门",
+    detail: "三潜 DSD · Naughty Nuri's · 2 小时泰式按摩",
+  },
+  {
+    id: "day-4",
+    marker: "DAY 4",
+    label: "Sassy 出发，Sassy 收尾",
+    detail: "江西冷 BigC · 海边躺平 · Panouri 礼盒",
   },
   {
     id: "food-bill",
@@ -364,7 +370,7 @@ export default function PhuketZH() {
         </div>
       </section>
 
-      {/* ========= CARD 5: DAY 3 DIVE DAY ========= */}
+      {/* ========= CARD 5: DAY 3 DIVE + EVENING ========= */}
       <section className="card-wrap" data-trip-section="day-3">
         <div className="card">
           <div className="day-header">
@@ -373,57 +379,296 @@ export default function PhuketZH() {
               <span className="num">3</span>
             </div>
             <div>
-              <div className="day-title">Racha 岛体验潜水</div>
-              <div className="day-sub">Saturday, August 22nd · Patong Dive Center · DSD 全日行程</div>
+              <div className="day-title">Racha 岛 · 失控到入门</div>
+              <div className="day-sub">Saturday, August 22nd · 三潜 DSD · Naughty Nuri's · Let's Relax</div>
             </div>
             <div className="day-weather">🤿</div>
           </div>
 
           <div className="jtxt">
-            <p>昨天沙滩旁一念之间的决定，今天就要兑现了。早上 6:45 酒店大堂集合，Patong Dive Center 的车准时到达，一路接上同船的潜友，开往查龙码头，再坐快艇去 Racha 岛。全程大概 7:00 — 17:00，JJ 和小土两人 DSD 体验潜水（含装备全租、教练、午餐）。</p>
+            <p>6:55 从酒店出发（迟了 10 分钟，司机大哥有点黑脸），一路接上同船潜友，8:00+ 才到码头。快艇颠到皇帝岛 Racha Noi + Racha Yai，三个潜点。船上午餐 JJ 和小土都因为晕船没吃，14:00 的第三潜终于开窍——背挺直、胯前挺、吐气下沉、吸气上浮，第一次感觉自己不是被水推着走，是在水里游的。珊瑚像花园一样铺开，整个海底震撼到说不出话。</p>
           </div>
 
-          <div className="pgrid g1 mt12" style={{ maxWidth: 640, marginLeft: "auto", marginRight: "auto" }}>
-            <div className="pf fc" style={{ position: "relative" }}>
+          <div className="tlwrap mt12">
+            <div className="tl-item"><span className="tm">06:55</span><div className="ev">酒店大堂集合</div><div className="dt">迟了 10 分钟，司机的脸有点黑</div></div>
+            <div className="tl-item"><span className="tm">08:00+</span><div className="ev">到查龙码头</div><div className="dt">接了一堆同船潜友，大家都在迟到</div></div>
+            <div className="tl-item"><span className="tm">10:00+</span><div className="ev">第一潜（浅探）</div><div className="dt">浮力难控、不会调呼吸；JJ 和小土都吐了，小土脚蹭到海底</div></div>
+            <div className="tl-item"><span className="tm">11:30</span><div className="ev">第二潜</div><div className="dt">呛水、误关 BCD 充气、被教练用红带拽着走；后半段开始看到鱼群</div></div>
+            <div className="tl-item"><span className="tm">14:00</span><div className="ev">第三潜（最后一潜）</div><div className="dt">终于开窍：背挺直、胯前挺、吐气下沉、吸气上浮</div></div>
+            <div className="tl-item"><span className="tm">15:00</span><div className="ev">潜水结束</div><div className="dt">收东西、慢慢回程</div></div>
+            <div className="tl-item"><span className="tm">17:00</span><div className="ev">回到普吉岛</div><div className="dt">换小车回市区</div></div>
+            <div className="tl-item"><span className="tm">18:00+</span><div className="ev">Naughty Nuri's 晚餐</div><div className="dt">招牌烤肋排 · 4 人共 ¥550</div></div>
+            <div className="tl-item"><span className="tm">19:30</span><div className="ev">回酒店 · 收获第二只小象</div><div className="dt">卡片署名 Viong 🐘</div></div>
+            <div className="tl-item"><span className="tm">21:30</span><div className="ev">Let's Relax 2 小时泰式按摩</div><div className="dt">2,400 THB ≈ ¥504</div></div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🐠</span></div>
+
+          <div className="pgrid g2 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
               <div className="tape ty t-tl" />
-              <div className="tape ty t-tr" />
-              <img src={img("dive-booking.jpeg")} alt="Patong Dive Center 预订表" className="hero" loading="lazy" decoding="async" />
-              <div className="cap">Patong Dive Center 预订表 · PADI 认证</div>
+              <img src={img("dive-dive1.jpeg")} alt="第一潜 · 教练 + JJ + 小土 · 水下比耶" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">第一潜 · 教练 + JJ + 小土 · 水下比耶 🤙</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tb t-tr" />
+              <img src={img("dive-jj-underwater.jpeg")} alt="第二潜 · JJ 水下面镜 + 气泡" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">第二潜 · JJ 水下面镜 + 气泡 · 教练的红带出场了</div>
             </div>
           </div>
 
-          <div className="rbox mt16">
-            <h4>🤿 DSD 体验潜水 · 关键信息</h4>
-            <div className="ri"><span className="nm">潜店</span><span className="st">PADI</span><span className="cm">Patong Dive Center（PADI 认证）</span></div>
-            <div className="ri"><span className="nm">目的地</span><span className="st">Racha</span><span className="cm">Racha 岛 · 全日行程 7:00 — 17:00</span></div>
-            <div className="ri"><span className="nm">价格</span><span className="st">4,400 THB / 人</span><span className="cm">2 人共 8,800 THB ≈ ¥1,800（押金 880 THB / 人已付，余额 7,040 THB 现场结）· 无需另付公园费</span></div>
-            <div className="ri"><span className="nm">装备</span><span className="st">全租</span><span className="cm">BCD / 配重 / 脚蹼 / 调节器 / 面镜 / 呼吸管</span></div>
-            <div className="ri"><span className="nm">接送</span><span className="st">06:45</span><span className="cm">明早酒店大堂集合，潜店派车</span></div>
+          <div className="pgrid g2 mt12" style={{ maxWidth: 520, marginLeft: "auto", marginRight: "auto" }}>
+            <div className="pol tl-tilt"><img src={img("dive-rope2.jpeg")} alt="下潜绳旁 · 教练带路" loading="lazy" decoding="async" /><div className="pol-t">下潜绳旁 · 教练带路</div></div>
+            <div className="pol tr-tilt"><img src={img("dive-rope3.jpeg")} alt="下潜绳合影 · 浮力慢慢稳了" loading="lazy" decoding="async" /><div className="pol-t">下潜绳合影 · 浮力慢慢稳了</div></div>
+          </div>
+
+          <div className="pgrid g1 mt12" style={{ maxWidth: 560, marginLeft: "auto", marginRight: "auto" }}>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape tg t-tl" />
+              <div className="tape tg t-tr" />
+              <img src={img("dive-farewell.jpeg")} alt="水下来一张 · 难忘的第三次潜水" className="hero" loading="lazy" decoding="async" />
+              <div className="cap">水下告别 · 难忘的第三次潜水</div>
+            </div>
           </div>
 
           <div className="nbox mt16">
-            <div className="nbox-lbl">📞 紧急联系</div>
-            <p>Simon +66 98-010-1652 · Morning Staff +66 93-583-3869 · patongdivecenter@gmail.com</p>
+            <div className="nbox-lbl">🌊 三潜最大的收获</div>
+            <p>从"完全不会控制"到"终于入门"只用了一潜的距离。第三潜的珊瑚和鱼群，让人不想上来。身体终于记得住怎么呼吸 🐠🌊</p>
           </div>
 
-          <div className="jtxt mt16">
-            <p>潜店送回酒店大约 17:00+，具体细节晚点再补。明天 Racha 岛见 🐠</p>
+          <div className="dv mt20 mb12"><span>🍖</span></div>
+
+          <div className="jtxt">
+            <p>从码头回普吉市区，Naughty Nuri's 的粉色招牌猪特别显眼。烤肋排焦糖色、香肠拼盘四种、沙爹串配花生酱——摆满一桌挺有仪式感。不过肋排本身有点腻、加肋排要加价，对网红 BBQ 来说性价比一般。</p>
           </div>
 
-          <div className="spacer" />
+          <div className="pgrid g3 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape tp t-tl" />
+              <img src={img("naughty-ribs.jpeg")} alt="Naughty Nuri's 招牌烤肋排" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">招牌烤肋排 · 焦糖色 + 沙拉 + 小红旗</div>
+            </div>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tc" />
+              <img src={img("naughty-sausage.jpeg")} alt="香肠拼盘" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">香肠拼盘 · 4 种 + 沙拉 + 玉米 + 酱料</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tg t-tr" />
+              <img src={img("naughty-satay.jpeg")} alt="沙爹烤肉串" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">沙爹烤肉串 + 花生酱</div>
+            </div>
+          </div>
 
-          <div className="tcenter" style={{ position: "relative", zIndex: 1 }}>
-            <div className="dv mb16"><span>🐠</span></div>
-            <p className="hwcn" style={{ maxWidth: 480, margin: "0 auto" }}>
-              明天，<br />把蓝色从海面看到海底。
-            </p>
+          <div className="pgrid g2 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <img src={img("naughty-pig.jpeg")} alt="店门口粉红招财猪" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">店门口 · 粉红招财猪 🐷 · 网红打卡</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tp t-tr" />
+              <img src={img("naughty-table.jpeg")} alt="Naughty Nuri's 满桌合影" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">满桌合影 · 肋排 + 香肠 + 沙爹 + 米粉 + 玉米 + 薯条 + 饮料</div>
+            </div>
+          </div>
+
+          <div className="rbox warn mt16">
+            <h4>🍖 Naughty Nuri's 评价</h4>
+            <div className="ri"><span className="nm">Naughty Nuri's Phuket</span><span className="st">⭐⭐⭐</span><span className="cm">网红 BBQ 店 · 4 人共 ¥550。装修有特色、打卡点足；肋排有点腻、加肋排有点贵，最多 3 星</span></div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🐘</span></div>
+
+          <div className="pgrid g1 mt12" style={{ maxWidth: 380, marginLeft: "auto", marginRight: "auto" }}>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape tp t-tl" />
+              <div className="tape tp t-tr" />
+              <img src={img("towel-elephant2.jpeg")} alt="第二只毛巾小象 · 卡片署名 Viong" className="hero" loading="lazy" decoding="async" />
+              <div className="cap">第二只小象 🐘 · 卡片署名 Viong</div>
+            </div>
+          </div>
+
+          <div className="jtxt mt12">
+            <p>回酒店又收获一只迷你毛巾小象——这是第二只了。卡片署名 Viong，应该是做晚班打扫的工作人员。两小时泰式按摩紧跟着，把这一天从海底到陆地的酸痛全推开了。</p>
+          </div>
+
+          <div className="pgrid g3 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape tg t-tl" />
+              <img src={img("massage-lobby.jpeg")} alt="Let's Relax 大堂" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">大堂 · 乳木果产品柜 + 白玫瑰</div>
+            </div>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tc" />
+              <img src={img("massage-lounge.jpeg")} alt="按摩店休息区" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">休息区 · 深绿墙 + 大树 + 棕沙发</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tb t-tr" />
+              <img src={img("massage-shampoo.jpeg")} alt="按摩店洗头区" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">洗头区 · 黑盆 + 灰色沙发 + 彩色抱枕</div>
+            </div>
+          </div>
+
+          <div className="nbox mt16">
+            <div className="nbox-lbl">💆 马杀鸡小记</div>
+            <p>Let's Relax · 2 小时泰式按摩（JJ &amp; 小土 · 21:30 — 23:30）共 2,400 THB ≈ ¥504。推完之后背上酸痛全散了，回酒店已经过了午夜，倒头就睡 💤</p>
           </div>
 
           <div className="page-num">- 05 -</div>
         </div>
       </section>
 
-      {/* ========= CARD 6: FOOD & EXPENSES ========= */}
+      {/* ========= CARD 6: DAY 4 SHOPPING & FAREWELL ========= */}
+      <section className="card-wrap" data-trip-section="day-4">
+        <div className="card">
+          <div className="day-header">
+            <div className="day-circle" style={{ background: "linear-gradient(135deg, #ffb74d, #ffd54f)" }}>
+              <span className="lbl">Day</span>
+              <span className="num">4</span>
+            </div>
+            <div>
+              <div className="day-title">Sassy 出发，Sassy 收尾</div>
+              <div className="day-sub">Sunday, August 23rd · 江西冷 BigC · 海边躺平 · 回国</div>
+            </div>
+            <div className="day-weather">🏖️</div>
+          </div>
+
+          <div className="jtxt">
+            <p>最后一天从一杯 97 号老位置的咖啡开始。吐司、煎蛋、阳光、熟悉的早晨——吃得出离别的味道。回房间整行李、12:00 准时退房，下午直奔江西冷扫 BigC 和 Phutawan，下午回酒店海边躺平，天气好到离谱，预报说下雨实际一点没下。傍晚再去一次 Sassy（离店前回访），然后 Let's Relax 3rd St 店 90 分钟马杀鸡收尾，机场免税店挑了 Panouri 礼盒。</p>
+          </div>
+
+          <div className="tlwrap mt12">
+            <div className="tl-item"><span className="tm">10:00+</span><div className="ev">自然醒 · 酒店自助早餐</div><div className="dt">老位置 97 号 · 最后一顿</div></div>
+            <div className="tl-item"><span className="tm">12:00</span><div className="ev">准时退房 ✅</div><div className="dt">行李寄存前台</div></div>
+            <div className="tl-item"><span className="tm">13:00</span><div className="ev">江西冷购物中心</div><div className="dt">买伴手礼 · BigC + Phutawan</div></div>
+            <div className="tl-item"><span className="tm">15:00</span><div className="ev">回酒店海边躺平 🏖️</div><div className="dt">海风、沙滩、蓝色躺椅</div></div>
+            <div className="tl-item"><span className="tm">17:30</span><div className="ev">Sassy 第二次打卡</div><div className="dt">鱼 + 海鲜沙拉 · 4 人共 250 THB ≈ ¥52</div></div>
+            <div className="tl-item"><span className="tm">19:00</span><div className="ev">Let's Relax 3rd St 店</div><div className="dt">90 分钟泰式按摩 · 2,000 THB ≈ ¥420</div></div>
+            <div className="tl-item"><span className="tm">20:45</span><div className="ev">出发去机场</div><div className="dt">还车 + 值机 + 安检</div></div>
+            <div className="tl-item"><span className="tm">22:00+</span><div className="ev">免税店 · Panouri 礼盒</div><div className="dt">1,300+ RMB（两人份）</div></div>
+            <div className="tl-item"><span className="tm">00:00+</span><div className="ev">休息室宵夜 → 登机</div><div className="dt">旅行结束 · 现在 8/24 · 坐在飞机上</div></div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🍳</span></div>
+
+          <div className="pgrid g1 mt12">
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <div className="tape ty t-tr" />
+              <img src={img("day4-breakfast.jpeg")} alt="Day 4 早餐 · 97 号老位置" className="hero" loading="lazy" decoding="async" />
+              <div className="cap">Day 4 早餐 · 97 号老位置 · 吐司 + 蛋 + 沙拉 + 咖啡</div>
+            </div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🛍️</span></div>
+
+          <div className="jtxt">
+            <p>江西冷（Jungceylon）的标志性海盗船是个熟悉的坐标。BigC 买了冬阴功汤、鼻吸器、膏药贴、牛奶片、椰奶芒果干（1,100+ THB），Phutawan 拿了两个香薰礼盒 Rainforest in Bloom Reed Diffuser Set 送小土同事（1,080 THB）。中午 JJ 和小土没吃午饭，Ellie &amp; Rock 在美食广场随便吃了点。</p>
+          </div>
+
+          <div className="pgrid g2 mt12">
+            <div className="pf fw tl-tilt" style={{ position: "relative" }}>
+              <div className="tape tg t-tl" />
+              <img src={img("jungceylon-ship.jpeg")} alt="江西冷标志性海盗船" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">江西冷 · 标志性海盗船 🚢</div>
+            </div>
+            <div className="pf fn tr-tilt" style={{ position: "relative" }}>
+              <div className="tape tp t-tr" />
+              <img src={img("bigc-shopping.jpeg")} alt="BigC 战利品" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">BigC 战利品 · 冬阴功 + 鼻吸器 + 膏药 + 牛奶片 + 椰奶芒果干</div>
+            </div>
+          </div>
+
+          <div className="pgrid g2 mt12" style={{ maxWidth: 520, marginLeft: "auto", marginRight: "auto" }}>
+            <div className="pol tl-tilt"><img src={img("phutawan-box.jpeg")} alt="Phutawan 香薰礼盒" loading="lazy" decoding="async" /><div className="pol-t">Phutawan 香薰 · Rainforest in Bloom</div></div>
+            <div className="pol tr-tilt"><img src={img("phutawan-receipt.jpeg")} alt="Phutawan 收据 1,080 THB" loading="lazy" decoding="async" /><div className="pol-t">收据 · 2 × 540 = 1,080 THB</div></div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🌴</span></div>
+
+          <div className="jtxt">
+            <p>回酒店放下战利品，直奔海边。红旗插着（不游泳），但海风、棕榈、阳光、蓝色躺椅全到位。预报说会下雨，结果一点没下。睡了一会儿，天气开始变热才回去冲澡。</p>
+          </div>
+
+          <div className="pgrid g2 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <img src={img("beach-palms-ocean.jpeg")} alt="棕榈树 + 碧绿海 + 岩石海湾" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">棕榈树 + 碧绿海 + 岩石海湾</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tp t-tr" />
+              <img src={img("beach-rocks-ocean.jpeg")} alt="礁石海岸 + 碧绿海水" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">礁石海岸 + 碧绿海水</div>
+            </div>
+          </div>
+
+          <div className="pgrid g2 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape tg t-tl" />
+              <img src={img("beach-palms-lawn.jpeg")} alt="棕榈 + 草坪 + 远处小游乐场" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">棕榈 + 草坪 + 远处小游乐场 + 绿木屋</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tb t-tr" />
+              <img src={img("beach-chair-view.jpeg")} alt="蓝色躺椅视角" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">蓝色躺椅视角 · 海风、棕榈、阳光</div>
+            </div>
+          </div>
+
+          <div className="pgrid g1 mt12" style={{ maxWidth: 480, marginLeft: "auto", marginRight: "auto" }}>
+            <div className="pol"><img src={img("beach-warning.jpeg")} alt="酒店海滩 · 红旗不游泳" loading="lazy" decoding="async" /><div className="pol-t">酒店海滩 · 🚩 红旗（不游泳）</div></div>
+          </div>
+
+          <div className="dv mt20 mb12"><span>🍜</span></div>
+
+          <div className="jtxt">
+            <p>17:30+ 又去了一次 Sassy——这家店我们到普吉第一晚就来过。点了 Pad Thai + 冬阴功 + 海鲜沙拉拼盘 + 柠檬蒸鱼，4 人共 250 泰铢 ≈ ¥52。性价比绝了，离开到达都在同一家店。Let's Relax 3rd St 店 90 分钟泰式按摩紧跟着收尾，背上酸痛被推开了。</p>
+          </div>
+
+          <div className="pgrid g3 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape tp t-tl" />
+              <img src={img("day4-sassy-padthai.jpeg")} alt="Sassy Pad Thai" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">Pad Thai · 大虾 + 豆芽</div>
+            </div>
+            <div className="pf fc" style={{ position: "relative" }}>
+              <div className="tape ty t-tc" />
+              <img src={img("day4-sassy-tomyum.jpeg")} alt="Sassy 冬阴功汤" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">冬阴功汤</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tg t-tr" />
+              <img src={img("day4-sassy-fish.jpeg")} alt="Sassy 柠檬蒸鱼" className="sq" loading="lazy" decoding="async" />
+              <div className="cap">柠檬蒸鱼 · 清爽入味</div>
+            </div>
+          </div>
+
+          <div className="pgrid g2 mt12">
+            <div className="pf fw" style={{ position: "relative" }}>
+              <div className="tape ty t-tl" />
+              <img src={img("day4-sassy-platter.jpeg")} alt="Sassy 海鲜沙拉拼盘" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">海鲜沙拉拼盘 · 青口贝 + 海螺 + 鱿鱼 + 蟹腿</div>
+            </div>
+            <div className="pf fn" style={{ position: "relative" }}>
+              <div className="tape tp t-tr" />
+              <img src={img("relax-3rd-st.jpeg")} alt="Let's Relax 3rd St 店" className="pt" loading="lazy" decoding="async" />
+              <div className="cap">Let's Relax 3rd St · 25 周年展架 + 海景窗</div>
+            </div>
+          </div>
+
+          <div className="nbox mt16">
+            <div className="nbox-lbl">🌅 Day 4 收官</div>
+            <p>从 Sassy 出发、Sassy 收尾；再来一发 90 分钟马杀鸡；Panouri 礼盒；机场休息室宵夜 → 飞机 → 旅行结束。8/24 凌晨坐在回上海的飞机上，窗外是墨色，机舱里大家都没说话——这趟该拍的拍了、该吃的吃了、该潜的潜了、该躺的躺了。</p>
+          </div>
+
+          <div className="page-num">- 06 -</div>
+        </div>
+      </section>
+
+      {/* ========= CARD 7: FOOD & EXPENSES ========= */}
       <section className="card-wrap" data-trip-section="food-bill">
         <div className="card">
           <div className="sticker" style={{ top: 18, right: 60, fontSize: 34 }}>🍴</div>
@@ -435,22 +680,24 @@ export default function PhuketZH() {
             </div>
             <div>
               <div className="day-title">美食与账单</div>
-              <div className="day-sub">已尝餐厅真实测评 & 当前支出汇总</div>
+              <div className="day-sub">已尝餐厅真实测评 & JJ & 小土支出汇总</div>
             </div>
           </div>
 
           <div className="rbox mt12">
             <h4>🌟 推荐榜</h4>
-            <div className="ri"><span className="nm">Sassy traditional Isaan Thai restaurant</span><span className="st">⭐⭐⭐⭐</span><span className="cm">巴东 · 伊桑风味，非常推荐。口味 4.2 / 环境 3.9 / 服务 3.9，营业至次日凌晨 5:30</span></div>
+            <div className="ri"><span className="nm">Sassy traditional Isaan Thai restaurant</span><span className="st">⭐⭐⭐⭐</span><span className="cm">巴东 · 伊桑风味，非常推荐。口味 4.2 / 环境 3.9 / 服务 3.9，营业至次日凌晨 5:30；离店前再访 4 人 ¥52</span></div>
             <div className="ri"><span className="nm">SIAM Phuket - Seafood Restaurant</span><span className="st">⭐⭐⭐⭐</span><span className="cm">巴东 Thawewong Rd · 评分 4.8 · 冬阴功入味微辣、柠檬蒸鱼国内少见，去的早人少，吃完已爆满</span></div>
             <div className="ri"><span className="nm">Malin Plaza 海鲜摊</span><span className="st">⭐⭐⭐⭐</span><span className="cm">比芭东夜市小众、便宜，烤鱼 200 / 大虾 250 / 螃蟹 350 THB</span></div>
             <div className="ri"><span className="nm">Goose Island 鹅岛精酿啤酒屋</span><span className="st">⭐⭐⭐⭐</span><span className="cm">浦东 T1 · 三明治不错，薯条很棒 🍟</span></div>
             <div className="ri"><span className="nm">美林海滩万豪自助早餐</span><span className="st">⭐⭐⭐⭐</span><span className="cm">超级丰盛，户外直面泳池 + 海滩，太惬意</span></div>
+            <div className="ri"><span className="nm">Let's Relax 泰式按摩</span><span className="st">⭐⭐⭐⭐</span><span className="cm">JJ &amp; 小土 2 小时 + 90 分钟，收官必备，技师手劲到位</span></div>
           </div>
 
           <div className="rbox warn mt16">
             <h4>⚠️ 踩雷榜</h4>
             <div className="ri"><span className="nm">FM831 航空餐鸡肉面</span><span className="st">⭐</span><span className="cm">特别难吃，全靠修仙短剧撑过去 😖</span></div>
+            <div className="ri"><span className="nm">Naughty Nuri's Phuket</span><span className="st">⭐⭐⭐</span><span className="cm">网红 BBQ · 4 人共 ¥550。装修有特色、招财猪打卡足；肋排有点腻、加肋排有点贵，最多 3 星</span></div>
           </div>
 
           <div className="dv mt20 mb12"><span>🍤</span></div>
@@ -480,17 +727,28 @@ export default function PhuketZH() {
           <div className="dv mt20 mb12"><span>💰</span></div>
 
           <div className="bill">
-            <h4>💳 当前支出（人民币 · JJ &amp; 小土 2 人）</h4>
+            <h4>💳 支出汇总（人民币 · JJ &amp; 小土 2 人）</h4>
             <div className="br"><span>上海-普吉往返机票</span><span>¥ 5,512.00</span></div>
             <div className="br"><span>美林海滩万豪 3 晚</span><span>¥ 4,876.22</span></div>
             <div className="br"><span>兑换泰铢 5,000 THB</span><span>≈ ¥ 1,100.00</span></div>
             <div className="br"><span>鹅岛精酿三明治套餐</span><span>¥ 68.00</span></div>
-            <div className="br"><span>Patong Dive Center DSD（2 人 8,800 THB 押金）</span><span>≈ ¥ 1,800.00（已付押金）</span></div>
+            <div className="br"><span>DSD 体验潜水押金（2 人 1,760 THB）</span><span>≈ ¥ 368.00（已付）</span></div>
             <div className="br"><span>DSD 余额 7,040 THB</span><span>≈ ¥ 1,473（8/22 现场结）</span></div>
+            <div className="br"><span>潜水照片包</span><span>2,000 THB ≈ ¥ 420</span></div>
+            <div className="br"><span>教练/船工小费</span><span>20 THB ≈ ¥ 4</span></div>
+            <div className="br"><span>Naughty Nuri's 晚餐（4 人）</span><span>¥ 550.00</span></div>
+            <div className="br"><span>Let's Relax 2 小时泰式按摩</span><span>2,400 THB ≈ ¥ 504</span></div>
+            <div className="br"><span>Let's Relax 3rd St · 90min 泰式按摩</span><span>2,000 THB ≈ ¥ 420</span></div>
+            <div className="br"><span>BigC 伴手礼（1,100+ THB）</span><span>≈ ¥ 230</span></div>
+            <div className="br"><span>Phutawan 香薰礼盒 × 2（1,080 THB）</span><span>≈ ¥ 227</span></div>
+            <div className="br"><span>Sassy 第二次晚餐（4 人共 250 THB）</span><span>≈ ¥ 52</span></div>
+            <div className="br"><span>机场免税店 Panouri 礼盒（2 人份）</span><span>¥ 1,300+</span></div>
             <div className="br"><span>市区 → 浦东机场打车</span><span>待确认</span></div>
             <div className="br"><span>普吉租车</span><span>待确认</span></div>
             <div className="br"><span>本地宵夜 4 人分摊</span><span>待确认</span></div>
-            <div className="br total"><span>累计支出</span><span>¥ 11,556.22+</span></div>
+            <div className="br"><span>马琳夜市（4 人各自买）</span><span>待补</span></div>
+            <div className="br"><span>7-Eleven 潜水零食饮料</span><span>待补</span></div>
+            <div className="br total"><span>累计支出</span><span>¥ 17,063.42+</span></div>
           </div>
 
           <div className="nbox mt16">
@@ -500,7 +758,7 @@ export default function PhuketZH() {
 
           <div className="nbox warn mt16">
             <div className="nbox-lbl">❓ 待确认（最后统一补完）</div>
-            <p>市区打车去浦东机场金额 / 普吉租车详情（车型 · 租金 · 租期）/ 宵夜具体金额（"120+" 是泰铢还是人民币）和 4 人分摊方式。</p>
+            <p>市区打车去浦东机场金额 / 普吉租车详情（车型 · 租金 · 租期）/ 宵夜具体金额（"120+" 是泰铢还是人民币）和 4 人分摊方式 / 马琳夜市 4 人总额 / 7-Eleven 小计。</p>
           </div>
 
           <div className="spacer" />
@@ -508,14 +766,14 @@ export default function PhuketZH() {
           <div className="tcenter" style={{ position: "relative", zIndex: 1 }}>
             <div className="dv mb16"><span>🌴</span></div>
             <p className="hwcn" style={{ maxWidth: 480, margin: "0 auto" }}>
-              海岛躺平计划进行中，<br />后续行程随走随记。
+              该拍的拍了、该吃的吃了、<br />该潜的潜了、该躺的躺了。
             </p>
             <div style={{ marginTop: 24 }}>
-              <span className="stamp-box" style={{ transform: "rotate(0)" }}>持续更新中</span>
+              <span className="stamp-box" style={{ transform: "rotate(0)" }}>旅行结束 · 回家休息</span>
             </div>
           </div>
 
-          <div className="page-num">- 06 -</div>
+          <div className="page-num">- 07 -</div>
         </div>
       </section>
     </div>

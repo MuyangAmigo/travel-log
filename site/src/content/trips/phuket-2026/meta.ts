@@ -9,7 +9,7 @@ export const meta: TripMeta = {
   slug: SLUG,
   date: "2026-08-20",
   dateRange: "2026.08.20 — 08.24",
-  coverImage: img("cover-2026-08.jpeg"),
+  coverImage: img("sunset-paragliding.jpeg"),
   title: {
     zh: "普吉 · 慢慢躺",
     en: "Phuket · Slow Days by the Sea",
