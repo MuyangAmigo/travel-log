@@ -202,8 +202,15 @@ export function saveMicrosoftAuthenticationSession(
   accessToken: string,
   expiresAt: number
 ) {
-  window.sessionStorage.setItem(
-    MICROSOFT_AUTH_SESSION_STORAGE_KEY,
-    JSON.stringify({ accessToken, expiresAt })
-  );
+  try {
+    window.sessionStorage.setItem(
+      MICROSOFT_AUTH_SESSION_STORAGE_KEY,
+      JSON.stringify({ accessToken, expiresAt })
+    );
+  } catch (error) {
+    console.warn(
+      "Unable to save the Microsoft sign-in session. Continuing without SSO.",
+      error
+    );
+  }
 }
