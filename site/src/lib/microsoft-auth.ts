@@ -3,6 +3,8 @@
 import { siteBasePath } from "@/lib/base-path";
 
 const PENDING_AUTH_STORAGE_KEY = "travel-log-microsoft-pkce";
+export const MICROSOFT_AUTH_SESSION_STORAGE_KEY =
+  "travel-log-microsoft-auth-session";
 const CONSUMER_TENANT_ID = "9188040d-6c67-4c5b-b112-36a304b66dad";
 const AUTHORIZATION_ENDPOINT =
   "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize";
@@ -22,6 +24,7 @@ interface TokenResponse {
   access_token?: string;
   error?: string;
   error_description?: string;
+  expires_in?: number;
   id_token?: string;
 }
 
@@ -167,7 +170,13 @@ export async function completeMicrosoftAuthentication(
     method: "POST",
   });
   const tokenResponse = (await response.json()) as TokenResponse;
-  if (!response.ok || !tokenResponse.access_token || !tokenResponse.id_token) {
+  if (
+    !response.ok ||
+    !tokenResponse.access_token ||
+    !tokenResponse.id_token ||
+    typeof tokenResponse.expires_in !== "number" ||
+    tokenResponse.expires_in <= 0
+  ) {
     throw new Error(
       tokenResponse.error_description ?? "Microsoft sign-in did not complete."
     );
@@ -184,6 +193,17 @@ export async function completeMicrosoftAuthentication(
 
   return {
     accessToken: tokenResponse.access_token,
+    expiresAt: Date.now() + tokenResponse.expires_in * 1000,
     returnUrl: getSafeReturnUrl(pending.returnUrl),
   };
+}
+
+export function saveMicrosoftAuthenticationSession(
+  accessToken: string,
+  expiresAt: number
+) {
+  window.sessionStorage.setItem(
+    MICROSOFT_AUTH_SESSION_STORAGE_KEY,
+    JSON.stringify({ accessToken, expiresAt })
+  );
 }
