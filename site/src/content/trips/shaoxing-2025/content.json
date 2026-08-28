@@ -1,0 +1,754 @@
+{
+  "version": 1,
+  "slug": "shaoxing-2025",
+  "metadata": {
+    "date": "2025-03-28",
+    "dateRange": "2025.03.28 — 03.30",
+    "coverImageId": "cover",
+    "title": {
+      "zh": "绍兴 · 水巷墨香",
+      "en": "Shaoxing · Canals and Ink"
+    },
+    "subtitle": {
+      "zh": "从鲁迅故里到曲水兰亭，沿着课本里的江南走一个周末",
+      "en": "A weekend through the canals, courtyards, and calligraphy of familiar textbook pages"
+    },
+    "location": {
+      "zh": "中国 · 绍兴",
+      "en": "Shaoxing, China"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "cover",
+      "filename": "cover-2026-08.png",
+      "alt": {
+        "zh": "绍兴水巷墨香旅行封面",
+        "en": "Shaoxing Canals and Ink trip cover"
+      }
+    },
+    {
+      "id": "water-town-mural",
+      "filename": "traditional-water-town-mural.jpeg",
+      "alt": {
+        "zh": "描绘绍兴水乡街巷的水墨壁画",
+        "en": "Ink-wash mural of Shaoxing water-town lanes"
+      }
+    },
+    {
+      "id": "canal-boats",
+      "filename": "traditional-canal-boats-alley.jpeg",
+      "alt": {
+        "zh": "绍兴窄河道里依次驶过的乌篷船",
+        "en": "Black-canopy boats moving through a narrow Shaoxing canal"
+      }
+    },
+    {
+      "id": "world-map-art",
+      "filename": "hand-adjusting-world-map-art.jpeg",
+      "alt": {
+        "zh": "鲁迅故里街区里的互动艺术装置",
+        "en": "Interactive artwork in the Lu Xun hometown district"
+      }
+    },
+    {
+      "id": "blue-statue",
+      "filename": "person-posing-with-blue-statue.jpeg",
+      "alt": {
+        "zh": "游客在鲁迅故里蓝衣人物雕塑旁留影",
+        "en": "Visitor posing beside a blue-robed figure statue"
+      }
+    },
+    {
+      "id": "mushroom-tofu-chicken",
+      "filename": "mushroom-tofu-chicken-stirfry.jpeg",
+      "alt": {
+        "zh": "菌菇豆腐鸡肉小炒",
+        "en": "Mushroom, tofu, and chicken stir-fry"
+      }
+    },
+    {
+      "id": "spicy-seafood",
+      "filename": "spicy-seafood-hot-pot.jpeg",
+      "alt": {
+        "zh": "红汤海鲜锅",
+        "en": "Spicy red-broth seafood pot"
+      }
+    },
+    {
+      "id": "steamed-cakes",
+      "filename": "steamed-square-rice-cakes.jpeg",
+      "alt": {
+        "zh": "方形蒸糕",
+        "en": "Square steamed rice cakes"
+      }
+    },
+    {
+      "id": "seafood-soup",
+      "filename": "creamy-vegetable-seafood-soup.jpeg",
+      "alt": {
+        "zh": "蔬菜海鲜浓汤",
+        "en": "Creamy vegetable and seafood soup"
+      }
+    },
+    {
+      "id": "char-siu-buns",
+      "filename": "char-siu-bao-buns.jpeg",
+      "alt": {
+        "zh": "一笼叉烧包",
+        "en": "Basket of char siu buns"
+      }
+    },
+    {
+      "id": "tofu-mustard-stew",
+      "filename": "tofu-and-pickled-mustard-stew.jpeg",
+      "alt": {
+        "zh": "雪菜豆腐煲",
+        "en": "Tofu and pickled mustard stew"
+      }
+    },
+    {
+      "id": "lanting-display",
+      "filename": "kuaijishan-lanting-display.jpeg",
+      "alt": {
+        "zh": "会稽山兰亭序主题景观",
+        "en": "Kuaiji Mountain display inspired by the Lanting Preface"
+      }
+    },
+    {
+      "id": "arched-bridge",
+      "filename": "arched-bridge-over-river.jpeg",
+      "alt": {
+        "zh": "兰亭山水间横跨河面的石拱桥",
+        "en": "Stone bridge crossing the water beneath the hills at Lanting"
+      }
+    },
+    {
+      "id": "goose-pond-tablet",
+      "filename": "goose-pond-stone-tablet.jpeg",
+      "alt": {
+        "zh": "竹林前的鹅池石碑亭",
+        "en": "Goose Pond stone tablet pavilion before a bamboo grove"
+      }
+    },
+    {
+      "id": "zhi-wall",
+      "filename": "calligraphy-zhi-wall.jpeg",
+      "alt": {
+        "zh": "兰亭景区巨幅之字书法装置",
+        "en": "Large zhi character installation at Lanting"
+      }
+    },
+    {
+      "id": "calligraphy-ribbons",
+      "filename": "calligraphy-ribbon-corridor-group.jpeg",
+      "alt": {
+        "zh": "四人在悬挂书法绸带的兰亭廊桥合影",
+        "en": "Four travelers beneath hanging calligraphy ribbons at Lanting"
+      }
+    },
+    {
+      "id": "black-jacket",
+      "filename": "person-in-black-jacket.jpeg",
+      "alt": {
+        "zh": "穿黑色外套的游客在兰亭景区留影",
+        "en": "Visitor in a black jacket at Lanting"
+      }
+    },
+    {
+      "id": "two-at-lanting",
+      "filename": "two-people-standing-outdoors.jpeg",
+      "alt": {
+        "zh": "两位游客在兰亭户外合影",
+        "en": "Two visitors posing outdoors at Lanting"
+      }
+    }
+  ],
+  "sections": [
+    { "id": "overview" },
+    { "id": "arrival" },
+    { "id": "textbook-places" },
+    { "id": "shaoxing-dinner" },
+    { "id": "lanting" },
+    { "id": "lanting-route" }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover-introduction",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🛶 绍兴周末日记",
+            "en": "🛶 Shaoxing Weekend Diary"
+          },
+          "title": {
+            "zh": "水巷墨香",
+            "en": "Canals and Ink"
+          },
+          "subtitle": {
+            "zh": "Canals and Ink",
+            "en": "Shaoxing Travel Journal"
+          },
+          "date": {
+            "zh": "2025.03.28 — 03.30",
+            "en": "2025.03.28 — 03.30"
+          },
+          "intro": {
+            "zh": "高铁一小时，从上海钻进绍兴的水巷、旧宅与竹林，也走进那些从课本里认识了很多年的名字。",
+            "en": "One hour from Shanghai by train, we stepped into Shaoxing's canals, old homes, and bamboo groves — and into names we had known from schoolbooks for years."
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "SHAOXING\n2025",
+              "en": "SHAOXING\n2025"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "friday-arrival",
+      "sectionId": "arrival",
+      "blocks": [
+        {
+          "id": "arrival-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "0", "en": "0" },
+          "title": {
+            "zh": "周五夜里，先抵达江南",
+            "en": "Friday Night, Arriving in Jiangnan"
+          },
+          "subtitle": {
+            "zh": "上海虹桥 → 绍兴北站 · 云朵酒店",
+            "en": "Shanghai Hongqiao → Shaoxing North · Yun Duo Hotel"
+          },
+          "icon": "🚄"
+        },
+        {
+          "id": "arrival-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "water-town-mural",
+              "caption": {
+                "zh": "白墙、黛瓦、水巷——旅程先从一幅江南画面开始",
+                "en": "White walls, dark tiles, and canals — the trip began with a Jiangnan scene"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "arrival-story",
+          "type": "prose",
+          "spacing": { "top": 16 },
+          "paragraphs": [
+            {
+              "zh": "周五晚上从上海虹桥出发，20:22 上车，21:39 就到了绍兴北站。一个多小时的高铁，把工作日和周末切得干干净净。",
+              "en": "We left Shanghai Hongqiao at 8:22 PM on Friday and reached Shaoxing North at 9:39. Just over an hour by high-speed rail made a clean cut between the workweek and the weekend."
+            },
+            {
+              "zh": "住在塔山街道中兴南路 183 号的云朵酒店。从北站打车大约 31 分钟、35 元；不赶时间也可以坐 BRT1 号线，约 54 分钟。放下行李，第二天就从鲁迅故里开始。",
+              "en": "We stayed at Yun Duo Hotel, 183 Zhongxing South Road in Tashan Subdistrict. A taxi from the station takes about 31 minutes and costs roughly RMB 35; BRT Line 1 takes around 54 minutes if there is no rush. Once the bags were down, Lu Xun's hometown was ready for the next morning."
+            }
+          ]
+        },
+        {
+          "id": "arrival-timeline",
+          "type": "timeline",
+          "spacing": { "top": 20 },
+          "items": [
+            {
+              "id": "leave-shanghai",
+              "time": { "zh": "20:22", "en": "20:22" },
+              "event": { "zh": "上海虹桥出发", "en": "Left Shanghai Hongqiao" },
+              "detail": {
+                "zh": "一小时出头的周末逃离",
+                "en": "A weekend escape in just over an hour"
+              }
+            },
+            {
+              "id": "reach-shaoxing",
+              "time": { "zh": "21:39", "en": "21:39" },
+              "event": { "zh": "抵达绍兴北站", "en": "Reached Shaoxing North" },
+              "detail": {
+                "zh": "打车约 35 元 / 31 分钟，或乘 BRT1 号线约 54 分钟",
+                "en": "Taxi about RMB 35 / 31 minutes, or BRT Line 1 in about 54 minutes"
+              }
+            },
+            {
+              "id": "check-in",
+              "time": { "zh": "夜里", "en": "Night" },
+              "event": { "zh": "入住云朵酒店", "en": "Checked into Yun Duo Hotel" },
+              "detail": {
+                "zh": "塔山街道中兴南路 183 号",
+                "en": "183 Zhongxing South Road, Tashan Subdistrict"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lu-xun-hometown",
+      "sectionId": "textbook-places",
+      "blocks": [
+        {
+          "id": "textbook-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "课本里的地方，突然立体了",
+            "en": "The Textbook Suddenly Became Real"
+          },
+          "subtitle": {
+            "zh": "三味书屋 · 百草园 · 鲁迅故居",
+            "en": "Sanwei Study · Baicao Garden · Lu Xun's Former Residence"
+          },
+          "icon": "📚"
+        },
+        {
+          "id": "hometown-gallery",
+          "type": "gallery",
+          "layout": "weighted-left",
+          "images": [
+            {
+              "imageId": "canal-boats",
+              "caption": {
+                "zh": "窄窄水巷里，乌篷船一艘接一艘",
+                "en": "Black-canopy boats passing one after another through the narrow canal"
+              },
+              "shape": "portrait",
+              "tone": "cool"
+            },
+            {
+              "imageId": "world-map-art",
+              "caption": {
+                "zh": "旧街里的小巧思",
+                "en": "A playful detail in the old neighborhood"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "blue-statue",
+              "caption": {
+                "zh": "和蓝衣人物雕塑留一张纪念照",
+                "en": "A quick portrait with the blue-robed figure"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "hometown-story",
+          "type": "prose",
+          "spacing": { "top": 16 },
+          "paragraphs": [
+            {
+              "zh": "三味书屋、百草园、鲁迅故居，一个个只在课文里读过的名字，沿着老街真正连在了一起。走进去以后，课本里的地方突然变得立体起来。",
+              "en": "Sanwei Study, Baicao Garden, and Lu Xun's former residence — names we had only read in school were suddenly connected by real lanes and courtyards. Walking through them made the textbook world three-dimensional."
+            },
+            {
+              "zh": "百草园比想象中小，但三味书屋还是那个味儿。街巷旁有窄窄的河道，乌篷船贴着白墙与石阶慢慢经过，这就是绍兴最具体的一面。",
+              "en": "Baicao Garden was smaller than expected, but Sanwei Study still felt exactly right. Beside the lanes, black-canopy boats slipped slowly past white walls and stone steps along the narrow canal: Shaoxing in its most tangible form."
+            }
+          ]
+        },
+        {
+          "id": "hometown-route",
+          "type": "route",
+          "compact": true,
+          "spacing": { "top": 20 },
+          "stops": [
+            {
+              "id": "sanwei-study",
+              "icon": "📖",
+              "label": { "zh": "三味书屋", "en": "Sanwei Study" }
+            },
+            {
+              "id": "baicao-garden",
+              "icon": "🌿",
+              "label": { "zh": "百草园", "en": "Baicao Garden" }
+            },
+            {
+              "id": "lu-xun-home",
+              "icon": "🏠",
+              "label": { "zh": "鲁迅故居", "en": "Lu Xun's Home" }
+            },
+            {
+              "id": "shaoxing-weidao",
+              "icon": "🥢",
+              "label": { "zh": "绍兴味道", "en": "Shaoxing Weidao" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saturday-dinner",
+      "sectionId": "shaoxing-dinner",
+      "blocks": [
+        {
+          "id": "dinner-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "晚餐，把一桌绍兴味道摆满",
+            "en": "Dinner, a Table Full of Shaoxing"
+          },
+          "subtitle": {
+            "zh": "绍兴味道 · 周六晚餐",
+            "en": "Shaoxing Weidao · Saturday Dinner"
+          },
+          "icon": "🥢"
+        },
+        {
+          "id": "dinner-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "逛完鲁迅故里，晚餐就在「绍兴味道」坐下来。菌菇、豆腐、海鲜、蒸糕和包子摆满一桌，也让走了一天的周六慢慢收尾。",
+              "en": "After Lu Xun's neighborhood, we sat down for dinner at Shaoxing Weidao. Mushrooms, tofu, seafood, steamed cakes, and buns filled the table and brought a full Saturday of walking to a gentle close."
+            }
+          ]
+        },
+        {
+          "id": "dinner-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 16 },
+          "images": [
+            {
+              "imageId": "mushroom-tofu-chicken",
+              "caption": {
+                "zh": "菌菇豆腐鸡肉",
+                "en": "Mushroom, tofu, and chicken"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "spicy-seafood",
+              "caption": {
+                "zh": "热辣海鲜锅",
+                "en": "Spicy seafood pot"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "steamed-cakes",
+              "caption": {
+                "zh": "软糯蒸糕",
+                "en": "Soft steamed cakes"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "seafood-soup",
+              "caption": {
+                "zh": "蔬菜海鲜浓汤",
+                "en": "Vegetable and seafood soup"
+              },
+              "shape": "square",
+              "tone": "soft"
+            },
+            {
+              "imageId": "char-siu-buns",
+              "caption": {
+                "zh": "叉烧包",
+                "en": "Char siu buns"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "tofu-mustard-stew",
+              "caption": {
+                "zh": "雪菜豆腐煲",
+                "en": "Tofu and pickled mustard"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "strongest-impression",
+          "type": "note",
+          "spacing": { "top": 20 },
+          "title": {
+            "zh": "今天最深的印象",
+            "en": "The day's strongest impression"
+          },
+          "body": {
+            "zh": "不是某一个打卡点，而是那些从小读到大的地名终于有了尺度、气味和脚下真实的路。",
+            "en": "It was not one particular sight, but the way places known since childhood finally gained scale, atmosphere, and real roads beneath our feet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lanting-calligraphy",
+      "sectionId": "lanting",
+      "blocks": [
+        {
+          "id": "lanting-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "曲水兰亭，沿着书法往里走",
+            "en": "Walking into Lanting through Calligraphy"
+          },
+          "subtitle": {
+            "zh": "鹅池 · 曲水流觞 · 王右军祠 · 兰亭书法博物馆",
+            "en": "Goose Pond · Winding Stream · Wang Youjun Shrine · Calligraphy Museum"
+          },
+          "icon": "✒️"
+        },
+        {
+          "id": "lanting-landscape-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "lanting-display",
+              "caption": {
+                "zh": "从《兰亭集序》的故事走进景区",
+                "en": "Entering through the story of the Lanting Preface"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            },
+            {
+              "imageId": "arched-bridge",
+              "caption": {
+                "zh": "远山、流水与一座石桥",
+                "en": "Distant hills, calm water, and a stone bridge"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "lanting-calligraphy-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "goose-pond-tablet",
+              "caption": {
+                "zh": "竹林里的鹅池碑亭",
+                "en": "The Goose Pond pavilion in the bamboo"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "zhi-wall",
+              "caption": {
+                "zh": "把一个「之」字放大到整面墙",
+                "en": "A single “zhi” character expanded across an entire wall"
+              },
+              "shape": "portrait",
+              "tone": "soft"
+            }
+          ]
+        },
+        {
+          "id": "lanting-story",
+          "type": "prose",
+          "spacing": { "top": 16 },
+          "paragraphs": [
+            {
+              "zh": "周日来到兰亭。门票 70 元，开放时间 8:00–17:00。这里的山水、竹林、碑亭和书法装置很适合慢慢走，也确实很出片。",
+              "en": "Sunday took us to Lanting. Admission was RMB 70 and opening hours were 8:00 AM–5:00 PM. Its hills, bamboo, pavilions, and calligraphy installations rewarded a slow walk — and made excellent photographs."
+            },
+            {
+              "zh": "沿着鹅池、兰亭碑亭和曲水流觞一路往里，王羲之与《兰亭集序》不再只是一个书法史上的名字，而变成一条可以亲自走过的路径。",
+              "en": "From Goose Pond and the Lanting Tablet Pavilion to the Winding Stream, the route carried us deeper into the story. Wang Xizhi and the Lanting Preface stopped being names from calligraphy history and became a path we could walk ourselves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lanting-full-route",
+      "sectionId": "lanting-route",
+      "blocks": [
+        {
+          "id": "lanting-route-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "把兰亭的路线走完整",
+            "en": "Walking the Full Lanting Route"
+          },
+          "subtitle": {
+            "zh": "碑亭、古道、遗址与博物馆",
+            "en": "Pavilions, Old Path, Temple Ruins, and Museum"
+          },
+          "icon": "🎋"
+        },
+        {
+          "id": "ribbon-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "calligraphy-ribbons",
+              "caption": {
+                "zh": "书法绸带从廊桥顶端垂下来，留下一张周末合影",
+                "en": "Calligraphy ribbons overhead and one weekend group portrait beneath them"
+              },
+              "shape": "wide",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "lanting-portraits",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "black-jacket",
+              "caption": {
+                "zh": "竹林和碑刻之间慢慢走",
+                "en": "Walking slowly between bamboo and stone inscriptions"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "two-at-lanting",
+              "caption": {
+                "zh": "兰亭里的周日纪念照",
+                "en": "A Sunday portrait at Lanting"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "walking-order",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "建议游览顺序",
+            "en": "Suggested walking order"
+          },
+          "body": {
+            "zh": "鹅池 → 兰亭碑亭 → 曲水流觞 → 王右军祠 → 御碑亭 → 临池十八缸 → 兰亭古道 → 天章寺遗址 → 兰亭书法博物馆。博物馆周一闭馆。",
+            "en": "Goose Pond → Lanting Tablet Pavilion → Winding Stream → Wang Youjun Shrine → Imperial Tablet Pavilion → Eighteen Water Jars → Lanting Old Path → Tianzhang Temple Ruins → Lanting Calligraphy Museum. The museum is closed on Mondays."
+          }
+        },
+        {
+          "id": "practical-costs",
+          "type": "expense",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "已知花费与实用信息",
+            "en": "Known costs and practical notes"
+          },
+          "rows": [
+            {
+              "id": "north-station-taxi",
+              "label": { "zh": "北站交通", "en": "From North Station" },
+              "detail": { "zh": "打车约 31 分钟", "en": "Taxi, about 31 minutes" },
+              "amount": { "zh": "约 35 元", "en": "About RMB 35" }
+            },
+            {
+              "id": "brt",
+              "label": { "zh": "公共交通", "en": "Public transport" },
+              "detail": { "zh": "BRT1 号线", "en": "BRT Line 1" },
+              "amount": { "zh": "约 54 分钟", "en": "About 54 minutes" }
+            },
+            {
+              "id": "lanting-ticket",
+              "label": { "zh": "兰亭门票", "en": "Lanting ticket" },
+              "detail": {
+                "zh": "开放 8:00–17:00",
+                "en": "Open 8:00 AM–5:00 PM"
+              },
+              "amount": { "zh": "70 元 / 人", "en": "RMB 70 / person" }
+            },
+            {
+              "id": "souvenirs",
+              "label": { "zh": "纪念品", "en": "Souvenirs" },
+              "detail": {
+                "zh": "景区有好看的冰箱贴",
+                "en": "Look out for the fridge magnets"
+              },
+              "amount": { "zh": "值得看看", "en": "Worth browsing" }
+            }
+          ]
+        },
+        {
+          "id": "closing-divider",
+          "type": "divider",
+          "spacing": { "top": 20, "bottom": 16 },
+          "icon": "🛶"
+        },
+        {
+          "id": "shaoxing-ending",
+          "type": "ending",
+          "title": {
+            "zh": "绍兴，下次再见",
+            "en": "Until Next Time, Shaoxing"
+          },
+          "subtitle": {
+            "zh": "两天，从鲁迅的旧宅走到王羲之的兰亭。",
+            "en": "Two days, from Lu Xun's old home to Wang Xizhi's Lanting."
+          }
+        },
+        {
+          "id": "closing-tags",
+          "type": "tags",
+          "spacing": { "top": 20 },
+          "items": [
+            {
+              "id": "lu-xun",
+              "label": { "zh": "鲁迅故里", "en": "Lu Xun" },
+              "tone": "pink"
+            },
+            {
+              "id": "canal-boats-tag",
+              "label": { "zh": "乌篷船", "en": "Canal Boats" },
+              "tone": "blue"
+            },
+            {
+              "id": "lanting-tag",
+              "label": { "zh": "兰亭", "en": "Lanting" },
+              "tone": "gold"
+            },
+            {
+              "id": "winding-stream",
+              "label": { "zh": "曲水流觞", "en": "Winding Stream" },
+              "tone": "teal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

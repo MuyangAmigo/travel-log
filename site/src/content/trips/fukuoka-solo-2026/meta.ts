@@ -1,26 +1,23 @@
 import type { TripMeta } from "@/lib/trips";
 import { tripImage } from "@/lib/blob";
+import {
+  parseTripDocument,
+  tripDocumentToMeta,
+} from "@/lib/trip-document";
+import content from "./content.json";
 
 export const SLUG = "fukuoka-solo-2026";
 
 export const img = (filename: string) => tripImage(SLUG, filename);
 
+export const document = parseTripDocument(content);
+
+if (document.slug !== SLUG) {
+  throw new Error(`Trip document slug "${document.slug}" does not match "${SLUG}"`);
+}
+
 export const meta: TripMeta = {
+  ...tripDocumentToMeta(document, img),
   slug: SLUG,
-  date: "2026-06-03",
-  dateRange: "2026.06.03 — 06.07",
-  coverImage: img("cover-2026-08.png"),
-  title: {
-    zh: "福冈 · 一个人慢慢走",
-    en: "Fukuoka · Wandering at My Own Pace",
-  },
-  subtitle: {
-    zh: "雨中的神社、临时起意的海边，还有第一次真正和自己同行",
-    en: "Rainy shrines, an unplanned seaside, and learning to enjoy my own company",
-  },
-  location: {
-    zh: "日本 · 福冈与太宰府",
-    en: "Fukuoka & Dazaifu, Japan",
-  },
-  private: true,
+  private: document.metadata.private,
 };

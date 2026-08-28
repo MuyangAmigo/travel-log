@@ -1,0 +1,3043 @@
+{
+  "version": 1,
+  "slug": "phuket-2026",
+  "metadata": {
+    "date": "2026-08-20",
+    "dateRange": "2026.08.20 — 08.24",
+    "coverImageId": "beach-palms-ocean",
+    "title": {
+      "zh": "普吉 · 一场不期而遇的潜水",
+      "en": "Phuket · An Unexpected Dive"
+    },
+    "subtitle": {
+      "zh": "从延误的夜航，到自然醒的海岛早晨",
+      "en": "From a delayed red-eye to waking up slowly in island time"
+    },
+    "location": {
+      "zh": "泰国 · 普吉岛",
+      "en": "Phuket, Thailand"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "goose-island",
+      "filename": "goose-island.jpeg",
+      "alt": {
+        "zh": "浦东 T1 鹅岛精酿啤酒屋招牌",
+        "en": "Goose Island craft beer pub sign at Pudong T1"
+      }
+    },
+    {
+      "id": "airport-hotdog-fries",
+      "filename": "airport-hotdog-fries.jpeg",
+      "alt": {
+        "zh": "鹅岛三明治配薯条套餐",
+        "en": "Goose Island sandwich and fries combo"
+      }
+    },
+    {
+      "id": "sassy-shrimp-salad",
+      "filename": "sassy-shrimp-salad.jpeg",
+      "alt": {
+        "zh": "Sassy 生虾米粉丝沙拉",
+        "en": "Sassy raw shrimp glass-noodle salad"
+      }
+    },
+    {
+      "id": "sassy-pad-thai",
+      "filename": "sassy-pad-thai.jpeg",
+      "alt": {
+        "zh": "Sassy Pad Thai 配冬阴功",
+        "en": "Sassy Pad Thai with tom yum on the side"
+      }
+    },
+    {
+      "id": "breakfast-poolside",
+      "filename": "breakfast-poolside.jpeg",
+      "alt": {
+        "zh": "户外早餐直面泳池与海景",
+        "en": "Outdoor breakfast facing the pool and sea"
+      }
+    },
+    {
+      "id": "private-beach",
+      "filename": "private-beach.jpeg",
+      "alt": {
+        "zh": "酒店私人沙滩的海与棕榈",
+        "en": "Hotel private beach with sea and palms"
+      }
+    },
+    {
+      "id": "beach-view",
+      "filename": "beach-view.jpeg",
+      "alt": {
+        "zh": "沙滩远景，对岸山坡红顶蓝顶小屋",
+        "en": "Beach view with red and blue roof huts on the far hill"
+      }
+    },
+    {
+      "id": "pool-swimmer",
+      "filename": "pool-swimmer.jpeg",
+      "alt": {
+        "zh": "泳池里自由泳练习中的 JJ",
+        "en": "JJ practicing freestyle in the pool"
+      }
+    },
+    {
+      "id": "pool-palms",
+      "filename": "pool-palms.jpeg",
+      "alt": {
+        "zh": "泳池边的棕榈和蓝伞躺椅",
+        "en": "Pool-side palms and blue umbrella loungers"
+      }
+    },
+    {
+      "id": "resort-pool-view",
+      "filename": "resort-pool-view.jpeg",
+      "alt": {
+        "zh": "房间窗外蜿蜒的泳池与棕榈树",
+        "en": "Winding pool and palms from the room"
+      }
+    },
+    {
+      "id": "pool-building",
+      "filename": "pool-building.jpeg",
+      "alt": {
+        "zh": "泳池与酒店建筑",
+        "en": "Pool and hotel building"
+      }
+    },
+    {
+      "id": "dive-shop-cat",
+      "filename": "dive-shop-cat.jpeg",
+      "alt": {
+        "zh": "潜店招牌上的猫",
+        "en": "Cat on the dive shop sign"
+      }
+    },
+    {
+      "id": "dive-shop-cat2",
+      "filename": "dive-shop-cat2.jpeg",
+      "alt": {
+        "zh": "潜店地板上的虎斑猫",
+        "en": "Tabby cat on the dive shop floor"
+      }
+    },
+    {
+      "id": "siam-tomyum",
+      "filename": "siam-tomyum.jpeg",
+      "alt": {
+        "zh": "SIAM 冬阴功汤",
+        "en": "SIAM tom yum"
+      }
+    },
+    {
+      "id": "siam-fish",
+      "filename": "siam-fish.jpeg",
+      "alt": {
+        "zh": "SIAM 柠檬蒸鱼",
+        "en": "SIAM lemon-steamed fish"
+      }
+    },
+    {
+      "id": "siam-somtam",
+      "filename": "siam-somtam.jpeg",
+      "alt": {
+        "zh": "SIAM 木瓜沙拉",
+        "en": "SIAM som tam"
+      }
+    },
+    {
+      "id": "sunset-paragliding",
+      "filename": "sunset-paragliding.jpeg",
+      "alt": {
+        "zh": "芭东日落下的滑翔伞",
+        "en": "Paragliding against the Patong sunset"
+      }
+    },
+    {
+      "id": "patong-sunset",
+      "filename": "patong-sunset.jpeg",
+      "alt": {
+        "zh": "芭东日落晚霞",
+        "en": "Patong sunset over the bay"
+      }
+    },
+    {
+      "id": "selfie-paragliding",
+      "filename": "selfie-paragliding.jpeg",
+      "alt": {
+        "zh": "JJ 和小土在芭东自拍，背后是滑翔伞",
+        "en": "JJ and Xiaotu selfie on Patong beach with a paraglider behind"
+      }
+    },
+    {
+      "id": "selfie-peace",
+      "filename": "selfie-peace.jpeg",
+      "alt": {
+        "zh": "海边的比耶自拍",
+        "en": "Beach peace-sign selfie"
+      }
+    },
+    {
+      "id": "malin-shrimp",
+      "filename": "malin-shrimp.jpeg",
+      "alt": {
+        "zh": "马琳夜市大虾档",
+        "en": "Malin Plaza prawn stall"
+      }
+    },
+    {
+      "id": "malin-abalone",
+      "filename": "malin-abalone.jpeg",
+      "alt": {
+        "zh": "马琳夜市鲍鱼档",
+        "en": "Malin Plaza abalone stall"
+      }
+    },
+    {
+      "id": "malin-clams",
+      "filename": "malin-clams.jpeg",
+      "alt": {
+        "zh": "马琳夜市炒花甲",
+        "en": "Malin Plaza stir-fried clams"
+      }
+    },
+    {
+      "id": "malin-fish",
+      "filename": "malin-fish.jpeg",
+      "alt": {
+        "zh": "马琳夜市大烤鱼",
+        "en": "Malin Plaza whole grilled fish"
+      }
+    },
+    {
+      "id": "malin-shrimp-grilled",
+      "filename": "malin-shrimp-grilled.jpeg",
+      "alt": {
+        "zh": "马琳夜市大虾成品",
+        "en": "Malin Plaza grilled prawn"
+      }
+    },
+    {
+      "id": "malin-crab",
+      "filename": "malin-crab.jpeg",
+      "alt": {
+        "zh": "马琳夜市大螃蟹",
+        "en": "Malin Plaza large crab"
+      }
+    },
+    {
+      "id": "malin-yum",
+      "filename": "malin-yum.jpeg",
+      "alt": {
+        "zh": "马琳夜市海鲜沙拉",
+        "en": "Malin Plaza seafood yum salad"
+      }
+    },
+    {
+      "id": "malin-spread",
+      "filename": "malin-spread.jpeg",
+      "alt": {
+        "zh": "满桌海鲜合影",
+        "en": "Full-table seafood spread at Malin Plaza"
+      }
+    },
+    {
+      "id": "malin-stall",
+      "filename": "malin-stall.jpeg",
+      "alt": {
+        "zh": "Malin Plaza 海鲜摊整体",
+        "en": "Malin Plaza seafood stall overview"
+      }
+    },
+    {
+      "id": "towel-elephant",
+      "filename": "towel-elephant.jpeg",
+      "alt": {
+        "zh": "酒店客房的毛巾小象",
+        "en": "Towel elephant on the hotel bed"
+      }
+    },
+    {
+      "id": "dive-dive1",
+      "filename": "dive-dive1.jpeg",
+      "alt": {
+        "zh": "第一潜 · 教练 + JJ + 小土 · 水下比耶",
+        "en": "Dive 1 · instructor with JJ and Xiaotu · underwater peace sign"
+      }
+    },
+    {
+      "id": "dive-jj-underwater",
+      "filename": "dive-jj-underwater.jpeg",
+      "alt": {
+        "zh": "第二潜 · JJ 水下面镜 + 气泡",
+        "en": "Dive 2 · JJ underwater mask and bubbles"
+      }
+    },
+    {
+      "id": "dive-rope2",
+      "filename": "dive-rope2.jpeg",
+      "alt": {
+        "zh": "下潜绳旁 · 教练带路",
+        "en": "By the descent line · instructor leading"
+      }
+    },
+    {
+      "id": "dive-rope3",
+      "filename": "dive-rope3.jpeg",
+      "alt": {
+        "zh": "下潜绳合影 · 浮力慢慢稳了",
+        "en": "Group shot by the descent line · buoyancy stabilizing"
+      }
+    },
+    {
+      "id": "dive-farewell",
+      "filename": "dive-farewell.jpeg",
+      "alt": {
+        "zh": "水下来一张 · 难忘的第三次潜水",
+        "en": "Underwater goodbye shot · unforgettable third dive"
+      }
+    },
+    {
+      "id": "naughty-ribs",
+      "filename": "naughty-ribs.jpeg",
+      "alt": {
+        "zh": "Naughty Nuri's 招牌烤肋排",
+        "en": "Naughty Nuri's signature ribs"
+      }
+    },
+    {
+      "id": "naughty-sausage",
+      "filename": "naughty-sausage.jpeg",
+      "alt": {
+        "zh": "香肠拼盘",
+        "en": "Sausage platter"
+      }
+    },
+    {
+      "id": "naughty-satay",
+      "filename": "naughty-satay.jpeg",
+      "alt": {
+        "zh": "沙爹烤肉串",
+        "en": "Satay skewers with peanut sauce"
+      }
+    },
+    {
+      "id": "naughty-pig",
+      "filename": "naughty-pig.jpeg",
+      "alt": {
+        "zh": "店门口粉红招财猪",
+        "en": "Pink lucky pig at the entrance"
+      }
+    },
+    {
+      "id": "naughty-table",
+      "filename": "naughty-table.jpeg",
+      "alt": {
+        "zh": "Naughty Nuri's 满桌合影",
+        "en": "Naughty Nuri's full-table spread"
+      }
+    },
+    {
+      "id": "towel-elephant2",
+      "filename": "towel-elephant2.jpeg",
+      "alt": {
+        "zh": "第二只毛巾小象 · 卡片署名 Viong",
+        "en": "Second towel elephant · note signed Viong"
+      }
+    },
+    {
+      "id": "massage-lobby",
+      "filename": "massage-lobby.jpeg",
+      "alt": {
+        "zh": "Let's Relax 大堂",
+        "en": "Let's Relax lobby"
+      }
+    },
+    {
+      "id": "massage-lounge",
+      "filename": "massage-lounge.jpeg",
+      "alt": {
+        "zh": "按摩店休息区",
+        "en": "Massage shop lounge"
+      }
+    },
+    {
+      "id": "massage-shampoo",
+      "filename": "massage-shampoo.jpeg",
+      "alt": {
+        "zh": "按摩店洗头区",
+        "en": "Hair-washing area"
+      }
+    },
+    {
+      "id": "day4-breakfast",
+      "filename": "day4-breakfast.jpeg",
+      "alt": {
+        "zh": "Day 4 早餐 · 97 号老位置",
+        "en": "Day 4 breakfast at table 97"
+      }
+    },
+    {
+      "id": "jungceylon-ship",
+      "filename": "jungceylon-ship.jpeg",
+      "alt": {
+        "zh": "江西冷标志性海盗船",
+        "en": "Jungceylon's landmark pirate ship"
+      }
+    },
+    {
+      "id": "bigc-shopping",
+      "filename": "bigc-shopping.jpeg",
+      "alt": {
+        "zh": "BigC 战利品",
+        "en": "BigC haul"
+      }
+    },
+    {
+      "id": "phutawan-box",
+      "filename": "phutawan-box.jpeg",
+      "alt": {
+        "zh": "Phutawan 香薰礼盒",
+        "en": "Phutawan reed diffuser gift set"
+      }
+    },
+    {
+      "id": "phutawan-receipt",
+      "filename": "phutawan-receipt.jpeg",
+      "alt": {
+        "zh": "Phutawan 收据 1,080 THB",
+        "en": "Phutawan receipt for 1,080 THB"
+      }
+    },
+    {
+      "id": "beach-palms-ocean",
+      "filename": "beach-palms-ocean.jpeg",
+      "alt": {
+        "zh": "棕榈树 + 碧绿海 + 岩石海湾",
+        "en": "Palm trees with turquoise sea and rocky bay"
+      }
+    },
+    {
+      "id": "beach-rocks-ocean",
+      "filename": "beach-rocks-ocean.jpeg",
+      "alt": {
+        "zh": "礁石海岸 + 碧绿海水",
+        "en": "Rocky coast and turquoise water"
+      }
+    },
+    {
+      "id": "beach-palms-lawn",
+      "filename": "beach-palms-lawn.jpeg",
+      "alt": {
+        "zh": "棕榈 + 草坪 + 远处小游乐场",
+        "en": "Palms, lawn and a small playground in the distance"
+      }
+    },
+    {
+      "id": "beach-chair-view",
+      "filename": "beach-chair-view.jpeg",
+      "alt": {
+        "zh": "蓝色躺椅视角",
+        "en": "Blue lounger view"
+      }
+    },
+    {
+      "id": "beach-warning",
+      "filename": "beach-warning.jpeg",
+      "alt": {
+        "zh": "酒店海滩 · 红旗不游泳",
+        "en": "Hotel beach · red flag, no swimming"
+      }
+    },
+    {
+      "id": "day4-sassy-padthai",
+      "filename": "day4-sassy-padthai.jpeg",
+      "alt": {
+        "zh": "Sassy Pad Thai",
+        "en": "Sassy Pad Thai"
+      }
+    },
+    {
+      "id": "day4-sassy-tomyum",
+      "filename": "day4-sassy-tomyum.jpeg",
+      "alt": {
+        "zh": "Sassy 冬阴功汤",
+        "en": "Sassy tom yum soup"
+      }
+    },
+    {
+      "id": "day4-sassy-fish",
+      "filename": "day4-sassy-fish.jpeg",
+      "alt": {
+        "zh": "Sassy 柠檬蒸鱼",
+        "en": "Sassy steamed lemon fish"
+      }
+    },
+    {
+      "id": "day4-sassy-platter",
+      "filename": "day4-sassy-platter.jpeg",
+      "alt": {
+        "zh": "Sassy 海鲜沙拉拼盘",
+        "en": "Sassy seafood salad platter"
+      }
+    },
+    {
+      "id": "relax-3rd-st",
+      "filename": "relax-3rd-st.jpeg",
+      "alt": {
+        "zh": "Let's Relax 3rd St 店",
+        "en": "Let's Relax 3rd St branch"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "PHUKET",
+          "en": "PHUKET"
+        },
+        "label": {
+          "zh": "旅程封面",
+          "en": "Trip Cover"
+        },
+        "detail": {
+          "zh": "海岛躺平度假 · 2026.08.20 — 08.24",
+          "en": "Island laziness · 2026.08.20 — 08.24"
+        }
+      }
+    },
+    {
+      "id": "day-1",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 1",
+          "en": "DAY 1"
+        },
+        "label": {
+          "zh": "延误起飞，凌晨落地",
+          "en": "Delayed Takeoff, Midnight Landing"
+        },
+        "detail": {
+          "zh": "上海 ✈️ 普吉 · 鹅岛、Sassy 与凌晨三点半",
+          "en": "Shanghai ✈️ Phuket · Goose Island, Sassy, and 3:30 a.m."
+        }
+      }
+    },
+    {
+      "id": "day-2-morning",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "海风、泳池与慢时光",
+          "en": "Sea Breeze, Pool and Slow Time"
+        },
+        "detail": {
+          "zh": "自然醒的早餐 · 私人沙滩 · 决定去潜水",
+          "en": "Lazy breakfast · private beach · decide to dive"
+        }
+      }
+    },
+    {
+      "id": "day-2-sunset",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "日落、滑翔伞与海风",
+          "en": "Sunset, Paragliding, and Sea Wind"
+        },
+        "detail": {
+          "zh": "SIAM Phuket · 芭东散步 · Malin Plaza 夜市",
+          "en": "SIAM Phuket · Patong stroll · Malin Plaza"
+        }
+      }
+    },
+    {
+      "id": "day-3",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 3",
+          "en": "DAY 3"
+        },
+        "label": {
+          "zh": "Racha 岛 · 失控到入门",
+          "en": "Racha Island: From Wrecked to Working"
+        },
+        "detail": {
+          "zh": "三潜 DSD · Naughty Nuri's · 2 小时泰式按摩",
+          "en": "Three DSD dives · Naughty Nuri's · 2h Thai massage"
+        }
+      }
+    },
+    {
+      "id": "day-4",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 4",
+          "en": "DAY 4"
+        },
+        "label": {
+          "zh": "Sassy 出发，Sassy 收尾",
+          "en": "From Sassy to Sassy"
+        },
+        "detail": {
+          "zh": "江西冷 BigC · 海边躺平 · Panouri 礼盒",
+          "en": "Jungceylon & BigC · beach downtime · Panouri gift"
+        }
+      }
+    },
+    {
+      "id": "food-bill",
+      "navigation": {
+        "marker": {
+          "zh": "FOOD",
+          "en": "FOOD"
+        },
+        "label": {
+          "zh": "美食与账单",
+          "en": "Food & Bill"
+        },
+        "detail": {
+          "zh": "真实测评 & JJ & 小土支出汇总",
+          "en": "Honest reviews & JJ & Xiaotu's running total"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover-1",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🏝️ 🌴 ✈️",
+            "en": "🏝️ 🌴 ✈️"
+          },
+          "title": {
+            "zh": "普吉 · 一场不期而遇的潜水",
+            "en": "Phuket · An Unexpected Dive"
+          },
+          "subtitle": {
+            "zh": "Travel Journal",
+            "en": "Travel Journal"
+          },
+          "date": {
+            "zh": "2026.08.20 — 08.24",
+            "en": "2026.08.20 — 08.24"
+          },
+          "intro": {
+            "zh": "「海岛躺平计划：\n不赶路，不打卡，醒来就是目的。」",
+            "en": "\"The island chill plan:\nno rush, no checklist — waking up is the whole point.\""
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "PHUKET\n2026",
+              "en": "PHUKET\n2026"
+            }
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "separators": true,
+          "boxStamp": {
+            "zh": "BOARDING PASS",
+            "en": "BOARDING PASS"
+          },
+          "boxStampSpacing": "relaxed"
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "page-02-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "延误起飞，凌晨落地",
+            "en": "Delayed Takeoff, Midnight Landing"
+          },
+          "subtitle": {
+            "zh": "Thursday, August 20th · Shanghai ✈️ Phuket",
+            "en": "Thursday, August 20th · Shanghai ✈️ Phuket"
+          },
+          "icon": "🌙",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-02-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "忙碌了很久很久，终于在这一天，从工作里抽身出来，去往海岛躺平。昨天刚结束 EVP Visit，小土提了离职、也接好了下一家的 Offer——像是冥冥之中安排好的，所有事情都赶在出发前收了尾。没有遗留的牵挂，只有满满的期待。一切刚刚好。好期待泰兰德的夏天 🌴",
+              "en": "After weeks and weeks of grind, the day finally came — I pulled myself out of work and flew toward the island. EVP Visit had wrapped the day before, Xiaotu had just resigned and signed an offer at the next place. Like the universe had lined it all up, everything landed before departure. No loose ends, only the good kind of anticipation. Everything is just right. Bring on the Thailand summer 🌴"
+            }
+          ]
+        },
+        {
+          "id": "page-02-divider-1",
+          "type": "divider",
+          "icon": "✈️",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-02-timeline-1",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-02-timeline-1-item-1",
+              "time": {
+                "zh": "15:30",
+                "en": "15:30"
+              },
+              "event": {
+                "zh": "打车从市区出发",
+                "en": "Cab from the city"
+              },
+              "detail": {
+                "zh": "直奔浦东 T1，心情已经先飞到普吉",
+                "en": "Heading to Pudong T1, mind already in Phuket"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-2",
+              "time": {
+                "zh": "16:00+",
+                "en": "16:00+"
+              },
+              "event": {
+                "zh": "抵达浦东 T1",
+                "en": "Arrive Pudong T1"
+              },
+              "detail": {
+                "zh": "值机 + 行李托运",
+                "en": "Check-in + bag drop"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-3",
+              "time": {
+                "zh": "17:00",
+                "en": "17:00"
+              },
+              "event": {
+                "zh": "兑换泰铢 5,000 THB",
+                "en": "Exchange 5,000 THB"
+              },
+              "detail": {
+                "zh": "约合 ¥1,100+，机场换汇点",
+                "en": "About ¥1,100+ at the airport counter"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-4",
+              "time": {
+                "zh": "晚餐前",
+                "en": "Pre-dinner"
+              },
+              "event": {
+                "zh": "Goose Island 鹅岛精酿啤酒屋",
+                "en": "Goose Island craft beer pub"
+              },
+              "detail": {
+                "zh": "浦东 T1 · 三明治 + 薯条套餐",
+                "en": "Pudong T1 · sandwich + fries combo"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-5",
+              "time": {
+                "zh": "18:40 → ~20:00",
+                "en": "18:40 → ~20:00"
+              },
+              "event": {
+                "zh": "上海航空 FM831 延误起飞",
+                "en": "FM831 delayed departure"
+              },
+              "detail": {
+                "zh": "浦东 T1 → 普吉国际 I 航站楼",
+                "en": "Pudong T1 → Phuket Intl Terminal I"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-6",
+              "time": {
+                "zh": "机上",
+                "en": "On board"
+              },
+              "event": {
+                "zh": "航空餐鸡肉面",
+                "en": "Chicken noodle in-flight meal"
+              },
+              "detail": {
+                "zh": "特别难吃 😖 靠修仙短剧撑过夜航",
+                "en": "Truly awful 😖 — survived on cultivation dramas"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-7",
+              "time": {
+                "zh": "午夜",
+                "en": "Midnight"
+              },
+              "event": {
+                "zh": "落地普吉",
+                "en": "Land in Phuket"
+              },
+              "detail": {
+                "zh": "提租车，开约 1 小时到酒店",
+                "en": "Pick up rental, ~1h drive to the hotel"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-8",
+              "time": {
+                "zh": "02:00",
+                "en": "02:00"
+              },
+              "event": {
+                "zh": "入住美林海滩万豪",
+                "en": "Check in at Merlin Beach Marriott"
+              },
+              "detail": {
+                "zh": "池景特大床客房",
+                "en": "Pool-view king room"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-9",
+              "time": {
+                "zh": "02:00+",
+                "en": "02:00+"
+              },
+              "event": {
+                "zh": "Sassy 深夜食堂",
+                "en": "Sassy late-night dinner"
+              },
+              "detail": {
+                "zh": "伊桑风味，一桌宵夜下肚才睡得着",
+                "en": "Isaan flavors — the table set us right"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-10",
+              "time": {
+                "zh": "03:30",
+                "en": "03:30"
+              },
+              "event": {
+                "zh": "洗漱完毕，睡觉",
+                "en": "Asleep"
+              },
+              "detail": {
+                "zh": "期待更浓 🌴",
+                "en": "Tomorrow, the island 🌴"
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-02-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "goose-island",
+              "caption": {
+                "zh": "浦东 T1 的鹅岛精酿啤酒屋",
+                "en": "Goose Island at Pudong T1"
+              },
+              "shape": "portrait",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "airport-hotdog-fries",
+              "caption": {
+                "zh": "三明治 + 薯条套餐 ¥68",
+                "en": "Sandwich + fries combo · ¥68"
+              },
+              "shape": "portrait",
+              "tone": "crisp",
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-02-divider-2",
+          "type": "divider",
+          "icon": "🍜",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-02-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "原定傍晚的航班，拖到夜里近八点才离地。机上那份鸡肉面实在难以下咽，全靠修仙短剧撑过漫长的夜航，觉也没睡踏实。落地已是午夜，取了租来的车穿过夜色开了一小时，终于到了酒店。本想吃口东西就睡，没想到酒店附近藏着一家很 Local 的小店——Sassy traditional Isaan Thai restaurant，一桌宵夜下肚，瞬间原谅了这一路的折腾。",
+              "en": "The evening flight didn't lift off until nearly 8 p.m. The in-flight chicken noodle was barely edible, and I only made it through the long red-eye by binge-watching cultivation dramas. Touchdown at midnight, an hour's drive through the dark, and we finally rolled into the hotel. I was ready to collapse, but a tiny Isaan spot sat right next door — Sassy traditional Isaan Thai restaurant — and one late-night table erased every hour of the journey."
+            }
+          ]
+        },
+        {
+          "id": "page-02-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "sassy-shrimp-salad",
+              "caption": {
+                "zh": "生虾米粉丝沙拉 🦐",
+                "en": "Raw shrimp glass-noodle salad 🦐"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "sassy-pad-thai",
+              "caption": {
+                "zh": "Pad Thai，旁边疑似冬阴功",
+                "en": "Pad Thai, tom yum on the side"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-02-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🏨 普吉岛美林海滩万豪度假酒店",
+            "en": "🏨 Merlin Beach Marriott Resort & Spa"
+          },
+          "body": {
+            "zh": "Merlin Beach Marriott Resort & Spa，入住 8/20 — 8/23 共 3 晚，池景特大床客房。大堂黑白花纹底座 + 白色尖顶灯 + 紫色系花艺，挺有设计感。",
+            "en": "Phuket · 3 nights (8/20 — 8/23) · pool-view king room. The lobby — black-and-white patterned base, white peaked lamps, purple florals — is more design-forward than expected."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-02-note-2",
+          "type": "note",
+          "variant": "warning",
+          "title": {
+            "zh": "✈️ 航班延误提醒",
+            "en": "✈️ Flight delay note"
+          },
+          "body": {
+            "zh": "FM831 原定 18:40 起飞，实际延误至约 20:00 离地。延误险最高可赔 ¥300，记得保留延误证明（航司短信 / App 延误通知）。",
+            "en": "FM831 was scheduled for 18:40, actually took off around 20:00. Delay insurance can pay up to ¥300 — keep the SMS / app notification as proof."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "day-2-morning",
+      "blocks": [
+        {
+          "id": "page-03-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "海风、泳池与慢时光",
+            "en": "Sea Breeze, Pool and Slow Time"
+          },
+          "subtitle": {
+            "zh": "Friday, August 21st · 酒店早餐 · 私人沙滩 · 决定去潜水",
+            "en": "Friday, August 21st · hotel breakfast · private beach · booked a dive"
+          },
+          "icon": "☀️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-03-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "一夜的折腾，被一个自然醒的上午治愈了。十点多慢悠悠晃去吃早餐——超级丰盛，挑了个户外的位子，眼前就是酒店超大的泳池，再远一点是海。Omelette 自己加满小料，当地的面条味道也很特别。11 点多回房间接着躺。不赶路，不打卡，今天什么都不做，就很好。",
+              "en": "The night undid itself the moment I woke up naturally. After ten, I wandered to breakfast — lavish buffet, an outdoor table facing the hotel's huge pool and the sea beyond. Loaded the omelette with toppings; tried a local noodle that tasted like nowhere else. Back to the room by 11. No plans, no ticking clock. Today, doing nothing is the whole plan."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "breakfast-poolside",
+              "caption": {
+                "zh": "户外早餐 · 直面泳池与海景",
+                "en": "Outdoor breakfast · pool + sea view"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-divider-1",
+          "type": "divider",
+          "icon": "🌴",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-03-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "休息到两点才出门，本想简单游个泳，结果在泳池边偶遇 Ellie 和 Rock，四个人临时组队去探了酒店的私人沙滩。沙滩非常私密，脚下沙子硬了点、还有碎石头，但胜在安静、没人。站在石阶上看海，看对岸山坡上零星的房子和椰林，整个人都松弛下来。",
+              "en": "We didn't leave until 2 p.m. — I just wanted a swim — then bumped into Ellie and Rock by the pool. Spontaneously, the four of us went to check out the hotel's private beach. It was genuinely private, though the sand ran a bit firm and rocky. From the stone steps, the bay opened up: scattered rooftops, coconut trees on the far hill. Everything loosened a little."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "private-beach",
+              "caption": {
+                "zh": "私人沙滩 · 海 + 棕榈",
+                "en": "Private beach · sea + palms"
+              },
+              "shape": "portrait",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "beach-view",
+              "caption": {
+                "zh": "远眺对岸的小屋（潜水店就在附近）",
+                "en": "Bungalows on the far shore (dive shop nearby)"
+              },
+              "shape": "portrait",
+              "tone": "crisp",
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "沙滩旁有家潜水店，四个人一合计——明天去潜水。就这样，一个下午多出了个新安排。回酒店泳池接着泡水。练了会儿自由泳，在躺椅上彻底躺平。海风、棕榈、远处浪声——所有元素都到位。",
+              "en": "A dive shop sat right by the beach, and the four of us agreed on the spot: tomorrow, we're diving. One afternoon, one new plan. Back at the hotel pool, I practiced freestyle and gave up to a lounger. Sea breeze, palms, distant surf — every element in place."
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "pool-swimmer",
+              "caption": {
+                "zh": "泳池里的 JJ · 自由泳练习中",
+                "en": "JJ in the pool · freestyle practice"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "pool-palms",
+              "caption": {
+                "zh": "泳池棕榈 · 蓝伞躺椅区",
+                "en": "Pool palms · blue-umbrella loungers"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-gallery-4",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "resort-pool-view",
+              "caption": {
+                "zh": "蜿蜒的泳池 + 棕榈 🌴",
+                "en": "Winding pool + palms 🌴"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "pool-building",
+              "caption": {
+                "zh": "泳池 + 酒店建筑",
+                "en": "Pool + hotel building"
+              },
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🤿 沙滩旁的潜水店",
+            "en": "🤿 The dive shop on the beach"
+          },
+          "body": {
+            "zh": "潜店叫 Patong Dive Center（PADI 认证），就在私人沙滩旁边。店里还有两只常住猫，一只霸占招牌位、一只趴地板，看似都不太欢迎拍照 🐱。我们当场预订了明天 DSD 体验潜水：Racha 岛全日行程 4,400 THB / 人，2 人共 8,800 THB ≈ ¥1,800（押金 880 THB / 人 已付，无需另付公园费）。明早 6:45 酒店大堂集合。",
+            "en": "Patong Dive Center (PADI-certified) sits right next to the private beach. Two resident cats own the place — one on the sign, one on the floor, neither especially welcoming to cameras 🐱. We booked tomorrow's DSD on the spot: full-day Racha trip at 4,400 THB / person, 8,800 THB for two ≈ ¥1,800 (880 THB / person deposit paid, no extra park fee). Pickup 6:45 a.m. at the hotel lobby."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-gallery-5",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "dive-shop-cat",
+              "caption": {
+                "zh": "潜店招牌猫 · 占了 C 位",
+                "en": "Sign cat · owns the C-spot"
+              }
+            },
+            {
+              "imageId": "dive-shop-cat2",
+              "caption": {
+                "zh": "地板上的虎斑猫 · 表情有点凶",
+                "en": "Tabby on the floor · looking a bit grumpy"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "day-2-sunset",
+      "blocks": [
+        {
+          "id": "page-04-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Dusk",
+            "en": "Dusk"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "日落、滑翔伞与海风",
+            "en": "Sunset, Paragliding, and Sea Wind"
+          },
+          "subtitle": {
+            "zh": "Friday, August 21st · SIAM Phuket · 芭东散步 · Malin Plaza",
+            "en": "Friday, August 21st · SIAM Phuket · Patong stroll · Malin Plaza"
+          },
+          "icon": "🌅",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-04-divider-1",
+          "type": "divider",
+          "icon": "🍤",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-04-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "SIAM Phuket 是一家在巴东 Thawewong Rd 上的海鲜餐厅，评分 4.8。冬阴功入味微辣、柠檬蒸鱼用柠檬直接蒸、国内少见的吃法，青芒沙拉爽口、木瓜沙拉花生豆芽辣椒齐上。一桌菜下来，比国内划算很多。",
+              "en": "SIAM Phuket is a Thawewong Rd seafood spot with a 4.8 rating. Bold tom yum, lemon-steamed fish you don't see in China, refreshing green mango salad, and a punchy som tam with peanuts, bean sprouts, and chili. The whole table cost less than the same meal back home."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-1",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "siam-tomyum",
+              "caption": {
+                "zh": "冬阴功汤 · 入味微辣",
+                "en": "Tom yum · bold and slightly spicy"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "siam-fish",
+              "caption": {
+                "zh": "柠檬蒸鱼 · 国内少见的吃法",
+                "en": "Lemon-steamed fish · rarely seen in China"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "siam-somtam",
+              "caption": {
+                "zh": "木瓜沙拉 · 花生 + 豆芽 + 辣椒",
+                "en": "Som tam · peanuts + bean sprouts + chili"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-divider-2",
+          "type": "divider",
+          "icon": "🌅",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-04-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "吃完晚饭，趁着天色还早，在芭东海滩散了好久的步。海被傍晚的云烧成了一整片橙红色，浪声很轻，偶尔有人冲浪、游泳。最好看的是天上的滑翔伞——被快艇拉着在天空飞，彩色的伞在云层间起伏、转向、盘旋，像是有人在用天空当画布。看着看着就忘了时间。还有你和身后那把伞，恰好同时入了镜。",
+              "en": "After dinner, while the light was still warm, we walked Patong Beach for a long stretch. The sea burned orange under evening clouds, the surf was gentle, a few swimmers and surfers drifted. The best part was up in the sky — paragliders being tugged by speedboats, the colored canoes banking and turning between clouds like someone was painting the sky. We lost track of time. You and the parachute behind you ended up in the same frame, perfectly."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "sunset-paragliding",
+              "caption": {
+                "zh": "滑翔伞 + 日落 · 彩条伞在天空特别有画面感",
+                "en": "Paragliding + sunset · the colored sail steals the frame"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "patong-sunset",
+              "caption": {
+                "zh": "芭东日落 · 晚霞染红了云",
+                "en": "Patong sunset · clouds painted red"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "selfie-paragliding",
+              "caption": {
+                "zh": "JJ & 小土 · 背后刚好有滑翔伞",
+                "en": "JJ & Xiaotu · paraglider sneaking in behind"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "selfie-peace",
+              "caption": {
+                "zh": "比个耶 ✌️ · 海岛标准姿势",
+                "en": "Peace ✌️ · standard island pose"
+              },
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-divider-3",
+          "type": "divider",
+          "icon": "🦐",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-04-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "马琳夜市（Malin Plaza）比芭东夜市更小众、人也少，节奏慢，摊主也不像游客区那样紧盯着钱包。一条大烤鱼 200 泰铢、一只大虾 250 泰铢、一份螃蟹 350 泰铢，鲍鱼 200 — 300 泰铢，每一道都让嘴角停不下来。吃到最后满桌海鲜合影一张，是这趟旅行最丰盛的一顿。",
+              "en": "Malin Plaza is a quieter alternative to Patong Night Market — fewer crowds, slower pace, vendors who don't hover. A whole grilled fish for 200 THB, a giant prawn for 250, a plate of crab for 350, abalone 200–300. Every bite kept us grinning. The full-table seafood shot at the end might be the most generous spread of the whole trip."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-4",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "malin-shrimp",
+              "caption": {
+                "zh": "大虾档 · 100/150/200/250 THB",
+                "en": "Prawn stall · 100 / 150 / 200 / 250 THB"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "malin-abalone",
+              "caption": {
+                "zh": "鲍鱼档 · 200 — 300 THB",
+                "en": "Abalone · 200 — 300 THB"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "malin-clams",
+              "caption": {
+                "zh": "炒花甲 · 香辣味足",
+                "en": "Stir-fried clams · spicy and fragrant"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-gallery-5",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "malin-fish",
+              "caption": {
+                "zh": "大烤鱼 · 200 THB 一整条",
+                "en": "Whole grilled fish · 200 THB"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "malin-shrimp-grilled",
+              "caption": {
+                "zh": "大虾（成品）· 250 THB",
+                "en": "Grilled prawn · 250 THB"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "malin-crab",
+              "caption": {
+                "zh": "大螃蟹 · 350 THB 一份",
+                "en": "Large crab · 350 THB"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-gallery-6",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "malin-yum",
+              "caption": {
+                "zh": "海鲜沙拉 · 酸辣 + 鲜虾 + 粉丝",
+                "en": "Seafood yum · sour-spicy + prawn + glass noodles"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "malin-spread",
+              "caption": {
+                "zh": "满桌合影 · 海鲜全宴",
+                "en": "The full table · seafood feast"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-gallery-7",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "malin-stall",
+              "caption": {
+                "zh": "Malin Plaza 海鲜摊 · 比芭东夜市更 local",
+                "en": "Malin Plaza seafood stalls · more local than Patong"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-prose-4",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回到酒店，意外发现客房被工作人员叠了一只毛巾小象，憨态可掬地坐在床上、盯着小卡片微笑——所有走路的疲惫都瞬间化了。带着海风、辣味、毛巾小象的余温入眠。",
+              "en": "Back at the hotel, the housekeeping team had folded a tiny towel elephant on the bed — sitting there grinning at the welcome card. All the walking melted away. Fell asleep on the warmth of sea wind, chili, and one small stuffed elephant."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-8",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "towel-elephant",
+              "caption": {
+                "zh": "毛巾小象 🐘 · 工作人员叠的，超治愈",
+                "en": "Towel elephant 🐘 · folded by the team, pure comfort"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🌃 Malin Plaza 小贴士",
+            "en": "🌃 Malin Plaza tip"
+          },
+          "body": {
+            "zh": "Malin Plaza 在芭东主路背面，从海滩走过来大概十分钟。比芭东夜市人少、价格更友好，适合想避开人潮又想吃海鲜的夜晚。我们 21:00 离开，回酒店路上顺路在 7-Eleven 补了明天潜水的零食饮料，22:30 洗漱泡澡，23:00 入睡。",
+            "en": "Malin Plaza sits behind Patong's main drag, about 10 minutes from the beach. Quieter and cheaper than the Patong Night Market — perfect for a seafood night without the crowds. We left at 21:00, grabbed snacks and drinks at 7-Eleven for tomorrow's dive, soaked in the tub at 22:30, asleep by 23:00."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "page-05-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "Racha 岛 · 失控到入门",
+            "en": "Racha Island: From Wrecked to Working"
+          },
+          "subtitle": {
+            "zh": "Saturday, August 22nd · 三潜 DSD · Naughty Nuri's · Let's Relax",
+            "en": "Saturday, August 22nd · three DSD dives · Naughty Nuri's · Let's Relax"
+          },
+          "icon": "🤿",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-05-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "6:55 从酒店出发（迟了 10 分钟，司机大哥有点黑脸），一路接上同船潜友，8:00+ 才到码头。快艇颠到皇帝岛 Racha Noi + Racha Yai，三个潜点。船上午餐 JJ 和小土都因为晕船没吃，14:00 的第三潜终于开窍——背挺直、胯前挺、吐气下沉、吸气上浮，第一次感觉自己不是被水推着走，是在水里游的。珊瑚像花园一样铺开，整个海底震撼到说不出话。",
+              "en": "Lobby pickup at 6:55 a.m. (we were ten minutes late — the driver was not amused), and we picked up fellow divers along the way before reaching Chalong Pier past 8:00. A bouncy speedboat ride to Racha Noi and Racha Yai, three dive sites. JJ and Xiaotu both skipped lunch — seasick and wrecked. The third dive at 14:00 finally clicked: back straight, hips forward, exhale to sink, inhale to rise — for the first time I felt like I was swimming in the water, not being shoved by it. Coral spread like a garden. The whole seafloor left us speechless."
+            }
+          ]
+        },
+        {
+          "id": "page-05-timeline-1",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-1",
+              "time": {
+                "zh": "06:55",
+                "en": "06:55"
+              },
+              "event": {
+                "zh": "酒店大堂集合",
+                "en": "Hotel lobby pickup"
+              },
+              "detail": {
+                "zh": "迟了 10 分钟，司机的脸有点黑",
+                "en": "10 minutes late, driver was not happy"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-2",
+              "time": {
+                "zh": "08:00+",
+                "en": "08:00+"
+              },
+              "event": {
+                "zh": "到查龙码头",
+                "en": "Chalong Pier"
+              },
+              "detail": {
+                "zh": "接了一堆同船潜友，大家都在迟到",
+                "en": "Picked up the rest of the group, everyone late"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-3",
+              "time": {
+                "zh": "10:00+",
+                "en": "10:00+"
+              },
+              "event": {
+                "zh": "第一潜（浅探）",
+                "en": "Dive 1 (shallow intro)"
+              },
+              "detail": {
+                "zh": "浮力难控、不会调呼吸；JJ 和小土都吐了，小土脚蹭到海底",
+                "en": "Buoyancy all over, couldn't regulate; both of us threw up; Xiaotu scraped her foot on the bottom"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-4",
+              "time": {
+                "zh": "11:30",
+                "en": "11:30"
+              },
+              "event": {
+                "zh": "第二潜",
+                "en": "Dive 2"
+              },
+              "detail": {
+                "zh": "呛水、误关 BCD 充气、被教练用红带拽着走；后半段开始看到鱼群",
+                "en": "Choked on water, accidentally closed the BCD inflator, instructor towed me with a red strap; second half, fish started appearing"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-5",
+              "time": {
+                "zh": "14:00",
+                "en": "14:00"
+              },
+              "event": {
+                "zh": "第三潜（最后一潜）",
+                "en": "Dive 3 (last dive)"
+              },
+              "detail": {
+                "zh": "终于开窍：背挺直、胯前挺、吐气下沉、吸气上浮",
+                "en": "It finally clicked — back straight, hips forward, exhale to sink, inhale to rise"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-6",
+              "time": {
+                "zh": "15:00",
+                "en": "15:00"
+              },
+              "event": {
+                "zh": "潜水结束",
+                "en": "Dives over"
+              },
+              "detail": {
+                "zh": "收东西、慢慢回程",
+                "en": "Pack up, slow ride back"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-7",
+              "time": {
+                "zh": "17:00",
+                "en": "17:00"
+              },
+              "event": {
+                "zh": "回到普吉岛",
+                "en": "Back in Phuket"
+              },
+              "detail": {
+                "zh": "换小车回市区",
+                "en": "Transfer to a smaller car, head into town"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-8",
+              "time": {
+                "zh": "18:00+",
+                "en": "18:00+"
+              },
+              "event": {
+                "zh": "Naughty Nuri's 晚餐",
+                "en": "Naughty Nuri's dinner"
+              },
+              "detail": {
+                "zh": "招牌烤肋排 · 4 人共 ¥550",
+                "en": "Famous ribs · 4 people, ¥550"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-9",
+              "time": {
+                "zh": "19:30",
+                "en": "19:30"
+              },
+              "event": {
+                "zh": "回酒店 · 收获第二只小象",
+                "en": "Back at hotel · second towel elephant"
+              },
+              "detail": {
+                "zh": "卡片署名 Viong 🐘",
+                "en": "Note signed Viong 🐘"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-10",
+              "time": {
+                "zh": "21:30",
+                "en": "21:30"
+              },
+              "event": {
+                "zh": "Let's Relax 2 小时泰式按摩",
+                "en": "Let's Relax · 2h Thai massage"
+              },
+              "detail": {
+                "zh": "2,400 THB ≈ ¥504",
+                "en": "2,400 THB ≈ ¥504"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-divider-1",
+          "type": "divider",
+          "icon": "🐠",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "dive-dive1",
+              "caption": {
+                "zh": "第一潜 · 教练 + JJ + 小土 · 水下比耶 🤙",
+                "en": "Dive 1 · instructor + JJ + Xiaotu · underwater peace 🤙"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "dive-jj-underwater",
+              "caption": {
+                "zh": "第二潜 · JJ 水下面镜 + 气泡 · 教练的红带出场了",
+                "en": "Dive 2 · JJ's mask + bubbles · the red strap makes an entrance"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "dive-rope2",
+              "caption": {
+                "zh": "下潜绳旁 · 教练带路",
+                "en": "By the descent line · instructor leading"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "dive-rope3",
+              "caption": {
+                "zh": "下潜绳合影 · 浮力慢慢稳了",
+                "en": "Group shot by the descent line · buoyancy stabilizing"
+              },
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "dive-farewell",
+              "caption": {
+                "zh": "水下告别 · 难忘的第三次潜水",
+                "en": "Underwater goodbye · the unforgettable third dive"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🌊 三潜最大的收获",
+            "en": "🌊 What three dives actually gave me"
+          },
+          "body": {
+            "zh": "从\"完全不会控制\"到\"终于入门\"只用了一潜的距离。第三潜的珊瑚和鱼群，让人不想上来。身体终于记得住怎么呼吸 🐠🌊",
+            "en": "From \"I can't control anything\" to \"I finally get it\" took exactly one dive. The coral and fish on dive three made me not want to surface. My body finally remembered how to breathe 🐠🌊"
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-divider-2",
+          "type": "divider",
+          "icon": "🍖",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-05-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "从码头回普吉市区，Naughty Nuri's 的粉色招牌猪特别显眼。烤肋排焦糖色、香肠拼盘四种、沙爹串配花生酱——摆满一桌挺有仪式感。不过肋排本身有点腻、加肋排要加价，对网红 BBQ 来说性价比一般。",
+              "en": "Back from the pier, Naughty Nuri's pink lucky pig at the door is unmissable. Caramelized ribs, a four-sausage platter, satay skewers with peanut sauce — the full table has a real ceremony to it. The ribs themselves run a touch greasy, and add-on ribs cost extra; for a网红 BBQ spot, the value is so-so."
+            }
+          ]
+        },
+        {
+          "id": "page-05-gallery-4",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "naughty-ribs",
+              "caption": {
+                "zh": "招牌烤肋排 · 焦糖色 + 沙拉 + 小红旗",
+                "en": "Signature ribs · caramelized, with slaw and a little flag"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "naughty-sausage",
+              "caption": {
+                "zh": "香肠拼盘 · 4 种 + 沙拉 + 玉米 + 酱料",
+                "en": "Sausage platter · four kinds + slaw + corn + sauce"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "naughty-satay",
+              "caption": {
+                "zh": "沙爹烤肉串 + 花生酱",
+                "en": "Satay skewers + peanut sauce"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-5",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "naughty-pig",
+              "caption": {
+                "zh": "店门口 · 粉红招财猪 🐷 · 网红打卡",
+                "en": "At the door · pink lucky pig 🐷 · Instagram-famous"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "naughty-table",
+              "caption": {
+                "zh": "满桌合影 · 肋排 + 香肠 + 沙爹 + 米粉 + 玉米 + 薯条 + 饮料",
+                "en": "Full table · ribs + sausages + satay + rice noodles + corn + fries + drinks"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-rating-1",
+          "type": "rating",
+          "starStyle": "emoji",
+          "tone": "warning",
+          "title": {
+            "zh": "🍖 Naughty Nuri's 评价",
+            "en": "🍖 Naughty Nuri's verdict"
+          },
+          "items": [
+            {
+              "id": "page-05-rating-1-item-1",
+              "name": {
+                "zh": "Naughty Nuri's Phuket",
+                "en": "Naughty Nuri's Phuket"
+              },
+              "score": 3,
+              "comment": {
+                "zh": "网红 BBQ 店 · 4 人共 ¥550。装修有特色、打卡点足；肋排有点腻、加肋排有点贵，最多 3 星",
+                "en": "网红 BBQ · 4 people, ¥550. Cool decor, photo-worthy; ribs a bit greasy, add-on ribs cost extra — 3 stars max"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-divider-3",
+          "type": "divider",
+          "icon": "🐘",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-6",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "towel-elephant2",
+              "caption": {
+                "zh": "第二只小象 🐘 · 卡片署名 Viong",
+                "en": "Second towel elephant 🐘 · note signed Viong"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回酒店又收获一只迷你毛巾小象——这是第二只了。卡片署名 Viong，应该是做晚班打扫的工作人员。两小时泰式按摩紧跟着，把这一天从海底到陆地的酸痛全推开了。",
+              "en": "Back at the hotel, another mini towel elephant awaited — that's two now. The card was signed Viong, likely the night-shift housekeeping lead. A two-hour Thai massage right after, and every knot from sea to land was worked out."
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-7",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "massage-lobby",
+              "caption": {
+                "zh": "大堂 · 乳木果产品柜 + 白玫瑰",
+                "en": "Lobby · shea product counter + white rose"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "massage-lounge",
+              "caption": {
+                "zh": "休息区 · 深绿墙 + 大树 + 棕沙发",
+                "en": "Lounge · deep green walls + big tree + brown sofas"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "massage-shampoo",
+              "caption": {
+                "zh": "洗头区 · 黑盆 + 灰色沙发 + 彩色抱枕",
+                "en": "Wash area · black basins + grey sofa + colorful pillows"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-note-2",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "💆 马杀鸡小记",
+            "en": "💆 Massage notes"
+          },
+          "body": {
+            "zh": "Let's Relax · 2 小时泰式按摩（JJ & 小土 · 21:30 — 23:30）共 2,400 THB ≈ ¥504。推完之后背上酸痛全散了，回酒店已经过了午夜，倒头就睡 💤",
+            "en": "Let's Relax · 2-hour Thai massage (JJ & Xiaotu, 21:30 — 23:30) · 2,400 THB ≈ ¥504. The back pain from a full day of diving was gone by the time we walked out. Asleep at the hotel past midnight 💤"
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "page-06-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "Sassy 出发，Sassy 收尾",
+            "en": "From Sassy to Sassy"
+          },
+          "subtitle": {
+            "zh": "Sunday, August 23rd · 江西冷 BigC · 海边躺平 · 回国",
+            "en": "Sunday, August 23rd · Jungceylon & BigC · beach downtime · flight home"
+          },
+          "icon": "🏖️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-06-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "最后一天从一杯 97 号老位置的咖啡开始。吐司、煎蛋、阳光、熟悉的早晨——吃得出离别的味道。回房间整行李、12:00 准时退房，下午直奔江西冷扫 BigC 和 Phutawan，下午回酒店海边躺平，天气好到离谱，预报说下雨实际一点没下。傍晚再去一次 Sassy（离店前回访），然后 Let's Relax 3rd St 店 90 分钟马杀鸡收尾，机场免税店挑了 Panouri 礼盒。",
+              "en": "The last day started with coffee at our usual table 97. Toast, fried egg, sunshine, the familiar morning — it tasted of leaving. Packed up, checked out at 12:00 sharp, hit Jungceylon in the afternoon for BigC and Phutawan, then back to the hotel for beach downtime. The forecast said rain, but the sky stayed clear and blue. One more Sassy run before check-out, a 90-min massage at Let's Relax 3rd St to close, and a Panouri gift box at the airport duty-free."
+            }
+          ]
+        },
+        {
+          "id": "page-06-timeline-1",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-06-timeline-1-item-1",
+              "time": {
+                "zh": "10:00+",
+                "en": "10:00+"
+              },
+              "event": {
+                "zh": "自然醒 · 酒店自助早餐",
+                "en": "Wake naturally · hotel buffet"
+              },
+              "detail": {
+                "zh": "老位置 97 号 · 最后一顿",
+                "en": "Our usual table 97 · last meal"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-2",
+              "time": {
+                "zh": "12:00",
+                "en": "12:00"
+              },
+              "event": {
+                "zh": "准时退房 ✅",
+                "en": "Check out ✅"
+              },
+              "detail": {
+                "zh": "行李寄存前台",
+                "en": "Bags stored at front desk"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-3",
+              "time": {
+                "zh": "13:00",
+                "en": "13:00"
+              },
+              "event": {
+                "zh": "江西冷购物中心",
+                "en": "Jungceylon shopping mall"
+              },
+              "detail": {
+                "zh": "买伴手礼 · BigC + Phutawan",
+                "en": "Souvenirs · BigC + Phutawan"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-4",
+              "time": {
+                "zh": "15:00",
+                "en": "15:00"
+              },
+              "event": {
+                "zh": "回酒店海边躺平 🏖️",
+                "en": "Back at hotel · beach downtime 🏖️"
+              },
+              "detail": {
+                "zh": "海风、沙滩、蓝色躺椅",
+                "en": "Sea breeze, sand, blue loungers"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-5",
+              "time": {
+                "zh": "17:30",
+                "en": "17:30"
+              },
+              "event": {
+                "zh": "Sassy 第二次打卡",
+                "en": "Sassy, second visit"
+              },
+              "detail": {
+                "zh": "鱼 + 海鲜沙拉 · 4 人共 250 THB ≈ ¥52",
+                "en": "Fish + seafood salad · 4 people, 250 THB ≈ ¥52"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-6",
+              "time": {
+                "zh": "19:00",
+                "en": "19:00"
+              },
+              "event": {
+                "zh": "Let's Relax 3rd St 店",
+                "en": "Let's Relax 3rd St"
+              },
+              "detail": {
+                "zh": "90 分钟泰式按摩 · 2,000 THB ≈ ¥420",
+                "en": "90-min Thai massage · 2,000 THB ≈ ¥420"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-7",
+              "time": {
+                "zh": "20:45",
+                "en": "20:45"
+              },
+              "event": {
+                "zh": "出发去机场",
+                "en": "Head to the airport"
+              },
+              "detail": {
+                "zh": "还车 + 值机 + 安检",
+                "en": "Return car + check-in + security"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-8",
+              "time": {
+                "zh": "22:00+",
+                "en": "22:00+"
+              },
+              "event": {
+                "zh": "免税店 · Panouri 礼盒",
+                "en": "Duty-free · Panouri gift box"
+              },
+              "detail": {
+                "zh": "1,300+ RMB（两人份）",
+                "en": "¥1,300+ (for the two of us)"
+              }
+            },
+            {
+              "id": "page-06-timeline-1-item-9",
+              "time": {
+                "zh": "00:00+",
+                "en": "00:00+"
+              },
+              "event": {
+                "zh": "休息室宵夜 → 登机",
+                "en": "Lounge snack → boarding"
+              },
+              "detail": {
+                "zh": "旅行结束 · 现在 8/24 · 坐在飞机上",
+                "en": "Trip over · now 8/24, on the plane"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-divider-1",
+          "type": "divider",
+          "icon": "🍳",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "day4-breakfast",
+              "caption": {
+                "zh": "Day 4 早餐 · 97 号老位置 · 吐司 + 蛋 + 沙拉 + 咖啡",
+                "en": "Day 4 breakfast · table 97 · toast + egg + salad + coffee"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-divider-2",
+          "type": "divider",
+          "icon": "🛍️",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-06-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "江西冷（Jungceylon）的标志性海盗船是个熟悉的坐标。BigC 买了冬阴功汤、鼻吸器、膏药贴、牛奶片、椰奶芒果干（1,100+ THB），Phutawan 拿了两个香薰礼盒 Rainforest in Bloom Reed Diffuser Set 送小土同事（1,080 THB）。中午 JJ 和小土没吃午饭，Ellie & Rock 在美食广场随便吃了点。",
+              "en": "Jungceylon's pirate ship is the landmark you can't miss. BigC ran up 1,100+ THB on tom yum packets, inhalers, pain patches, milk tablets, and coconut-mango strips. Phutawan added two Reed Diffuser sets (Rainforest in Bloom) for Xiaotu's colleagues — 1,080 THB. JJ and Xiaotu skipped lunch; Ellie & Rock grabbed a quick bite in the food court."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "jungceylon-ship",
+              "caption": {
+                "zh": "江西冷 · 标志性海盗船 🚢",
+                "en": "Jungceylon · the pirate ship 🚢"
+              },
+              "shape": "portrait",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "bigc-shopping",
+              "caption": {
+                "zh": "BigC 战利品 · 冬阴功 + 鼻吸器 + 膏药 + 牛奶片 + 椰奶芒果干",
+                "en": "BigC haul · tom yum + inhalers + patches + milk tablets + coconut-mango strips"
+              },
+              "shape": "portrait",
+              "tone": "crisp",
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "phutawan-box",
+              "caption": {
+                "zh": "Phutawan 香薰 · Rainforest in Bloom",
+                "en": "Phutawan · Rainforest in Bloom"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "phutawan-receipt",
+              "caption": {
+                "zh": "收据 · 2 × 540 = 1,080 THB",
+                "en": "Receipt · 2 × 540 = 1,080 THB"
+              },
+              "tilt": "right"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-divider-3",
+          "type": "divider",
+          "icon": "🌴",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-06-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回酒店放下战利品，直奔海边。红旗插着（不游泳），但海风、棕榈、阳光、蓝色躺椅全到位。预报说会下雨，结果一点没下。睡了一会儿，天气开始变热才回去冲澡。",
+              "en": "Bags down at the hotel, straight to the beach. Red flag was up (no swimming), but sea breeze, palms, sunshine, blue loungers — all in place. The forecast lied; the sky stayed clear. Napped a little, then retreated to shower once the heat turned up."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-4",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "beach-palms-ocean",
+              "caption": {
+                "zh": "棕榈树 + 碧绿海 + 岩石海湾",
+                "en": "Palms + turquoise sea + rocky bay"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "beach-rocks-ocean",
+              "caption": {
+                "zh": "礁石海岸 + 碧绿海水",
+                "en": "Rocky coast + turquoise water"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-5",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "beach-palms-lawn",
+              "caption": {
+                "zh": "棕榈 + 草坪 + 远处小游乐场 + 绿木屋",
+                "en": "Palms + lawn + playground + green hut in the distance"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "beach-chair-view",
+              "caption": {
+                "zh": "蓝色躺椅视角 · 海风、棕榈、阳光",
+                "en": "Blue lounger view · sea breeze, palms, sunlight"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-6",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "beach-warning",
+              "caption": {
+                "zh": "酒店海滩 · 🚩 红旗（不游泳）",
+                "en": "Hotel beach · 🚩 red flag, no swimming"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-divider-4",
+          "type": "divider",
+          "icon": "🍜",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-06-prose-4",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "17:30+ 又去了一次 Sassy——这家店我们到普吉第一晚就来过。点了 Pad Thai + 冬阴功 + 海鲜沙拉拼盘 + 柠檬蒸鱼，4 人共 250 泰铢 ≈ ¥52。性价比绝了，离开到达都在同一家店。Let's Relax 3rd St 店 90 分钟泰式按摩紧跟着收尾，背上酸痛被推开了。",
+              "en": "17:30 — back to Sassy. We came here on the first night, and we ended here too. Pad Thai + tom yum + seafood salad platter + steamed lemon fish, 4 people for 250 THB ≈ ¥52. The value is unreal. Then Let's Relax 3rd St for a 90-min Thai massage, and the backache from the trip was finally, properly, pushed out."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-7",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "day4-sassy-padthai",
+              "caption": {
+                "zh": "Pad Thai · 大虾 + 豆芽",
+                "en": "Pad Thai · prawns + bean sprouts"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "day4-sassy-tomyum",
+              "caption": {
+                "zh": "冬阴功汤",
+                "en": "Tom yum"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "day4-sassy-fish",
+              "caption": {
+                "zh": "柠檬蒸鱼 · 清爽入味",
+                "en": "Steamed lemon fish · clean and fragrant"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-8",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "day4-sassy-platter",
+              "caption": {
+                "zh": "海鲜沙拉拼盘 · 青口贝 + 海螺 + 鱿鱼 + 蟹腿",
+                "en": "Seafood salad platter · mussels + sea snails + squid + crab legs"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "relax-3rd-st",
+              "caption": {
+                "zh": "Let's Relax 3rd St · 25 周年展架 + 海景窗",
+                "en": "Let's Relax 3rd St · 25th anniversary display + sea-view window"
+              },
+              "shape": "portrait",
+              "tone": "crisp"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🌅 Day 4 收官",
+            "en": "🌅 Day 4 wrap-up"
+          },
+          "body": {
+            "zh": "从 Sassy 出发、Sassy 收尾；再来一发 90 分钟马杀鸡；Panouri 礼盒；机场休息室宵夜 → 飞机 → 旅行结束。8/24 凌晨坐在回上海的飞机上，窗外是墨色，机舱里大家都没说话——这趟该拍的拍了、该吃的吃了、该潜的潜了、该躺的躺了。",
+            "en": "Started at Sassy, ended at Sassy. One more 90-minute massage. The Panouri gift box. Lounge snack at the airport. Then the plane. Now 8/24, somewhere over the East China Sea, the cabin is quiet — we shot what we wanted, ate what we wanted, dove what we wanted, lay flat what we wanted."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "food-bill",
+      "blocks": [
+        {
+          "id": "page-07-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🍜",
+            "en": "🍜"
+          },
+          "markerValue": {
+            "zh": "FOOD",
+            "en": "FOOD"
+          },
+          "title": {
+            "zh": "美食与账单",
+            "en": "Food & Bill"
+          },
+          "subtitle": {
+            "zh": "已尝餐厅真实测评 & JJ & 小土支出汇总",
+            "en": "Honest reviews & JJ & Xiaotu's running total"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-07-rating-1",
+          "type": "rating",
+          "starStyle": "emoji",
+          "tone": "default",
+          "title": {
+            "zh": "🌟 推荐榜",
+            "en": "🌟 Recommended"
+          },
+          "items": [
+            {
+              "id": "page-07-rating-1-item-1",
+              "name": {
+                "zh": "Sassy traditional Isaan Thai restaurant",
+                "en": "Sassy traditional Isaan Thai restaurant"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "巴东 · 伊桑风味，非常推荐。口味 4.2 / 环境 3.9 / 服务 3.9，营业至次日凌晨 5:30；离店前再访 4 人 ¥52",
+                "en": "Patong · Isaan flavors. Food 4.2 / Ambience 3.9 / Service 3.9, open until 5:30 a.m.; ¥52 for 4 on the farewell visit"
+              }
+            },
+            {
+              "id": "page-07-rating-1-item-2",
+              "name": {
+                "zh": "SIAM Phuket - Seafood Restaurant",
+                "en": "SIAM Phuket - Seafood Restaurant"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "巴东 Thawewong Rd · 评分 4.8 · 冬阴功入味微辣、柠檬蒸鱼国内少见，去的早人少，吃完已爆满",
+                "en": "Patong Thawewong Rd · 4.8 rating · bold tom yum, lemon-steamed fish, beat the dinner rush by going early"
+              }
+            },
+            {
+              "id": "page-07-rating-1-item-3",
+              "name": {
+                "zh": "Malin Plaza 海鲜摊",
+                "en": "Malin Plaza seafood stalls"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "比芭东夜市小众、便宜，烤鱼 200 / 大虾 250 / 螃蟹 350 THB",
+                "en": "Quieter than Patong Night Market — grilled fish 200, prawn 250, crab 350 THB"
+              }
+            },
+            {
+              "id": "page-07-rating-1-item-4",
+              "name": {
+                "zh": "Goose Island 鹅岛精酿啤酒屋",
+                "en": "Goose Island craft beer pub"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "浦东 T1 · 三明治不错，薯条很棒 🍟",
+                "en": "Pudong T1 · solid sandwich, excellent fries 🍟"
+              }
+            },
+            {
+              "id": "page-07-rating-1-item-5",
+              "name": {
+                "zh": "美林海滩万豪自助早餐",
+                "en": "Merlin Beach Marriott buffet"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "超级丰盛，户外直面泳池 + 海滩，太惬意",
+                "en": "Lavish, outdoor seating with pool + sea view, the most relaxed breakfast"
+              }
+            },
+            {
+              "id": "page-07-rating-1-item-6",
+              "name": {
+                "zh": "Let's Relax 泰式按摩",
+                "en": "Let's Relax Thai massage"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "JJ & 小土 2 小时 + 90 分钟，收官必备，技师手劲到位",
+                "en": "JJ & Xiaotu, 2h + 90min — essential for a real reset, therapists know their pressure"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-07-rating-2",
+          "type": "rating",
+          "starStyle": "emoji",
+          "tone": "warning",
+          "title": {
+            "zh": "⚠️ 踩雷榜",
+            "en": "⚠️ Skip / so-so"
+          },
+          "items": [
+            {
+              "id": "page-07-rating-2-item-1",
+              "name": {
+                "zh": "FM831 航空餐鸡肉面",
+                "en": "FM831 in-flight chicken noodle"
+              },
+              "score": 1,
+              "comment": {
+                "zh": "特别难吃，全靠修仙短剧撑过去 😖",
+                "en": "Truly awful, only the cultivation dramas saved the night 😖"
+              }
+            },
+            {
+              "id": "page-07-rating-2-item-2",
+              "name": {
+                "zh": "Naughty Nuri's Phuket",
+                "en": "Naughty Nuri's Phuket"
+              },
+              "score": 3,
+              "comment": {
+                "zh": "网红 BBQ · 4 人共 ¥550。装修有特色、招财猪打卡足；肋排有点腻、加肋排有点贵，最多 3 星",
+                "en": "网红 BBQ · 4 people, ¥550. Cool decor, lucky pig photo op; ribs a bit greasy, add-on ribs cost extra — 3 stars max"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-divider-1",
+          "type": "divider",
+          "icon": "💰",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-07-expense-1",
+          "type": "expense",
+          "title": {
+            "zh": "💳 支出汇总（人民币 · JJ & 小土 2 人）",
+            "en": "💳 Total spend (CNY · JJ & Xiaotu, 2 people)"
+          },
+          "rows": [
+            {
+              "id": "page-07-expense-1-row-1",
+              "label": {
+                "zh": "上海-普吉往返机票",
+                "en": "Round-trip Shanghai–Phuket flights"
+              },
+              "amount": {
+                "zh": "¥ 5,512.00",
+                "en": "¥ 5,512.00"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-2",
+              "label": {
+                "zh": "美林海滩万豪 3 晚",
+                "en": "Merlin Beach Marriott · 3 nights"
+              },
+              "amount": {
+                "zh": "¥ 4,876.22",
+                "en": "¥ 4,876.22"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-3",
+              "label": {
+                "zh": "兑换泰铢 5,000 THB",
+                "en": "Currency exchange · 5,000 THB"
+              },
+              "amount": {
+                "zh": "≈ ¥ 1,100.00",
+                "en": "≈ ¥ 1,100.00"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-4",
+              "label": {
+                "zh": "鹅岛精酿三明治套餐",
+                "en": "Goose Island sandwich + fries combo"
+              },
+              "amount": {
+                "zh": "¥ 68.00",
+                "en": "¥ 68.00"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-5",
+              "label": {
+                "zh": "DSD 体验潜水押金（2 人 1,760 THB）",
+                "en": "DSD dive deposit (2 people · 1,760 THB)"
+              },
+              "amount": {
+                "zh": "≈ ¥ 368.00（已付）",
+                "en": "≈ ¥ 368.00 (paid)"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-6",
+              "label": {
+                "zh": "DSD 余额 7,040 THB",
+                "en": "DSD balance · 7,040 THB"
+              },
+              "amount": {
+                "zh": "≈ ¥ 1,473（8/22 现场结）",
+                "en": "≈ ¥ 1,473 (settled 8/22)"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-7",
+              "label": {
+                "zh": "潜水照片包",
+                "en": "Dive photo package"
+              },
+              "amount": {
+                "zh": "2,000 THB ≈ ¥ 420",
+                "en": "2,000 THB ≈ ¥ 420"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-8",
+              "label": {
+                "zh": "教练/船工小费",
+                "en": "Tips for instructor / boat crew"
+              },
+              "amount": {
+                "zh": "20 THB ≈ ¥ 4",
+                "en": "20 THB ≈ ¥ 4"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-9",
+              "label": {
+                "zh": "Naughty Nuri's 晚餐（4 人）",
+                "en": "Naughty Nuri's dinner (4 people)"
+              },
+              "amount": {
+                "zh": "¥ 550.00",
+                "en": "¥ 550.00"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-10",
+              "label": {
+                "zh": "Let's Relax 2 小时泰式按摩",
+                "en": "Let's Relax · 2h Thai massage"
+              },
+              "amount": {
+                "zh": "2,400 THB ≈ ¥ 504",
+                "en": "2,400 THB ≈ ¥ 504"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-11",
+              "label": {
+                "zh": "Let's Relax 3rd St · 90min 泰式按摩",
+                "en": "Let's Relax 3rd St · 90min Thai massage"
+              },
+              "amount": {
+                "zh": "2,000 THB ≈ ¥ 420",
+                "en": "2,000 THB ≈ ¥ 420"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-12",
+              "label": {
+                "zh": "BigC 伴手礼（1,100+ THB）",
+                "en": "BigC souvenirs (1,100+ THB)"
+              },
+              "amount": {
+                "zh": "≈ ¥ 230",
+                "en": "≈ ¥ 230"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-13",
+              "label": {
+                "zh": "Phutawan 香薰礼盒 × 2（1,080 THB）",
+                "en": "Phutawan reed diffusers × 2 (1,080 THB)"
+              },
+              "amount": {
+                "zh": "≈ ¥ 227",
+                "en": "≈ ¥ 227"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-14",
+              "label": {
+                "zh": "Sassy 第二次晚餐（4 人共 250 THB）",
+                "en": "Sassy second dinner (4 people, 250 THB)"
+              },
+              "amount": {
+                "zh": "≈ ¥ 52",
+                "en": "≈ ¥ 52"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-15",
+              "label": {
+                "zh": "机场免税店 Panouri 礼盒（2 人份）",
+                "en": "Airport duty-free · Panouri gift box (2 people)"
+              },
+              "amount": {
+                "zh": "¥ 1,300+",
+                "en": "¥ 1,300+"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-16",
+              "label": {
+                "zh": "市区 → 浦东机场打车",
+                "en": "City → Pudong Airport cab"
+              },
+              "amount": {
+                "zh": "待确认",
+                "en": "pending"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-17",
+              "label": {
+                "zh": "普吉租车",
+                "en": "Phuket rental car"
+              },
+              "amount": {
+                "zh": "待确认",
+                "en": "pending"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-18",
+              "label": {
+                "zh": "本地宵夜 4 人分摊",
+                "en": "Late-night local dinner · 4-person split"
+              },
+              "amount": {
+                "zh": "待确认",
+                "en": "pending"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-19",
+              "label": {
+                "zh": "马琳夜市（4 人各自买）",
+                "en": "Malin Plaza (each paid their own)"
+              },
+              "amount": {
+                "zh": "待补",
+                "en": "pending"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-20",
+              "label": {
+                "zh": "7-Eleven 潜水零食饮料",
+                "en": "7-Eleven snacks and drinks"
+              },
+              "amount": {
+                "zh": "待补",
+                "en": "pending"
+              }
+            },
+            {
+              "id": "page-07-expense-1-row-21",
+              "label": {
+                "zh": "累计支出",
+                "en": "Running total"
+              },
+              "amount": {
+                "zh": "¥ 17,063.42+",
+                "en": "¥ 17,063.42+"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "page-07-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "📌 记账口径",
+            "en": "📌 Accounting scope"
+          },
+          "body": {
+            "zh": "以上消费仅含 JJ & 小土 2 人（机票、酒店均按 2 人计），另持 5,000 泰铢现金用于当地零花。Ellie、Rock 的费用各自承担，不计入本表。后续消费按实际汇率折算后补。",
+            "en": "Only JJ & Xiaotu's expenses are included (flights and hotel split between the two of them); an extra 5,000 THB in cash stayed for local spending. Ellie and Rock cover their own costs, not counted here. Future spends will be logged at the actual exchange rate."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-note-2",
+          "type": "note",
+          "variant": "warning",
+          "title": {
+            "zh": "❓ 待确认（最后统一补完）",
+            "en": "❓ Open items (to finalize at trip end)"
+          },
+          "body": {
+            "zh": "市区打车去浦东机场金额 / 普吉租车详情（车型 · 租金 · 租期）/ 宵夜具体金额（\"120+\" 是泰铢还是人民币）和 4 人分摊方式 / 马琳夜市 4 人总额 / 7-Eleven 小计。",
+            "en": "City-to-Pudong cab fare / Phuket rental car details (model · rate · period) / Late-night dinner exact amount (the \"120+\" — THB or CNY?) and 4-person split / Malin Plaza 4-person total / 7-Eleven small haul."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-spacer-1",
+          "type": "spacer"
+        },
+        {
+          "id": "page-07-divider-2",
+          "type": "divider",
+          "icon": "🌴",
+          "spacing": {
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-07-prose-1",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "width": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "paragraphs": [
+            {
+              "zh": "该拍的拍了、该吃的吃了、\n该潜的潜了、该躺的躺了。",
+              "en": "We shot it all, ate it all,\ndove it all, and lay flat for all of it."
+            }
+          ]
+        },
+        {
+          "id": "page-07-stamp-1",
+          "type": "stamp",
+          "text": {
+            "zh": "旅行结束 · 回家休息",
+            "en": "Trip over · Rest well"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,13 @@
 "use client";
 
 import { siteBasePath } from "@/lib/base-path";
+import {
+  getMicrosoftDelegatedScope,
+  getSafeMicrosoftReturnUrl,
+  type MicrosoftAuthenticationFlow,
+  parseMicrosoftAuthenticationFlow,
+  PRIVATE_JOURNAL_READ_SCOPE,
+} from "@/lib/microsoft-auth-policy";
 
 const PENDING_AUTH_STORAGE_KEY = "travel-log-microsoft-pkce";
 export const MICROSOFT_AUTH_SESSION_STORAGE_KEY =
@@ -14,6 +21,7 @@ const TOKEN_ENDPOINT =
 interface PendingAuthentication {
   codeVerifier: string;
   createdAt: number;
+  flow?: MicrosoftAuthenticationFlow;
   nonce: string;
   redirectUri: string;
   returnUrl: string;
@@ -83,32 +91,36 @@ function decodeJwtPayload(token: string): IdTokenPayload {
   return JSON.parse(new TextDecoder().decode(bytes)) as IdTokenPayload;
 }
 
-function getSafeReturnUrl(value: string) {
-  const returnUrl = new URL(value);
-  const privateRoutePrefix = `${siteBasePath}/`;
-  const isPrivateTrip =
-    returnUrl.pathname.startsWith(`${privateRoutePrefix}zh/trips/`) ||
-    returnUrl.pathname.startsWith(`${privateRoutePrefix}en/trips/`);
-
-  if (returnUrl.origin !== window.location.origin || !isPrivateTrip) {
-    throw new Error("The private journal return address is invalid.");
-  }
-
-  return returnUrl.href;
+function getSafeReturnUrl(
+  value: string,
+  flow: MicrosoftAuthenticationFlow
+) {
+  return getSafeMicrosoftReturnUrl(
+    value,
+    flow,
+    window.location.origin,
+    siteBasePath
+  );
 }
 
-export async function startMicrosoftAuthentication(returnUrl: string) {
+export async function startMicrosoftAuthentication(
+  returnUrl: string,
+  requestedFlow: MicrosoftAuthenticationFlow = "private-journal"
+) {
+  const flow = parseMicrosoftAuthenticationFlow(requestedFlow);
   const clientId = getClientId();
   const redirectUri = getRedirectUri();
   const codeVerifier = randomBase64Url(64);
   const codeChallenge = await createCodeChallenge(codeVerifier);
   const state = randomBase64Url(32);
   const nonce = randomBase64Url(32);
-  const safeReturnUrl = getSafeReturnUrl(returnUrl);
+  const safeReturnUrl = getSafeReturnUrl(returnUrl, flow);
+  const delegatedScope = getMicrosoftDelegatedScope(flow);
 
   const pending: PendingAuthentication = {
     codeVerifier,
     createdAt: Date.now(),
+    flow,
     nonce,
     redirectUri,
     returnUrl: safeReturnUrl,
@@ -128,7 +140,7 @@ export async function startMicrosoftAuthentication(returnUrl: string) {
     redirect_uri: redirectUri,
     response_mode: "query",
     response_type: "code",
-    scope: `openid profile email api://${clientId}/PrivateJournal.Read`,
+    scope: `openid profile email api://${clientId}/${delegatedScope}`,
     state,
   });
 
@@ -144,6 +156,7 @@ export async function completeMicrosoftAuthentication(
   if (!stored) throw new Error("The sign-in request has expired.");
 
   const pending = JSON.parse(stored) as PendingAuthentication;
+  const flow = parseMicrosoftAuthenticationFlow(pending.flow);
   if (
     returnedState !== pending.state ||
     Date.now() - pending.createdAt > 10 * 60 * 1000
@@ -152,6 +165,7 @@ export async function completeMicrosoftAuthentication(
   }
 
   const clientId = getClientId();
+  const delegatedScope = getMicrosoftDelegatedScope(flow);
   if (pending.redirectUri !== getRedirectUri()) {
     throw new Error("The sign-in callback does not match this site.");
   }
@@ -162,7 +176,7 @@ export async function completeMicrosoftAuthentication(
     code_verifier: pending.codeVerifier,
     grant_type: "authorization_code",
     redirect_uri: pending.redirectUri,
-    scope: `openid profile email api://${clientId}/PrivateJournal.Read`,
+    scope: `openid profile email api://${clientId}/${delegatedScope}`,
   });
   const response = await fetch(TOKEN_ENDPOINT, {
     body,
@@ -193,19 +207,21 @@ export async function completeMicrosoftAuthentication(
 
   return {
     accessToken: tokenResponse.access_token,
+    delegatedScope,
     expiresAt: Date.now() + tokenResponse.expires_in * 1000,
-    returnUrl: getSafeReturnUrl(pending.returnUrl),
+    returnUrl: getSafeReturnUrl(pending.returnUrl, flow),
   };
 }
 
 export function saveMicrosoftAuthenticationSession(
   accessToken: string,
-  expiresAt: number
+  expiresAt: number,
+  delegatedScope = PRIVATE_JOURNAL_READ_SCOPE
 ) {
   try {
     window.sessionStorage.setItem(
       MICROSOFT_AUTH_SESSION_STORAGE_KEY,
-      JSON.stringify({ accessToken, expiresAt })
+      JSON.stringify({ accessToken, delegatedScope, expiresAt })
     );
   } catch (error) {
     console.warn(

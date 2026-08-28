@@ -1,26 +1,23 @@
 import type { TripMeta } from "@/lib/trips";
 import { tripImage } from "@/lib/blob";
+import {
+  parseTripDocument,
+  tripDocumentToMeta,
+} from "@/lib/trip-document";
+import content from "./content.json";
 
 export const SLUG = "shaoxing-2025";
 
 export const img = (filename: string) => tripImage(SLUG, filename);
 
+export const document = parseTripDocument(content);
+
+if (document.slug !== SLUG) {
+  throw new Error(`Trip document slug "${document.slug}" does not match "${SLUG}"`);
+}
+
 export const meta: TripMeta = {
+  ...tripDocumentToMeta(document, img),
   slug: SLUG,
-  private: true,
-  date: "2025-03-28",
-  dateRange: "2025.03.28 — 03.30",
-  coverImage: img("cover-2026-08.png"),
-  title: {
-    zh: "绍兴 · 水巷墨香",
-    en: "Shaoxing · Canals and Ink",
-  },
-  subtitle: {
-    zh: "从鲁迅故里到曲水兰亭，沿着课本里的江南走一个周末",
-    en: "A weekend through the canals, courtyards, and calligraphy of familiar textbook pages",
-  },
-  location: {
-    zh: "中国 · 绍兴",
-    en: "Shaoxing, China",
-  },
+  private: document.metadata.private,
 };

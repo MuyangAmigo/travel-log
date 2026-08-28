@@ -1,0 +1,2815 @@
+{
+  "version": 1,
+  "slug": "tokyo-2025",
+  "metadata": {
+    "date": "2025-10-05",
+    "dateRange": "2025.10.05 — 10.10",
+    "title": {
+      "zh": "东京 · 海岸、迪士尼与买买买",
+      "en": "Tokyo · Coasts, Disney & a Shopping Spree"
+    },
+    "subtitle": {
+      "zh": "镰仓海风、新宿扫货、东京迪士尼海洋，还有香奈儿百年展的收尾",
+      "en": "Kamakura sea breeze, Shinjuku hauls, Tokyo DisneySea, and a Chanel century exhibition finale"
+    },
+    "location": {
+      "zh": "日本 · 东京",
+      "en": "Tokyo, Japan"
+    },
+    "private": true,
+    "coverImageId": "cover-2026-08"
+  },
+  "images": [
+    {
+      "id": "cover-2026-08",
+      "filename": "cover-2026-08.png",
+      "alt": {
+        "zh": "东京 · 海岸、迪士尼与买买买",
+        "en": "Tokyo · Coasts, Disney & a Shopping Spree"
+      }
+    },
+    {
+      "id": "day0-menya-musashi-ramen-receipts",
+      "filename": "day0-menya-musashi-ramen-receipts.jpeg",
+      "alt": {
+        "zh": "Menya Musashi ramen tickets",
+        "en": "Menya Musashi ramen tickets"
+      }
+    },
+    {
+      "id": "green-train-at-station",
+      "filename": "green-train-at-station.jpeg",
+      "alt": {
+        "zh": "Enoden green train",
+        "en": "Enoden green train"
+      }
+    },
+    {
+      "id": "coastal-stream-between-trees",
+      "filename": "coastal-stream-between-trees.jpeg",
+      "alt": {
+        "zh": "Coastal stream",
+        "en": "Coastal stream"
+      }
+    },
+    {
+      "id": "illuminated-japanese-temple-at-night",
+      "filename": "illuminated-japanese-temple-at-night.jpeg",
+      "alt": {
+        "zh": "Tsurugaoka Hachimangu at night",
+        "en": "Tsurugaoka Hachimangu at night"
+      }
+    },
+    {
+      "id": "urban-street-red-traffic-light",
+      "filename": "urban-street-red-traffic-light.jpeg",
+      "alt": {
+        "zh": "Komachi street red light",
+        "en": "Komachi street red light"
+      }
+    },
+    {
+      "id": "japanese-tonkatsu-set-meal",
+      "filename": "japanese-tonkatsu-set-meal.jpeg",
+      "alt": {
+        "zh": "Maisen tonkatsu set",
+        "en": "Maizara tonkatsu set"
+      }
+    },
+    {
+      "id": "gucci-bag-cafe-table",
+      "filename": "gucci-bag-cafe-table.jpeg",
+      "alt": {
+        "zh": "Cafe table",
+        "en": "Cafe table"
+      }
+    },
+    {
+      "id": "two-people-on-beach",
+      "filename": "two-people-on-beach.jpeg",
+      "alt": {
+        "zh": "Shonan beach",
+        "en": "Shonan beach"
+      }
+    },
+    {
+      "id": "two-people-wearing-patterned-aprons",
+      "filename": "two-people-wearing-patterned-aprons.jpeg",
+      "alt": {
+        "zh": "Grill aprons",
+        "en": "Grill aprons"
+      }
+    },
+    {
+      "id": "wagyu-beef-slices-platter",
+      "filename": "wagyu-beef-slices-platter.jpeg",
+      "alt": {
+        "zh": "Wagyu platter",
+        "en": "Wagyu platter"
+      }
+    },
+    {
+      "id": "shrimp-and-scallops-on-grill",
+      "filename": "shrimp-and-scallops-on-grill.jpeg",
+      "alt": {
+        "zh": "Shrimp scallops grill",
+        "en": "Shrimp scallops grill"
+      }
+    },
+    {
+      "id": "japanese-wall-art-interior",
+      "filename": "japanese-wall-art-interior.jpeg",
+      "alt": {
+        "zh": "Restaurant wall art",
+        "en": "Restaurant wall art"
+      }
+    },
+    {
+      "id": "mont-bell-black-jacket",
+      "filename": "mont-bell-black-jacket.jpeg",
+      "alt": {
+        "zh": "Montbell jacket",
+        "en": "Montbell jacket"
+      }
+    },
+    {
+      "id": "on-running-shoes-box",
+      "filename": "on-running-shoes-box.jpeg",
+      "alt": {
+        "zh": "On shoes",
+        "en": "On shoes"
+      }
+    },
+    {
+      "id": "folded-north-face-tshirt",
+      "filename": "folded-north-face-tshirt.jpeg",
+      "alt": {
+        "zh": "North Face tee",
+        "en": "North Face tee"
+      }
+    },
+    {
+      "id": "white-sneakers-on-shoebox",
+      "filename": "white-sneakers-on-shoebox.jpeg",
+      "alt": {
+        "zh": "Salomon XT Whisper",
+        "en": "Salomon XT Whisper"
+      }
+    },
+    {
+      "id": "gray-tapered-leg-jeans",
+      "filename": "gray-tapered-leg-jeans.jpeg",
+      "alt": {
+        "zh": "UA jeans",
+        "en": "UA jeans"
+      }
+    },
+    {
+      "id": "folded-black-graphic-tshirts",
+      "filename": "folded-black-graphic-tshirts.jpeg",
+      "alt": {
+        "zh": "Black tees",
+        "en": "Black tees"
+      }
+    },
+    {
+      "id": "day3-yoyogi-street",
+      "filename": "day3-yoyogi-street.jpeg",
+      "alt": {
+        "zh": "Yoyogi street",
+        "en": "Yoyogi street"
+      }
+    },
+    {
+      "id": "day3-meiji-jingu-poem-board",
+      "filename": "day3-meiji-jingu-poem-board.jpeg",
+      "alt": {
+        "zh": "Meiji poem board",
+        "en": "Meiji poem board"
+      }
+    },
+    {
+      "id": "day3-tokyo-street-trees",
+      "filename": "day3-tokyo-street-trees.jpeg",
+      "alt": {
+        "zh": "Tokyo tree-lined street",
+        "en": "Tokyo tree-lined street"
+      }
+    },
+    {
+      "id": "arcteryx-paygate-store-receipt",
+      "filename": "arcteryx-paygate-store-receipt.jpeg",
+      "alt": {
+        "zh": "Arcteryx receipt",
+        "en": "Arcteryx receipt"
+      }
+    },
+    {
+      "id": "don-quijote-shopping-bag",
+      "filename": "don-quijote-shopping-bag.jpeg",
+      "alt": {
+        "zh": "Don Quijote bag",
+        "en": "Don Quijote bag"
+      }
+    },
+    {
+      "id": "day4-disney-resort-line-tickets",
+      "filename": "day4-disney-resort-line-tickets.jpeg",
+      "alt": {
+        "zh": "Disney monorail tickets",
+        "en": "Disney monorail tickets"
+      }
+    },
+    {
+      "id": "day4-fortress-ship-ride",
+      "filename": "day4-fortress-ship-ride.jpeg",
+      "alt": {
+        "zh": "Fortress ship ride",
+        "en": "Fortress ship ride"
+      }
+    },
+    {
+      "id": "day4-arabian-coast",
+      "filename": "day4-arabian-coast.jpeg",
+      "alt": {
+        "zh": "Arabian coast",
+        "en": "Arabian coast"
+      }
+    },
+    {
+      "id": "day4-tower-of-terror-hotel",
+      "filename": "day4-tower-of-terror-hotel.jpeg",
+      "alt": {
+        "zh": "Tower of Terror hotel",
+        "en": "Tower of Terror hotel"
+      }
+    },
+    {
+      "id": "day4-tangled-lantern-ride",
+      "filename": "day4-tangled-lantern-ride.jpeg",
+      "alt": {
+        "zh": "Tangled lanterns ride",
+        "en": "Tangled lanterns ride"
+      }
+    },
+    {
+      "id": "day4-mermaid-lagoon-night",
+      "filename": "day4-mermaid-lagoon-night.jpeg",
+      "alt": {
+        "zh": "Mermaid lagoon at night",
+        "en": "Mermaid lagoon at night"
+      }
+    },
+    {
+      "id": "day4-tower-of-terror-ride-photo",
+      "filename": "day4-tower-of-terror-ride-photo.jpeg",
+      "alt": {
+        "zh": "Tower of Terror ride photo",
+        "en": "Tower of Terror ride photo"
+      }
+    },
+    {
+      "id": "day4-tower-of-terror-dpa-ticket",
+      "filename": "day4-tower-of-terror-dpa-ticket.jpeg",
+      "alt": {
+        "zh": "Tower of Terror DPA",
+        "en": "Tower of Terror DPA"
+      }
+    },
+    {
+      "id": "day4-night-fountain-show",
+      "filename": "day4-night-fountain-show.jpeg",
+      "alt": {
+        "zh": "Night fountain show",
+        "en": "Night fountain show"
+      }
+    },
+    {
+      "id": "day4-disney-night-selfie",
+      "filename": "day4-disney-night-selfie.jpeg",
+      "alt": {
+        "zh": "Disney night selfie",
+        "en": "Disney night selfie"
+      }
+    },
+    {
+      "id": "pink-plush-toys-with-stickers",
+      "filename": "pink-plush-toys-with-stickers.png",
+      "alt": {
+        "zh": "Disney plush",
+        "en": "Disney plush"
+      }
+    },
+    {
+      "id": "day5-ginza-cocoon-tower",
+      "filename": "day5-ginza-cocoon-tower.jpeg",
+      "alt": {
+        "zh": "Ginza Cocoon",
+        "en": "Ginza Cocoon"
+      }
+    },
+    {
+      "id": "day5-chanel-19m-tokyo-banner",
+      "filename": "day5-chanel-19m-tokyo-banner.jpeg",
+      "alt": {
+        "zh": "Chanel 19M Tokyo banner",
+        "en": "Chanel 19M Tokyo banner"
+      }
+    },
+    {
+      "id": "day5-chanel-exhibition-outfits",
+      "filename": "day5-chanel-exhibition-outfits.jpeg",
+      "alt": {
+        "zh": "Chanel exhibition outfits",
+        "en": "Chanel exhibition outfits"
+      }
+    },
+    {
+      "id": "day5-mori-art-museum",
+      "filename": "day5-mori-art-museum.jpeg",
+      "alt": {
+        "zh": "Mori Art Museum",
+        "en": "Mori Art Museum"
+      }
+    },
+    {
+      "id": "black-louis-vuitton-handbag-cat",
+      "filename": "black-louis-vuitton-handbag-cat.jpeg",
+      "alt": {
+        "zh": "LV Keepall",
+        "en": "LV Keepall"
+      }
+    },
+    {
+      "id": "folded-black-puffer-jacket",
+      "filename": "folded-black-puffer-jacket.jpeg",
+      "alt": {
+        "zh": "Canada Goose",
+        "en": "Canada Goose"
+      }
+    },
+    {
+      "id": "louis-vuitton-wallet-box",
+      "filename": "louis-vuitton-wallet-box.jpeg",
+      "alt": {
+        "zh": "LV wallet",
+        "en": "LV wallet"
+      }
+    },
+    {
+      "id": "lancome-skincare-products-flatlay",
+      "filename": "lancome-skincare-products-flatlay.jpeg",
+      "alt": {
+        "zh": "Skincare flatlay",
+        "en": "Skincare flatlay"
+      }
+    },
+    {
+      "id": "kanebo-sealed-cosmetic-sample",
+      "filename": "kanebo-sealed-cosmetic-sample.jpeg",
+      "alt": {
+        "zh": "Kanebo sample",
+        "en": "Kanebo sample"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview"
+    },
+    {
+      "id": "arrival"
+    },
+    {
+      "id": "kamakura-coast"
+    },
+    {
+      "id": "kamakura-evening"
+    },
+    {
+      "id": "shinjuku"
+    },
+    {
+      "id": "city-walk"
+    },
+    {
+      "id": "disneysea-day"
+    },
+    {
+      "id": "disneysea-night"
+    },
+    {
+      "id": "chanel-and-department-stores"
+    },
+    {
+      "id": "shopping-records"
+    },
+    {
+      "id": "shared-expenses"
+    },
+    {
+      "id": "closing"
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "cover-cover-1",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🇯🇵 ✈️ 🏯",
+            "en": "🇯🇵 ✈️ 🏯"
+          },
+          "title": {
+            "zh": "海岸、迪士尼与买买买",
+            "en": "Coasts, Disney & a Shopping Spree"
+          },
+          "subtitle": {
+            "zh": "Travel Journal",
+            "en": "Travel Journal"
+          },
+          "date": {
+            "zh": "2025.10.05 — 10.10",
+            "en": "2025.10.05 — 10.10"
+          },
+          "intro": {
+            "zh": "「走过的路会记得，\n买过的东西会记得，\n在东京的每一天都值得记一笔」",
+            "en": "“The roads you walk will remember you.\nThe things you buy will remember you.\nEvery day in Tokyo deserves a line in the ledger.”"
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "separators": true,
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "JAPAN\n2025",
+              "en": "JAPAN\n2025"
+            }
+          },
+          "boxStamp": {
+            "zh": "BOARDING PASS",
+            "en": "BOARDING PASS"
+          },
+          "boxStampSpacing": "relaxed"
+        }
+      ]
+    },
+    {
+      "id": "arrival",
+      "sectionId": "arrival",
+      "blocks": [
+        {
+          "id": "arrival-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "0",
+            "en": "0"
+          },
+          "title": {
+            "zh": "出发 & 落地",
+            "en": "Departure & Arrival"
+          },
+          "subtitle": {
+            "zh": "Sunday, October 5th · Shanghai ✈️ Tokyo",
+            "en": "Sunday, October 5th · Shanghai ✈️ Tokyo"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "arrival-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "早上一个麦当劳匆匆出发，开车直奔浦东。机场免税店扫了根雪茄，还顺便尝了一把 O'Mills 的面包——强烈推荐给所有机场面包党。落地东京已经入夜，第一顿直奔高田馬場的麺屋武蔵，三张机打小票叠在一起，旅途就这样开始了。",
+              "en": "Quick McDonald's breakfast, then a car straight to Pudong. Picked up a Davidoff cigar in the duty-free shop and discovered O'Mills bakery at the terminal — easily the best airport bread I've had, total recommendation for any bread-in-transit person. Landed in Tokyo after dark; first stop was Menya Musashi in Takadanobaba. Three tickets stacked up, and the trip was officially on."
+            }
+          ]
+        },
+        {
+          "id": "arrival-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 16
+          },
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day0-menya-musashi-ramen-receipts",
+              "alt": {
+                "zh": "Menya Musashi ramen tickets",
+                "en": "Menya Musashi ramen tickets"
+              },
+              "caption": {
+                "zh": "落地第一顿：麺屋武蔵 高田馬場",
+                "en": "First meal on the ground: Menya Musashi, Takadanobaba"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "arrival-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "arrival-timeline-5",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "arrival-timeline-1",
+              "time": {
+                "zh": "上午",
+                "en": "Morning"
+              },
+              "event": {
+                "zh": "麦当劳早餐，开车出发浦东",
+                "en": "McDonald's breakfast, drive to Pudong"
+              },
+              "detail": {
+                "zh": "国庆的第一天，闹钟比假期还早",
+                "en": "National Day begins — alarm clock earlier than the holiday"
+              }
+            },
+            {
+              "id": "arrival-timeline-2",
+              "time": {
+                "zh": "午间",
+                "en": "Midday"
+              },
+              "event": {
+                "zh": "浦东机场 T2 候机",
+                "en": "Pudong T2, boarding pass in hand"
+              },
+              "detail": {
+                "zh": "免税店扫了一根 Davidoff 雪茄；O'Mills 面包强烈推荐",
+                "en": "Duty-free Davidoff; O'Mills bakery, highly recommended"
+              }
+            },
+            {
+              "id": "arrival-timeline-3",
+              "time": {
+                "zh": "傍晚",
+                "en": "Evening"
+              },
+              "event": {
+                "zh": "落地东京",
+                "en": "Touched down in Tokyo"
+              },
+              "detail": {
+                "zh": "入境排队，出关打车去酒店",
+                "en": "Immigration, taxi to the hotel"
+              }
+            },
+            {
+              "id": "arrival-timeline-4",
+              "time": {
+                "zh": "夜间",
+                "en": "Night"
+              },
+              "event": {
+                "zh": "麺屋武蔵 高田馬場",
+                "en": "Menya Musashi, Takadanobaba"
+              },
+              "detail": {
+                "zh": "三张机厚小票，吃完满血复活 🍜",
+                "en": "Three tickets thick, fully recharged 🍜"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kamakura-coast",
+      "sectionId": "kamakura-coast",
+      "blocks": [
+        {
+          "id": "kamakura-coast-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "镰仓海岸 · 上",
+            "en": "Kamakura Coast · I"
+          },
+          "subtitle": {
+            "zh": "Monday, October 6th · 江之岛 · 七里滨",
+            "en": "Monday, October 6th · Enoshima · Shichirigahama"
+          },
+          "icon": "⛅"
+        },
+        {
+          "id": "kamakura-coast-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "便利店抓两个饭团当早餐，从东京坐到大船换倒挂电车。江之岛上吃冰淇淋和布丁，商店街随便走走；七里滨找了家能看海的海边餐厅吃饭——本来应该能看富士山，可惜那天云层太厚，残念。",
+              "en": "Two onigiri from the convenience store for breakfast, then JR from central Tokyo to Ofuna, switching onto the Shonan Monorail. Ice cream and pudding on Enoshima, then a slow walk through the shopping street. Lunch at a seaside restaurant in Shichirigahama — the one famous for its Mount Fuji view, except the clouds rolled in and Fuji-san played shy all afternoon."
+            }
+          ]
+        },
+        {
+          "id": "kamakura-coast-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "green-train-at-station",
+              "alt": {
+                "zh": "Enoden green train",
+                "en": "Enoden green train"
+              },
+              "caption": {
+                "zh": "江之电 —— 镰仓的标志",
+                "en": "The Enoden hanging train — Kamakura's signature"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            },
+            {
+              "imageId": "coastal-stream-between-trees",
+              "alt": {
+                "zh": "Coastal stream",
+                "en": "Coastal stream"
+              },
+              "caption": {
+                "zh": "海岸线边的林间小溪",
+                "en": "A tree-shaded stream down to the coast"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "kamakura-coast-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🍦"
+        },
+        {
+          "id": "kamakura-coast-prose-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "江之岛上的冰淇淋和布丁是正经的甜品店水准，海风吹着吃特别舒服。商店街里能逛半小时，节奏刚刚好。",
+              "en": "The ice cream and pudding on Enoshima are legit dessert-shop quality — eating them in the sea breeze hits differently. The shopping street is good for a 30-minute wander; the pace is just right."
+            }
+          ]
+        },
+        {
+          "id": "kamakura-coast-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🚃 镰仓交通 Tips",
+            "en": "🚃 Getting around Kamakura"
+          },
+          "body": {
+            "zh": "从东京市区坐 JR 到大船，换江之岛电铁（倒挂电车）一票玩一天。沿线每一站都能下：长谷、极乐寺、镰仓、江之岛都值得停。江之电发车间隔大约 12 分钟，不用死守时刻表。",
+            "en": "Take the JR to Ofuna, then transfer to the Enoden (hanging train) — one day pass, hop on and off. Every stop is worth a look: Hase, Gokurakuji, Kamakura, Enoshima. Trains run about every 12 minutes, so no need to memorize the timetable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kamakura-evening",
+      "sectionId": "kamakura-evening",
+      "blocks": [
+        {
+          "id": "kamakura-evening-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "镰仓海岸 · 下",
+            "en": "Kamakura Coast · II"
+          },
+          "subtitle": {
+            "zh": "极乐寺 · 长谷寺 · 小町通 · 鹤冈八幡宫",
+            "en": "Gokurakuji · Hase · Komachi-dōri · Tsurugaoka Hachimangū"
+          },
+          "icon": "🌇"
+        },
+        {
+          "id": "kamakura-evening-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "极乐寺的门洞特别小，进去买了本御朱印本子；长谷寺顾着写御朱印，结果一抬头发现忘记去看镰仓大佛了……小町通买了一包鸽子饼干，造型很特别，推荐试试。晚上回到鹤冈八幡宫看夜景，灯打下来又是另一番味道，最后用舞泉炸猪排收尾。",
+              "en": "Gokurakuji's temple gate is so small you almost miss it; bought a goshuin book inside. At Hase-ji I got so absorbed writing my goshuin that I completely forgot to walk over to the Great Buddha — classic travel-brain fail. Komachi-dōri rewarded me with a bag of pigeon-shaped cookies, absolutely worth a try. Tsurugaoka Hachimangū at night hits different under the lights, and Maisen tonkatsu was the perfect closing act."
+            }
+          ]
+        },
+        {
+          "id": "kamakura-evening-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "illuminated-japanese-temple-at-night",
+              "alt": {
+                "zh": "Tsurugaoka Hachimangu at night",
+                "en": "Tsurugaoka Hachimangu at night"
+              },
+              "caption": {
+                "zh": "鹤冈八幡宫的夜色 —— 走完镰仓的句号",
+                "en": "Tsurugaoka Hachimangū at night — Kamakura's full stop"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "kamakura-evening-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "urban-street-red-traffic-light",
+              "alt": {
+                "zh": "Komachi street red light",
+                "en": "Komachi street red light"
+              },
+              "caption": {
+                "zh": "小町通的红绿灯街角",
+                "en": "A red light on Komachi-dōri"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "japanese-tonkatsu-set-meal",
+              "alt": {
+                "zh": "Maisen tonkatsu set",
+                "en": "Maizara tonkatsu set"
+              },
+              "caption": {
+                "zh": "舞泉炸猪排 —— 镰仓的完美收尾 🍛",
+                "en": "Maizara tonkatsu — Kamakura's perfect ending 🍛"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "kamakura-evening-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "gucci-bag-cafe-table",
+              "alt": {
+                "zh": "Cafe table",
+                "en": "Cafe table"
+              },
+              "caption": {
+                "zh": "路边咖啡馆",
+                "en": "A street-side café"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "two-people-on-beach",
+              "alt": {
+                "zh": "Shonan beach",
+                "en": "Shonan beach"
+              },
+              "caption": {
+                "zh": "七里滨的海岸",
+                "en": "The Shichirigahama shore"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "kamakura-evening-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "⚠️ 长谷寺的教训",
+            "en": "⚠️ Hase-ji lesson learned"
+          },
+          "body": {
+            "zh": "写御朱印很上头，但千万别在长谷寺正殿停留太久——镰仓大佛就在隔壁几步路。我们光顾着盖章，回头已经累到走不动，佛像就这么错过了。下次先看佛再盖章。",
+            "en": "Goshuin-stamping is hypnotic, but don't linger too long in Hase-ji's main hall — the Great Buddha is literally a few steps away. We were so focused on the calligraphy that by the time we thought of the Buddha, our feet had given out. See the Buddha first, then go back for the stamp."
+          }
+        },
+        {
+          "id": "kamakura-evening-route-7",
+          "type": "route",
+          "spacing": {
+            "bottom": 8
+          },
+          "compact": true,
+          "stops": [
+            {
+              "id": "kamakura-evening-stop-1",
+              "icon": "🏨",
+              "label": {
+                "zh": "酒店",
+                "en": "Hotel"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-2",
+              "icon": "🚃",
+              "label": {
+                "zh": "江之电",
+                "en": "Enoden"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-3",
+              "icon": "🏝️",
+              "label": {
+                "zh": "江之岛",
+                "en": "Enoshima"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-4",
+              "icon": "🌊",
+              "label": {
+                "zh": "七里滨",
+                "en": "Shichirigahama"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-5",
+              "icon": "⛩️",
+              "label": {
+                "zh": "极乐寺",
+                "en": "Gokurakuji"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-6",
+              "icon": "🛕",
+              "label": {
+                "zh": "长谷寺",
+                "en": "Hase-ji"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-7",
+              "icon": "🛍️",
+              "label": {
+                "zh": "小町通",
+                "en": "Komachi-dōri"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-8",
+              "icon": "🌙",
+              "label": {
+                "zh": "八幡宫",
+                "en": "Hachimangū"
+              }
+            },
+            {
+              "id": "kamakura-evening-stop-9",
+              "icon": "🍛",
+              "label": {
+                "zh": "舞泉",
+                "en": "Maizara"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shinjuku",
+      "sectionId": "shinjuku",
+      "blocks": [
+        {
+          "id": "shinjuku-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "新宿大扫货 & 烤肉",
+            "en": "Shinjuku Shopping Spree & Yakiniku"
+          },
+          "subtitle": {
+            "zh": "Tuesday, October 7th · 新宿 · 六歌仙",
+            "en": "Tuesday, October 7th · Shinjuku · Rokkasen"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "shinjuku-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "睡到自然醒，下午直奔新宿。午饭用一顿六歌仙的和牛烤肉回血，人均 406 RMB；接着一整个下午用来扫货：石井运动收了一件始祖鸟短袖，Montbell 拿下了雷霆冲锋衣加一堆滑雪配件，United Arrows 拎走北面紫标卫衣和牛仔裤，City Tokyo 给宝子配了一身，Salomon XT Whisper 和昂跑 x4 全部到手，最后优衣库把打底衫、内裤、袜子打包。一天下来脚都走麻了，晚上马杀鸡放松，末了博多风龙拉面收尾。",
+              "en": "Slept in, then headed straight to Shinjuku after lunch. Rokkasen's wagyu yakiniku recharged us for the afternoon — ¥406 per person. Then the spending began: an Arc'teryx tee at Ishii Sports, the Montbell Thunder Pass and ski accessories, a Purple Label sweatshirt and jeans at United Arrows, a full outfit for my partner at City Tokyo, the Salomon XT Whisper and four pairs of On runners, and basics at Uniqlo. Feet were numb by dinner; a quick massage sorted it out. Hakata Furyu ramen closed the night."
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "two-people-wearing-patterned-aprons",
+              "alt": {
+                "zh": "Grill aprons",
+                "en": "Grill aprons"
+              },
+              "caption": {
+                "zh": "六歌仙的围裙 —— 准备开烤",
+                "en": "Rokkasen aprons — about to start grilling"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            },
+            {
+              "imageId": "wagyu-beef-slices-platter",
+              "alt": {
+                "zh": "Wagyu platter",
+                "en": "Wagyu platter"
+              },
+              "caption": {
+                "zh": "和牛拼盘 🥩",
+                "en": "Wagyu platter 🥩"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "shrimp-and-scallops-on-grill",
+              "alt": {
+                "zh": "Shrimp scallops grill",
+                "en": "Shrimp scallops grill"
+              },
+              "caption": {
+                "zh": "大虾和带子",
+                "en": "Shrimp and scallops on the grill"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "japanese-wall-art-interior",
+              "alt": {
+                "zh": "Restaurant wall art",
+                "en": "Restaurant wall art"
+              },
+              "caption": {
+                "zh": "店内浮世绘",
+                "en": "Ukiyo-e wall art inside"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-divider-5",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "🛍️"
+        },
+        {
+          "id": "shinjuku-prose-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "新宿一站把户外装备、配饰、基础款全部扫齐，回酒店直接堆成小山。",
+              "en": "Shinjuku sorted outdoor gear, accessories, and basics in a single afternoon. The hotel-room haul looked like a small mountain."
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-shopping-7",
+          "type": "shopping",
+          "spacing": {
+            "top": 16
+          },
+          "products": [
+            {
+              "id": "shinjuku-product-1",
+              "imageId": "mont-bell-black-jacket",
+              "name": {
+                "zh": "Montbell 雷霆冲锋衣",
+                "en": "Montbell Thunder Pass"
+              },
+              "price": {
+                "zh": "¥ 640 · 14,800 JPY",
+                "en": "¥ 640 · 14,800 JPY"
+              },
+              "detail": {
+                "zh": "Thunder Pass · 国庆的当家战利品",
+                "en": "The MVP of the National Day haul"
+              }
+            },
+            {
+              "id": "shinjuku-product-2",
+              "imageId": "on-running-shoes-box",
+              "name": {
+                "zh": "On 昂跑 x4",
+                "en": "On Cloud runners ×4"
+              },
+              "price": {
+                "zh": "¥ 892 · 19,380 JPY",
+                "en": "¥ 892 · 19,380 JPY"
+              },
+              "detail": {
+                "zh": "给自己一双，给家人三双",
+                "en": "One for me, three for the family"
+              }
+            },
+            {
+              "id": "shinjuku-product-3",
+              "imageId": "folded-north-face-tshirt",
+              "name": {
+                "zh": "北面紫标长袖",
+                "en": "Purple Label long-sleeve"
+              },
+              "price": {
+                "zh": "¥ 470 · 10,200 JPY",
+                "en": "¥ 470 · 10,200 JPY"
+              },
+              "detail": {
+                "zh": "United Arrows 限定",
+                "en": "United Arrows limited"
+              }
+            },
+            {
+              "id": "shinjuku-product-4",
+              "imageId": "white-sneakers-on-shoebox",
+              "name": {
+                "zh": "Salomon XT Whisper",
+                "en": "Salomon XT Whisper"
+              },
+              "price": {
+                "zh": "¥ 939 · 20,400 JPY",
+                "en": "¥ 939 · 20,400 JPY"
+              },
+              "detail": {
+                "zh": "越野鞋里的时装单品",
+                "en": "Trail shoe meets fashion statement"
+              }
+            },
+            {
+              "id": "shinjuku-product-5",
+              "imageId": "gray-tapered-leg-jeans",
+              "name": {
+                "zh": "United Arrows 牛仔裤",
+                "en": "United Arrows jeans"
+              },
+              "price": {
+                "zh": "¥ 850 · 18,462 JPY",
+                "en": "¥ 850 · 18,462 JPY"
+              },
+              "detail": {
+                "zh": "修身版型很合身",
+                "en": "Slim fit, surprisingly comfortable"
+              }
+            },
+            {
+              "id": "shinjuku-product-6",
+              "imageId": "folded-black-graphic-tshirts",
+              "name": {
+                "zh": "始祖鸟短袖 x2",
+                "en": "Arc'teryx tees ×2"
+              },
+              "price": {
+                "zh": "¥ 1,012",
+                "en": "¥ 1,012"
+              },
+              "detail": {
+                "zh": "石井运动拿下",
+                "en": "From Ishii Sports"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-note-8",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🛒 新宿扫货 Tips",
+            "en": "🛒 Shinjuku shopping tips"
+          },
+          "body": {
+            "zh": "Montbell 和 United Arrows 在新宿都有旗舰店，Outlet 款比百货便宜。优衣库新宿店货最全，结账时记得扫免税。Montbell 退税排队大概 15 分钟，工作日午后人最少。",
+            "en": "Montbell and United Arrows both have flagship stores in Shinjuku, with outlet prices noticeably lower than the department stores. The Uniqlo Shinjuku branch has the fullest stock — remember to scan for tax-free at checkout. Tax-refund queue at Montbell runs about 15 minutes; least crowded weekday afternoons."
+          }
+        },
+        {
+          "id": "shinjuku-route-9",
+          "type": "route",
+          "spacing": {
+            "bottom": 8
+          },
+          "compact": true,
+          "stops": [
+            {
+              "id": "shinjuku-stop-1",
+              "icon": "🏨",
+              "label": {
+                "zh": "酒店",
+                "en": "Hotel"
+              }
+            },
+            {
+              "id": "shinjuku-stop-2",
+              "icon": "🥩",
+              "label": {
+                "zh": "六歌仙",
+                "en": "Rokkasen"
+              }
+            },
+            {
+              "id": "shinjuku-stop-3",
+              "icon": "🧗",
+              "label": {
+                "zh": "石井运动",
+                "en": "Ishii Sports"
+              }
+            },
+            {
+              "id": "shinjuku-stop-4",
+              "icon": "🧥",
+              "label": {
+                "zh": "Montbell",
+                "en": "Montbell"
+              }
+            },
+            {
+              "id": "shinjuku-stop-5",
+              "icon": "👔",
+              "label": {
+                "zh": "UA",
+                "en": "United Arrows"
+              }
+            },
+            {
+              "id": "shinjuku-stop-6",
+              "icon": "👖",
+              "label": {
+                "zh": "City",
+                "en": "City Tokyo"
+              }
+            },
+            {
+              "id": "shinjuku-stop-7",
+              "icon": "👟",
+              "label": {
+                "zh": "Salomon",
+                "en": "Salomon"
+              }
+            },
+            {
+              "id": "shinjuku-stop-8",
+              "icon": "👕",
+              "label": {
+                "zh": "优衣库",
+                "en": "Uniqlo"
+              }
+            },
+            {
+              "id": "shinjuku-stop-9",
+              "icon": "💆",
+              "label": {
+                "zh": "马杀鸡",
+                "en": "Massage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-walk",
+      "sectionId": "city-walk",
+      "blocks": [
+        {
+          "id": "city-walk-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "City Walk & 表参道",
+            "en": "City Walk & Omotesandō"
+          },
+          "subtitle": {
+            "zh": "Wednesday, October 8th · 代代木 · 明治神宫 · 表参道",
+            "en": "Wednesday, October 8th · Yoyogi · Meiji Jingū · Omotesandō"
+          },
+          "icon": "🍂"
+        },
+        {
+          "id": "city-walk-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "燕子咖啡的美式有点酸、口感一般，但 Verve 的 Signature 拿铁真的好喝，强烈推荐。代代木公园很安静，从苍天大树之间穿过去就走到了明治神宫本殿。下午转战表参道，鸟店收了两件短袖，晚上在 Renee 和宝子吃了七轮烤肉牛繁，堂吉诃德补了一批药妆。",
+              "en": "Tsubame Coffee's Americano was a touch too sour for me, but Verve's Signature Latte is excellent — easy recommendation. Yoyogi Park was calm and golden; walking between the ancient trees, you end up right at the main hall of Meiji Jingū. Afternoon was all about Omotesandō: two Arc'teryx tees from the Paygate store. Dinner was shichirin yakiniku Ushigushi with friends at Renee. Closed out the day with a Don Quijote drugstore run for about ¥600 of skincare."
+            }
+          ]
+        },
+        {
+          "id": "city-walk-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day3-yoyogi-street",
+              "alt": {
+                "zh": "Yoyogi street",
+                "en": "Yoyogi street"
+              },
+              "caption": {
+                "zh": "代代木公园方向的车道",
+                "en": "Road toward Yoyogi Park"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            },
+            {
+              "imageId": "day3-meiji-jingu-poem-board",
+              "alt": {
+                "zh": "Meiji poem board",
+                "en": "Meiji poem board"
+              },
+              "caption": {
+                "zh": "明治神宫 明治天皇御製",
+                "en": "Emperor Meiji's poem at the shrine"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "city-walk-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day3-tokyo-street-trees",
+              "alt": {
+                "zh": "Tokyo tree-lined street",
+                "en": "Tokyo tree-lined street"
+              },
+              "caption": {
+                "zh": "高架桥下的林荫道",
+                "en": "A tree-lined street under the expressway"
+              },
+              "shape": "hero",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "city-walk-divider-5",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "🧥"
+        },
+        {
+          "id": "city-walk-prose-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "表参道始祖鸟：黑色短袖 13000 JPY（598 RMB），灰色短袖 9000 JPY（414 RMB）。黑色更显瘦，灰色更百搭，两件都值得入。",
+              "en": "Arc'teryx Omotesandō: black tee 13,000 JPY (¥598), gray tee 9,000 JPY (¥414). Black is sleeker; gray is more versatile. Both are worth it."
+            }
+          ]
+        },
+        {
+          "id": "city-walk-gallery-7",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "arcteryx-paygate-store-receipt",
+              "alt": {
+                "zh": "Arcteryx receipt",
+                "en": "Arcteryx receipt"
+              },
+              "caption": {
+                "zh": "表参道始祖鸟 Paygate 小票",
+                "en": "Paygate store receipt"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "don-quijote-shopping-bag",
+              "alt": {
+                "zh": "Don Quijote bag",
+                "en": "Don Quijote bag"
+              },
+              "caption": {
+                "zh": "堂吉诃德药妆 600 RMB 装袋",
+                "en": "Don Quijote drugstore haul"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "city-walk-note-8",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "☕ Verve Coffee",
+            "en": "☕ Verve Coffee"
+          },
+          "body": {
+            "zh": "代代木公园南侧的 Verve 是这次行程里最满意的咖啡，Signature 拿铁奶泡绵密、咖啡味扎实。代代木八幡宫可以顺路逛一圈，小而安静，适合坐下来发呆。",
+            "en": "Verve, just south of Yoyogi Park, was the best coffee of the trip — the Signature Latte is rich and creamy with serious espresso backbone. Yoyogi Hachiman-gū is a quiet shrine worth a quick stop on the way back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "disneysea-day",
+      "sectionId": "disneysea-day",
+      "blocks": [
+        {
+          "id": "disneysea-day-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "东京迪士尼海洋 · 白天",
+            "en": "Tokyo DisneySea · Daytime"
+          },
+          "subtitle": {
+            "zh": "Thursday, October 9th · Tokyo DisneySea",
+            "en": "Thursday, October 9th · Tokyo DisneySea"
+          },
+          "icon": "⛅"
+        },
+        {
+          "id": "disneysea-day-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "麦当劳快速吃完早餐，坐上迪士尼度假区线入园。上午一开园直奔小飞侠（用了 DPA 2000 JPY），体验有点像变形金刚 3D Ride，推荐；午餐在 Lookout 解决，味道很一般。下午冰雪奇缘没抢到 DPA，排了将近两小时的水上小船，剧情还行但时间太长。Aquatopia 水上旋转小车排队不长，可以放松一下；Nemo 下午五点才去，半小时就排到了，像小黄人风格很好玩；海底两万里坐小潜艇下潜，看海底生物和失落古文明，排队只要 20 分钟，强推。阿拉丁音乐剧简短但音乐好听。",
+              "en": "Fast McDonald's breakfast, then the Disney Resort Line monorail into the park. Right at rope-drop, Peter Pan (DPA at 2,000 JPY) — feels like a 3D Transformers ride, easy recommendation. Lunch at Lookout was nothing to write home about. Frozen: no DPA, so we waited about two hours for the boat ride; the story is fine but it runs long. Aquatopia had a short line, a fun way to cool down. Nemo around 5 PM, only a 30-minute wait — Minions-style, very fun. 20,000 Leagues submarine dive, 20-minute line, lost civilization and reef fish, easy pick. Aladdin musical was short but the music was strong."
+            }
+          ]
+        },
+        {
+          "id": "disneysea-day-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-disney-resort-line-tickets",
+              "alt": {
+                "zh": "Disney monorail tickets",
+                "en": "Disney monorail tickets"
+              },
+              "caption": {
+                "zh": "迪士尼度假区线单程票",
+                "en": "Disney Resort Line single tickets"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            },
+            {
+              "imageId": "day4-fortress-ship-ride",
+              "alt": {
+                "zh": "Fortress ship ride",
+                "en": "Fortress ship ride"
+              },
+              "caption": {
+                "zh": "要塞探险里的木质船",
+                "en": "Wooden ship at Fortress Explorations"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-day-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-arabian-coast",
+              "alt": {
+                "zh": "Arabian coast",
+                "en": "Arabian coast"
+              },
+              "caption": {
+                "zh": "阿拉伯海岸的穹顶 🕌",
+                "en": "Arabian Coast's domes 🕌"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "day4-tower-of-terror-hotel",
+              "alt": {
+                "zh": "Tower of Terror hotel",
+                "en": "Tower of Terror hotel"
+              },
+              "caption": {
+                "zh": "惊魂古堡外景",
+                "en": "Tower of Terror in daylight"
+              },
+              "shape": "square",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-day-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day4-tangled-lantern-ride",
+              "alt": {
+                "zh": "Tangled lanterns ride",
+                "en": "Tangled lanterns ride"
+              },
+              "caption": {
+                "zh": "天灯 —— 坐在小船里抬头看满天灯火",
+                "en": "Tangled lanterns — floating lights from a little boat"
+              },
+              "shape": "hero",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-day-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🎟️ DPA 使用心得",
+            "en": "🎟️ DPA strategy"
+          },
+          "body": {
+            "zh": "国庆假期的迪士尼海洋，DPA 是真金白银换时间。推荐优先抢小飞侠和天灯，一个 3D 一个水上小船，体验都值。冰雪奇缘热门到 DPA 秒空，普通排队 2 小时起步，但坐到就是赚。",
+            "en": "During a National Day week, DPA is the only way to keep your sanity. Priority: Peter Pan and Tangled — one is a 3D ride and the other a boat ride, and both are absolutely worth the upcharge. Frozen's DPA sells out instantly; standby hovers around 2 hours, but it's still worth it if you time it right."
+          }
+        }
+      ]
+    },
+    {
+      "id": "disneysea-night",
+      "sectionId": "disneysea-night",
+      "blocks": [
+        {
+          "id": "disneysea-night-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "东京迪士尼海洋 · 夜晚",
+            "en": "Tokyo DisneySea · Night"
+          },
+          "subtitle": {
+            "zh": "天灯 · 惊魂古堡 · 夜间秀",
+            "en": "Tangled · Tower of Terror · Nighttime show"
+          },
+          "icon": "🌃"
+        },
+        {
+          "id": "disneysea-night-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "入夜后迪士尼海洋换了另一张脸。天灯用了 DPA，场景像长发公主漫天灯火，但太短了，有点意犹未尽。音乐秀要占好位置，城堡上方视野绝佳。最刺激的还是惊魂古堡——全园最值得的项目，没有之一，外面商店街东西也超多。最后松屋牛肉饭收尾，便宜管饱。",
+              "en": "DisneySea becomes a different park after dark. Tangled (DPA) was a sea of floating lanterns in a tiny boat — gorgeous, but over before you wanted it to be. The night show needs a good spot; the castle terrace view is the best in the park. The big thrill was Tower of Terror — hands down the most fun ride in the entire park, and the shopping street outside is also stacked. Matsuya beef bowl on the way home, cheap and exactly enough."
+            }
+          ]
+        },
+        {
+          "id": "disneysea-night-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day4-mermaid-lagoon-night",
+              "alt": {
+                "zh": "Mermaid lagoon at night",
+                "en": "Mermaid lagoon at night"
+              },
+              "caption": {
+                "zh": "美人鱼礁湖 —— 夜晚的迪士尼海洋最像童话",
+                "en": "Mermaid Lagoon — DisneySea at night is straight out of a fairytale"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-night-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-tower-of-terror-ride-photo",
+              "alt": {
+                "zh": "Tower of Terror ride photo",
+                "en": "Tower of Terror ride photo"
+              },
+              "caption": {
+                "zh": "惊魂古堡 ride photo",
+                "en": "Tower of Terror ride photo"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "day4-tower-of-terror-dpa-ticket",
+              "alt": {
+                "zh": "Tower of Terror DPA",
+                "en": "Tower of Terror DPA"
+              },
+              "caption": {
+                "zh": "DPA 票 —— 全园最刺激",
+                "en": "DPA ticket — the best ride in the park"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-night-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-night-fountain-show",
+              "alt": {
+                "zh": "Night fountain show",
+                "en": "Night fountain show"
+              },
+              "caption": {
+                "zh": "夜间喷泉秀",
+                "en": "Nighttime fountain show"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "day4-disney-night-selfie",
+              "alt": {
+                "zh": "Disney night selfie",
+                "en": "Disney night selfie"
+              },
+              "caption": {
+                "zh": "夜晚园区留个影",
+                "en": "Quick selfie in the park at night"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "disneysea-night-divider-6",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "🧸"
+        },
+        {
+          "id": "disneysea-night-prose-7",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在迪士尼商店拿下七宝挂件一个，1451 RMB，挂在书包上当本次旅行的战利品徽章。",
+              "en": "One Disney crystal-strap plush from the park shop — ¥1,451 — now lives on my backpack as a souvenir badge for the trip."
+            }
+          ]
+        },
+        {
+          "id": "disneysea-night-gallery-8",
+          "type": "gallery",
+          "spacing": {
+            "top": 8
+          },
+          "layout": "one",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "pink-plush-toys-with-stickers",
+              "alt": {
+                "zh": "Disney plush",
+                "en": "Disney plush"
+              },
+              "caption": {
+                "zh": "七宝挂件 —— 迪士尼的官方礼物",
+                "en": "The crystal strap — Disney's official parting gift"
+              },
+              "shape": "portrait",
+              "tone": "cool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chanel-and-department-stores",
+      "sectionId": "chanel-and-department-stores",
+      "blocks": [
+        {
+          "id": "chanel-and-department-stores-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "香奈儿百年展 & 百货大战",
+            "en": "Chanel Century Exhibition & Department Store Wars"
+          },
+          "subtitle": {
+            "zh": "Friday, October 10th · 高岛屋 · 伊势丹 · 19M Tokyo",
+            "en": "Friday, October 10th · Takashimaya · Isetan · 19M Tokyo"
+          },
+          "icon": "🛍️"
+        },
+        {
+          "id": "chanel-and-department-stores-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天，便利店早餐后直奔高岛屋代购 —— Pola、Fancl、Mikimoto、资生堂一次性收齐；自己血拼 Kanebo、Fancl 和一个 LV 小皮夹。Beams 看到始祖鸟联名款，颜值一般没入。转战伊势丹，LV Keepall 35 + Canada Goose 两件羽绒服强势拿下。高岛屋 B2 美食补给，最后用香奈儿百年艺术展收尾 —— 整趟旅行最文艺的一个小时。",
+              "en": "Last day. Convenience-store breakfast, then straight to Takashimaya for the gift run — Pola, Fancl, Mikimoto, Shiseido, all done in one sweep. My own haul was Kanebo, Fancl, and a small LV wallet. Checked the Arc'teryx collaboration at Beams — the design was a miss, skipped it. Moved to Isetan: the LV Keepall 35 and two Canada Goose parkas went home with us. Snacks at Takashimaya B2, then the Chanel century exhibition — the most cultural hour of the whole trip, and the perfect closing act."
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day5-ginza-cocoon-tower",
+              "alt": {
+                "zh": "Ginza Cocoon",
+                "en": "Ginza Cocoon"
+              },
+              "caption": {
+                "zh": "新宿的 Cocoon 塔 —— 百货大战开始",
+                "en": "Shinjuku's Cocoon Tower — the department-store war begins"
+              },
+              "shape": "hero",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-chanel-19m-tokyo-banner",
+              "alt": {
+                "zh": "Chanel 19M Tokyo banner",
+                "en": "Chanel 19M Tokyo banner"
+              },
+              "caption": {
+                "zh": "香奈儿 La Galerie du 19M Tokyo",
+                "en": "Chanel La Galerie du 19M Tokyo"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            },
+            {
+              "imageId": "day5-chanel-exhibition-outfits",
+              "alt": {
+                "zh": "Chanel exhibition outfits",
+                "en": "Chanel exhibition outfits"
+              },
+              "caption": {
+                "zh": "百年展的成衣陈列",
+                "en": "Ready-to-wear pieces in the century exhibition"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-mori-art-museum",
+              "alt": {
+                "zh": "Mori Art Museum",
+                "en": "Mori Art Museum"
+              },
+              "caption": {
+                "zh": "顺路经过森美术馆",
+                "en": "A pass-by at Mori Art Museum"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
+              "imageId": "black-louis-vuitton-handbag-cat",
+              "alt": {
+                "zh": "LV Keepall",
+                "en": "LV Keepall"
+              },
+              "caption": {
+                "zh": "LV Keepall 35 + 一只猫 👜",
+                "en": "LV Keepall 35 + a cat 👜"
+              },
+              "shape": "square",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-gallery-6",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "folded-black-puffer-jacket",
+              "alt": {
+                "zh": "Canada Goose",
+                "en": "Canada Goose"
+              },
+              "caption": {
+                "zh": "Canada Goose 羽绒服",
+                "en": "Canada Goose parka"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "louis-vuitton-wallet-box",
+              "alt": {
+                "zh": "LV wallet",
+                "en": "LV wallet"
+              },
+              "caption": {
+                "zh": "LV 小皮夹（高岛屋）",
+                "en": "LV compact wallet (Takashimaya)"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-gallery-7",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "lancome-skincare-products-flatlay",
+              "alt": {
+                "zh": "Skincare flatlay",
+                "en": "Skincare flatlay"
+              },
+              "caption": {
+                "zh": "百货柜台的战利品",
+                "en": "Counter purchases from the day"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "kanebo-sealed-cosmetic-sample",
+              "alt": {
+                "zh": "Kanebo sample",
+                "en": "Kanebo sample"
+              },
+              "caption": {
+                "zh": "Kanebo 封样",
+                "en": "Kanebo sealed sample"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "chanel-and-department-stores-note-8",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🛍️ 百货大战 Tips",
+            "en": "🛍️ Tax-refresh tips"
+          },
+          "body": {
+            "zh": "高岛屋和伊势丹退税柜台在 B1 退税区，银联卡 + 护照最快。工作日下午排队 15 分钟，节假日可能要 40+。LV / Canada Goose 这种大件建议直接走百货，回程还能在机场免税店补刀。",
+            "en": "Both Takashimaya and Isetan have tax-refund counters in the B1 service area. UnionPay + passport is the fastest. Weekday afternoons queue about 15 minutes; holidays can easily run 40+. Big-ticket items (LV, Canada Goose) are best done at the department stores, then you can still top up at the airport duty-free on the way back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shopping-records",
+      "sectionId": "shopping-records",
+      "blocks": [
+        {
+          "id": "shopping-records-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🛍️",
+            "en": "🛍️"
+          },
+          "markerValue": {
+            "zh": "SHOP",
+            "en": "SHOP"
+          },
+          "title": {
+            "zh": "购物战绩",
+            "en": "Shopping Records"
+          },
+          "subtitle": {
+            "zh": "五天总账单 ¥ 43,675",
+            "en": "Five-day total: ¥ 43,675"
+          },
+          "markerVariant": "category",
+          "markerTone": "coral"
+        },
+        {
+          "id": "shopping-records-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "国庆东京购物大爆发：免税店雪茄 + 新宿户外全套 + 表参道始祖鸟 + 迪士尼七宝 + 高岛屋伊势丹的 LV & Canada Goose。每天都在买买买，回过神来账单已经接近四万五。",
+              "en": "A National Day Tokyo shopping explosion: airport duty-free cigar + a full Shinjuku outdoor kit + Omotesandō Arc'teryx + a Disney crystal strap + LV and Canada Goose at Takashimaya and Isetan. Every day had another bag to carry, and by the time we sat down with the receipts, the total was hovering near forty-five grand."
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-divider-3",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "💳"
+        },
+        {
+          "id": "shopping-records-expense-4",
+          "type": "expense",
+          "title": {
+            "zh": "10.5 — 免税店",
+            "en": "10.5 — Duty free"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-4-1",
+              "label": {
+                "zh": "Davidoff 雪茄",
+                "en": "Davidoff cigar"
+              },
+              "amount": {
+                "zh": "¥ 1,844",
+                "en": "¥ 1,844"
+              }
+            },
+            {
+              "id": "shopping-records-expense-4-2",
+              "label": {
+                "zh": "小计",
+                "en": "Subtotal"
+              },
+              "amount": {
+                "zh": "¥ 1,844",
+                "en": "¥ 1,844"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-expense-5",
+          "type": "expense",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "10.7 — 新宿大扫货",
+            "en": "10.7 — Shinjuku shopping spree"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-5-1",
+              "label": {
+                "zh": "Montbell 雷霆冲锋衣",
+                "en": "Montbell Thunder Pass"
+              },
+              "amount": {
+                "zh": "¥ 640",
+                "en": "¥ 640"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-2",
+              "label": {
+                "zh": "Montbell 户外配件",
+                "en": "Montbell outdoor accessories"
+              },
+              "amount": {
+                "zh": "¥ 396",
+                "en": "¥ 396"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-3",
+              "label": {
+                "zh": "United Arrows 北面紫标长袖",
+                "en": "United Arrows Purple Label tee"
+              },
+              "amount": {
+                "zh": "¥ 470",
+                "en": "¥ 470"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-4",
+              "label": {
+                "zh": "United Arrows 牛仔裤",
+                "en": "United Arrows jeans"
+              },
+              "amount": {
+                "zh": "¥ 850",
+                "en": "¥ 850"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-5",
+              "label": {
+                "zh": "On 昂跑 x4",
+                "en": "On Cloud runners ×4"
+              },
+              "amount": {
+                "zh": "¥ 892",
+                "en": "¥ 892"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-6",
+              "label": {
+                "zh": "City Tokyo 牛仔裤",
+                "en": "City Tokyo jeans"
+              },
+              "amount": {
+                "zh": "¥ 845",
+                "en": "¥ 845"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-7",
+              "label": {
+                "zh": "Salomon XT Whisper",
+                "en": "Salomon XT Whisper"
+              },
+              "amount": {
+                "zh": "¥ 939",
+                "en": "¥ 939"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-8",
+              "label": {
+                "zh": "优衣库（打底/袜子/短裤）",
+                "en": "Uniqlo (basics/socks/shorts)"
+              },
+              "amount": {
+                "zh": "¥ 371",
+                "en": "¥ 371"
+              }
+            },
+            {
+              "id": "shopping-records-expense-5-9",
+              "label": {
+                "zh": "小计",
+                "en": "Subtotal"
+              },
+              "amount": {
+                "zh": "¥ 5,403",
+                "en": "¥ 5,403"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-expense-6",
+          "type": "expense",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "10.8 — 表参道始祖鸟 & 药妆",
+            "en": "10.8 — Omotesandō Arc'teryx & drugstore"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-6-1",
+              "label": {
+                "zh": "始祖鸟黑色短袖",
+                "en": "Arc'teryx black tee"
+              },
+              "amount": {
+                "zh": "¥ 598",
+                "en": "¥ 598"
+              }
+            },
+            {
+              "id": "shopping-records-expense-6-2",
+              "label": {
+                "zh": "始祖鸟灰色短袖",
+                "en": "Arc'teryx gray tee"
+              },
+              "amount": {
+                "zh": "¥ 414",
+                "en": "¥ 414"
+              }
+            },
+            {
+              "id": "shopping-records-expense-6-3",
+              "label": {
+                "zh": "堂吉诃德药妆",
+                "en": "Don Quijote drugstore"
+              },
+              "amount": {
+                "zh": "¥ 699",
+                "en": "¥ 699"
+              }
+            },
+            {
+              "id": "shopping-records-expense-6-4",
+              "label": {
+                "zh": "小计",
+                "en": "Subtotal"
+              },
+              "amount": {
+                "zh": "¥ 1,711",
+                "en": "¥ 1,711"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-expense-7",
+          "type": "expense",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "10.9 — 迪士尼",
+            "en": "10.9 — Disney"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-7-1",
+              "label": {
+                "zh": "七宝挂件",
+                "en": "Crystal strap plush"
+              },
+              "amount": {
+                "zh": "¥ 1,451",
+                "en": "¥ 1,451"
+              }
+            },
+            {
+              "id": "shopping-records-expense-7-2",
+              "label": {
+                "zh": "小计",
+                "en": "Subtotal"
+              },
+              "amount": {
+                "zh": "¥ 1,451",
+                "en": "¥ 1,451"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-expense-8",
+          "type": "expense",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "10.10 — 高岛屋 & 伊势丹",
+            "en": "10.10 — Takashimaya & Isetan"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-8-1",
+              "label": {
+                "zh": "高岛屋 Kanebo",
+                "en": "Takashimaya Kanebo"
+              },
+              "amount": {
+                "zh": "¥ 346",
+                "en": "¥ 346"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-2",
+              "label": {
+                "zh": "高岛屋 Fancl",
+                "en": "Takashimaya Fancl"
+              },
+              "amount": {
+                "zh": "¥ 69",
+                "en": "¥ 69"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-3",
+              "label": {
+                "zh": "中国免税店护肤品",
+                "en": "China duty-free skincare"
+              },
+              "amount": {
+                "zh": "¥ 406",
+                "en": "¥ 406"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-4",
+              "label": {
+                "zh": "伊势丹 LV Keepall 35",
+                "en": "Isetan LV Keepall 35"
+              },
+              "amount": {
+                "zh": "¥ 16,155",
+                "en": "¥ 16,155"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-5",
+              "label": {
+                "zh": "伊势丹 Canada Goose 羽绒服",
+                "en": "Isetan Canada Goose parka"
+              },
+              "amount": {
+                "zh": "¥ 12,378",
+                "en": "¥ 12,378"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-6",
+              "label": {
+                "zh": "高岛屋 LV 小皮夹",
+                "en": "Takashimaya LV wallet"
+              },
+              "amount": {
+                "zh": "¥ 3,258",
+                "en": "¥ 3,258"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-7",
+              "label": {
+                "zh": "日本免税店酒和零食",
+                "en": "Japan duty-free drinks & snacks"
+              },
+              "amount": {
+                "zh": "¥ 654",
+                "en": "¥ 654"
+              }
+            },
+            {
+              "id": "shopping-records-expense-8-8",
+              "label": {
+                "zh": "小计",
+                "en": "Subtotal"
+              },
+              "amount": {
+                "zh": "¥ 33,266",
+                "en": "¥ 33,266"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shopping-records-divider-9",
+          "type": "divider",
+          "spacing": {
+            "top": 24,
+            "bottom": 12
+          },
+          "icon": "📊"
+        },
+        {
+          "id": "shopping-records-expense-10",
+          "type": "expense",
+          "title": {
+            "zh": "五日总账单",
+            "en": "Five-day total"
+          },
+          "rows": [
+            {
+              "id": "shopping-records-expense-10-1",
+              "label": {
+                "zh": "10.5 免税店",
+                "en": "10.5 Duty free"
+              },
+              "amount": {
+                "zh": "¥ 1,844",
+                "en": "¥ 1,844"
+              }
+            },
+            {
+              "id": "shopping-records-expense-10-2",
+              "label": {
+                "zh": "10.7 新宿",
+                "en": "10.7 Shinjuku"
+              },
+              "amount": {
+                "zh": "¥ 5,403",
+                "en": "¥ 5,403"
+              }
+            },
+            {
+              "id": "shopping-records-expense-10-3",
+              "label": {
+                "zh": "10.8 表参道",
+                "en": "10.8 Omotesandō"
+              },
+              "amount": {
+                "zh": "¥ 1,711",
+                "en": "¥ 1,711"
+              }
+            },
+            {
+              "id": "shopping-records-expense-10-4",
+              "label": {
+                "zh": "10.9 迪士尼",
+                "en": "10.9 Disney"
+              },
+              "amount": {
+                "zh": "¥ 1,451",
+                "en": "¥ 1,451"
+              }
+            },
+            {
+              "id": "shopping-records-expense-10-5",
+              "label": {
+                "zh": "10.10 高岛屋/伊势丹",
+                "en": "10.10 Takashimaya / Isetan"
+              },
+              "amount": {
+                "zh": "¥ 33,266",
+                "en": "¥ 33,266"
+              }
+            },
+            {
+              "id": "shopping-records-expense-10-6",
+              "label": {
+                "zh": "TOTAL",
+                "en": "TOTAL"
+              },
+              "amount": {
+                "zh": "¥ 43,675",
+                "en": "¥ 43,675"
+              },
+              "total": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared-expenses",
+      "sectionId": "shared-expenses",
+      "blocks": [
+        {
+          "id": "shared-expenses-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "$",
+            "en": "$"
+          },
+          "title": {
+            "zh": "共同开支",
+            "en": "Shared Expenses"
+          },
+          "subtitle": {
+            "zh": "国庆东京 AA 账单 · 人民币 + 日元",
+            "en": "National Day Tokyo AA ledger · CNY + JPY"
+          }
+        },
+        {
+          "id": "shared-expenses-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟旅行的 AA 账：酒店、电话卡、迪士尼入场、几顿大餐都按人头均摊。下面的数字已经除好，单人直接看即可。",
+              "en": "The shared-spending ledger: hotel, SIM card, Disney entry, and the big group meals all split evenly. The numbers below are already per-person — read them straight off."
+            }
+          ]
+        },
+        {
+          "id": "shared-expenses-divider-3",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "💴"
+        },
+        {
+          "id": "shared-expenses-expense-4",
+          "type": "expense",
+          "title": {
+            "zh": "人民币部分",
+            "en": "In CNY"
+          },
+          "rows": [
+            {
+              "id": "shared-expenses-expense-4-1",
+              "label": {
+                "zh": "电话卡（270 ÷ 2）",
+                "en": "SIM card (270 ÷ 2)"
+              },
+              "amount": {
+                "zh": "¥ 135 / 人",
+                "en": "¥ 135 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-2",
+              "label": {
+                "zh": "迪士尼入场（1784 ÷ 4）",
+                "en": "Disney entry (1784 ÷ 4)"
+              },
+              "amount": {
+                "zh": "¥ 446 / 人",
+                "en": "¥ 446 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-3",
+              "label": {
+                "zh": "烤肉（1623.8 ÷ 4）",
+                "en": "Yakiniku (1623.8 ÷ 4)"
+              },
+              "amount": {
+                "zh": "¥ 405.95 / 人",
+                "en": "¥ 405.95 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-4",
+              "label": {
+                "zh": "天空快线（496.98 ÷ 4）",
+                "en": "Skyliner (496.98 ÷ 4)"
+              },
+              "amount": {
+                "zh": "¥ 124.25 / 人",
+                "en": "¥ 124.25 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-5",
+              "label": {
+                "zh": "七里滨午饭（358.88 ÷ 4）",
+                "en": "Shichirigahama lunch (358.88 ÷ 4)"
+              },
+              "amount": {
+                "zh": "¥ 89.72 / 人",
+                "en": "¥ 89.72 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-6",
+              "label": {
+                "zh": "炸猪排（338.3 ÷ 3）",
+                "en": "Tonkatsu (338.3 ÷ 3)"
+              },
+              "amount": {
+                "zh": "¥ 112.77 / 人",
+                "en": "¥ 112.77 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-7",
+              "label": {
+                "zh": "东京酒店（8173.5 ÷ 2）",
+                "en": "Tokyo hotel (8173.5 ÷ 2)"
+              },
+              "amount": {
+                "zh": "¥ 4,087 / 人",
+                "en": "¥ 4,087 / person"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-8",
+              "label": {
+                "zh": "日元兑换（5 万 JPY）",
+                "en": "JPY cash change (50,000 JPY)"
+              },
+              "amount": {
+                "zh": "¥ 2,430",
+                "en": "¥ 2,430"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-4-9",
+              "label": {
+                "zh": "人民币人均",
+                "en": "CNY per person"
+              },
+              "amount": {
+                "zh": "¥ 975 / 人",
+                "en": "¥ 975 / person"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shared-expenses-expense-5",
+          "type": "expense",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "日元部分",
+            "en": "In JPY"
+          },
+          "rows": [
+            {
+              "id": "shared-expenses-expense-5-1",
+              "label": {
+                "zh": "小火车",
+                "en": "Local train"
+              },
+              "amount": {
+                "zh": "1,200 JPY",
+                "en": "1,200 JPY"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-5-2",
+              "label": {
+                "zh": "Lookout 午餐",
+                "en": "Lookout lunch"
+              },
+              "amount": {
+                "zh": "4,320 JPY",
+                "en": "4,320 JPY"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-5-3",
+              "label": {
+                "zh": "DPA 天灯",
+                "en": "DPA — Tangled"
+              },
+              "amount": {
+                "zh": "8,000 JPY",
+                "en": "8,000 JPY"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-5-4",
+              "label": {
+                "zh": "DPA 小飞侠",
+                "en": "DPA — Peter Pan"
+              },
+              "amount": {
+                "zh": "8,000 JPY",
+                "en": "8,000 JPY"
+              }
+            },
+            {
+              "id": "shared-expenses-expense-5-5",
+              "label": {
+                "zh": "日元人均（÷ 2）",
+                "en": "JPY per person (÷ 2)"
+              },
+              "amount": {
+                "zh": "10,760 JPY / 人",
+                "en": "10,760 JPY / person"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "shared-expenses-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🧮 一些提醒",
+            "en": "🧮 A few notes"
+          },
+          "body": {
+            "zh": "李子璐：5000 JPY（单独记）。炸猪排因为胖圆没去所以按 3 人分。酒店是 2 人一间，按 2 人均摊。日元换 5 万，最后几乎用完，回程还多换了一点现金。",
+            "en": "Lizi Lu: 5,000 JPY (separate). The tonkatsu is split 3 ways because Pang Yuan didn't join. Hotel is 2 people to a room, so split 2 ways. We changed 50,000 JPY in cash, almost exactly used it up; ended up converting a bit more for the way back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "sectionId": "closing",
+      "blocks": [
+        {
+          "id": "closing-ending-1",
+          "type": "ending",
+          "flag": "🇯🇵",
+          "title": {
+            "zh": "See You Next Time",
+            "en": "See You Next Time"
+          },
+          "subtitle": {
+            "zh": "Tokyo, Japan · 2025.10",
+            "en": "Tokyo, Japan · 2025.10"
+          }
+        },
+        {
+          "id": "closing-prose-2",
+          "type": "prose",
+          "spacing": {
+            "top": 20
+          },
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "medium",
+            "en": "medium"
+          },
+          "paragraphs": [
+            {
+              "zh": "从镰仓的海岸线到新宿的扫货街，",
+              "en": "From the Kamakura shoreline to the Shinjuku shopping streets,"
+            },
+            {
+              "zh": "从迪士尼海洋的夜晚到香奈儿百年展的尾声，",
+              "en": "from a DisneySea night to the last room of the Chanel exhibition,"
+            },
+            {
+              "zh": "五天四夜，买了一堆东西，",
+              "en": "six days and five nights,"
+            },
+            {
+              "zh": "也装回了一整本手帐。",
+              "en": "a pile of bags and a whole new journal."
+            },
+            {
+              "zh": "旅行的意义不在于抵达终点，",
+              "en": "The meaning of travel isn't the destination —"
+            },
+            {
+              "zh": "而是我们一起走过的那些路。",
+              "en": "it's the roads we walked together."
+            }
+          ]
+        },
+        {
+          "id": "closing-tags-3",
+          "type": "tags",
+          "spacing": {
+            "top": 24
+          },
+          "items": [
+            {
+              "id": "closing-tag-1",
+              "label": {
+                "zh": "#日本旅行",
+                "en": "#JapanTravel"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "closing-tag-2",
+              "label": {
+                "zh": "#东京plog",
+                "en": "#TokyoPlog"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "closing-tag-3",
+              "label": {
+                "zh": "#电子手帐",
+                "en": "#DigitalJournal"
+              },
+              "tone": "teal"
+            },
+            {
+              "id": "closing-tag-4",
+              "label": {
+                "zh": "#镰仓",
+                "en": "#Kamakura"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "closing-tag-5",
+              "label": {
+                "zh": "#新宿",
+                "en": "#Shinjuku"
+              },
+              "tone": "pink"
+            },
+            {
+              "id": "closing-tag-6",
+              "label": {
+                "zh": "#迪士尼海洋",
+                "en": "#DisneySea"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "closing-tag-7",
+              "label": {
+                "zh": "#香奈儿展",
+                "en": "#ChanelExhibition"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "closing-tag-8",
+              "label": {
+                "zh": "#买买买",
+                "en": "#ShopTrip"
+              },
+              "tone": "teal"
+            }
+          ]
+        },
+        {
+          "id": "closing-stamp-4",
+          "type": "stamp",
+          "text": {
+            "zh": "FIN · 2025.10",
+            "en": "FIN · 2025.10"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { createUnlockHandler } from "../src/functions/unlock.js";
+import { PRIVATE_JOURNAL_READ_SCOPE } from "../src/microsoft-token.js";
 import { derivePrivateTripPassphrase } from "../src/private-trip-key.js";
 
 const config = {
@@ -39,12 +40,16 @@ const passcodeLimiter = {
 };
 
 test("returns the passphrase only to the authorized account", async () => {
+  let requiredScope;
   const handler = createUnlockHandler({
     getConfig: () => config,
-    verifyToken: async () => ({
-      preferred_username: "authorized@example.com",
-      sub: "authorized-subject",
-    }),
+    verifyToken: async (_token, _clientId, scope) => {
+      requiredScope = scope;
+      return {
+        preferred_username: "authorized@example.com",
+        sub: "authorized-subject",
+      };
+    },
   });
 
   const result = await handler(request(), context());
@@ -58,6 +63,7 @@ test("returns the passphrase only to the authorized account", async () => {
     ),
   });
   assert.equal(result.headers["Cache-Control"], "no-store");
+  assert.equal(requiredScope, PRIVATE_JOURNAL_READ_SCOPE);
 });
 
 test("rejects another valid Microsoft account", async () => {

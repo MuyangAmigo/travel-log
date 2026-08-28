@@ -1,0 +1,1084 @@
+{
+  "version": 1,
+  "slug": "hangzhou-concert-2026",
+  "metadata": {
+    "date": "2026-03-14",
+    "dateRange": "2026.03.14 — 03.15",
+    "coverImageId": "concert-rose",
+    "title": {
+      "zh": "杭州 · 为一场演唱会奔赴",
+      "en": "Hangzhou · A Trip for a Concert"
+    },
+    "subtitle": {
+      "zh": "凤凰传奇、大莲花、老街巷和一顿辣到冒汗的宵夜",
+      "en": "Phoenix Legend, Big Lotus, old lanes, and a late-night spicy feast"
+    },
+    "location": {
+      "zh": "中国 · 杭州",
+      "en": "Hangzhou, China"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "concert-ticket",
+      "filename": "IMG_1546.jpeg",
+      "alt": {
+        "zh": "Concert ticket outside the stadium",
+        "en": "Concert ticket outside the stadium"
+      }
+    },
+    {
+      "id": "concert-stage",
+      "filename": "IMG_1534.jpeg",
+      "alt": {
+        "zh": "Concert stage before opening",
+        "en": "Concert stage before opening"
+      }
+    },
+    {
+      "id": "concert-rose",
+      "filename": "IMG_1508.jpeg",
+      "alt": {
+        "zh": "Phoenix Legend concert stage",
+        "en": "Phoenix Legend concert stage"
+      }
+    },
+    {
+      "id": "spicy-pork",
+      "filename": "IMG_1549.jpeg",
+      "alt": {
+        "zh": "Spicy pork with peppers",
+        "en": "Spicy pork with peppers"
+      }
+    },
+    {
+      "id": "chicken-feet",
+      "filename": "IMG_1550.jpeg",
+      "alt": {
+        "zh": "Braised chicken feet",
+        "en": "Braised chicken feet"
+      }
+    },
+    {
+      "id": "stone-pot-chicken",
+      "filename": "IMG_1553.jpeg",
+      "alt": {
+        "zh": "Stone pot chicken",
+        "en": "Stone pot chicken"
+      }
+    },
+    {
+      "id": "boiled-squid",
+      "filename": "IMG_1551.jpeg",
+      "alt": {
+        "zh": "Boiled squid",
+        "en": "Boiled squid"
+      }
+    },
+    {
+      "id": "ouji-cheers",
+      "filename": "IMG_1552.jpeg",
+      "alt": {
+        "zh": "Cheers at Ouji",
+        "en": "Cheers at Ouji"
+      }
+    },
+    {
+      "id": "wuliu-canal",
+      "filename": "IMG_1562.jpeg",
+      "alt": {
+        "zh": "Wuliu Lane canal and blossoms",
+        "en": "Wuliu Lane canal and blossoms"
+      }
+    },
+    {
+      "id": "cafe-sign",
+      "filename": "IMG_1556.jpeg",
+      "alt": {
+        "zh": "Cafe and bar sign",
+        "en": "Cafe and bar sign"
+      }
+    },
+    {
+      "id": "tableware-shop",
+      "filename": "IMG_1558.jpeg",
+      "alt": {
+        "zh": "Small tableware shop",
+        "en": "Small tableware shop"
+      }
+    },
+    {
+      "id": "calico-cat",
+      "filename": "IMG_1563.jpeg",
+      "alt": {
+        "zh": "Calico cat watching blossoms",
+        "en": "Calico cat watching blossoms"
+      }
+    },
+    {
+      "id": "old-window",
+      "filename": "IMG_1555.jpeg",
+      "alt": {
+        "zh": "White wall and old wooden window",
+        "en": "White wall and old wooden window"
+      }
+    },
+    {
+      "id": "tofu-banner",
+      "filename": "IMG_1566.jpeg",
+      "alt": {
+        "zh": "Stinky tofu banner",
+        "en": "Stinky tofu banner"
+      }
+    },
+    {
+      "id": "deshou-wall",
+      "filename": "IMG_1572.jpeg",
+      "alt": {
+        "zh": "Deshou Palace red wall sign",
+        "en": "Deshou Palace red wall sign"
+      }
+    },
+    {
+      "id": "song-hall",
+      "filename": "IMG_1578.jpeg",
+      "alt": {
+        "zh": "Restored Song dynasty hall",
+        "en": "Restored Song dynasty hall"
+      }
+    },
+    {
+      "id": "site-hall",
+      "filename": "IMG_1580.jpeg",
+      "alt": {
+        "zh": "Archaeological site hall",
+        "en": "Archaeological site hall"
+      }
+    },
+    {
+      "id": "celadon-vase",
+      "filename": "IMG_1579.jpeg",
+      "alt": {
+        "zh": "Longquan celadon vase",
+        "en": "Longquan celadon vase"
+      }
+    },
+    {
+      "id": "deshou-pine",
+      "filename": "IMG_1575.jpeg",
+      "alt": {
+        "zh": "Pine in Deshou Palace",
+        "en": "Pine in Deshou Palace"
+      }
+    },
+    {
+      "id": "deshou-garden",
+      "filename": "IMG_1581.jpeg",
+      "alt": {
+        "zh": "Deshou Palace garden",
+        "en": "Deshou Palace garden"
+      }
+    },
+    {
+      "id": "garden-corridor",
+      "filename": "IMG_1582.jpeg",
+      "alt": {
+        "zh": "Covered garden corridor",
+        "en": "Covered garden corridor"
+      }
+    },
+    {
+      "id": "noodle-storefront",
+      "filename": "IMG_1588.jpeg",
+      "alt": {
+        "zh": "Dongpo Wenren Noodle House storefront",
+        "en": "Dongpo Wenren Noodle House storefront"
+      }
+    },
+    {
+      "id": "soup-noodles",
+      "filename": "IMG_1590.jpeg",
+      "alt": {
+        "zh": "Signature soup noodles",
+        "en": "Signature soup noodles"
+      }
+    },
+    {
+      "id": "dongpo-pork",
+      "filename": "IMG_1593.jpeg",
+      "alt": {
+        "zh": "Dongpo pork",
+        "en": "Dongpo pork"
+      }
+    },
+    {
+      "id": "scallion-noodles",
+      "filename": "IMG_1591.jpeg",
+      "alt": {
+        "zh": "Scallion oil noodles",
+        "en": "Scallion oil noodles"
+      }
+    },
+    {
+      "id": "river-shrimp",
+      "filename": "IMG_1592.jpeg",
+      "alt": {
+        "zh": "Braised river shrimp",
+        "en": "Braised river shrimp"
+      }
+    }
+  ],
+  "sections": [
+    { "id": "overview" },
+    { "id": "arrival" },
+    { "id": "concert" },
+    { "id": "late-night-food" },
+    { "id": "wuliu-lane" },
+    { "id": "deshou-palace" },
+    { "id": "noodles-and-return" }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "cover-introduction",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🚅 🎤 🌸",
+            "en": "🚅 🎤 🌸"
+          },
+          "title": {
+            "zh": "Hangzhou",
+            "en": "Hangzhou"
+          },
+          "subtitle": {
+            "zh": "Concert Weekend",
+            "en": "Concert Weekend"
+          },
+          "date": {
+            "zh": "2026.03.14 — 03.15",
+            "en": "2026.03.14 — 03.15"
+          },
+          "intro": {
+            "zh": "「有时候旅行的理由可以很简单，\n就是为一场演唱会奔赴一座城。」",
+            "en": "“Sometimes a trip only needs one reason:\na concert in another city.”"
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "medium"
+          },
+          "separators": true,
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "HANGZHOU\n2026",
+              "en": "HANGZHOU\n2026"
+            }
+          },
+          "boxStamp": {
+            "zh": "WEEKEND PASS",
+            "en": "WEEKEND PASS"
+          },
+          "boxStampSpacing": "relaxed"
+        }
+      ]
+    },
+    {
+      "id": "day-one-arrival",
+      "sectionId": "arrival",
+      "blocks": [
+        {
+          "id": "arrival-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "下午出发，直奔大莲花",
+            "en": "Afternoon train, straight to Big Lotus"
+          },
+          "subtitle": {
+            "zh": "Saturday, March 14th · Shanghai 🚅 Hangzhou",
+            "en": "Saturday, March 14th · Shanghai 🚅 Hangzhou"
+          },
+          "icon": "🎤"
+        },
+        {
+          "id": "arrival-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "周六下午两点多，拎着一堆零食坐高铁出发。说是旅行，心里其实只装着一件事——凤凰传奇。",
+              "en": "We left Shanghai a little after two on Saturday afternoon, carrying an unreasonable amount of snacks onto the high-speed train. Technically it was a trip; emotionally, it was just one thing — Phoenix Legend."
+            }
+          ]
+        },
+        {
+          "id": "arrival-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 16 },
+          "images": [
+            {
+              "imageId": "concert-ticket",
+              "caption": {
+                "zh": "大莲花外的票根照：我真的来了",
+                "en": "Ticket photo outside Big Lotus: we really made it"
+              },
+              "shape": "portrait",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "concert-stage",
+              "caption": {
+                "zh": "入场前的大莲花舞台 ✨",
+                "en": "Big Lotus stage before the opening ✨"
+              },
+              "shape": "portrait",
+              "tone": "crisp",
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "hotel-divider",
+          "type": "divider",
+          "spacing": { "top": 20, "bottom": 16 },
+          "icon": "🏨"
+        },
+        {
+          "id": "hotel-note",
+          "type": "note",
+          "spacing": { "top": 12 },
+          "title": {
+            "zh": "🏨 杭州滨江星光大道亚朵酒店",
+            "en": "🏨 Atour Hotel, Binjiang Starlight Avenue"
+          },
+          "body": {
+            "zh": "滨江区滨盛路1786号，距江汉路地铁站步行约950米。江景双床房、房间宽敞干净、床很舒服，前台知道我们来看演唱会后还送了凤凰传奇限定手环。唯一扣分项是淋浴水温忽冷忽热。",
+            "en": "Address: 1786 Binsheng Road, Binjiang District, about a 950-meter walk from Jianghan Road metro station. We booked a river-view twin room: spacious, clean, comfortable beds. When the front desk heard we were there for the concert, they gave us Phoenix Legend wristbands. The only minus: shower temperature kept drifting hot and cold."
+          }
+        },
+        {
+          "id": "arrival-timeline",
+          "type": "timeline",
+          "spacing": { "top": 20 },
+          "items": [
+            {
+              "id": "leave-shanghai",
+              "time": { "zh": "14:00+", "en": "14:00+" },
+              "event": { "zh": "上海出发", "en": "Left Shanghai" },
+              "detail": {
+                "zh": "高铁、零食、周末逃离感",
+                "en": "High-speed train, snacks, weekend escape mode"
+              }
+            },
+            {
+              "id": "check-in",
+              "time": { "zh": "傍晚", "en": "Evening" },
+              "event": {
+                "zh": "入住滨江亚朵",
+                "en": "Checked into Atour in Binjiang"
+              },
+              "detail": {
+                "zh": "江景房 + 演唱会限定手环",
+                "en": "River view room + surprise concert wristbands"
+              }
+            },
+            {
+              "id": "phoenix-legend",
+              "time": { "zh": "19:30", "en": "19:30" },
+              "event": {
+                "zh": "凤凰传奇「吉祥如意」杭州站",
+                "en": "Phoenix Legend “Jixiang Ruyi”"
+              },
+              "detail": {
+                "zh": "杭州奥体中心体育场，大莲花开唱",
+                "en": "Hangzhou Olympic Sports Center Stadium — Big Lotus"
+              }
+            },
+            {
+              "id": "ouji-supper",
+              "time": { "zh": "散场后", "en": "Afterwards" },
+              "event": {
+                "zh": "直奔欧记大排档",
+                "en": "Straight to Ouji for supper"
+              },
+              "detail": {
+                "zh": "用江西辣给亢奋的夜晚收尾",
+                "en": "Ending the adrenaline with Jiangxi-level heat"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phoenix-legend-concert",
+      "sectionId": "concert",
+      "blocks": [
+        {
+          "id": "concert-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "凤凰传奇「吉祥如意」",
+            "en": "Phoenix Legend: Jixiang Ruyi"
+          },
+          "subtitle": {
+            "zh": "杭州奥体中心体育场 · C2区9排26号",
+            "en": "Hangzhou Olympic Sports Center Stadium · Section C2, Row 9"
+          },
+          "icon": "🌹"
+        },
+        {
+          "id": "rose-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "concert-rose",
+              "caption": {
+                "zh": "巨幅玫瑰亮起的瞬间，全场一起上头",
+                "en": "The giant rose moment — the whole stadium went with it"
+              },
+              "shape": "hero",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "music-divider",
+          "type": "divider",
+          "spacing": { "top": 16, "bottom": 12 },
+          "icon": "🎶"
+        },
+        {
+          "id": "concert-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "进场落座，台上「吉祥如意」四个大字铺满整块屏幕，水墨山河的背景连绵铺开，气势磅礴。开场之后完全停不下来——《策马奔腾》的辽阔，《月亮之上》的全场大合唱，还有那幕舞台打出巨幅玫瑰、屏幕飘出歌词的瞬间，台下万人齐声，真的有点上头。",
+              "en": "Once we sat down, the four characters “吉祥如意” filled the entire screen, backed by an ink-painting landscape that rolled across the stage. Then the show started and never really let up: the open-sky momentum of “策马奔腾,” the full-stadium singalong to “月亮之上,” and that huge rose blooming across the screens while lyrics floated out above the crowd. Ten thousand people singing at once does something to you."
+            }
+          ]
+        },
+        {
+          "id": "concert-details-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "concert-stage",
+              "alt": {
+                "zh": "Auspicious concert opening screen",
+                "en": "Auspicious concert opening screen"
+              },
+              "caption": {
+                "zh": "开场前的「吉祥如意」",
+                "en": "Before the opening: Jixiang Ruyi"
+              },
+              "shape": "landscape",
+              "tone": "warm"
+            },
+            {
+              "imageId": "concert-ticket",
+              "alt": {
+                "zh": "Concert ticket with Big Lotus lights",
+                "en": "Concert ticket with Big Lotus lights"
+              },
+              "caption": {
+                "zh": "票根和远处亮起的大莲花",
+                "en": "The ticket with Big Lotus glowing behind it"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "concert-tips",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "💡 演唱会 Tips",
+            "en": "💡 Concert notes"
+          },
+          "body": {
+            "zh": "提前告诉酒店前台是来看演唱会的，可能有惊喜。大麦 App 购票，入场记得带身份证；散场后人流量大，提前规划好离场路线，直接去宵夜效率最高。",
+            "en": "Tell the hotel front desk you are in town for a concert — sometimes there are small surprises. Tickets were through Damai; bring your ID for entry. After the show, crowds are heavy, so plan your exit route and go straight to supper."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ouji-late-night-food",
+      "sectionId": "late-night-food",
+      "blocks": [
+        {
+          "id": "ouji-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "散场后的江西辣",
+            "en": "Jiangxi spice after the show"
+          },
+          "subtitle": {
+            "zh": "欧记大排档 · 景德菜 · 杭州旗舰店",
+            "en": "Ouji Food Stall · Jingdezhen cuisine · Hangzhou flagship"
+          },
+          "icon": "🌶️"
+        },
+        {
+          "id": "ouji-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "散场直奔欧记，这顿宵夜是整趟旅行的高潮之一。辣椒炒肉红绿椒密密麻麻，卤凤爪酱汁浓稠，白灼鱿鱼给嘴巴短暂喘息，石锅鸡带着热气上桌，香气直冲脑门。最后两人举起饮料碰了一杯——一粉一绿，算是给这个亢奋的夜晚正式画上句号。",
+              "en": "After the concert we went straight to Ouji, and this late-night meal became one of the trip's highlights. Stir-fried pork buried under red and green chilies; braised chicken feet in a deep, sticky sauce; boiled squid as the table's only clean pause; and stone-pot chicken arriving still bubbling. We clinked two drinks — one pink, one green — and called the night complete."
+            }
+          ]
+        },
+        {
+          "id": "ouji-hot-dishes",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "spicy-pork",
+              "caption": {
+                "zh": "辣椒炒肉：光看颜色就冒汗",
+                "en": "Chili pork: sweating before the first bite"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "chicken-feet",
+              "caption": {
+                "zh": "卤凤爪，软烂入味",
+                "en": "Braised chicken feet, soft and sticky"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "stone-pot-chicken",
+              "caption": {
+                "zh": "石锅鸡，热气腾腾",
+                "en": "Stone-pot chicken, still steaming"
+              },
+              "shape": "square",
+              "tone": "vivid"
+            }
+          ]
+        },
+        {
+          "id": "ouji-polaroids",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "medium",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "boiled-squid",
+              "caption": {
+                "zh": "白灼鱿鱼：清爽喘息位",
+                "en": "Boiled squid: the refresh button"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "ouji-cheers",
+              "caption": {
+                "zh": "一粉一绿，碰杯收尾 🍹",
+                "en": "Pink + green, cheers 🍹"
+              },
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "spice-rating",
+          "type": "rating",
+          "tone": "warning",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "辣度预警",
+            "en": "Spice warning"
+          },
+          "items": [
+            {
+              "id": "ouji-rating",
+              "name": {
+                "zh": "欧记大排档",
+                "en": "Ouji Food Stall"
+              },
+              "score": 5,
+              "comment": {
+                "zh": "是真实的江西辣，不是噱头，不能吃辣请务必提前备注少辣。",
+                "en": "Real Jiangxi heat, not a gimmick. If you cannot handle spice, ask for less chili up front."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wuliu-lane-walk",
+      "sectionId": "wuliu-lane",
+      "blocks": [
+        {
+          "id": "wuliu-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "不吃早饭，去逛老杭州",
+            "en": "No breakfast — old Hangzhou instead"
+          },
+          "subtitle": {
+            "zh": "Sunday, March 15th · 五柳巷历史街区",
+            "en": "Sunday, March 15th · Wuliu Lane Historic Block"
+          },
+          "icon": "🌿"
+        },
+        {
+          "id": "wuliu-introduction",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "没吃早餐，直接退房出门，用脚步丈量这座城市安静的那一面。转进五柳巷，立刻换了一种频道：白墙黑瓦、石板小道，旁边流着一条窄窄的河，柳枝垂下来，粉色玉兰开得正好。",
+              "en": "No breakfast. We checked out and went straight into the quieter side of the city. The moment we turned into Wuliu Lane, the frequency changed: white walls, black tiles, stone paths, a narrow canal running beside us, willow branches dipping down, and pink magnolias in bloom."
+            }
+          ]
+        },
+        {
+          "id": "wuliu-landscape-gallery",
+          "type": "gallery",
+          "layout": "weighted-left",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "wuliu-canal",
+              "caption": {
+                "zh": "粉花、河道、老街的慢镜头",
+                "en": "Blossoms, canal, old-lane slow motion"
+              },
+              "shape": "portrait",
+              "tone": "cool"
+            },
+            {
+              "imageId": "cafe-sign",
+              "caption": {
+                "zh": "日咖夜酒",
+                "en": "Coffee by day, drinks by night"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "tableware-shop",
+              "caption": {
+                "zh": "器物小店",
+                "en": "A tiny tableware shop"
+              },
+              "shape": "square",
+              "tone": "soft"
+            }
+          ]
+        },
+        {
+          "id": "cat-divider",
+          "type": "divider",
+          "spacing": { "top": 16, "bottom": 12 },
+          "icon": "🐱"
+        },
+        {
+          "id": "cat-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最让人停下来的，是街口石墩上坐着的那只三花猫。背对着人，仰头望着一树粉花，纹丝不动，旁边石墩上还剩几粒干粮——大概是哪位街坊留给它的。也不理我们，就自顾自地看它的风景。",
+              "en": "The scene that stopped us was a calico cat sitting on a stone post at the lane entrance. Back turned to everyone, head tilted up toward a tree full of pink flowers, not moving at all. A few bits of cat food sat on the next post — probably left by a neighbor. The cat ignored us completely and kept watching its own view."
+            }
+          ]
+        },
+        {
+          "id": "wuliu-details-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 8 },
+          "images": [
+            {
+              "imageId": "calico-cat",
+              "caption": {
+                "zh": "看花的三花猫",
+                "en": "The blossom-watching cat"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "old-window",
+              "caption": {
+                "zh": "白墙黑瓦，老木窗",
+                "en": "White walls and an old wooden window"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "tofu-banner",
+              "caption": {
+                "zh": "臭豆腐旗幡",
+                "en": "Stinky tofu banner"
+              },
+              "shape": "square",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "wuliu-suitable-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "✅ 适合",
+            "en": "✅ Best for"
+          },
+          "body": {
+            "zh": "不赶行程、喜欢市井气息、爱拍照出片的人。这里没有刻意的景点感，就是一条还在过日子的老街。",
+            "en": "Slow walkers, old-lane people, and anyone who likes a place that still feels lived-in. It does not try too hard to be a tourist attraction, which is exactly why it works."
+          }
+        }
+      ]
+    },
+    {
+      "id": "deshou-palace-visit",
+      "sectionId": "deshou-palace",
+      "blocks": [
+        {
+          "id": "deshou-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "南宋德寿宫",
+            "en": "Southern Song Deshou Palace"
+          },
+          "subtitle": {
+            "zh": "皇城遗址 · 宋代寝殿 · 地下原址展厅",
+            "en": "Imperial ruins · restored halls · archaeological site gallery"
+          },
+          "icon": "🏛️"
+        },
+        {
+          "id": "deshou-wall-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "deshou-wall",
+              "caption": {
+                "zh": "朱红宫墙配上「丙午御吉」，还没进去就已经有感觉",
+                "en": "The red wall and gold sign set the tone before we even entered"
+              },
+              "shape": "hero",
+              "tone": "golden"
+            }
+          ]
+        },
+        {
+          "id": "palace-divider",
+          "type": "divider",
+          "spacing": { "top": 16, "bottom": 12 },
+          "icon": "🏯"
+        },
+        {
+          "id": "deshou-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从五柳巷步行可达。这里是南宋皇城原址保护展示，脚踩着八百年前的地基，历史感从脚底渗上来。馆内有复原的宋代寝殿和御苑，古朴松树、山水庭院，还原了当年皇城的格局。",
+              "en": "Deshou Palace is walkable from Wuliu Lane. It preserves and displays the remains of the Southern Song imperial city; standing over foundations from eight centuries ago, the history feels like it is rising from the floor. Inside are reconstructed Song-style halls and gardens, with pines, courtyards, and water-stone compositions restoring the outline of the old palace."
+            }
+          ]
+        },
+        {
+          "id": "deshou-exhibits-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "song-hall",
+              "caption": {
+                "zh": "复原寝殿，水墨山屏",
+                "en": "Restored hall, ink landscape screen"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "site-hall",
+              "caption": {
+                "zh": "地下原址遗迹展厅",
+                "en": "Underground ruins gallery"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "celadon-vase",
+              "caption": {
+                "zh": "龙泉窑青釉瓶",
+                "en": "Longquan celadon vase"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "deshou-gardens-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "deshou-pine",
+              "caption": {
+                "zh": "松树与白墙",
+                "en": "Pine against white walls"
+              },
+              "shape": "square",
+              "tone": "soft"
+            },
+            {
+              "imageId": "deshou-garden",
+              "caption": {
+                "zh": "御苑庭院",
+                "en": "Palace garden"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "garden-corridor",
+              "caption": {
+                "zh": "古今叠加的走廊",
+                "en": "Old and new layered together"
+              },
+              "shape": "square",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "deshou-visit-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "🏛️ 参观感受",
+            "en": "🏛️ Visit note"
+          },
+          "body": {
+            "zh": "展陈方式很用心，古今叠加的层次感做得很好。对历史感兴趣的话，建议预留1.5-2小时慢慢看。",
+            "en": "The exhibition design is thoughtful, especially the way old foundations and new reconstruction are layered. If you like history, give it 1.5-2 hours."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongpo-noodles-return",
+      "sectionId": "noodles-and-return",
+      "blocks": [
+        {
+          "id": "noodles-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "东坡文人面馆，然后回上海",
+            "en": "Dongpo noodles, then back to Shanghai"
+          },
+          "subtitle": {
+            "zh": "中山中路 · 按摩放松 · 高铁返程",
+            "en": "Zhongshan Middle Road · massage reset · train home"
+          },
+          "icon": "🍜"
+        },
+        {
+          "id": "noodles-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "逛完德寿宫，肚子正好开始抗议。转个弯就看到东坡文人面馆——白墙黛瓦的江南建筑外立面，门楣上几个金字在暖光里很有气质，一眼就想走进去。",
+              "en": "After Deshou Palace, hunger finally caught up with us. Around the corner was Dongpo Wenren Noodle House: white walls, black tiles, and a warm-lit sign that made the whole facade feel like a Jiangnan study."
+            }
+          ]
+        },
+        {
+          "id": "noodle-house-gallery",
+          "type": "gallery",
+          "layout": "weighted-left",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "noodle-storefront",
+              "caption": {
+                "zh": "白墙黛瓦，门头很江南",
+                "en": "White walls, black tiles, very Hangzhou"
+              },
+              "shape": "portrait",
+              "tone": "warm"
+            },
+            {
+              "imageId": "soup-noodles",
+              "caption": {
+                "zh": "招牌汤面，奶白浓汤",
+                "en": "Signature soup noodles, milky broth"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "dongpo-pork",
+              "caption": {
+                "zh": "东坡肉，酥烂即化",
+                "en": "Dongpo pork, soft and glossy"
+              },
+              "shape": "square",
+              "tone": "vivid"
+            }
+          ]
+        },
+        {
+          "id": "noodle-polaroids",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "scallion-noodles",
+              "caption": {
+                "zh": "葱油拌面，油润顺口",
+                "en": "Scallion oil noodles"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "river-shrimp",
+              "caption": {
+                "zh": "油焖河虾，鲜香下饭",
+                "en": "Braised river shrimp"
+              },
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "route-divider",
+          "type": "divider",
+          "spacing": { "top": 20, "bottom": 12 },
+          "icon": "🗺️"
+        },
+        {
+          "id": "weekend-route",
+          "type": "route",
+          "compact": true,
+          "spacing": { "bottom": 8 },
+          "stops": [
+            {
+              "id": "shanghai",
+              "icon": "🚅",
+              "label": { "zh": "上海\n出发", "en": "Shanghai" }
+            },
+            {
+              "id": "atour-binjiang",
+              "icon": "🏨",
+              "label": { "zh": "滨江\n亚朵", "en": "Atour\nBinjiang" }
+            },
+            {
+              "id": "big-lotus",
+              "icon": "🎤",
+              "label": { "zh": "大莲花\n演唱会", "en": "Big Lotus\nconcert" }
+            },
+            {
+              "id": "ouji",
+              "icon": "🌶️",
+              "label": { "zh": "欧记\n宵夜", "en": "Ouji\nsupper" }
+            },
+            {
+              "id": "wuliu",
+              "icon": "🐈",
+              "label": { "zh": "五柳巷", "en": "Wuliu\nLane" }
+            },
+            {
+              "id": "deshou",
+              "icon": "🏛️",
+              "label": { "zh": "德寿宫", "en": "Deshou\nPalace" }
+            },
+            {
+              "id": "dongpo-noodles",
+              "icon": "🍜",
+              "label": { "zh": "东坡\n文人面", "en": "Dongpo\nnoodles" }
+            }
+          ]
+        },
+        {
+          "id": "lesson-learned",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "⚠️ 血泪提醒",
+            "en": "⚠️ Lesson learned"
+          },
+          "body": {
+            "zh": "吃完饭找了一家口碑不错的按摩店，按了肩颈和足底——演唱会站了那么久，这一步非常必要。但按摩要早点安排，留足赶车时间，否则就会像我们一样最后只能狂奔。",
+            "en": "After lunch we found a well-rated massage place for shoulders, neck, and feet — absolutely necessary after a concert night. But schedule it earlier and leave enough time for the station, unless you also want the final act to be a sprint for the train."
+          }
+        },
+        {
+          "id": "closing-spacer",
+          "type": "spacer"
+        },
+        {
+          "id": "closing-divider",
+          "type": "divider",
+          "spacing": { "bottom": 16 },
+          "icon": "✨"
+        },
+        {
+          "id": "closing-thought",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "narrow",
+            "en": "medium"
+          },
+          "paragraphs": [
+            {
+              "zh": "杭州，不只有西湖。\n还有大莲花的万人合唱、辣到冒汗的宵夜、老街里看花的猫。",
+              "en": "Hangzhou is not only West Lake.\nIt is also a stadium singing together, late-night spice, and a cat watching flowers in an old lane."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

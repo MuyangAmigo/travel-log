@@ -6,6 +6,7 @@ import {
   saveMicrosoftAuthenticationSession,
   startMicrosoftAuthentication,
 } from "@/lib/microsoft-auth";
+import { parseMicrosoftAuthenticationFlow } from "@/lib/microsoft-auth-policy";
 
 export default function MicrosoftAuthCallback() {
   const [message, setMessage] = useState("正在连接 Microsoft / Connecting to Microsoft…");
@@ -24,8 +25,13 @@ export default function MicrosoftAuthCallback() {
 
         if (parameters.get("start") === "1") {
           const returnUrl = parameters.get("returnUrl");
-          if (!returnUrl) throw new Error("The private journal address is missing.");
-          await startMicrosoftAuthentication(returnUrl);
+          if (!returnUrl) {
+            throw new Error("The Microsoft authentication return address is missing.");
+          }
+          await startMicrosoftAuthentication(
+            returnUrl,
+            parseMicrosoftAuthenticationFlow(parameters.get("flow"))
+          );
           return;
         }
 
@@ -36,7 +42,8 @@ export default function MicrosoftAuthCallback() {
         const authentication = await completeMicrosoftAuthentication(code, state);
         saveMicrosoftAuthenticationSession(
           authentication.accessToken,
-          authentication.expiresAt
+          authentication.expiresAt,
+          authentication.delegatedScope
         );
         window.location.replace(authentication.returnUrl);
       } catch (error) {
