@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function EditorPage() {
   return (
     <>
-      <SiteHeader locale="zh" />
+      <SiteHeader locale="zh" showEditorLink={false} />
       <EditorApp />
     </>
   );

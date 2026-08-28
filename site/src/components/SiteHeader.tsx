@@ -4,9 +4,20 @@ import ThemeToggle from "@/components/ThemeToggle";
 
 interface Props {
   locale: Locale;
+  showEditorLink?: boolean;
 }
 
-export default function SiteHeader({ locale }: Props) {
+const EDITOR_LABELS: Record<Locale, string> = {
+  zh: "编辑",
+  en: "Edit",
+};
+
+export default function SiteHeader({
+  locale,
+  showEditorLink = true,
+}: Props) {
+  const editorLabel = EDITOR_LABELS[locale];
+
   return (
     <header className="site-header">
       <Link href={`/${locale}`} className="site-brand" aria-label="Travel Journal">
@@ -16,6 +27,19 @@ export default function SiteHeader({ locale }: Props) {
         <span>travel</span>
       </Link>
       <div className="site-actions">
+        {showEditorLink && (
+          <Link
+            href="/edit"
+            className="site-edit-link"
+            aria-label={editorLabel}
+            title={editorLabel}
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.5 6.5l4 4M4 20l4.4-1 10.3-10.3a2.8 2.8 0 00-4-4L4.4 15 4 20z" />
+            </svg>
+            <span>{editorLabel}</span>
+          </Link>
+        )}
         <ThemeToggle locale={locale} />
       </div>
     </header>

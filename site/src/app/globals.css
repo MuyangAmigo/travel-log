@@ -472,6 +472,42 @@ body {
 .site-actions {
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+.site-edit-link {
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  background: var(--palette-surface-muted);
+  color: var(--palette-text-primary);
+  padding: 0 14px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+.site-edit-link svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.site-edit-link:hover {
+  background: var(--surface-elevated);
+  box-shadow: var(--ab-shadow-card);
+}
+.site-edit-link:active { transform: scale(.97); }
+.site-edit-link:focus-visible {
+  outline: 2px solid var(--palette-bg-primary-core);
+  outline-offset: 3px;
 }
 .theme-toggle {
   width: 40px;
