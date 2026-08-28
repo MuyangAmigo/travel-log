@@ -1,0 +1,2800 @@
+{
+  "version": 1,
+  "slug": "fukuoka-solo-2026",
+  "metadata": {
+    "date": "2026-06-03",
+    "dateRange": "2026.06.03 — 06.07",
+    "coverImageId": "cover-2026-08",
+    "title": {
+      "zh": "福冈 · 一个人慢慢走",
+      "en": "Fukuoka · Wandering at My Own Pace"
+    },
+    "subtitle": {
+      "zh": "雨中的神社、临时起意的海边，还有第一次真正和自己同行",
+      "en": "Rainy shrines, an unplanned seaside, and learning to enjoy my own company"
+    },
+    "location": {
+      "zh": "日本 · 福冈与太宰府",
+      "en": "Fukuoka & Dazaifu, Japan"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "cover-2026-08",
+      "filename": "cover-2026-08.png",
+      "alt": {
+        "zh": "福冈独旅封面拼贴",
+        "en": "Fukuoka solo-trip cover collage"
+      }
+    },
+    {
+      "id": "01-airport-lounge-meal",
+      "filename": "01-airport-lounge-meal.jpeg",
+      "alt": {
+        "zh": "浦东机场贵宾室窗边的餐食",
+        "en": "Meal by the window in Pudong Airport Lounge 170"
+      }
+    },
+    {
+      "id": "02-fukuoka-airport-arrival",
+      "filename": "02-fukuoka-airport-arrival.jpeg",
+      "alt": {
+        "zh": "抵达福冈时窗外的跑道与天空",
+        "en": "Runway and sky outside the window on arrival in Fukuoka"
+      }
+    },
+    {
+      "id": "03-the-b-hakata-room",
+      "filename": "03-the-b-hakata-room.jpeg",
+      "alt": {
+        "zh": "The B 博多站酒店房间里的镜面自拍",
+        "en": "Mirror selfie in a room at The B Hakata"
+      }
+    },
+    {
+      "id": "04-shin-shin-order-ticket",
+      "filename": "04-shin-shin-order-ticket.jpeg",
+      "alt": {
+        "zh": "Shin Shin 拉面的点餐券",
+        "en": "Order ticket for Shin Shin ramen"
+      }
+    },
+    {
+      "id": "05-shin-shin-ramen",
+      "filename": "05-shin-shin-ramen.jpeg",
+      "alt": {
+        "zh": "Shin Shin 的博多豚骨拉面",
+        "en": "Hakata tonkotsu ramen from Shin Shin"
+      }
+    },
+    {
+      "id": "06-hakata-station-night",
+      "filename": "06-hakata-station-night.jpeg",
+      "alt": {
+        "zh": "夜晚灯光下的博多站",
+        "en": "Hakata Station lit up at night"
+      }
+    },
+    {
+      "id": "07-hakata-marui-night",
+      "filename": "07-hakata-marui-night.jpeg",
+      "alt": {
+        "zh": "夜晚亮灯的博多 0101 商场",
+        "en": "Hakata Marui mall illuminated at night"
+      }
+    },
+    {
+      "id": "08-kushida-shrine-approach-night",
+      "filename": "08-kushida-shrine-approach-night.jpeg",
+      "alt": {
+        "zh": "夜晚的栉田神社参道",
+        "en": "Approach to Kushida Shrine at night"
+      }
+    },
+    {
+      "id": "09-kushida-shrine-night",
+      "filename": "09-kushida-shrine-night.jpeg",
+      "alt": {
+        "zh": "夜晚灯笼下的栉田神社",
+        "en": "Kushida Shrine beneath lanterns at night"
+      }
+    },
+    {
+      "id": "10-tenjin-shop-display",
+      "filename": "10-tenjin-shop-display.jpeg",
+      "alt": {
+        "zh": "福冈街头店铺里的食物陈列",
+        "en": "Food display in a Fukuoka streetside shop"
+      }
+    },
+    {
+      "id": "11-tochoji-pagoda",
+      "filename": "11-tochoji-pagoda.png",
+      "alt": {
+        "zh": "东长寺红色五重塔",
+        "en": "Red five-story pagoda at Tochoji"
+      }
+    },
+    {
+      "id": "12-mangyoji-temple-cat",
+      "filename": "12-mangyoji-temple-cat.png",
+      "alt": {
+        "zh": "万行寺寺务所窗边的奶牛猫",
+        "en": "Black-and-white cat by the temple office window at Mangyoji"
+      }
+    },
+    {
+      "id": "13-tenjin-rainy-street",
+      "filename": "13-tenjin-rainy-street.webp",
+      "alt": {
+        "zh": "雨天的天神街道与路口",
+        "en": "Rainy Tenjin street and intersection"
+      }
+    },
+    {
+      "id": "14-kego-shrine",
+      "filename": "14-kego-shrine.webp",
+      "alt": {
+        "zh": "夹在城市建筑之间的警固神社",
+        "en": "Kego Shrine nestled among city buildings"
+      }
+    },
+    {
+      "id": "15-tenjin-green-installation",
+      "filename": "15-tenjin-green-installation.webp",
+      "alt": {
+        "zh": "天神商场前的绿色艺术装置",
+        "en": "Bright green art installation outside a Tenjin shopping complex"
+      }
+    },
+    {
+      "id": "16-kego-park",
+      "filename": "16-kego-park.webp",
+      "alt": {
+        "zh": "雨后的警固公园与树木",
+        "en": "Trees in Kego Park after rain"
+      }
+    },
+    {
+      "id": "17-one-fukuoka-building",
+      "filename": "17-one-fukuoka-building.webp",
+      "alt": {
+        "zh": "One Fukuoka 大楼外观",
+        "en": "Exterior of One Fukuoka Building"
+      }
+    },
+    {
+      "id": "18-musashi-wagyu-bowl",
+      "filename": "18-musashi-wagyu-bowl.webp",
+      "alt": {
+        "zh": "武藏和牛店的木桶和牛饭与热铁块",
+        "en": "Wooden tub of wagyu rice with a hot stone at Musashi"
+      }
+    },
+    {
+      "id": "19-canal-city-daytime",
+      "filename": "19-canal-city-daytime.webp",
+      "alt": {
+        "zh": "白天红色建筑环绕的博多运河城",
+        "en": "Red buildings surrounding Canal City Hakata in daylight"
+      }
+    },
+    {
+      "id": "20-seaside-torii",
+      "filename": "20-seaside-torii.webp",
+      "alt": {
+        "zh": "海边松树与面向沙滩的鸟居",
+        "en": "Pine trees and a torii facing the beach at the seaside stop"
+      }
+    },
+    {
+      "id": "21-seaside-pine-path",
+      "filename": "21-seaside-pine-path.webp",
+      "alt": {
+        "zh": "海边松林中的长路",
+        "en": "Long path through a seaside pine grove"
+      }
+    },
+    {
+      "id": "22-seaside-coast-path",
+      "filename": "22-seaside-coast-path.webp",
+      "alt": {
+        "zh": "树影下通向海岸的小路",
+        "en": "Shaded path leading toward the coast"
+      }
+    },
+    {
+      "id": "23-ohori-park-bench",
+      "filename": "23-ohori-park-bench.webp",
+      "alt": {
+        "zh": "大濠公园树下的空长椅",
+        "en": "Empty bench beneath a tree in Ohori Park"
+      }
+    },
+    {
+      "id": "24-fukuoka-castle-ruins-sign",
+      "filename": "24-fukuoka-castle-ruins-sign.webp",
+      "alt": {
+        "zh": "福冈城迹公园中的木牌与树木",
+        "en": "Wooden sign and trees in Fukuoka Castle Ruins Park"
+      }
+    },
+    {
+      "id": "25-fukuoka-castle-ruins-park",
+      "filename": "25-fukuoka-castle-ruins-park.webp",
+      "alt": {
+        "zh": "福冈城迹附近被阳光照亮的绿树",
+        "en": "Sunlit green trees near Fukuoka Castle Ruins"
+      }
+    },
+    {
+      "id": "26-senko-tsukemen-entrance",
+      "filename": "26-senko-tsukemen-entrance.webp",
+      "alt": {
+        "zh": "千虎沾面店门口的招牌",
+        "en": "Sign at the entrance of Senko tsukemen restaurant"
+      }
+    },
+    {
+      "id": "27-senko-tsukemen",
+      "filename": "27-senko-tsukemen.webp",
+      "alt": {
+        "zh": "千虎拉面的超大份沾面与配菜",
+        "en": "Extra-large serving of tsukemen and side dishes at Senko"
+      }
+    },
+    {
+      "id": "28-seven-eleven-night",
+      "filename": "28-seven-eleven-night.webp",
+      "alt": {
+        "zh": "夜晚街角亮着的 7-Eleven 招牌",
+        "en": "Glowing 7-Eleven sign on a street corner at night"
+      }
+    },
+    {
+      "id": "29-hakata-station-bakery",
+      "filename": "29-hakata-station-bakery.webp",
+      "alt": {
+        "zh": "博多站面包店的夏季面包海报",
+        "en": "Summer bread poster at a Hakata Station bakery"
+      }
+    },
+    {
+      "id": "30-hakata-station-bread",
+      "filename": "30-hakata-station-bread.webp",
+      "alt": {
+        "zh": "手里拿着太宰府主题包装的小面包",
+        "en": "Small bread in Dazaifu-themed packaging held in hand"
+      }
+    },
+    {
+      "id": "31-dazaifu-tenmangu-approach",
+      "filename": "31-dazaifu-tenmangu-approach.webp",
+      "alt": {
+        "zh": "太宰府天满宫入口的石鸟居与参道",
+        "en": "Stone torii and approach at the entrance to Dazaifu Tenmangu"
+      }
+    },
+    {
+      "id": "32-dazaifu-tenmangu-pond",
+      "filename": "32-dazaifu-tenmangu-pond.webp",
+      "alt": {
+        "zh": "太宰府天满宫庭院池塘与树木",
+        "en": "Pond and trees in the Dazaifu Tenmangu grounds"
+      }
+    },
+    {
+      "id": "33-dazaifu-goshuin",
+      "filename": "33-dazaifu-goshuin.webp",
+      "alt": {
+        "zh": "手持太宰府天满宫御朱印",
+        "en": "Dazaifu Tenmangu goshuin held in hand"
+      }
+    },
+    {
+      "id": "34-kyushu-national-museum",
+      "filename": "34-kyushu-national-museum.webp",
+      "alt": {
+        "zh": "蓝天下曲线屋顶的九州国立博物馆",
+        "en": "Curved roof of the Kyushu National Museum under a blue sky"
+      }
+    },
+    {
+      "id": "35-kyushu-national-museum-ticket",
+      "filename": "35-kyushu-national-museum-ticket.webp",
+      "alt": {
+        "zh": "手持九州国立博物馆门票",
+        "en": "Kyushu National Museum admission ticket held in hand"
+      }
+    },
+    {
+      "id": "36-museum-textile",
+      "filename": "36-museum-textile.webp",
+      "alt": {
+        "zh": "九州国立博物馆展出的传统织物服饰",
+        "en": "Traditional textile garment on display at the Kyushu National Museum"
+      }
+    },
+    {
+      "id": "37-museum-exhibit",
+      "filename": "37-museum-exhibit.webp",
+      "alt": {
+        "zh": "九州国立博物馆中的人物展品",
+        "en": "Figure exhibit at the Kyushu National Museum"
+      }
+    },
+    {
+      "id": "38-kamado-shrine-selfie",
+      "filename": "38-kamado-shrine-selfie.webp",
+      "alt": {
+        "zh": "宝满宫灶门神社树林里的自拍",
+        "en": "Selfie in the woods at Homangu Kamado Shrine"
+      }
+    },
+    {
+      "id": "39-kamado-shrine-approach",
+      "filename": "39-kamado-shrine-approach.webp",
+      "alt": {
+        "zh": "宝满宫灶门神社林间参道",
+        "en": "Woodland approach to Homangu Kamado Shrine"
+      }
+    },
+    {
+      "id": "40-kamado-shrine-garden",
+      "filename": "40-kamado-shrine-garden.webp",
+      "alt": {
+        "zh": "宝满宫灶门神社的草地与树林",
+        "en": "Grass and woods at Homangu Kamado Shrine"
+      }
+    },
+    {
+      "id": "41-kamado-shrine-path",
+      "filename": "41-kamado-shrine-path.webp",
+      "alt": {
+        "zh": "宝满宫灶门神社通往树林深处的道路",
+        "en": "Path leading deeper into the woods at Homangu Kamado Shrine"
+      }
+    },
+    {
+      "id": "42-kamado-shrine-hall",
+      "filename": "42-kamado-shrine-hall.webp",
+      "alt": {
+        "zh": "宝满宫灶门神社的木造社殿",
+        "en": "Wooden shrine hall at Homangu Kamado Shrine"
+      }
+    },
+    {
+      "id": "43-kamado-shrine-goshuin",
+      "filename": "43-kamado-shrine-goshuin.webp",
+      "alt": {
+        "zh": "手持宝满宫灶门神社御朱印与印章页",
+        "en": "Homangu Kamado Shrine goshuin and stamped page held in hand"
+      }
+    },
+    {
+      "id": "44-umegae-mochi",
+      "filename": "44-umegae-mochi.webp",
+      "alt": {
+        "zh": "太宰府站前手持现烤梅枝饼",
+        "en": "Freshly grilled umegae mochi held in hand near Dazaifu Station"
+      }
+    },
+    {
+      "id": "45-hakata-station-ice-cream",
+      "filename": "45-hakata-station-ice-cream.webp",
+      "alt": {
+        "zh": "手持奶味浓郁的香草冰淇淋",
+        "en": "Rich vanilla ice cream held in hand at Hakata Station"
+      }
+    },
+    {
+      "id": "46-maedaya-entrance",
+      "filename": "46-maedaya-entrance.webp",
+      "alt": {
+        "zh": "前田屋牛肠锅餐厅入口",
+        "en": "Entrance to Maedaya motsunabe restaurant"
+      }
+    },
+    {
+      "id": "47-maedaya-motsunabe",
+      "filename": "47-maedaya-motsunabe.webp",
+      "alt": {
+        "zh": "前田屋辣味牛肠锅",
+        "en": "Spicy motsunabe at Maedaya"
+      }
+    },
+    {
+      "id": "48-maedaya-sign",
+      "filename": "48-maedaya-sign.webp",
+      "alt": {
+        "zh": "前田屋餐厅的博多牛肠锅招牌",
+        "en": "Hakata motsunabe sign at Maedaya restaurant"
+      }
+    },
+    {
+      "id": "49-maedaya-finale",
+      "filename": "49-maedaya-finale.webp",
+      "alt": {
+        "zh": "牛肠锅、米饭与饮品组成的夜宵",
+        "en": "Late-night meal of motsunabe, rice, and drinks"
+      }
+    },
+    {
+      "id": "50-flight-home",
+      "filename": "50-flight-home.webp",
+      "alt": {
+        "zh": "返程飞机机翼与云层",
+        "en": "Wing of the return flight above a layer of clouds"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "FUKUOKA",
+          "en": "FUKUOKA"
+        },
+        "label": {
+          "zh": "旅程封面",
+          "en": "Trip cover"
+        },
+        "detail": {
+          "zh": "一个人慢慢走 · 2026.06.03 — 06.07",
+          "en": "Wandering at my own pace · June 3–7, 2026"
+        }
+      }
+    },
+    {
+      "id": "route",
+      "navigation": {
+        "marker": {
+          "zh": "ROUTE",
+          "en": "ROUTE"
+        },
+        "label": {
+          "zh": "旅程概览",
+          "en": "Trip overview"
+        },
+        "detail": {
+          "zh": "福冈市区 · 海边 · 太宰府 · 五天四晚",
+          "en": "Fukuoka City · Seaside · Dazaifu · Five days, four nights"
+        }
+      }
+    },
+    {
+      "id": "day-1",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 1",
+          "en": "DAY 1"
+        },
+        "label": {
+          "zh": "初到福冈",
+          "en": "Arriving in Fukuoka"
+        },
+        "detail": {
+          "zh": "上海到博多 · 拉面、神社与中洲夜行",
+          "en": "Shanghai to Hakata · Ramen, shrines, and a Nakasu night walk"
+        }
+      }
+    },
+    {
+      "id": "day-2",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "雨中寺社",
+          "en": "Shrines in the rain"
+        },
+        "detail": {
+          "zh": "御朱印、天神，以及被大雨改写的购物日",
+          "en": "Goshuin, Tenjin, and a shopping day rewritten by heavy rain"
+        }
+      }
+    },
+    {
+      "id": "day-3",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 3",
+          "en": "DAY 3"
+        },
+        "label": {
+          "zh": "临时海边",
+          "en": "An impromptu seaside"
+        },
+        "detail": {
+          "zh": "公园、城迹、沾面与一个半小时的夜路",
+          "en": "Parks, castle ruins, tsukemen, and a long walk home"
+        }
+      }
+    },
+    {
+      "id": "day-4",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 4",
+          "en": "DAY 4"
+        },
+        "label": {
+          "zh": "太宰府一日",
+          "en": "A day in Dazaifu"
+        },
+        "detail": {
+          "zh": "天满宫、九州国立博物馆与灶门神社",
+          "en": "Tenmangu, the Kyushu National Museum, and Kamado Shrine"
+        }
+      }
+    },
+    {
+      "id": "day-5",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "从容告别",
+          "en": "An easy goodbye"
+        },
+        "detail": {
+          "zh": "福冈机场到上海 · 云层上的最后一张照片",
+          "en": "Fukuoka Airport to Shanghai · One last photo above the clouds"
+        }
+      }
+    },
+    {
+      "id": "notes",
+      "navigation": {
+        "marker": {
+          "zh": "NOTES",
+          "en": "NOTES"
+        },
+        "label": {
+          "zh": "购物与回望",
+          "en": "Shopping and reflection"
+        },
+        "detail": {
+          "zh": "账单、没执行的攻略，以及第一次独旅留下的答案",
+          "en": "The bill, the unused plan, and what a first solo trip left behind"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover-1",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "☔ ⛩️ 🌊",
+            "en": "☔ ⛩️ 🌊"
+          },
+          "title": {
+            "zh": "福冈，\n一个人慢慢走",
+            "en": "Fukuoka,\nWandering at\nMy Own Pace"
+          },
+          "subtitle": {
+            "zh": "A Solo Travel Journal",
+            "en": "A Solo Travel Journal"
+          },
+          "date": {
+            "zh": "2026.06.03 — 06.07",
+            "en": "2026.06.03 — 06.07"
+          },
+          "intro": {
+            "zh": "「原来我不是害怕一个人，\n只是没试过和自己好好相处。」",
+            "en": "“It turns out I wasn't afraid of being alone;\nI had simply never learned to be with myself.”"
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "FUKUOKA\n2026",
+              "en": "FUKUOKA\n2026"
+            }
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "separators": true,
+          "boxStamp": {
+            "zh": "SOLO PASS",
+            "en": "SOLO PASS"
+          },
+          "boxStampSpacing": "relaxed",
+          "backgroundImageId": "cover-2026-08"
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "route",
+      "blocks": [
+        {
+          "id": "page-02-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🗺️",
+            "en": "🗺️"
+          },
+          "markerValue": {
+            "zh": "ROUTE",
+            "en": "ROUTE"
+          },
+          "title": {
+            "zh": "计划写得很满，最后走得很松",
+            "en": "A Full Plan, a Gentler Trip"
+          },
+          "subtitle": {
+            "zh": "福冈市区 · 海边 · 太宰府 · 五天四晚",
+            "en": "Fukuoka City · Seaside · Dazaifu · Five days, four nights"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-02-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "出发前的攻略里，有熊本新干线、福冈塔、百道海滨公园、糸岛和一长串必吃清单。真正落地之后，雨、睡眠和临时起意接管了路线。",
+              "en": "Before I left, my itinerary had a Kumamoto Shinkansen trip, Fukuoka Tower, Momochi Seaside Park, Itoshima, and a long must-eat list. Once I arrived, rain, sleep, and spur-of-the-moment decisions took over the route."
+            },
+            {
+              "zh": "最后没有去熊本，也没有赶去糸岛。取而代之的是雨中的寺社、与一只奶牛猫长久对视、安静的海边和公园，以及很多一个人慢慢走、慢慢想的时间。",
+              "en": "I never made it to Kumamoto or rushed out to Itoshima. Instead, there were rainy temples and shrines, a long gaze shared with a black-and-white cat, a quiet seaside and park, and so much time to walk and think slowly on my own."
+            }
+          ]
+        },
+        {
+          "id": "page-02-timeline-1",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-02-timeline-1-item-1",
+              "time": {
+                "zh": "06.03",
+                "en": "06.03"
+              },
+              "event": {
+                "zh": "上海 → 福冈",
+                "en": "Shanghai → Fukuoka"
+              },
+              "detail": {
+                "zh": "Shin Shin、栉田神社、运河城与中洲夜行",
+                "en": "Shin Shin, Kushida Shrine, Canal City, and a night walk through Nakasu"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-2",
+              "time": {
+                "zh": "06.04",
+                "en": "06.04"
+              },
+              "event": {
+                "zh": "雨中的寺社与天神",
+                "en": "Rainy shrines and Tenjin"
+              },
+              "detail": {
+                "zh": "取消公园和海滨计划，改成御朱印与购物日",
+                "en": "The park and waterfront plans were cancelled; goshuin and shopping took their place"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-3",
+              "time": {
+                "zh": "06.05",
+                "en": "06.05"
+              },
+              "event": {
+                "zh": "取消熊本，临时去海边",
+                "en": "Kumamoto cancelled; an impromptu seaside instead"
+              },
+              "detail": {
+                "zh": "运河城、海边、大濠公园、福冈城迹、沾面与暴走",
+                "en": "Canal City, the seaside, Ohori Park, Fukuoka Castle Ruins, tsukemen, and an epic walk"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-4",
+              "time": {
+                "zh": "06.06",
+                "en": "06.06"
+              },
+              "event": {
+                "zh": "太宰府与灶门神社",
+                "en": "Dazaifu and Kamado Shrine"
+              },
+              "detail": {
+                "zh": "天满宫、九州国立博物馆、山间神社和牛肠锅",
+                "en": "Tenmangu, the Kyushu National Museum, a shrine in the hills, and motsunabe"
+              }
+            },
+            {
+              "id": "page-02-timeline-1-item-5",
+              "time": {
+                "zh": "06.07",
+                "en": "06.07"
+              },
+              "event": {
+                "zh": "福冈 → 上海",
+                "en": "Fukuoka → Shanghai"
+              },
+              "detail": {
+                "zh": "机场公交、免税店与云层上的告别",
+                "en": "Airport bus, duty free, and a goodbye above the clouds"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-02-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "这趟旅行的节奏",
+            "en": "The rhythm of this trip"
+          },
+          "body": {
+            "zh": "不用赶，不用等谁。几点起、去哪里、吃什么、要不要绕路，全都只对自己负责。",
+            "en": "No rushing and no waiting for anyone. What time I got up, where I went, what I ate, whether I took a detour—I was answerable only to myself."
+          },
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "page-03-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "彻底自然醒，再慢慢出发",
+            "en": "Waking Naturally, Leaving Slowly"
+          },
+          "subtitle": {
+            "zh": "Wednesday, June 3rd · Shanghai ✈️ Fukuoka",
+            "en": "Wednesday, June 3rd · Shanghai ✈️ Fukuoka"
+          },
+          "icon": "🌦️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-03-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "前一天运动过度，夜里也没睡踏实。早上醒来先迷迷糊糊刷了刷 Microsoft Build 的新闻，十点多才从家出门。打车 40 元到景洪路市域机场线站，车几乎刚好进站，二十几分钟便到了浦东机场。",
+              "en": "I had overdone the exercise the day before and hadn't slept soundly either. In the morning I drowsily scrolled through Microsoft Build news, then did not leave home until after ten. An RMB 40 taxi took me to the Jinghong Road station for the Airport Link; the train was almost perfectly timed, and I reached Pudong Airport in a little over twenty minutes."
+            },
+            {
+              "zh": "11:45 已经坐进 170 号贵宾室。热菜、沙拉、点心、水果比预想中丰盛，吃完还顺手拿了水、三明治和咖啡。福冈的行程没细想，一个人嘛，到了再说。",
+              "en": "By 11:45, I was seated in Lounge 170. The hot dishes, salads, pastries, and fruit were more plentiful than I had expected, and I grabbed water, a sandwich, and coffee after eating. I had not thought through Fukuoka in detail. I was on my own, after all—I could figure it out once I got there."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "01-airport-lounge-meal",
+              "caption": {
+                "zh": "170 号贵宾室：出发前先慢慢吃一顿",
+                "en": "Lounge 170: taking my time over a meal before departure"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "02-fukuoka-airport-arrival",
+              "caption": {
+                "zh": "飞行 1 小时 18 分，窗外已经是福冈",
+                "en": "A 1-hour-18-minute flight, and Fukuoka was already outside the window"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "原定 1:50 起飞，2:00 才推出去，本以为又要延误，结果飞行只用了 1 小时 18 分。福冈机场很小，却干净得让人印象深刻。刚下过雨，空气清凉，从到达、取行李到出海关不到半小时。",
+              "en": "We were meant to take off at 1:50 but did not push back until 2:00, so I expected another delay. Instead, the flight took only 1 hour and 18 minutes. Fukuoka Airport is small, yet strikingly clean. It had just rained, the air was cool, and fewer than thirty minutes passed from arrival through baggage claim and immigration."
+            },
+            {
+              "zh": "我搭 shuttle bus 从国际站绕到国内站，再转地铁去酒店。后来才发现，国际航站楼直达博多站的公交其实更方便。",
+              "en": "I took the shuttle bus around from the international terminal to the domestic terminal, then the subway to my hotel. Later I learned that the bus straight from the international terminal to Hakata Station would have been easier."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "03-the-b-hakata-room",
+              "caption": {
+                "zh": "The B 博多站：房间很小，一个人住刚刚好",
+                "en": "The B Hakata: a tiny room, just right for one"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🏨 The B 博多站",
+            "en": "🏨 The B Hakata"
+          },
+          "body": {
+            "zh": "典型的日本小房间，四五百元一晚，比淡季大阪还贵一些。把从机场带来的蛋挞、三明治和小面包吃掉，躺下休息，等窗外的雨变小。",
+            "en": "A classic tiny Japanese hotel room, RMB 400–500 a night and a little pricier than Osaka in low season. I finished the egg tart, sandwich, and small bread I had brought from the airport, lay down to rest, and waited for the rain outside to ease."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "page-04-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "拉面、神社与夜里的河",
+            "en": "Ramen, Shrines, and the River at Night"
+          },
+          "subtitle": {
+            "zh": "Hakata · Kushida Shrine · Canal City · Nakasu",
+            "en": "Hakata · Kushida Shrine · Canal City · Nakasu"
+          },
+          "icon": "🌙",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-04-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "傍晚雨小了，步行十分钟到博多站 0101 商场地下一层吃 Shin Shin。汤底浓郁，细面选了最硬的一档，口感特别好；汤浓却不齁咸、不腻，我很喜欢。第一次试着用日语点餐，前面都很顺，说到面条粗细时突然卡壳，只好笑场。",
+              "en": "When the evening rain let up, I walked ten minutes to Shin Shin in the Hakata Marui basement. The broth was rich; I chose the firmest setting for the thin noodles, and loved the texture. The broth was concentrated but neither too salty nor greasy. It was my first attempt at ordering in Japanese, and it went smoothly until I suddenly got stuck talking about noodle thickness and had to laugh it off."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "04-shin-shin-order-ticket",
+              "caption": {
+                "zh": "日语点餐一路顺利，直到面条硬度",
+                "en": "The Japanese ordering went smoothly—until the noodle firmness"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "05-shin-shin-ramen",
+              "caption": {
+                "zh": "浓汤、细面、最硬口感：第一餐就很满意",
+                "en": "Rich broth, thin noodles, firmest texture: an excellent first meal"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "06-hakata-station-night",
+              "caption": {
+                "zh": "晚上七点多，从博多站开始散步",
+                "en": "Just after seven, I began my walk from Hakata Station"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "07-hakata-marui-night",
+              "caption": {
+                "zh": "商场的灯光把雨夜照得很热闹",
+                "en": "Mall lights made the rainy night feel lively"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "从博多站走二十分钟到栉田神社。夜里的参道很静，我已经决定第二天白天再来写御朱印。再绕去运河城，河边的屋台一个个亮着灯。没有坐下来吃，但看着大家挤在小摊前，觉得沿河吃饭应该很惬意。",
+              "en": "It took twenty minutes to walk from Hakata Station to Kushida Shrine. The approach was so quiet at night that I decided to return in daylight for a goshuin the next day. Then I looped around to Canal City, where the yatai along the river were lighting up one by one. I did not sit down to eat, but seeing everyone crowd around the little stalls made dining by the river look wonderfully relaxing."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "08-kushida-shrine-approach-night",
+              "caption": {
+                "zh": "夜里的参道，安静得像另一座城市",
+                "en": "The nighttime approach was as quiet as another city"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "09-kushida-shrine-night",
+              "caption": {
+                "zh": "先在夜里见一面，明天再回来写御朱印",
+                "en": "A first meeting at night; I would return tomorrow for the goshuin"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "第一晚的收尾",
+            "en": "The end of my first night"
+          },
+          "body": {
+            "zh": "和宝子打着电话，从中洲慢慢走回博多。一个多小时的路，因为有人在电话那头陪着，一点也不累。上楼前照例逛便利店：茶、小冰淇淋、明治黑巧克力。拉面、神社、运河、屋台、便利店，一个人走得很慢，但很舒服。",
+            "en": "On the phone with my dear one, I slowly walked back from Nakasu to Hakata. The route took over an hour, but with someone keeping me company from the other end of the line, it did not feel tiring at all. As usual, I stopped at a convenience store before going upstairs: tea, a small ice cream, and Meiji dark chocolate. Ramen, a shrine, a canal, yatai, and a convenience store—I moved slowly by myself, and it felt so comfortable."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "page-05-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "雨中的神社，与一只猫对视",
+            "en": "Rainy Shrines and a Temple Cat"
+          },
+          "subtitle": {
+            "zh": "Kushida Shrine · Tochoji · Mangyoji · Kego Shrine",
+            "en": "Kushida Shrine · Tochoji · Mangyoji · Kego Shrine"
+          },
+          "icon": "☔",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-05-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "九点多自然醒，精神很好，却还是有一点第一次正式独自出门的小忐忑。沿着昨晚的路线回到栉田神社，写下这趟旅行的第一枚御朱印。垫纸上也细心盖了章，很好看。十点多，雨又开始下。",
+              "en": "I woke naturally after nine, feeling great, though I still had a little of the nervousness that comes with properly heading out alone for the first time. I followed last night's route back to Kushida Shrine and received the first goshuin of the trip. They also carefully stamped the backing paper, and it was beautiful. After ten, it began raining again."
+            }
+          ]
+        },
+        {
+          "id": "page-05-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "10-tenjin-shop-display",
+              "caption": {
+                "zh": "雨天出门，先从街边的日常开始",
+                "en": "Heading out in the rain, beginning with everyday scenes by the street"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "11-tochoji-pagoda",
+              "caption": {
+                "zh": "东长寺的五重塔，在阴雨天里仍然很亮",
+                "en": "Tochoji's five-story pagoda was vivid even on a grey rainy day"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "东长寺占地不大，看点却很集中。相传这是空海从大唐归国后创建的第一所真言宗寺院。福冈大佛是一座约 16.1 米高的木制释迦佛坐像，另有全桧木五重塔和国家重要文化财木造千手观音立像。御朱印旁还夹了一张大佛画像明信片，可惜正中的佛堂没能进去。",
+              "en": "Tochoji is not large, but its sights are concentrated. It is said to be the first Shingon temple Kukai founded after returning from Tang China. The Fukuoka Daibutsu is a 16.1-meter wooden seated Shakyamuni; there is also an all-hinoki five-story pagoda and a standing wooden Thousand-Armed Kannon, an Important Cultural Property. A postcard of the Great Buddha was tucked beside my goshuin, though sadly I could not enter the central hall."
+            },
+            {
+              "zh": "为了继续找能写御朱印的地方，我往天神方向走。十二点多路过万行寺，雨越下越大，就绕进去避一避。寺务所窗口旁趴着一只奶牛猫，它一直看着我，我也看着它。伞面上的雨声不断，那一刻却像冥冥中有种缘分。",
+              "en": "I headed toward Tenjin to look for more places offering goshuin. Just after noon I passed Mangyoji; the rain was growing heavier, so I ducked inside. A black-and-white cat was lying by the temple office window. It kept looking at me, and I kept looking back. Rain drummed steadily on my umbrella, yet the moment felt as though we were somehow meant to meet."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "12-mangyoji-temple-cat",
+              "caption": {
+                "zh": "雨里的意外收获：和奶牛猫对视了很久",
+                "en": "An unexpected gift from the rain: we looked at each other for a long time"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "13-tenjin-rainy-street",
+              "caption": {
+                "zh": "坐一站地铁，终于进入热闹的天神",
+                "en": "One subway stop later, I finally reached lively Tenjin"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "14-kego-shrine",
+              "caption": {
+                "zh": "警固神社与警固公园相连，闹中取静",
+                "en": "Linked to Kego Park, Kego Shrine was a quiet pocket within the bustle"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "御朱印小乌龙",
+            "en": "A little goshuin mix-up"
+          },
+          "body": {
+            "zh": "寺务所摆了四种警固神社的御朱印。我以为文字也不同，一下写了两个；好在图案确实不一样，也算误打误撞留下了两页记忆。",
+            "en": "The temple office displayed four kinds of Kego Shrine goshuin. Thinking the text differed too, I had two written at once. Thankfully the designs really were different, so the mistake still left me with two memorable pages."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "page-06-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "大雨把行程改成了购物日",
+            "en": "When Rain Turned the Day into Shopping"
+          },
+          "subtitle": {
+            "zh": "Tenjin Underground Mall · One Fukuoka · Musashi",
+            "en": "Tenjin Underground Mall · One Fukuoka · Musashi"
+          },
+          "icon": "🌧️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-06-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "原本要去大濠公园、福冈美术馆、福冈城迹、福冈塔和百道海滨公园。雨越下越大，只能全部取消。穿过天神地下街，先逛 Patagonia；不免税，看中的几件衣服也就放下了。",
+              "en": "I had planned to visit Ohori Park, the Fukuoka Art Museum, Fukuoka Castle Ruins, Fukuoka Tower, and Momochi Seaside Park. The rain intensified, so every one of them had to go. I walked through Tenjin Underground Mall and browsed Patagonia first; there was no tax-free shopping, so I left behind the clothes I liked."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-1",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "15-tenjin-green-installation",
+              "caption": {
+                "zh": "阴雨天里的一团亮绿",
+                "en": "A burst of vivid green on a rainy day"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "16-kego-park",
+              "caption": {
+                "zh": "神社外就是城市公园",
+                "en": "A city park lay just beyond the shrine"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "17-one-fukuoka-building",
+              "caption": {
+                "zh": "One Fukuoka 里买到丑萌又舒服的 KEEN",
+                "en": "At One Fukuoka, I found KEEN shoes that were adorably ugly and wonderfully comfortable"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-06-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "One Fukuoka 倒有收获：一双 15,000 多日元的 KEEN，丑萌丑萌，穿着特别舒服。下午又去 Super Sports 找羽毛球拍，想要的款式全部售罄。路过三越楼上的 Daiso，想到晚上要写手帐，买了一把小剪刀。",
+              "en": "One Fukuoka did bring a find: a pair of KEENs for a little over ¥15,000—adorably ugly and exceptionally comfortable. Later I went to Super Sports looking for a badminton racket, but every model I wanted was sold out. Passing Daiso above Mitsukoshi, I remembered I wanted to write in my journal that night and bought a small pair of scissors."
+            },
+            {
+              "zh": "五六点决定吃顿好的，选了警固公园旁的武藏。六点左右到，排到七点半才吃上。木桶米饭铺满三分熟和牛，旁边放着滚烫铁块，可以自己把肉烤到喜欢的程度。",
+              "en": "At five or six I decided to have a good dinner and chose Musashi beside Kego Park. I arrived around six, waited until seven-thirty, and finally ate. The wooden tub of rice was covered with medium-rare wagyu, with a searing-hot stone beside it so I could cook the meat to my liking."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-06-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "18-musashi-wagyu-bowl",
+              "caption": {
+                "zh": "原味、铁块炙烤、最后茶泡饭：三种吃法收尾",
+                "en": "Plain first, seared on the hot stone next, then finished as ochazuke: three ways to eat it"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "武藏和牛饭",
+            "en": "Musashi wagyu rice"
+          },
+          "body": {
+            "zh": "福冈本地盐味调料和脆蒜片很香。最后把热茶倒进米饭，做成茶泡饭，整个人都暖起来。唯一的代价是排队太久，吃完已经八点多。",
+            "en": "The local Fukuoka salt seasoning and crisp garlic chips were delicious. Finally I poured hot tea over the rice for ochazuke, and felt warmed through. The only price was the long queue—it was already after eight when I finished."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-06-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "九点多回酒店整理手帐，十点下楼和宝子打电话聊到十一点。再泡个澡，本来想缓解走路的酸痛，结果躺下反而睡不着，翻来覆去到两点多。一个人很轻松、很自在，但也要清楚自己想做什么，更别害怕孤独。",
+              "en": "After nine I went back to the hotel to organize my journal, then went downstairs at ten to talk with my dear one until eleven. I took a bath hoping to soothe my sore feet, but lying down made sleep even harder; I tossed and turned past two. Being alone was easy and freeing, but I also had to know what I wanted to do and not be afraid of solitude."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "page-07-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "没有去熊本，去了一个小小的海边",
+            "en": "Skipping Kumamoto for a Quiet Seaside"
+          },
+          "subtitle": {
+            "zh": "Canal City · Seaside · Ohori Park · Fukuoka Castle Ruins",
+            "en": "Canal City · Seaside · Ohori Park · Fukuoka Castle Ruins"
+          },
+          "icon": "🌤️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-07-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "第三天睡到十一二点，磨磨蹭蹭一点多才出门。便利店买一个小饭团，再薅一杯酒店咖啡。第一站还是运河城，本想买羽毛球拍，结果一人只能买一把，于是把机会让给同事，自己想要的那把没买成。",
+              "en": "On day three, I slept until eleven or noon and did not get out until after one. I bought a small onigiri at a convenience store and helped myself to a hotel coffee. Canal City was again my first stop. I had hoped to buy a badminton racket, but each person was limited to one, so I gave the chance to a colleague and did not get the one I wanted."
+            }
+          ]
+        },
+        {
+          "id": "page-07-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "19-canal-city-daytime",
+              "caption": {
+                "zh": "白天再看运河城，红色建筑与水面都很醒目",
+                "en": "Canal City in daylight: the red architecture and water both stood out"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "下午两点多，临时决定去一个地图上似乎叫“松园之地”的小海边。名字记得并不确定，只记得那里一边是森林，一边是大海。我沿着路散了很久，也给同事打了个电话，听了一耳朵公司最近的八卦。",
+              "en": "After two in the afternoon, I spontaneously chose a small seaside place that may have been called something like “Matsuzono no Chi” on the map—the name is uncertain. I only remember forest on one side and the sea on the other. I wandered along the road for a long time, called a colleague too, and heard a whole earful of recent company gossip."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-gallery-2",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "20-seaside-torii",
+              "caption": {
+                "zh": "森林尽头的鸟居，另一边就是海",
+                "en": "A torii at the end of the forest, with the sea just beyond"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "21-seaside-pine-path",
+              "caption": {
+                "zh": "松林里的路，安静得只剩脚步声",
+                "en": "On the path through pines, only my footsteps broke the quiet"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "22-seaside-coast-path",
+              "caption": {
+                "zh": "一边树影，一边露出海的蓝",
+                "en": "Tree shade on one side, glimpses of blue sea on the other"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-07-prose-3",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "离开海边又去了大濠公园。城市中心的公园异常安静。地图上看到旁边有天守阁标记，顺路走过去，才发现没有天守，只剩福冈城迹。今天一直在公园、森林和海边转，身体和心都松了下来。",
+              "en": "After leaving the coast, I went to Ohori Park. The park in the middle of the city was remarkably quiet. I spotted a donjon marker on the map nearby and followed it, only to find that there was no keep—just Fukuoka Castle Ruins. I spent the day moving among parks, forest, and sea, and both my body and mind relaxed."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-gallery-3",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "23-ohori-park-bench",
+              "caption": {
+                "zh": "树下的空长椅，很适合什么都不做",
+                "en": "An empty bench under a tree, perfect for doing nothing"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "24-fukuoka-castle-ruins-sign",
+              "caption": {
+                "zh": "循着地图上的天守标记走来，只见遗址",
+                "en": "I followed the map's keep marker and found only the ruins"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "25-fukuoka-castle-ruins-park",
+              "caption": {
+                "zh": "没有天守，却有一大片安静的绿色",
+                "en": "No donjon, but a broad quiet expanse of green"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-08",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "page-08-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "牛肠锅歇业，转身吃超大份沾面",
+            "en": "Closed Motsunabe, Extra-Large Tsukemen"
+          },
+          "subtitle": {
+            "zh": "Downtown Fukuoka · Tenjin · Walk Back to Hakata",
+            "en": "Downtown Fukuoka · Tenjin · Walk Back to Hakata"
+          },
+          "icon": "🍜",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-08-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "傍晚六点多，中午没正经吃饭，肚子开始抗议。从安静的公园坐公交十分钟，一头扎进繁华市中心。先找那家很有名的牛肠锅，到了才发现长期歇业。站在门口犹豫半天，又一路走到天神，最后排进千虎拉面。",
+              "en": "Past six in the evening, having not eaten a proper lunch, my stomach began protesting. A ten-minute bus ride took me from the quiet park straight into the busy city center. I looked first for a well-known motsunabe restaurant, only to find that it had closed for a long period. After hesitating outside, I walked all the way to Tenjin and eventually joined the queue at Senko."
+            }
+          ]
+        },
+        {
+          "id": "page-08-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "26-senko-tsukemen-entrance",
+              "caption": {
+                "zh": "牛肠锅扑空之后，临时改吃千虎",
+                "en": "After missing out on motsunabe, I made an impromptu switch to Senko"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "27-senko-tsukemen",
+              "caption": {
+                "zh": "高估了自己的饭量，还是硬着头皮吃完",
+                "en": "I overestimated my appetite and finished it through sheer determination"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "这家沾面非常好吃，可我以为自己能吃很多，点了超大份才发现根本吃不下。在日本剩食物总觉得会引来目光，只好硬着头皮全部吃完。八点多离店，撑得不行，干脆从天神走回酒店。",
+              "en": "The tsukemen was delicious, but I thought I could eat a lot and only realized I could not finish it after ordering the extra-large portion. Leaving food in Japan made me feel as though people would stare, so I forced myself to finish every bite. I left after eight, uncomfortably full, and simply walked back to the hotel from Tenjin."
+            },
+            {
+              "zh": "又给宝子打着电话，磨磨蹭蹭走了一个半小时，十点多才到。第三天没有太多计划：公园、海边、遗址、拉面、暴走。一个人临时起意，也挺好。",
+              "en": "Talking with my dear one again, I ambled for an hour and a half and did not arrive until after ten. Day three had not had much of a plan: parks, seaside, ruins, ramen, and an epic walk. A spur-of-the-moment day alone was nice too."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "28-seven-eleven-night",
+              "caption": {
+                "zh": "一个半小时的夜路，便利店像熟悉的路标",
+                "en": "On a night walk of an hour and a half, convenience stores were familiar landmarks"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-08-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "原计划：熊本一日往返",
+            "en": "Original plan: a Kumamoto day trip"
+          },
+          "body": {
+            "zh": "本来要从博多坐 JR 九州新干线去熊本，单程 33–50 分钟、¥5,230；攻略里还记了 WEB 早特 3 往返约 ¥6,000–7,000，以及北九州周游券 3 日 ¥10,000。路线是熊本城 → 樱之马场城彩苑 → 水前寺成趣园 → 上下通商店街 → KUMAMON SQUARE，想吃太平燕、马肉、いきなり団子和辛子莲藕。最后一项都没执行，整天留给了福冈的绿色。",
+            "en": "I had planned to take the JR Kyushu Shinkansen from Hakata to Kumamoto: 33–50 minutes one way, ¥5,230. My notes also listed WEB Hayatoku 3 return tickets at about ¥6,000–7,000 and a three-day Northern Kyushu Rail Pass at ¥10,000. The route was Kumamoto Castle → Sakura-no-baba Josaien → Suizenji Jojuen → Shimotori and Kamitori shopping streets → KUMAMON SQUARE, with taipi’en, horse meat, ikinari dango, and karashi renkon to eat. I did not do a single item; the whole day stayed with Fukuoka's green spaces."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-09",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "page-09-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "从天神坐上西铁，去太宰府",
+            "en": "Nishitetsu from Tenjin to Dazaifu"
+          },
+          "subtitle": {
+            "zh": "Hakata · Nishitetsu · Dazaifu Tenmangu",
+            "en": "Hakata · Nishitetsu · Dazaifu Tenmangu"
+          },
+          "icon": "☀️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-09-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "第四天继续睡懒觉，十二点多才出门。照例带走酒店一杯咖啡，在博多站买了三个小面包。福冈的面包好吃又不贵，平均一两百日元一个。坐两站地铁到天神，再转西铁去太宰府。",
+              "en": "On day four I slept in again and did not leave until after noon. As usual, I took a hotel coffee with me and bought three small breads at Hakata Station. Fukuoka's bread was delicious and inexpensive, averaging ¥100–200 apiece. I took the subway two stops to Tenjin, then transferred to Nishitetsu for Dazaifu."
+            }
+          ]
+        },
+        {
+          "id": "page-09-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "29-hakata-station-bakery",
+              "caption": {
+                "zh": "出发前先在博多站挑面包",
+                "en": "Choosing bread at Hakata Station before setting out"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "30-hakata-station-bread",
+              "caption": {
+                "zh": "一两百日元一个，便宜又好吃",
+                "en": "¥100–200 each: cheap and delicious"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-09-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "西铁的全称是西日本铁道。它从 1908 年的九州电气轨道一路发展而来，电车、巴士、酒店、商场、物流都做，是福冈生活里绕不开的存在。经典黑、红、白配色的车厢，从热闹的天神一头扎进太宰府的怀旧气息。",
+              "en": "Nishitetsu is short for Nishi-Nippon Railroad. It grew out of Kyushu Electric Tramway, founded in 1908, and now runs trains, buses, hotels, shopping centers, and logistics—it is impossible to miss in Fukuoka life. In its classic black, red, and white livery, the train dove from lively Tenjin into Dazaifu's nostalgic atmosphere."
+            },
+            {
+              "zh": "太宰府站外就是长长的表参道。天气格外明亮，两边全是伴手礼、小物和小吃。走进天满宫，先是小桥流水和庭院，再穿过人群到神社主体。正殿正在修缮，被围挡遮住，好在御朱印照常写。",
+              "en": "Outside Dazaifu Station began the long omotesando. The weather was exceptionally bright, and both sides were filled with souvenirs, small goods, and snacks. At Tenmangu, I first crossed little bridges over flowing water and passed through the garden before making my way through the crowd to the main shrine. The main hall was under repair and hidden behind barriers, but goshuin were still being written."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-09-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "31-dazaifu-tenmangu-approach",
+              "caption": {
+                "zh": "阳光下的太宰府，旅行感一下子变浓",
+                "en": "In the sunshine, Dazaifu suddenly made the trip feel much more real"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "32-dazaifu-tenmangu-pond",
+              "caption": {
+                "zh": "穿过小桥流水，再往神社深处走",
+                "en": "Past bridges and flowing water, deeper into the shrine grounds"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-09-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "33-dazaifu-goshuin",
+              "caption": {
+                "zh": "写好御朱印，在旁边的小园林里坐了一会",
+                "en": "With the goshuin written, I sat for a while in the little garden beside it"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-09-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "原计划 A / B，最后拼成了 C",
+            "en": "Plans A and B became C"
+          },
+          "body": {
+            "zh": "A 是太宰府加糸岛，B 是博多与天神购物。实际没有去糸岛，却在太宰府加上九州国立博物馆和灶门神社，回博多后再完成购物，意外把两个方案拼在了一起。",
+            "en": "Plan A was Dazaifu plus Itoshima; Plan B was shopping in Hakata and Tenjin. In the end I skipped Itoshima, added the Kyushu National Museum and Kamado Shrine to Dazaifu, then finished the shopping after returning to Hakata. Somehow the two plans unexpectedly came together."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "page-10-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🏛️",
+            "en": "🏛️"
+          },
+          "markerValue": {
+            "zh": "MUSEUM",
+            "en": "MUSEUM"
+          },
+          "title": {
+            "zh": "从九州看东亚文明如何往来",
+            "en": "East Asia Through Kyushu's Eyes"
+          },
+          "subtitle": {
+            "zh": "Kyushu National Museum · Cultural Exchange Exhibition",
+            "en": "Kyushu National Museum · Cultural Exchange Exhibition"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-10-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "34-kyushu-national-museum",
+              "caption": {
+                "zh": "玻璃幕墙映着青山，屋顶像起伏的山脉",
+                "en": "Glass walls reflected green hills; the roof rolled like mountain ridges"
+              },
+              "shape": "hero"
+            }
+          ]
+        },
+        {
+          "id": "page-10-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "从天满宫穿过一条很长的通道，就到了九州国立博物馆。它是继东京、京都、奈良之后，日本第四家国立博物馆，主题是“从亚洲历史的观点看日本文化的形成”。站在九州理解中国、朝鲜半岛与日本之间的文化流动，这个视角很特别。",
+              "en": "A long passage from Tenmangu led to the Kyushu National Museum. It is Japan's fourth national museum after Tokyo, Kyoto, and Nara, built around “the formation of Japanese culture from the perspective of Asian history.” Understanding the cultural flows between China, the Korean Peninsula, and Japan from Kyushu was a particularly fresh perspective."
+            },
+            {
+              "zh": "约 4,000 平方米的文化交流展，从旧石器时代讲到江户时代。中国造像、朝鲜瓷器和日本国宝并列出现，像在读一部立体的东亚交流史。门票 700 日元，不算便宜，但我觉得值得。",
+              "en": "The roughly 4,000-square-meter Cultural Exchange Exhibition runs from the Paleolithic era to the Edo period. Chinese religious figures, Korean ceramics, and Japanese National Treasures appeared side by side, like a three-dimensional history of East Asian exchange. The ¥700 ticket was not cheap, but I thought it was worth it."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-10-gallery-2",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "35-kyushu-national-museum-ticket",
+              "caption": {
+                "zh": "700 日元的常设展门票",
+                "en": "A ¥700 ticket for the permanent exhibition"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "36-museum-textile",
+              "caption": {
+                "zh": "展柜里的织物纹样",
+                "en": "Textile patterns inside a display case"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "37-museum-exhibit",
+              "caption": {
+                "zh": "在东亚文明的往来里找具体的人与物",
+                "en": "Looking for particular people and objects within East Asian exchange"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-10-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "这次错过的角落",
+            "en": "A corner I missed"
+          },
+          "body": {
+            "zh": "一楼有免费的“あじっぱ（Asiapa）”亚洲文化体验区，可以摸民族服饰、玩传统乐器。我只顾着在常设展里找文物，最后错过了。博物馆商店也忍住没买，只拿了一大摞精美小册子留念。",
+            "en": "On the first floor, there is a free Asian cultural-experience area called Ajippa (Asiapa), where visitors can touch ethnic clothing and play traditional instruments. I was too absorbed in looking for artifacts in the permanent exhibition and missed it in the end. I also resisted buying anything at the museum shop, taking only a big stack of beautiful booklets as souvenirs."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "page-11-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "山里的灶门神社",
+            "en": "Kamado Shrine in the hills"
+          },
+          "subtitle": {
+            "zh": "Homangu Kamado Shrine · Afternoon Light",
+            "en": "Homangu Kamado Shrine · Afternoon Light"
+          },
+          "icon": "🌿",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-11-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "从太宰府站坐观光小巴上山，十几分钟到宝满宫灶门神社。因为与《鬼灭之刃》主角同姓，加上作者吾峠呼世晴也是福冈人，这里成了粉丝圣地。神社原本供奉结缘之神玉依姫命，也位于古代太宰府政厅的“鬼门”方向，驱厄传说与斩鬼故事恰好重叠。",
+              "en": "I took the sightseeing mini-bus uphill from Dazaifu Station and reached Homangu Kamado Shrine in a little over ten minutes. The shrine has become a pilgrimage spot for fans because it shares a surname with the protagonist of Demon Slayer, and the author Koyoharu Gotouge is also from Fukuoka. It originally enshrined Tamayorihime-no-Mikoto, a deity of matchmaking, and sits in the “demon gate” direction from the ancient Dazaifu government office; legends of warding off misfortune happen to overlap with the story of demon slaying."
+            }
+          ]
+        },
+        {
+          "id": "page-11-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "38-kamado-shrine-selfie",
+              "caption": {
+                "zh": "一个人走到山里，也认真留下一张自己",
+                "en": "Even after coming alone into the hills, I made sure to leave myself a photo"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "39-kamado-shrine-approach",
+              "caption": {
+                "zh": "阳光穿过树梢，山路幽静又有灵气",
+                "en": "Sunlight filtered through the treetops; the mountain path felt quiet and full of spirit"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-11-gallery-2",
+          "type": "gallery",
+          "layout": "three",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "40-kamado-shrine-garden",
+              "caption": {
+                "zh": "山脚的一片绿",
+                "en": "A patch of green at the foot of the mountain"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "41-kamado-shrine-path",
+              "caption": {
+                "zh": "继续往前，就是更长的登山路",
+                "en": "Beyond this lay the longer hiking trail"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "42-kamado-shrine-hall",
+              "caption": {
+                "zh": "木头在下午阳光里被照得透亮",
+                "en": "Afternoon sun made the wood glow clear and bright"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-11-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "这里的御朱印很漂亮，还有登到宝满山上宫后才能写的特别版。据说从山脚单程约两小时。今天实在没了那个精力，只好给自己找个理由：明年枫叶季再来登顶补写。",
+              "en": "The goshuin here was beautiful, and there was a special version available only after climbing to the upper shrine on Mount Homangu. The one-way hike from the foot of the mountain is said to take about two hours. I truly had no energy left that day, so I gave myself a reason to return: next maple-leaf season, I will climb to the top and add that page."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-11-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "43-kamado-shrine-goshuin",
+              "caption": {
+                "zh": "没登顶，也把山脚的这一页好好收进手帐",
+                "en": "I did not reach the summit, but still carefully kept this page from the mountain foot in my journal"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-12",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "page-12-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "梅饼、购物与终于吃上的牛肠锅",
+            "en": "Umegae Mochi, Shopping, and Motsunabe"
+          },
+          "subtitle": {
+            "zh": "Dazaifu → Hakata · Hankyu · AMU · Maedaya",
+            "en": "Dazaifu → Hakata · Hankyu · AMU · Maedaya"
+          },
+          "icon": "🛍️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-12-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回到太宰府站附近，买到现烤梅ヶ枝餅。烫得手指发红，还是忍不住先咬一口：外皮酥脆，红豆馅绵密。它因天满宫供奉的菅原道真与梅花的故事而得名，是参道上最经典的小吃。",
+              "en": "Back near Dazaifu Station, I bought freshly grilled umegae mochi. It was hot enough to turn my fingers red, but I still could not resist taking a bite first: crisp outside, with a soft red-bean filling. Named for the story connecting Sugawara no Michizane, enshrined at Tenmangu, with plum blossoms, it is the most classic snack along the approach."
+            }
+          ]
+        },
+        {
+          "id": "page-12-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "44-umegae-mochi",
+              "caption": {
+                "zh": "手指被烫红，也要趁热先咬一口",
+                "en": "My fingers turned red from the heat, but I still had to bite into it first"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "45-hakata-station-ice-cream",
+              "caption": {
+                "zh": "回到博多，跟着排队人群又买了冰淇淋",
+                "en": "Back in Hakata, I followed the queue and bought an ice cream too"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-12-prose-2",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "这次试了太宰府直达博多的大巴，不到四十分钟。傍晚六点多，先从阪急一楼开始购物：Kanebo 洗面奶、FAS 精华、Shiro 喷雾；再到相连的 AMU，在 Muji 给宝子买到心心念念的保冷杯。八点多又赶去友都八喜，买了一件始祖鸟 T 恤。",
+              "en": "This time I tried the direct Dazaifu-to-Hakata bus, which took under forty minutes. A little after six in the evening, I began shopping on Hankyu's first floor: Kanebo face wash, FAS serum, and a Shiro mist. Then, at the connected AMU, I found the insulated cup my dear one had been longing for at Muji. After eight I hurried to Yodobashi and bought an Arc'teryx T-shirt."
+            },
+            {
+              "zh": "九点多终于饿了。前两天没吃成的牛肠锅，在酒店附近有一家前田屋分店。十点多到还要排一会，点了辣味锅。牛肠本身太肥，不算喜欢，但锅底、福冈煮蔬菜和米饭搭在一起很香。",
+              "en": "After nine I was finally hungry. The motsunabe I had missed the first two days had a Maedaya branch near my hotel. I arrived after ten and still had to queue for a while; I ordered the spicy pot. The beef offal itself was too fatty for me, but the broth, Fukuoka-style cooked vegetables, and rice together were delicious."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-12-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "46-maedaya-entrance",
+              "caption": {
+                "zh": "晚上十点多，终于排上牛肠锅",
+                "en": "After ten at night, I finally made it into the motsunabe queue"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "47-maedaya-motsunabe",
+              "caption": {
+                "zh": "牛肠太肥，辣味汤底和蔬菜却很美味",
+                "en": "The offal was too fatty, but the spicy broth and vegetables were excellent"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-12-gallery-3",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "48-maedaya-sign",
+              "caption": {
+                "zh": "前田屋：把前两天的遗憾补上",
+                "en": "Maedaya: making up for the disappointment of the first two days"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "49-maedaya-finale",
+              "caption": {
+                "zh": "配着米饭一口接一口，吃完已是十一点多",
+                "en": "Bite after bite with rice; it was already past eleven when I finished"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-12-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "最后一晚",
+            "en": "The last night"
+          },
+          "body": {
+            "zh": "走回酒店的路上突然生出一丝不舍。太宰府的风、天满宫的学、灶门神社的缘，还有梅饼的热度都粘在舌尖上。不想道别，却已经在想下一次。",
+            "en": "Walking back to the hotel, I suddenly felt a little reluctant to leave. The wind in Dazaifu, the learning of Tenmangu, the connections of Kamado Shrine, and the warmth of umegae mochi all seemed to linger on my tongue. I did not want to say goodbye, but was already thinking about the next time."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-13",
+      "sectionId": "day-5",
+      "blocks": [
+        {
+          "id": "page-13-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "机场太近，连告别都从容",
+            "en": "A Small Airport, an Easy Goodbye"
+          },
+          "subtitle": {
+            "zh": "Sunday, June 7th · Fukuoka ✈️ Shanghai",
+            "en": "Sunday, June 7th · Fukuoka ✈️ Shanghai"
+          },
+          "icon": "✈️",
+          "markerVariant": "standard"
+        },
+        {
+          "id": "page-13-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "飞机 11:55 起飞，我却睡到 8:45 才起。福冈机场离市中心实在太近，让人忍不住懒散。回程特意从博多站坐机场公交，二十几分钟直达国际航站楼；不到十点已经办完托运、过完安检，顺遂得像熟门熟路的日常。",
+              "en": "My flight was at 11:55, yet I slept until 8:45. Fukuoka Airport is simply too close to the city center, inviting a certain laziness. For the return I deliberately took the airport bus from Hakata Station, which went directly to the international terminal in a little over twenty minutes. Before ten, I had checked in and cleared security; it all went as smoothly as a familiar routine."
+            },
+            {
+              "zh": "安检后的时间全部献给免税店。先买到宝子惦记的 THE GINZA Hybrid Gel Oil，600 多元；酒水区刚好补货，白州、山崎都有。那瓶 60,000 多日元的山崎看了很久，最终没舍得，改拿了一瓶白州 12 年。",
+              "en": "Every minute after security went to duty free. First I bought the THE GINZA Hybrid Gel Oil my dear one had been wanting, for over RMB 600. The liquor section had just restocked, with Hakushu and Yamazaki both available. I looked for a long time at the ¥60,000-plus bottle of Yamazaki, then could not bring myself to buy it and chose a Hakushu 12 instead."
+            },
+            {
+              "zh": "十一点多，匆匆从 7-Eleven 拿了三明治和饭团，把口袋里的硬币全倒进自动售货机换一瓶大麦茶。接近中午起飞，按中国时间十二点半左右落地上海。",
+              "en": "After eleven, I hurriedly picked up a sandwich and onigiri from 7-Eleven, then emptied all the coins in my pocket into a vending machine for a bottle of barley tea. We took off close to noon and landed in Shanghai at around 12:30 China time."
+            }
+          ]
+        },
+        {
+          "id": "page-13-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "images": [
+            {
+              "imageId": "50-flight-home",
+              "caption": {
+                "zh": "云层上的最后一张照片：福冈，下一次见",
+                "en": "The last photo above the clouds: Fukuoka, see you next time"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-13-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "原计划 vs. 实际",
+            "en": "Original plan vs. what happened"
+          },
+          "body": {
+            "zh": "原本打算退房寄存行李、去博多 1 番街吃最后一碗拉面，再逛 AMU 和阪急，9:30 前坐地铁去机场。最后这些都没做：直接搭公交，购物也全部留到机场。",
+            "en": "I had planned to check out and leave my luggage, have one last bowl of ramen at Hakata 1st Street, browse AMU and Hankyu, then take the subway to the airport before 9:30. In the end I did none of it: I took the bus directly, and left all the shopping for the airport."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-14",
+      "sectionId": "notes",
+      "blocks": [
+        {
+          "id": "page-14-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🛍️",
+            "en": "🛍️"
+          },
+          "markerValue": {
+            "zh": "SHOP",
+            "en": "SHOP"
+          },
+          "title": {
+            "zh": "实际购物记录",
+            "en": "What I actually bought"
+          },
+          "subtitle": {
+            "zh": "给自己，也给想念的人带回一点福冈",
+            "en": "A little piece of Fukuoka for myself, and for people I missed"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-14-expense-1",
+          "type": "expense",
+          "title": {
+            "zh": "购物明细（日元）",
+            "en": "Shopping details (JPY)"
+          },
+          "rows": [
+            {
+              "id": "page-14-expense-1-row-1",
+              "label": {
+                "zh": "KEEN 鞋子",
+                "en": "KEEN shoes"
+              },
+              "amount": {
+                "zh": "¥15,864",
+                "en": "¥15,864"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-2",
+              "label": {
+                "zh": "YONEX NF700 Pro 5U5",
+                "en": "YONEX NF700 Pro 5U5"
+              },
+              "amount": {
+                "zh": "¥31,617",
+                "en": "¥31,617"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-3",
+              "label": {
+                "zh": "Kanebo Refreshing Creamy Wash",
+                "en": "Kanebo Refreshing Creamy Wash"
+              },
+              "amount": {
+                "zh": "¥2,926",
+                "en": "¥2,926"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-4",
+              "label": {
+                "zh": "Shiro Yuzu Face Mist",
+                "en": "Shiro Yuzu Face Mist"
+              },
+              "amount": {
+                "zh": "¥5,225",
+                "en": "¥5,225"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-5",
+              "label": {
+                "zh": "FAS Serum",
+                "en": "FAS Serum"
+              },
+              "amount": {
+                "zh": "¥11,495",
+                "en": "¥11,495"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-6",
+              "label": {
+                "zh": "MUJI 保冷杯",
+                "en": "MUJI insulated cup"
+              },
+              "amount": {
+                "zh": "¥2,990",
+                "en": "¥2,990"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-7",
+              "label": {
+                "zh": "博多车站伴手礼",
+                "en": "Hakata Station souvenirs"
+              },
+              "amount": {
+                "zh": "¥5,668",
+                "en": "¥5,668"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-8",
+              "label": {
+                "zh": "Arc'teryx T-shirt",
+                "en": "Arc'teryx T-shirt"
+              },
+              "amount": {
+                "zh": "¥12,000",
+                "en": "¥12,000"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-9",
+              "label": {
+                "zh": "THE GINZA Hybrid Gel Oil",
+                "en": "THE GINZA Hybrid Gel Oil"
+              },
+              "amount": {
+                "zh": "¥14,250",
+                "en": "¥14,250"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-10",
+              "label": {
+                "zh": "白州",
+                "en": "Hakushu"
+              },
+              "amount": {
+                "zh": "¥19,000",
+                "en": "¥19,000"
+              }
+            },
+            {
+              "id": "page-14-expense-1-row-11",
+              "label": {
+                "zh": "手帐记录总计",
+                "en": "Journal-recorded total"
+              },
+              "amount": {
+                "zh": "¥89,418 / RMB ¥3,794",
+                "en": "¥89,418 / RMB ¥3,794"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "page-14-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "关于这笔总计",
+            "en": "About this total"
+          },
+          "body": {
+            "zh": "这里保留手帐原文记录的总额，不用条目重新计算。羽毛球拍最终让给同事，购物里也混着给宝子的礼物；这张账单更像旅行记忆清单，不是财务报表。",
+            "en": "This retains the total recorded in the original journal rather than recalculating it from the line items. I ultimately gave the badminton racket to a colleague, and the shopping also includes gifts for my dear one; this bill is more a list of travel memories than a financial statement."
+          },
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-14-rating-1",
+          "type": "rating",
+          "tone": "default",
+          "title": {
+            "zh": "这次真的喜欢",
+            "en": "What I genuinely loved"
+          },
+          "items": [
+            {
+              "id": "page-14-rating-1-item-1",
+              "name": {
+                "zh": "Shin Shin",
+                "en": "Shin Shin"
+              },
+              "comment": {
+                "zh": "浓汤细面，却不咸不腻",
+                "en": "Rich broth and thin noodles, without being too salty or greasy"
+              }
+            },
+            {
+              "id": "page-14-rating-1-item-2",
+              "name": {
+                "zh": "武藏和牛饭",
+                "en": "Musashi wagyu rice"
+              },
+              "comment": {
+                "zh": "三种吃法很有趣，茶泡饭收尾舒服",
+                "en": "Three ways to eat it were fun; the ochazuke finish was comforting"
+              }
+            },
+            {
+              "id": "page-14-rating-1-item-3",
+              "name": {
+                "zh": "千虎沾面",
+                "en": "Senko tsukemen"
+              },
+              "comment": {
+                "zh": "非常好吃，只怪自己点得太大份",
+                "en": "Absolutely delicious; I only ordered too much"
+              }
+            },
+            {
+              "id": "page-14-rating-1-item-4",
+              "name": {
+                "zh": "梅ヶ枝餅",
+                "en": "Umegae mochi"
+              },
+              "comment": {
+                "zh": "一定要趁热，酥皮和红豆馅都很满足",
+                "en": "Eat it hot—the crisp shell and red-bean filling are both deeply satisfying"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-14-rating-2",
+          "type": "rating",
+          "tone": "warning",
+          "title": {
+            "zh": "诚实的失望",
+            "en": "Honest disappointments"
+          },
+          "items": [
+            {
+              "id": "page-14-rating-2-item-1",
+              "name": {
+                "zh": "牛肠本身",
+                "en": "The offal itself"
+              },
+              "comment": {
+                "zh": "太肥，不是我的口味；锅底和蔬菜反而更好吃",
+                "en": "Too fatty for my taste; the broth and vegetables were better"
+              }
+            },
+            {
+              "id": "page-14-rating-2-item-2",
+              "name": {
+                "zh": "羽毛球拍",
+                "en": "The badminton racket"
+              },
+              "comment": {
+                "zh": "想要的型号售罄，后来又把限购的一把让给同事",
+                "en": "The model I wanted sold out, and I later gave the one allowed under the purchase limit to a colleague"
+              }
+            },
+            {
+              "id": "page-14-rating-2-item-3",
+              "name": {
+                "zh": "天气",
+                "en": "The weather"
+              },
+              "comment": {
+                "zh": "大雨取消了大濠公园、福冈美术馆与海滨计划",
+                "en": "Heavy rain cancelled Ohori Park, the Fukuoka Art Museum, and the waterfront plans"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-15",
+      "sectionId": "notes",
+      "blocks": [
+        {
+          "id": "page-15-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "📋",
+            "en": "📋"
+          },
+          "markerValue": {
+            "zh": "PLAN",
+            "en": "PLAN"
+          },
+          "title": {
+            "zh": "攻略留在这里，旅程已经走向别处",
+            "en": "The Plan Stayed; the Trip Wandered"
+          },
+          "subtitle": {
+            "zh": "没执行的清单，也记录了出发前的期待",
+            "en": "The undone list still records what I hoped for before I left"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-15-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "最初的必吃清单里还有一兰、一风堂、daruma、水炊き华味鸟、屋台烤鸡串、明太子，以及熊本的红兰亭太平燕和菅乃屋马肉。真正吃到的远没有这么多，却也没有遗憾——旅行不是完成表格。",
+              "en": "My original must-eat list also had Ichiran, Ippudo, Daruma, Hanamidori mizutaki, yatai yakitori, mentaiko, and in Kumamoto, Kourantei taipi'en and Suganoya horse meat. I ate far less than the list suggested, but had no regrets—travel is not about completing a checklist."
+            }
+          ]
+        },
+        {
+          "id": "page-15-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "原预算（不含机票）",
+            "en": "Original budget (excluding flights)"
+          },
+          "body": {
+            "zh": "住宿 ¥8,000–15,000 / 晚，四晚约 ¥40,000–60,000；餐饮五天约 ¥25,000–40,000；市内交通 ¥3,000，加熊本往返原估 ¥7,000；门票与杂费 ¥5,000–8,000。攻略合计约 ¥80,000–120,000，人民币约 4,000–6,000，购物另算。",
+            "en": "Accommodation: ¥8,000–15,000 per night, or roughly ¥40,000–60,000 for four nights; food: roughly ¥25,000–40,000 for five days; local transport: ¥3,000, plus an originally estimated ¥7,000 for Kumamoto return travel; admission and incidentals: ¥5,000–8,000. The plan totalled about ¥80,000–120,000, or roughly RMB 4,000–6,000, excluding shopping."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-15-timeline-1",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-15-timeline-1-item-1",
+              "time": {
+                "zh": "天气",
+                "en": "Weather"
+              },
+              "event": {
+                "zh": "梅雨季前后，20–27°C",
+                "en": "Around the rainy season, 20–27°C"
+              },
+              "detail": {
+                "zh": "折叠伞与薄外套本来就该带，可惜伞没有在 checklist 里勾上",
+                "en": "A folding umbrella and light jacket were things I should have packed; unfortunately, I never ticked off the umbrella on the checklist"
+              }
+            },
+            {
+              "id": "page-15-timeline-1-item-2",
+              "time": {
+                "zh": "支付",
+                "en": "Payment"
+              },
+              "event": {
+                "zh": "现金 + IC 卡 + 信用卡",
+                "en": "Cash + IC card + credit card"
+              },
+              "detail": {
+                "zh": "单店满 ¥5,000 留意 Tax Free 标志",
+                "en": "For a ¥5,000 spend at one shop, look for the Tax Free sign"
+              }
+            },
+            {
+              "id": "page-15-timeline-1-item-3",
+              "time": {
+                "zh": "交通",
+                "en": "Transport"
+              },
+              "event": {
+                "zh": "Google Maps、Navitime、JR 九州、Yahoo 乘换案内",
+                "en": "Google Maps, Navitime, JR Kyushu, Yahoo! Transit"
+              },
+              "detail": {
+                "zh": "福冈机场国际航站楼往返博多，公交比 shuttle bus 转地铁省事",
+                "en": "For Fukuoka Airport's international terminal to and from Hakata, the bus is easier than the shuttle-bus-and-subway transfer"
+              }
+            },
+            {
+              "id": "page-15-timeline-1-item-4",
+              "time": {
+                "zh": "应急",
+                "en": "Emergency"
+              },
+              "event": {
+                "zh": "警察 110 · 急救 119",
+                "en": "Police 110 · Ambulance 119"
+              },
+              "detail": {
+                "zh": "中国驻福冈总领馆：+81-92-713-1121",
+                "en": "Consulate-General of China in Fukuoka: +81-92-713-1121"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-15-note-2",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "出发前 checklist",
+            "en": "Pre-departure checklist"
+          },
+          "body": {
+            "zh": "护照签证、机票酒店确认、现金与信用卡、IC 卡、eSIM、充电宝都带了；JR 周游券、熊本早特、折叠伞与常用药没有准备。最后没去熊本，前两项也就自然失效。",
+            "en": "I brought my passport and visa, flight and hotel confirmations, cash and credit cards, IC card, eSIM, and power bank. I did not prepare a JR pass, Kumamoto early-bird tickets, a folding umbrella, or common medicines. Since I never went to Kumamoto, the first two naturally became irrelevant."
+          },
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-16",
+      "sectionId": "notes",
+      "blocks": [
+        {
+          "id": "page-16-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "💭",
+            "en": "💭"
+          },
+          "markerValue": {
+            "zh": "EPILOGUE",
+            "en": "EPILOGUE"
+          },
+          "title": {
+            "zh": "旅程结束，有些东西才刚开始",
+            "en": "What Began When the Trip Ended"
+          },
+          "subtitle": {
+            "zh": "On learning to enjoy my own company",
+            "en": "On learning to enjoy my own company"
+          },
+          "markerVariant": "category"
+        },
+        {
+          "id": "page-16-prose-1",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回程飞机上，我翻着这几天攒下的御朱印：栉田神社的章像还带着那天早晨的雨气，东长寺夹着福冈大佛明信片，警固神社多写一页的小乌龙仍在纸间笑。",
+              "en": "On the flight home, I looked through the goshuin I had gathered over those days: Kushida Shrine's stamp seemed to still carry the dampness of that rainy morning; Tochoji held its Fukuoka Daibutsu postcard; Kego Shrine's extra page from my little mix-up still made me smile between the paper."
+            },
+            {
+              "zh": "一个人出门最奇妙的地方，是从头到尾只对自己负责。几点起、去哪里、吃什么、要不要绕路、累不累，全由自己说了算。",
+              "en": "The most wonderful thing about going out alone is being responsible only for myself from beginning to end. What time I wake up, where I go, what I eat, whether I take a detour, whether I am tired—I get to decide it all."
+            },
+            {
+              "zh": "曾经以为独自旅行是孤独的。走过下雨的博多街头，独自坐在蓝瓶外看雨，在万行寺和一只猫对视，在天满宫的小园林发呆，我才发现：这些毫无“产出”的时间，恰恰是最动人的部分。",
+              "en": "I once thought solo travel meant loneliness. But after walking rainy Hakata streets, sitting outside Blue Bottle alone watching the rain, meeting a cat's gaze at Mangyoji, and daydreaming in Tenmangu's little garden, I realized that these moments with no “output” at all were precisely the most moving ones."
+            },
+            {
+              "zh": "原来我不是害怕一个人，只是没试过和自己好好相处。旅行也不只是风景、美食和打卡，更是在陌生城市里，看见那个脱离熟悉环境、没有人来定义的自己。",
+              "en": "It turns out I was not afraid of being alone; I had simply never tried to be with myself properly. Travel is not only scenery, food, and checking in at sights. It is also seeing the self that steps out of familiar surroundings, with no one there to define them, in a strange city."
+            },
+            {
+              "zh": "福冈小小的机场，刚来时觉得它小，离开时却觉得小得恰到好处。城市也一样，小到让人安心，小到刚记住几条街的名字，就要说再见。",
+              "en": "When I arrived, Fukuoka's small airport simply seemed small. Leaving, it felt exactly the right size. The city was the same: small enough to feel reassuring, small enough that just as I learned a few street names, it was time to say goodbye."
+            }
+          ]
+        },
+        {
+          "id": "page-16-divider-1",
+          "type": "divider",
+          "icon": "🌊",
+          "spacing": {
+            "top": 24,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-16-prose-2",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "paragraphs": [
+            {
+              "zh": "一个人也可以把生活过得很充实，",
+              "en": "Even alone, life can be full,"
+            },
+            {
+              "zh": "不必等别人来填满。",
+              "en": "without waiting for someone else to fill it."
+            },
+            {
+              "zh": "窗外多云，飞机平稳穿过云层。",
+              "en": "Clouds gathered outside; the plane sailed steadily through them."
+            },
+            {
+              "zh": "神社、拉面、雨声、便利店和茶泡饭，",
+              "en": "Shrines, ramen, rain, convenience stores, and ochazuke"
+            },
+            {
+              "zh": "都被轻轻收进行李箱。",
+              "en": "were all gently packed into my suitcase."
+            }
+          ]
+        },
+        {
+          "id": "page-16-tags-1",
+          "type": "tags",
+          "variant": "outlined",
+          "items": [
+            {
+              "id": "page-16-tags-1-tag-1",
+              "label": {
+                "zh": "#福冈独旅",
+                "en": "#FukuokaSolo"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "page-16-tags-1-tag-2",
+              "label": {
+                "zh": "#一个人旅行",
+                "en": "#SoloTravel"
+              },
+              "tone": "teal"
+            },
+            {
+              "id": "page-16-tags-1-tag-3",
+              "label": {
+                "zh": "#御朱印",
+                "en": "#Goshuin"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "page-16-tags-1-tag-4",
+              "label": {
+                "zh": "#太宰府",
+                "en": "#Dazaifu"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "page-16-tags-1-tag-5",
+              "label": {
+                "zh": "#与自己相处",
+                "en": "#MyOwnCompany"
+              },
+              "tone": "pink"
+            }
+          ],
+          "spacing": {
+            "top": 24
+          }
+        },
+        {
+          "id": "page-16-stamp-1",
+          "type": "stamp",
+          "text": {
+            "zh": "FIN · 2026.06",
+            "en": "FIN · 2026.06"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}

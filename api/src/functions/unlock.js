@@ -2,6 +2,7 @@ import { app } from "@azure/functions";
 import { loadConfig } from "../config.js";
 import {
   isAuthorizedIdentity,
+  PRIVATE_JOURNAL_READ_SCOPE,
   verifyMicrosoftAccessToken,
 } from "../microsoft-token.js";
 import {
@@ -64,7 +65,11 @@ export function createUnlockHandler({
     if (bearerMatch) {
       let payload;
       try {
-        payload = await verifyToken(bearerMatch[1], config.clientId);
+        payload = await verifyToken(
+          bearerMatch[1],
+          config.clientId,
+          PRIVATE_JOURNAL_READ_SCOPE
+        );
       } catch (error) {
         context.warn("Microsoft access token validation failed.", error);
         return response(401, headers, { error: "Authentication failed." });

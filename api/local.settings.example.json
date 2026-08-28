@@ -7,6 +7,16 @@
     "ALLOWED_MICROSOFT_SUB": "immutable-sub-claim-from-the-authorized-account",
     "ALLOWED_ORIGIN": "http://localhost:3000",
     "TRAVEL_LOG_PRIVATE_PASSWORD": "use-the-same-value-as-the-site-build",
-    "TRAVEL_LOG_PRIVATE_PASSCODE": "choose-a-different-12-character-passcode"
+    "TRAVEL_LOG_PRIVATE_PASSCODE": "choose-a-different-12-character-passcode",
+    "GITHUB_REPOSITORY": "MuyangAmigo/travel-log",
+    "GITHUB_APP_ID": "123456",
+    "GITHUB_APP_INSTALLATION_ID": "12345678",
+    "GITHUB_APP_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\\nreplace-with-the-local-github-app-private-key\\n-----END PRIVATE KEY-----",
+    "AZURE_OPENAI_ENDPOINT": "https://replace-me.openai.azure.com",
+    "AZURE_OPENAI_DEPLOYMENT": "travel-journal-translation",
+    "AZURE_OPENAI_API_VERSION": "2024-10-21",
+    "AZURE_OPENAI_API_KEY": "replace-with-a-server-only-key",
+    "AZURE_STORAGE_ACCOUNT_NAME": "junjieblob",
+    "AZURE_STORAGE_CONTAINER_NAME": "images"
   }
 }

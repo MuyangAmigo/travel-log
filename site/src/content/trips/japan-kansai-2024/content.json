@@ -1,0 +1,2064 @@
+{
+  "version": 1,
+  "slug": "japan-kansai-2024",
+  "metadata": {
+    "date": "2024-04-10",
+    "dateRange": "2024.04.10 — 04.15",
+    "coverImageId": "cover-2026-08",
+    "title": {
+      "zh": "关西 · 樱灯、魔法与抹茶",
+      "en": "Kansai · Cherry Lights, Magic & Matcha"
+    },
+    "subtitle": {
+      "zh": "大阪环球影城、京都夜樱与宇治河岸，夹在两轮购物冲刺之间的春日六天",
+      "en": "Six spring days of USJ, Kyoto's night blossoms, Uji river walks, and two determined shopping runs"
+    },
+    "location": {
+      "zh": "日本 · 大阪、京都、宇治",
+      "en": "Osaka, Kyoto & Uji, Japan"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "kyoto-temple-and-tower",
+      "filename": "kyoto-temple-and-tower.jpg",
+      "alt": {
+        "zh": "古寺屋顶后方升起京都塔",
+        "en": "Kyoto Tower rising behind the roof of a historic temple"
+      }
+    },
+    {
+      "id": "japanese-temple-garden-pond",
+      "filename": "japanese-temple-garden-pond.jpg",
+      "alt": {
+        "zh": "春日阳光下的寺院池塘与松树",
+        "en": "Temple garden pond and pine trees in spring sunlight"
+      }
+    },
+    {
+      "id": "busy-city-nightlife-selfie",
+      "filename": "busy-city-nightlife-selfie.jpeg",
+      "alt": {
+        "zh": "两个人在大阪拥挤霓虹街头合影",
+        "en": "Two travellers taking a selfie on a crowded neon-lit Osaka street"
+      }
+    },
+    {
+      "id": "korean-bbq-table-grill",
+      "filename": "korean-bbq-table-grill.jpg",
+      "alt": {
+        "zh": "手在桌面烤炉上翻烤肉片",
+        "en": "A hand turning slices of meat on a tabletop grill"
+      }
+    },
+    {
+      "id": "japanese-izakaya-drinks-toast",
+      "filename": "japanese-izakaya-drinks-toast.jpg",
+      "alt": {
+        "zh": "两杯日式饮品在餐桌上碰杯",
+        "en": "Two Japanese drinks meeting in a toast over dinner"
+      }
+    },
+    {
+      "id": "hogwarts-castle-turrets",
+      "filename": "hogwarts-castle-turrets.jpg",
+      "alt": {
+        "zh": "阴天下霍格沃茨城堡的高耸尖塔",
+        "en": "Tall Hogwarts Castle turrets beneath an overcast sky"
+      }
+    },
+    {
+      "id": "universal-studios-japan-nintendo-world-tickets",
+      "filename": "universal-studios-japan-nintendo-world-tickets.jpg",
+      "alt": {
+        "zh": "手持环球影城任天堂世界纸质票券",
+        "en": "A hand holding paper entry tickets for Super Nintendo World at USJ"
+      }
+    },
+    {
+      "id": "palm-lined-city-street-scene",
+      "filename": "palm-lined-city-street-scene.jpg",
+      "alt": {
+        "zh": "棕榈树围绕的环球影城大道与游客",
+        "en": "Visitors walking along a palm-lined avenue at Universal Studios Japan"
+      }
+    },
+    {
+      "id": "doraemon-adventureland-entrance-signs",
+      "filename": "doraemon-adventureland-entrance-signs.jpg",
+      "alt": {
+        "zh": "哆啦A梦主题区域彩色入口牌",
+        "en": "Colourful Doraemon attraction entrance signs"
+      }
+    },
+    {
+      "id": "sesame-street-central-park-mascot",
+      "filename": "sesame-street-central-park-mascot.jpg",
+      "alt": {
+        "zh": "芝麻街主题区域的粉色角色雕像",
+        "en": "A pink Sesame Street character statue in the themed area"
+      }
+    },
+    {
+      "id": "usj-concrete-attraction-building",
+      "filename": "usj-concrete-attraction-building.jpg",
+      "alt": {
+        "zh": "环球影城园区内具有雕塑感的混凝土建筑",
+        "en": "Sculptural concrete attraction building inside Universal Studios Japan"
+      }
+    },
+    {
+      "id": "super-mario-mushroom-kingdom-castle",
+      "filename": "super-mario-mushroom-kingdom-castle.jpg",
+      "alt": {
+        "zh": "层层叠叠的超级马里奥蘑菇王国城堡",
+        "en": "The layered castles and hills of Super Nintendo World"
+      }
+    },
+    {
+      "id": "super-nintendo-world-entrance",
+      "filename": "super-nintendo-world-entrance.jpeg",
+      "alt": {
+        "zh": "两个人在超级任天堂世界入口合影",
+        "en": "Two travellers posing at the Super Nintendo World entrance"
+      }
+    },
+    {
+      "id": "friends-in-bunny-hats",
+      "filename": "friends-in-bunny-hats.jpeg",
+      "alt": {
+        "zh": "两个人戴着兔耳帽在环球影城合影",
+        "en": "Two travellers wearing bunny-ear hats at Universal Studios Japan"
+      }
+    },
+    {
+      "id": "cookie-monster-restaurant-sign",
+      "filename": "cookie-monster-restaurant-sign.jpg",
+      "alt": {
+        "zh": "Cookie Monster 造型的餐厅指示牌",
+        "en": "A restaurant direction sign shaped like Cookie Monster"
+      }
+    },
+    {
+      "id": "shinkyogoku-shopping-arcade-kyoto",
+      "filename": "shinkyogoku-shopping-arcade-kyoto.jpg",
+      "alt": {
+        "zh": "新京极拱顶商店街的人流和店铺招牌",
+        "en": "Crowds and shop signs beneath Shinkyogoku's covered arcade"
+      }
+    },
+    {
+      "id": "grilled-eel-rice-bowl-meal",
+      "filename": "grilled-eel-rice-bowl-meal.jpg",
+      "alt": {
+        "zh": "木桶里的烤鳗鱼饭与配汤",
+        "en": "Grilled eel over rice in a wooden tub with soup"
+      }
+    },
+    {
+      "id": "illuminated-pagoda-cherry-blossoms-night",
+      "filename": "illuminated-pagoda-cherry-blossoms-night.jpg",
+      "alt": {
+        "zh": "夜樱前方灯光照亮的东寺五重塔",
+        "en": "Tō-ji's illuminated five-storey pagoda behind night cherry blossoms"
+      }
+    },
+    {
+      "id": "cherry-blossoms-around-temple-at-night",
+      "filename": "cherry-blossoms-around-temple-at-night.jpg",
+      "alt": {
+        "zh": "黑夜里围绕寺院绽放的樱花",
+        "en": "Cherry blossoms surrounding a temple in the dark"
+      }
+    },
+    {
+      "id": "illuminated-japanese-pagoda-night",
+      "filename": "illuminated-japanese-pagoda-night.jpg",
+      "alt": {
+        "zh": "黑夜中独自被灯光照亮的五重塔",
+        "en": "A five-storey pagoda illuminated alone against the night sky"
+      }
+    },
+    {
+      "id": "traditional-japanese-teahouse-entrance",
+      "filename": "traditional-japanese-teahouse-entrance.jpg",
+      "alt": {
+        "zh": "绿树间带红色门帘的传统茶屋入口",
+        "en": "A traditional teahouse entrance with a red noren among trees"
+      }
+    },
+    {
+      "id": "japanese-garden-shrine-altar",
+      "filename": "japanese-garden-shrine-altar.jpg",
+      "alt": {
+        "zh": "日式庭院石灯笼旁的小型神社供奉处",
+        "en": "A tiny shrine altar beside a stone lantern in a Japanese garden"
+      }
+    },
+    {
+      "id": "night-temple-selfie-japan",
+      "filename": "night-temple-selfie-japan.jpeg",
+      "alt": {
+        "zh": "两个人与夜间点灯五重塔合影",
+        "en": "Two travellers posing with an illuminated pagoda at night"
+      }
+    },
+    {
+      "id": "kyoto-okonomiyaki-restaurant-sign",
+      "filename": "kyoto-okonomiyaki-restaurant-sign.jpg",
+      "alt": {
+        "zh": "夜间大阪烧餐厅的日文灯牌",
+        "en": "A Japanese okonomiyaki restaurant sign glowing at night"
+      }
+    },
+    {
+      "id": "human-made-store-mirror",
+      "filename": "human-made-store-mirror.jpg",
+      "alt": {
+        "zh": "两个人在 Human Made 店内镜面前合影",
+        "en": "Two travellers posing in a mirror inside Human Made"
+      }
+    },
+    {
+      "id": "two-people-by-cat-mural",
+      "filename": "two-people-by-cat-mural.jpeg",
+      "alt": {
+        "zh": "两个人站在松树与猫壁画前合影",
+        "en": "Two travellers posing in front of a pine-tree and cat mural"
+      }
+    },
+    {
+      "id": "cat-mural-under-pine-tree",
+      "filename": "cat-mural-under-pine-tree.jpg",
+      "alt": {
+        "zh": "松树下卧着巨大猫咪的日式壁画",
+        "en": "A Japanese mural of a giant cat resting beneath a pine tree"
+      }
+    },
+    {
+      "id": "hanshin-railway-umeda-station-sign",
+      "filename": "hanshin-railway-umeda-station-sign.jpg",
+      "alt": {
+        "zh": "大阪城市建筑前的阪神电车梅田站蓝色招牌",
+        "en": "Blue Hanshin Railway Umeda Station sign against Osaka buildings"
+      }
+    },
+    {
+      "id": "the-north-face-store-display",
+      "filename": "the-north-face-store-display.jpg",
+      "alt": {
+        "zh": "绿植围绕的 The North Face 店铺标志",
+        "en": "The North Face store logo framed by indoor plants"
+      }
+    },
+    {
+      "id": "narrow-japanese-residential-street",
+      "filename": "narrow-japanese-residential-street.jpg",
+      "alt": {
+        "zh": "宇治安静狭窄的日式住宅街",
+        "en": "A quiet narrow residential lane in Uji"
+      }
+    },
+    {
+      "id": "barista-behind-coffee-counter",
+      "filename": "barista-behind-coffee-counter.jpg",
+      "alt": {
+        "zh": "白衬衫咖啡师在木质吧台后制作饮品",
+        "en": "A barista in a white shirt preparing drinks behind a timber counter"
+      }
+    },
+    {
+      "id": "person-reading-on-park-bench",
+      "filename": "person-reading-on-park-bench.jpg",
+      "alt": {
+        "zh": "树影下一人坐在公园长椅阅读",
+        "en": "A person reading on a park bench beneath leafy trees"
+      }
+    },
+    {
+      "id": "japanese-shrine-torii-gate",
+      "filename": "japanese-shrine-torii-gate.jpg",
+      "alt": {
+        "zh": "树林深处通向宇治神社的红色鸟居",
+        "en": "A red torii leading into a wooded shrine in Uji"
+      }
+    },
+    {
+      "id": "river-dam-and-wooded-hills",
+      "filename": "river-dam-and-wooded-hills.jpg",
+      "alt": {
+        "zh": "宇治河堤坝与树林覆盖的山坡",
+        "en": "A dam on the Uji River beneath wooded hills"
+      }
+    },
+    {
+      "id": "two-people-by-riverside",
+      "filename": "two-people-by-riverside.jpeg",
+      "alt": {
+        "zh": "两个人在宇治河与青山前合影",
+        "en": "Two travellers posing beside the Uji River and green hills"
+      }
+    },
+    {
+      "id": "japanese-temple-garden-pond-2",
+      "filename": "japanese-temple-garden-pond.jpg",
+      "alt": {
+        "zh": "平等院庭园水池与寺院建筑",
+        "en": "A temple garden pond and hall in spring sunlight"
+      }
+    },
+    {
+      "id": "weathered-wooden-building-japan-street",
+      "filename": "weathered-wooden-building-japan-street.jpg",
+      "alt": {
+        "zh": "中崎町街角带手写招牌的旧木楼",
+        "en": "A weathered wooden corner building with hand-painted signs in Nakazakichō"
+      }
+    },
+    {
+      "id": "white-stucco-cafe-exterior-planter",
+      "filename": "white-stucco-cafe-exterior-planter.jpg",
+      "alt": {
+        "zh": "白色灰泥咖啡馆门口的植物与小窗",
+        "en": "A white stucco café entrance with plants and a small window"
+      }
+    },
+    {
+      "id": "urban-office-building-street-traffic",
+      "filename": "urban-office-building-street-traffic.jpg",
+      "alt": {
+        "zh": "大阪现代办公楼与路口车流",
+        "en": "Modern Osaka office buildings above street traffic"
+      }
+    },
+    {
+      "id": "holding-passionfruit-drinks-outdoors",
+      "filename": "holding-passionfruit-drinks-outdoors.jpg",
+      "alt": {
+        "zh": "两只手在户外举着冰果饮碰杯",
+        "en": "Two hands raising iced fruit drinks outdoors"
+      }
+    },
+    {
+      "id": "cover-2026-08",
+      "filename": "cover-2026-08.jpeg",
+      "alt": {
+        "zh": "关西春日旅行封面",
+        "en": "Kansai spring trip cover"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "page-01"
+    },
+    {
+      "id": "page-02"
+    },
+    {
+      "id": "page-03"
+    },
+    {
+      "id": "page-04"
+    },
+    {
+      "id": "page-05"
+    },
+    {
+      "id": "page-06"
+    },
+    {
+      "id": "page-07"
+    },
+    {
+      "id": "page-08"
+    },
+    {
+      "id": "page-09"
+    },
+    {
+      "id": "page-10"
+    },
+    {
+      "id": "page-11"
+    },
+    {
+      "id": "page-12"
+    },
+    {
+      "id": "page-13"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "page-01",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover-01",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🌸 🎢 🍵",
+            "en": "🌸 🎢 🍵"
+          },
+          "title": {
+            "zh": "关西 ·\n樱灯、魔法与抹茶",
+            "en": "Kansai ·\nCherry Lights, Magic & Matcha"
+          },
+          "subtitle": {
+            "zh": "A Spring Travel Journal",
+            "en": "A Spring Travel Journal"
+          },
+          "date": {
+            "zh": "2024.04.10 — 04.15",
+            "en": "2024.04.10 — 04.15"
+          },
+          "intro": {
+            "zh": "「从大阪的霓虹与魔法世界，\n走到京都樱灯，再慢下来闻一整条街的茶香。」",
+            "en": "“From Osaka's neon and a world of magic,\nto Kyoto under cherry lights, then a whole street scented with tea.”"
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "KANSAI\n2024",
+              "en": "KANSAI\n2024"
+            }
+          }
+        },
+        {
+          "id": "page-01-stamp-01",
+          "type": "stamp",
+          "spacing": {
+            "top": 24
+          },
+          "text": {
+            "zh": "SPRING PASS",
+            "en": "SPRING PASS"
+          },
+          "tilt": "left"
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "page-02",
+      "blocks": [
+        {
+          "id": "page-02-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🗺️",
+            "en": "🗺️"
+          },
+          "markerValue": {
+            "zh": "ROUTE",
+            "en": "ROUTE"
+          },
+          "title": {
+            "zh": "六天，把关西切成三种速度",
+            "en": "Six days, three speeds of Kansai"
+          },
+          "subtitle": {
+            "zh": "大阪 · 环球影城 · 京都 · 宇治",
+            "en": "Osaka · Universal Studios · Kyoto · Uji"
+          }
+        },
+        {
+          "id": "page-02-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "4 月 10 日从浦东飞往关西，住在淀屋桥的 Sotetsu Fresa Inn。前半程是大阪夜街和环球影城的高密度快乐，中段把体力交给京都、梅田两轮购物，后半程才在宇治河边真正慢下来。",
+              "en": "We flew from Pudong to Kansai on April 10 and based ourselves at Sotetsu Fresa Inn in Yodoyabashi. The first half ran on Osaka night streets and theme-park adrenaline; the middle went to two serious shopping pushes through Kyoto and Umeda. Only in Uji, near the end, did the trip truly slow down."
+            },
+            {
+              "zh": "这趟旅行的照片也很诚实：霍格沃茨尖塔下是阴天，马里奥世界却亮得像游戏开机；京都白天是拥挤商店街，夜里则只剩五重塔、樱花和灯。最后一天回大阪补货，行李和账单一起抵达上限。",
+              "en": "The pictures tell the same story. Hogwarts rose into a grey sky while Mario's world glowed like a game booting up. Kyoto moved from a packed shopping arcade by day to a five-storey pagoda, blossoms and light after dark. On the final day, we returned to Osaka for one last supply run, with both luggage and ledger nearing capacity."
+            }
+          ]
+        },
+        {
+          "id": "page-02-route-01",
+          "type": "route",
+          "compact": true,
+          "stops": [
+            {
+              "id": "stop-01",
+              "icon": "✈️",
+              "label": {
+                "zh": "关西机场",
+                "en": "Kansai Airport"
+              }
+            },
+            {
+              "id": "stop-02",
+              "icon": "🌃",
+              "label": {
+                "zh": "大阪",
+                "en": "Osaka"
+              }
+            },
+            {
+              "id": "stop-03",
+              "icon": "🎢",
+              "label": {
+                "zh": "USJ",
+                "en": "USJ"
+              }
+            },
+            {
+              "id": "stop-04",
+              "icon": "🌸",
+              "label": {
+                "zh": "京都",
+                "en": "Kyoto"
+              }
+            },
+            {
+              "id": "stop-05",
+              "icon": "🛍️",
+              "label": {
+                "zh": "梅田",
+                "en": "Umeda"
+              }
+            },
+            {
+              "id": "stop-06",
+              "icon": "🍵",
+              "label": {
+                "zh": "宇治",
+                "en": "Uji"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-02-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "kyoto-temple-and-tower",
+              "caption": {
+                "zh": "古寺与京都塔同框，关西的旧与新叠在一起",
+                "en": "Old and new Kyoto stacked in a single frame"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "japanese-temple-garden-pond",
+              "caption": {
+                "zh": "春天还在水面和松枝上留着安静的一面",
+                "en": "Spring kept a quieter face on the water and pine branches"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "page-03",
+      "blocks": [
+        {
+          "id": "page-03-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "落地大阪，先用烤肉开场",
+            "en": "Osaka arrival, yakiniku opening act"
+          },
+          "subtitle": {
+            "zh": "Wednesday, April 10th · KIX → Yodoyabashi",
+            "en": "Wednesday, April 10th · KIX → Yodoyabashi"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "page-03-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "HO1621 在下午抵达关西 T1。把行李放进淀屋桥的酒店后，没有给第一天安排复杂任务，只是钻进大阪的街道随便走。霓虹亮起来时，旅行才算真正开始。",
+              "en": "HO1621 reached Kansai T1 in the afternoon. After dropping our bags at the Yodoyabashi hotel, we deliberately kept the first day loose and simply wandered into Osaka. The trip only felt switched on once the neon came up."
+            },
+            {
+              "zh": "晚餐选了可以在 Google Maps 预约的 OKINI 烤肉放题，最后现金结账。烤网上的肉刚翻面，杯子已经碰到一起；比起景点，这种刚落地、还没完全切换到旅行状态的晚饭，更像六天故事的开机画面。",
+              "en": "Dinner was OKINI's all-you-can-eat yakiniku, bookable through Google Maps and paid in cash. Meat had barely hit the tabletop grill before glasses met above it. More than any landmark, that half-tired first dinner—still mentally arriving—became the opening frame of the six days."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-01",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "busy-city-nightlife-selfie",
+              "caption": {
+                "zh": "行李放下后的第一圈夜游，大阪已经挤满灯光和人",
+                "en": "Our first night loop after dropping the bags: Osaka already full of light and people"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "korean-bbq-table-grill",
+              "caption": {
+                "zh": "OKINI 烤肉放题：第一顿要吃得有开场感",
+                "en": "OKINI yakiniku: the first meal needed proper opening-scene energy"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "japanese-izakaya-drinks-toast",
+              "caption": {
+                "zh": "落地碰杯，时差和疲惫都先放一边",
+                "en": "Arrival toast—jet lag and tired legs could wait"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-note-01",
+          "type": "note",
+          "title": {
+            "zh": "当天小账单",
+            "en": "The tiny first-day ledger"
+          },
+          "body": {
+            "zh": "星巴克 618 JPY，约 29 CNY。烤肉现金支付，记得给旅途中只收现金的小店留足日元。",
+            "en": "Starbucks was 618 JPY, about 29 CNY. Yakiniku was cash-only, a reminder to keep enough yen for the smaller places along the way."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "page-04",
+      "blocks": [
+        {
+          "id": "page-04-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "环球影城：先抢时间，再进入魔法",
+            "en": "USJ: win the morning, enter the magic"
+          },
+          "subtitle": {
+            "zh": "Thursday, April 11th · Universal Studios Japan",
+            "en": "Thursday, April 11th · Universal Studios Japan"
+          },
+          "icon": "🎢"
+        },
+        {
+          "id": "page-04-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这一天靠准备工作决定体验：提前下载 USJ App，带好 100 日元硬币、拍照道具和一次性雨衣，7:15 前抵达，7:45 入园。扫码进门后立刻绑定电子号码券、抽马里奥区域整理券，动作越快，后面的路线越从容。",
+              "en": "This was the day when preparation shaped everything: install the USJ app, pack 100-yen coins, photo props and a disposable poncho, arrive before 7:15, and enter around 7:45. The moment we scanned in, we linked the digital passes and entered the timed-entry lottery for Super Nintendo World. Move fast early, relax later."
+            },
+            {
+              "zh": "第一站直奔哈利波特禁忌之旅。灰蓝天空压在霍格沃茨尖塔后面，城堡反而更像电影里的样子；手里那张任天堂世界票券，则把下午的期待提前装进口袋。",
+              "en": "Harry Potter and the Forbidden Journey came first. Grey-blue cloud sat behind the Hogwarts turrets and made the castle feel even more cinematic. The Nintendo World ticket in hand carried the promise of the afternoon long before we reached it."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "hogwarts-castle-turrets",
+              "caption": {
+                "zh": "阴天替霍格沃茨加了一层电影滤镜",
+                "en": "The cloudy sky gave Hogwarts its own film filter"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "universal-studios-japan-nintendo-world-tickets",
+              "caption": {
+                "zh": "整理券到手，马里奥世界的时间窗口确定了",
+                "en": "Timed entry secured; the Mario window was officially on the schedule"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-02",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "palm-lined-city-street-scene",
+              "caption": {
+                "zh": "园区大道的人潮和棕榈树，把早晨迅速推入兴奋模式",
+                "en": "Crowds and palms pushed the morning straight into excitement"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "doraemon-adventureland-entrance-signs",
+              "caption": {
+                "zh": "一路都是熟悉角色，像穿过童年频道",
+                "en": "Familiar characters all the way through, like walking across childhood channels"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "sesame-street-central-park-mascot",
+              "caption": {
+                "zh": "连路边角色都保持着饱和度满格",
+                "en": "Even the roadside characters stayed at maximum saturation"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "usj-concrete-attraction-building",
+              "caption": {
+                "zh": "园区里像巨型雕塑一样展开的混凝土建筑",
+                "en": "A concrete park building unfolding like a monumental sculpture"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-highlight-01",
+          "type": "highlight",
+          "title": {
+            "zh": "开园后的核心顺序",
+            "en": "The opening-hour sequence"
+          },
+          "body": {
+            "zh": "哈利波特禁忌之旅 → 马里奥区域 → 小黄人乐园 → 大白鲨 → 鬼灭之刃。13:00 花车巡游尽量在起点看，13:20 左右结束后衔接马里奥；水世界场次留意 12:00、14:15、16:30。",
+            "en": "Harry Potter and the Forbidden Journey → Super Nintendo World → Minion Park → Jaws → Demon Slayer. Watch the 13:00 parade near its starting point, leave around 13:20 for Mario, and keep an eye on WaterWorld showings at 12:00, 14:15 and 16:30."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "page-05",
+      "blocks": [
+        {
+          "id": "page-05-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "马里奥世界，颜色像真的会发声",
+            "en": "Mario's world, colour turned audible"
+          },
+          "subtitle": {
+            "zh": "Super Nintendo World · Parade · Souvenirs",
+            "en": "Super Nintendo World · Parade · Souvenirs"
+          },
+          "icon": "🍄"
+        },
+        {
+          "id": "page-05-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走进超级任天堂世界，最大的冲击不是某个单独项目，而是整个山坡都被做成游戏画面：蘑菇、砖块、城堡和绿色管道挤在同一个视野里，颜色浓得像真的会发声。合影里的兔耳帽、园区入口和背后的蓝天，把这一天最轻松的部分都留了下来。",
+              "en": "The biggest surprise in Super Nintendo World was not one ride but the whole hillside rendered as a game screen: mushrooms, bricks, castles and green pipes crowded into a single view, the colours so dense they almost made sound. The bunny-ear hats, entrance portraits and clean blue sky kept the lightest part of the day intact."
+            },
+            {
+              "zh": "项目之间继续收集小细节：Cookie Monster 藏在功能指示牌旁，马里奥商店的钥匙扣还有隐藏款，记得直接问店员。最后用园区 Pizza 和纪念品把快乐延长，晚餐再以粘面拉面收尾。",
+              "en": "We kept collecting details between rides. Cookie Monster hid beside a practical sign; the Mario shop sold keychains with secret variants, worth asking a staff member about directly. Park pizza and souvenirs stretched the mood a little longer before tsukemen ended the night."
+            }
+          ]
+        },
+        {
+          "id": "page-05-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "super-mario-mushroom-kingdom-castle",
+              "caption": {
+                "zh": "从高处看，整个园区就是一张立体游戏地图",
+                "en": "From above, the entire park became a three-dimensional game map"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-gallery-02",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "super-nintendo-world-entrance",
+              "caption": {
+                "zh": "终于走进票券上的那扇门",
+                "en": "Finally walking through the gate printed on the ticket"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "friends-in-bunny-hats",
+              "caption": {
+                "zh": "道具一戴，主题乐园的认真程度立刻加倍",
+                "en": "Put on the props and theme-park commitment doubles immediately"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "cookie-monster-restaurant-sign",
+              "caption": {
+                "zh": "连指示牌都不肯只是普通指示牌",
+                "en": "Even the signage refused to be merely practical"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "门票",
+                "en": "Admission"
+              },
+              "amount": {
+                "zh": "818 CNY",
+                "en": "818 CNY"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "怪物猎人周边",
+                "en": "Monster Hunter merchandise"
+              },
+              "amount": {
+                "zh": "187 CNY",
+                "en": "187 CNY"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "园区 Pizza",
+                "en": "Park pizza"
+              },
+              "amount": {
+                "zh": "175 CNY",
+                "en": "175 CNY"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "USJ 纪念品",
+                "en": "USJ souvenirs"
+              },
+              "amount": {
+                "zh": "306 CNY",
+                "en": "306 CNY"
+              }
+            },
+            {
+              "id": "row-05",
+              "label": {
+                "zh": "Melon 星巴克 + 晚餐拉面",
+                "en": "Melon Starbucks + dinner"
+              },
+              "amount": {
+                "zh": "184 CNY",
+                "en": "184 CNY"
+              }
+            },
+            {
+              "id": "row-06",
+              "label": {
+                "zh": "Day 2",
+                "en": "Day 2"
+              },
+              "amount": {
+                "zh": "1,670 CNY",
+                "en": "1,670 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "page-06",
+      "blocks": [
+        {
+          "id": "page-06-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "京都白天：商店街与一碗鳗鱼饭",
+            "en": "Kyoto by day: arcades and eel rice"
+          },
+          "subtitle": {
+            "zh": "Friday, April 12th · Shijō · Kawaramachi",
+            "en": "Friday, April 12th · Shijō · Kawaramachi"
+          },
+          "icon": "🛍️"
+        },
+        {
+          "id": "page-06-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "电车到四条后，从 1 号口开始逛：始祖鸟旗舰店、京都友都八喜，再一路进河原町和新京极。拱顶商店街把人流、招牌和店铺压进一条长廊，计划里的品牌一个接一个出现，很容易失去时间感。",
+              "en": "From Shijō Station, we started at Exit 1 with the Arc'teryx flagship, Kyoto Yodobashi, then continued through Kawaramachi and Shinkyogoku. The covered arcade compressed crowds, signs and shops into one long corridor; brand after brand appeared from the plan until time became difficult to track."
+            },
+            {
+              "zh": "午餐用鳗鱼饭补体力，木盒揭开时米饭和酱汁还冒着热气。Patagonia Kyoto 的货品很全，但独立店不能退税，也没有购物袋；这条实用信息，比“值得逛”三个字更应该留给下次。",
+              "en": "Unagi rice restored enough energy for the afternoon, still steaming when the wooden tub opened. Patagonia Kyoto had a broad selection, but the standalone shop offered neither tax-free shopping nor bags. That practical detail deserved a place in the journal more than another generic “worth visiting.”"
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "shinkyogoku-shopping-arcade-kyoto",
+              "caption": {
+                "zh": "新京极的长廊，把一天的购物路线串起来",
+                "en": "Shinkyogoku's long corridor tied the day's shopping route together"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "grilled-eel-rice-bowl-meal",
+              "caption": {
+                "zh": "11,370 JPY 的鳗鱼饭，是下午继续走路的燃料",
+                "en": "An 11,370 JPY unagi lunch, fuel for the rest of the afternoon"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "page-07",
+      "blocks": [
+        {
+          "id": "page-07-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "京都夜里：东寺樱灯亮起",
+            "en": "Kyoto after dark: Tō-ji in cherry light"
+          },
+          "subtitle": {
+            "zh": "Tō-ji · Night Blossoms",
+            "en": "Tō-ji · Night Blossoms"
+          },
+          "icon": "🌸"
+        },
+        {
+          "id": "page-07-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "白天手里都是购物袋，晚上抵达东寺后，注意力一下换了方向。五重塔被暖光从黑夜里托出来，樱花在前景里变成一层轻雾；水面、枝条和塔影互相叠着，确实是照片无法完全还原的“超级美”。",
+              "en": "Shopping bags filled the daytime, but reaching Tō-ji after dark reset our attention completely. Warm light lifted the five-storey pagoda out of the black sky while blossoms turned into a pale haze in the foreground. Water, branches and tower shadow layered together—it really was “stunning,” beyond what the photos could hold."
+            },
+            {
+              "zh": "路上经过木门茶屋、院落小社和大阪烧店的灯牌。它们不是计划里的大景点，却把京都从一张购物清单重新变回一座有人生活的城市。",
+              "en": "Along the way were a wooden teahouse entrance, a tiny garden altar and the glowing sign of an okonomiyaki restaurant. None was a headline stop, yet together they returned Kyoto from a shopping list to a city where people actually live."
+            }
+          ]
+        },
+        {
+          "id": "page-07-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "illuminated-pagoda-cherry-blossoms-night",
+              "caption": {
+                "zh": "东寺夜樱：这张照片成了整趟关西的封面",
+                "en": "Tō-ji under night blossoms—the image that became this Kansai trip's cover"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-gallery-02",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "cherry-blossoms-around-temple-at-night",
+              "caption": {
+                "zh": "樱花把寺院边缘一点点照亮",
+                "en": "Blossoms slowly traced the edge of the temple"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "illuminated-japanese-pagoda-night",
+              "caption": {
+                "zh": "拿掉前景，只剩塔与纯黑夜色",
+                "en": "Remove the foreground and only tower and pure black remain"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "traditional-japanese-teahouse-entrance",
+              "caption": {
+                "zh": "白天经过的木门茶屋，安静藏在绿意里",
+                "en": "A timber doorway tucked quietly into daytime green"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-07-gallery-03",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "japanese-garden-shrine-altar",
+              "caption": {
+                "zh": "石灯笼、纸灯与小小供奉处，把街角收得很静",
+                "en": "Stone lantern, paper light and a small altar made the street corner still"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "night-temple-selfie-japan",
+              "caption": {
+                "zh": "走了一整天，还是要和夜樱留下一张合影",
+                "en": "After a full day on foot, one portrait with the night blossoms"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "kyoto-okonomiyaki-restaurant-sign",
+              "caption": {
+                "zh": "从寺院走回街巷，灯牌把人重新拉回烟火气",
+                "en": "Leaving the temple, a restaurant sign pulled us back into everyday warmth"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-08",
+      "sectionId": "page-08",
+      "blocks": [
+        {
+          "id": "page-08-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "购物袋堆成京都战绩",
+            "en": "Kyoto's shopping-bag scorecard"
+          },
+          "subtitle": {
+            "zh": "Arc'teryx · Nanga · Snow Peak · Beams",
+            "en": "Arc'teryx · Nanga · Snow Peak · Beams"
+          },
+          "icon": "🧾"
+        },
+        {
+          "id": "page-08-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这天真正的主线仍然是买买买：外套、T 恤、鞋一路加入购物袋。夜樱负责把一天变得浪漫，账单则负责把现实一项项写清楚。",
+              "en": "Shopping remained the real daytime plot: jackets, tees and shoes kept joining the bags. The blossoms made the ending romantic; the ledger made every earlier decision explicit."
+            }
+          ]
+        },
+        {
+          "id": "page-08-gallery-01",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "human-made-store-mirror",
+              "caption": {
+                "zh": "Human Made 店里的镜面打卡",
+                "en": "A mirror stop inside Human Made"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "two-people-by-cat-mural",
+              "caption": {
+                "zh": "购物间隙，遇见一面安静又有点古怪的猫墙",
+                "en": "Between shops, a quiet and slightly strange giant-cat wall"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "cat-mural-under-pine-tree",
+              "caption": {
+                "zh": "把人移出画面后，才看清松树下那只巨猫",
+                "en": "Without us in frame, the enormous cat beneath the pine finally appeared"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-shopping-01",
+          "type": "shopping",
+          "pricePosition": "after-detail",
+          "products": [
+            {
+              "id": "product-01",
+              "name": {
+                "zh": "Arc'teryx",
+                "en": "Arc'teryx"
+              },
+              "price": {
+                "zh": "2,122 CNY",
+                "en": "2,122 CNY"
+              },
+              "detail": {
+                "zh": "Solano Jacket M",
+                "en": "Solano Jacket M"
+              }
+            },
+            {
+              "id": "product-02",
+              "name": {
+                "zh": "Snow Peak",
+                "en": "Snow Peak"
+              },
+              "price": {
+                "zh": "2,484 CNY",
+                "en": "2,484 CNY"
+              },
+              "detail": {
+                "zh": "外套 × 2",
+                "en": "Jackets × 2"
+              }
+            },
+            {
+              "id": "product-03",
+              "name": {
+                "zh": "The North Face",
+                "en": "The North Face"
+              },
+              "price": {
+                "zh": "1,452 CNY",
+                "en": "1,452 CNY"
+              },
+              "detail": {
+                "zh": "冲锋衣",
+                "en": "Shell jacket"
+              }
+            },
+            {
+              "id": "product-04",
+              "name": {
+                "zh": "ABC Mart",
+                "en": "ABC Mart"
+              },
+              "price": {
+                "zh": "466 CNY",
+                "en": "466 CNY"
+              },
+              "detail": {
+                "zh": "Adidas 板鞋",
+                "en": "Adidas sneakers"
+              }
+            },
+            {
+              "id": "product-05",
+              "name": {
+                "zh": "Barbour",
+                "en": "Barbour"
+              },
+              "price": {
+                "zh": "466 CNY",
+                "en": "466 CNY"
+              },
+              "detail": {
+                "zh": "Tee",
+                "en": "Tee"
+              }
+            },
+            {
+              "id": "product-06",
+              "name": {
+                "zh": "Beams",
+                "en": "Beams"
+              },
+              "price": {
+                "zh": "452 CNY",
+                "en": "452 CNY"
+              },
+              "detail": {
+                "zh": "North Face Tee × 2",
+                "en": "North Face tees × 2"
+              }
+            },
+            {
+              "id": "product-07",
+              "name": {
+                "zh": "Bape",
+                "en": "Bape"
+              },
+              "price": {
+                "zh": "431 CNY",
+                "en": "431 CNY"
+              },
+              "detail": {
+                "zh": "Tee",
+                "en": "Tee"
+              }
+            },
+            {
+              "id": "product-08",
+              "name": {
+                "zh": "Nanga",
+                "en": "Nanga"
+              },
+              "price": {
+                "zh": "250 CNY",
+                "en": "250 CNY"
+              },
+              "detail": {
+                "zh": "Tee",
+                "en": "Tee"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "Day 3 当日小计",
+                "en": "Day 3 total"
+              },
+              "amount": {
+                "zh": "8,656 CNY",
+                "en": "8,656 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-09",
+      "sectionId": "page-09",
+      "blocks": [
+        {
+          "id": "page-09-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "梅田：逛到晚上十点还没停",
+            "en": "Umeda: still browsing at 10 p.m."
+          },
+          "subtitle": {
+            "zh": "Saturday, April 13th · Umeda",
+            "en": "Saturday, April 13th · Umeda"
+          },
+          "icon": "🏬"
+        },
+        {
+          "id": "page-09-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午餐先吃饺子，随后在梅田把商场路线拉满：友都八喜买 G-Star 牛仔裤、保温杯和剃须刀，Lucua 看 Lululemon，再从户外石井一路逛回始祖鸟。阪神梅田站的蓝色招牌从白天看到夜里，22:00 还在店里，购物体力比预想中更持久。",
+              "en": "Dumplings for lunch, then the full Umeda retail circuit: G-Star jeans, tumblers and a shaver at Yodobashi; Lululemon in Lucua; outdoor specialist Ishii; then back to Arc'teryx. The blue Hanshin Umeda sign stayed with us from daylight into night, and at 22:00 we were somehow still shopping."
+            },
+            {
+              "zh": "晚餐是现金支付的亲子鸡蛋拌饭，之后去 Taiyoo Massage 给双腿补偿。甜点 42 CNY，是这场长距离商场徒步最后的一点糖分。",
+              "en": "Dinner was an oyakodon-style egg-and-chicken rice bowl paid in cash, followed by Taiyoo Massage as compensation for our legs. A 42 CNY dessert supplied the final sugar for this long-distance indoor hike."
+            }
+          ]
+        },
+        {
+          "id": "page-09-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "hanshin-railway-umeda-station-sign",
+              "caption": {
+                "zh": "梅田的坐标：电车、百货与密集楼群",
+                "en": "Umeda's coordinates: railway, department stores and dense towers"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "the-north-face-store-display",
+              "caption": {
+                "zh": "户外品牌继续接管购物清单",
+                "en": "Outdoor labels continued to control the shopping list"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-09-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "Arc'teryx Solano Hoody M",
+                "en": "Arc'teryx Solano Hoody M"
+              },
+              "amount": {
+                "zh": "2,541 CNY",
+                "en": "2,541 CNY"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "松下 9 系剃须刀",
+                "en": "Panasonic Series 9 shaver"
+              },
+              "amount": {
+                "zh": "2,117 CNY",
+                "en": "2,117 CNY"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "Lululemon × 2",
+                "en": "Lululemon × 2"
+              },
+              "amount": {
+                "zh": "1,181 CNY",
+                "en": "1,181 CNY"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "保温杯 × 6",
+                "en": "Thermal tumblers × 6"
+              },
+              "amount": {
+                "zh": "808 CNY",
+                "en": "808 CNY"
+              }
+            },
+            {
+              "id": "row-05",
+              "label": {
+                "zh": "G-Star Raw 牛仔裤",
+                "en": "G-Star Raw jeans"
+              },
+              "amount": {
+                "zh": "763 CNY",
+                "en": "763 CNY"
+              }
+            },
+            {
+              "id": "row-06",
+              "label": {
+                "zh": "Day 4 当日小计",
+                "en": "Day 4 total"
+              },
+              "amount": {
+                "zh": "7,591 CNY",
+                "en": "7,591 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "sectionId": "page-10",
+      "blocks": [
+        {
+          "id": "page-10-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "宇治，把步速调慢",
+            "en": "Uji, turning down the walking pace"
+          },
+          "subtitle": {
+            "zh": "Sunday, April 14th · Byōdō-in · Uji River",
+            "en": "Sunday, April 14th · Byōdō-in · Uji River"
+          },
+          "icon": "🍵"
+        },
+        {
+          "id": "page-10-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从京阪宇治或 JR 宇治站出发，城市的音量明显低了下来。窄窄住宅街没有大阪的屏幕和京都商圈的人潮，只有灰白墙面、电线与远处的山。午餐现金吃猪排饭，然后沿平等院、宇治神社、宇治上神社一路走。",
+              "en": "Starting from either Keihan Uji or JR Uji, the city volume dropped immediately. The narrow residential lanes had none of Osaka's screens or Kyoto's shopping crowds—only pale walls, power lines and hills at the far end. We paid cash for tonkatsu, then walked a line through Byōdō-in, Uji Shrine and Ujigami Shrine."
+            },
+            {
+              "zh": "宇治是那种会主动让人慢下来的地方。茶铺把抹茶气味送到街上，河水从树木和山坡之间摊开；长椅上的人低头读书，咖啡师在吧台后认真工作，这些安静画面反而比“打卡完成”更像这一天。",
+              "en": "Uji slows you down without asking. Tea shops sent matcha into the street; the river opened between trees and wooded slopes. Someone read on a bench while a barista worked carefully behind a counter. Those quiet scenes felt more like the day than any completed checklist."
+            }
+          ]
+        },
+        {
+          "id": "page-10-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "narrow-japanese-residential-street",
+              "caption": {
+                "zh": "离开车站后，街道先把声音降下来",
+                "en": "Beyond the station, the streets lowered the volume first"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "barista-behind-coffee-counter",
+              "caption": {
+                "zh": "吧台后的动作很慢，正好配合宇治的节奏",
+                "en": "The movement behind the counter was slow enough to match Uji"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-10-gallery-02",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "person-reading-on-park-bench",
+              "caption": {
+                "zh": "树下读书的人，像是这座城市给出的步速示范",
+                "en": "A reader under the trees, demonstrating the city's preferred pace"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "japanese-shrine-torii-gate",
+              "caption": {
+                "zh": "红色鸟居藏在层层绿意之间",
+                "en": "The red torii sat deep inside layers of green"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "sectionId": "page-11",
+      "blocks": [
+        {
+          "id": "page-11-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "河边发呆，也算当天行程",
+            "en": "Doing nothing by the river counted"
+          },
+          "subtitle": {
+            "zh": "Uji River · Matcha Souvenirs · Kyoto Station",
+            "en": "Uji River · Matcha Souvenirs · Kyoto Station"
+          },
+          "icon": "🌿"
+        },
+        {
+          "id": "page-11-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走到河边后，没有再给时间塞进更多任务。堤坝、林木和远山在晴天里铺成几层绿色，两个人就站在水边留下一张合影。坐着发呆本身就是宇治的核心体验，不需要解释成“休息”。",
+              "en": "Once we reached the river, we stopped trying to add tasks. A dam, wooded hills and distant slopes spread into layers of green beneath the clear sky; we stood by the water for one simple portrait. Sitting and staring was the central Uji experience, not merely a break between sights."
+            },
+            {
+              "zh": "离开前买了抹茶伴手礼和“宇治老爷爷抹茶”，晚上回到京都站一带，顺路看东本愿寺与京都塔，再用回转寿司结束这段慢速日程。",
+              "en": "Before leaving, we bought matcha gifts and “Uji Grandpa Matcha.” Back near Kyoto Station that evening, we passed Higashi Hongan-ji and Kyoto Tower, then ended the slower day with conveyor-belt sushi."
+            }
+          ]
+        },
+        {
+          "id": "page-11-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "river-dam-and-wooded-hills",
+              "caption": {
+                "zh": "河水、堤坝和远山，把视野拉得很开",
+                "en": "River, dam and distant hills pulled the view wide open"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-11-gallery-02",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "two-people-by-riverside",
+              "caption": {
+                "zh": "这一天最完整的纪念，是河边的一张普通合影",
+                "en": "The day's fullest souvenir was an ordinary portrait by the water"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "japanese-temple-garden-pond-2",
+              "caption": {
+                "zh": "庭园水面把春日阳光完整接住",
+                "en": "The garden water held the spring light intact"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-11-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "宇治抹茶伴手礼",
+                "en": "Uji matcha souvenirs"
+              },
+              "amount": {
+                "zh": "331 CNY",
+                "en": "331 CNY"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "宇治老爷爷抹茶",
+                "en": "Uji Grandpa Matcha"
+              },
+              "amount": {
+                "zh": "156 CNY",
+                "en": "156 CNY"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "晚餐回转寿司",
+                "en": "Conveyor-belt sushi"
+              },
+              "amount": {
+                "zh": "382 CNY",
+                "en": "382 CNY"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "Day 5",
+                "en": "Day 5"
+              },
+              "amount": {
+                "zh": "869 CNY",
+                "en": "869 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-12",
+      "sectionId": "page-12",
+      "blocks": [
+        {
+          "id": "page-12-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "6",
+            "en": "6"
+          },
+          "title": {
+            "zh": "中崎町最后一走，再回家",
+            "en": "One last Nakazakichō walk, then home"
+          },
+          "subtitle": {
+            "zh": "Monday, April 15th · Nakazakichō → KIX",
+            "en": "Monday, April 15th · Nakazakichō → KIX"
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "page-12-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天还是舍不得直接去机场。先到少彦名神社，午餐吃 Mos Burger，再去中崎町 City Walk。老木屋、狭窄门面和白色小咖啡馆夹在大阪现代办公楼之间，Neel Coffee 附近的街景像是城市临走前翻出的另一面。",
+              "en": "We still could not bring ourselves to go straight to the airport. First came Sukunahikona Shrine, then Mos Burger and a Nakazakichō city walk. Weathered timber houses, narrow shopfronts and a white little café sat between Osaka's modern offices; the streets around Neel Coffee showed us one more version of the city before departure."
+            },
+            {
+              "zh": "手里举着冰凉果饮走完最后一段路，随后回到大丸任天堂与 Pokémon 商店补货，在 Osaka Station 的 7-Eleven 买伴手礼，再冲松本清。机场拉面是最后一顿，21:30 的 HO1338 把我们送回浦东。",
+              "en": "We carried cold fruit drinks through the final walk, returned to Daimaru's Nintendo and Pokémon stores, bought gifts at the Osaka Station 7-Eleven, then made a Matsumoto Kiyoshi run. Airport ramen was the last meal before HO1338 left at 21:30 for Pudong."
+            }
+          ]
+        },
+        {
+          "id": "page-12-gallery-01",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "weathered-wooden-building-japan-street",
+              "caption": {
+                "zh": "中崎町的旧木屋，让大阪忽然缩小成邻里街巷",
+                "en": "Nakazakichō's old timber houses briefly shrank Osaka into a neighbourhood"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "white-stucco-cafe-exterior-planter",
+              "caption": {
+                "zh": "白墙、植物和小窗，是 City Walk 里最轻的一角",
+                "en": "White wall, plants and a tiny window—the lightest corner of the walk"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "urban-office-building-street-traffic",
+              "caption": {
+                "zh": "转过街角，旧街区又接回现代大阪",
+                "en": "Turn one corner and the old lanes reconnect to modern Osaka"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "holding-passionfruit-drinks-outdoors",
+              "caption": {
+                "zh": "临走前的最后一杯，边走边喝完",
+                "en": "One last cold drink, finished while walking"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-12-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "Mos Burger + 流量包",
+                "en": "Mos Burger + mobile data"
+              },
+              "amount": {
+                "zh": "194 CNY",
+                "en": "194 CNY"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "7-Eleven 伴手礼",
+                "en": "7-Eleven gifts"
+              },
+              "amount": {
+                "zh": "455 CNY",
+                "en": "455 CNY"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "松本清药妆",
+                "en": "Matsumoto Kiyoshi"
+              },
+              "amount": {
+                "zh": "592 CNY",
+                "en": "592 CNY"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "动森水壶 + 机场拉面",
+                "en": "Animal Crossing bottle + airport ramen"
+              },
+              "amount": {
+                "zh": "390 CNY",
+                "en": "390 CNY"
+              }
+            },
+            {
+              "id": "row-05",
+              "label": {
+                "zh": "Day 6",
+                "en": "Day 6"
+              },
+              "amount": {
+                "zh": "1,631 CNY",
+                "en": "1,631 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-13",
+      "sectionId": "page-13",
+      "blocks": [
+        {
+          "id": "page-13-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "¥",
+            "en": "¥"
+          },
+          "markerValue": {
+            "zh": "TOTAL",
+            "en": "TOTAL"
+          },
+          "title": {
+            "zh": "六天账单与带回家的东西",
+            "en": "Six days, one ledger, many bags"
+          },
+          "subtitle": {
+            "zh": "Flights · Hotel · Cash · Shopping",
+            "en": "Flights · Hotel · Cash · Shopping"
+          }
+        },
+        {
+          "id": "page-13-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这是一趟购物占比很高的旅行。出发前列下的 Lululemon、剃须刀和始祖鸟都打了勾，DJI Osmo Mobile 6 也已提前入手；Stone Island、Gentle Monster、梅子酒和柚子酒则继续留在清单上。",
+              "en": "This was a shopping-heavy trip. Lululemon, the electric shaver and Arc'teryx all received ticks, while the DJI Osmo Mobile 6 had already been bought before departure. Stone Island, Gentle Monster, plum wine and yuzu liqueur remained for another list."
+            },
+            {
+              "zh": "总额沿用当时手账的记法：机酒、西瓜卡充值和现金兑换先记一笔，各日消费再逐项汇总。它是旅行结束时的个人账本，不是去重后的会计口径。",
+              "en": "The total preserves the journal's original method: flights, hotel, Suica top-up and exchanged cash were recorded first, then each day's spending was added below. It is the personal closing ledger from the trip, not a deduplicated accounting statement."
+            }
+          ]
+        },
+        {
+          "id": "page-13-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "机票",
+                "en": "Flights"
+              },
+              "amount": {
+                "zh": "3,744 CNY",
+                "en": "3,744 CNY"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "酒店",
+                "en": "Hotel"
+              },
+              "amount": {
+                "zh": "2,945 CNY",
+                "en": "2,945 CNY"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "西瓜卡 18,100 JPY",
+                "en": "Suica, 18,100 JPY"
+              },
+              "amount": {
+                "zh": "852 CNY",
+                "en": "852 CNY"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "现金 66,000 JPY",
+                "en": "Cash, 66,000 JPY"
+              },
+              "amount": {
+                "zh": "3,105 CNY",
+                "en": "3,105 CNY"
+              }
+            },
+            {
+              "id": "row-05",
+              "label": {
+                "zh": "六日消费与购物",
+                "en": "Six days of spending"
+              },
+              "amount": {
+                "zh": "20,446 CNY",
+                "en": "20,446 CNY"
+              }
+            },
+            {
+              "id": "row-06",
+              "label": {
+                "zh": "全程记录",
+                "en": "Journal total"
+              },
+              "amount": {
+                "zh": "31,092 CNY",
+                "en": "31,092 CNY"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-13-note-01",
+          "type": "note",
+          "title": {
+            "zh": "下次出发前照着做",
+            "en": "Repeat before the next departure"
+          },
+          "body": {
+            "zh": "带信用卡和上次剩余日元，提前充西瓜卡；预订接送机并在线值机；御朱印本别忘；出发前填写 Visit Japan Web。去 USJ 另备 100 日元硬币和一次性雨衣。",
+            "en": "Bring a credit card and leftover yen, top up Suica, book airport transfers and check in online, pack the goshuin book, and complete Visit Japan Web. For USJ, add 100-yen coins and a disposable poncho."
+          },
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-13-tags-01",
+          "type": "tags",
+          "variant": "colored",
+          "items": [
+            {
+              "id": "tag-01",
+              "label": {
+                "zh": "USJ",
+                "en": "USJ"
+              },
+              "tone": "red"
+            },
+            {
+              "id": "tag-02",
+              "label": {
+                "zh": "京都夜樱",
+                "en": "Kyoto at night"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "tag-03",
+              "label": {
+                "zh": "宇治抹茶",
+                "en": "Uji matcha"
+              },
+              "tone": "green"
+            },
+            {
+              "id": "tag-04",
+              "label": {
+                "zh": "购物战绩",
+                "en": "Shopping haul"
+              },
+              "tone": "yellow"
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    }
+  ]
+}

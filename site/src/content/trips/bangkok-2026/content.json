@@ -1,0 +1,2401 @@
+{
+  "version": 1,
+  "slug": "bangkok-2026",
+  "metadata": {
+    "date": "2026-04-02",
+    "dateRange": "2026.04.02 — 04.06",
+    "title": {
+      "zh": "曼谷 · 热浪漫游",
+      "en": "Bangkok · Heatwave Wanderings"
+    },
+    "subtitle": {
+      "zh": "从浦东深夜落地，到素万那普清晨告别",
+      "en": "From a midnight touchdown to a morning farewell at Suvarnabhumi"
+    },
+    "location": {
+      "zh": "泰国 · 曼谷",
+      "en": "Bangkok, Thailand"
+    },
+    "private": true,
+    "coverImageId": "cover-2026-08"
+  },
+  "images": [
+    {
+      "id": "cover-2026-08",
+      "filename": "cover-2026-08.png",
+      "alt": {
+        "zh": "曼谷 · 热浪漫游",
+        "en": "Bangkok · Heatwave Wanderings"
+      }
+    },
+    {
+      "id": "img-1721",
+      "filename": "IMG_1721.jpeg",
+      "alt": {
+        "zh": "Airport lounge soup",
+        "en": "Airport lounge soup"
+      }
+    },
+    {
+      "id": "img-1722",
+      "filename": "IMG_1722.jpeg",
+      "alt": {
+        "zh": "Peace sign airplane",
+        "en": "Peace sign airplane"
+      }
+    },
+    {
+      "id": "img-1725",
+      "filename": "IMG_1725.jpeg",
+      "alt": {
+        "zh": "Bangkok skyline",
+        "en": "Bangkok skyline"
+      }
+    },
+    {
+      "id": "img-1733",
+      "filename": "IMG_1733.jpeg",
+      "alt": {
+        "zh": "Khao Soi",
+        "en": "Khao Soi"
+      }
+    },
+    {
+      "id": "img-1731",
+      "filename": "IMG_1731.jpeg",
+      "alt": {
+        "zh": "Ginger Farm",
+        "en": "Ginger Farm"
+      }
+    },
+    {
+      "id": "img-1739",
+      "filename": "IMG_1739.jpeg",
+      "alt": {
+        "zh": "Rama VI",
+        "en": "Rama VI"
+      }
+    },
+    {
+      "id": "img-1747",
+      "filename": "IMG_1747.jpeg",
+      "alt": {
+        "zh": "Lumpini lake",
+        "en": "Lumpini lake"
+      }
+    },
+    {
+      "id": "img-1751",
+      "filename": "IMG_1751.jpeg",
+      "alt": {
+        "zh": "Monitor lizard",
+        "en": "Monitor lizard"
+      }
+    },
+    {
+      "id": "img-1767",
+      "filename": "IMG_1767.jpeg",
+      "alt": {
+        "zh": "BACC spiral",
+        "en": "BACC spiral"
+      }
+    },
+    {
+      "id": "img-1784",
+      "filename": "IMG_1784.jpeg",
+      "alt": {
+        "zh": "Siam night",
+        "en": "Siam night"
+      }
+    },
+    {
+      "id": "img-1813",
+      "filename": "IMG_1813.jpeg",
+      "alt": {
+        "zh": "Song Song",
+        "en": "Song Song"
+      }
+    },
+    {
+      "id": "img-1812",
+      "filename": "IMG_1812.jpeg",
+      "alt": {
+        "zh": "Basil squid",
+        "en": "Basil squid"
+      }
+    },
+    {
+      "id": "img-1800",
+      "filename": "IMG_1800.jpeg",
+      "alt": {
+        "zh": "Milk Boy",
+        "en": "Milk Boy"
+      }
+    },
+    {
+      "id": "img-1794",
+      "filename": "IMG_1794.jpeg",
+      "alt": {
+        "zh": "Cow Moo Moo",
+        "en": "Cow Moo Moo"
+      }
+    },
+    {
+      "id": "img-1828",
+      "filename": "IMG_1828.jpeg",
+      "alt": {
+        "zh": "Tom Yum",
+        "en": "Tom Yum"
+      }
+    },
+    {
+      "id": "img-1854",
+      "filename": "IMG_1854.jpeg",
+      "alt": {
+        "zh": "Golden Buddha",
+        "en": "Golden Buddha"
+      }
+    },
+    {
+      "id": "img-1905",
+      "filename": "IMG_1905.jpeg",
+      "alt": {
+        "zh": "Buddha head",
+        "en": "Buddha head"
+      }
+    },
+    {
+      "id": "img-1969",
+      "filename": "IMG_1969.jpeg",
+      "alt": {
+        "zh": "Temple spires",
+        "en": "Temple spires"
+      }
+    },
+    {
+      "id": "img-1975",
+      "filename": "IMG_1975.jpeg",
+      "alt": {
+        "zh": "Stilt house",
+        "en": "Stilt house"
+      }
+    },
+    {
+      "id": "img-1993",
+      "filename": "IMG_1993.jpeg",
+      "alt": {
+        "zh": "Skyline",
+        "en": "Skyline"
+      }
+    },
+    {
+      "id": "img-1998",
+      "filename": "IMG_1998.jpeg",
+      "alt": {
+        "zh": "Molly",
+        "en": "Molly"
+      }
+    },
+    {
+      "id": "img-1992",
+      "filename": "IMG_1992.jpeg",
+      "alt": {
+        "zh": "Popbean",
+        "en": "Popbean"
+      }
+    },
+    {
+      "id": "img-2019",
+      "filename": "IMG_2019.jpeg",
+      "alt": {
+        "zh": "Tonkatsu",
+        "en": "Tonkatsu"
+      }
+    },
+    {
+      "id": "img-2004",
+      "filename": "IMG_2004.jpeg",
+      "alt": {
+        "zh": "Mirror pillars",
+        "en": "Mirror pillars"
+      }
+    },
+    {
+      "id": "img-2028",
+      "filename": "IMG_2028.jpeg",
+      "alt": {
+        "zh": "Pool",
+        "en": "Pool"
+      }
+    },
+    {
+      "id": "img-2029",
+      "filename": "IMG_2029.jpeg",
+      "alt": {
+        "zh": "Room view",
+        "en": "Room view"
+      }
+    },
+    {
+      "id": "img-2037",
+      "filename": "IMG_2037.jpeg",
+      "alt": {
+        "zh": "Crab",
+        "en": "Crab"
+      }
+    },
+    {
+      "id": "img-2035",
+      "filename": "IMG_2035.jpeg",
+      "alt": {
+        "zh": "Curry",
+        "en": "Curry"
+      }
+    },
+    {
+      "id": "img-2040",
+      "filename": "IMG_2040.jpeg",
+      "alt": {
+        "zh": "Coffee",
+        "en": "Coffee"
+      }
+    },
+    {
+      "id": "img-2081",
+      "filename": "IMG_2081.jpeg",
+      "alt": {
+        "zh": "Good Goods",
+        "en": "Good Goods"
+      }
+    },
+    {
+      "id": "img-2063",
+      "filename": "IMG_2063.jpeg",
+      "alt": {
+        "zh": "Panpuri",
+        "en": "Panpuri"
+      }
+    },
+    {
+      "id": "img-2069",
+      "filename": "IMG_2069.jpeg",
+      "alt": {
+        "zh": "Pop Mart",
+        "en": "Pop Mart"
+      }
+    },
+    {
+      "id": "img-2070",
+      "filename": "IMG_2070.jpeg",
+      "alt": {
+        "zh": "Perfumes",
+        "en": "Perfumes"
+      }
+    },
+    {
+      "id": "img-2054",
+      "filename": "IMG_2054.jpeg",
+      "alt": {
+        "zh": "Towel elephant",
+        "en": "Towel elephant"
+      }
+    },
+    {
+      "id": "img-2103",
+      "filename": "IMG_2103.jpeg",
+      "alt": {
+        "zh": "Breakfast",
+        "en": "Breakfast"
+      }
+    },
+    {
+      "id": "img-2110",
+      "filename": "IMG_2110.jpeg",
+      "alt": {
+        "zh": "Elephant bye",
+        "en": "Elephant bye"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview"
+    },
+    {
+      "id": "departure"
+    },
+    {
+      "id": "bangkok-day"
+    },
+    {
+      "id": "bangkok-night"
+    },
+    {
+      "id": "wat-paknam"
+    },
+    {
+      "id": "icon-siam"
+    },
+    {
+      "id": "slow-day"
+    },
+    {
+      "id": "gifts-and-elephant"
+    },
+    {
+      "id": "goodbye"
+    },
+    {
+      "id": "food-review"
+    },
+    {
+      "id": "closing"
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "cover-cover-1",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🇹🇭 ✈️ 🏝️",
+            "en": "🇹🇭 ✈️ 🏝️"
+          },
+          "title": {
+            "zh": "曼谷热浪漫游",
+            "en": "Heatwave Wanderings"
+          },
+          "subtitle": {
+            "zh": "Travel Journal",
+            "en": "Travel Journal"
+          },
+          "date": {
+            "zh": "2026.04.02 — 04.06",
+            "en": "2026.04.02 — 04.06"
+          },
+          "intro": {
+            "zh": "「旅行的意义不在于抵达终点，\n而是我们度过的那些无可替代的时光」",
+            "en": "“The meaning of travel is not in the arrival,\nbut in the irreplaceable hours we pass along the way.”"
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "separators": true,
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "THAILAND\n2026",
+              "en": "THAILAND\n2026"
+            }
+          },
+          "boxStamp": {
+            "zh": "BOARDING PASS",
+            "en": "BOARDING PASS"
+          },
+          "boxStampSpacing": "relaxed"
+        }
+      ]
+    },
+    {
+      "id": "departure",
+      "sectionId": "departure",
+      "blocks": [
+        {
+          "id": "departure-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "0",
+            "en": "0"
+          },
+          "title": {
+            "zh": "Departure",
+            "en": "Departure"
+          },
+          "subtitle": {
+            "zh": "Thursday, April 2nd · Shanghai ✈️ Bangkok",
+            "en": "Thursday, April 2nd · Shanghai ✈️ Bangkok"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "departure-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午工作结束匆匆赶去机场，在浦东 T1 卫星厅的 VIP Lounge 吃上了面和小馄饨，旅程就这样开始了。",
+              "en": "Rushed to the airport straight after work. Ate noodles and little wontons in the T1 satellite VIP lounge at Pudong. And with that, the trip began."
+            }
+          ]
+        },
+        {
+          "id": "departure-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 16
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-1721",
+              "alt": {
+                "zh": "Airport lounge soup",
+                "en": "Airport lounge soup"
+              },
+              "caption": {
+                "zh": "Lounge 的面和小馄饨",
+                "en": "Noodles & wontons at the lounge"
+              },
+              "shape": "portrait",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "img-1722",
+              "alt": {
+                "zh": "Peace sign airplane",
+                "en": "Peace sign airplane"
+              },
+              "caption": {
+                "zh": "✨ Let's go Bangkok!",
+                "en": "✨ Let's go Bangkok!"
+              },
+              "shape": "portrait",
+              "tone": "crisp",
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "departure-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "departure-timeline-5",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "departure-timeline-1",
+              "time": {
+                "zh": "17:30",
+                "en": "17:30"
+              },
+              "event": {
+                "zh": "下班出发，赶往浦东机场",
+                "en": "Left the office, headed for Pudong"
+              },
+              "detail": {
+                "zh": "工作日赶飞机，心情已经飞到曼谷了",
+                "en": "Workday takeoff — mind already in Bangkok"
+              }
+            },
+            {
+              "id": "departure-timeline-2",
+              "time": {
+                "zh": "20:00",
+                "en": "20:00"
+              },
+              "event": {
+                "zh": "到达卫星厅 VIP Lounge",
+                "en": "Arrived at the satellite VIP lounge"
+              },
+              "detail": {
+                "zh": "吃上了面和小馄饨，等待登机 ☕",
+                "en": "Noodles, wontons, a quiet wait before boarding ☕"
+              }
+            },
+            {
+              "id": "departure-timeline-3",
+              "time": {
+                "zh": "01:15",
+                "en": "01:15"
+              },
+              "event": {
+                "zh": "落地曼谷素万那普机场",
+                "en": "Touched down at Suvarnabhumi"
+              },
+              "detail": {
+                "zh": "入境排队人好多，排了将近一小时",
+                "en": "Immigration queue was massive — almost an hour"
+              }
+            },
+            {
+              "id": "departure-timeline-4",
+              "time": {
+                "zh": "02:30",
+                "en": "02:30"
+              },
+              "event": {
+                "zh": "打车前往酒店",
+                "en": "Taxi to the hotel"
+              },
+              "detail": {
+                "zh": "用了高德的优惠，但机场的4层找了半天",
+                "en": "Used a Gaode coupon, but spent ages hunting the level-4 pickup"
+              }
+            },
+            {
+              "id": "departure-timeline-5",
+              "time": {
+                "zh": "03:30",
+                "en": "03:30"
+              },
+              "event": {
+                "zh": "终于到酒店 Crowne Plaza",
+                "en": "Finally at Crowne Plaza"
+              },
+              "detail": {
+                "zh": "Silom 区，位置很方便，洗漱睡觉 😴",
+                "en": "Silom — great location. Shower, sleep 😴"
+              }
+            }
+          ]
+        },
+        {
+          "id": "departure-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 20
+          },
+          "title": {
+            "zh": "📋 行前功课",
+            "en": "📋 Pre-trip notes"
+          },
+          "body": {
+            "zh": "曼谷素万那普机场（BKK）是泰国最大的国际机场，距市区约30公里，打车到 Silom 区大约40-60分钟。建议提前下载好 Grab APP，曼谷打车基本靠它。入境排队通常30-60分钟，深夜航班人更多，耐心等待。泰铢汇率约 1 CNY = 4.5 THB。",
+            "en": "Suvarnabhumi (BKK) is Thailand's largest international airport, ~30 km from the city. Taxi to Silom runs 40–60 minutes. Install Grab before you leave — it's how Bangkok moves. Immigration queues are usually 30–60 minutes, longer for late-night flights. Exchange rate roughly 1 CNY ≈ 4.5 THB."
+          }
+        },
+        {
+          "id": "departure-spacer-7",
+          "type": "spacer"
+        },
+        {
+          "id": "departure-divider-8",
+          "type": "divider",
+          "spacing": {
+            "bottom": 16
+          },
+          "icon": "✨"
+        },
+        {
+          "id": "departure-prose-9",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "medium",
+            "en": "medium"
+          },
+          "paragraphs": [
+            {
+              "zh": "深夜落地的曼谷，湿热的空气裹挟而来，\n属于泰国的故事正式开始。",
+              "en": "Landed in Bangkok deep in the night. The humid air wrapped around us,\nand the Thailand chapter officially began."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bangkok-day",
+      "sectionId": "bangkok-day",
+      "blocks": [
+        {
+          "id": "bangkok-day-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "曼谷初体验 · 上",
+            "en": "First Taste of Bangkok · I"
+          },
+          "subtitle": {
+            "zh": "Friday, April 3rd · Silom · Lumpini Park · BACC",
+            "en": "Friday, April 3rd · Silom · Lumpini Park · BACC"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "bangkok-day-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "img-1725",
+              "alt": {
+                "zh": "Bangkok skyline",
+                "en": "Bangkok skyline"
+              },
+              "caption": {
+                "zh": "酒店窗外的曼谷 — 第一眼就被天际线震撼",
+                "en": "Bangkok from the hotel window — that skyline, right away"
+              },
+              "shape": "hero",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-day-divider-3",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🍴"
+        },
+        {
+          "id": "bangkok-day-prose-4",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "睡到下午才出门觅食，第一顿泰餐在 Ginger Green Farm Kitchen，连锁餐厅口味一般，但这碗 Khao Soi 还是给了惊喜。",
+              "en": "Slept in until late afternoon, then went looking for lunch. First Thai meal at Ginger Green Farm Kitchen — a chain, fine but unremarkable. The khao soi, though, was the surprise of the meal."
+            }
+          ]
+        },
+        {
+          "id": "bangkok-day-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 8
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-1733",
+              "alt": {
+                "zh": "Khao Soi",
+                "en": "Khao Soi"
+              },
+              "caption": {
+                "zh": "Khao Soi 🍜 香浓的咖喱汤底",
+                "en": "Khao Soi 🍜 rich curry broth"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "img-1731",
+              "alt": {
+                "zh": "Ginger Farm",
+                "en": "Ginger Farm"
+              },
+              "caption": {
+                "zh": "Ginger Farm Kitchen 餐厅",
+                "en": "Ginger Farm Kitchen"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-day-divider-6",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🌳"
+        },
+        {
+          "id": "bangkok-day-prose-7",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "伦披尼公园不用门票，曼谷市中心最大的绿地，占地57公顷。吸氧发呆超舒服，还看到了体长达2米的巨蜥（Water Monitor）在游泳！不用怕，它们不攻击人。",
+              "en": "Lumpini Park is free — 57 hectares of green in the middle of the city. Perfect for an afternoon of doing nothing in particular. And there it was: a two-meter water monitor swimming past like it owned the place. Don't worry — they don't attack people."
+            }
+          ]
+        },
+        {
+          "id": "bangkok-day-gallery-8",
+          "type": "gallery",
+          "spacing": {
+            "top": 8
+          },
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "img-1739",
+              "alt": {
+                "zh": "Rama VI",
+                "en": "Rama VI"
+              },
+              "caption": {
+                "zh": "拉玛六世像",
+                "en": "Statue of Rama VI"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "img-1747",
+              "alt": {
+                "zh": "Lumpini lake",
+                "en": "Lumpini lake"
+              },
+              "caption": {
+                "zh": "城市绿洲 🏙️",
+                "en": "An urban oasis 🏙️"
+              },
+              "shape": "square",
+              "tone": "cool"
+            },
+            {
+              "imageId": "img-1751",
+              "alt": {
+                "zh": "Monitor lizard",
+                "en": "Monitor lizard"
+              },
+              "caption": {
+                "zh": "巨蜥出没！🦎",
+                "en": "Monitor lizard sighting! 🦎"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-day-note-9",
+          "type": "note",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "📍 伦披尼公园 Tips",
+            "en": "📍 Lumpini Park Tips"
+          },
+          "body": {
+            "zh": "免费开放，下午3-5点去最舒服。公园有湖泊、棕榈树和巨蜥，吸氧发呆绝佳去处。距离 Silom 区步行10分钟。",
+            "en": "Free admission. Best around 3–5 PM when the sun softens. Lake, palms, and yes — the monitor lizards. Ten minutes on foot from Silom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bangkok-night",
+      "sectionId": "bangkok-night",
+      "blocks": [
+        {
+          "id": "bangkok-night-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "曼谷初体验 · 下",
+            "en": "First Taste of Bangkok · II"
+          },
+          "subtitle": {
+            "zh": "BACC · Siam · 朱拉隆功夜市 · 姐娟海鲜",
+            "en": "BACC · Siam · Chula Night Market · Jae Keang"
+          },
+          "icon": "🌃"
+        },
+        {
+          "id": "bangkok-night-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-1767",
+              "alt": {
+                "zh": "BACC spiral",
+                "en": "BACC spiral"
+              },
+              "caption": {
+                "zh": "BACC 螺旋内部",
+                "en": "Inside the BACC spiral"
+              },
+              "shape": "landscape",
+              "tone": "soft"
+            },
+            {
+              "imageId": "img-1784",
+              "alt": {
+                "zh": "Siam night",
+                "en": "Siam night"
+              },
+              "caption": {
+                "zh": "曼谷夜晚的霸气",
+                "en": "Bangkok at night"
+              },
+              "shape": "landscape",
+              "tone": "crisp"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-night-divider-3",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🌌"
+        },
+        {
+          "id": "bangkok-night-prose-4",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "朱拉隆功夜市超级热闹，松松海鲜排队太久，转战姐娟海鲜 Jae Keang，鲈鱼超级好评！",
+              "en": "The Chula night market was packed. Song Song Seafood had a queue we couldn't justify, so we pivoted to Jae Keang. The sea bass — honestly worth every minute of wandering."
+            }
+          ]
+        },
+        {
+          "id": "bangkok-night-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-1813",
+              "alt": {
+                "zh": "Song Song",
+                "en": "Song Song"
+              },
+              "caption": {
+                "zh": "松松海鲜 🦀 排队太久",
+                "en": "Song Song 🦀 queue was brutal"
+              },
+              "shape": "landscape",
+              "tone": "crisp",
+              "tilt": "left"
+            },
+            {
+              "imageId": "img-1812",
+              "alt": {
+                "zh": "Basil squid",
+                "en": "Basil squid"
+              },
+              "caption": {
+                "zh": "姐娟的罗勒鲈鱼 🤩",
+                "en": "Jae Keang basil sea bass 🤩"
+              },
+              "shape": "landscape",
+              "tone": "warm",
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-night-note-6",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "🍼 牛奶小子 Milk Boy",
+            "en": "🍼 Milk Boy"
+          },
+          "body": {
+            "zh": "网红店人太多，尝了下味道一般，不值得大排长龙。但包装确实很可爱～",
+            "en": "Viral for the packaging, but the drinks themselves are… fine. Not worth the line. Packaging is genuinely adorable, though."
+          }
+        },
+        {
+          "id": "bangkok-night-gallery-7",
+          "type": "gallery",
+          "spacing": {
+            "top": 16
+          },
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "img-1800",
+              "alt": {
+                "zh": "Milk Boy",
+                "en": "Milk Boy"
+              },
+              "caption": {
+                "zh": "超可爱的包装",
+                "en": "That packaging"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "img-1794",
+              "alt": {
+                "zh": "Cow Moo Moo",
+                "en": "Cow Moo Moo"
+              },
+              "caption": {
+                "zh": "龙的壁画 🐉",
+                "en": "Dragon mural 🐉"
+              },
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "bangkok-night-spacer-8",
+          "type": "spacer"
+        },
+        {
+          "id": "bangkok-night-route-9",
+          "type": "route",
+          "spacing": {
+            "bottom": 8
+          },
+          "compact": true,
+          "stops": [
+            {
+              "id": "bangkok-night-stop-1",
+              "icon": "🏨",
+              "label": {
+                "zh": "酒店",
+                "en": "Hotel"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-2",
+              "icon": "🍜",
+              "label": {
+                "zh": "Ginger\nFarm",
+                "en": "Ginger\nFarm"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-3",
+              "icon": "🌳",
+              "label": {
+                "zh": "伦披尼\n公园",
+                "en": "Lumpini"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-4",
+              "icon": "🎨",
+              "label": {
+                "zh": "BACC",
+                "en": "BACC"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-5",
+              "icon": "🛍️",
+              "label": {
+                "zh": "MBK &\nSiam",
+                "en": "MBK &\nSiam"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-6",
+              "icon": "🌌",
+              "label": {
+                "zh": "夜市",
+                "en": "Market"
+              }
+            },
+            {
+              "id": "bangkok-night-stop-7",
+              "icon": "💆‍♂️",
+              "label": {
+                "zh": "按摩",
+                "en": "Massage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wat-paknam",
+      "sectionId": "wat-paknam",
+      "blocks": [
+        {
+          "id": "wat-paknam-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "水门寺朝圣 · 上",
+            "en": "Pilgrimage to Wat Paknam · I"
+          },
+          "subtitle": {
+            "zh": "Saturday, April 4th · Northeast 泰餐 · Wat Paknam",
+            "en": "Saturday, April 4th · Northeast · Wat Paknam"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "wat-paknam-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午餐在 Northeast，韩国人开的泰餐店，跟着韩国人吃准没错！冬阴功汤味道很正，大虾空心菜也很好吃。",
+              "en": "Lunch at Northeast, a Thai restaurant run by Koreans — follow the Koreans and you won't go wrong. The tom yum tastes the way tom yum is supposed to taste, and the prawn stir-fried morning glory was excellent."
+            }
+          ]
+        },
+        {
+          "id": "wat-paknam-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "img-1828",
+              "alt": {
+                "zh": "Tom Yum",
+                "en": "Tom Yum"
+              },
+              "caption": {
+                "zh": "冬阴功汤 🔥",
+                "en": "Tom Yum 🔥"
+              },
+              "tilt": "left"
+            },
+            {
+              "imageId": "img-1812",
+              "alt": {
+                "zh": "Stir fry",
+                "en": "Stir fry"
+              },
+              "caption": {
+                "zh": "罗勒鲈鱼 🤩",
+                "en": "Basil sea bass 🤩"
+              },
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "wat-paknam-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "🏛️"
+        },
+        {
+          "id": "wat-paknam-prose-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午开启水门寺的\"四个机位\"打卡之旅，金色大佛在不同角度都有不同的震撼。",
+              "en": "Afternoon: the Wat Paknam four-angle pilgrimage. The giant golden Buddha lands differently from each viewpoint."
+            }
+          ]
+        },
+        {
+          "id": "wat-paknam-gallery-6",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "img-1854",
+              "alt": {
+                "zh": "Golden Buddha",
+                "en": "Golden Buddha"
+              },
+              "caption": {
+                "zh": "河边视角的金色大佛 — 本次旅行最震撼的一幕",
+                "en": "The river-side view — the most stunning moment of the trip"
+              },
+              "shape": "landscape",
+              "tone": "golden",
+              "focus": "upper"
+            }
+          ]
+        },
+        {
+          "id": "wat-paknam-gallery-7",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "img-1905",
+              "alt": {
+                "zh": "Buddha head",
+                "en": "Buddha head"
+              },
+              "caption": {
+                "zh": "屋檐后的佛首",
+                "en": "Buddha's head behind the eaves"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "img-1969",
+              "alt": {
+                "zh": "Temple spires",
+                "en": "Temple spires"
+              },
+              "caption": {
+                "zh": "金碧辉煌的塔尖",
+                "en": "Gilded spires"
+              },
+              "shape": "square",
+              "tone": "golden"
+            },
+            {
+              "imageId": "img-1975",
+              "alt": {
+                "zh": "Stilt house",
+                "en": "Stilt house"
+              },
+              "caption": {
+                "zh": "河边的吃水屋",
+                "en": "Riverside stilt houses"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "wat-paknam-note-8",
+          "type": "note",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "📸 水门寺四大机位",
+            "en": "📸 The four angles"
+          },
+          "body": {
+            "zh": "#1 Mama Cafe 巷子口拍大佛全景 | #2 造船厂咖啡 20🐷门票抵扣饮品\n#3 水门寺本寺 拍大佛全身像 | #4 Talat Phlu 河边视角，还能看到卧佛",
+            "en": "#1 Mama Cafe — the classic alleyway-framed wide shot | #2 Shipyard Coffee — 20฿ entry, deducted from your drink\n#3 Wat Paknam itself — full-body portrait of the Buddha | #4 Talat Phlu — across the river, where you can also see the Reclining Buddha"
+          }
+        }
+      ]
+    },
+    {
+      "id": "icon-siam",
+      "sectionId": "icon-siam",
+      "blocks": [
+        {
+          "id": "icon-siam-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "Icon Siam · 下",
+            "en": "Icon Siam · II"
+          },
+          "subtitle": {
+            "zh": "Pop Mart · 曼谷天际线 · 和幸晚餐",
+            "en": "Pop Mart · Bangkok skyline · Wako dinner"
+          },
+          "icon": "🌇"
+        },
+        {
+          "id": "icon-siam-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚转战 Icon Siam，这是曼谷最豪华的河边商场，位于湄南河西岸，2018年开业，总面积52万平米。顶楼的 Pop Mart 超大，室外露台拍照打卡，曼谷天际线尽收眼底。",
+              "en": "Evening pivot to Icon Siam — Bangkok's most lavish riverside mall, on the west bank of the Chao Phraya, opened 2018, 520,000 square meters. The rooftop Pop Mart is enormous, the outdoor terrace is where the skyline photos happen, and you get all of Bangkok in one frame."
+            }
+          ]
+        },
+        {
+          "id": "icon-siam-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-1993",
+              "alt": {
+                "zh": "Skyline",
+                "en": "Skyline"
+              },
+              "caption": {
+                "zh": "Icon Siam 顶楼的曼谷天际线",
+                "en": "The Bangkok skyline from the top"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "img-1998",
+              "alt": {
+                "zh": "Molly",
+                "en": "Molly"
+              },
+              "caption": {
+                "zh": "巨型 Molly 👑",
+                "en": "Giant Molly 👑"
+              },
+              "shape": "square",
+              "tone": "vivid"
+            }
+          ]
+        },
+        {
+          "id": "icon-siam-gallery-4",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "img-1992",
+              "alt": {
+                "zh": "Popbean",
+                "en": "Popbean"
+              },
+              "caption": {
+                "zh": "Popbean 螺旋 🌀",
+                "en": "Popbean spiral 🌀"
+              },
+              "shape": "square",
+              "tone": "vivid"
+            },
+            {
+              "imageId": "img-2019",
+              "alt": {
+                "zh": "Tonkatsu",
+                "en": "Tonkatsu"
+              },
+              "caption": {
+                "zh": "和幸炸猪排 🍛",
+                "en": "Wako tonkatsu 🍛"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "img-2004",
+              "alt": {
+                "zh": "Mirror pillars",
+                "en": "Mirror pillars"
+              },
+              "caption": {
+                "zh": "镜柱装置艺术 ✨",
+                "en": "Mirror pillar installation ✨"
+              },
+              "shape": "square",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "icon-siam-divider-5",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🛍️"
+        },
+        {
+          "id": "icon-siam-prose-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在商场收获不少：阿迪达斯 Climacool 鞋子一双，Alo 篮球短裤，Divana 和 Journal 香薰。还帮朋友代购了屈臣氏。另外，肖战成功拦下了一个星巴克 Stanley 联名杯子，史称\"星巴克百元咖啡杯事变\"。",
+              "en": "The haul: Adidas Climacool, Alo basketball shorts, Divana and Journal home fragrances. Also a Watsons run for a friend. And — a Stanley × Starbucks collab cup acquired in dramatic fashion, later nicknamed the “hundred-yuan Starbucks cup incident.”"
+            }
+          ]
+        },
+        {
+          "id": "icon-siam-divider-7",
+          "type": "divider",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          },
+          "icon": "🗺️"
+        },
+        {
+          "id": "icon-siam-route-8",
+          "type": "route",
+          "spacing": {
+            "bottom": 8
+          },
+          "compact": true,
+          "stops": [
+            {
+              "id": "icon-siam-stop-1",
+              "icon": "🍜",
+              "label": {
+                "zh": "Northeast",
+                "en": "Northeast"
+              }
+            },
+            {
+              "id": "icon-siam-stop-2",
+              "icon": "☕",
+              "label": {
+                "zh": "Mama Cafe",
+                "en": "Mama Cafe"
+              }
+            },
+            {
+              "id": "icon-siam-stop-3",
+              "icon": "🚢",
+              "label": {
+                "zh": "造船厂",
+                "en": "Shipyard"
+              }
+            },
+            {
+              "id": "icon-siam-stop-4",
+              "icon": "🙏",
+              "label": {
+                "zh": "水门寺",
+                "en": "Wat Paknam"
+              }
+            },
+            {
+              "id": "icon-siam-stop-5",
+              "icon": "🚤",
+              "label": {
+                "zh": "Talat Phlu",
+                "en": "Talat Phlu"
+              }
+            },
+            {
+              "id": "icon-siam-stop-6",
+              "icon": "🏬",
+              "label": {
+                "zh": "Icon Siam",
+                "en": "Icon Siam"
+              }
+            }
+          ]
+        },
+        {
+          "id": "icon-siam-note-9",
+          "type": "note",
+          "spacing": {
+            "top": 12
+          },
+          "title": {
+            "zh": "💡 Tips",
+            "en": "💡 Tips"
+          },
+          "body": {
+            "zh": "Icon Siam 打车离开很难，Grab 完全打不到。可以乘坐金线转绿线 BTS 顺利离开。商场内有泰国的\"水上市场\"复刻版，G层有各种泰国街头小吃，值得逛逛。",
+            "en": "Leaving Icon Siam by Grab is a nightmare — cars just don't come. Take the BTS Gold Line, transfer to Green Line, and you're out. Inside the mall, there's a replica floating market and the G-floor has proper Thai street-food stalls. Worth an hour of wandering."
+          }
+        }
+      ]
+    },
+    {
+      "id": "slow-day",
+      "sectionId": "slow-day",
+      "blocks": [
+        {
+          "id": "slow-day-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "慢日子 · 上",
+            "en": "Slow Day · I"
+          },
+          "subtitle": {
+            "zh": "Sunday, April 5th · 泳池 · Nachapt · Bean Coffee",
+            "en": "Sunday, April 5th · Pool · Nachapt · Bean Coffee"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "slow-day-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "今天是慢节奏的一天。上午在酒店泳池晒太阳，下午去 CentralPark 吃美食、喝咖啡。",
+              "en": "A slow-tempo day. Morning in the hotel pool in the sun. Afternoon at Central Park — food and coffee."
+            }
+          ]
+        },
+        {
+          "id": "slow-day-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 12
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-2028",
+              "alt": {
+                "zh": "Pool",
+                "en": "Pool"
+              },
+              "caption": {
+                "zh": "酒店天台泳池 🏊",
+                "en": "Rooftop pool 🏊"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            },
+            {
+              "imageId": "img-2029",
+              "alt": {
+                "zh": "Room view",
+                "en": "Room view"
+              },
+              "caption": {
+                "zh": "房间窗外的曼谷",
+                "en": "Bangkok from the room"
+              },
+              "shape": "landscape",
+              "tone": "cool"
+            }
+          ]
+        },
+        {
+          "id": "slow-day-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 12
+          },
+          "icon": "🍜"
+        },
+        {
+          "id": "slow-day-gallery-5",
+          "type": "gallery",
+          "spacing": {
+            "top": 8
+          },
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "img-2037",
+              "alt": {
+                "zh": "Crab",
+                "en": "Crab"
+              },
+              "caption": {
+                "zh": "粉丝蟹肉煲 🤩",
+                "en": "Glass noodle crab pot 🤩"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "img-2035",
+              "alt": {
+                "zh": "Curry",
+                "en": "Curry"
+              },
+              "caption": {
+                "zh": "绿咖喱 🌿",
+                "en": "Green curry 🌿"
+              },
+              "shape": "square",
+              "tone": "warm"
+            },
+            {
+              "imageId": "img-2040",
+              "alt": {
+                "zh": "Coffee",
+                "en": "Coffee"
+              },
+              "caption": {
+                "zh": "Bean 冰咖啡 ☕",
+                "en": "Bean iced coffee ☕"
+              },
+              "shape": "square",
+              "tone": "warm"
+            }
+          ]
+        },
+        {
+          "id": "slow-day-rating-6",
+          "type": "rating",
+          "starStyle": "emoji",
+          "spacing": {
+            "top": 20
+          },
+          "title": {
+            "zh": "🍽️ Today's Food Rating",
+            "en": "🍽️ Today's Food Rating"
+          },
+          "items": [
+            {
+              "id": "slow-day-rating-1",
+              "name": {
+                "zh": "Nachapt 粉丝蟹肉",
+                "en": "Nachapt crab noodles"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "蟹肉很多很新鲜，强烈推荐！",
+                "en": "Generous, fresh crab meat. Strongly recommend."
+              }
+            },
+            {
+              "id": "slow-day-rating-2",
+              "name": {
+                "zh": "Nachapt 绿咖喱",
+                "en": "Nachapt green curry"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "绿咖喱也很好吃",
+                "en": "Also excellent."
+              }
+            },
+            {
+              "id": "slow-day-rating-3",
+              "name": {
+                "zh": "CentralPark 美食街",
+                "en": "Central Park food hall"
+              },
+              "score": 3,
+              "comment": {
+                "zh": "米其林小店聚集，猪蹄不错",
+                "en": "Cluster of Michelin stalls. The pork knuckle is good."
+              }
+            }
+          ]
+        },
+        {
+          "id": "slow-day-spacer-7",
+          "type": "spacer"
+        }
+      ]
+    },
+    {
+      "id": "gifts-and-elephant",
+      "sectionId": "gifts-and-elephant",
+      "blocks": [
+        {
+          "id": "gifts-and-elephant-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "伴手礼 & 小象 · 下",
+            "en": "Gifts & Elephants · II"
+          },
+          "subtitle": {
+            "zh": "Good Goods · Panpuri · Pop Mart · 毛巾小象",
+            "en": "Good Goods · Panpuri · Pop Mart · Towel elephant"
+          },
+          "icon": "🌟"
+        },
+        {
+          "id": "gifts-and-elephant-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在 Good Goods 挑了伴手礼，蓝白格编织包和香薰超适合送人。还去 Panpuri 买了滚珠香水，均价300多一只很值得。",
+              "en": "Picked up gifts at Good Goods — the blue-and-white woven bag and the incense make great presents. Then Panpuri, where the rollerball perfumes at ~300 THB each felt like a steal."
+            }
+          ]
+        },
+        {
+          "id": "gifts-and-elephant-shopping-3",
+          "type": "shopping",
+          "spacing": {
+            "top": 16
+          },
+          "products": [
+            {
+              "id": "gifts-and-elephant-product-1",
+              "imageId": "img-2081",
+              "name": {
+                "zh": "Good Goods 伴手礼",
+                "en": "Good Goods gifts"
+              },
+              "price": {
+                "zh": "3,770 THB",
+                "en": "3,770 THB"
+              },
+              "detail": {
+                "zh": "编织包+小象挂件+香薰蜡烛",
+                "en": "Woven bag + elephant charm + candles"
+              }
+            },
+            {
+              "id": "gifts-and-elephant-product-2",
+              "imageId": "img-2063",
+              "name": {
+                "zh": "Panpuri 滚珠香水",
+                "en": "Panpuri rollerballs"
+              },
+              "price": {
+                "zh": "3,180 THB",
+                "en": "3,180 THB"
+              },
+              "detail": {
+                "zh": "Cloudwalker & Andaman Sails",
+                "en": "Cloudwalker & Andaman Sails"
+              }
+            },
+            {
+              "id": "gifts-and-elephant-product-3",
+              "imageId": "img-2069",
+              "name": {
+                "zh": "Pop Mart 盲盒",
+                "en": "Pop Mart blind boxes"
+              },
+              "price": {
+                "zh": "1,780 THB",
+                "en": "1,780 THB"
+              },
+              "detail": {
+                "zh": "小春野/木鱼敲/比奇堡2代",
+                "en": "Kohana / Mokugyo / Bikini Bottom s2"
+              }
+            },
+            {
+              "id": "gifts-and-elephant-product-4",
+              "imageId": "img-2070",
+              "name": {
+                "zh": "香氛收藏",
+                "en": "Fragrance collection"
+              },
+              "price": {
+                "zh": "2,695 THB",
+                "en": "2,695 THB"
+              },
+              "detail": {
+                "zh": "Phutawan / Divana / Journal",
+                "en": "Phutawan / Divana / Journal"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gifts-and-elephant-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 24,
+            "bottom": 16
+          },
+          "icon": "🐘"
+        },
+        {
+          "id": "gifts-and-elephant-prose-5",
+          "type": "prose",
+          "align": "center",
+          "paragraphs": [
+            {
+              "zh": "回到酒店发现了超可爱的毛巾小象！用 100🐷 换的，超级开心，泰国行程完美落幕。",
+              "en": "Back at the hotel, a discovery: a towel elephant! Traded for 100 THB. The perfect note to close the trip on."
+            }
+          ]
+        },
+        {
+          "id": "gifts-and-elephant-gallery-6",
+          "type": "gallery",
+          "spacing": {
+            "top": 16
+          },
+          "layout": "one",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "img-2054",
+              "alt": {
+                "zh": "Towel elephant",
+                "en": "Towel elephant"
+              },
+              "caption": {
+                "zh": "🐘 毛巾小象 — 本次旅行的 MVP",
+                "en": "🐘 Towel elephant — MVP of the trip"
+              },
+              "shape": "portrait",
+              "tone": "soft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodbye",
+      "sectionId": "goodbye",
+      "blocks": [
+        {
+          "id": "goodbye-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "再见曼谷",
+            "en": "Goodbye, Bangkok"
+          },
+          "subtitle": {
+            "zh": "Monday, April 6th · Bangkok → Shanghai",
+            "en": "Monday, April 6th · Bangkok → Shanghai"
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "goodbye-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天，硬着头皮起床吃早餐，拿了一盒纳豆尝尝咸淡，差点被送走——一股子臭鞋垫子味道。",
+              "en": "Last day. Dragged myself up for breakfast, grabbed a box of natto to give it a fair shot, and nearly tapped out — the smell can only be described as “old shoe insole.”"
+            }
+          ]
+        },
+        {
+          "id": "goodbye-gallery-3",
+          "type": "gallery",
+          "spacing": {
+            "top": 16
+          },
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "img-2103",
+              "alt": {
+                "zh": "Breakfast",
+                "en": "Breakfast"
+              },
+              "caption": {
+                "zh": "最后的早餐（测评一星）",
+                "en": "Final breakfast (one star)"
+              },
+              "shape": "square",
+              "tone": "warm",
+              "tilt": "left"
+            },
+            {
+              "imageId": "img-2110",
+              "alt": {
+                "zh": "Elephant bye",
+                "en": "Elephant bye"
+              },
+              "caption": {
+                "zh": "再见啦小象 👋",
+                "en": "Bye little elephant 👋"
+              },
+              "shape": "square",
+              "tone": "soft",
+              "tilt": "right"
+            }
+          ]
+        },
+        {
+          "id": "goodbye-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "goodbye-timeline-5",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "goodbye-timeline-1",
+              "time": {
+                "zh": "08:00",
+                "en": "08:00"
+              },
+              "event": {
+                "zh": "起床吃早餐",
+                "en": "Woke up for breakfast"
+              },
+              "detail": {
+                "zh": "纳豆的味道\"难以忘怀\"",
+                "en": "The natto — an unforgettable experience"
+              }
+            },
+            {
+              "id": "goodbye-timeline-2",
+              "time": {
+                "zh": "09:45",
+                "en": "09:45"
+              },
+              "event": {
+                "zh": "打车去机场",
+                "en": "Taxi to the airport"
+              },
+              "detail": {
+                "zh": "泰兰德拜拜啦 👋",
+                "en": "Thailand, farewell 👋"
+              }
+            },
+            {
+              "id": "goodbye-timeline-3",
+              "time": {
+                "zh": "10:30",
+                "en": "10:30"
+              },
+              "event": {
+                "zh": "机场退税",
+                "en": "VAT refund"
+              },
+              "detail": {
+                "zh": "退回 878 THB ❤️",
+                "en": "Got back 878 THB ❤️"
+              }
+            },
+            {
+              "id": "goodbye-timeline-4",
+              "time": {
+                "zh": "12:50",
+                "en": "12:50"
+              },
+              "event": {
+                "zh": "登机 ✈️",
+                "en": "Boarding ✈️"
+              },
+              "detail": {
+                "zh": "素万那普机场效率真的很低…",
+                "en": "Suvarnabhumi is genuinely not efficient…"
+              }
+            },
+            {
+              "id": "goodbye-timeline-5",
+              "time": {
+                "zh": "18:30",
+                "en": "18:30"
+              },
+              "event": {
+                "zh": "落地上海",
+                "en": "Landed in Shanghai"
+              },
+              "detail": {
+                "zh": "Back Home 🏠",
+                "en": "Back home 🏠"
+              }
+            }
+          ]
+        },
+        {
+          "id": "goodbye-spacer-6",
+          "type": "spacer"
+        },
+        {
+          "id": "goodbye-divider-7",
+          "type": "divider",
+          "spacing": {
+            "bottom": 16
+          },
+          "icon": "✨"
+        },
+        {
+          "id": "goodbye-prose-8",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "narrow",
+            "en": "medium"
+          },
+          "paragraphs": [
+            {
+              "zh": "飞机滑行15分钟才停下来，也是绝了。\n但泰国的故事，已经装进了这本手帐里。",
+              "en": "The plane taxied 15 full minutes before it stopped — incredible.\nBut the Thailand story is already packed into this journal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-review",
+      "sectionId": "food-review",
+      "blocks": [
+        {
+          "id": "food-review-header-1",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🍴",
+            "en": "🍴"
+          },
+          "markerValue": {
+            "zh": "FOOD",
+            "en": "FOOD"
+          },
+          "title": {
+            "zh": "美食红黑榜",
+            "en": "Food verdict"
+          },
+          "subtitle": {
+            "zh": "4天7家餐厅真实测评",
+            "en": "Seven restaurants in four days, honest review"
+          },
+          "markerVariant": "category",
+          "markerTone": "coral"
+        },
+        {
+          "id": "food-review-rating-2",
+          "type": "rating",
+          "starStyle": "emoji",
+          "title": {
+            "zh": "🌟 推荐榜",
+            "en": "🌟 The winners"
+          },
+          "items": [
+            {
+              "id": "food-review-rating-1",
+              "name": {
+                "zh": "Northeast 泰餐",
+                "en": "Northeast Thai"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "韩国人开的泰餐 性价比口味都很绝 364THB/人",
+                "en": "Korean-run Thai. Price and taste both excellent. ~364 THB/person"
+              }
+            },
+            {
+              "id": "food-review-rating-2",
+              "name": {
+                "zh": "姐娟海鲜 Jae Keang",
+                "en": "Jae Keang"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "松松边上人少 鲈鱼超好评 430THB/人",
+                "en": "Next to Song Song but calmer. Sea bass is outstanding. ~430 THB/person"
+              }
+            },
+            {
+              "id": "food-review-rating-3",
+              "name": {
+                "zh": "Nachapt 粉丝蟹肉",
+                "en": "Nachapt crab noodles"
+              },
+              "score": 4,
+              "comment": {
+                "zh": "有点小贵但蟹肉真的很不错 892THB/人",
+                "en": "A bit pricey, but the crab delivers. ~892 THB/person"
+              }
+            },
+            {
+              "id": "food-review-rating-4",
+              "name": {
+                "zh": "CentralPark 美食街",
+                "en": "Central Park food hall"
+              },
+              "score": 3,
+              "comment": {
+                "zh": "米其林小店聚集 猪蹄和海南鸡都好吃 ~400THB/人",
+                "en": "A cluster of Michelin stalls — pork knuckle and Hainan chicken both good. ~400 THB/person"
+              }
+            }
+          ]
+        },
+        {
+          "id": "food-review-rating-3",
+          "type": "rating",
+          "starStyle": "emoji",
+          "spacing": {
+            "top": 20
+          },
+          "tone": "warning",
+          "title": {
+            "zh": "⚠️ 踩雷榜",
+            "en": "⚠️ The misses"
+          },
+          "items": [
+            {
+              "id": "food-review-rating-1",
+              "name": {
+                "zh": "Ginger Farm Kitchen",
+                "en": "Ginger Farm Kitchen"
+              },
+              "score": 2,
+              "comment": {
+                "zh": "连锁餐厅 口味一般价格贵 430THB/人",
+                "en": "Chain energy. Unremarkable food, prices too high. ~430 THB/person"
+              }
+            },
+            {
+              "id": "food-review-rating-2",
+              "name": {
+                "zh": "和幸炸猪排",
+                "en": "Wako tonkatsu"
+              },
+              "score": 2,
+              "comment": {
+                "zh": "和日本比差很多 不推荐 495THB/人",
+                "en": "Nowhere near the Japan original. Skip. ~495 THB/person"
+              }
+            },
+            {
+              "id": "food-review-rating-3",
+              "name": {
+                "zh": "皇冠假日早餐",
+                "en": "Crowne Plaza breakfast"
+              },
+              "score": 1,
+              "comment": {
+                "zh": "吃了个寂寞和臭晕的纳豆 470THB/人",
+                "en": "A hollow experience. And the natto. ~470 THB/person"
+              }
+            }
+          ]
+        },
+        {
+          "id": "food-review-divider-4",
+          "type": "divider",
+          "spacing": {
+            "top": 24,
+            "bottom": 16
+          },
+          "icon": "💰"
+        },
+        {
+          "id": "food-review-expense-5",
+          "type": "expense",
+          "title": {
+            "zh": "💳 总账单（人民币）",
+            "en": "💳 Total (CNY)"
+          },
+          "rows": [
+            {
+              "id": "food-review-expense-5-1",
+              "label": {
+                "zh": "微信支付",
+                "en": "WeChat Pay"
+              },
+              "amount": {
+                "zh": "¥ 5,205.68",
+                "en": "¥ 5,205.68"
+              }
+            },
+            {
+              "id": "food-review-expense-5-2",
+              "label": {
+                "zh": "酒店住宿",
+                "en": "Hotel"
+              },
+              "amount": {
+                "zh": "¥ 4,016.60",
+                "en": "¥ 4,016.60"
+              }
+            },
+            {
+              "id": "food-review-expense-5-3",
+              "label": {
+                "zh": "机票",
+                "en": "Flights"
+              },
+              "amount": {
+                "zh": "¥ 6,892.00",
+                "en": "¥ 6,892.00"
+              }
+            },
+            {
+              "id": "food-review-expense-5-4",
+              "label": {
+                "zh": "现金（20000 THB）",
+                "en": "Cash (20,000 THB)"
+              },
+              "amount": {
+                "zh": "¥ 4,434.00",
+                "en": "¥ 4,434.00"
+              }
+            },
+            {
+              "id": "food-review-expense-5-5",
+              "label": {
+                "zh": "TOTAL",
+                "en": "TOTAL"
+              },
+              "amount": {
+                "zh": "¥ 20,548.28",
+                "en": "¥ 20,548.28"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "food-review-expense-6",
+          "type": "expense",
+          "spacing": {
+            "top": 16
+          },
+          "title": {
+            "zh": "📦 退税记录（泰铢）",
+            "en": "📦 VAT-refundable purchases (THB)"
+          },
+          "rows": [
+            {
+              "id": "food-review-expense-6-1",
+              "label": {
+                "zh": "屈臣氏",
+                "en": "Watsons"
+              },
+              "amount": {
+                "zh": "5,932 THB",
+                "en": "5,932 THB"
+              }
+            },
+            {
+              "id": "food-review-expense-6-2",
+              "label": {
+                "zh": "Adidas Climacool",
+                "en": "Adidas Climacool"
+              },
+              "amount": {
+                "zh": "5,700 THB",
+                "en": "5,700 THB"
+              }
+            },
+            {
+              "id": "food-review-expense-6-3",
+              "label": {
+                "zh": "Alo Shorts",
+                "en": "Alo Shorts"
+              },
+              "amount": {
+                "zh": "3,390 THB",
+                "en": "3,390 THB"
+              }
+            },
+            {
+              "id": "food-review-expense-6-4",
+              "label": {
+                "zh": "Good Goods",
+                "en": "Good Goods"
+              },
+              "amount": {
+                "zh": "3,770 THB",
+                "en": "3,770 THB"
+              }
+            },
+            {
+              "id": "food-review-expense-6-5",
+              "label": {
+                "zh": "Panpuri",
+                "en": "Panpuri"
+              },
+              "amount": {
+                "zh": "3,180 THB",
+                "en": "3,180 THB"
+              }
+            },
+            {
+              "id": "food-review-expense-6-6",
+              "label": {
+                "zh": "退税 (4%)",
+                "en": "Refund (4%)"
+              },
+              "amount": {
+                "zh": "+878.88 THB ❤️",
+                "en": "+878.88 THB ❤️"
+              },
+              "total": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "sectionId": "closing",
+      "blocks": [
+        {
+          "id": "closing-ending-1",
+          "type": "ending",
+          "flag": "🇹🇭",
+          "title": {
+            "zh": "See You Next Time",
+            "en": "See You Next Time"
+          },
+          "subtitle": {
+            "zh": "Bangkok, Thailand",
+            "en": "Bangkok, Thailand"
+          }
+        },
+        {
+          "id": "closing-prose-2",
+          "type": "prose",
+          "spacing": {
+            "top": 20
+          },
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "medium",
+            "en": "medium"
+          },
+          "paragraphs": [
+            {
+              "zh": "4天3晚，从深夜落地到清晨离开，",
+              "en": "Four days, three nights — from a midnight landing to a morning farewell."
+            },
+            {
+              "zh": "吃了美食，见了大佛，买了好物，",
+              "en": "Ate well. Saw the Buddha. Bought the things worth buying."
+            },
+            {
+              "zh": "还收获了一只毛巾小象。",
+              "en": "Came home with a towel elephant."
+            },
+            {
+              "zh": "旅行的意义不在于抵达终点，",
+              "en": "The meaning of travel is not the arrival —"
+            },
+            {
+              "zh": "而是我们一起走过的那些路。",
+              "en": "it's the roads we walked together."
+            }
+          ]
+        },
+        {
+          "id": "closing-tags-3",
+          "type": "tags",
+          "spacing": {
+            "top": 24
+          },
+          "items": [
+            {
+              "id": "closing-tag-1",
+              "label": {
+                "zh": "#泰国旅行",
+                "en": "#thailand"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "closing-tag-2",
+              "label": {
+                "zh": "#曼谷plog",
+                "en": "#bangkok"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "closing-tag-3",
+              "label": {
+                "zh": "#电子手帐",
+                "en": "#plog"
+              },
+              "tone": "teal"
+            },
+            {
+              "id": "closing-tag-4",
+              "label": {
+                "zh": "#旅行日记",
+                "en": "#journal"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "closing-tag-5",
+              "label": {
+                "zh": "#生活记录",
+                "en": "#everyday"
+              },
+              "tone": "pink"
+            },
+            {
+              "id": "closing-tag-6",
+              "label": {
+                "zh": "#水门寺",
+                "en": "#wat-paknam"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "closing-tag-7",
+              "label": {
+                "zh": "#泰国美食",
+                "en": "#thai-food"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "closing-tag-8",
+              "label": {
+                "zh": "#日常碎片plog",
+                "en": "#slow-travel"
+              },
+              "tone": "teal"
+            }
+          ]
+        },
+        {
+          "id": "closing-stamp-4",
+          "type": "stamp",
+          "text": {
+            "zh": "FIN · 2026.04",
+            "en": "FIN · 2026.04"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}

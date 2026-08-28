@@ -3,9 +3,8 @@
 // The master passphrase remains server-side. The authentication API releases
 // only a page-specific key after Microsoft-account or passcode validation.
 //
-// Private slugs are discovered by regex-scanning each trip's meta.ts for
-// `private: true` — avoids needing ts-node / tsconfig-paths to import the
-// TypeScript registry from a vanilla Node script.
+// Private slugs are discovered from each trip's structured content document,
+// which is also the source used by the runtime metadata adapter.
 
 import {
   readFileSync,
@@ -75,8 +74,31 @@ function findPrivateSlugs() {
     if (!slug.isDirectory()) continue;
     const metaPath = join(TRIPS_SRC, slug.name, "meta.ts");
     if (!existsSync(metaPath)) continue;
-    const src = readFileSync(metaPath, "utf8");
-    if (/^\s*private\s*:\s*true\s*,?\s*$/m.test(src)) {
+    const contentPath = join(TRIPS_SRC, slug.name, "content.json");
+    if (!existsSync(contentPath)) {
+      throw new Error(
+        `[encrypt] registered trip source is missing: ${contentPath}`
+      );
+    }
+
+    let document;
+    try {
+      document = JSON.parse(readFileSync(contentPath, "utf8"));
+    } catch (error) {
+      throw new Error(
+        `[encrypt] registered trip source is not valid JSON: ${contentPath}`,
+        { cause: error }
+      );
+    }
+    if (
+      document?.slug !== slug.name ||
+      typeof document?.metadata?.private !== "boolean"
+    ) {
+      throw new Error(
+        `[encrypt] registered trip source has invalid slug or privacy metadata: ${contentPath}`
+      );
+    }
+    if (document.metadata.private) {
       slugs.push(slug.name);
     }
   }

@@ -1,0 +1,972 @@
+{
+  "version": 1,
+  "slug": "chengdu-2025",
+  "metadata": {
+    "date": "2025-01-01",
+    "dateRange": "2025.01.01 — 01.04",
+    "coverImageId": "panda-huahua",
+    "title": {
+      "zh": "成都 · 慢慢耍",
+      "en": "Chengdu · Take It Slow"
+    },
+    "subtitle": {
+      "zh": "花花、春熙路、蜀宴赋，还有吃不完的成都味道",
+      "en": "Huahua, Chunxi Road, Shuyan Fu, and more Chengdu flavors than we could finish"
+    },
+    "location": {
+      "zh": "中国 · 成都",
+      "en": "Chengdu, China"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "hongqiao-lounge",
+      "filename": "modern-dark-lounge-bar.jpeg",
+      "alt": {
+        "zh": "虹桥机场蔚来牛屋休息区",
+        "en": "Dark lounge seating at Hongqiao Airport"
+      }
+    },
+    {
+      "id": "nio-logo-wall",
+      "filename": "nio-storefront-logo-wall.jpeg",
+      "alt": {
+        "zh": "蔚来牛屋品牌墙",
+        "en": "NIO House logo wall"
+      }
+    },
+    {
+      "id": "hotel-panda",
+      "filename": "panda-lobby-art-installation.jpeg",
+      "alt": {
+        "zh": "成都酒店大堂熊猫装置",
+        "en": "Panda installation in a Chengdu hotel lobby"
+      }
+    },
+    {
+      "id": "outdoor-cafe",
+      "filename": "two-people-outdoor-cafe.jpeg",
+      "alt": {
+        "zh": "两人在成都户外咖啡座合影",
+        "en": "Two people sitting at an outdoor cafe in Chengdu"
+      }
+    },
+    {
+      "id": "chunxi-road-couple",
+      "filename": "couple-in-winter-jackets-outdoors.jpeg",
+      "alt": {
+        "zh": "穿冬装的两人在春熙路合影",
+        "en": "Couple in winter jackets on Chunxi Road"
+      }
+    },
+    {
+      "id": "ifs-panda",
+      "filename": "people-with-large-panda-statue.jpeg",
+      "alt": {
+        "zh": "两人与 IFS 大熊猫雕塑合影",
+        "en": "Two people with the giant IFS panda sculpture"
+      }
+    },
+    {
+      "id": "daci-courtyard",
+      "filename": "traditional-chinese-temple-courtyard.jpeg",
+      "alt": {
+        "zh": "大慈寺传统庭院",
+        "en": "Traditional courtyard at Daci Temple"
+      }
+    },
+    {
+      "id": "bamboo-wall",
+      "filename": "person-standing-by-bamboo-wall.jpeg",
+      "alt": {
+        "zh": "竹墙边的人像",
+        "en": "Person standing beside a bamboo wall"
+      }
+    },
+    {
+      "id": "jin-river-selfie",
+      "filename": "night-river-selfie-city-lights.jpeg",
+      "alt": {
+        "zh": "锦江夜景中的两人自拍",
+        "en": "Night selfie beside the Jin River"
+      }
+    },
+    {
+      "id": "night-backdrop",
+      "filename": "two-people-in-traditional-backdrop.jpeg",
+      "alt": {
+        "zh": "传统布景前的两人合影",
+        "en": "Two people posing in a traditional backdrop"
+      }
+    },
+    {
+      "id": "panda-huahua",
+      "filename": "giant-panda-sitting-by-bamboo.jpeg",
+      "alt": {
+        "zh": "坐在竹子旁的大熊猫花花",
+        "en": "Giant panda Huahua sitting beside bamboo"
+      }
+    },
+    {
+      "id": "panda-enclosure",
+      "filename": "person-pointing-at-panda-enclosure.jpeg",
+      "alt": {
+        "zh": "在熊猫馆舍前指向大熊猫",
+        "en": "Person pointing toward a panda enclosure"
+      }
+    },
+    {
+      "id": "panda-base-tower",
+      "filename": "two-people-by-wooden-tower.jpeg",
+      "alt": {
+        "zh": "两人在熊猫基地木塔旁合影",
+        "en": "Two people beside a wooden tower at the panda base"
+      }
+    },
+    {
+      "id": "kuanzhai-sculpture",
+      "filename": "two-people-near-pig-statue.jpeg",
+      "alt": {
+        "zh": "两人在雕塑旁合影",
+        "en": "Two people posing beside a sculpture"
+      }
+    },
+    {
+      "id": "peoples-park",
+      "filename": "two-people-peace-signs-building.jpeg",
+      "alt": {
+        "zh": "两人在传统建筑前比耶",
+        "en": "Two people making peace signs outside a traditional building"
+      }
+    },
+    {
+      "id": "shuyan-tickets",
+      "filename": "pink-event-tickets-in-hand.jpeg",
+      "alt": {
+        "zh": "手中的蜀宴赋粉色票券",
+        "en": "Pink Shuyan Fu tickets held in one hand"
+      }
+    },
+    {
+      "id": "shuyan-tea-set",
+      "filename": "japanese-tea-ceremony-set.jpeg",
+      "alt": {
+        "zh": "蜀宴赋桌上的茶具",
+        "en": "Tea set on the Shuyan Fu table"
+      }
+    },
+    {
+      "id": "shuyan-tray",
+      "filename": "wooden-serving-tray-with-bowls.jpeg",
+      "alt": {
+        "zh": "木托盘上的精致餐食",
+        "en": "Small dishes arranged on a wooden tray"
+      }
+    },
+    {
+      "id": "shuyan-dance",
+      "filename": "traditional-dance-stage-performance.jpeg",
+      "alt": {
+        "zh": "蜀宴赋传统舞蹈演出",
+        "en": "Traditional dance performance at Shuyan Fu"
+      }
+    },
+    {
+      "id": "eastern-suburb-storefront",
+      "filename": "xiaobanyouli-cafe-storefront.jpeg",
+      "alt": {
+        "zh": "东郊记忆的小伴有礼店铺",
+        "en": "Xiaobanyouli storefront at Eastern Suburb Memory"
+      }
+    }
+  ],
+  "sections": [
+    { "id": "overview" },
+    { "id": "day-1" },
+    { "id": "day-2-day" },
+    { "id": "day-2-night" },
+    { "id": "day-3" },
+    { "id": "day-4" },
+    { "id": "expenses" }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover-introduction",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🐼 成都旅行日记",
+            "en": "🐼 Chengdu Diary"
+          },
+          "title": {
+            "zh": "在成都，慢慢耍",
+            "en": "Chengdu, Take It Slow"
+          },
+          "subtitle": {
+            "zh": "Chengdu Travel Journal",
+            "en": "Chengdu Travel Journal"
+          },
+          "date": {
+            "zh": "2025.01.01 — 01.04",
+            "en": "2025.01.01 — 01.04"
+          },
+          "intro": {
+            "zh": "从春熙路一路逛到熊猫基地，在按摩、火锅气和锦江夜色里，过一个松弛的春节假期。",
+            "en": "From Chunxi Road to the panda base, with massages, hotpot steam, and the Jin River lights filling a laid-back New Year escape."
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "CHENGDU\n2025",
+              "en": "CHENGDU\n2025"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "arrival-and-spa",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "day-1-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "1", "en": "1" },
+          "title": {
+            "zh": "打飞的去洗脚城",
+            "en": "Flying to the City of Foot Massages"
+          },
+          "subtitle": {
+            "zh": "上海虹桥 ✈️ 成都天府 · 蔚来牛屋 · 大诚江南 SPA",
+            "en": "Shanghai Hongqiao ✈️ Chengdu Tianfu · NIO House · Dacheng Jiangnan Spa"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "day-1-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "16:40 从虹桥起飞。候机时在 T2 D50 的蔚来牛屋歇脚，免费咖啡、饮料和小零食，把普通候机过成了一小段贵宾体验。",
+              "en": "Our 4:40 PM flight left Hongqiao after a pause at the NIO House near T2 gate D50. Free coffee, drinks, and snacks turned an ordinary wait into a tiny taste of lounge life."
+            },
+            {
+              "zh": "20:05 落地天府机场时，两个人都已经有点透支。胖宝子一路还在处理工作，情绪终于在机场爆开，原本顺畅的行程因此停住了一个小时。好在话说开以后也就翻篇了，我们拖着行李坐上直达春熙路的机场大巴，窗外从空旷的机场高速慢慢切换成成都深夜的灯光。",
+              "en": "By the time we landed at Tianfu at 8:05 PM, we were both running on empty. My partner was still dealing with work, and the frustration finally spilled over at the airport, putting the trip on pause for an hour. Once we had talked it through, we dragged our luggage onto the direct bus to Chunxi Road and watched the empty airport expressway slowly give way to Chengdu's late-night lights."
+            },
+            {
+              "zh": "到酒店放下行李已经很晚，但“洗脚城”的第一晚当然不能直接睡。大诚江南的独立卫浴、按摩和随手可取的小食，把一路的疲惫和坏情绪一点点按散，旅行总算重新回到正轨。",
+              "en": "It was already very late when we dropped our bags at the hotel, but we could not spend our first night in the “city of foot massages” simply going to bed. The private shower, massage, and endless snacks at Dacheng Jiangnan worked the travel fatigue — and the bad mood — out of us until the trip finally felt back on track."
+            }
+          ]
+        },
+        {
+          "id": "day-1-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 16 },
+          "images": [
+            {
+              "imageId": "hongqiao-lounge",
+              "shape": "square",
+              "tone": "crisp",
+              "caption": {
+                "zh": "候机时的一点松弛感",
+                "en": "A calm pocket before takeoff"
+              }
+            },
+            {
+              "imageId": "nio-logo-wall",
+              "shape": "square",
+              "tone": "warm",
+              "caption": {
+                "zh": "第一次体验“头等舱候机”",
+                "en": "Our first taste of “first-class waiting”"
+              }
+            },
+            {
+              "imageId": "hotel-panda",
+              "shape": "square",
+              "tone": "cool",
+              "caption": {
+                "zh": "一落地就进入熊猫宇宙",
+                "en": "Straight into the panda universe"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-1-timeline",
+          "type": "timeline",
+          "spacing": { "top": 20 },
+          "items": [
+            {
+              "id": "hongqiao-departure",
+              "time": { "zh": "16:40", "en": "16:40" },
+              "event": { "zh": "虹桥起飞", "en": "Departed Hongqiao" },
+              "detail": {
+                "zh": "东航 FM9543 · 波音 737 MAX 8",
+                "en": "China Eastern FM9543 · Boeing 737 MAX 8"
+              }
+            },
+            {
+              "id": "tianfu-arrival",
+              "time": { "zh": "20:05", "en": "20:05" },
+              "event": { "zh": "落地天府机场", "en": "Landed at Tianfu" },
+              "detail": {
+                "zh": "两个人都累了，小吵一架，和好后继续旅行",
+                "en": "We were both exhausted, argued, made up, and carried on"
+              }
+            },
+            {
+              "id": "airport-bus",
+              "time": { "zh": "21:40", "en": "21:40" },
+              "event": {
+                "zh": "机场大巴去春熙路",
+                "en": "Airport bus to Chunxi Road"
+              },
+              "detail": {
+                "zh": "15 元，不堵车约一小时",
+                "en": "RMB 15 and about an hour without traffic"
+              }
+            },
+            {
+              "id": "dacheng-spa",
+              "time": { "zh": "23:00", "en": "23:00" },
+              "event": {
+                "zh": "大诚江南 SPA",
+                "en": "Dacheng Jiangnan Spa"
+              },
+              "detail": {
+                "zh": "269 元 / 80 分钟，独立卫浴和小食把疲惫清空",
+                "en": "RMB 269 for 80 minutes, private shower, and plenty of snacks"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-1-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "第一天的真实开场",
+            "en": "An honest first night"
+          },
+          "body": {
+            "zh": "旅行不总从完美情绪开始。累、争执、和好，再一起去按摩——这才是属于我们的成都第一晚。",
+            "en": "Trips do not always begin in a perfect mood. Fatigue, a disagreement, making up, then getting a massage together — that was our real Chengdu opening."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chunxi-road-day",
+      "sectionId": "day-2-day",
+      "blocks": [
+        {
+          "id": "day-2-day-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "春熙路街溜子 · 白天篇",
+            "en": "Chunxi Road Wanderers · Day"
+          },
+          "subtitle": {
+            "zh": "烤匠 · IFS · 大慈寺 · 太古里",
+            "en": "Kao Jiang · IFS · Daci Temple · Taikoo Li"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "day-2-cafe-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "outdoor-cafe",
+              "shape": "hero",
+              "tone": "cool",
+              "caption": {
+                "zh": "成都最舒服的打开方式：慢慢走，随时坐下",
+                "en": "The best Chengdu rhythm: walk slowly, sit whenever you like"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-2-day-story",
+          "type": "prose",
+          "spacing": { "top": 16 },
+          "paragraphs": [
+            {
+              "zh": "今天以春熙路为圆心，从午饭一路溜达到深夜。烤匠点了蒜香烤鱼，最后略腻，但一元点评打卡换来的两个冰箱贴很有旅行纪念感。",
+              "en": "Chunxi Road was the center of the day, from lunch until well after dark. We ordered garlic grilled fish at Kao Jiang. It became a little rich by the end, but the service was excellent, and a one-yuan review check-in earned us two fridge magnets."
+            },
+            {
+              "zh": "IFS 楼下先看大熊猫趴在外墙上，只能看到圆滚滚的背影；一路上到七楼，才终于和它的正脸合影。再往太古里里面走，热闹的商场忽然被大慈寺安静地切开：一边是玻璃橱窗和人流，一边是红墙、竹影和午后的院落，放在一起竟然毫不违和。",
+              "en": "At street level, the giant IFS panda offered only its round back as it clung to the facade. We rode up to level seven to finally meet it face to face. Deeper inside Taikoo Li, the busy shopping district was suddenly interrupted by the quiet of Daci Temple: glass storefronts and crowds on one side, red walls, bamboo shadows, and afternoon courtyards on the other, somehow perfectly at ease together."
+            },
+            {
+              "zh": "我们在寺里慢慢逛了文创店，也给这次旅行留下几枚印章。随后回到太古里的购物节奏，给胖宝买下 Stone Island 针织衫，也在 Le Labo 挑了送妹妹的礼物。成都的“松弛”和“剁手”，在同一个下午同时发生。",
+              "en": "We wandered through the temple shop, adding a few stamps to the trip, then stepped straight back into shopping mode. A Stone Island sweater came home for my partner, and we found a Le Labo gift for my sister. Chengdu's laid-back rhythm and our enthusiastic spending occupied the very same afternoon."
+            }
+          ]
+        },
+        {
+          "id": "day-2-ifs-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "chunxi-road-couple",
+              "shape": "landscape",
+              "tone": "warm",
+              "caption": {
+                "zh": "春节档的春熙路街头",
+                "en": "New Year on Chunxi Road"
+              }
+            },
+            {
+              "imageId": "ifs-panda",
+              "shape": "landscape",
+              "tone": "crisp",
+              "caption": {
+                "zh": "IFS 七楼看趴墙熊猫的正脸",
+                "en": "Up to level seven for the panda's face"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-2-daci-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "daci-courtyard",
+              "shape": "portrait",
+              "tone": "soft",
+              "caption": {
+                "zh": "被太古里环抱的大慈寺",
+                "en": "Daci Temple, wrapped inside Taikoo Li"
+              }
+            },
+            {
+              "imageId": "bamboo-wall",
+              "shape": "portrait",
+              "tone": "cool",
+              "caption": {
+                "zh": "古寺、竹影与现代商业区同框",
+                "en": "Temple calm beside modern storefronts"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-2-haul-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": { "zh": "今日战利品", "en": "Today's haul" },
+          "body": {
+            "zh": "Stone Island 针织衫 3,126 元，Le Labo 礼物 460 元。大慈寺文创店可以盖章，记得自带本子。",
+            "en": "A Stone Island sweater for RMB 3,126 and a Le Labo gift for RMB 460. Daci Temple's creative shop has stamp stations — bring your own notebook."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chunxi-road-night",
+      "sectionId": "day-2-night",
+      "blocks": [
+        {
+          "id": "day-2-night-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "2", "en": "2" },
+          "title": {
+            "zh": "春熙路街溜子 · 夜晚篇",
+            "en": "Chunxi Road Wanderers · Night"
+          },
+          "subtitle": {
+            "zh": "望平街 · 熊猫书店 · 安顺廊桥 · 九眼桥",
+            "en": "Wangping Street · Panda Bookstore · Anshun Bridge · Jiuyan Bridge"
+          },
+          "icon": "🌃"
+        },
+        {
+          "id": "day-2-night-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从太古里步行约十五分钟到望平街，在锦江边喝一杯李山山手作奶茶。晚餐的乐山胖哥跷脚牛肉，88 元双人团购，小份比上海的大份还扎实。",
+              "en": "Wangping Street was a fifteen-minute walk from Taikoo Li. We sat beside the Jin River with handmade milk tea from Li Shanshan. Dinner was Leshan Pang Ge's qiaojiao beef: an RMB 88 set for two whose “small” serving was bigger than a Shanghai large."
+            },
+            {
+              "zh": "天色暗下来后，锦江两岸的灯一点点亮起。我们没有赶行程，只沿着河边继续散步，又为了小红书上看到的熊猫书店多走了半小时。原本以为可能只是又一个网红点，进门后却被满屋的熊猫小物击中，最后还是带走了经典款冰箱贴和甜品。",
+              "en": "As daylight faded, the lamps along both banks of the Jin River came on one by one. With no schedule to chase, we kept walking, adding another half hour for a Panda Bookstore we had seen on Xiaohongshu. We expected another photogenic internet stop, but the roomful of panda treasures won us over, and we left with a classic fridge magnet and dessert."
+            },
+            {
+              "zh": "安顺廊桥、九眼桥和酒吧街连成了一段完全不同的成都：灯光倒映在水面，桥上桥下都是人，白天的寺庙和竹影已经切换成热闹的夜生活。走到十点，脚也差不多宣布罢工，正好用一场按摩结束这趟超长 citywalk。",
+              "en": "Anshun Bridge, Jiuyan Bridge, and the bar street revealed a completely different Chengdu. Reflections trembled on the water, people filled both levels of the riverfront, and the temples and bamboo shadows of the afternoon gave way to nightlife. By ten, our feet had officially resigned — perfect timing for a massage after one very long city walk."
+            }
+          ]
+        },
+        {
+          "id": "day-2-night-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "jin-river-selfie",
+              "shape": "portrait",
+              "tone": "crisp",
+              "caption": {
+                "zh": "安顺廊桥与锦江夜色",
+                "en": "Anshun Bridge and the Jin River at night"
+              }
+            },
+            {
+              "imageId": "night-backdrop",
+              "shape": "portrait",
+              "tone": "warm",
+              "caption": {
+                "zh": "一路逛到夜里，成都还很热闹",
+                "en": "Still wandering long after dark"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-2-route",
+          "type": "route",
+          "spacing": { "top": 20 },
+          "compact": true,
+          "stops": [
+            {
+              "id": "kao-jiang",
+              "icon": "🐟",
+              "label": { "zh": "烤匠", "en": "Kao Jiang" }
+            },
+            {
+              "id": "ifs",
+              "icon": "🐼",
+              "label": { "zh": "IFS", "en": "IFS" }
+            },
+            {
+              "id": "daci",
+              "icon": "🏯",
+              "label": { "zh": "大慈寺", "en": "Daci" }
+            },
+            {
+              "id": "taikoo-li",
+              "icon": "🛍️",
+              "label": { "zh": "太古里", "en": "Taikoo Li" }
+            },
+            {
+              "id": "wangping",
+              "icon": "🌊",
+              "label": { "zh": "望平街", "en": "Wangping" }
+            },
+            {
+              "id": "jiuyan",
+              "icon": "🌉",
+              "label": { "zh": "九眼桥", "en": "Jiuyan" }
+            }
+          ]
+        },
+        {
+          "id": "day-2-night-note",
+          "type": "note",
+          "spacing": { "top": 20 },
+          "title": { "zh": "夜游笔记", "en": "Night notes" },
+          "body": {
+            "zh": "熊猫书店可爱到值得多走半小时；安顺廊桥、九眼桥和酒吧街连成一片，九眼桥一侧是拍廊桥夜景的好机位。最后用金足印象 298 元 / 人的按摩收尾。",
+            "en": "The Panda Bookstore was cute enough to justify the thirty-minute walk. Anshun Bridge, Jiuyan Bridge, and the bar street form one lively riverfront stretch; Jiuyan Bridge has the best angle back toward Anshun. We finished with another massage at Jinzu Yinxiang, RMB 298 each."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pandas-and-parks",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "day-3-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "3", "en": "3" },
+          "title": {
+            "zh": "遇见网红花花",
+            "en": "Meeting Internet Star Huahua"
+          },
+          "subtitle": {
+            "zh": "大熊猫基地 · 宽窄巷子 · 人民公园",
+            "en": "Panda Base · Kuanzhai Alley · People's Park"
+          },
+          "icon": "🐼"
+        },
+        {
+          "id": "day-3-huahua-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "panda-huahua",
+              "shape": "hero",
+              "tone": "cool",
+              "caption": {
+                "zh": "排队一小时，只看三分钟，还是觉得值",
+                "en": "One hour in line, three minutes together — still worth it"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-3-story",
+          "type": "prose",
+          "spacing": { "top": 16 },
+          "paragraphs": [
+            {
+              "zh": "前一晚睡太晚，9:45 才挣扎起床。楼下甘食记用包子、豆浆和肥肠粉快速开机，还把身份证落在店里，第一反应竟然是想赖给肥肥头。我有罪。",
+              "en": "After staying up too late, we dragged ourselves out of bed at 9:45. Baozi, soy milk, and pork-intestine noodles at Ganshiji got us moving — and then I left my ID there and briefly tried to blame my partner. Guilty."
+            },
+            {
+              "zh": "从春熙路打车到熊猫基地大约半小时，二十元左右。听攻略从西门进，游客果然少一些，但到了花花面前还是要老老实实排队。一个小时的等待最终只换来三分钟见面，她就坐在竹子旁边认真营业，圆得几乎没有脖子，照片和视频根本装不下现场的可爱。",
+              "en": "A taxi from Chunxi Road to the panda base took about thirty minutes and cost around RMB 20. We followed the advice to enter from the west gate, where the crowds were lighter, but there was still no escaping the line for Huahua. One hour of waiting bought us just three minutes with her. She sat beside the bamboo, diligently being adorable, so perfectly round that photos and videos could not quite capture the real thing."
+            },
+            {
+              "zh": "离开基地后，下午的节奏彻底放慢。宽窄巷子更像一条热闹的网红小吃街，我们没有认真打卡，只随意走走、吃一顿便宜到惊讶的冒烤鸭和蹄花，再一路晃到人民公园。鹤鸣茶社没有想象中惊艳，但坐下来喝杯茶、看看周围的人，也算完成了成都式的慢生活体验。",
+              "en": "After the panda base, the afternoon slowed right down. Kuanzhai Alley felt more like a busy internet-famous snack street, so we skipped the serious checklist and simply wandered, ate a startlingly affordable meal of roast duck mao cai and pig-trotter soup, then drifted toward People's Park. Heming Teahouse was less magical than expected, but sitting with tea and watching the people around us still counted as a small taste of Chengdu's slower life."
+            }
+          ]
+        },
+        {
+          "id": "day-3-panda-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "panda-enclosure",
+              "shape": "portrait",
+              "tone": "warm",
+              "caption": {
+                "zh": "西门进园人更少，直奔花花",
+                "en": "The west gate was quieter — straight to Huahua"
+              }
+            },
+            {
+              "imageId": "panda-base-tower",
+              "shape": "portrait",
+              "tone": "crisp",
+              "caption": {
+                "zh": "园区里的木塔与冬日阳光",
+                "en": "Winter sun inside the panda base"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-3-city-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "kuanzhai-sculpture",
+              "shape": "landscape",
+              "tone": "soft",
+              "caption": {
+                "zh": "宽窄巷子随意走走",
+                "en": "An easy stroll through Kuanzhai Alley"
+              }
+            },
+            {
+              "imageId": "peoples-park",
+              "shape": "landscape",
+              "tone": "cool",
+              "caption": {
+                "zh": "人民公园附近的慢生活",
+                "en": "A slower afternoon near People's Park"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-3-food-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": {
+            "zh": "今日好吃与踩坑",
+            "en": "Great food, mixed reviews"
+          },
+          "body": {
+            "zh": "宽窄巷子附近 55 元冒烤鸭 + 40 元蹄花，性价比离谱。鹤鸣茶社室外偏冷，茶点比较预制，市井感也有些刻意；路上的草莓和菠萝蜜则像是游客价。",
+            "en": "Near Kuanzhai Alley, roast duck mao cai cost RMB 55 and pig-trotter soup RMB 40 — absurdly good value. Heming Teahouse was cold outdoors, with fairly packaged snacks and a street-life atmosphere that felt a little staged. The roadside fruit also felt priced for visitors."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shuyan-and-departure",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "day-4-header",
+          "type": "header",
+          "markerLabel": { "zh": "Day", "en": "Day" },
+          "markerValue": { "zh": "4", "en": "4" },
+          "title": {
+            "zh": "在蜀宴赋里当皇上",
+            "en": "Emperor for a Meal at Shuyan Fu"
+          },
+          "subtitle": {
+            "zh": "蜀宴赋 · 东郊记忆 · 印象城蔚来牛屋 · 天府机场",
+            "en": "Shuyan Fu · Eastern Suburb Memory · NIO House · Tianfu Airport"
+          },
+          "icon": "👑"
+        },
+        {
+          "id": "day-4-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天没有早起 KPI，睡到 11:30 才退房。蜀宴赋把午餐做成了一场沉浸式宫廷演出，仪式、器皿、舞台和菜品一起上桌，真的有一刻觉得自己在当皇上。",
+              "en": "No morning KPI on our final day: we slept until checkout at 11:30. Shuyan Fu turned lunch into an immersive court banquet, bringing ritual, tableware, stagecraft, and food together until it genuinely felt like we were dining as royalty."
+            },
+            {
+              "zh": "从拿到粉色票券开始，体验就不再只是一顿饭。茶具和木托盘先把仪式感铺好，菜品按节奏出现，舞台上的传统舞蹈又不断把注意力从餐桌拉向表演。它当然带着精心设计的“沉浸感”，但完成度足够高，所以我们也很乐意配合着进入这场蜀地宫廷梦。",
+              "en": "From the moment we received the pink tickets, this was clearly more than a meal. The tea set and wooden trays established the ceremony, dishes arrived in a deliberate rhythm, and traditional dance kept pulling our attention from the table back to the stage. The immersion was carefully engineered, of course, but polished enough that we happily stepped into its Sichuan court fantasy."
+            },
+            {
+              "zh": "饭后去东郊记忆消食，旧厂房、管道和工业结构还在，里面却已经装进咖啡店、买手店和各种年轻人的娱乐空间。最后回到熟悉的蔚来牛屋补充电量，领完城市冰箱贴，也像给这四天盖下了最后一枚章。",
+              "en": "After lunch, we walked it off at Eastern Suburb Memory. The old factory shells, pipes, and industrial structures remain, but cafes, boutiques, and entertainment now fill the spaces between them. Our last stop was another familiar NIO House for drinks, charging, and a city fridge magnet — one final stamp on four days in Chengdu."
+            }
+          ]
+        },
+        {
+          "id": "day-4-banquet-gallery",
+          "type": "gallery",
+          "layout": "three",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "shuyan-tickets",
+              "shape": "portrait",
+              "tone": "crisp",
+              "caption": {
+                "zh": "今天的宫廷入场券",
+                "en": "Tickets to today's royal banquet"
+              }
+            },
+            {
+              "imageId": "shuyan-tea-set",
+              "shape": "portrait",
+              "tone": "warm",
+              "caption": {
+                "zh": "从器皿开始营造仪式感",
+                "en": "The ceremony began with the tableware"
+              }
+            },
+            {
+              "imageId": "shuyan-tray",
+              "shape": "portrait",
+              "tone": "cool",
+              "caption": {
+                "zh": "一席蜀地风味慢慢展开",
+                "en": "Sichuan flavors arriving course by course"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-4-performance-gallery",
+          "type": "gallery",
+          "layout": "two",
+          "spacing": { "top": 12 },
+          "images": [
+            {
+              "imageId": "shuyan-dance",
+              "shape": "landscape",
+              "tone": "soft",
+              "caption": {
+                "zh": "边吃边看的传统舞台演出",
+                "en": "Traditional dance alongside lunch"
+              }
+            },
+            {
+              "imageId": "eastern-suburb-storefront",
+              "shape": "landscape",
+              "tone": "warm",
+              "caption": {
+                "zh": "东郊记忆：老工厂里的新生活",
+                "en": "New life inside an old industrial district"
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-4-note",
+          "type": "note",
+          "spacing": { "top": 16 },
+          "title": { "zh": "最后一站", "en": "The final stop" },
+          "body": {
+            "zh": "在印象城蔚来牛屋领城市冰箱贴、喝饮料、充电和值机。天府机场离市区真的远，公共交通约一个半小时；好在提前值机、没有托运，回程依旧顺利。",
+            "en": "At the NIO House in InCity we collected a city magnet, had drinks, charged our devices, and checked in. Tianfu Airport really is far — around ninety minutes by public transit — but advance check-in and no checked luggage kept the journey smooth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trip-expenses",
+      "sectionId": "expenses",
+      "blocks": [
+        {
+          "id": "expenses-header",
+          "type": "header",
+          "markerLabel": { "zh": "¥", "en": "¥" },
+          "markerValue": { "zh": "10K", "en": "10K" },
+          "title": {
+            "zh": "四天三夜账单",
+            "en": "The Four-Day Bill"
+          },
+          "subtitle": {
+            "zh": "总计 10,474 RMB · 不含 Stone Island 后为 7,348 RMB",
+            "en": "RMB 10,474 total · RMB 7,348 excluding Stone Island"
+          },
+          "icon": "🧾"
+        },
+        {
+          "id": "expense-summary",
+          "type": "expense",
+          "spacing": { "top": 16 },
+          "rows": [
+            {
+              "id": "shopping",
+              "label": { "zh": "购物", "en": "Shopping" },
+              "detail": {
+                "zh": "Stone Island 3,126 + Le Labo 460",
+                "en": "Stone Island 3,126 + Le Labo 460"
+              },
+              "amount": { "zh": "3,586", "en": "3,586" }
+            },
+            {
+              "id": "activities",
+              "label": { "zh": "娱乐", "en": "Activities" },
+              "detail": {
+                "zh": "按摩、采耳、熊猫基地、蜀宴赋",
+                "en": "Massages, ear cleaning, pandas, Shuyan Fu"
+              },
+              "amount": { "zh": "2,608", "en": "2,608" }
+            },
+            {
+              "id": "flight-hotel",
+              "label": { "zh": "机酒", "en": "Flight & hotel" },
+              "detail": {
+                "zh": "机票 1,818 + 酒店 1,246",
+                "en": "Flights 1,818 + hotel 1,246"
+              },
+              "amount": { "zh": "3,064", "en": "3,064" }
+            },
+            {
+              "id": "food",
+              "label": { "zh": "餐饮", "en": "Food" },
+              "detail": {
+                "zh": "四天各餐",
+                "en": "Meals across four days"
+              },
+              "amount": { "zh": "751", "en": "751" }
+            },
+            {
+              "id": "transport",
+              "label": { "zh": "交通", "en": "Transport" },
+              "detail": {
+                "zh": "机场大巴、打车与市内交通",
+                "en": "Airport bus, taxis, and local travel"
+              },
+              "amount": { "zh": "150", "en": "150" }
+            },
+            {
+              "id": "other",
+              "label": { "zh": "其他", "en": "Other" },
+              "detail": {
+                "zh": "水果、文创与杂费",
+                "en": "Fruit, souvenirs, and incidentals"
+              },
+              "amount": { "zh": "314", "en": "314" }
+            },
+            {
+              "id": "total",
+              "label": { "zh": "合计", "en": "Total" },
+              "detail": {
+                "zh": "成都四天三夜",
+                "en": "Four days and three nights"
+              },
+              "amount": {
+                "zh": "10,474 RMB",
+                "en": "10,474 RMB"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "expense-divider",
+          "type": "divider",
+          "spacing": { "top": 20, "bottom": 16 },
+          "icon": "🐼"
+        },
+        {
+          "id": "chengdu-ending",
+          "type": "ending",
+          "flag": "👋",
+          "title": {
+            "zh": "成都，再见！",
+            "en": "Goodbye, Chengdu!"
+          },
+          "subtitle": {
+            "zh": "有点累、有点贵，但真的很好耍。",
+            "en": "A little tiring, a little expensive, and a whole lot of fun."
+          }
+        },
+        {
+          "id": "chengdu-tags",
+          "type": "tags",
+          "variant": "colored",
+          "spacing": { "top": 20 },
+          "items": [
+            {
+              "id": "huahua",
+              "label": { "zh": "花花", "en": "Huahua" },
+              "tone": "pink"
+            },
+            {
+              "id": "chunxi-road",
+              "label": { "zh": "春熙路", "en": "Chunxi Road" },
+              "tone": "blue"
+            },
+            {
+              "id": "shuyan-fu",
+              "label": { "zh": "蜀宴赋", "en": "Shuyan Fu" },
+              "tone": "gold"
+            },
+            {
+              "id": "massage-city",
+              "label": { "zh": "按摩之城", "en": "Massage City" },
+              "tone": "green"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,14 +6,15 @@ import {
   CONSUMER_TENANT_ID,
   createMicrosoftTokenVerifier,
   isAuthorizedIdentity,
-  REQUIRED_SCOPE,
+  PRIVATE_JOURNAL_READ_SCOPE,
+  TRAVEL_JOURNAL_EDIT_SCOPE,
 } from "../src/microsoft-token.js";
 
 const clientId = "11111111-2222-3333-4444-555555555555";
 
 async function signToken(privateKey, overrides = {}) {
   return new SignJWT({
-    scp: REQUIRED_SCOPE,
+    scp: PRIVATE_JOURNAL_READ_SCOPE,
     sub: "immutable-subject",
     tid: CONSUMER_TENANT_ID,
     ...overrides,
@@ -29,7 +30,11 @@ async function signToken(privateKey, overrides = {}) {
 test("validates consumer token audience, issuer, and scope", async () => {
   const { privateKey, publicKey } = await generateKeyPair("RS256");
   const verify = createMicrosoftTokenVerifier(publicKey);
-  const payload = await verify(await signToken(privateKey), clientId);
+  const payload = await verify(
+    await signToken(privateKey),
+    clientId,
+    PRIVATE_JOURNAL_READ_SCOPE
+  );
   assert.equal(payload.sub, "immutable-subject");
 });
 
@@ -37,8 +42,40 @@ test("rejects a token without the private journal scope", async () => {
   const { privateKey, publicKey } = await generateKeyPair("RS256");
   const verify = createMicrosoftTokenVerifier(publicKey);
   await assert.rejects(
-    verify(await signToken(privateKey, { scp: "profile" }), clientId),
+    verify(
+      await signToken(privateKey, { scp: "profile" }),
+      clientId,
+      PRIVATE_JOURNAL_READ_SCOPE
+    ),
     /PrivateJournal\.Read/u
+  );
+});
+
+test("enforces the endpoint-specific delegated scope", async () => {
+  const { privateKey, publicKey } = await generateKeyPair("RS256");
+  const verify = createMicrosoftTokenVerifier(publicKey);
+  const editToken = await signToken(privateKey, {
+    scp: TRAVEL_JOURNAL_EDIT_SCOPE,
+  });
+
+  const payload = await verify(
+    editToken,
+    clientId,
+    TRAVEL_JOURNAL_EDIT_SCOPE
+  );
+  assert.equal(payload.sub, "immutable-subject");
+  await assert.rejects(
+    verify(editToken, clientId, PRIVATE_JOURNAL_READ_SCOPE),
+    /PrivateJournal\.Read/u
+  );
+});
+
+test("fails closed when an endpoint omits its required scope", async () => {
+  const { privateKey, publicKey } = await generateKeyPair("RS256");
+  const verify = createMicrosoftTokenVerifier(publicKey);
+  await assert.rejects(
+    verify(await signToken(privateKey), clientId),
+    /required Microsoft delegated scope/u
   );
 });
 

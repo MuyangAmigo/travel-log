@@ -1,0 +1,1534 @@
+{
+  "version": 1,
+  "slug": "seoul-2023",
+  "metadata": {
+    "date": "2023-12-29",
+    "dateRange": "2023.12.29 — 2024.01.01",
+    "coverImageId": "cover-2026-08",
+    "title": {
+      "zh": "首尔 · 雪坡霓虹跨年夜",
+      "en": "Seoul · Snow, Slopes & Midnight Neon"
+    },
+    "subtitle": {
+      "zh": "弘大逛店、南山雪路、梨泰院 City Walk，以及在烟花里迎来的 2024",
+      "en": "Hongdae browsing, snowy Namsan paths, an Itaewon city walk, and welcoming 2024 beneath fireworks"
+    },
+    "location": {
+      "zh": "韩国 · 首尔",
+      "en": "Seoul, South Korea"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "20-seoul-attractions-map",
+      "filename": "20-seoul-attractions-map.webp",
+      "alt": {
+        "zh": "首尔热门景点路线图",
+        "en": "Map of popular Seoul attractions and routes"
+      }
+    },
+    {
+      "id": "22-hotel-location-map",
+      "filename": "22-hotel-location-map.webp",
+      "alt": {
+        "zh": "H Avenue Hotel 在首尔地图上的位置",
+        "en": "Location of H Avenue Hotel on a Seoul map"
+      }
+    },
+    {
+      "id": "23-incheon-airport-route",
+      "filename": "23-incheon-airport-route.webp",
+      "alt": {
+        "zh": "仁川机场前往酒店的导航路线",
+        "en": "Navigation route from Incheon Airport to the hotel"
+      }
+    },
+    {
+      "id": "01-hongdae-night-street",
+      "filename": "01-hongdae-night-street.webp",
+      "alt": {
+        "zh": "夜晚人流密集的弘大商业街",
+        "en": "Crowded Hongdae shopping street at night"
+      }
+    },
+    {
+      "id": "02-neon-night-street",
+      "filename": "02-neon-night-street.webp",
+      "alt": {
+        "zh": "首尔夜生活街区的霓虹招牌与行人",
+        "en": "Pedestrians and neon signs in a Seoul nightlife district"
+      }
+    },
+    {
+      "id": "03-hongdae-shopping-map",
+      "filename": "03-hongdae-shopping-map.webp",
+      "alt": {
+        "zh": "标注弘大潮牌店铺的购物地图",
+        "en": "Shopping map marked with Hongdae streetwear stores"
+      }
+    },
+    {
+      "id": "06-seoul-cityscape",
+      "filename": "06-seoul-cityscape.webp",
+      "alt": {
+        "zh": "群山环绕的首尔城市楼群",
+        "en": "Seoul apartment blocks framed by surrounding mountains"
+      }
+    },
+    {
+      "id": "07-namsan-tower-city-view",
+      "filename": "07-namsan-tower-city-view.webp",
+      "alt": {
+        "zh": "从城市建筑间望见南山首尔塔",
+        "en": "N Seoul Tower seen between city buildings"
+      }
+    },
+    {
+      "id": "08-snowy-city-buildings",
+      "filename": "08-snowy-city-buildings.webp",
+      "alt": {
+        "zh": "雪中的首尔高楼街道",
+        "en": "High-rise Seoul street covered in snow"
+      }
+    },
+    {
+      "id": "10-snowy-city-bus",
+      "filename": "10-snowy-city-bus.webp",
+      "alt": {
+        "zh": "雪天首尔街头驶过的蓝色公交车",
+        "en": "Blue city bus crossing a snowy Seoul street"
+      }
+    },
+    {
+      "id": "04-snowy-city-friends",
+      "filename": "04-snowy-city-friends.webp",
+      "alt": {
+        "zh": "两个人在雪后的首尔街头合影",
+        "en": "Two friends posing on a snowy Seoul street"
+      }
+    },
+    {
+      "id": "05-city-overlook-friends",
+      "filename": "05-city-overlook-friends.webp",
+      "alt": {
+        "zh": "两个人在俯瞰首尔的高处合影",
+        "en": "Two friends posing above the Seoul skyline"
+      }
+    },
+    {
+      "id": "09-wanta-store-group",
+      "filename": "09-wanta-store-group.webp",
+      "alt": {
+        "zh": "一行人在 WANTA 店铺内合影",
+        "en": "A group posing inside the WANTA store"
+      }
+    },
+    {
+      "id": "11-gyeongbokgung-poster",
+      "filename": "11-gyeongbokgung-poster.webp",
+      "alt": {
+        "zh": "以景福宫屋檐为主题的旅行海报",
+        "en": "Travel poster featuring the eaves of Gyeongbokgung Palace"
+      }
+    },
+    {
+      "id": "19-gyeongbokgung-light-show",
+      "filename": "19-gyeongbokgung-light-show.webp",
+      "alt": {
+        "zh": "景福宫夜间灯光投影画面",
+        "en": "Night light projection at Gyeongbokgung Palace"
+      }
+    },
+    {
+      "id": "18-designer-toy-citywalk",
+      "filename": "18-designer-toy-citywalk.webp",
+      "alt": {
+        "zh": "首尔潮玩店和设计店 City Walk 拼图",
+        "en": "Collage of Seoul designer-toy and concept-store stops"
+      }
+    },
+    {
+      "id": "12-new-year-fireworks",
+      "filename": "12-new-year-fireworks.webp",
+      "alt": {
+        "zh": "首尔跨年夜空中的烟花",
+        "en": "Fireworks bursting over Seoul on New Year's Eve"
+      }
+    },
+    {
+      "id": "13-namsan-hike-friends",
+      "filename": "13-namsan-hike-friends.webp",
+      "alt": {
+        "zh": "两个人在南山冬季树林中徒步",
+        "en": "Two friends hiking through winter woods on Namsan"
+      }
+    },
+    {
+      "id": "14-namsan-tower-hillside",
+      "filename": "14-namsan-tower-hillside.webp",
+      "alt": {
+        "zh": "冬季山坡上的南山首尔塔",
+        "en": "N Seoul Tower above a winter hillside"
+      }
+    },
+    {
+      "id": "15-namsan-hillside-road",
+      "filename": "15-namsan-hillside-road.webp",
+      "alt": {
+        "zh": "南山脚下通往塔区的冬季公路",
+        "en": "Winter road climbing toward N Seoul Tower"
+      }
+    },
+    {
+      "id": "16-snowy-winter-trail",
+      "filename": "16-snowy-winter-trail.webp",
+      "alt": {
+        "zh": "冬树之间留有积雪的山路",
+        "en": "Snow remaining on a trail between winter trees"
+      }
+    },
+    {
+      "id": "17-winter-park-path",
+      "filename": "17-winter-park-path.webp",
+      "alt": {
+        "zh": "冬日树木围绕的公园步道",
+        "en": "Park path surrounded by bare winter trees"
+      }
+    },
+    {
+      "id": "21-seoul-four-day-guide",
+      "filename": "21-seoul-four-day-guide.webp",
+      "alt": {
+        "zh": "首尔四天三夜旅行路线参考图",
+        "en": "Reference map for a four-day Seoul itinerary"
+      }
+    },
+    {
+      "id": "cover-2026-08",
+      "filename": "cover-2026-08.jpeg",
+      "alt": {
+        "zh": "首尔跨年旅行封面",
+        "en": "Seoul New Year trip cover"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "page-01"
+    },
+    {
+      "id": "page-02"
+    },
+    {
+      "id": "page-03"
+    },
+    {
+      "id": "page-04"
+    },
+    {
+      "id": "page-05"
+    },
+    {
+      "id": "page-06"
+    },
+    {
+      "id": "page-07"
+    },
+    {
+      "id": "page-08"
+    },
+    {
+      "id": "page-09"
+    },
+    {
+      "id": "page-10"
+    },
+    {
+      "id": "page-11"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "page-01",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover-01",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "❄️ 🛍️ 🎆",
+            "en": "❄️ 🛍️ 🎆"
+          },
+          "title": {
+            "zh": "首尔，\n雪坡霓虹跨年夜",
+            "en": "Seoul,\nSnow, Slopes &\nMidnight Neon"
+          },
+          "subtitle": {
+            "zh": "A New Year Travel Journal",
+            "en": "A New Year Travel Journal"
+          },
+          "date": {
+            "zh": "2023.12.29 — 2024.01.01",
+            "en": "2023.12.29 — 2024.01.01"
+          },
+          "intro": {
+            "zh": "「弘大的霓虹、南山的雪，\n还有在烟花里抵达的 2024。」",
+            "en": "“Hongdae neon, snow on Namsan,\nand 2024 arriving in a sky full of fireworks.”"
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "SEOUL\n2024",
+              "en": "SEOUL\n2024"
+            }
+          }
+        },
+        {
+          "id": "page-01-stamp-01",
+          "type": "stamp",
+          "spacing": {
+            "top": 24
+          },
+          "text": {
+            "zh": "NEW YEAR PASS",
+            "en": "NEW YEAR PASS"
+          },
+          "tilt": "left"
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "page-02",
+      "blocks": [
+        {
+          "id": "page-02-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🗺️",
+            "en": "🗺️"
+          },
+          "markerValue": {
+            "zh": "ROUTE",
+            "en": "ROUTE"
+          },
+          "title": {
+            "zh": "四天，从购物清单走进跨年烟花",
+            "en": "Four Days from Shopping Lists to Fireworks"
+          },
+          "subtitle": {
+            "zh": "上海 · 仁川 · 弘大 · 南山 · 梨泰院 · 明洞",
+            "en": "Shanghai · Incheon · Hongdae · Namsan · Itaewon · Myeongdong"
+          }
+        },
+        {
+          "id": "page-02-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "12 月 29 日 11:35 起飞，14:30 抵达仁川 T1；1 月 1 日 14:10 从首尔返程，15:10 落地上海浦东 T2。住在梨花女子大学站附近的 H Avenue Hotel Idae Shinchon，把四天压缩在首尔西侧与市中心。",
+              "en": "The outbound flight left at 11:35 on December 29 and reached Incheon T1 at 14:30. On January 1, the return flight departed Seoul at 14:10 and landed at Shanghai Pudong T2 at 15:10. We stayed at H Avenue Hotel Idae Shinchon near Ewha Womans University Station, keeping the four days around western and central Seoul."
+            },
+            {
+              "zh": "出发前的攻略写得很满，真正打勾的路线却很清楚：弘大逛店、解放村与南山、梨泰院小坡、乱打秀、明洞 ALAND，以及最后的跨年活动。",
+              "en": "The pre-trip plan was packed, but the checked-off route was much clearer: browsing Hongdae, Haebangchon and Namsan, the Itaewon hill, NANTA, ALAND in Myeongdong, and finally the New Year celebration."
+            }
+          ]
+        },
+        {
+          "id": "page-02-timeline-01",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "item-01",
+              "time": {
+                "zh": "12.29",
+                "en": "12.29"
+              },
+              "event": {
+                "zh": "仁川 → 弘大",
+                "en": "Incheon → Hongdae"
+              },
+              "detail": {
+                "zh": "落地就钻进潮牌街区，从霓虹逛到夜里",
+                "en": "Straight from the airport into the streetwear district, shopping beneath the neon"
+              }
+            },
+            {
+              "id": "item-02",
+              "time": {
+                "zh": "12.30",
+                "en": "12.30"
+              },
+              "event": {
+                "zh": "南山 → 解放村 → 梨泰院 → 明洞",
+                "en": "Namsan → Haebangchon → Itaewon → Myeongdong"
+              },
+              "detail": {
+                "zh": "雪后 City Walk，坐缆车下山，20:00 看乱打秀",
+                "en": "A snowy city walk, cable car down the mountain, and NANTA at 20:00"
+              }
+            },
+            {
+              "id": "item-03",
+              "time": {
+                "zh": "12.31",
+                "en": "12.31"
+              },
+              "event": {
+                "zh": "宫殿攻略、明洞购物与跨年",
+                "en": "Palace plans, Myeongdong shopping, and New Year"
+              },
+              "detail": {
+                "zh": "计划与实际交叠，确定完成的是 ALAND 和跨年活动",
+                "en": "Plans and reality overlapped; ALAND and the countdown were definitely completed"
+              }
+            },
+            {
+              "id": "item-04",
+              "time": {
+                "zh": "01.01",
+                "en": "01.01"
+              },
+              "event": {
+                "zh": "首尔 → 上海",
+                "en": "Seoul → Shanghai"
+              },
+              "detail": {
+                "zh": "午餐后前往机场，结束这趟跨年短途旅行",
+                "en": "Lunch, then the airport and the end of a short New Year trip"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-02-gallery-01",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "20-seoul-attractions-map",
+              "caption": {
+                "zh": "出发前收藏的首尔景点地图",
+                "en": "A Seoul attractions map saved before departure"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "22-hotel-location-map",
+              "caption": {
+                "zh": "住在梨大、新村一带",
+                "en": "Staying around Ewha and Sinchon"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "23-incheon-airport-route",
+              "caption": {
+                "zh": "从仁川 T1 进城的第一段路",
+                "en": "The first route into town from Incheon T1"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "page-03",
+      "blocks": [
+        {
+          "id": "page-03-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "落地就去弘大逛店",
+            "en": "Straight from the Airport to Browse Hongdae"
+          },
+          "subtitle": {
+            "zh": "Friday, December 29th · Hongdae",
+            "en": "Friday, December 29th · Hongdae"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "page-03-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午落地后直接去弘大。这里的潮流文化很成熟，店铺密度高，价格也比国内亲民不少；弘大门口和商业街一直热闹到晚上，霓虹、招牌和人流把第一晚一下拉满。",
+              "en": "We headed directly to Hongdae after landing in the afternoon. Seoul's streetwear culture felt mature, the shops were densely packed, and many prices were friendlier than back home. Hongdae's entrance and commercial streets stayed lively into the night; neon signs and crowds switched the trip on immediately."
+            },
+            {
+              "zh": "梨花女子大学原本也在清单里：想看 ECC 下沉建筑、校门左侧的教堂，再顺路逛 Olive Young。最后没有打勾，酒店虽住在梨大附近，校园还是留给下次。",
+              "en": "Ewha Womans University had also been on the list: the sunken ECC complex, the church to the left of the gate, and an Olive Young browse nearby. It never received a check mark. We stayed near Ewha, but the campus itself remains for another trip."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "01-hongdae-night-street",
+              "caption": {
+                "zh": "落地第一站：弘大热闹的夜街",
+                "en": "First stop after landing: Hongdae at full volume"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "02-neon-night-street",
+              "caption": {
+                "zh": "招牌和人流一直延伸进夜色",
+                "en": "Signs and crowds stretching into the night"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-gallery-02",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "03-hongdae-shopping-map",
+              "caption": {
+                "zh": "出发前做的弘大潮牌地图，最后真的按图扫了几家",
+                "en": "The Hongdae streetwear map—several stops really did get checked off"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-note-01",
+          "type": "note",
+          "title": {
+            "zh": "看了但没有特别心动",
+            "en": "Browsed, but not quite convinced"
+          },
+          "body": {
+            "zh": "Nerdy 有折扣，Marithé François Girbaud 的同款很多；thisisneverthat 像韩版 Supreme，但当时觉得价格没有那么合适。",
+            "en": "Nerdy had discounts and Marithé François Girbaud had plenty of celebrity-linked pieces. thisisneverthat felt like a Korean Supreme, but the pricing did not feel as attractive that day."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "page-04",
+      "blocks": [
+        {
+          "id": "page-04-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "雪后的首尔，一路都在爬坡",
+            "en": "Snowy Seoul, Uphill All the Way"
+          },
+          "subtitle": {
+            "zh": "Saturday, December 30th · Namsan · Haebangchon",
+            "en": "Saturday, December 30th · Namsan · Haebangchon"
+          },
+          "icon": "❄️"
+        },
+        {
+          "id": "page-04-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这天按 City Walk 的思路向南山走。首尔冬天的城市景观很特别：密集楼群背后是山，山坡上的南山塔始终在视线里。雪把街道、公交车和楼缝都压成低饱和色，走起来却一点也轻松——这里的坡是真的多。",
+              "en": "The day followed a loose city-walk route toward Namsan. Seoul's winter cityscape was striking: dense apartment blocks in front, mountains behind, and N Seoul Tower staying in view above the slopes. Snow muted the streets, buses, and buildings—but did nothing to make the walking easy. The hills here are real."
+            },
+            {
+              "zh": "明洞漫画街、国立中央博物馆、绿莎坪行人天桥和两家日落咖啡馆都留在未完成清单里；实际打卡的是解放村、南山塔和梨泰院。",
+              "en": "Myeongdong Cartoon Street, the National Museum of Korea, the Noksapyeong pedestrian bridge, and two sunset cafés all remained unchecked. Haebangchon, N Seoul Tower, and Itaewon were the places we actually reached."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "06-seoul-cityscape",
+              "caption": {
+                "zh": "楼群之外就是山，这是首尔最鲜明的城市轮廓",
+                "en": "Mountains beyond the towers: Seoul's clearest silhouette"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "07-namsan-tower-city-view",
+              "caption": {
+                "zh": "南山塔一直在坡顶提醒方向",
+                "en": "N Seoul Tower kept pointing out the top of the hill"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-02",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "08-snowy-city-buildings",
+              "caption": {
+                "zh": "雪后的市中心被压成黑白色调",
+                "en": "The city center reduced to a wintry monochrome"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "10-snowy-city-bus",
+              "caption": {
+                "zh": "雪还没化，公交照常穿过街区",
+                "en": "Snow still on the road; the city moving as usual"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-note-01",
+          "type": "note",
+          "title": {
+            "zh": "最真实的提醒",
+            "en": "The most practical warning"
+          },
+          "body": {
+            "zh": "首尔很多路都有坡度，一定要穿舒服、柔软、能久走的鞋。风景在高处，代价也写在小腿上。",
+            "en": "Many Seoul streets are steep. Bring soft, comfortable shoes that can handle a full day. The views are uphill, and your calves will keep the receipt."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "page-05",
+      "blocks": [
+        {
+          "id": "page-05-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "解放村、梨泰院与乱打秀",
+            "en": "Haebangchon, Itaewon, and NANTA"
+          },
+          "subtitle": {
+            "zh": "Haebangchon · Itaewon · Myeongdong",
+            "en": "Haebangchon · Itaewon · Myeongdong"
+          },
+          "icon": "🥁"
+        },
+        {
+          "id": "page-05-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在解放村换着角度看南山塔，又到梨泰院那条小坡打卡。上山之后从南山塔坐缆车下来，傍晚回到城市灯光里。晚上 20:00 赶到明洞 UNESCO 大厦三楼看乱打秀，锅碗瓢盆被敲成一场节奏很满的收尾。",
+              "en": "We found different angles on N Seoul Tower from Haebangchon, then stopped at the familiar Itaewon hill. After reaching the tower, we took the cable car back down and returned to the city lights. At 20:00, NANTA at the UNESCO Building in Myeongdong turned pots, pans, and knives into a fast, percussive finale."
+            }
+          ]
+        },
+        {
+          "id": "page-05-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "04-snowy-city-friends",
+              "caption": {
+                "zh": "雪后的街头合影，城市比想象中更冷",
+                "en": "A snowy street portrait; the city was colder than expected"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "05-city-overlook-friends",
+              "caption": {
+                "zh": "爬到高处，背后是铺开的首尔",
+                "en": "At the top of the climb, Seoul opened behind us"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-gallery-02",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "09-wanta-store-group",
+              "caption": {
+                "zh": "City Walk 途中，在 WANTA 店里留下的一张合影",
+                "en": "A group photo inside WANTA during the city walk"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-route-01",
+          "type": "route",
+          "compact": true,
+          "stops": [
+            {
+              "id": "stop-01",
+              "icon": "🏘️",
+              "label": {
+                "zh": "解放村",
+                "en": "Haebangchon"
+              }
+            },
+            {
+              "id": "stop-02",
+              "icon": "🗼",
+              "label": {
+                "zh": "南山塔",
+                "en": "N Seoul Tower"
+              }
+            },
+            {
+              "id": "stop-03",
+              "icon": "🚡",
+              "label": {
+                "zh": "缆车下山",
+                "en": "Cable car"
+              }
+            },
+            {
+              "id": "stop-04",
+              "icon": "📺",
+              "label": {
+                "zh": "梨泰院坡",
+                "en": "Itaewon hill"
+              }
+            },
+            {
+              "id": "stop-05",
+              "icon": "🥁",
+              "label": {
+                "zh": "乱打秀",
+                "en": "NANTA"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "page-06",
+      "blocks": [
+        {
+          "id": "page-06-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "宫殿攻略写得很细，完成记号却留白",
+            "en": "A Detailed Palace Plan, but No Check Mark"
+          },
+          "subtitle": {
+            "zh": "Sunday, December 31st · Gyeongbokgung · Myeongdong",
+            "en": "Sunday, December 31st · Gyeongbokgung · Myeongdong"
+          },
+          "icon": "🏯"
+        },
+        {
+          "id": "page-06-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "当天标题写着“景福宫与跨年”，攻略里甚至记下了景福宫站 5 号口、成人 3,000 韩币、儿童 1,500 韩币，以及周二闭馆。但这部分没有完成标记；青瓦台的护照领粉色手带和完整参观路线，也更像出发前留下的备忘。",
+              "en": "The day was titled “Gyeongbokgung & New Year,” and the notes went as far as Exit 5 of Gyeongbokgung Station, KRW 3,000 for adults, KRW 1,500 for children, and Tuesday closure. Yet this section never received a completion mark. The pink wristband collected with a passport at Cheongwadae and the full visitor route also read more like pre-trip notes."
+            },
+            {
+              "zh": "确定打勾的是明洞 ALAND 和晚上的跨年活动。圣水洞、江南与狎鸥亭都曾是下午候选，最后没有按购物清单一路追过去。",
+              "en": "What definitely got checked off was ALAND in Myeongdong and the New Year celebration that night. Seongsu, Gangnam, and Apgujeong were all candidates for the afternoon, but we did not chase the entire shopping list."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "11-gyeongbokgung-poster",
+              "caption": {
+                "zh": "景福宫攻略页：屋檐、宫墙与出发前的期待",
+                "en": "The palace planning page: tiled roofs, walls, and pre-trip anticipation"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "19-gyeongbokgung-light-show",
+              "caption": {
+                "zh": "收藏的宫殿灯光画面，为跨年前夜预热",
+                "en": "A saved palace light-show image setting the mood for New Year's Eve"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-06-gallery-02",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "18-designer-toy-citywalk",
+              "caption": {
+                "zh": "购物路线做了很多功课，真正走到哪里就随当天体力决定",
+                "en": "Plenty of shopping research; the day's energy still decided the real route"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-rating-01",
+          "type": "rating",
+          "title": {
+            "zh": "这趟实际确认的逛店记录",
+            "en": "Shopping stops confirmed in the journal"
+          },
+          "items": [
+            {
+              "id": "item-01",
+              "name": {
+                "zh": "明洞 ALAND",
+                "en": "ALAND, Myeongdong"
+              },
+              "comment": {
+                "zh": "潮牌聚集地，12 月 31 日完成打卡",
+                "en": "A streetwear collection store, checked off on December 31"
+              }
+            },
+            {
+              "id": "item-02",
+              "name": {
+                "zh": "Le Labo",
+                "en": "Le Labo"
+              },
+              "comment": {
+                "zh": "首尔限定味道，手帐特意写下“已买到！”",
+                "en": "The Seoul-exclusive scent, proudly marked “bought it!”"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "page-07",
+      "blocks": [
+        {
+          "id": "page-07-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🛍️",
+            "en": "🛍️"
+          },
+          "markerValue": {
+            "zh": "SHOP",
+            "en": "SHOP"
+          },
+          "title": {
+            "zh": "收藏很多，真正逛到的更值得记",
+            "en": "Many Saves, but the Stops We Made Matter More"
+          },
+          "subtitle": {
+            "zh": "Hongdae · Myeongdong · the wish list left for next time",
+            "en": "Hongdae · Myeongdong · the wish list left for next time"
+          }
+        },
+        {
+          "id": "page-07-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "首尔最让人满意的是购物体验。潮牌成熟、选择密、很多价格比国内友好；四天时间有限，没有必要把收藏夹里的每家店都变成任务。",
+              "en": "Shopping was the clearest success of the trip. Seoul's streetwear scene felt mature, the choice was dense, and many prices were better than at home. With only four days, there was no need to turn every saved store into an assignment."
+            }
+          ]
+        },
+        {
+          "id": "page-07-rating-01",
+          "type": "rating",
+          "title": {
+            "zh": "当时最想逛的区域",
+            "en": "The districts I most wanted to browse"
+          },
+          "items": [
+            {
+              "id": "item-01",
+              "name": {
+                "zh": "圣水洞",
+                "en": "Seongsu"
+              },
+              "comment": {
+                "zh": "Ader 太空店、emis、Fennec、KUOCA、Dior 主题店与 Le Labo",
+                "en": "Ader Space, emis, Fennec, KUOCA, the Dior concept store, and Le Labo"
+              }
+            },
+            {
+              "id": "item-02",
+              "name": {
+                "zh": "江南",
+                "en": "Gangnam"
+              },
+              "comment": {
+                "zh": "星空图书馆、BEAKER、新沙洞林荫路 Tamburins 与地下商街",
+                "en": "Starfield Library, BEAKER, Tamburins on Garosu-gil, and the underground mall"
+              }
+            },
+            {
+              "id": "item-03",
+              "name": {
+                "zh": "狎鸥亭",
+                "en": "Apgujeong"
+              },
+              "comment": {
+                "zh": "Worksout、Wooyoungmi、Solid Homme、Juun.J、10 Corso Como 与 Ader Error",
+                "en": "Worksout, Wooyoungmi, Solid Homme, Juun.J, 10 Corso Como, and Ader Error"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-07-note-01",
+          "type": "note",
+          "title": {
+            "zh": "清单里最有感情的一家",
+            "en": "The most emotional entry on the list"
+          },
+          "body": {
+            "zh": "“向鸡家”的炒鸡加拉面，在原笔记里留下了连续四个“爱”。哪怕这次没有完成标记，光看语气也知道它在期待榜上有多高。",
+            "en": "The stir-fried chicken and ramen at 向鸡家 (Xiangjijia) earned four consecutive “love”s in the original note. Even without a check mark, the punctuation says how high it ranked."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-08",
+      "sectionId": "page-08",
+      "blocks": [
+        {
+          "id": "page-08-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🎆",
+            "en": "🎆"
+          },
+          "markerValue": {
+            "zh": "2024",
+            "en": "2024"
+          },
+          "title": {
+            "zh": "在烟花里迎接 2024",
+            "en": "Welcoming 2024 Beneath Fireworks"
+          },
+          "subtitle": {
+            "zh": "New Year's Eve · Seoul",
+            "en": "New Year's Eve · Seoul"
+          },
+          "icon": "✨"
+        },
+        {
+          "id": "page-08-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "跨年活动是这天明确打勾的一项。烟花在夜空里散开，2023 和 2024 的分界被照得很亮。至于收藏的活动指南里，普信阁敲钟、“午夜的太阳”、首尔花灯、DDP 的“数字亚特兰蒂斯”、松岘灯光庆典和道林川星光庆典排得满满当当；手帐没有把某一场写成确定到场，所以它们仍保留为当时的备选。",
+              "en": "The New Year celebration was explicitly checked off. Fireworks opened above us, drawing a bright line between 2023 and 2024. The saved guide also listed the Bosingak bell-ringing, the “Midnight Sun,” the Seoul Lantern Festival, DDP's “Digital Atlantis,” the Songhyeon light festival, and the Dorimcheon starlight festival. The journal never confirms a specific one, so they remain the choices we had that night rather than places I claim we attended."
+            }
+          ]
+        },
+        {
+          "id": "page-08-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "12-new-year-fireworks",
+              "caption": {
+                "zh": "烟花升起，四天的旅行也走到最亮的一刻",
+                "en": "Fireworks rising as the four-day trip reached its brightest moment"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-timeline-01",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "item-01",
+              "time": {
+                "zh": "普信阁",
+                "en": "Bosingak"
+              },
+              "event": {
+                "zh": "跨年敲钟 33 次",
+                "en": "The bell rings 33 times at midnight"
+              },
+              "detail": {
+                "zh": "地点在钟路区贯铁洞，是当时攻略里的主活动",
+                "en": "The main event in the notes, held in Jongno"
+              }
+            },
+            {
+              "id": "item-02",
+              "time": {
+                "zh": "世宗大路",
+                "en": "Sejong-daero"
+              },
+              "event": {
+                "zh": "直径 12 米的“午夜太阳”",
+                "en": "A 12-meter “Midnight Sun”"
+              },
+              "detail": {
+                "zh": "敲钟后升起，并安排舞团表演",
+                "en": "Raised after the bell ceremony, followed by dance performances"
+              }
+            },
+            {
+              "id": "item-03",
+              "time": {
+                "zh": "光化门与清溪川",
+                "en": "Gwanghwamun & Cheonggyecheon"
+              },
+              "event": {
+                "zh": "首尔花灯庆典",
+                "en": "Seoul Lantern Festival"
+              },
+              "detail": {
+                "zh": "活动期从 2023.12.15 延续到 2024.01.21",
+                "en": "Running from December 15, 2023 through January 21, 2024"
+              }
+            },
+            {
+              "id": "item-04",
+              "time": {
+                "zh": "DDP",
+                "en": "DDP"
+              },
+              "event": {
+                "zh": "首尔之光：数字亚特兰蒂斯",
+                "en": "Seoul Light: Digital Atlantis"
+              },
+              "detail": {
+                "zh": "东大门设计广场外墙的大型光影节目",
+                "en": "A large projection across the Dongdaemun Design Plaza façade"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-09",
+      "sectionId": "page-09",
+      "blocks": [
+        {
+          "id": "page-09-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🥾",
+            "en": "🥾"
+          },
+          "markerValue": {
+            "zh": "WALK",
+            "en": "WALK"
+          },
+          "title": {
+            "zh": "南山的冬天，雪路比塔更难忘",
+            "en": "Namsan in Winter: the Path Outlasted the Tower"
+          },
+          "subtitle": {
+            "zh": "Namsan hillside · winter paths · Seoul Tower",
+            "en": "Namsan hillside · winter paths · Seoul Tower"
+          },
+          "icon": "🌲"
+        },
+        {
+          "id": "page-09-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回看照片，南山塔当然醒目，但更能留下身体记忆的是坡路、冬树和没有化完的雪。山坡一路把城市藏在身后，走累了才发现，首尔的风景常常不是一个点，而是抵达那个点之前的长路。",
+              "en": "Looking back, N Seoul Tower is the obvious landmark, but the slopes, bare trees, and patches of unmelted snow carry the stronger physical memory. The hillside hid the city behind us one step at a time. Seoul's scenery often was not a single viewpoint, but the long climb needed to reach it."
+            }
+          ]
+        },
+        {
+          "id": "page-09-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "13-namsan-hike-friends",
+              "caption": {
+                "zh": "山里的一张合影，坡度已经写在表情上",
+                "en": "A hillside photo; the climb is already visible on our faces"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "14-namsan-tower-hillside",
+              "caption": {
+                "zh": "隔着冬林望见南山塔",
+                "en": "N Seoul Tower seen through the winter trees"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-09-gallery-02",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "15-namsan-hillside-road",
+              "caption": {
+                "zh": "盘山路边，城市和山坡接在一起",
+                "en": "A winding road where the city meets the hillside"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "16-snowy-winter-trail",
+              "caption": {
+                "zh": "背阴处的雪还没有化",
+                "en": "Snow lingering wherever the sun could not reach"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-09-gallery-03",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "17-winter-park-path",
+              "caption": {
+                "zh": "树叶落尽之后，步道显得格外安静",
+                "en": "With the leaves gone, the path felt exceptionally quiet"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "sectionId": "page-10",
+      "blocks": [
+        {
+          "id": "page-10-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "📋",
+            "en": "📋"
+          },
+          "markerValue": {
+            "zh": "PLAN",
+            "en": "PLAN"
+          },
+          "title": {
+            "zh": "没打勾的清单，也属于这趟旅行",
+            "en": "The Unchecked List Still Belongs to the Trip"
+          },
+          "subtitle": {
+            "zh": "Plans saved, routes changed, no need to complete every square",
+            "en": "Plans saved, routes changed, no need to complete every square"
+          }
+        },
+        {
+          "id": "page-10-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "21-seoul-four-day-guide",
+              "caption": {
+                "zh": "出发前收藏的四日路线，真正走起来还是由天气和体力决定",
+                "en": "A four-day route saved before departure; weather and energy chose the real one"
+              },
+              "shape": "hero"
+            }
+          ]
+        },
+        {
+          "id": "page-10-rating-01",
+          "type": "rating",
+          "title": {
+            "zh": "最后没有完成",
+            "en": "What never got checked off"
+          },
+          "items": [
+            {
+              "id": "item-01",
+              "name": {
+                "zh": "文化线",
+                "en": "Culture"
+              },
+              "comment": {
+                "zh": "梨花女子大学、国立中央博物馆、青瓦台",
+                "en": "Ewha Womans University, the National Museum of Korea, and Cheongwadae"
+              }
+            },
+            {
+              "id": "item-02",
+              "name": {
+                "zh": "City Walk",
+                "en": "City walk"
+              },
+              "comment": {
+                "zh": "明洞漫画街、绿莎坪天桥、日落咖啡馆",
+                "en": "Myeongdong Cartoon Street, the Noksapyeong bridge, and the sunset cafés"
+              }
+            },
+            {
+              "id": "item-03",
+              "name": {
+                "zh": "购物线",
+                "en": "Shopping"
+              },
+              "comment": {
+                "zh": "乐天与新世界免税店、圣水洞、江南、狎鸥亭整日慢逛",
+                "en": "Lotte and Shinsegae duty-free, plus full days in Seongsu, Gangnam, and Apgujeong"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-10-note-01",
+          "type": "note",
+          "title": {
+            "zh": "旅行不是完成表格",
+            "en": "Travel is not a completed spreadsheet"
+          },
+          "body": {
+            "zh": "清单的意义是让出发前有所期待，不是要求落地后逐项交作业。真正留下来的，是弘大的店、南山的坡、乱打秀的鼓点和跨年的烟花。",
+            "en": "The checklist gave me something to anticipate before leaving; it did not become homework on arrival. What remained was enough: Hongdae shops, Namsan slopes, NANTA's drums, and New Year fireworks."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "sectionId": "page-11",
+      "blocks": [
+        {
+          "id": "page-11-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "💭",
+            "en": "💭"
+          },
+          "markerValue": {
+            "zh": "NOTES",
+            "en": "NOTES"
+          },
+          "title": {
+            "zh": "首尔很好逛，也很考验准备",
+            "en": "Seoul Shops Brilliantly—and Rewards Preparation"
+          },
+          "subtitle": {
+            "zh": "What worked · what annoyed me · what I would bring again",
+            "en": "What worked · what annoyed me · what I would bring again"
+          }
+        },
+        {
+          "id": "page-11-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟旅行最明确的好评给购物：潮流文化成熟、品牌选择多、体验顺手。最明确的提醒则来自城市本身——坡多、公共厕所和垃圾桶少，走一天以后这些细节比景点更有存在感。",
+              "en": "The strongest praise goes to shopping: a mature streetwear culture, broad choice, and an easy browsing experience. The clearest warnings came from the city itself—steep streets and fewer public toilets and bins than expected. After a full day, those details felt more immediate than any landmark."
+            },
+            {
+              "zh": "语言上，Papago 很有用；途中用英文沟通并不总是顺利。也遇到过插队，让人有点不舒服。酒店不提供牙刷牙膏，入住时还会担心臭虫；仁川机场人多，出入境和返程都该预留足够时间。",
+              "en": "Papago was genuinely useful, because English did not always get us through. A few people cutting lines also left a sour impression. Hotels do not routinely provide toothbrushes or toothpaste, bedbugs were on our minds at check-in, and Incheon Airport was crowded enough that both arrival and departure deserved extra time."
+            }
+          ]
+        },
+        {
+          "id": "page-11-timeline-01",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "item-01",
+              "time": {
+                "zh": "带对了",
+                "en": "Packed right"
+              },
+              "event": {
+                "zh": "充电宝、当地电话卡、转换插头、T-Money",
+                "en": "Power bank, local SIM, plug adapter, and T-Money"
+              },
+              "detail": {
+                "zh": "中国电话卡的境外流量不一定能打开所有韩国 App",
+                "en": "A Chinese carrier's roaming package may not open every Korean app"
+              }
+            },
+            {
+              "id": "item-02",
+              "time": {
+                "zh": "App",
+                "en": "Apps"
+              },
+              "event": {
+                "zh": "Naver 导航，Papago / Kuli Kuli 翻译",
+                "en": "Naver for navigation; Papago and Kuli Kuli for translation"
+              },
+              "detail": {
+                "zh": "路线和语言都不要只依赖一个工具",
+                "en": "Do not depend on a single tool for either routes or language"
+              }
+            },
+            {
+              "id": "item-03",
+              "time": {
+                "zh": "出门前",
+                "en": "Before leaving"
+              },
+              "event": {
+                "zh": "穿软底鞋，先找洗手间",
+                "en": "Wear soft-soled shoes and use the restroom"
+              },
+              "detail": {
+                "zh": "首尔街头公共厕所与垃圾桶比预想中少",
+                "en": "Public toilets and bins were much harder to find than expected"
+              }
+            },
+            {
+              "id": "item-04",
+              "time": {
+                "zh": "手帐余额",
+                "en": "Journal balance"
+              },
+              "event": {
+                "zh": "3,500 / 3,600 韩币",
+                "en": "KRW 3,500 / 3,600"
+              },
+              "detail": {
+                "zh": "原笔记最后留下的数字，原样保留",
+                "en": "The final numbers in the original note, preserved without interpretation"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-11-divider-01",
+          "type": "divider",
+          "icon": "🎆",
+          "spacing": {
+            "top": 24,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-11-prose-02",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "paragraphs": [
+            {
+              "zh": "四天很短，清单很长。",
+              "en": "Four days were short, and the list was long."
+            },
+            {
+              "zh": "没有走完的地方留给下次，",
+              "en": "The places we missed can wait for next time;"
+            },
+            {
+              "zh": "走过的雪坡、霓虹和烟花已经足够完整。",
+              "en": "the snowy slopes, neon, and fireworks already make a complete trip."
+            }
+          ]
+        },
+        {
+          "id": "page-11-tags-01",
+          "type": "tags",
+          "variant": "outlined",
+          "items": [
+            {
+              "id": "tag-01",
+              "label": {
+                "zh": "#首尔跨年",
+                "en": "#SeoulNewYear"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "tag-02",
+              "label": {
+                "zh": "#弘大购物",
+                "en": "#HongdaeShopping"
+              },
+              "tone": "teal"
+            },
+            {
+              "id": "tag-03",
+              "label": {
+                "zh": "#南山雪路",
+                "en": "#SnowyNamsan"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "tag-04",
+              "label": {
+                "zh": "#梨泰院CityWalk",
+                "en": "#ItaewonCityWalk"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "tag-05",
+              "label": {
+                "zh": "#2024你好",
+                "en": "#Hello2024"
+              },
+              "tone": "pink"
+            }
+          ],
+          "spacing": {
+            "top": 24
+          }
+        },
+        {
+          "id": "page-11-stamp-01",
+          "type": "stamp",
+          "spacing": {
+            "top": 24
+          },
+          "text": {
+            "zh": "FIN · 2024.01",
+            "en": "FIN · 2024.01"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}

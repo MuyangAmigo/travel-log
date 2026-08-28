@@ -7,7 +7,11 @@
     "build": "next build --webpack && node ../scripts/encrypt-private-trips.mjs",
     "build:next": "next build --webpack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview:editor-api": "node ../scripts/editor-preview-server.mjs",
+    "test:editor": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test src/lib/editor-api.test.mjs src/lib/editor-state.test.mjs",
+    "test:trip-document": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test src/lib/trip-document.test.mjs src/content/trips/*/content.test.mjs",
+    "test:microsoft-auth": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test src/lib/microsoft-auth-policy.test.mjs"
   },
   "dependencies": {
     "next": "16.3.0",

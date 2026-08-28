@@ -1,0 +1,1729 @@
+{
+  "version": 1,
+  "slug": "japan-2023",
+  "metadata": {
+    "date": "2023-11-01",
+    "dateRange": "2023.11",
+    "coverImageId": "mount-fuji-lake-view",
+    "title": {
+      "zh": "富士静景，东京热游",
+      "en": "Fuji Stillness, Tokyo in Motion"
+    },
+    "subtitle": {
+      "zh": "从河口湖的温泉晨景，到东京街区、横滨夜色与满箱战利品",
+      "en": "From quiet onsen mornings at Lake Kawaguchi to Tokyo streets, Yokohama lights, and suitcases full of finds"
+    },
+    "location": {
+      "zh": "日本 · 河口湖 / 东京 / 横滨",
+      "en": "Lake Kawaguchi, Tokyo & Yokohama, Japan"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "tokyo-city-one-day-tour",
+      "filename": "tokyo-city-one-day-tour.jpeg",
+      "alt": {
+        "zh": "东京一日游路线参考图",
+        "en": "Reference itinerary for a one-day Tokyo tour"
+      }
+    },
+    {
+      "id": "lake-kawaguchi-hotel-areas-map",
+      "filename": "lake-kawaguchi-hotel-areas-map.jpeg",
+      "alt": {
+        "zh": "河口湖酒店区域分布图",
+        "en": "Map of hotel areas around Lake Kawaguchi"
+      }
+    },
+    {
+      "id": "mount-fuji-lake-view",
+      "filename": "mount-fuji-lake-view.png",
+      "alt": {
+        "zh": "河口湖畔远望富士山",
+        "en": "Mount Fuji seen across Lake Kawaguchi"
+      }
+    },
+    {
+      "id": "kawaguchiko-station-sign-entrance",
+      "filename": "kawaguchiko-station-sign-entrance.png",
+      "alt": {
+        "zh": "河口湖站入口与站名标识",
+        "en": "Entrance and station sign at Kawaguchiko Station"
+      }
+    },
+    {
+      "id": "chureito-pagoda-overlooking-fujiyoshida",
+      "filename": "chureito-pagoda-overlooking-fujiyoshida.png",
+      "alt": {
+        "zh": "新仓山浅间公园五重塔俯瞰富士吉田",
+        "en": "Chureito Pagoda overlooking Fujiyoshida"
+      }
+    },
+    {
+      "id": "group-at-japanese-temple",
+      "filename": "group-at-japanese-temple.jpeg",
+      "alt": {
+        "zh": "一行人在日本寺社建筑前合影",
+        "en": "Travel group posing before a Japanese temple building"
+      }
+    },
+    {
+      "id": "two-people-under-tree",
+      "filename": "two-people-under-tree.jpeg",
+      "alt": {
+        "zh": "两个人站在树下合影",
+        "en": "Two people posing beneath a tree"
+      }
+    },
+    {
+      "id": "hanazono-inari-shrine-banners",
+      "filename": "hanazono-inari-shrine-banners.png",
+      "alt": {
+        "zh": "花园稻荷神社朱红色奉纳旗",
+        "en": "Vermilion prayer banners at Hanazono Inari Shrine"
+      }
+    },
+    {
+      "id": "hand-holding-japanese-temple-charm",
+      "filename": "hand-holding-japanese-temple-charm.png",
+      "alt": {
+        "zh": "手里拿着日本寺社御守",
+        "en": "A hand holding a Japanese temple charm"
+      }
+    },
+    {
+      "id": "japanese-shrine-incense-burner",
+      "filename": "japanese-shrine-incense-burner.png",
+      "alt": {
+        "zh": "日本寺社香炉与参拜人群",
+        "en": "Incense burner and visitors at a Japanese temple"
+      }
+    },
+    {
+      "id": "sensoji-temple-japanese-signboard",
+      "filename": "sensoji-temple-japanese-signboard.png",
+      "alt": {
+        "zh": "浅草寺日文招牌与建筑入口",
+        "en": "Japanese sign and entrance at Senso-ji"
+      }
+    },
+    {
+      "id": "tokyo-urban-street-intersection",
+      "filename": "tokyo-urban-street-intersection.png",
+      "alt": {
+        "zh": "东京城市街区十字路口",
+        "en": "Street intersection in central Tokyo"
+      }
+    },
+    {
+      "id": "tokyo-night-shopping-street",
+      "filename": "tokyo-night-shopping-street.png",
+      "alt": {
+        "zh": "东京夜晚商店街与灯光招牌",
+        "en": "Tokyo shopping street illuminated at night"
+      }
+    },
+    {
+      "id": "night-city-view-observatory-couple",
+      "filename": "night-city-view-observatory-couple.jpeg",
+      "alt": {
+        "zh": "两个人在观景台前看东京夜景",
+        "en": "Two people overlooking Tokyo at night from an observation deck"
+      }
+    },
+    {
+      "id": "two-people-outdoors-near-building",
+      "filename": "two-people-outdoors-near-building.jpeg",
+      "alt": {
+        "zh": "两个人在东京建筑旁合影",
+        "en": "Two people posing beside a Tokyo building"
+      }
+    },
+    {
+      "id": "friends-on-observation-deck",
+      "filename": "friends-on-observation-deck.png",
+      "alt": {
+        "zh": "朋友们站在东京高空观景台",
+        "en": "Friends standing on a high observation deck in Tokyo"
+      }
+    },
+    {
+      "id": "group-city-night-view",
+      "filename": "group-city-night-view.jpeg",
+      "alt": {
+        "zh": "一行人在东京城市夜景前合影",
+        "en": "Travel group posing before the Tokyo night skyline"
+      }
+    },
+    {
+      "id": "two-people-city-night-view",
+      "filename": "two-people-city-night-view.jpeg",
+      "alt": {
+        "zh": "两个人以东京夜景为背景合影",
+        "en": "Two people posing with Tokyo at night behind them"
+      }
+    },
+    {
+      "id": "modern-city-intersection-buildings",
+      "filename": "modern-city-intersection-buildings.png",
+      "alt": {
+        "zh": "东京现代建筑围绕的城市路口",
+        "en": "Tokyo intersection framed by modern buildings"
+      }
+    },
+    {
+      "id": "ginza-six-shopping-center",
+      "filename": "ginza-six-shopping-center.png",
+      "alt": {
+        "zh": "GINZA SIX 购物中心外立面",
+        "en": "Exterior of GINZA SIX shopping center"
+      }
+    },
+    {
+      "id": "tokyo-business-district-parkway",
+      "filename": "tokyo-business-district-parkway.png",
+      "alt": {
+        "zh": "东京商务区林荫道路",
+        "en": "Tree-lined road in a Tokyo business district"
+      }
+    },
+    {
+      "id": "rainy-japanese-city-street-night",
+      "filename": "rainy-japanese-city-street-night.png",
+      "alt": {
+        "zh": "雨夜中的日本城市街道",
+        "en": "Japanese city street on a rainy night"
+      }
+    },
+    {
+      "id": "modern-cube-building-exterior",
+      "filename": "modern-cube-building-exterior.png",
+      "alt": {
+        "zh": "现代立方体建筑外观",
+        "en": "Exterior of a modern cubic building"
+      }
+    },
+    {
+      "id": "urban-plaza-with-tall-buildings",
+      "filename": "urban-plaza-with-tall-buildings.png",
+      "alt": {
+        "zh": "高楼围绕的城市广场",
+        "en": "Urban plaza surrounded by high-rise buildings"
+      }
+    },
+    {
+      "id": "tokyo-urban-train-overpass",
+      "filename": "tokyo-urban-train-overpass.png",
+      "alt": {
+        "zh": "东京城市铁路高架与街景",
+        "en": "Elevated railway crossing a Tokyo street"
+      }
+    },
+    {
+      "id": "tokyo-street-with-crane",
+      "filename": "tokyo-street-with-crane.png",
+      "alt": {
+        "zh": "有施工吊车的东京街道",
+        "en": "Tokyo street with a construction crane"
+      }
+    },
+    {
+      "id": "tokyo-anime-district-nightscape",
+      "filename": "tokyo-anime-district-nightscape.png",
+      "alt": {
+        "zh": "东京动漫街区夜景与灯牌",
+        "en": "Anime district signs illuminated at night in Tokyo"
+      }
+    },
+    {
+      "id": "yokohama-landmark-tower-skyline",
+      "filename": "yokohama-landmark-tower-skyline.png",
+      "alt": {
+        "zh": "横滨地标塔与港口城市天际线",
+        "en": "Yokohama Landmark Tower in the harbor skyline"
+      }
+    },
+    {
+      "id": "wizard-robe-by-display-case",
+      "filename": "wizard-robe-by-display-case.jpeg",
+      "alt": {
+        "zh": "穿巫师袍站在哈利波特展柜旁",
+        "en": "Visitor in wizard robes beside a Harry Potter display case"
+      }
+    },
+    {
+      "id": "harry-potter-undesirable-no-1-poster",
+      "filename": "harry-potter-undesirable-no-1-poster.png",
+      "alt": {
+        "zh": "哈利波特头号不受欢迎人物海报",
+        "en": "Harry Potter Undesirable No. 1 poster"
+      }
+    },
+    {
+      "id": "harry-potter-poster-display",
+      "filename": "harry-potter-poster-display.png",
+      "alt": {
+        "zh": "哈利波特主题海报展陈",
+        "en": "Harry Potter posters displayed in the studio tour"
+      }
+    },
+    {
+      "id": "wizard-stirring-glowing-cauldron",
+      "filename": "wizard-stirring-glowing-cauldron.jpeg",
+      "alt": {
+        "zh": "巫师装扮游客搅动发光坩埚",
+        "en": "Visitor in wizard robes stirring a glowing cauldron"
+      }
+    },
+    {
+      "id": "nike-shoes-in-open-boxes",
+      "filename": "nike-shoes-in-open-boxes.png",
+      "alt": {
+        "zh": "打开鞋盒摆放的 Nike 运动鞋",
+        "en": "Nike sneakers displayed in open shoe boxes"
+      }
+    },
+    {
+      "id": "folded-puffer-jacket-and-pants",
+      "filename": "folded-puffer-jacket-and-pants.png",
+      "alt": {
+        "zh": "叠放的羽绒服与长裤",
+        "en": "Folded puffer jacket and trousers"
+      }
+    },
+    {
+      "id": "black-backpack-and-khaki-pants",
+      "filename": "black-backpack-and-khaki-pants.png",
+      "alt": {
+        "zh": "黑色背包与卡其色长裤",
+        "en": "Black backpack and khaki trousers"
+      }
+    },
+    {
+      "id": "packaged-bape-crewneck-shirt",
+      "filename": "packaged-bape-crewneck-shirt.png",
+      "alt": {
+        "zh": "包装中的 Bape 圆领上衣",
+        "en": "Packaged Bape crewneck shirt"
+      }
+    },
+    {
+      "id": "atmo-black-shirts-packaged",
+      "filename": "atmo-black-shirts-packaged.png",
+      "alt": {
+        "zh": "包装好的黑色 ATOMS T恤",
+        "en": "Packaged black ATOMS T-shirts"
+      }
+    },
+    {
+      "id": "uniqlo-kaws-graphic-tshirts",
+      "filename": "uniqlo-kaws-graphic-tshirts.png",
+      "alt": {
+        "zh": "优衣库 KAWS 联名图案 T恤",
+        "en": "Uniqlo KAWS graphic T-shirts"
+      }
+    },
+    {
+      "id": "paris-saint-germain-clothing-set",
+      "filename": "paris-saint-germain-clothing-set.png",
+      "alt": {
+        "zh": "巴黎圣日耳曼 T恤与卫衣套装",
+        "en": "Paris Saint-Germain T-shirt and sweatshirt"
+      }
+    },
+    {
+      "id": "arcteryx-black-jackets-folded",
+      "filename": "arcteryx-black-jackets-folded.png",
+      "alt": {
+        "zh": "叠放的两件始祖鸟黑色外套",
+        "en": "Two folded black Arc'teryx jackets"
+      }
+    },
+    {
+      "id": "harry-potter-souvenir-items",
+      "filename": "harry-potter-souvenir-items.png",
+      "alt": {
+        "zh": "哈利波特主题纪念品摆放在一起",
+        "en": "Harry Potter souvenir items arranged together"
+      }
+    },
+    {
+      "id": "japanese-snack-boxes-on-carpet-2",
+      "filename": "japanese-snack-boxes-on-carpet-2.png",
+      "alt": {
+        "zh": "地毯上摆放的日本点心礼盒",
+        "en": "Japanese confectionery boxes arranged on a carpet"
+      }
+    },
+    {
+      "id": "japanese-healthcare-products-flatlay",
+      "filename": "japanese-healthcare-products-flatlay.png",
+      "alt": {
+        "zh": "日本保健与药妆产品平铺",
+        "en": "Japanese healthcare and drugstore products laid flat"
+      }
+    },
+    {
+      "id": "three-ceramic-kitchen-knives",
+      "filename": "three-ceramic-kitchen-knives.png",
+      "alt": {
+        "zh": "三把陶瓷厨房刀具",
+        "en": "Three ceramic kitchen knives"
+      }
+    },
+    {
+      "id": "japanese-eye-and-cold-medicines",
+      "filename": "japanese-eye-and-cold-medicines.png",
+      "alt": {
+        "zh": "日本眼药水与感冒药",
+        "en": "Japanese eye drops and cold medicine"
+      }
+    },
+    {
+      "id": "japanese-snack-boxes-on-carpet",
+      "filename": "japanese-snack-boxes-on-carpet.png",
+      "alt": {
+        "zh": "多盒日本零食与伴手礼",
+        "en": "Multiple Japanese snack and gift boxes"
+      }
+    },
+    {
+      "id": "korean-skincare-products-flatlay",
+      "filename": "korean-skincare-products-flatlay.png",
+      "alt": {
+        "zh": "多件护肤品平铺陈列",
+        "en": "Skincare products arranged in a flat lay"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "page-01"
+    },
+    {
+      "id": "page-02"
+    },
+    {
+      "id": "page-03"
+    },
+    {
+      "id": "page-04"
+    },
+    {
+      "id": "page-05"
+    },
+    {
+      "id": "page-06"
+    },
+    {
+      "id": "page-07"
+    },
+    {
+      "id": "page-08"
+    },
+    {
+      "id": "page-09"
+    },
+    {
+      "id": "page-10"
+    },
+    {
+      "id": "page-11"
+    },
+    {
+      "id": "page-12"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "page-01",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover-01",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🗻 ♨️ 🌃",
+            "en": "🗻 ♨️ 🌃"
+          },
+          "title": {
+            "zh": "富士静景，\n东京热游",
+            "en": "Fuji Stillness,\nTokyo in Motion"
+          },
+          "subtitle": {
+            "zh": "Fuji Stillness, Tokyo in Motion",
+            "en": "富士静景，东京热游"
+          },
+          "date": {
+            "zh": "NOVEMBER · 2023",
+            "en": "NOVEMBER · 2023"
+          },
+          "intro": {
+            "zh": "「先在河口湖慢下来，\n再一头扎进东京的街区、夜景和购物袋。」",
+            "en": "“First, slow down at Lake Kawaguchi.\nThen dive into Tokyo's streets, night views, and shopping bags.”"
+          },
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "JAPAN\n2023",
+              "en": "JAPAN\n2023"
+            }
+          }
+        },
+        {
+          "id": "page-01-stamp-01",
+          "type": "stamp",
+          "spacing": {
+            "top": 24
+          },
+          "text": {
+            "zh": "TOKYO · FUJI PASS",
+            "en": "TOKYO · FUJI PASS"
+          },
+          "tilt": "left"
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "page-02",
+      "blocks": [
+        {
+          "id": "page-02-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🗺️",
+            "en": "🗺️"
+          },
+          "markerValue": {
+            "zh": "ROUTE",
+            "en": "ROUTE"
+          },
+          "title": {
+            "zh": "七天，从富士山脚走到东京霓虹",
+            "en": "Seven Days from Fuji's Foothills to Tokyo Neon"
+          },
+          "subtitle": {
+            "zh": "河口湖 · 上野 · 浅草 · 涩谷 · 银座 · 横滨 · 丰岛园",
+            "en": "Kawaguchiko · Ueno · Asakusa · Shibuya · Ginza · Yokohama · Toshimaen"
+          }
+        },
+        {
+          "id": "page-02-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟十一月的日本旅行以河口湖开场：先住进富士吟景，在湖边温泉旅馆看富士山；再回到东京，以高田马场的相铁 Grand Fresa 为据点，把上野、浅草、原宿、涩谷、皇居、银座、秋叶原和横滨串成一条越来越热闹的路线。",
+              "en": "This November trip opened at Lake Kawaguchi. We stayed at Fuji Ginkei, watching Mount Fuji from a lakeside onsen hotel, then returned to Tokyo and used Sotetsu Grand Fresa Takadanobaba as a base for Ueno, Asakusa, Harajuku, Shibuya, the Imperial Palace, Ginza, Akihabara, and Yokohama."
+            },
+            {
+              "zh": "最后一天留给东京哈利波特影城，返程前还在日上免税补上最大一笔购物。原笔记把总花费概括为约 2 万元；比景点更醒目的，是一路不断变厚的购物清单。",
+              "en": "The final day belonged to the Warner Bros. Studio Tour Tokyo, followed by the trip's largest shopping charge at Sunrise Duty Free. The original note summarizes the total at about RMB 20,000. As memorable as the sights were, the shopping list kept growing just as quickly."
+            }
+          ]
+        },
+        {
+          "id": "page-02-timeline-01",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "item-01",
+              "time": {
+                "zh": "Day 1–2",
+                "en": "Day 1–2"
+              },
+              "event": {
+                "zh": "河口湖",
+                "en": "Lake Kawaguchi"
+              },
+              "detail": {
+                "zh": "湖畔温泉、富士山、新仓山浅间公园与忍野八海",
+                "en": "Lakeside onsen, Mount Fuji, Chureito Pagoda, and Oshino Hakkai"
+              }
+            },
+            {
+              "id": "item-02",
+              "time": {
+                "zh": "Day 3",
+                "en": "Day 3"
+              },
+              "event": {
+                "zh": "上野 → 浅草",
+                "en": "Ueno → Asakusa"
+              },
+              "detail": {
+                "zh": "公园、神社、浅草寺与夜晚商店街",
+                "en": "Park paths, shrines, Senso-ji, and shopping streets after dark"
+              }
+            },
+            {
+              "id": "item-03",
+              "time": {
+                "zh": "Day 4–5",
+                "en": "Day 4–5"
+              },
+              "event": {
+                "zh": "原宿涩谷 → 皇居银座秋叶原",
+                "en": "Harajuku and Shibuya → Imperial Palace, Ginza, Akihabara"
+              },
+              "detail": {
+                "zh": "白天穿街区，晚上看东京铺成灯海",
+                "en": "Neighborhoods by day and Tokyo spread into a sea of lights by night"
+              }
+            },
+            {
+              "id": "item-04",
+              "time": {
+                "zh": "Day 6–7",
+                "en": "Day 6–7"
+              },
+              "event": {
+                "zh": "购物 → 横滨 → 哈利波特影城 → 回家",
+                "en": "Shopping → Yokohama → Harry Potter Studio Tour → home"
+              },
+              "detail": {
+                "zh": "城市建筑、港口天际线、电影布景和最后一轮采购",
+                "en": "Architecture, harbor skyline, film sets, and one final buying round"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-02-gallery-01",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "tokyo-city-one-day-tour",
+              "caption": {
+                "zh": "出发前收藏的东京一日路线",
+                "en": "A Tokyo day route saved before departure"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "lake-kawaguchi-hotel-areas-map",
+              "caption": {
+                "zh": "河口湖住宿区域参考",
+                "en": "A guide to where to stay around the lake"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "page-03",
+      "blocks": [
+        {
+          "id": "page-03-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1–2",
+            "en": "1–2"
+          },
+          "title": {
+            "zh": "河口湖，把节奏交给富士山",
+            "en": "Lake Kawaguchi, Moving at Mount Fuji's Pace"
+          },
+          "subtitle": {
+            "zh": "Kawaguchiko · Fuji Ginkei · Oshino Hakkai",
+            "en": "Kawaguchiko · Fuji Ginkei · Oshino Hakkai"
+          },
+          "icon": "🗻"
+        },
+        {
+          "id": "page-03-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从东京出发来到河口湖，住进湖边的富士吟景。推开窗就是富士山，温泉旅馆的安静让整趟旅行先慢了下来。天气并不完美，但山、湖和低低的云仍然足够让人停下来多看一会儿。",
+              "en": "We came from Tokyo to Lake Kawaguchi and checked into Fuji Ginkei beside the water. Mount Fuji filled the view when we opened the window, and the quiet onsen hotel slowed the whole trip down before it had properly begun. The weather was not perfect, but the mountain, lake, and low clouds still made us stop and look."
+            },
+            {
+              "zh": "两天里经过河口湖站、新仓山浅间公园一带，也把忍野八海与河口湖音乐森林附近的炸鸡店记进路线。这里没有东京那么满，风景本身就是行程。",
+              "en": "The two days took us through Kawaguchiko Station and the Chureito Pagoda area, with Oshino Hakkai and a karaage shop near the Kawaguchiko Music Forest also saved on the route. Nothing here felt as packed as Tokyo; the scenery itself was the itinerary."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "mount-fuji-lake-view",
+              "caption": {
+                "zh": "湖水、富士山与旅馆窗外的安静",
+                "en": "Lake water, Mount Fuji, and the stillness outside the hotel"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-gallery-02",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "kawaguchiko-station-sign-entrance",
+              "caption": {
+                "zh": "抵达河口湖，富士山段正式开始",
+                "en": "Arriving at Kawaguchiko—the Fuji chapter begins"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "chureito-pagoda-overlooking-fujiyoshida",
+              "caption": {
+                "zh": "五重塔与山下城市铺在同一层景深里",
+                "en": "The five-story pagoda and city sharing one deep view"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-gallery-03",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "group-at-japanese-temple",
+              "caption": {
+                "zh": "富士山脚下的同行合影",
+                "en": "A group portrait below Mount Fuji"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "two-people-under-tree",
+              "caption": {
+                "zh": "树影下的一张旅行照，把河口湖的慢留住",
+                "en": "A quiet portrait beneath the trees"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "page-04",
+      "blocks": [
+        {
+          "id": "page-04-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "从上野的朱红鸟居走到浅草夜街",
+            "en": "From Ueno's Vermilion Banners to Asakusa at Night"
+          },
+          "subtitle": {
+            "zh": "Ueno Park · Hanazono Inari · Senso-ji",
+            "en": "Ueno Park · Hanazono Inari · Senso-ji"
+          },
+          "icon": "⛩️"
+        },
+        {
+          "id": "page-04-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回到东京后先逛上野公园，再一路走向浅草寺。花园稻荷神社的红色奉纳旗、手里的御守、香炉升起的烟和浅草寺招牌，把这天的寺社记忆拼得很具体。",
+              "en": "Back in Tokyo, we started in Ueno Park and continued toward Senso-ji. The red prayer banners at Hanazono Inari Shrine, a charm held in one hand, incense smoke, and Senso-ji's signs made the day's shrine memories unusually tangible."
+            },
+            {
+              "zh": "浅草商店街的氛围很好，白天的参拜动线到了晚上变成招牌、路口和人流，顺手淘了一些小纪念品。东京国立博物馆也在这一区的收藏路线里。",
+              "en": "Asakusa's shopping streets had a great atmosphere. The daytime temple route turned into signs, intersections, and crowds after dark, and we picked up a few small souvenirs along the way. The Tokyo National Museum was also saved among the stops in this area."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-01",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "hanazono-inari-shrine-banners",
+              "caption": {
+                "zh": "上野公园里的花园稻荷神社",
+                "en": "Hanazono Inari inside Ueno Park"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "hand-holding-japanese-temple-charm",
+              "caption": {
+                "zh": "从寺社带走的一枚小纪念",
+                "en": "A small keepsake from the shrine route"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "japanese-shrine-incense-burner",
+              "caption": {
+                "zh": "香炉的烟把浅草的喧闹隔开一层",
+                "en": "Incense smoke placing a soft veil over busy Asakusa"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-02",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "sensoji-temple-japanese-signboard",
+              "caption": {
+                "zh": "浅草寺的入口标识",
+                "en": "The entrance signage at Senso-ji"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "tokyo-urban-street-intersection",
+              "caption": {
+                "zh": "从寺社走回现代东京的路口",
+                "en": "Walking from old temple grounds back into modern Tokyo"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "tokyo-night-shopping-street",
+              "caption": {
+                "zh": "夜色落下，商店街依旧热闹",
+                "en": "The shopping street staying lively after dark"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "page-05",
+      "blocks": [
+        {
+          "id": "page-05-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "原宿、表参道与涩谷的夜空",
+            "en": "Harajuku, Omotesando, and the Sky Above Shibuya"
+          },
+          "subtitle": {
+            "zh": "Meiji Jingu · Omotesando · Shibuya Sky",
+            "en": "Meiji Jingu · Omotesando · Shibuya Sky"
+          },
+          "icon": "🌃"
+        },
+        {
+          "id": "page-05-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "白天的路线在明治神宫、原宿、表参道与根津美术馆一带展开，到了晚上，Shibuya Sky 成了这天最强烈的记忆。站在高处，东京不再是一条街，而是一整片向远处延伸的灯光。",
+              "en": "The daytime route moved around Meiji Jingu, Harajuku, Omotesando, and the Nezu Museum area. At night, Shibuya Sky became the day's strongest memory. From above, Tokyo stopped being a sequence of streets and became an entire field of light stretching toward the horizon."
+            },
+            {
+              "zh": "购物也在这天突然加速：ATOMS 两件 T 恤 11,019 日元；PSG 店一件 T 恤加一件卫衣 31,900 日元；ABC Mart 的 Nike 板鞋 14,000 日元；两件 Aape 毛衣 28,666 日元；Air Jordan 板鞋 18,315 日元。原笔记合计 103,900 日元，约 5,082 元。",
+              "en": "Shopping accelerated too: two ATOMS T-shirts for JPY 11,019; a T-shirt and sweatshirt at the PSG store for JPY 31,900; Nike sneakers at ABC Mart for JPY 14,000; two Aape sweaters for JPY 28,666; and Air Jordan sneakers for JPY 18,315. The note totals Day 4 at JPY 103,900, or about RMB 5,082."
+            }
+          ]
+        },
+        {
+          "id": "page-05-gallery-01",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "night-city-view-observatory-couple",
+              "caption": {
+                "zh": "Shibuya Sky 上，城市灯光铺到视线尽头",
+                "en": "Tokyo&apos;s lights reaching the horizon from Shibuya Sky"
+              },
+              "shape": "landscape"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-gallery-02",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "two-people-outdoors-near-building",
+              "caption": {
+                "zh": "白天穿过原宿与表参道",
+                "en": "Moving through Harajuku and Omotesando by day"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "friends-on-observation-deck",
+              "caption": {
+                "zh": "在观景台留下合影",
+                "en": "A group portrait on the observation deck"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "group-city-night-view",
+              "caption": {
+                "zh": "一群人与一整座夜东京",
+                "en": "A whole group against a whole city of lights"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "two-people-city-night-view",
+              "caption": {
+                "zh": "夜景很震撼，照片只是缩小版",
+                "en": "The photograph is only a reduced version of the view"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "page-06",
+      "blocks": [
+        {
+          "id": "page-06-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "皇居到银座，再去秋叶原看雨夜",
+            "en": "Imperial Palace to Ginza, Then Akihabara in the Rain"
+          },
+          "subtitle": {
+            "zh": "Imperial Palace · Ginza · Akihabara",
+            "en": "Imperial Palace · Ginza · Akihabara"
+          },
+          "icon": "🌧️"
+        },
+        {
+          "id": "page-06-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这天从皇居一带的开阔道路走进银座整齐的商业建筑，再转向秋叶原。东京的反差被压在一天里：树木与商务区、GINZA SIX 的玻璃幕墙、密集招牌，以及雨水反射出来的夜色。",
+              "en": "We moved from the open roads around the Imperial Palace into Ginza's ordered commercial blocks, then on to Akihabara. Tokyo's contrasts fit into one day: trees and business towers, the glass façade of GINZA SIX, dense signs, and rain reflecting the city after dark."
+            },
+            {
+              "zh": "购物记录比行程更简短：优衣库 1,060.52 元。前一天的大采购之后，这个数字反而显得克制。",
+              "en": "The shopping record is much shorter: RMB 1,060.52 at Uniqlo. After the previous day's haul, the number almost looks restrained."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-01",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "modern-city-intersection-buildings",
+              "caption": {
+                "zh": "从皇居一带走向商业区",
+                "en": "Leaving the Imperial Palace area for the commercial district"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "ginza-six-shopping-center",
+              "caption": {
+                "zh": "银座的建筑与购物动线",
+                "en": "Ginza&apos;s architecture and shopping route"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "tokyo-business-district-parkway",
+              "caption": {
+                "zh": "高楼之间仍留着宽阔树影",
+                "en": "Broad tree cover between the towers"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "rainy-japanese-city-street-night",
+              "caption": {
+                "zh": "秋叶原一带的雨夜，灯牌落进湿漉漉的路面",
+                "en": "Akihabara lights reflected on the wet street"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "page-07",
+      "blocks": [
+        {
+          "id": "page-07-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "6",
+            "en": "6"
+          },
+          "title": {
+            "zh": "“捕鸟大厦”、城市穿行与横滨天际线",
+            "en": "The “Bird-Catching Building,” Tokyo Streets, and Yokohama's Skyline"
+          },
+          "subtitle": {
+            "zh": "Tokyo architecture · shopping · Yokohama",
+            "en": "Tokyo architecture · shopping · Yokohama"
+          },
+          "icon": "🏙️"
+        },
+        {
+          "id": "page-07-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "原笔记把这天写成“捕鸟大厦 & 横滨”。照片从一座利落的立方体建筑开始，经过广场、高架铁路、施工中的街区与动漫招牌，最后抵达横滨地标塔天际线。东京的密度被一路带到港口边。",
+              "en": "The original note labels this day “Bird-Catching Building & Yokohama.” The photographs begin with a crisp cubic building, pass through plazas, elevated rail, a street under construction, and anime signs, then end at the Yokohama Landmark Tower skyline. Tokyo's density followed us all the way to the harbor."
+            },
+            {
+              "zh": "当天买了两件始祖鸟，4,850.06 元；堂吉诃德 118.79 元。原笔记把 Day 6 总计记为 5,698.85 元，这里按原记录保留。",
+              "en": "We bought two Arc'teryx pieces for RMB 4,850.06 and spent RMB 118.79 at Don Quijote. The original journal records the Day 6 total as RMB 5,698.85, which is preserved here as written."
+            }
+          ]
+        },
+        {
+          "id": "page-07-gallery-01",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "modern-cube-building-exterior",
+              "caption": {
+                "zh": "原笔记“捕鸟大厦”一站的现代建筑",
+                "en": "The modern building at the stop named in the journal"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "urban-plaza-with-tall-buildings",
+              "caption": {
+                "zh": "在高楼之间继续穿行",
+                "en": "Continuing through the towers"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "tokyo-urban-train-overpass",
+              "caption": {
+                "zh": "高架列车从城市纹理中穿过",
+                "en": "Rail threading through the urban texture"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-07-gallery-02",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "tokyo-street-with-crane",
+              "caption": {
+                "zh": "不断更新中的东京街区",
+                "en": "A Tokyo neighborhood still being remade"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "tokyo-anime-district-nightscape",
+              "caption": {
+                "zh": "动漫招牌把夜色重新点亮",
+                "en": "Anime signs switching the night back on"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "yokohama-landmark-tower-skyline",
+              "caption": {
+                "zh": "一天的终点落在横滨天际线",
+                "en": "The day ending against Yokohama&apos;s skyline"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-08",
+      "sectionId": "page-08",
+      "blocks": [
+        {
+          "id": "page-08-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "7",
+            "en": "7"
+          },
+          "title": {
+            "zh": "走进哈利波特片场，然后回家",
+            "en": "Into the Harry Potter Sets, Then Home"
+          },
+          "subtitle": {
+            "zh": "Warner Bros. Studio Tour Tokyo · The Making of Harry Potter",
+            "en": "Warner Bros. Studio Tour Tokyo · The Making of Harry Potter"
+          },
+          "icon": "🪄"
+        },
+        {
+          "id": "page-08-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天去了东京华纳兄弟哈利波特影城。对哈迷来说，这里确实像圣地：电影里的海报、服装、道具与布景从屏幕里变成立体空间，连搅动发光坩埚这样的互动也足够让人停很久。",
+              "en": "The last day went to Warner Bros. Studio Tour Tokyo. For a Harry Potter fan, it really did feel like a pilgrimage: posters, costumes, props, and sets stepped out of the screen and became full rooms, while interactions such as stirring a glowing cauldron made it easy to linger."
+            },
+            {
+              "zh": "返程前的购物仍然没有收手：松本清药妆 853.96 元、哈利波特周边 585.02 元、祖马龙香水 758.83 元、伴手礼 720.60 元、日上免税 4,438.55 元；Day 7 合计 7,356.96 元。",
+              "en": "Shopping continued before the flight: RMB 853.96 at Matsumoto Kiyoshi, RMB 585.02 in Harry Potter merchandise, RMB 758.83 for Jo Malone perfume, RMB 720.60 in gifts, and RMB 4,438.55 at Sunrise Duty Free. Day 7 totaled RMB 7,356.96."
+            }
+          ]
+        },
+        {
+          "id": "page-08-gallery-01",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "wizard-robe-by-display-case",
+              "caption": {
+                "zh": "换上巫师袍，走进电影世界",
+                "en": "Robes on, stepping into the film world"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "harry-potter-undesirable-no-1-poster",
+              "caption": {
+                "zh": "熟悉的通缉海报变成实景陈列",
+                "en": "A familiar wanted poster as a physical prop"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "harry-potter-poster-display",
+              "caption": {
+                "zh": "片场里的海报与道具细节",
+                "en": "Posters and prop details inside the studio"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "wizard-stirring-glowing-cauldron",
+              "caption": {
+                "zh": "最后一天最有参与感的一幕",
+                "en": "The final day&apos;s most hands-on moment"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-09",
+      "sectionId": "page-09",
+      "blocks": [
+        {
+          "id": "page-09-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🛍️",
+            "en": "🛍️"
+          },
+          "markerValue": {
+            "zh": "HAUL 1",
+            "en": "HAUL 1"
+          },
+          "title": {
+            "zh": "战利品摊开，鞋服先占满一地",
+            "en": "Shoes and Clothes Taking Over the Floor"
+          },
+          "subtitle": {
+            "zh": "Sneakers · streetwear · outerwear",
+            "en": "Sneakers · streetwear · outerwear"
+          }
+        },
+        {
+          "id": "page-09-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "原笔记说“每次都买太多了”，照片把这句话证明得很彻底。鞋盒、T 恤、卫衣、羽绒服、长裤与背包逐件铺开，购物不只是附带项目，而是这趟东京旅行的一条主线。",
+              "en": "The journal says, “I buy too much every time,” and the photographs prove it thoroughly. Shoe boxes, T-shirts, sweatshirts, a puffer, trousers, and a backpack are laid out one by one. Shopping was not a side activity here; it was one of the trip's main routes."
+            }
+          ]
+        },
+        {
+          "id": "page-09-gallery-01",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "nike-shoes-in-open-boxes",
+              "caption": {
+                "zh": "两双鞋盒打开，板鞋采购正式入账",
+                "en": "Two open boxes marking the sneaker haul"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "folded-puffer-jacket-and-pants",
+              "caption": {
+                "zh": "外套与裤装战利品",
+                "en": "Outerwear and trousers from the haul"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "black-backpack-and-khaki-pants",
+              "caption": {
+                "zh": "背包和日常裤装",
+                "en": "A backpack and everyday trousers"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "packaged-bape-crewneck-shirt",
+              "caption": {
+                "zh": "Bape 单品收进购物清单",
+                "en": "A Bape piece added to the list"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "atmo-black-shirts-packaged",
+              "caption": {
+                "zh": "ATOMS 两件 T 恤",
+                "en": "The two ATOMS T-shirts"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "uniqlo-kaws-graphic-tshirts",
+              "caption": {
+                "zh": "优衣库的图案 T 恤采购",
+                "en": "Graphic T-shirts from Uniqlo"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "paris-saint-germain-clothing-set",
+              "caption": {
+                "zh": "PSG 店带回的 T 恤与卫衣",
+                "en": "The T-shirt and sweatshirt from the PSG store"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "arcteryx-black-jackets-folded",
+              "caption": {
+                "zh": "Day 6 的两件始祖鸟",
+                "en": "The two Arc&apos;teryx pieces from Day 6"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "sectionId": "page-10",
+      "blocks": [
+        {
+          "id": "page-10-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🎁",
+            "en": "🎁"
+          },
+          "markerValue": {
+            "zh": "HAUL 2",
+            "en": "HAUL 2"
+          },
+          "title": {
+            "zh": "药妆、零食、厨具与魔法周边",
+            "en": "Drugstore Finds, Snacks, Knives, and Wizarding Souvenirs"
+          },
+          "subtitle": {
+            "zh": "Drugstore · snacks · souvenirs · kitchenware",
+            "en": "Drugstore · snacks · souvenirs · kitchenware"
+          }
+        },
+        {
+          "id": "page-10-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "另一半行李箱属于药妆、零食与伴手礼。哈利波特周边单独成组，眼药水、感冒药、护肤品与点心盒则把返程前的采购铺得密密麻麻；三把陶瓷刀是其中最不一样的一组。",
+              "en": "The other half of the suitcase belonged to drugstore products, snacks, and gifts. Harry Potter merchandise formed its own group; eye drops, cold remedies, skincare, and confectionery boxes filled the rest of the floor. Three ceramic knives were the most unexpected set."
+            }
+          ]
+        },
+        {
+          "id": "page-10-gallery-01",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "harry-potter-souvenir-items",
+              "caption": {
+                "zh": "影城带回的魔法世界周边",
+                "en": "Wizarding World souvenirs from the studio"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "japanese-snack-boxes-on-carpet-2",
+              "caption": {
+                "zh": "伴手礼与点心盒第一组",
+                "en": "The first group of gifts and snack boxes"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "japanese-healthcare-products-flatlay",
+              "caption": {
+                "zh": "药妆店采购摊开记录",
+                "en": "The drugstore haul spread out"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "three-ceramic-kitchen-knives",
+              "caption": {
+                "zh": "行李里很有存在感的三把陶瓷刀",
+                "en": "Three ceramic knives standing out in the luggage"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-10-gallery-02",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "japanese-eye-and-cold-medicines",
+              "caption": {
+                "zh": "眼药水与常用药补货",
+                "en": "Restocking eye drops and everyday medicine"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "japanese-snack-boxes-on-carpet",
+              "caption": {
+                "zh": "点心盒第二组，返程行李继续膨胀",
+                "en": "A second group of snacks expanding the suitcase"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "korean-skincare-products-flatlay",
+              "caption": {
+                "zh": "护肤品集中记录",
+                "en": "The skincare purchases in one record"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "sectionId": "page-11",
+      "blocks": [
+        {
+          "id": "page-11-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "🧾",
+            "en": "🧾"
+          },
+          "markerValue": {
+            "zh": "BILL",
+            "en": "BILL"
+          },
+          "title": {
+            "zh": "购物账单：约两万元的旅行注脚",
+            "en": "The Shopping Bill: Nearly RMB 20,000 in Footnotes"
+          },
+          "subtitle": {
+            "zh": "Recorded totals · shared expenses · no silent corrections",
+            "en": "Recorded totals · shared expenses · no silent corrections"
+          }
+        },
+        {
+          "id": "page-11-expense-01",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "row-01",
+              "label": {
+                "zh": "Day 4 · 涩谷购物",
+                "en": "Day 4 · Shibuya shopping"
+              },
+              "amount": {
+                "zh": "¥103,900 / RMB 5,082",
+                "en": "JPY 103,900 / RMB 5,082"
+              }
+            },
+            {
+              "id": "row-02",
+              "label": {
+                "zh": "Day 5 · 优衣库",
+                "en": "Day 5 · Uniqlo"
+              },
+              "amount": {
+                "zh": "RMB 1,060.52",
+                "en": "RMB 1,060.52"
+              }
+            },
+            {
+              "id": "row-03",
+              "label": {
+                "zh": "Day 6 · 始祖鸟与堂吉诃德",
+                "en": "Day 6 · Arc'teryx and Don Quijote"
+              },
+              "amount": {
+                "zh": "RMB 5,698.85",
+                "en": "RMB 5,698.85"
+              }
+            },
+            {
+              "id": "row-04",
+              "label": {
+                "zh": "Day 7 · 药妆、周边、香水、伴手礼、免税",
+                "en": "Day 7 · Drugstore, merchandise, perfume, gifts, duty free"
+              },
+              "amount": {
+                "zh": "RMB 7,356.96",
+                "en": "RMB 7,356.96"
+              }
+            },
+            {
+              "id": "row-05",
+              "label": {
+                "zh": "按每日记录合计",
+                "en": "Total from the daily records"
+              },
+              "amount": {
+                "zh": "RMB 19,198.33",
+                "en": "RMB 19,198.33"
+              },
+              "total": true
+            }
+          ],
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-11-note-01",
+          "type": "note",
+          "title": {
+            "zh": "AA 摊销项 · 原笔记已划掉",
+            "en": "Shared expenses · crossed out in the source"
+          },
+          "body": {
+            "zh": "Shibuya Sky 8,800 日元、河口湖到新宿大巴 8,800 日元、吃饭 16,500 日元、天妇罗 8,100 日元、九州拉面 7,090 日元。这些属于共同分摊项，不重复并入上面的购物总计。",
+            "en": "Shibuya Sky JPY 8,800; bus from Kawaguchiko to Shinjuku JPY 8,800; meals JPY 16,500; tempura JPY 8,100; and Kyushu ramen JPY 7,090. These were split expenses and are not added to the shopping total above."
+          },
+          "spacing": {
+            "top": 20
+          }
+        },
+        {
+          "id": "page-11-rating-01",
+          "type": "rating",
+          "title": {
+            "zh": "住宿",
+            "en": "Where we stayed"
+          },
+          "items": [
+            {
+              "id": "item-01",
+              "name": {
+                "zh": "河口湖",
+                "en": "Lake Kawaguchi"
+              },
+              "comment": {
+                "zh": "FUJI GINKEI 富士吟景 · 湖畔温泉旅馆",
+                "en": "Fuji Ginkei · lakeside onsen hotel"
+              }
+            },
+            {
+              "id": "item-02",
+              "name": {
+                "zh": "东京",
+                "en": "Tokyo"
+              },
+              "comment": {
+                "zh": "Sotetsu Grand Fresa Takadanobaba · 相铁高田马场",
+                "en": "Sotetsu Grand Fresa Takadanobaba"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-11-note-02",
+          "type": "note",
+          "title": {
+            "zh": "账目保留原貌",
+            "en": "Preserving the ledger as written"
+          },
+          "body": {
+            "zh": "Day 6 的两笔明细与手写总计并不完全吻合；这里不擅自改写，仍保留原笔记的 5,698.85 元。旅行账单有时也是当时记忆的一部分。",
+            "en": "The two Day 6 line items do not exactly match the handwritten total. Rather than silently correcting the diary, this entry keeps the original RMB 5,698.85 figure."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-12",
+      "sectionId": "page-12",
+      "blocks": [
+        {
+          "id": "page-12-header-01",
+          "type": "header",
+          "markerLabel": {
+            "zh": "💭",
+            "en": "💭"
+          },
+          "markerValue": {
+            "zh": "FIN",
+            "en": "FIN"
+          },
+          "title": {
+            "zh": "前半程看山，后半程把东京装进行李箱",
+            "en": "A Quiet Mountain First, Then Tokyo Packed into the Suitcase"
+          },
+          "subtitle": {
+            "zh": "Lake quiet · city lights · a very full suitcase",
+            "en": "Lake quiet · city lights · a very full suitcase"
+          }
+        },
+        {
+          "id": "page-12-prose-01",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回看这七天，河口湖和东京像两种完全不同的速度。前两天的记忆是窗外富士山、湖水与温泉旅馆；之后则是浅草香火、涩谷高空夜景、银座玻璃幕墙、秋叶原雨夜、横滨天际线和哈利波特片场。",
+              "en": "Looking back, Lake Kawaguchi and Tokyo moved at completely different speeds. The first two days are remembered through Mount Fuji outside the window, lake water, and an onsen hotel. Then came Asakusa incense, Shibuya's high night view, Ginza glass, Akihabara rain, Yokohama's skyline, and the Harry Potter sets."
+            },
+            {
+              "zh": "购物确实买得很多，甚至足以单独成为两页。但真正把旅行串起来的，还是那些尺度变化：从一座山的安静，到一整座城市的灯光，再到回家后把每件战利品铺开拍照的满足感。",
+              "en": "There was enough shopping to fill two whole pages. Yet the trip is held together by its shifts in scale: from the stillness of one mountain to an entire city of lights, then the satisfaction of laying every purchase out again after coming home."
+            }
+          ]
+        },
+        {
+          "id": "page-12-divider-01",
+          "type": "divider",
+          "icon": "🗻",
+          "spacing": {
+            "top": 24,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-12-prose-02",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "paragraphs": [
+            {
+              "zh": "富士山留在窗外，东京被装进行李箱。",
+              "en": "Mount Fuji stayed outside the window; Tokyo went into the suitcase."
+            },
+            {
+              "zh": "七天很满，照片更多，",
+              "en": "Seven full days, even more photographs,"
+            },
+            {
+              "zh": "而下一次日本旅行，仍然有新的街区可走。",
+              "en": "and still another Japanese neighborhood to walk next time."
+            }
+          ]
+        },
+        {
+          "id": "page-12-tags-01",
+          "type": "tags",
+          "variant": "outlined",
+          "items": [
+            {
+              "id": "tag-01",
+              "label": {
+                "zh": "#河口湖",
+                "en": "#LakeKawaguchi"
+              },
+              "tone": "coral"
+            },
+            {
+              "id": "tag-02",
+              "label": {
+                "zh": "#东京街区",
+                "en": "#TokyoStreets"
+              },
+              "tone": "teal"
+            },
+            {
+              "id": "tag-03",
+              "label": {
+                "zh": "#涩谷夜景",
+                "en": "#ShibuyaSky"
+              },
+              "tone": "gold"
+            },
+            {
+              "id": "tag-04",
+              "label": {
+                "zh": "#横滨",
+                "en": "#Yokohama"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "tag-05",
+              "label": {
+                "zh": "#购物战利品",
+                "en": "#JapanHaul"
+              },
+              "tone": "pink"
+            }
+          ],
+          "spacing": {
+            "top": 24
+          }
+        },
+        {
+          "id": "page-12-stamp-01",
+          "type": "stamp",
+          "spacing": {
+            "top": 24
+          },
+          "text": {
+            "zh": "FIN · 2023.11",
+            "en": "FIN · 2023.11"
+          },
+          "tilt": "none"
+        }
+      ]
+    }
+  ]
+}
