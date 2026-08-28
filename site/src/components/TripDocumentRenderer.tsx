@@ -273,12 +273,12 @@ function renderBlock(
           className={classes("pgrid", GALLERY_LAYOUT_CLASS[block.layout], spacing)}
           style={galleryStyle}
         >
-          {block.images.map((item) => {
+          {block.images.map((item, index) => {
             const image = getImage(document, item.imageId);
             const isPolaroid = block.variant === "polaroid";
             return (
               <div
-                key={item.imageId}
+                key={`${item.imageId}-${index}`}
                 className={classes(
                   isPolaroid ? "pol" : "pf",
                   IMAGE_TONE_CLASS[item.tone ?? "normal"],

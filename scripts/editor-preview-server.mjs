@@ -192,11 +192,15 @@ createServer(async (request, response) => {
       return;
     }
   } catch (caught) {
+    const requestTooLarge =
+      caught instanceof Error && caught.message === "request_too_large";
     error(
       response,
-      caught instanceof SyntaxError ? 400 : 413,
-      "invalid_request",
-      "The preview request could not be read."
+      requestTooLarge ? 413 : 400,
+      requestTooLarge ? "request_too_large" : "invalid_request",
+      requestTooLarge
+        ? `The preview request body cannot exceed ${MAX_BODY_BYTES} bytes.`
+        : "The preview request must contain valid JSON."
     );
     return;
   }
