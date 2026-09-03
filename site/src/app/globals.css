@@ -2972,6 +2972,11 @@ body {
   font: 600 12px/1.3 var(--font-ui);
 }
 
+.editor-trip-select select:disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
 .editor-selected-trip {
   position: relative;
   display: grid;

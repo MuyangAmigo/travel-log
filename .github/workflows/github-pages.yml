@@ -78,6 +78,12 @@ jobs:
           TRAVEL_LOG_PRIVATE_PASSWORD: ${{ secrets.TRAVEL_LOG_PRIVATE_PASSWORD }}
         run: node scripts/check-auth-api.mjs
 
+      - name: Check editor API configuration
+        env:
+          TRAVEL_LOG_AUTH_API_URL: ${{ vars.TRAVEL_LOG_AUTH_API_URL }}
+          TRAVEL_LOG_AUTH_ORIGIN: https://muyangamigo.github.io
+        run: node scripts/check-editor-api.mjs
+
   build:
     name: Build
     needs: auth-api-test

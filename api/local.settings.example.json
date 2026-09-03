@@ -15,7 +15,6 @@
     "AZURE_OPENAI_ENDPOINT": "https://replace-me.openai.azure.com",
     "AZURE_OPENAI_DEPLOYMENT": "travel-journal-translation",
     "AZURE_OPENAI_API_VERSION": "2024-10-21",
-    "AZURE_OPENAI_API_KEY": "replace-with-a-server-only-key",
     "AZURE_STORAGE_ACCOUNT_NAME": "junjieblob",
     "AZURE_STORAGE_CONTAINER_NAME": "images"
   }

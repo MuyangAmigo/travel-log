@@ -1,3 +1,5 @@
+import { createPrivateKey } from "node:crypto";
+
 const GUID_PATTERN =
   /^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/iu;
 const GITHUB_REPOSITORY_PATTERN =
@@ -92,6 +94,14 @@ export function loadEditorConfig(environment = process.env) {
   ) {
     throw new Error("GITHUB_APP_PRIVATE_KEY must be a PEM private key.");
   }
+  try {
+    const key = createPrivateKey(githubPrivateKey);
+    if (key.asymmetricKeyType !== "rsa") {
+      throw new Error("GitHub App keys must use RSA.");
+    }
+  } catch {
+    throw new Error("GITHUB_APP_PRIVATE_KEY must be a valid RSA private key.");
+  }
 
   const azureOpenAiEndpoint = new URL(
     requireSetting(environment, "AZURE_OPENAI_ENDPOINT")
@@ -125,11 +135,13 @@ export function loadEditorConfig(environment = process.env) {
 
   return {
     ...microsoft,
-    azureOpenAiApiKey: requireSetting(environment, "AZURE_OPENAI_API_KEY"),
+    azureOpenAiApiKey: environment.AZURE_OPENAI_API_KEY?.trim() || undefined,
     azureOpenAiApiVersion:
       environment.AZURE_OPENAI_API_VERSION?.trim() || "2024-10-21",
     azureOpenAiDeployment,
     azureOpenAiEndpoint: azureOpenAiEndpoint.origin,
+    azureOpenAiManagedIdentityClientId:
+      environment.AZURE_CLIENT_ID?.trim() || undefined,
     githubAppId,
     githubInstallationId,
     githubPrivateKey,

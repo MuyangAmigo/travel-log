@@ -71,6 +71,7 @@ test("translates only requested Chinese fields and merges validated English", as
 
   assert.equal(translated.metadata.title.en, "A New Trip Title");
   assert.equal(translated.metadata.subtitle.en, "Subtitle");
+  assert.equal(requestBody.messages.length, 2);
   assert.equal(
     requestBody.messages[1].content,
     JSON.stringify({
@@ -94,6 +95,46 @@ test("translates only requested Chinese fields and merges validated English", as
       requestBody.response_format.json_schema.schema.properties.translations,
     false
   );
+});
+
+test("uses managed identity when no Azure OpenAI API key is configured", async () => {
+  const document = minimalTripDocument();
+  let requestHeaders;
+  const translator = new AzureOpenAiTranslator(
+    { ...editorConfig, azureOpenAiApiKey: undefined },
+    {
+      tokenProvider: async () => "managed-identity-token",
+      fetchImpl: async (_url, init) => {
+        requestHeaders = init.headers;
+        return Response.json({
+          choices: [
+            {
+              finish_reason: "stop",
+              message: {
+                content: JSON.stringify({
+                  translations: [
+                    {
+                      id: "document",
+                      path: "$.metadata.title",
+                      text: "Test Trip",
+                    },
+                  ],
+                }),
+              },
+            },
+          ],
+        });
+      },
+    }
+  );
+
+  await translator.translateDocument(document, ["$.metadata.title"]);
+
+  assert.equal(
+    requestHeaders.Authorization,
+    ["Bearer", "managed-identity-token"].join(" ")
+  );
+  assert.equal("api-key" in requestHeaders, false);
 });
 
 test("rejects an untranslated empty English field after translation", async () => {
