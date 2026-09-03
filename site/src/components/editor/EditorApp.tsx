@@ -135,7 +135,15 @@ function pageSummary(page: TripDocumentPage, index: number): string {
 }
 
 function errorMessage(error: unknown): string {
-  if (error instanceof EditorApiError) return error.message;
+  if (error instanceof EditorApiError) {
+    if (error.code === "editor_service_not_configured") {
+      return "编辑服务配置不完整，请联系站点维护者。";
+    }
+    return error.message;
+  }
+  if (error instanceof TypeError && error.message === "Failed to fetch") {
+    return "无法连接编辑服务，请稍后重试。";
+  }
   return error instanceof Error ? error.message : "操作没有完成，请稍后重试。";
 }
 
@@ -398,6 +406,13 @@ export default function EditorApp() {
     () => trips.find((trip) => trip.slug === document?.slug) ?? null,
     [document?.slug, trips]
   );
+  const tripPickerPlaceholder = loadingTrips
+    ? "正在载入旅程…"
+    : trips.length === 0
+      ? error
+        ? "旅程载入失败"
+        : "没有已登记旅程"
+      : "选择已登记旅程";
 
   useEffect(() => {
     documentRef.current = document;
@@ -881,13 +896,13 @@ export default function EditorApp() {
               <span className="sr-only">选择已登记旅程</span>
               <select
                 value={document?.slug ?? ""}
-                disabled={busy !== null || loadingTrips}
+                disabled={busy !== null || loadingTrips || trips.length === 0}
                 onChange={(event) => {
                   if (event.target.value) void loadTrip(event.target.value);
                 }}
               >
                 <option value="" disabled>
-                  选择已登记旅程
+                  {tripPickerPlaceholder}
                 </option>
                 {trips.map((trip) => (
                   <option key={trip.slug} value={trip.slug}>

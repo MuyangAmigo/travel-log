@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { generateKeyPairSync } from "node:crypto";
 import test from "node:test";
 import { loadConfig, loadEditorConfig } from "../src/config.js";
 
@@ -76,6 +77,12 @@ test("requires a separate high-entropy private passcode", () => {
   );
 });
 
+const githubPrivateKey = generateKeyPairSync("rsa", {
+  modulusLength: 2048,
+}).privateKey
+  .export({ format: "pem", type: "pkcs8" })
+  .replace(/\n/gu, "\\n");
+
 const editorEnvironment = {
   ALLOWED_MICROSOFT_SUB: "immutable-subject",
   ALLOWED_ORIGIN: "https://muyangamigo.github.io/travel-log/",
@@ -86,8 +93,7 @@ const editorEnvironment = {
   AZURE_STORAGE_CONTAINER_NAME: "images",
   GITHUB_APP_ID: "123",
   GITHUB_APP_INSTALLATION_ID: "456",
-  GITHUB_APP_PRIVATE_KEY:
-    "-----BEGIN PRIVATE KEY-----\\nlocal-example\\n-----END PRIVATE KEY-----",
+  GITHUB_APP_PRIVATE_KEY: githubPrivateKey,
   GITHUB_REPOSITORY: "MuyangAmigo/travel-log",
   MICROSOFT_CLIENT_ID: "11111111-2222-3333-4444-555555555555",
 };
@@ -100,16 +106,26 @@ test("loads editor dependency settings without unlock passcode credentials", () 
     azureOpenAiApiVersion: "2024-10-21",
     azureOpenAiDeployment: "travel-translator",
     azureOpenAiEndpoint: "https://travel-openai.openai.azure.com",
+    azureOpenAiManagedIdentityClientId: undefined,
     clientId: "11111111-2222-3333-4444-555555555555",
     githubAppId: "123",
     githubInstallationId: "456",
-    githubPrivateKey:
-      "-----BEGIN PRIVATE KEY-----\nlocal-example\n-----END PRIVATE KEY-----",
+    githubPrivateKey: githubPrivateKey.replace(/\\n/gu, "\n"),
     githubRepository: "MuyangAmigo/travel-log",
     storageAccountName: "junjieblob",
     storageContainerName: "images",
     storageManagedIdentityClientId: undefined,
   });
+});
+
+test("allows keyless Azure OpenAI authentication with managed identity", () => {
+  const environment = { ...editorEnvironment };
+  delete environment.AZURE_OPENAI_API_KEY;
+
+  const config = loadEditorConfig(environment);
+
+  assert.equal(config.azureOpenAiApiKey, undefined);
+  assert.equal(config.azureOpenAiManagedIdentityClientId, undefined);
 });
 
 test("pins editor uploads to junjieblob and repository configuration to main", () => {
@@ -136,5 +152,14 @@ test("pins editor uploads to junjieblob and repository configuration to main", (
         AZURE_OPENAI_ENDPOINT: "http://insecure.example.com",
       }),
     /must use HTTPS/u
+  );
+  assert.throws(
+    () =>
+      loadEditorConfig({
+        ...editorEnvironment,
+        GITHUB_APP_PRIVATE_KEY:
+          "-----BEGIN PRIVATE KEY-----\\ninvalid\\n-----END PRIVATE KEY-----",
+      }),
+    /valid RSA private key/u
   );
 });

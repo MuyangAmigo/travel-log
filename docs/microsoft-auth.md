@@ -33,10 +33,12 @@ Create a Node.js 22 Azure Function app and configure these application settings:
 | `AZURE_OPENAI_ENDPOINT` | HTTPS endpoint for the translation resource |
 | `AZURE_OPENAI_DEPLOYMENT` | Deployment that supports strict structured outputs |
 | `AZURE_OPENAI_API_VERSION` | Optional; defaults to `2024-10-21` |
-| `AZURE_OPENAI_API_KEY` | Server-only key, preferably supplied through a Key Vault reference |
+| `AZURE_OPENAI_API_KEY` | Optional local-development fallback; omit in Azure to use the Function's managed identity |
 | `AZURE_STORAGE_ACCOUNT_NAME` | Must be `junjieblob` |
 | `AZURE_STORAGE_CONTAINER_NAME` | Must be `images` |
 | `AZURE_CLIENT_ID` | Optional client ID only when the Function uses a user-assigned managed identity |
+
+Production uses the `junjie-travel-log-openai` resource in East US 2 with a Global Standard `gpt-5-mini` deployment named `travel-journal-translation`. Local key authentication is disabled on that resource.
 
 Obtain the account's `sub` claim during a controlled local bootstrap, then set it as `ALLOWED_MICROSOFT_SUB` before exposing the Function. Microsoft documents `sub` as immutable; email and `preferred_username` claims are never used for authorization.
 
@@ -121,9 +123,9 @@ Azure OpenAI receives only the requested Chinese localized fields with stable pa
 
 Create a dedicated GitHub App with repository **Contents: read and write** and **Metadata: read-only** permissions. Install it only on `MuyangAmigo/travel-log`. Do not grant administration, pull request, workflow, or organization permissions. The Function exchanges a short-lived App JWT for an installation token, creates one blob/tree/commit, and advances `refs/heads/main` with `force: false`. Branch protection must explicitly allow this App if direct updates are protected.
 
-### Storage managed identity and CORS
+### Managed identity and Storage CORS
 
-Enable a system-assigned managed identity on the Function (or set `AZURE_CLIENT_ID` for a user-assigned identity). Assign **Storage Blob Data Contributor** at the `junjieblob` storage-account scope so the identity can request a user delegation key and create blobs. Explicitly target:
+Enable a system-assigned managed identity on the Function (or set `AZURE_CLIENT_ID` for a user-assigned identity). Assign **Cognitive Services OpenAI User** on the translation resource and **Storage Blob Data Contributor** at the `junjieblob` storage-account scope. The Function then obtains short-lived tokens for translation and image uploads without storing an Azure OpenAI key. Explicitly target:
 
 - Subscription: `Visual Studio Enterprise Subscription`
 - Subscription ID: `a0adf30d-bf1c-4bff-9a92-b6d937d0154f`

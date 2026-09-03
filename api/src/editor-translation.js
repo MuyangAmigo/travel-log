@@ -1,6 +1,10 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { EditorApiError } from "./editor-errors.js";
 import { parseTripDocument } from "./trip-document.js";
 
+const execFileAsync = promisify(execFile);
+const AZURE_OPENAI_RESOURCE = "https://cognitiveservices.azure.com/";
 const MAX_TRANSLATION_FIELDS = 100;
 const PROTECTED_TOKEN_PATTERNS = [
   ["url", /https?:\/\/[^\s<>"']+/giu],
@@ -170,6 +174,105 @@ function sameTokenCounts(left, right) {
   return true;
 }
 
+async function defaultAzureOpenAiTokenProvider(
+  config,
+  { environment = process.env, fetchImpl = fetch } = {}
+) {
+  if (environment.AZURE_FUNCTIONS_ENVIRONMENT === "Development") {
+    let stdout;
+    try {
+      const executable =
+        process.platform === "win32"
+          ? environment.ComSpec || "cmd.exe"
+          : "az";
+      const arguments_ =
+        process.platform === "win32"
+          ? [
+              "/d",
+              "/s",
+              "/c",
+              `az account get-access-token --resource ${AZURE_OPENAI_RESOURCE} --output json`,
+            ]
+          : [
+              "account",
+              "get-access-token",
+              "--resource",
+              AZURE_OPENAI_RESOURCE,
+              "--output",
+              "json",
+            ];
+      ({ stdout } = await execFileAsync(executable, arguments_, {
+        encoding: "utf8",
+        timeout: 15_000,
+        windowsHide: true,
+      }));
+      const token = JSON.parse(stdout).accessToken;
+      if (typeof token !== "string" || !token) throw new Error("Missing token.");
+      return token;
+    } catch {
+      throw new EditorApiError(
+        503,
+        "translation_authentication_failed",
+        "Azure CLI authentication is required for local translation."
+      );
+    }
+  }
+
+  const endpoint = environment.IDENTITY_ENDPOINT;
+  const identityHeader = environment.IDENTITY_HEADER;
+  if (!endpoint || !identityHeader) {
+    throw new EditorApiError(
+      503,
+      "translation_authentication_failed",
+      "The Function managed identity is unavailable for Azure OpenAI."
+    );
+  }
+
+  const url = new URL(endpoint);
+  url.searchParams.set("api-version", "2019-08-01");
+  url.searchParams.set("resource", AZURE_OPENAI_RESOURCE);
+  if (config.azureOpenAiManagedIdentityClientId) {
+    url.searchParams.set(
+      "client_id",
+      config.azureOpenAiManagedIdentityClientId
+    );
+  }
+
+  let response;
+  try {
+    response = await fetchImpl(url, {
+      headers: {
+        "X-IDENTITY-HEADER": identityHeader,
+        Metadata: "true",
+      },
+      signal: AbortSignal.timeout(10_000),
+    });
+  } catch {
+    throw new EditorApiError(
+      503,
+      "translation_authentication_failed",
+      "The Function managed identity is unavailable for Azure OpenAI."
+    );
+  }
+  if (!response.ok) {
+    throw new EditorApiError(
+      503,
+      "translation_authentication_failed",
+      "The Function managed identity could not authorize Azure OpenAI."
+    );
+  }
+
+  const payload = await response.json();
+  if (typeof payload.access_token !== "string" || !payload.access_token) {
+    throw new EditorApiError(
+      502,
+      "translation_authentication_failed",
+      "Managed identity returned an invalid Azure OpenAI token."
+    );
+  }
+  return payload.access_token;
+}
+
 export function validateTranslationResult(
   value,
   expectedFields,
@@ -221,9 +324,16 @@ export function validateTranslationResult(
 }
 
 export class AzureOpenAiTranslator {
-  constructor(config, { fetchImpl = fetch } = {}) {
+  constructor(
+    config,
+    {
+      fetchImpl = fetch,
+      tokenProvider = defaultAzureOpenAiTokenProvider,
+    } = {}
+  ) {
     this.config = config;
     this.fetch = fetchImpl;
+    this.tokenProvider = tokenProvider;
   }
 
   async translateDocument(document, changedPaths) {
@@ -248,10 +358,17 @@ export class AzureOpenAiTranslator {
 
     let response;
     try {
+      const authenticationHeaders = this.config.azureOpenAiApiKey
+        ? { "api-key": this.config.azureOpenAiApiKey }
+        : {
+            Authorization: `Bearer ${await this.tokenProvider(this.config, {
+              fetchImpl: this.fetch,
+            })}`,
+          };
       response = await this.fetch(endpoint, {
         method: "POST",
         headers: {
-          "api-key": this.config.azureOpenAiApiKey,
+          ...authenticationHeaders,
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
@@ -279,7 +396,8 @@ export class AzureOpenAiTranslator {
         }),
         signal: AbortSignal.timeout(45_000),
       });
-    } catch {
+    } catch (error) {
+      if (error instanceof EditorApiError) throw error;
       throw new EditorApiError(
         503,
         "translation_unavailable",
