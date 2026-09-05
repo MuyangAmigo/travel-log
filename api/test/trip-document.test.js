@@ -27,7 +27,7 @@ test("accepts every registered structured trip document", () => {
       if (error?.code !== "ENOENT") throw error;
     }
   }
-  assert.equal(validated.length, 10);
+  assert.equal(validated.length, 11);
 });
 
 test("rejects unknown fields, dangling references, and duplicate IDs", () => {

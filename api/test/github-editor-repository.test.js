@@ -21,8 +21,9 @@ test("derives the allowlist only from entries in the registered trips array", ()
     "utf8"
   );
   const slugs = parseRegisteredTripSlugs(source);
-  assert.equal(slugs.length, 10);
+  assert.equal(slugs.length, 11);
   assert.ok(slugs.includes("bangkok-2026"));
+  assert.ok(slugs.includes("kota-kinabalu-2025"));
 
   const withUnusedImport = source.replace(
     'import { meta as bangkok2026Meta }',
