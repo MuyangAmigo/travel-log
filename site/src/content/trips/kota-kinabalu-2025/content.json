@@ -1,0 +1,2320 @@
+{
+  "version": 1,
+  "slug": "kota-kinabalu-2025",
+  "metadata": {
+    "date": "2025-11-25",
+    "dateRange": "2025.11.25 — 12.01",
+    "coverImageId": "day5-shangri-la-sunset-01",
+    "title": {
+      "zh": "亚庇 · 一生一次的日落",
+      "en": "Kota Kinabalu · A Once-in-a-Lifetime Sunset"
+    },
+    "subtitle": {
+      "zh": "阴天、海岛、几顿好饭，最后等到整片海被点亮",
+      "en": "Cloudy days, island water, good meals, and a sea finally set alight"
+    },
+    "location": {
+      "zh": "马来西亚 · 沙巴 · 亚庇",
+      "en": "Kota Kinabalu, Sabah, Malaysia"
+    },
+    "private": true
+  },
+  "images": [
+    {
+      "id": "day1-hotel-view-01",
+      "filename": "day1_hotel_view_01.jpg",
+      "alt": {
+        "zh": "丹绒亚路香格里拉阳台外的热带园林与海面",
+        "en": "Tropical gardens and sea from a Shangri-La Tanjung Aru balcony"
+      }
+    },
+    {
+      "id": "day1-breakfast-01",
+      "filename": "day1_breakfast_01.jpg",
+      "alt": {
+        "zh": "金纳巴鲁咖啡店的汤粉与牛肉丸",
+        "en": "Soup noodles and beef balls at Kinabalu Kopitiam"
+      }
+    },
+    {
+      "id": "day1-breakfast-02",
+      "filename": "day1_breakfast_02.jpg",
+      "alt": {
+        "zh": "早茶桌上的凤爪",
+        "en": "Chicken feet on the breakfast table"
+      }
+    },
+    {
+      "id": "day1-crack-inc-coffee-01",
+      "filename": "day1_crack_inc_coffee_01.jpg",
+      "alt": {
+        "zh": "Crack Inc. 的两杯冰咖啡",
+        "en": "Two iced coffees from Crack Inc."
+      }
+    },
+    {
+      "id": "day1-wisma-sabah-mural-01",
+      "filename": "day1_wisma_sabah_mural_01.jpg",
+      "alt": {
+        "zh": "Wisma Sabah 外墙的沙巴主题彩色涂鸦",
+        "en": "Colourful Sabah-themed mural on Wisma Sabah"
+      }
+    },
+    {
+      "id": "day1-city-walk-01",
+      "filename": "day1_city_walk_01.jpg",
+      "alt": {
+        "zh": "亚庇市中心街景",
+        "en": "A street scene in central Kota Kinabalu"
+      }
+    },
+    {
+      "id": "day1-city-walk-02",
+      "filename": "day1_city_walk_02.jpg",
+      "alt": {
+        "zh": "亚庇街头建筑与道路",
+        "en": "Roads and buildings in Kota Kinabalu"
+      }
+    },
+    {
+      "id": "day1-city-walk-hyatt-01",
+      "filename": "day1_city_walk_hyatt_01.jpg",
+      "alt": {
+        "zh": "阴天下的 Hyatt Centric 酒店建筑",
+        "en": "Hyatt Centric beneath a cloudy sky"
+      }
+    },
+    {
+      "id": "day1-lara-spa-01",
+      "filename": "day1_lara_spa_01.jpg",
+      "alt": {
+        "zh": "Lara Spa 温馨的店内装饰",
+        "en": "Warm interior details at Lara Spa"
+      }
+    },
+    {
+      "id": "day1-jollibee-01",
+      "filename": "day1_jollibee_01.jpg",
+      "alt": {
+        "zh": "Jollibee 炸鸡与蘸酱",
+        "en": "Jollibee fried chicken and dipping sauce"
+      }
+    },
+    {
+      "id": "day2-shangri-la-pool-01",
+      "filename": "day2_shangri_la_pool_01.jpg",
+      "alt": {
+        "zh": "丹绒亚路香格里拉的海边无边泳池",
+        "en": "Seafront infinity pool at Shangri-La Tanjung Aru"
+      }
+    },
+    {
+      "id": "day2-hotel-building-01",
+      "filename": "day2_hotel_building_01.jpg",
+      "alt": {
+        "zh": "椰林与草坪环绕的香格里拉酒店主楼",
+        "en": "Shangri-La hotel building surrounded by palms and lawn"
+      }
+    },
+    {
+      "id": "day2-lunch-ah-yan-01",
+      "filename": "day2_lunch_ah_yan_01.jpg",
+      "alt": {
+        "zh": "亚燕餐厅配料丰富的东南亚汤面",
+        "en": "Rich Southeast Asian noodle soup at Ah Yan"
+      }
+    },
+    {
+      "id": "day2-waterfront-selfie-01",
+      "filename": "day2_waterfront_selfie_01.jpg",
+      "alt": {
+        "zh": "两人在亚庇海滨步道与港湾前合影",
+        "en": "Two travellers by Kota Kinabalu waterfront"
+      }
+    },
+    {
+      "id": "day2-airplane-01",
+      "filename": "day2_airplane_01.jpg",
+      "alt": {
+        "zh": "一架客机低空飞过亚庇市区",
+        "en": "Passenger plane flying low over Kota Kinabalu"
+      }
+    },
+    {
+      "id": "day2-dinner-tuktuk-01",
+      "filename": "day2_dinner_tuktuk_01.jpg",
+      "alt": {
+        "zh": "Imago 泰国餐厅门口的突突车装饰",
+        "en": "Tuk-tuk display outside an Imago Thai restaurant"
+      }
+    },
+    {
+      "id": "day2-dinner-thai-vegetable-01",
+      "filename": "day2_dinner_thai_vegetable_01.jpg",
+      "alt": {
+        "zh": "泰式炒空心菜",
+        "en": "Thai stir-fried morning glory"
+      }
+    },
+    {
+      "id": "day2-dinner-thai-curry-01",
+      "filename": "day2_dinner_thai_curry_01.jpg",
+      "alt": {
+        "zh": "浓郁的泰式红咖喱",
+        "en": "Rich Thai red curry"
+      }
+    },
+    {
+      "id": "day2-dinner-thai-chicken-01",
+      "filename": "day2_dinner_thai_chicken_01.jpg",
+      "alt": {
+        "zh": "泰式炸鸡翅",
+        "en": "Thai fried chicken wings"
+      }
+    },
+    {
+      "id": "day2-christmas-tree-01",
+      "filename": "day2_christmas_tree_01.jpg",
+      "alt": {
+        "zh": "Imago 商场里的大型圣诞树与胡桃夹子",
+        "en": "Large Christmas tree and nutcrackers inside Imago"
+      }
+    },
+    {
+      "id": "day3-seafood-crab-01",
+      "filename": "day3_seafood_crab_01.jpg",
+      "alt": {
+        "zh": "裹满黑胡椒酱汁的炒蟹",
+        "en": "Crab coated in black-pepper sauce"
+      }
+    },
+    {
+      "id": "day3-seafood-shrimp-01",
+      "filename": "day3_seafood_shrimp_01.jpg",
+      "alt": {
+        "zh": "大茄来的白灼大虾",
+        "en": "Poached prawns at Welcome Seafood"
+      }
+    },
+    {
+      "id": "day3-seafood-feast-01",
+      "filename": "day3_seafood_feast_01.jpg",
+      "alt": {
+        "zh": "摆满海鲜和蔬菜的聚餐餐桌",
+        "en": "A table full of seafood and vegetables"
+      }
+    },
+    {
+      "id": "day3-dimsum-01",
+      "filename": "day3_dimsum_01.jpg",
+      "alt": {
+        "zh": "虾饺烧卖叉烧包等广式点心",
+        "en": "Har gow, siu mai, buns, and other dim sum"
+      }
+    },
+    {
+      "id": "day3-tiya-spa-01",
+      "filename": "day3_tiya_spa_01.jpg",
+      "alt": {
+        "zh": "Tiya Spa 前台的圣诞小天使和驯鹿装饰",
+        "en": "Christmas angels and reindeer at Tiya Spa"
+      }
+    },
+    {
+      "id": "day4-new-wk-dimsum-01",
+      "filename": "day4_new_wk_dimsum_01.jpg",
+      "alt": {
+        "zh": "New WK 餐馆满桌的广式早茶",
+        "en": "A table full of Cantonese dim sum at New WK"
+      }
+    },
+    {
+      "id": "day4-mosque-panorama-01",
+      "filename": "day4_mosque_panorama_01.jpg",
+      "alt": {
+        "zh": "水上清真寺、蓝绿色穹顶和水面倒影",
+        "en": "Kota Kinabalu City Mosque and its reflection"
+      }
+    },
+    {
+      "id": "day4-mosque-tower-01",
+      "filename": "day4_mosque_tower_01.jpg",
+      "alt": {
+        "zh": "水上清真寺的拱门尖塔与条纹细节",
+        "en": "Arches, minaret, stripes, and gold details at the City Mosque"
+      }
+    },
+    {
+      "id": "day4-mosque-group-01",
+      "filename": "day4_mosque_group_01.jpg",
+      "alt": {
+        "zh": "同行人穿着参观袍在水上清真寺前合影",
+        "en": "The group in visitor robes outside Kota Kinabalu City Mosque"
+      }
+    },
+    {
+      "id": "day4-mosque-robe-selfie-01",
+      "filename": "day4_mosque_robe_selfie_01.jpg",
+      "alt": {
+        "zh": "两位同伴穿着清真寺长袍合影",
+        "en": "Two companions wearing mosque visitor robes"
+      }
+    },
+    {
+      "id": "day4-mosque-robe-01",
+      "filename": "day4_mosque_robe_01.jpg",
+      "alt": {
+        "zh": "同伴穿米色长袍在清真寺内留影",
+        "en": "A companion posing in a beige mosque robe"
+      }
+    },
+    {
+      "id": "day4-gaya-pate-interior-01",
+      "filename": "day4_gaya_pate_interior_01.jpg",
+      "alt": {
+        "zh": "加雅街餐厅的花砖地面藤编吊灯与绿植",
+        "en": "Patterned floor, woven lights, and plants inside a Gaya Street restaurant"
+      }
+    },
+    {
+      "id": "day4-gaya-night-market-streetfood-01",
+      "filename": "day4_gaya_night_market_streetfood_01.jpg",
+      "alt": {
+        "zh": "五个人在夜市路边分食炒粉",
+        "en": "Five friends sharing fried noodles at the night market"
+      }
+    },
+    {
+      "id": "day4-gaya-dinner-toast-01",
+      "filename": "day4_gaya_dinner_toast_01.jpg",
+      "alt": {
+        "zh": "五位同行人举着彩色冰饮碰杯",
+        "en": "Five companions toasting with colourful iced drinks"
+      }
+    },
+    {
+      "id": "day4-gaya-dinner-group-01",
+      "filename": "day4_gaya_dinner_group_01.jpg",
+      "alt": {
+        "zh": "同行人在加雅街餐桌旁自拍",
+        "en": "Group selfie around the dinner table"
+      }
+    },
+    {
+      "id": "day5-shangri-la-view-01",
+      "filename": "day5_shangri_la_view_01.jpg",
+      "alt": {
+        "zh": "晴天从香格里拉望向热带园林海面和小岛",
+        "en": "Sunny tropical gardens, sea, and islands from Shangri-La"
+      }
+    },
+    {
+      "id": "day5-shangri-la-seaside-01",
+      "filename": "day5_shangri_la_seaside_01.jpg",
+      "alt": {
+        "zh": "香格里拉海边步道椰林凉亭与礁石",
+        "en": "Palms, pavilion, and rocks along the Shangri-La waterfront"
+      }
+    },
+    {
+      "id": "day5-island-trip-selfie-01",
+      "filename": "day5_island_trip_selfie_01.jpg",
+      "alt": {
+        "zh": "两人在晴空下准备从酒店码头出海",
+        "en": "Two travellers ready to leave the hotel jetty"
+      }
+    },
+    {
+      "id": "day5-boat-group-01",
+      "filename": "day5_boat_group_01.jpg",
+      "alt": {
+        "zh": "四位同行人穿救生衣坐在快艇上合影",
+        "en": "Four companions in life jackets aboard a speedboat"
+      }
+    },
+    {
+      "id": "day5-island-beach-01",
+      "filename": "day5_island_beach_01.jpg",
+      "alt": {
+        "zh": "小岛上的绿松石色海水白沙滩与红顶小屋",
+        "en": "Turquoise water, pale sand, and red-roofed huts on an island"
+      }
+    },
+    {
+      "id": "day5-island-snorkel-thumbsup-01",
+      "filename": "day5_island_snorkel_thumbsup_01.jpg",
+      "alt": {
+        "zh": "两人穿救生衣在浮潜小岛沙滩合影",
+        "en": "Two travellers in life jackets after snorkelling"
+      }
+    },
+    {
+      "id": "day5-infinity-pool-sunset-01",
+      "filename": "day5_infinity_pool_sunset_01.jpg",
+      "alt": {
+        "zh": "黄昏时酒店无边泳池小岛棕榈树与海面倒影",
+        "en": "Infinity pool, palms, and sea reflected at dusk"
+      }
+    },
+    {
+      "id": "day5-sunset-palms-01",
+      "filename": "day5_sunset_palms_01.jpg",
+      "alt": {
+        "zh": "丹绒亚路海面上橙金色晚霞与层叠云带",
+        "en": "Orange-gold sunset bands over the sea at Tanjung Aru"
+      }
+    },
+    {
+      "id": "day5-shangri-la-sunset-01",
+      "filename": "day5_shangri_la_sunset_01.jpg",
+      "alt": {
+        "zh": "丹绒亚路橙金色海面与层叠晚霞",
+        "en": "Orange-gold sea and layered sunset clouds at Tanjung Aru"
+      }
+    },
+    {
+      "id": "day5-sunset-group-01",
+      "filename": "day5_sunset_group_01.jpg",
+      "alt": {
+        "zh": "同行人在丹绒亚路日落前合影",
+        "en": "The group posing in front of the Tanjung Aru sunset"
+      }
+    },
+    {
+      "id": "day5-sunset-solo-01",
+      "filename": "day5_sunset_solo_01.jpg",
+      "alt": {
+        "zh": "日落时分丹绒亚路草坪上的游客",
+        "en": "Visitors on the Tanjung Aru lawn at sunset"
+      }
+    },
+    {
+      "id": "day5-sunset-crowd-01",
+      "filename": "day5_sunset_crowd_01.jpg",
+      "alt": {
+        "zh": "夕阳海边的人群剪影",
+        "en": "Crowd silhouetted beside the sunset sea"
+      }
+    },
+    {
+      "id": "day5-dinner-seafood-fish-01",
+      "filename": "day5_dinner_seafood_fish_01.jpg",
+      "alt": {
+        "zh": "大茄来的整条酱蒸鱼",
+        "en": "Whole steamed fish covered in sauce"
+      }
+    },
+    {
+      "id": "day5-dinner-seafood-prawn-01",
+      "filename": "day5_dinner_seafood_prawn_01.jpg",
+      "alt": {
+        "zh": "裹着金黄麦片的麦片虾",
+        "en": "Prawns coated in crisp golden cereal"
+      }
+    },
+    {
+      "id": "day5-durian-01",
+      "filename": "day5_durian_01.jpg",
+      "alt": {
+        "zh": "MK DURIAN 摊位上金黄饱满的榴莲果肉",
+        "en": "Plump golden durian flesh at MK DURIAN"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "SABAH",
+          "en": "SABAH"
+        },
+        "label": {
+          "zh": "亚庇 · 一生一次的日落",
+          "en": "Kota Kinabalu · A Once-in-a-Lifetime Sunset"
+        },
+        "detail": {
+          "zh": "2025.11.25 — 12.01 · 阴天、海岛、好饭和最后的晚霞",
+          "en": "2025.11.25 — 12.01 · Grey skies, island water, good meals, and the final sunset"
+        }
+      }
+    },
+    {
+      "id": "day-0-arrival",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 0",
+          "en": "DAY 0"
+        },
+        "label": {
+          "zh": "夜航去热带",
+          "en": "A Night Flight to the Tropics"
+        },
+        "detail": {
+          "zh": "11 月 25 日—26 日 · 上海 ✈ 亚庇",
+          "en": "November 25–26 · Shanghai ✈ Kota Kinabalu"
+        }
+      }
+    },
+    {
+      "id": "day-1-breakfast",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 1",
+          "en": "DAY 1"
+        },
+        "label": {
+          "zh": "一碗汤粉开始的早晨",
+          "en": "A Morning That Began with Noodles"
+        },
+        "detail": {
+          "zh": "11 月 26 日 · Kinabalu Kopitiam · 市中心",
+          "en": "November 26 · Kinabalu Kopitiam · Downtown"
+        }
+      }
+    },
+    {
+      "id": "day-1-streets",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 1",
+          "en": "DAY 1"
+        },
+        "label": {
+          "zh": "街头、按摩和炸鸡",
+          "en": "Streets, a Massage, and Fried Chicken"
+        },
+        "detail": {
+          "zh": "11 月 26 日 · Wisma Sabah · Lara Spa",
+          "en": "November 26 · Wisma Sabah · Lara Spa"
+        }
+      }
+    },
+    {
+      "id": "day-2-resort",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "酒店慢时光",
+          "en": "Resort Hours"
+        },
+        "detail": {
+          "zh": "11 月 27 日 · 香格里拉 · 亚燕 · 海滨步道",
+          "en": "November 27 · Shangri-La · Ah Yan · Waterfront"
+        }
+      }
+    },
+    {
+      "id": "day-2-evening",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "低飞的飞机与圣诞灯",
+          "en": "Low-Flying Planes and Christmas Lights"
+        },
+        "detail": {
+          "zh": "11 月 27 日 · Imago · 第二家 Spa",
+          "en": "November 27 · Imago · A Second Spa"
+        }
+      }
+    },
+    {
+      "id": "day-3",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 3",
+          "en": "DAY 3"
+        },
+        "label": {
+          "zh": "海鲜、电影与感冒",
+          "en": "Seafood, Cinema, and a Cold"
+        },
+        "detail": {
+          "zh": "11 月 28 日 · 大茄来 · Tiya Spa",
+          "en": "November 28 · Welcome Seafood · Tiya Spa"
+        }
+      }
+    },
+    {
+      "id": "day-4-mosque",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 4",
+          "en": "DAY 4"
+        },
+        "label": {
+          "zh": "终于出了市区",
+          "en": "Finally Beyond Downtown"
+        },
+        "detail": {
+          "zh": "11 月 29 日 · New WK · 水上清真寺",
+          "en": "November 29 · New WK · City Mosque"
+        }
+      }
+    },
+    {
+      "id": "day-4-gaya",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 4",
+          "en": "DAY 4"
+        },
+        "label": {
+          "zh": "袍子、合影与加雅街",
+          "en": "Robes, Group Photos, and Gaya Street"
+        },
+        "detail": {
+          "zh": "11 月 29 日 · 清真寺 · Gorilla · 夜市",
+          "en": "November 29 · City Mosque · Gorilla · Night Market"
+        }
+      }
+    },
+    {
+      "id": "day-5-island",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "天气终于站在我们这边",
+          "en": "The Weather Finally Chose Our Side"
+        },
+        "detail": {
+          "zh": "11 月 30 日 · 酒店码头 · 东姑阿都拉曼公园",
+          "en": "November 30 · Hotel Jetty · Tunku Abdul Rahman Park"
+        }
+      }
+    },
+    {
+      "id": "day-5-snorkel",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "海水清澈，名字留白",
+          "en": "Clear Water, Unremembered Name"
+        },
+        "detail": {
+          "zh": "11 月 30 日 · 小岛浮潜 · 酒店退房",
+          "en": "November 30 · Island Snorkelling · Checkout"
+        }
+      }
+    },
+    {
+      "id": "day-5-sunset",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "一生一次的日落",
+          "en": "A Once-in-a-Lifetime Sunset"
+        },
+        "detail": {
+          "zh": "11 月 30 日 · 丹绒亚路",
+          "en": "November 30 · Tanjung Aru"
+        }
+      }
+    },
+    {
+      "id": "day-5-departure",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "海鲜、榴莲与凌晨航班",
+          "en": "Seafood, Durian, and a 1 AM Flight"
+        },
+        "detail": {
+          "zh": "11 月 30 日—12 月 1 日 · 加雅街 · 机场",
+          "en": "November 30–December 1 · Gaya Street · Airport"
+        }
+      }
+    },
+    {
+      "id": "bill",
+      "navigation": {
+        "marker": {
+          "zh": "BILL",
+          "en": "BILL"
+        },
+        "label": {
+          "zh": "我和小土的旅行账单",
+          "en": "Our Shared Trip Bill"
+        },
+        "detail": {
+          "zh": "仅统计能够确认的共同支出",
+          "en": "Confirmed expenses for Xiao Tu and me only"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-01",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "page-01-cover",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "🇲🇾 🌊 🌅",
+            "en": "🇲🇾 🌊 🌅"
+          },
+          "title": {
+            "zh": "亚庇 · 一生一次的日落",
+            "en": "Kota Kinabalu ·\nA Once-in-a-Lifetime Sunset"
+          },
+          "subtitle": {
+            "zh": "Kota Kinabalu Travel Journal",
+            "en": "Kota Kinabalu Travel Journal"
+          },
+          "date": {
+            "zh": "2025.11.25 — 12.01",
+            "en": "2025.11.25 — 12.01"
+          },
+          "intro": {
+            "zh": "前几天一直是阴天。\n到最后一个傍晚，整片海忽然亮了起来。",
+            "en": "The first few days stayed grey.\nThen, on our final evening, the whole sea lit up."
+          },
+          "introStyle": "quote",
+          "introWidth": {
+            "zh": "narrow",
+            "en": "medium"
+          },
+          "separators": true,
+          "stamp": {
+            "variant": "circle",
+            "text": {
+              "zh": "SABAH\n2025",
+              "en": "SABAH\n2025"
+            }
+          },
+          "boxStamp": {
+            "zh": "BORNEO MEMORIES",
+            "en": "BORNEO MEMORIES"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "sectionId": "day-0-arrival",
+      "blocks": [
+        {
+          "id": "page-02-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "0",
+            "en": "0"
+          },
+          "title": {
+            "zh": "夜航去热带",
+            "en": "A Night Flight to the Tropics"
+          },
+          "subtitle": {
+            "zh": "11 月 25 日—26 日 · 上海 ✈ 亚庇",
+            "en": "November 25–26 · Shanghai ✈ Kota Kinabalu"
+          },
+          "icon": "🌙"
+        },
+        {
+          "id": "page-02-timeline",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-02-timeline-1",
+              "time": {
+                "zh": "20:00",
+                "en": "20:00"
+              },
+              "event": {
+                "zh": "搭乘上海航空出发",
+                "en": "Departed on Shanghai Airlines"
+              },
+              "detail": {
+                "zh": "夜里飞往沙巴，约四个半小时",
+                "en": "A four-and-a-half-hour night flight to Sabah"
+              }
+            },
+            {
+              "id": "page-02-timeline-2",
+              "time": {
+                "zh": "00:30",
+                "en": "00:30"
+              },
+              "event": {
+                "zh": "抵达亚庇国际机场",
+                "en": "Landed at Kota Kinabalu International Airport"
+              },
+              "detail": {
+                "zh": "凌晨入住丹绒亚路香格里拉",
+                "en": "Checked into Shangri-La Tanjung Aru after midnight"
+              }
+            },
+            {
+              "id": "page-02-timeline-3",
+              "time": {
+                "zh": "早晨",
+                "en": "Morning"
+              },
+              "event": {
+                "zh": "从酒店阳台看见亚庇",
+                "en": "Our first look at Kota Kinabalu"
+              },
+              "detail": {
+                "zh": "阴沉的天空，浓绿园林、棕榈树和远处海面",
+                "en": "Grey sky, dense gardens, palms, and the sea beyond"
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-02-gallery",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day1-hotel-view-01",
+              "caption": {
+                "zh": "第一眼亚庇：天色阴阴的，热带植物却绿得很精神",
+                "en": "First look at Kota Kinabalu: grey overhead, brilliantly green below"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-02-note",
+          "type": "note",
+          "title": {
+            "zh": "👥 这趟旅伴",
+            "en": "👥 The changing crew"
+          },
+          "body": {
+            "zh": "前两天是我和小欧的双人闲逛；27 日晚上，小土和 Ellie 夫妇抵达。Rock 在后半程加入。人数一点点变多，旅行也从安静散步切换成热闹聚餐。",
+            "en": "The first two days were just Xiao Ou and me. Xiao Tu and Ellie's party arrived on the evening of the 27th, and Rock joined later. The trip gradually shifted from quiet wandering to full-table dinners."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "sectionId": "day-1-breakfast",
+      "blocks": [
+        {
+          "id": "page-03-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "一碗汤粉开始的早晨",
+            "en": "A Morning That Began with Noodles"
+          },
+          "subtitle": {
+            "zh": "11 月 26 日 · Kinabalu Kopitiam · 市中心",
+            "en": "November 26 · Kinabalu Kopitiam · Downtown"
+          },
+          "icon": "☁️"
+        },
+        {
+          "id": "page-03-prose-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "睡醒后随手叫车出门，没有很严密的计划。第一站是金纳巴鲁咖啡店，桌上很快摆满汤粉、牛肉丸和凤爪。热气腾腾的一顿，把夜航留下的疲惫慢慢压了下去。",
+              "en": "We woke without much of a plan and called a car into town. At Kinabalu Kopitiam, soup noodles, beef balls, and chicken feet quickly filled the table. A hot, straightforward breakfast slowly pushed away the night-flight fatigue."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day1-breakfast-01",
+              "caption": {
+                "zh": "家常而扎实的第一顿",
+                "en": "A hearty, homestyle first meal"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day1-breakfast-02",
+              "caption": {
+                "zh": "凤爪也要点上",
+                "en": "Chicken feet, of course"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-divider",
+          "type": "divider",
+          "icon": "☕",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-03-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到市中心商场一带继续闲晃，在 Crack Inc. Borneo Coffee Roastery 点了奶咖和黑咖。没有赶景点，喝咖啡、看街景，就是当天最自然的节奏。",
+              "en": "We drifted through the downtown malls and stopped at Crack Inc. Borneo Coffee Roastery for an iced milk coffee and a black coffee. No landmark chase—just coffee, streets, and whatever caught our eye."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day1-crack-inc-coffee-01",
+              "caption": {
+                "zh": "双人骑车 logo，很有辨识度",
+                "en": "The tandem-bike logo was hard to miss"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day1-wisma-sabah-mural-01",
+              "caption": {
+                "zh": "犀鸟、猴子和本地符号挤满整面墙",
+                "en": "Hornbills, monkeys, and local symbols across one wall"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-04",
+      "sectionId": "day-1-streets",
+      "blocks": [
+        {
+          "id": "page-04-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "街头、按摩和炸鸡",
+            "en": "Streets, a Massage, and Fried Chicken"
+          },
+          "subtitle": {
+            "zh": "11 月 26 日 · Wisma Sabah · Lara Spa",
+            "en": "November 26 · Wisma Sabah · Lara Spa"
+          },
+          "icon": "🌆"
+        },
+        {
+          "id": "page-04-gallery-1",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "day1-city-walk-01",
+              "caption": {
+                "zh": "随手记下的城市切片",
+                "en": "A small slice of the city"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day1-city-walk-02",
+              "caption": {
+                "zh": "没有目的地地走",
+                "en": "Walking without a destination"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day1-city-walk-hyatt-01",
+              "caption": {
+                "zh": "云层一直压在楼顶",
+                "en": "Clouds pressed low over the rooftops"
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "page-04-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "中午以后去 Lara Spa 做按摩。小店干净温馨，墙上的 “keep calm & get your spa day on” 很应景。按摩结束继续逛商场，晚上索性用一盒 Jollibee 炸鸡收尾。",
+              "en": "After lunch came a massage at Lara Spa, a clean, welcoming little place whose “keep calm & get your spa day on” sign felt entirely appropriate. We wandered some more, then ended the night with a box of Jollibee fried chicken."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-04-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day1-lara-spa-01",
+              "caption": {
+                "zh": "第一天的松弛感，从这里开始",
+                "en": "This was where the holiday loosened its shoulders"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day1-jollibee-01",
+              "caption": {
+                "zh": "简单直接的商场晚餐",
+                "en": "A simple mall-food dinner"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-note",
+          "type": "note",
+          "title": {
+            "zh": "📝 没有被账单记住的一天",
+            "en": "📝 A day the receipts forgot"
+          },
+          "body": {
+            "zh": "早茶、咖啡、按摩、炸鸡和几段打车的金额后来都找不到了。与其补一个看似精确的数字，不如留下这条缺口。",
+            "en": "We later lost track of the exact prices for breakfast, coffee, massage, fried chicken, and several rides. Better to leave the gap than invent precise-looking numbers."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-05",
+      "sectionId": "day-2-resort",
+      "blocks": [
+        {
+          "id": "page-05-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "酒店慢时光",
+            "en": "Resort Hours"
+          },
+          "subtitle": {
+            "zh": "11 月 27 日 · 香格里拉 · 亚燕 · 海滨步道",
+            "en": "November 27 · Shangri-La · Ah Yan · Waterfront"
+          },
+          "icon": "⛅"
+        },
+        {
+          "id": "page-05-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day2-shangri-la-pool-01",
+              "caption": {
+                "zh": "云很多，度假感却一点不少",
+                "en": "Plenty of cloud, but no shortage of holiday mood"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day2-hotel-building-01",
+              "caption": {
+                "zh": "在园林里晃到不想出门",
+                "en": "The gardens made leaving difficult"
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "page-05-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "早餐后就在度假村里散步。无边泳池中央那棵树很抢眼，远处还能看见岛的轮廓。中午还是去了市区，在亚燕吃一碗橙红浓郁的汤面——大虾、豆腐卜、蛋丝和香菜挤得满满，是真的好吃。",
+              "en": "After breakfast we stayed around the resort. A lone tree stood in the infinity pool, with islands faintly visible beyond. Lunch pulled us downtown: at Ah Yan, an orange-red bowl arrived crowded with prawns, tofu puffs, egg, and herbs. It was genuinely delicious."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-05-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day2-lunch-ah-yan-01",
+              "caption": {
+                "zh": "这趟旅行里会想念的一碗面",
+                "en": "The bowl I would happily return for"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day2-waterfront-selfie-01",
+              "caption": {
+                "zh": "电影散场后，天终于亮了一些",
+                "en": "After the film, the sky finally brightened"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-note",
+          "type": "note",
+          "title": {
+            "zh": "🎬 今日电影",
+            "en": "🎬 Today's film"
+          },
+          "body": {
+            "zh": "下午在商场看了《疯狂动物城》，评价很不错。旅行里插入一场电影，意外地很适合阴天。",
+            "en": "We watched Zootopia at the mall and liked it a lot. A cinema break fitted the cloudy afternoon surprisingly well."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-06",
+      "sectionId": "day-2-evening",
+      "blocks": [
+        {
+          "id": "page-06-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "低飞的飞机与圣诞灯",
+            "en": "Low-Flying Planes and Christmas Lights"
+          },
+          "subtitle": {
+            "zh": "11 月 27 日 · Imago · 第二家 Spa",
+            "en": "November 27 · Imago · A Second Spa"
+          },
+          "icon": "🎄"
+        },
+        {
+          "id": "page-06-prose-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "去另一家 Spa 的路上，一架客机从市中心建筑上方低低掠过。那家店的名字已经不记得，环境普通，但约 180 多元人民币的价格很便宜。晚餐回到 Imago，排队吃了一家泰国菜，门口的小突突车比店名更让人记得住。",
+              "en": "On our walk to another spa, a passenger jet swept low over the city buildings. I no longer remember the spa's name; it was basic, but cheap at a little over RMB 180. Dinner was at a Thai restaurant in Imago after a long queue. Its tuk-tuk display proved more memorable than its name."
+            }
+          ]
+        },
+        {
+          "id": "page-06-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day2-airplane-01",
+              "caption": {
+                "zh": "亚庇机场离城很近，抬头就是飞机腹部",
+                "en": "The airport is close enough for a clear view of the belly"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day2-dinner-tuktuk-01",
+              "caption": {
+                "zh": "店名忘了，门口的车还记得",
+                "en": "The name faded; the tuk-tuk stayed"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-2",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "day2-dinner-thai-vegetable-01",
+              "caption": {
+                "zh": "炒空心菜",
+                "en": "Morning glory"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day2-dinner-thai-curry-01",
+              "caption": {
+                "zh": "红咖喱",
+                "en": "Red curry"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day2-dinner-thai-chicken-01",
+              "caption": {
+                "zh": "炸鸡翅",
+                "en": "Fried wings"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-gallery-3",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day2-christmas-tree-01",
+              "caption": {
+                "zh": "热带城市也进入了圣诞季",
+                "en": "Even the tropics had entered Christmas season"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-06-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上，小土和 Ellie 夫妇抵达。两个人的闲逛告一段落，大部队正式汇合。",
+              "en": "Xiao Tu and Ellie's party arrived that evening. The two-person chapter was over; the full group had assembled."
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-07",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "page-07-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "海鲜、电影与感冒",
+            "en": "Seafood, Cinema, and a Cold"
+          },
+          "subtitle": {
+            "zh": "11 月 28 日 · 大茄来 · Tiya Spa",
+            "en": "November 28 · Welcome Seafood · Tiya Spa"
+          },
+          "icon": "🦀"
+        },
+        {
+          "id": "page-07-prose-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "人齐以后，行程很自然地变成吃吃喝喝。中午去大茄来，黑胡椒蟹、白灼虾、清蒸鱼、炸豆腐和广式点心铺满一桌，是毫不收敛的一顿。",
+              "en": "Once everyone arrived, the day naturally became a food crawl. At Welcome Seafood, black-pepper crab, poached prawns, steamed fish, tofu, vegetables, and Cantonese dim sum covered the table. Nothing restrained about this lunch."
+            }
+          ]
+        },
+        {
+          "id": "page-07-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day3-seafood-crab-01",
+              "caption": {
+                "zh": "黑胡椒酱汁裹住每一块蟹",
+                "en": "Black-pepper sauce in every crevice"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day3-seafood-shrimp-01",
+              "caption": {
+                "zh": "简单白灼，虾本身就够鲜",
+                "en": "Simply poached and naturally sweet"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day3-seafood-feast-01",
+              "caption": {
+                "zh": "大部队的第一顿正式聚餐",
+                "en": "The first full-group feast"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day3-dimsum-01",
+              "caption": {
+                "zh": "海鲜桌上还塞进了整套早茶",
+                "en": "A complete dim sum spread beside the seafood"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-07-divider",
+          "type": "divider",
+          "icon": "🎞️",
+          "spacing": {
+            "top": 16,
+            "bottom": 12
+          }
+        },
+        {
+          "id": "page-07-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午看《惊天魔盗团 3》，感觉一般，有点炒冷饭。晚上全员去 Tiya Spa 做 90 分钟精油按摩；偏偏我有点感冒，趴着的时候并不舒服，再漂亮的圣诞装饰也救不了鼻塞。",
+              "en": "Now You See Me 3 came next—average, a little too much like reheated material. In the evening, everyone booked a 90-minute oil massage at Tiya Spa. I had a cold, so lying face-down was mostly uncomfortable. Even the Christmas decorations could not rescue a blocked nose."
+            }
+          ]
+        },
+        {
+          "id": "page-07-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day3-tiya-spa-01",
+              "caption": {
+                "zh": "店里已经很圣诞，我却只想赶紧把感冒睡过去",
+                "en": "The spa felt festive; I mostly wanted to sleep off the cold"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-08",
+      "sectionId": "day-4-mosque",
+      "blocks": [
+        {
+          "id": "page-08-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "终于出了市区",
+            "en": "Finally Beyond Downtown"
+          },
+          "subtitle": {
+            "zh": "11 月 29 日 · New WK · 水上清真寺",
+            "en": "November 29 · New WK · City Mosque"
+          },
+          "icon": "🕌"
+        },
+        {
+          "id": "page-08-prose-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "中午专门跑去 New WK 吃早茶。虾饺、烧卖、叉烧包、豉汁蒸排骨一笼笼上桌，皮薄馅足，值得为它离开熟悉的商场范围。",
+              "en": "We travelled farther for lunch at New WK. Basket after basket brought har gow, siu mai, char siu buns, and steamed ribs. Thin wrappers, generous fillings—worth leaving our familiar mall orbit for."
+            }
+          ]
+        },
+        {
+          "id": "page-08-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day4-new-wk-dimsum-01",
+              "caption": {
+                "zh": "这一顿真的很棒，是愿意专门跑一趟的味道",
+                "en": "A meal worth making a dedicated trip for"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-08-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午去亚庇水上清真寺。白色主体、蓝绿色穹顶和四座尖塔落在水面倒影里。大家换上清真寺提供的袍子，认真参观，也认真拍照。",
+              "en": "In the afternoon we visited Masjid Bandaraya Kota Kinabalu, the City Mosque. Its white walls, blue-green dome, and four minarets sat reflected in the water. We changed into the provided robes, took time to look around, and took plenty of photographs too."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-08-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-mosque-panorama-01",
+              "caption": {
+                "zh": "亚庇最有辨识度的一组线条",
+                "en": "The city&apos;s most recognisable silhouette"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day4-mosque-tower-01",
+              "caption": {
+                "zh": "靠近后才看清拱门和金色点缀",
+                "en": "The arches and gold details appeared up close"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-09",
+      "sectionId": "day-4-gaya",
+      "blocks": [
+        {
+          "id": "page-09-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "袍子、合影与加雅街",
+            "en": "Robes, Group Photos, and Gaya Street"
+          },
+          "subtitle": {
+            "zh": "11 月 29 日 · 清真寺 · Gorilla · 夜市",
+            "en": "November 29 · City Mosque · Gorilla · Night Market"
+          },
+          "icon": "🥂"
+        },
+        {
+          "id": "page-09-gallery-1",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "day4-mosque-group-01",
+              "caption": {
+                "zh": "清真寺前的大合影",
+                "en": "The big mosque group photo"
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "day4-mosque-robe-selfie-01",
+              "caption": {
+                "zh": "米色与灰色长袍",
+                "en": "Beige and grey robes"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day4-mosque-robe-01",
+              "caption": {
+                "zh": "紫色圆帽也很抢镜",
+                "en": "The purple cap stole some attention"
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "page-09-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚到加雅街的 Gorilla Restaurant。黑白花砖、藤编吊灯和绿植把店里挤得很热闹。吃完并没有立刻回去，又在夜市路边分食一盒炒粉，举着冰饮碰杯。",
+              "en": "Evening took us to Gorilla Restaurant near Gaya Street, all patterned tiles, woven lights, greenery, and noise. Dinner did not stop us from sharing a foam box of fried noodles at the night market—or raising brightly coloured iced drinks for a toast."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-09-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day4-gaya-pate-interior-01",
+              "caption": {
+                "zh": "热闹的南洋餐厅内部",
+                "en": "A lively, tropical dining room"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day4-gaya-night-market-streetfood-01",
+              "caption": {
+                "zh": "正餐以后，路边这一盒还是吃得下",
+                "en": "Still room for this box after dinner"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day4-gaya-dinner-toast-01",
+              "caption": {
+                "zh": "冰饮碰杯，人数终于完整",
+                "en": "A toast with the whole crew"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day4-gaya-dinner-group-01",
+              "caption": {
+                "zh": "小欧在亚庇的最后一个完整晚上",
+                "en": "Xiao Ou&apos;s last full evening in Kota Kinabalu"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-09-note",
+          "type": "note",
+          "title": {
+            "zh": "🌙 人员变化",
+            "en": "🌙 One more crew change"
+          },
+          "body": {
+            "zh": "小欧 29 日一整天都和大家在一起，直到 30 日凌晨才先行离开。最后一天，队伍变成我、小土和 Ellie 夫妇四人。",
+            "en": "Xiao Ou stayed with us throughout the 29th and left in the early hours of the 30th. The final day belonged to Xiao Tu, Ellie's party, and me."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "sectionId": "day-5-island",
+      "blocks": [
+        {
+          "id": "page-10-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "天气终于站在我们这边",
+            "en": "The Weather Finally Chose Our Side"
+          },
+          "subtitle": {
+            "zh": "11 月 30 日 · 酒店码头 · 东姑阿都拉曼公园",
+            "en": "November 30 · Hotel Jetty · Tunku Abdul Rahman Park"
+          },
+          "icon": "☀️"
+        },
+        {
+          "id": "page-10-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-shangri-la-view-01",
+              "caption": {
+                "zh": "前几天的阴云终于散开",
+                "en": "The clouds of the previous days finally cleared"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day5-shangri-la-seaside-01",
+              "caption": {
+                "zh": "出海前沿着酒店海边走一圈",
+                "en": "One seaside walk before the boat"
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "page-10-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "临时决定跟酒店的船出海。岛名后来没有确认，只记得它在东姑阿都拉曼公园一带。码头前先合影，登艇后四个人穿着救生衣又拍一张，蓝天、远山和亚庇海岸线都在背后。",
+              "en": "We made a last-minute decision to join the hotel's island trip. I never confirmed the island's name, only that it was around Tunku Abdul Rahman Park. First a photo at the jetty, then another aboard the speedboat: four life jackets, blue sky, distant hills, and the city shoreline behind us."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-10-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-island-trip-selfie-01",
+              "caption": {
+                "zh": "终于等到适合出海的蓝天",
+                "en": "At last, a properly blue day for the islands"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day5-boat-group-01",
+              "caption": {
+                "zh": "出海小分队，正式出发",
+                "en": "The island crew, underway"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-10-route",
+          "type": "route",
+          "stops": [
+            {
+              "id": "page-10-route-1",
+              "icon": "🏨",
+              "label": {
+                "zh": "香格里拉",
+                "en": "Shangri-La"
+              }
+            },
+            {
+              "id": "page-10-route-2",
+              "icon": "🚤",
+              "label": {
+                "zh": "酒店码头",
+                "en": "Hotel jetty"
+              }
+            },
+            {
+              "id": "page-10-route-3",
+              "icon": "🏝️",
+              "label": {
+                "zh": "附近小岛",
+                "en": "Nearby island"
+              }
+            },
+            {
+              "id": "page-10-route-4",
+              "icon": "🤿",
+              "label": {
+                "zh": "浮潜",
+                "en": "Snorkelling"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "sectionId": "day-5-snorkel",
+      "blocks": [
+        {
+          "id": "page-11-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "海水清澈，名字留白",
+            "en": "Clear Water, Unremembered Name"
+          },
+          "subtitle": {
+            "zh": "11 月 30 日 · 小岛浮潜 · 酒店退房",
+            "en": "November 30 · Island Snorkelling · Checkout"
+          },
+          "icon": "🤿"
+        },
+        {
+          "id": "page-11-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-island-beach-01",
+              "caption": {
+                "zh": "岛名没记住，海水的颜色记住了",
+                "en": "I forgot the name, but not the colour of the water"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day5-island-snorkel-thumbsup-01",
+              "caption": {
+                "zh": "浮潜归来的纪念照",
+                "en": "The post-snorkel souvenir photo"
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "page-11-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "海水清澈，白沙滩后是树林与红顶小屋。我们下水浮潜，具体看见了什么已经说不准确，就不替记忆补答案了。下午回酒店退房，又游了一会儿泳、泡了池子。",
+              "en": "Clear water met a pale beach, with trees and red-roofed huts behind it. We snorkelled, though I cannot now say exactly what we saw underwater, so I will not fill in the memory for effect. Back at the hotel, we checked out, swam a little longer, and soaked in the pool."
+            },
+            {
+              "zh": "香格里拉很贴心：退房后仍能使用行政酒廊，洗澡、换衣、寄存行李都不成问题。于是我们一直赖到傍晚，等这趟旅行最后一场重头戏。",
+              "en": "Shangri-La let us keep using the Horizon Club after checkout—for showers, clean clothes, luggage, and a place to wait. We stayed until evening for the final event of the trip."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-11-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day5-infinity-pool-sunset-01",
+              "caption": {
+                "zh": "退房以后，泳池和行政酒廊又替我们收留了半天",
+                "en": "The pool and lounge gave us half a day after checkout"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-11-note",
+          "type": "note",
+          "title": {
+            "zh": "💸 留白的费用",
+            "en": "💸 The missing line item"
+          },
+          "body": {
+            "zh": "上岛费记录为 MYR 110（四人），但酒店船费和浮潜装备另计，金额已经记不清，没有算进最终合计。",
+            "en": "The island fee was recorded as MYR 110 for four people. The hotel boat and snorkelling equipment cost extra, but the amount is gone from memory and therefore absent from the total."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-12",
+      "sectionId": "day-5-sunset",
+      "blocks": [
+        {
+          "id": "page-12-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "一生一次的日落",
+            "en": "A Once-in-a-Lifetime Sunset"
+          },
+          "subtitle": {
+            "zh": "11 月 30 日 · 丹绒亚路",
+            "en": "November 30 · Tanjung Aru"
+          },
+          "icon": "🌅"
+        },
+        {
+          "id": "page-12-prose",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚，云层终于没有再把光挡住。深蓝与橙金从海面一直铺向天空，水波被夕阳拉成一条条金线。前几天一直阴着，或许正因为等得够久，这场日落才显得像只会发生一次。",
+              "en": "At dusk the clouds finally stopped holding back the light. Deep blue and molten orange spread from sea to sky, each ripple stretched into a line of gold. Perhaps it felt singular because we had waited through so many grey days."
+            }
+          ]
+        },
+        {
+          "id": "page-12-gallery-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day5-sunset-palms-01",
+              "caption": {
+                "zh": "海和天空同时被点亮",
+                "en": "The sea and sky lit up together"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-12-gallery-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-shangri-la-sunset-01",
+              "caption": {
+                "zh": "海面接住了整片橙金晚霞",
+                "en": "The sea caught the full orange-gold sky"
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "day5-sunset-group-01",
+              "caption": {
+                "zh": "四个人，最后一个完整傍晚",
+                "en": "Four people, one last full evening"
+              },
+              "shape": "square"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-12-gallery-3",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "day5-sunset-solo-01",
+              "caption": {
+                "zh": "所有人都在等同一片天空",
+                "en": "Everyone waiting beneath the same sky"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day5-sunset-crowd-01",
+              "caption": {
+                "zh": "日落把人群变成剪影",
+                "en": "The sunset turned the crowd into silhouettes"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day5-infinity-pool-sunset-01",
+              "caption": {
+                "zh": "泳池也安静下来",
+                "en": "The pool quietened with the light"
+              },
+              "shape": "portrait",
+              "alt": {
+                "zh": "黄昏时酒店无边泳池与海面",
+                "en": "Hotel infinity pool and sea at dusk"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-12-highlight",
+          "type": "highlight",
+          "title": {
+            "zh": "🌟 旅行高光",
+            "en": "🌟 Trip highlight"
+          },
+          "body": {
+            "zh": "不是追着行程赶来的日落，而是在酒店待到最后、刚好等到的日落。它替整趟旅行收了一个太漂亮的尾。",
+            "en": "This was not a sunset we rushed across town to catch. We simply stayed at the hotel until the end and happened to receive it—a spectacular closing line."
+          },
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-13",
+      "sectionId": "day-5-departure",
+      "blocks": [
+        {
+          "id": "page-13-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Day",
+            "en": "Day"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "海鲜、榴莲与凌晨航班",
+            "en": "Seafood, Durian, and a 1 AM Flight"
+          },
+          "subtitle": {
+            "zh": "11 月 30 日—12 月 1 日 · 加雅街 · 机场",
+            "en": "November 30–December 1 · Gaya Street · Airport"
+          },
+          "icon": "✈️"
+        },
+        {
+          "id": "page-13-prose-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "看完日落又回到加雅街附近的大茄来。酱蒸鱼铺满胡萝卜丝和葱花，麦片虾咸甜酥脆，最后一顿正餐吃得很满足。",
+              "en": "After sunset we returned to Welcome Seafood near Gaya Street. Sauce covered the whole steamed fish beneath carrot and spring onion; cereal prawns came crisp, savoury, and sweet. A satisfying last proper meal."
+            }
+          ]
+        },
+        {
+          "id": "page-13-gallery-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "day5-dinner-seafood-fish-01",
+              "caption": {
+                "zh": "浓酱铺满整条鱼",
+                "en": "Rich sauce across the whole fish"
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "day5-dinner-seafood-prawn-01",
+              "caption": {
+                "zh": "最后一顿还要点麦片虾",
+                "en": "Cereal prawns for the final dinner"
+              },
+              "shape": "portrait"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-13-prose-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "Rock 当晚另开了一间房，方便飞台湾前洗整，我们也借地方简单梳洗。深夜临时下楼，在 MK DURIAN 撞见一摊好榴莲：果肉金黄饱满，质量惊艳。凌晨一点去机场，六点落地北京，旅程结束得干脆。",
+              "en": "Rock had booked a room before his flight to Taiwan, and we borrowed it for a quick shower and reset. Downstairs, an unplanned visit to MK DURIAN produced excellent fruit—golden, plump, and intensely fragrant. At 1 AM we flew out; by 6 AM we were back in Beijing."
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-13-gallery-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "day5-durian-01",
+              "caption": {
+                "zh": "计划外的最后一口，反而格外惊艳",
+                "en": "The unplanned final bite was one of the best"
+              },
+              "shape": "hero"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-13-timeline",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-13-timeline-1",
+              "time": {
+                "zh": "深夜",
+                "en": "Late night"
+              },
+              "event": {
+                "zh": "Rock 的房间短暂休整",
+                "en": "A reset in Rock's room"
+              },
+              "detail": {
+                "zh": "洗澡、换衣，准备各自的凌晨航班",
+                "en": "Shower, change, then separate early flights"
+              }
+            },
+            {
+              "id": "page-13-timeline-2",
+              "time": {
+                "zh": "01:00",
+                "en": "01:00"
+              },
+              "event": {
+                "zh": "从亚庇起飞",
+                "en": "Departed Kota Kinabalu"
+              },
+              "detail": {
+                "zh": "打车去机场 MYR 28.84，三人分摊",
+                "en": "Airport ride MYR 28.84, split among three"
+              }
+            },
+            {
+              "id": "page-13-timeline-3",
+              "time": {
+                "zh": "06:00",
+                "en": "06:00"
+              },
+              "event": {
+                "zh": "抵达北京",
+                "en": "Arrived in Beijing"
+              },
+              "detail": {
+                "zh": "从热带日落回到冬天",
+                "en": "From a tropical sunset back to winter"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-14",
+      "sectionId": "bill",
+      "blocks": [
+        {
+          "id": "page-14-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "Bill",
+            "en": "Bill"
+          },
+          "markerValue": {
+            "zh": "¥",
+            "en": "¥"
+          },
+          "title": {
+            "zh": "我和小土的旅行账单",
+            "en": "Our Shared Trip Bill"
+          },
+          "subtitle": {
+            "zh": "仅统计能够确认的共同支出",
+            "en": "Confirmed expenses for Xiao Tu and me only"
+          },
+          "icon": "🧾"
+        },
+        {
+          "id": "page-14-expense",
+          "type": "expense",
+          "rows": [
+            {
+              "id": "page-14-expense-1",
+              "label": {
+                "zh": "往返机票（2 人）",
+                "en": "Return flights for two"
+              },
+              "amount": {
+                "zh": "¥5,486.00",
+                "en": "¥5,486.00"
+              }
+            },
+            {
+              "id": "page-14-expense-2",
+              "label": {
+                "zh": "丹绒亚路香格里拉",
+                "en": "Shangri-La Tanjung Aru"
+              },
+              "amount": {
+                "zh": "¥4,797.08",
+                "en": "¥4,797.08"
+              }
+            },
+            {
+              "id": "page-14-expense-3",
+              "label": {
+                "zh": "11 月 28 日已确认分摊",
+                "en": "Confirmed share · November 28"
+              },
+              "amount": {
+                "zh": "¥1,011.00",
+                "en": "¥1,011.00"
+              }
+            },
+            {
+              "id": "page-14-expense-4",
+              "label": {
+                "zh": "11 月 29 日已确认分摊",
+                "en": "Confirmed share · November 29"
+              },
+              "amount": {
+                "zh": "¥429.71",
+                "en": "¥429.71"
+              }
+            },
+            {
+              "id": "page-14-expense-5",
+              "label": {
+                "zh": "11 月 30 日已确认分摊",
+                "en": "Confirmed share · November 30"
+              },
+              "amount": {
+                "zh": "¥507.39",
+                "en": "¥507.39"
+              }
+            },
+            {
+              "id": "page-14-expense-6",
+              "label": {
+                "zh": "12 月 1 日机场交通分摊",
+                "en": "Airport ride share · December 1"
+              },
+              "amount": {
+                "zh": "¥32.48",
+                "en": "¥32.48"
+              }
+            },
+            {
+              "id": "page-14-expense-7",
+              "label": {
+                "zh": "已确认合计",
+                "en": "Confirmed total"
+              },
+              "amount": {
+                "zh": "¥12,263.66",
+                "en": "¥12,263.66"
+              },
+              "total": true
+            }
+          ]
+        },
+        {
+          "id": "page-14-note",
+          "type": "note",
+          "title": {
+            "zh": "📌 账目口径",
+            "en": "📌 What the total means"
+          },
+          "body": {
+            "zh": "这是“我 + 小土”的共同支出合计，不是人均。11 月 26—27 日的大部分消费、约 180 多元的第二家 Spa，以及酒店船费和浮潜装备因为记录不完整，没有纳入合计。",
+            "en": "This is the combined spend for Xiao Tu and me, not a per-person figure. Most spending from November 26–27, the roughly RMB 180 second spa, and the hotel boat and snorkelling equipment remain outside the total because the records are incomplete."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-14-tags",
+          "type": "tags",
+          "variant": "colored",
+          "items": [
+            {
+              "id": "page-14-tag-1",
+              "label": {
+                "zh": "最喜欢：丹绒亚路日落",
+                "en": "Favourite: Tanjung Aru sunset"
+              },
+              "tone": "red"
+            },
+            {
+              "id": "page-14-tag-2",
+              "label": {
+                "zh": "最好吃：亚燕汤面",
+                "en": "Best meal: Ah Yan noodles"
+              },
+              "tone": "blue"
+            },
+            {
+              "id": "page-14-tag-3",
+              "label": {
+                "zh": "最惊喜：深夜榴莲",
+                "en": "Best surprise: late-night durian"
+              },
+              "tone": "green"
+            },
+            {
+              "id": "page-14-tag-4",
+              "label": {
+                "zh": "最诚实：感冒时按摩并不享受",
+                "en": "Most honest: a cold ruined the massage"
+              },
+              "tone": "gold"
+            }
+          ],
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-14-divider",
+          "type": "divider",
+          "icon": "🌅",
+          "spacing": {
+            "top": 20,
+            "bottom": 16
+          }
+        },
+        {
+          "id": "page-14-prose",
+          "type": "prose",
+          "style": "handwritten-cn",
+          "align": "center",
+          "width": {
+            "zh": "narrow",
+            "en": "narrow"
+          },
+          "paragraphs": [
+            {
+              "zh": "有些店名和数字已经模糊，\n但那天海面上的金光，应该会记很久。",
+              "en": "Some names and numbers have blurred,\nbut the gold across that sea should stay for a long time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
