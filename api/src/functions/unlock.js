@@ -1,7 +1,7 @@
 import { app } from "@azure/functions";
 import { loadConfig } from "../config.js";
 import {
-  isAuthorizedIdentity,
+  isAuthorizedReader,
   PRIVATE_JOURNAL_READ_SCOPE,
   verifyMicrosoftAccessToken,
 } from "../microsoft-token.js";
@@ -75,7 +75,7 @@ export function createUnlockHandler({
         return response(401, headers, { error: "Authentication failed." });
       }
 
-      if (!isAuthorizedIdentity(payload, config)) {
+      if (!isAuthorizedReader(payload, config)) {
         context.warn("Microsoft account is not authorized.", {
           subject: payload.sub,
         });

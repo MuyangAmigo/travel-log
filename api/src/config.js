@@ -32,9 +32,20 @@ function loadMicrosoftConfig(environment) {
     throw new Error("MICROSOFT_CLIENT_ID must be a GUID.");
   }
 
+  const allowedSubject = requireSetting(environment, "ALLOWED_MICROSOFT_SUB");
+  const additionalReaderSubjects = (
+    environment.ALLOWED_MICROSOFT_READER_SUBS ?? ""
+  )
+    .split(",")
+    .map((subject) => subject.trim())
+    .filter(Boolean);
+
   return {
     allowedOrigin: loadAllowedOrigin(environment),
-    allowedSubject: requireSetting(environment, "ALLOWED_MICROSOFT_SUB"),
+    allowedReaderSubjects: [
+      ...new Set([allowedSubject, ...additionalReaderSubjects]),
+    ],
+    allowedSubject,
     clientId,
   };
 }

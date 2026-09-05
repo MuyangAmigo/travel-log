@@ -1,6 +1,6 @@
 # Microsoft authentication setup
 
-Private journal HTML remains AES-encrypted on GitHub Pages. Plaintext React Server Component route payloads are removed after the build. Readers can authenticate with either the authorized Microsoft personal account or a private passcode. The Azure Function validates the chosen credential before deriving the requested page's key from the server-only master passphrase.
+Private journal HTML remains AES-encrypted on GitHub Pages. Plaintext React Server Component route payloads are removed after the build. Readers can authenticate with an authorized Microsoft personal account or a private passcode. The Azure Function validates the chosen credential before deriving the requested page's key from the server-only master passphrase.
 
 ## 1. Microsoft app registration
 
@@ -22,7 +22,8 @@ Create a Node.js 22 Azure Function app and configure these application settings:
 | Setting | Value |
 | --- | --- |
 | `MICROSOFT_CLIENT_ID` | Application (client) ID from the app registration |
-| `ALLOWED_MICROSOFT_SUB` | Immutable `sub` claim of the authorized personal account |
+| `ALLOWED_MICROSOFT_SUB` | Immutable `sub` claim of the owner account; this is the only account authorized to edit |
+| `ALLOWED_MICROSOFT_READER_SUBS` | Optional comma-separated immutable `sub` claims for additional read-only accounts |
 | `ALLOWED_ORIGIN` | `https://muyangamigo.github.io` |
 | `TRAVEL_LOG_PRIVATE_PASSWORD` | Server-only master passphrase; exactly the same value as the GitHub Actions secret |
 | `TRAVEL_LOG_PRIVATE_PASSCODE` | A separate private passcode of at least 12 characters |
@@ -40,9 +41,9 @@ Create a Node.js 22 Azure Function app and configure these application settings:
 
 Production uses the `junjie-travel-log-openai` resource in East US 2 with a Global Standard `gpt-5-mini` deployment named `travel-journal-translation`. Local key authentication is disabled on that resource.
 
-Obtain the account's `sub` claim during a controlled local bootstrap, then set it as `ALLOWED_MICROSOFT_SUB` before exposing the Function. Microsoft documents `sub` as immutable; email and `preferred_username` claims are never used for authorization.
+Obtain each account's `sub` claim during a controlled bootstrap, then set the owner's claim as `ALLOWED_MICROSOFT_SUB` and any additional readers in `ALLOWED_MICROSOFT_READER_SUBS`. The owner is always included in the reader allowlist. Microsoft documents `sub` as immutable; email and `preferred_username` claims are never used for authorization.
 
-The API validates the delegated `scp` claim for each endpoint. The unlock endpoint requires `PrivateJournal.Read`. Every editor endpoint uses the shared editor authorizer, which requires both `TravelJournal.Edit` and an exact match with `ALLOWED_MICROSOFT_SUB`. The private passcode remains an unlock-only fallback and never authorizes editing.
+The API validates the delegated `scp` claim for each endpoint. The unlock endpoint requires `PrivateJournal.Read` and accepts the owner or an additional reader. Every editor endpoint uses the shared editor authorizer, which requires both `TravelJournal.Edit` and an exact match with `ALLOWED_MICROSOFT_SUB`. Additional readers and the private passcode never authorize editing.
 
 The private passcode must not match `TRAVEL_LOG_PRIVATE_PASSWORD`. The passcode is sent only to the HTTPS Function for scrypt-based constant-time validation and is never embedded in the static site or used directly as an encryption key. Failed attempts are durably limited to five per source per 15-minute window in the Function app's `AzureWebJobsStorage` table account.
 

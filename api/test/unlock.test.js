@@ -6,6 +6,7 @@ import { derivePrivateTripPassphrase } from "../src/private-trip-key.js";
 
 const config = {
   allowedOrigin: "https://muyangamigo.github.io",
+  allowedReaderSubjects: ["authorized-subject", "reader-subject"],
   allowedSubject: "authorized-subject",
   clientId: "11111111-2222-3333-4444-555555555555",
   masterPassphrase: "server-only-passphrase",
@@ -64,6 +65,18 @@ test("returns the passphrase only to the authorized account", async () => {
   });
   assert.equal(result.headers["Cache-Control"], "no-store");
   assert.equal(requiredScope, PRIVATE_JOURNAL_READ_SCOPE);
+});
+
+test("allows an additional reader without making them the editor", async () => {
+  const handler = createUnlockHandler({
+    getConfig: () => config,
+    verifyToken: async () => ({
+      sub: "reader-subject",
+    }),
+  });
+
+  const result = await handler(request(), context());
+  assert.equal(result.status, 200);
 });
 
 test("rejects another valid Microsoft account", async () => {

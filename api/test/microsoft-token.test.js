@@ -5,7 +5,8 @@ import {
   CONSUMER_ISSUER,
   CONSUMER_TENANT_ID,
   createMicrosoftTokenVerifier,
-  isAuthorizedIdentity,
+  isAuthorizedEditor,
+  isAuthorizedReader,
   PRIVATE_JOURNAL_READ_SCOPE,
   TRAVEL_JOURNAL_EDIT_SCOPE,
 } from "../src/microsoft-token.js";
@@ -79,9 +80,9 @@ test("fails closed when an endpoint omits its required scope", async () => {
   );
 });
 
-test("authorizes only the immutable subject", () => {
+test("authorizes only the immutable editor subject", () => {
   assert.equal(
-    isAuthorizedIdentity(
+    isAuthorizedEditor(
       { preferred_username: "authorized@example.com", sub: "wrong" },
       {
         allowedSubject: "expected",
@@ -90,7 +91,7 @@ test("authorizes only the immutable subject", () => {
     false
   );
   assert.equal(
-    isAuthorizedIdentity(
+    isAuthorizedEditor(
       {
         preferred_username: "Authorized@Example.com",
         sub: "expected",
@@ -101,4 +102,14 @@ test("authorizes only the immutable subject", () => {
     ),
     true
   );
+});
+
+test("authorizes every immutable reader subject", () => {
+  const config = {
+    allowedReaderSubjects: ["owner", "reader"],
+  };
+
+  assert.equal(isAuthorizedReader({ sub: "owner" }, config), true);
+  assert.equal(isAuthorizedReader({ sub: "reader" }, config), true);
+  assert.equal(isAuthorizedReader({ sub: "someone-else" }, config), false);
 });

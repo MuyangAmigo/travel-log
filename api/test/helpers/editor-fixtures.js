@@ -46,6 +46,7 @@ export function minimalTripDocument(slug = "existing-trip") {
 
 export const editorConfig = {
   allowedOrigin: "https://muyangamigo.github.io",
+  allowedReaderSubjects: ["owner-subject"],
   allowedSubject: "owner-subject",
   azureOpenAiApiKey: "server-only-openai-key",
   azureOpenAiApiVersion: "2024-10-21",

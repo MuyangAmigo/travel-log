@@ -42,6 +42,10 @@ export function createMicrosoftTokenVerifier(keySet = microsoftKeySet) {
 
 export const verifyMicrosoftAccessToken = createMicrosoftTokenVerifier();
 
-export function isAuthorizedIdentity(payload, config) {
+export function isAuthorizedEditor(payload, config) {
   return payload.sub === config.allowedSubject;
+}
+
+export function isAuthorizedReader(payload, config) {
+  return config.allowedReaderSubjects.includes(payload.sub);
 }

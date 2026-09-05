@@ -1,5 +1,5 @@
 import {
-  isAuthorizedIdentity,
+  isAuthorizedEditor,
   TRAVEL_JOURNAL_EDIT_SCOPE,
   verifyMicrosoftAccessToken,
 } from "./microsoft-token.js";
@@ -34,7 +34,7 @@ export async function authorizeEditorRequest(
       "Microsoft editor authentication failed."
     );
   }
-  if (!isAuthorizedIdentity(payload, config)) {
+  if (!isAuthorizedEditor(payload, config)) {
     throw new EditorApiError(
       403,
       "editor_account_forbidden",

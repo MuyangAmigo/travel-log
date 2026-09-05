@@ -14,11 +14,23 @@ const baseEnvironment = {
 test("loads and normalizes the authentication settings", () => {
   assert.deepEqual(loadConfig(baseEnvironment), {
     allowedOrigin: "https://muyangamigo.github.io",
+    allowedReaderSubjects: ["immutable-subject"],
     allowedSubject: "immutable-subject",
     clientId: "11111111-2222-3333-4444-555555555555",
     masterPassphrase: "test-passphrase",
     privatePasscode: "separate-passcode",
   });
+});
+
+test("adds immutable subjects to the reader-only allowlist", () => {
+  assert.deepEqual(
+    loadConfig({
+      ...baseEnvironment,
+      ALLOWED_MICROSOFT_READER_SUBS:
+        "reader-one, reader-two,reader-one",
+    }).allowedReaderSubjects,
+    ["immutable-subject", "reader-one", "reader-two"]
+  );
 });
 
 test("requires an immutable subject allowlist", () => {
@@ -101,6 +113,7 @@ const editorEnvironment = {
 test("loads editor dependency settings without unlock passcode credentials", () => {
   assert.deepEqual(loadEditorConfig(editorEnvironment), {
     allowedOrigin: "https://muyangamigo.github.io",
+    allowedReaderSubjects: ["immutable-subject"],
     allowedSubject: "immutable-subject",
     azureOpenAiApiKey: "server-only-key",
     azureOpenAiApiVersion: "2024-10-21",
