@@ -62,6 +62,57 @@ test("rejects unknown fields, dangling references, and duplicate IDs", () => {
   );
 });
 
+test("accepts omitted style without rewriting legacy documents and preserves allowed styles", () => {
+  const legacy = minimalTripDocument();
+  assert.deepEqual(parseTripDocument(legacy), legacy);
+  assert.equal(Object.hasOwn(parseTripDocument(legacy).metadata, "style"), false);
+
+  for (const style of ["classic", "photo-story", "field-journal"]) {
+    const document = minimalTripDocument();
+    document.metadata.style = style;
+    assert.deepEqual(validateTripDocument(document), []);
+    assert.deepEqual(parseTripDocument(document), document);
+    assert.equal(parseTripDocument(document).metadata.style, style);
+  }
+});
+
+test("rejects unknown, null, and incorrectly typed styles in both validation modes", () => {
+  for (const style of [
+    "unknown", "", "Classic", " classic ", null, undefined, 1, true, [], {},
+  ]) {
+    const document = minimalTripDocument();
+    document.metadata.style = style;
+    for (const allowEmptyEnglish of [false, true]) {
+      assert.ok(
+        validateTripDocument(document, { allowEmptyEnglish }).some(
+          (issue) => issue.path === "$.metadata.style"
+        ),
+        `must reject style ${String(style)}`
+      );
+      assert.throws(
+        () => parseTripDocument(document, { allowEmptyEnglish }),
+        (error) => error.status === 422 && error.code === "invalid_trip_document"
+      );
+    }
+  }
+});
+
+test("keeps every existing metadata field required when style is present", () => {
+  for (const key of [
+    "date", "dateRange", "coverImageId", "title", "subtitle", "location", "private",
+  ]) {
+    const document = minimalTripDocument();
+    document.metadata.style = "classic";
+    delete document.metadata[key];
+    assert.ok(
+      validateTripDocument(document).some(
+        (issue) => issue.path === `$.metadata.${key}` && issue.message === "is required"
+      ),
+      `${key} must remain required`
+    );
+  }
+});
+
 test("rejects renamed documents independently of schema validation", () => {
   const document = parseTripDocument(minimalTripDocument("renamed-trip"));
   assert.throws(

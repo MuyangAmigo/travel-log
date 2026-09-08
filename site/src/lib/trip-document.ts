@@ -1,3 +1,5 @@
+import { TRIP_STYLE_IDS, resolveTripStyle, type TripStyle } from "./trip-style.ts";
+
 export const TRIP_DOCUMENT_VERSION = 1 as const;
 
 export type TripDocumentLocale = "zh" | "en";
@@ -26,6 +28,7 @@ export type TripDocumentMetadata = {
   subtitle: LocalizedText;
   location: LocalizedText;
   private: boolean;
+  style?: TripStyle;
 };
 
 export type TripDocumentSection = {
@@ -885,6 +888,7 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
     "subtitle",
     "location",
     "private",
+    "style",
   ]);
   if (metadata) {
     context.string(metadata.date, "$.metadata.date", { pattern: ISO_DATE_PATTERN });
@@ -894,6 +898,9 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
     context.localized(metadata.subtitle, "$.metadata.subtitle");
     context.localized(metadata.location, "$.metadata.location");
     context.boolean(metadata.private, "$.metadata.private");
+    if ("style" in metadata) {
+      context.enum(metadata.style, "$.metadata.style", TRIP_STYLE_IDS);
+    }
   }
 
   const images = context.array(document.images, "$.images", 1);
@@ -1095,5 +1102,6 @@ export function tripDocumentToMeta(
     subtitle: document.metadata.subtitle,
     location: document.metadata.location,
     private: document.metadata.private,
+    style: resolveTripStyle(document.metadata.style),
   };
 }

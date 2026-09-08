@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { TripEntrySection } from "@/components/TripEntryLayout";
+import type { TripStyle } from "./trip-style";
 
 export type Locale = "zh" | "en";
 export const locales: Locale[] = ["zh", "en"];
@@ -10,6 +11,7 @@ export interface TripMeta {
   date: string;
   dateRange: string;
   coverImage: string;
+  style: TripStyle;
   title: Record<Locale, string>;
   subtitle: Record<Locale, string>;
   location: Record<Locale, string>;

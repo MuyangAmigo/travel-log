@@ -696,7 +696,7 @@ export function validateTripDocument(value, options) {
     maximum: 100,
   });
 
-  const metadata = context.object(document.metadata, "$.metadata", [
+  const requiredMetadataKeys = [
     "date",
     "dateRange",
     "coverImageId",
@@ -704,7 +704,13 @@ export function validateTripDocument(value, options) {
     "subtitle",
     "location",
     "private",
-  ]);
+  ];
+  const metadata = context.object(
+    document.metadata,
+    "$.metadata",
+    [...requiredMetadataKeys, "style"],
+    requiredMetadataKeys
+  );
   if (metadata) {
     context.string(metadata.date, "$.metadata.date", {
       pattern: ISO_DATE_PATTERN,
@@ -716,6 +722,13 @@ export function validateTripDocument(value, options) {
     context.localized(metadata.subtitle, "$.metadata.subtitle");
     context.localized(metadata.location, "$.metadata.location");
     context.boolean(metadata.private, "$.metadata.private");
+    if ("style" in metadata) {
+      context.enum(metadata.style, "$.metadata.style", [
+        "classic",
+        "photo-story",
+        "field-journal",
+      ]);
+    }
   }
 
   const images = context.array(document.images, "$.images", {

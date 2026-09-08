@@ -1,0 +1,648 @@
+.presentation {
+  --trip-sticky-top: 88px;
+  width: 100%;
+}
+
+.presentation[data-trip-style="classic"] {
+  display: contents;
+}
+
+.presentation :is(a, summary):focus-visible {
+  outline: 3px solid var(--palette-bg-primary-core);
+  outline-offset: 3px;
+}
+
+.presentation :global(.trip-entry-rail),
+.presentation :global(.trip-entry-compact) {
+  top: var(--trip-sticky-top);
+}
+
+.presentation :global(.trip-entry-rail-card) {
+  max-height: calc(100dvh - var(--trip-sticky-top) - 24px);
+}
+
+.presentation :global([data-trip-section]) {
+  scroll-margin-top: calc(var(--trip-sticky-top) + 76px);
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-content) {
+  display: block;
+  padding: 12px 24px 80px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-layout) {
+  display: block;
+  width: min(100%, 1160px);
+  padding: 0;
+  margin: 0 auto;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-main) {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  align-items: stretch;
+  gap: 0;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.card-wrap) {
+  --s: 1;
+  width: 100%;
+  height: auto !important;
+  overflow: visible;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.card-wrap .card) {
+  width: 100%;
+  height: auto;
+  transform: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.card) {
+  padding: 48px;
+  border-radius: 0;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.card-wrap:last-child .card) {
+  border-radius: 0 0 20px 20px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.day-header) {
+  gap: 16px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.day-title) {
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.day-sub) {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.day-circle) {
+  min-width: 68px;
+  padding: 8px 12px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.day-circle .num) {
+  font-size: 16px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.jtxt),
+.presentation:not([data-trip-style="classic"]) :global(.hw),
+.presentation:not([data-trip-style="classic"]) :global(.hwcn) {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.jtxt p) {
+  margin-bottom: 18px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.pgrid) {
+  width: 100%;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.pgrid > *) {
+  min-width: 0;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.g2) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.g3) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.g12) {
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr);
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.g21) {
+  grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr);
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.cap),
+.presentation:not([data-trip-style="classic"]) :global(.pol-t) {
+  padding-top: 10px;
+  color: var(--trip-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.nbox),
+.presentation:not([data-trip-style="classic"]) :global(.rbox),
+.presentation:not([data-trip-style="classic"]) :global(.bill) {
+  padding: 24px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.nbox p),
+.presentation:not([data-trip-style="classic"]) :global(.ri),
+.presentation:not([data-trip-style="classic"]) :global(.ri .cm) {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.nbox-lbl),
+.presentation:not([data-trip-style="classic"]) :global(.rbox h4),
+.presentation:not([data-trip-style="classic"]) :global(.bill h4) {
+  font-size: 19px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.tl-item) {
+  padding: 18px;
+  font-size: 17px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.tl-item .tm),
+.presentation:not([data-trip-style="classic"]) :global(.tl-item .dt) {
+  font-size: 15px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.page-num) {
+  margin-top: 28px;
+  font-size: 12px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-rail) {
+  display: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact) {
+  position: sticky;
+  z-index: 30;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact details) {
+  border: 1px solid var(--trip-border);
+  border-radius: 12px;
+  background: var(--trip-card);
+  box-shadow: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary) {
+  display: flex;
+  min-height: 52px;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  color: var(--trip-text);
+  cursor: pointer;
+  list-style: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary::-webkit-details-marker) {
+  display: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary::after) {
+  content: "+";
+  margin-left: auto;
+  font-size: 22px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact details[open] summary::after) {
+  content: "\2212";
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary span),
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact nav span) {
+  flex-shrink: 0;
+  color: var(--trip-accent-text);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary strong) {
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact nav) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  max-height: 45dvh;
+  overflow: auto;
+  padding: 0 12px 12px;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact nav a) {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--trip-secondary);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact nav a:hover) {
+  background: var(--accent-surface);
+  color: var(--trip-text);
+}
+
+/* Adjacent prose/gallery pairs form spreads without changing source order. */
+.presentation[data-trip-style="photo-story"] :global(.card:not(:has(.cover-border))) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  align-items: start;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card > *) {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.jtxt) {
+  width: 100%;
+  max-width: 70ch;
+  margin-inline: auto;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.day-header) {
+  grid-template-columns: 72px minmax(0, 1fr) 72px;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.day-header > div:not(.day-circle):not(.day-weather)) {
+  text-align: center;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.day-weather) {
+  justify-self: end;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card:has(.cover-border)) {
+  position: relative;
+  min-height: 590px;
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, rgba(8, 18, 19, .88), rgba(8, 18, 19, .18)), var(--trip-cover-image, none);
+  background-position: center;
+  background-size: cover;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card:has(.cover-border)::after) {
+  display: none;
+}
+
+/* Authored images retain their focal point and replace the metadata fallback. */
+.presentation[data-trip-style="photo-story"] :global(.card:has(.cover-border):has(.trip-cover-image)) {
+  background-image: none;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.trip-cover-image) {
+  filter: none;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card:has(.cover-border):has(.trip-cover-image)::after) {
+  display: block;
+  z-index: 0;
+  background: linear-gradient(to top, rgba(8, 18, 19, .88), rgba(8, 18, 19, .18));
+  mask-image: none;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.cover-border) {
+  align-items: center;
+  justify-content: flex-end;
+  padding: 64px;
+  text-align: center;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.cover-title) {
+  max-width: 760px;
+  font-size: clamp(36px, 5vw, 66px);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.cover-border p) {
+  color: rgba(255, 255, 255, .82) !important;
+  font-size: 17px !important;
+  line-height: 1.9 !important;
+  text-align: center !important;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.cover-date),
+.presentation[data-trip-style="photo-story"] :global(.cover-subtitle) {
+  font-size: 16px;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card-wrap:not(:first-child)) {
+  padding-top: 24px;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.card-wrap:not(:first-child) .card) {
+  border-radius: 20px;
+}
+
+.presentation[data-trip-style="photo-story"] :global(.hero) {
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.trip-entry-layout) {
+  max-width: 720px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.card) {
+  padding: 40px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.card-wrap + .card-wrap .card) {
+  border-top: 1px solid var(--trip-border);
+}
+
+.presentation[data-trip-style="field-journal"] :global(.card:has(.cover-border)) {
+  position: relative;
+  min-height: 450px;
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+  background: var(--trip-card);
+}
+
+.presentation[data-trip-style="field-journal"] :global(.card:has(.cover-border)::after) {
+  display: block;
+  inset: 0 0 0 auto;
+  width: 42%;
+  background: var(--trip-cover-image, none) center / cover;
+  mask-image: none;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.card:has(.cover-border):has(.trip-cover-image)::after) {
+  display: none;
+  background: none;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.trip-cover-image) {
+  inset: 0 0 0 auto;
+  width: 42%;
+  height: 100%;
+  filter: none;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.cover-border) {
+  width: 58%;
+  justify-content: center;
+  padding: 40px 28px 40px 40px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.cover-title) {
+  color: var(--trip-text);
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.25;
+  text-wrap: balance;
+  text-shadow: none;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.cover-emoji) {
+  width: fit-content;
+  margin-bottom: 20px;
+  border: 0;
+  background: var(--trip-surface);
+}
+
+.presentation[data-trip-style="field-journal"] :global(.cover-subtitle),
+.presentation[data-trip-style="field-journal"] :global(.cover-date) {
+  color: var(--trip-secondary);
+  font-size: 14px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.cover-border p) {
+  color: var(--trip-secondary) !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  text-align: left !important;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.stamp-box) {
+  border-color: var(--trip-border);
+  color: var(--trip-secondary);
+  font-size: 12px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.day-header) {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.day-circle) {
+  border: 1px solid var(--trip-border);
+  background: var(--trip-card);
+  color: var(--trip-accent-text);
+}
+
+.presentation[data-trip-style="field-journal"] :global(.pgrid) {
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.hero) {
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.tlwrap) {
+  gap: 0;
+  margin: 8px 0 28px;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.tl-item) {
+  border: 0;
+  border-bottom: 1px solid var(--trip-border);
+  border-radius: 0;
+  padding: 18px 0;
+  background: transparent;
+}
+
+.presentation[data-trip-style="field-journal"] :global(.page-num) {
+  color: var(--trip-secondary);
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  .presentation[data-trip-style="photo-story"] :global(.card > :is(.jtxt, .hw, .hwcn):has(+ .pgrid)) {
+    grid-column: 1;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.card > :is(.jtxt, .hw, .hwcn):has(+ .pgrid) p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.card > :is(.jtxt, .hw, .hwcn) + .pgrid) {
+    grid-column: 2;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .presentation[data-trip-style="field-journal"] :global(.trip-entry-layout) {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 720px);
+    gap: 40px;
+    max-width: 960px;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.trip-entry-rail-left) {
+    display: block;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.trip-entry-rail-card) {
+    padding: 12px 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.trip-entry-nav a) {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 12px;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.trip-entry-compact) {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .presentation:not([data-trip-style="classic"]) :global(.trip-content) {
+    padding: 0 12px 48px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.card) {
+    padding: 28px 20px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact) {
+    margin-bottom: 12px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact summary) {
+    gap: 10px;
+    padding: 10px 12px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.trip-entry-compact nav) {
+    grid-template-columns: 1fr;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.day-title) {
+    font-size: 25px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.day-sub) {
+    font-size: 13px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.jtxt),
+  .presentation:not([data-trip-style="classic"]) :global(.hw),
+  .presentation:not([data-trip-style="classic"]) :global(.hwcn) {
+    font-size: 16px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.pgrid) {
+    gap: 10px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.g3) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.g3 > :last-child:nth-child(odd)) {
+    grid-column: 1 / -1;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.g12),
+  .presentation:not([data-trip-style="classic"]) :global(.g21) {
+    grid-template-columns: 1fr;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.cap),
+  .presentation:not([data-trip-style="classic"]) :global(.pol-t) {
+    font-size: 13px;
+  }
+
+  .presentation:not([data-trip-style="classic"]) :global(.nbox),
+  .presentation:not([data-trip-style="classic"]) :global(.rbox),
+  .presentation:not([data-trip-style="classic"]) :global(.bill) {
+    padding: 16px;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.card:not(:has(.cover-border))) {
+    display: flex;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.day-header) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.day-circle) {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.day-weather) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.card:has(.cover-border)) {
+    min-height: 520px;
+    background-position: 55% center;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.cover-border) {
+    padding: 32px 24px;
+  }
+
+  .presentation[data-trip-style="photo-story"] :global(.cover-title) {
+    font-size: 39px;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.card:has(.cover-border)) {
+    min-height: 0;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.card:has(.cover-border)::after),
+  .presentation[data-trip-style="field-journal"] :global(.trip-cover-image) {
+    inset: 0 0 auto;
+    width: 100%;
+    height: 220px;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.cover-border) {
+    width: 100%;
+    padding: 248px 24px 32px;
+  }
+
+  .presentation[data-trip-style="field-journal"] :global(.cover-title) {
+    font-size: 32px;
+  }
+}

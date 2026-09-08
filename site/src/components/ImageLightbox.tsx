@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type RefObject, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Locale } from "@/lib/trips";
 
@@ -22,17 +22,26 @@ const labels = {
   },
 } satisfies Record<Locale, Record<"dialog" | "close" | "open", string>>;
 
-export default function ImageLightbox({ locale }: { locale: Locale }) {
+export default function ImageLightbox({
+  locale,
+  rootRef,
+  contentKey,
+}: {
+  locale: Locale;
+  rootRef: RefObject<HTMLElement | null>;
+  contentKey?: ReactNode;
+}) {
   const [selected, setSelected] = useState<SelectedImage | null>(null);
   const sourceImage = useRef<HTMLImageElement | null>(null);
   const closeButton = useRef<HTMLButtonElement | null>(null);
   const copy = labels[locale];
 
   useEffect(() => {
-    const root = document.querySelector<HTMLElement>(".trip-content");
-    if (!root) return;
+    const root = rootRef.current?.querySelector<HTMLElement>(".trip-content");
+    const viewport = root?.ownerDocument.defaultView;
+    if (!root || !viewport) return;
 
-    const images = Array.from(root.querySelectorAll<HTMLImageElement>("img"));
+    const images = Array.from(root.querySelectorAll<HTMLImageElement>('img:not([aria-hidden="true"])'));
     const originalAttributes = images.map((image) => ({
       image,
       role: image.getAttribute("role"),
@@ -58,15 +67,15 @@ export default function ImageLightbox({ locale }: { locale: Locale }) {
     };
 
     const handleClick = (event: MouseEvent) => {
-      if (event.target instanceof HTMLImageElement && root.contains(event.target)) {
+      if (event.target instanceof viewport.HTMLImageElement && images.includes(event.target)) {
         openImage(event.target);
       }
     };
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (
-        event.target instanceof HTMLImageElement &&
-        root.contains(event.target) &&
+        event.target instanceof viewport.HTMLImageElement &&
+        images.includes(event.target) &&
         (event.key === "Enter" || event.key === " ")
       ) {
         event.preventDefault();
@@ -89,10 +98,12 @@ export default function ImageLightbox({ locale }: { locale: Locale }) {
         else image.setAttribute("aria-label", ariaLabel);
       });
     };
-  }, [copy]);
+  }, [copy, rootRef, contentKey]);
 
   useEffect(() => {
     if (!selected) return;
+    const document = rootRef.current?.ownerDocument;
+    if (!document) return;
 
     const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -113,9 +124,10 @@ export default function ImageLightbox({ locale }: { locale: Locale }) {
       document.body.style.overflow = originalOverflow;
       sourceImage.current?.focus();
     };
-  }, [selected]);
+  }, [selected, rootRef]);
 
-  if (!selected) return null;
+  const portalRoot = rootRef.current?.ownerDocument.body;
+  if (!selected || !portalRoot) return null;
 
   return createPortal(
     <div
@@ -138,6 +150,6 @@ export default function ImageLightbox({ locale }: { locale: Locale }) {
       </button>
       <img src={selected.src} alt={selected.alt} className="image-lightbox-image" />
     </div>,
-    document.body,
+    portalRoot,
   );
 }

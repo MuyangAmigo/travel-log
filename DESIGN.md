@@ -230,7 +230,23 @@ Trip detail pages intentionally diverge from the Airbnb-style shell. They use a 
 - **Images**: rounded 12–16px photo grids, no old scrapbook filters, tape, or tilted frames. Captions sit below images in muted gray.
 - **Content components**: `.nbox` becomes a yellow-highlight note block, `.rbox.warn` becomes an orange warning block, `.tlwrap` becomes a stacked timeline-card list, and `.route` becomes a chip grid.
 
-Keep trip content hand-authored in JSX, but prefer existing class names so this shared presentation layer continues to style all trips consistently.
+Structured trip documents use `TripDocumentRenderer` and the existing class vocabulary. `TripPresentation` applies the published layout without changing the source content or reading order.
+
+### Published trip styles
+
+Each trip can set optional `metadata.style` in its `content.json`. Missing means `classic`; existing entries do not need a migration. The shared style registry supplies the IDs and localized editor labels.
+
+| ID | Label | Composition |
+| --- | --- | --- |
+| `classic` | Classic / 经典游记 | The original card layout, desktop chapter rails, tablet scaling, and fluid mobile cards. |
+| `photo-story` | Photo story / 影像游记 | Wide photography, equal-width desktop prose/photo pairs, centered cover and chapter headings, and compact chapter navigation. |
+| `field-journal` | Field journal / 旅途手记 | A narrower continuous reading column, simple day markers and timelines, compact photo groups, and a quiet desktop chapter rail. |
+
+`TripPresentation.module.css` scopes the alternative layouts using `data-trip-style`. Reuse semantic theme tokens and existing image focus hints. Respect authored cover backgrounds; alternatives use the existing listing cover only when no cover background is authored. Classic retains its original cover treatment.
+
+The owner selects a style in the editor's Overall information section. One published choice applies to both languages and all readers. Selection changes the draft preview only; explicit approval and Publish commit the setting, and the site rebuild makes it visible. Reader pages do not expose a style-setting toolbar or use browser storage to override the published style.
+
+Editor live and bilingual approval previews share the production renderer and presentation inside same-origin, script-disabled frames. Their real viewport widths are 1440px, 900px, and 390px; fitting a frame into the editor does not change its responsive breakpoint. Frame-local chapter navigation, scaling, and lightboxes must not affect the parent editor or another locale frame.
 
 ## 10. Theme Behavior
 

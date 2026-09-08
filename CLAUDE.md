@@ -49,7 +49,13 @@ All `<img>` src attributes in trip content go through `img(filename)` from `meta
 
 Every `.card` is displayed at a fixed 750px width by the final trip-content CSS override in `globals.css`. On tablet, `.card-wrap` computes `--s = min((100vw - gutter)/750, 1)` and `transform: scale(var(--s))` shrinks it to fit. On phones (`max-width: 760px`), transforms are disabled and cards become fluid `width: 100%` with true mobile font sizes so text doesn't render too small. On desktop (`min-width: 1280px`), the default editorial layout renders cards fluidly in a 720px center column between two rails.
 
-`site/src/app/[locale]/trips/[slug]/page.tsx` wraps every trip in `TripEntryLayout` and renders `CardScaleController` once. Locale components must not add either component themselves.
+`site/src/app/[locale]/trips/[slug]/page.tsx` wraps every trip in `TripPresentation`, which owns `TripEntryLayout`, one `CardScaleController`, and the image lightbox. Locale components must not add these components themselves. The sizing above describes the default Classic style.
+
+### Persistent trip styles
+
+The optional `metadata.style` in each structured `content.json` accepts `classic`, `photo-story`, or `field-journal`. Missing means Classic. `tripDocumentToMeta()` resolves the setting, and `TripPresentation` renders it in the initial page markup using scoped CSS. The owner selects a style in the existing editor, reviews the bilingual preview, and publishes through the existing API; both locales and all readers see the choice after the site rebuild. Keep API and site validation aligned. Do not store the style in localStorage or allow query parameters to override the published setting.
+
+The editor uses `TripPreviewFrame` with real desktop/tablet/mobile viewport sizes and the same presentation/renderer. Browser effects must use the rendered root's `ownerDocument` and `defaultView` so frame previews, lightboxes, and chapter navigation remain isolated.
 
 ### Default editorial rails
 

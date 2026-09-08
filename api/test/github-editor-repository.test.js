@@ -78,6 +78,8 @@ test("rejects a trip removed from the current registered allowlist", async () =>
 
 test("publishes one existing content file through a single non-forced ref update", async () => {
   const repository = new GitHubEditorRepository(editorConfig);
+  const document = minimalTripDocument();
+  document.metadata.style = "field-journal";
   const calls = [];
   repository.assertDraftBase = async (slug, baseSha, baseBlobSha) => {
     assert.deepEqual(
@@ -99,7 +101,7 @@ test("publishes one existing content file through a single non-forced ref update
 
   const result = await repository.publishTrip({
     slug: "existing-trip",
-    document: minimalTripDocument(),
+    document,
     baseSha: SHA,
     baseBlobSha: BLOB_SHA,
   });
@@ -126,6 +128,53 @@ test("publishes one existing content file through a single non-forced ref update
     commitSha: COMMIT_SHA,
     commitUrl: `https://github.com/owner/travel-log/commit/${COMMIT_SHA}`,
   });
+
+  const blobCall = calls.find((call) => call.path.endsWith("/git/blobs"));
+  assert.equal(blobCall.options.body.encoding, "utf-8");
+  assert.deepEqual(JSON.parse(blobCall.options.body.content), document);
+  repository.getHeadSha = async () => COMMIT_SHA;
+  repository.getRegistry = async () => ["existing-trip"];
+  repository.getFile = async (path, ref) => {
+    assert.equal(path, "site/src/content/trips/existing-trip/content.json");
+    assert.equal(ref, COMMIT_SHA);
+    return { content: blobCall.options.body.content, blobSha: BLOB_SHA };
+  };
+  assert.deepEqual(await repository.loadTrip("existing-trip"), {
+    baseSha: COMMIT_SHA,
+    blobSha: BLOB_SHA,
+    document,
+  });
+});
+
+test("rejects invalid styles on both repository load and publish", async () => {
+  const repository = new GitHubEditorRepository(editorConfig);
+  let writeCalls = 0;
+  repository.github = async () => {
+    writeCalls += 1;
+    throw new Error("Invalid styles must not be persisted.");
+  };
+  for (const style of ["unknown", null, 42, {}, []]) {
+    const document = minimalTripDocument();
+    document.metadata.style = style;
+    repository.getFile = async () => ({
+      content: JSON.stringify(document),
+      blobSha: BLOB_SHA,
+    });
+    await assert.rejects(
+      repository.loadTripAtRef("existing-trip", SHA, ["existing-trip"]),
+      (error) => error.status === 502 && error.code === "github_repository_invalid"
+    );
+    await assert.rejects(
+      repository.publishTrip({
+        slug: "existing-trip",
+        document,
+        baseSha: SHA,
+        baseBlobSha: BLOB_SHA,
+      }),
+      (error) => error.status === 422 && error.code === "invalid_trip_document"
+    );
+  }
+  assert.equal(writeCalls, 0);
 });
 
 test("maps a racing non-fast-forward main update to a publish conflict", async () => {
