@@ -151,12 +151,12 @@ export default function TripEntryLayout({
         for (const card of cards) {
           if (card.getBoundingClientRect().top > activationLine) break;
           active = card;
-        };
+        }
 
         const nextId = active.dataset.tripSection;
         if (nextId) setActiveId(nextId);
       });
-    }
+    };
 
     syncActiveSection();
     const observer =

@@ -26,5 +26,8 @@ export function isTripStyle(value: unknown): value is TripStyle {
 export function resolveTripStyle(value: unknown): TripStyle {
   if (value === undefined) return "classic";
   if (isTripStyle(value)) return value;
-  throw new Error("Unsupported trip style.");
+  const received = typeof value === "string" ? JSON.stringify(value) : String(value);
+  throw new Error(
+    `Unsupported trip style ${received} (type: ${typeof value}). Supported styles: ${TRIP_STYLE_IDS.join(", ")}.`,
+  );
 }

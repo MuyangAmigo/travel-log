@@ -119,6 +119,22 @@ test("resolves absent styles without migrating existing documents", () => {
   assert.deepEqual(document, minimalDocument);
 });
 
+test("style resolution errors identify the rejected value and supported choices", () => {
+  for (const [value, received] of [
+    ["current", '"current"'],
+    ["", '""'],
+    ["unknown\nstyle", '"unknown\\nstyle"'],
+    [null, "null"],
+    [false, "false"],
+    [42, "42"],
+  ]) {
+    assert.throws(() => resolveTripStyle(value), {
+      name: "Error",
+      message: `Unsupported trip style ${received} (type: ${typeof value}). Supported styles: classic, photo-story, field-journal.`,
+    });
+  }
+});
+
 test("site and API accept the same persistent styles and reject invalid values", () => {
   for (const style of [...TRIP_STYLE_IDS, "current", "unknown", null, false, 0, {}, []]) {
     const document = structuredClone(minimalDocument);
