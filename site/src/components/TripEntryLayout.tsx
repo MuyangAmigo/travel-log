@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
 
 export type TripEntrySection = {
   id: string;
@@ -125,7 +125,8 @@ export default function TripEntryLayout({
 
   useEffect(() => {
     const root = rootRef.current;
-    if (!root) return;
+    const viewport = root?.ownerDocument.defaultView;
+    if (!root || !viewport) return;
 
     const cards = Array.from(root.querySelectorAll<HTMLElement>(".card-wrap"));
     if (cards.length === 0) return;
@@ -141,10 +142,10 @@ export default function TripEntryLayout({
 
     let frame = 0;
 
-    function syncActiveSection() {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        const activationLine = window.innerHeight * 0.34;
+    const syncActiveSection = () => {
+      viewport.cancelAnimationFrame(frame);
+      frame = viewport.requestAnimationFrame(() => {
+        const activationLine = viewport.innerHeight * 0.34;
         let active = cards[0];
 
         for (const card of cards) {
@@ -155,18 +156,37 @@ export default function TripEntryLayout({
         const nextId = active.dataset.tripSection;
         if (nextId) setActiveId(nextId);
       });
-    }
+    };
 
     syncActiveSection();
-    window.addEventListener("scroll", syncActiveSection, { passive: true });
-    window.addEventListener("resize", syncActiveSection);
+    const observer =
+      typeof viewport.ResizeObserver === "undefined" ? null : new viewport.ResizeObserver(syncActiveSection);
+    cards.forEach((card) => observer?.observe(card));
+    viewport.addEventListener("scroll", syncActiveSection, { passive: true });
+    viewport.addEventListener("resize", syncActiveSection);
 
     return () => {
-      cancelAnimationFrame(frame);
-      window.removeEventListener("scroll", syncActiveSection);
-      window.removeEventListener("resize", syncActiveSection);
+      viewport.cancelAnimationFrame(frame);
+      observer?.disconnect();
+      viewport.removeEventListener("scroll", syncActiveSection);
+      viewport.removeEventListener("resize", syncActiveSection);
     };
-  }, [locale, sections]);
+  }, [locale, sections, children]);
+
+  function navigateSection(event: MouseEvent<HTMLAnchorElement>, id: string) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+    const root = rootRef.current;
+    const target = root?.ownerDocument.getElementById(id);
+    if (!root || !target) return;
+    event.preventDefault();
+    event.currentTarget.closest("details")?.removeAttribute("open");
+    target.scrollIntoView({ block: "start" });
+    setActiveId(id);
+    const viewport = root.ownerDocument.defaultView;
+    if (viewport === window) {
+      viewport.history.replaceState(null, "", `#${encodeURIComponent(id)}`);
+    }
+  }
 
   const activeIndex = Math.max(
     0,
@@ -188,6 +208,7 @@ export default function TripEntryLayout({
               <a
                 key={section.id}
                 href={`#${section.id}`}
+                onClick={(event) => navigateSection(event, section.id)}
                 className={section.id === activeId ? "active" : undefined}
                 aria-current={section.id === activeId ? "location" : undefined}
               >
@@ -208,7 +229,7 @@ export default function TripEntryLayout({
             </summary>
             <nav aria-label={labels.navigation}>
               {visibleSections.map((section) => (
-                <a key={section.id} href={`#${section.id}`}>
+                <a key={section.id} href={`#${section.id}`} onClick={(event) => navigateSection(event, section.id)}>
                   <span>{section.marker}</span>
                   {section.label}
                 </a>

@@ -38,6 +38,7 @@ test("collects stable paths and IDs for localized fields", () => {
 
 test("translates only requested Chinese fields and merges validated English", async () => {
   const document = minimalTripDocument();
+  document.metadata.style = "photo-story";
   document.metadata.title.zh = "新的旅行标题";
   document.metadata.title.en = "";
   let requestBody;
@@ -70,6 +71,7 @@ test("translates only requested Chinese fields and merges validated English", as
   ]);
 
   assert.equal(translated.metadata.title.en, "A New Trip Title");
+  assert.equal(translated.metadata.style, "photo-story");
   assert.equal(translated.metadata.subtitle.en, "Subtitle");
   assert.equal(requestBody.messages.length, 2);
   assert.equal(
@@ -95,6 +97,28 @@ test("translates only requested Chinese fields and merges validated English", as
       requestBody.response_format.json_schema.schema.properties.translations,
     false
   );
+});
+
+test("preserves style-only edits without calling the model", async () => {
+  let modelCalls = 0;
+  const translator = new AzureOpenAiTranslator(editorConfig, {
+    fetchImpl: async () => {
+      modelCalls += 1;
+      throw new Error("Style is not a localized field.");
+    },
+  });
+  for (const style of ["classic", "photo-story", "field-journal"]) {
+    const document = minimalTripDocument();
+    document.metadata.style = style;
+    assert.equal(
+      collectLocalizedFields(document).some((field) => field.path === "$.metadata.style"),
+      false
+    );
+    const translated = await translator.translateDocument(document, []);
+    assert.deepEqual(translated, document);
+    assert.notEqual(translated, document);
+  }
+  assert.equal(modelCalls, 0);
 });
 
 test("uses managed identity when no Azure OpenAI API key is configured", async () => {

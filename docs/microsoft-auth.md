@@ -120,6 +120,16 @@ Translation and publish bodies are limited to 2 MiB. Image uploads allow JPEG, P
 
 Azure OpenAI receives only the requested Chinese localized fields with stable paths and ancestor IDs. A changed or new field may use an empty English draft value only while being translated. The strict structured response must return the same paths, IDs, order, and cardinality, and the merged document must contain complete non-empty bilingual text. A shape, schema, or translation failure leaves the draft uncommitted.
 
+### Per-trip style publishing
+
+In the editor, load a trip and choose **游记版式** under **总体信息**. The available IDs are `classic`, `photo-story`, and `field-journal`. The optional `metadata.style` field is stored in that trip's existing `content.json`; an absent field resolves to Classic. Both the site and API reject unsupported values.
+
+The live preview and bilingual approval use the same layout as the reader page. A selection updates the draft immediately, but does not change the public site until the owner approves and publishes it and the deployment completes. The choice applies to both locales and every reader, not to a browser or account-specific viewing preference. Changing only the style does not require machine translation.
+
+Style publishing uses the existing owner token, `TravelJournal.Edit`, base commit/blob checks, and explicit approval. There is no additional scope, email allowlist, settings service, or endpoint. Additional readers and passcode users cannot publish styles. A failed or conflicting publish leaves the draft available; commit acceptance does not indicate a successful Pages deployment.
+
+Deploy the updated API validator before the updated editor is served. The existing workflow already deploys the API before Pages; existing documents without the field remain valid throughout rollout. The local mock editor preserves simulated styles only in its process memory and must not be used as evidence of durable production persistence.
+
 ### GitHub App
 
 Create a dedicated GitHub App with repository **Contents: read and write** and **Metadata: read-only** permissions. Install it only on `MuyangAmigo/travel-log`. Do not grant administration, pull request, workflow, or organization permissions. The Function exchanges a short-lived App JWT for an installation token, creates one blob/tree/commit, and advances `refs/heads/main` with `force: false`. Branch protection must explicitly allow this App if direct updates are protected.

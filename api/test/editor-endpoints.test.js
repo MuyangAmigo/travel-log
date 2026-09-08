@@ -333,13 +333,16 @@ test("checks the registered-trip allowlist before issuing or verifying uploads",
 
 test("requires approval, verifies every document image, then publishes atomically", async () => {
   const order = [];
+  const document = minimalTripDocument();
+  document.metadata.style = "photo-story";
   const handlers = createEditorHandlers({
     authorize: async () => {},
     getConfig: () => editorConfig,
     services: serviceMocks({
       repository: {
         assertDraftBase: async () => order.push("base"),
-        publishTrip: async () => {
+        publishTrip: async (draft) => {
+          assert.deepEqual(draft.document, document);
           order.push("publish");
           return {
             commitSha: COMMIT_SHA,
@@ -360,7 +363,7 @@ test("requires approval, verifies every document image, then publishes atomicall
         approved: false,
         baseSha: SHA,
         baseBlobSha: BLOB_SHA,
-        document: minimalTripDocument(),
+        document,
       },
     }),
     context()
@@ -380,7 +383,7 @@ test("requires approval, verifies every document image, then publishes atomicall
         approved: true,
         baseSha: SHA,
         baseBlobSha: BLOB_SHA,
-        document: minimalTripDocument(),
+        document,
       },
     }),
     context()
@@ -388,4 +391,78 @@ test("requires approval, verifies every document image, then publishes atomicall
   assert.equal(published.status, 201);
   assert.deepEqual(order, ["base", "images", "publish"]);
   assert.equal(published.jsonBody.commitSha, COMMIT_SHA);
+});
+
+test("rejects invalid styles before translation, image verification, or publishing", async () => {
+  let serviceCalls = 0;
+  const unexpectedCall = async () => {
+    serviceCalls += 1;
+    throw new Error("Invalid documents must not reach services.");
+  };
+  const handlers = createEditorHandlers({
+    authorize: async () => {},
+    getConfig: () => editorConfig,
+    services: serviceMocks({
+      repository: { assertDraftBase: unexpectedCall, publishTrip: unexpectedCall },
+      storage: { verifyDocumentImages: unexpectedCall },
+      translator: { translateDocument: unexpectedCall },
+    }),
+  });
+  for (const style of ["unknown", null, 1, true, {}, []]) {
+    const document = minimalTripDocument();
+    document.metadata.style = style;
+    for (const action of ["translateTrip", "publishTrip"]) {
+      const result = await handlers[action](
+        request({
+          method: "POST",
+          slug: document.slug,
+          body: {
+            baseSha: SHA,
+            baseBlobSha: BLOB_SHA,
+            document,
+            ...(action === "publishTrip" ? { approved: true } : { changedPaths: [] }),
+          },
+        }),
+        context()
+      );
+      assert.equal(result.status, 422);
+      assert.equal(result.jsonBody.error.code, "invalid_trip_document");
+    }
+  }
+  assert.equal(serviceCalls, 0);
+});
+
+test("style-only publishing still rejects private passcodes without owner authentication", async () => {
+  let serviceCalls = 0;
+  const unexpectedCall = async () => {
+    serviceCalls += 1;
+    throw new Error("Unauthenticated edits must not reach services.");
+  };
+  const handlers = createEditorHandlers({
+    getConfig: () => editorConfig,
+    services: serviceMocks({
+      repository: { assertDraftBase: unexpectedCall, publishTrip: unexpectedCall },
+      storage: { verifyDocumentImages: unexpectedCall },
+    }),
+  });
+  const document = minimalTripDocument();
+  document.metadata.style = "field-journal";
+  const result = await handlers.publishTrip(
+    request({
+      authorization: "",
+      method: "POST",
+      slug: document.slug,
+      body: {
+        approved: true,
+        baseSha: SHA,
+        baseBlobSha: BLOB_SHA,
+        document,
+        passcode: "valid-private-passcode",
+      },
+    }),
+    context()
+  );
+  assert.equal(result.status, 401);
+  assert.equal(result.jsonBody.error.code, "editor_authentication_required");
+  assert.equal(serviceCalls, 0);
 });

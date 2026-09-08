@@ -8,7 +8,8 @@ import {
   useState,
   type DragEvent,
 } from "react";
-import TripDocumentRenderer from "@/components/TripDocumentRenderer";
+import TripPreviewFrame, { TripPreviewSizePicker, type PreviewViewport } from "./TripPreviewFrame";
+import { TRIP_STYLE_IDS, TRIP_STYLES, isTripStyle, resolveTripStyle } from "@/lib/trip-style";
 import {
   EditorApi,
   EditorApiError,
@@ -63,7 +64,6 @@ type EditorSession = {
 };
 
 type InspectorTab = "metadata" | "block" | "images";
-type PreviewViewport = "desktop" | "tablet" | "mobile";
 type DragTarget = { kind: "page"; id: string };
 
 function parseEditorSession(value: string | null): EditorSession | null {
@@ -227,6 +227,7 @@ function ApprovalDialog({
   onPublish: () => void;
 }) {
   const [approved, setApproved] = useState(false);
+  const [viewport, setViewport] = useState<PreviewViewport>("mobile");
   const issues = validateTripDocument(document);
 
   return (
@@ -242,6 +243,8 @@ function ApprovalDialog({
             <p className="editor-eyebrow">BILINGUAL APPROVAL</p>
             <h2 id="approval-title">发布前双语审批</h2>
             <p>逐页核对中文与英文。此预览只读，不会自动发布。</p>
+            <p>游记版式：{TRIP_STYLES[resolveTripStyle(document.metadata.style)].label.zh} · 中英文共用</p>
+            <TripPreviewSizePicker value={viewport} onChange={setViewport} label="审批预览尺寸" />
           </div>
           <button type="button" className="editor-icon-button" onClick={onClose}>
             <span aria-hidden="true">×</span>
@@ -265,13 +268,12 @@ function ApprovalDialog({
             <article key={locale}>
               <h3>{locale === "zh" ? "中文" : "English"}</h3>
               <div className="editor-approval-scroll">
-                <div className="trip-content">
-                  <TripDocumentRenderer
-                    document={document}
-                    locale={locale}
-                    imageUrl={(filename) => imageUrl(document.slug, filename)}
-                  />
-                </div>
+                <TripPreviewFrame
+                  document={document}
+                  locale={locale}
+                  viewport={viewport}
+                  imageUrl={(filename) => imageUrl(document.slug, filename)}
+                />
               </div>
             </article>
           ))}
@@ -376,6 +378,11 @@ export default function EditorApp() {
           JSON.stringify(document) !== JSON.stringify(original)
       ),
     [document, original]
+  );
+  const needsTranslation = useMemo(
+    () => Boolean(document && translationBaseline &&
+      collectChangedLocalizedPaths(translationBaseline, document).length > 0),
+    [document, translationBaseline],
   );
 
   const signOut = useCallback(() => {
@@ -708,6 +715,12 @@ export default function EditorApp() {
         translationBaseline,
         document
       );
+      if (changedPaths.length === 0) {
+        parseTripDocument(document);
+        setApprovalOpen(true);
+        setNotice("没有待翻译文字，请核对版式与双语预览后审批。");
+        return;
+      }
       const translated = await api.translate(document.slug, {
         baseSha: snapshot.baseSha,
         baseBlobSha: snapshot.blobSha,
@@ -858,7 +871,7 @@ export default function EditorApp() {
             disabled={!dirty || busy !== null}
             onClick={() => void requestTranslation()}
           >
-            {busy === "translate" ? "正在翻译…" : "生成英文并审批"}
+            {busy === "translate" ? "正在准备…" : needsTranslation ? "生成英文并审批" : "预览并审批"}
           </button>
         </div>
       </header>
@@ -1017,6 +1030,11 @@ export default function EditorApp() {
                       <button
                         type="button"
                         onClick={() => {
+                          const style = recoverable.document.metadata.style;
+                          if (style !== undefined && !isTripStyle(style)) {
+                            setError("草稿的游记版式不受支持，无法恢复。已保留当前旅程与原草稿。");
+                            return;
+                          }
                           setDocument(recoverable.document);
                           setSelectedPageId(recoverable.document.pages[0].id);
                           setRecoverable(null);
@@ -1098,6 +1116,25 @@ export default function EditorApp() {
                     </div>
                     <span className="editor-readonly-slug">{document.slug}</span>
                   </div>
+                  <fieldset className="editor-style-picker">
+                    <legend>游记版式</legend>
+                    <p>中英文共用。发布并完成网站构建后，所有读者都会看到所选版式。</p>
+                    {TRIP_STYLE_IDS.map((style) => (
+                      <label key={style}>
+                        <input
+                          type="radio"
+                          name="trip-style"
+                          value={style}
+                          checked={resolveTripStyle(document.metadata.style) === style}
+                          onChange={() => replaceDocument((next) => { next.metadata.style = style; })}
+                        />
+                        <span>
+                          <strong>{TRIP_STYLES[style].label.zh} · {TRIP_STYLES[style].label.en}</strong>
+                          <small>{TRIP_STYLES[style].description.zh}</small>
+                        </span>
+                      </label>
+                    ))}
+                  </fieldset>
                   <label className="editor-field">
                     <span>中文标题</span>
                     <input
@@ -1448,31 +1485,16 @@ export default function EditorApp() {
               <p className="editor-eyebrow">LIVE PREVIEW</p>
               <h2>中文实时预览</h2>
             </div>
-            <div className="editor-viewport-switch" role="group" aria-label="预览尺寸">
-              {(["desktop", "tablet", "mobile"] as const).map((size) => (
-                <button
-                  type="button"
-                  key={size}
-                  className={viewport === size ? "active" : ""}
-                  aria-pressed={viewport === size}
-                  onClick={() => setViewport(size)}
-                >
-                  {size === "desktop" ? "桌面" : size === "tablet" ? "平板" : "手机"}
-                </button>
-              ))}
-            </div>
+            <TripPreviewSizePicker value={viewport} onChange={setViewport} />
           </header>
           <div className={`editor-preview-stage ${viewport}`}>
             {document ? (
-              <div className="editor-preview-document">
-                <div className="trip-content">
-                  <TripDocumentRenderer
-                    document={document}
-                    locale="zh"
-                    imageUrl={(filename) => imageUrl(document.slug, filename)}
-                  />
-                </div>
-              </div>
+              <TripPreviewFrame
+                document={document}
+                locale="zh"
+                viewport={viewport}
+                imageUrl={(filename) => imageUrl(document.slug, filename)}
+              />
             ) : (
               <div className="editor-preview-placeholder">
                 <span>▧</span>

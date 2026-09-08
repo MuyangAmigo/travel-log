@@ -10,9 +10,7 @@ import {
 } from "@/lib/trips";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
-import ImageLightbox from "@/components/ImageLightbox";
-import CardScaleController from "@/components/CardScaleController";
-import TripEntryLayout from "@/components/TripEntryLayout";
+import TripPresentation from "@/components/TripPresentation";
 
 export function generateStaticParams() {
   const slugs = getAllTripSlugs();
@@ -65,13 +63,9 @@ export default async function TripPage({
           forceDocumentNavigation={trip.private}
         />
       </header>
-      <div className="trip-content">
-        <TripEntryLayout locale={loc} sections={sections}>
-          <CardScaleController />
-          <Content />
-        </TripEntryLayout>
-      </div>
-      <ImageLightbox locale={loc} />
+      <TripPresentation locale={loc} sections={sections} style={trip.style} coverImage={trip.coverImage}>
+        <Content />
+      </TripPresentation>
     </>
   );
 }

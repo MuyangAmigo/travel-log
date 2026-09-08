@@ -1,21 +1,30 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, type RefObject, type ReactNode } from "react";
 
-export default function CardScaleController() {
+export default function CardScaleController({
+  rootRef,
+  contentKey,
+}: {
+  rootRef: RefObject<HTMLElement | null>;
+  contentKey?: ReactNode;
+}) {
   useEffect(() => {
+    const root = rootRef.current;
+    const viewport = root?.ownerDocument.defaultView;
+    if (!root || !viewport) return;
     let cancelled = false;
 
-    function sync() {
-      document.querySelectorAll<HTMLElement>(".card-wrap").forEach((wrap) => {
+    const sync = () => {
+      root.querySelectorAll<HTMLElement>(".card-wrap").forEach((wrap) => {
         const card = wrap.querySelector<HTMLElement>(".card");
         if (!card) return;
-        const s = parseFloat(getComputedStyle(wrap).getPropertyValue("--s"));
+        const s = parseFloat(viewport.getComputedStyle(wrap).getPropertyValue("--s"));
 
         if (
           !Number.isFinite(s) ||
           Math.abs(s - 1) < 0.001 ||
-          getComputedStyle(card).transform === "none"
+          viewport.getComputedStyle(card).transform === "none"
         ) {
           wrap.style.removeProperty("height");
           return;
@@ -23,29 +32,29 @@ export default function CardScaleController() {
 
         wrap.style.height = card.offsetHeight * s + "px";
       });
-    }
+    };
 
     const observer =
-      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(sync);
+      typeof viewport.ResizeObserver === "undefined" ? null : new viewport.ResizeObserver(sync);
     if (observer) {
-      document
+      root
         .querySelectorAll<HTMLElement>(".card-wrap .card")
         .forEach((card) => observer.observe(card));
     }
 
     sync();
-    window.addEventListener("load", sync);
-    window.addEventListener("resize", sync);
-    document.fonts?.ready?.then(() => {
+    viewport.addEventListener("load", sync);
+    viewport.addEventListener("resize", sync);
+    root.ownerDocument.fonts?.ready?.then(() => {
       if (!cancelled) sync();
     });
 
     return () => {
       cancelled = true;
       observer?.disconnect();
-      window.removeEventListener("load", sync);
-      window.removeEventListener("resize", sync);
+      viewport.removeEventListener("load", sync);
+      viewport.removeEventListener("resize", sync);
     };
-  }, []);
+  }, [rootRef, contentKey]);
   return null;
 }

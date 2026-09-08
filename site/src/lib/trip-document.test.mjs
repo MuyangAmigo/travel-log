@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import {
   deriveTripEntrySections,
@@ -8,6 +8,8 @@ import {
   TripDocumentValidationError,
   validateTripDocument,
 } from "./trip-document.ts";
+import { TRIP_STYLE_IDS, resolveTripStyle } from "./trip-style.ts";
+import { parseTripDocument as parseApiDocument } from "../../../api/src/trip-document.js";
 
 const minimalDocument = {
   version: 1,
@@ -102,11 +104,69 @@ test("parses a versioned document and derives localized navigation and metadata"
     date: "2026-08-26",
     dateRange: "2026.08.26",
     coverImage: "/images/cover.jpeg",
+    style: "classic",
     title: { zh: "测试旅行", en: "Test Trip" },
     subtitle: { zh: "副标题", en: "Subtitle" },
     location: { zh: "测试地", en: "Testville" },
     private: false,
   });
+});
+
+test("resolves absent styles without migrating existing documents", () => {
+  const document = parseTripDocument(minimalDocument);
+  assert.equal(resolveTripStyle(document.metadata.style), "classic");
+  assert.equal("style" in document.metadata, false);
+  assert.deepEqual(document, minimalDocument);
+});
+
+test("style resolution errors identify the rejected value and supported choices", () => {
+  for (const [value, received] of [
+    ["current", '"current"'],
+    ["", '""'],
+    ["unknown\nstyle", '"unknown\\nstyle"'],
+    [null, "null"],
+    [false, "false"],
+    [42, "42"],
+  ]) {
+    assert.throws(() => resolveTripStyle(value), {
+      name: "Error",
+      message: `Unsupported trip style ${received} (type: ${typeof value}). Supported styles: classic, photo-story, field-journal.`,
+    });
+  }
+});
+
+test("site and API accept the same persistent styles and reject invalid values", () => {
+  for (const style of [...TRIP_STYLE_IDS, "current", "unknown", null, false, 0, {}, []]) {
+    const document = structuredClone(minimalDocument);
+    document.metadata.style = style;
+    if (TRIP_STYLE_IDS.includes(style)) {
+      assert.equal(parseTripDocument(document).metadata.style, style);
+      assert.equal(parseApiDocument(document).metadata.style, style);
+      assert.equal(tripDocumentToMeta(document, (filename) => filename).style, style);
+    } else {
+      assert.throws(() => parseTripDocument(document));
+      assert.throws(() => parseApiDocument(document));
+      assert.throws(() => resolveTripStyle(style));
+    }
+  }
+});
+
+test("every existing trip supports each style without changing its content", () => {
+  const root = new URL("../content/trips/", import.meta.url);
+  for (const entry of readdirSync(root, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const { document } = readTripDocument(entry.name);
+    assert.equal(resolveTripStyle(document.metadata.style), "classic");
+    for (const style of TRIP_STYLE_IDS) {
+      const styled = structuredClone(document);
+      styled.metadata.style = style;
+      assert.deepEqual(parseTripDocument(styled), parseApiDocument(styled));
+      assert.deepEqual(styled.pages, document.pages);
+      assert.deepEqual(styled.images, document.images);
+      assert.deepEqual(styled.sections, document.sections);
+      assert.equal(styled.metadata.private, document.metadata.private);
+    }
+  }
 });
 
 test("rejects unsupported versions and unknown schema fields", () => {

@@ -88,6 +88,26 @@ test("collects only changed and newly-empty English fields by stable ID path", (
   ]);
 });
 
+test("style-only edits do not request translation and survive draft recovery", () => {
+  const original = documentFixture();
+  for (const style of ["classic", "photo-story", "field-journal"]) {
+    const document = structuredClone(original);
+    document.metadata.style = style;
+    assert.deepEqual(collectChangedLocalizedPaths(original, document), []);
+    const stored = parseStoredEditorDraft(JSON.stringify({
+      baseSha: "1".repeat(40),
+      baseBlobSha: "2".repeat(40),
+      document,
+      savedAt: 123,
+    }), document.slug);
+    const recovery = getEditorDraftRecovery(stored, original, "2".repeat(40));
+    assert.equal(recovery.status, "safe");
+    assert.equal(recovery.document.metadata.style, style);
+    assert.deepEqual(recovery.document.pages, original.pages);
+    assert.equal(getEditorDraftRecovery(stored, original, "3".repeat(40)).status, "conflict");
+  }
+});
+
 test("duplicates pages with fresh page, block, and nested item IDs", () => {
   const page = documentFixture().pages[1];
   const duplicate = duplicatePage(page);
