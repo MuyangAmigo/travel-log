@@ -13,14 +13,64 @@ visible keyboard focus, and sufficient content clearance below the last trip.
 The overflow opens above the dock and supports native outside-click and Escape
 dismissal.
 
+### Unified travel cards
+
 Gallery mode retains the wide, photography-first grid and overlaid privacy
-badges. List mode uses a centered 1040px content column, 220px landscape
-thumbnails on desktop, and subtle row separators instead of boxed cards.
+badges. Each gallery link is one rounded, theme-aware card: an edge-to-edge photo
+above a padded text panel, with a shared surface and shadow rather than a
+separately floating image. List mode uses the same rounded surface and shadow in
+a centered 1040px content column. Each horizontal card has a 220px-wide photo
+flush with its left, top, and bottom edges, clipped by the card's outer corners.
+Photos use cover cropping to fill the row height; only the text panel is padded.
+Cards have spacing instead of row separators.
+
+| Detail | Gallery | List |
+|--------|---------|------|
+| Shared container | 20px outer radius, theme-aware surface, one card shadow | Same |
+| Photo | Full-width top edge, square on desktop and 4:3 on phones | Full-height left edge, 220px wide with a 165px minimum height on desktop |
+| Text padding | 18px top, 20px sides and bottom | 24px vertically, 28px horizontally |
+| Phone layout | Image above text | Horizontal; image width `clamp(88px, 24vw, 116px)` and text padding `16px 12px` at 640px and below |
+| Separation | Existing responsive grid gutters | 20px between cards; no row dividers |
+
+The outer card clips the image corners. Do not add separate photo rounding,
+image shadows, or an inset margin to list photos. The whole link gets the hover
+shadow; image zoom remains clipped to its photo region. Keyboard focus remains
+visible outside the card, and reduced-motion preferences disable transitions.
+
 Location and the complete authored date range sit below each title; list-mode
 privacy labels are quiet inline metadata. Phone rows use smaller thumbnails and
 wrapping metadata. These index-specific rules supersede the original generic
-marketplace header and layout guidance below; the existing palette and font
-tokens remain unchanged.
+marketplace header and layout guidance below; font tokens remain unchanged.
+
+### Ambient index palette
+
+The index softens the shell canvas to warm ivory (`#f7f3eb`) or lifted
+charcoal (`#202123`). Light mode pairs faint peach-and-cream radial gradients
+with warm white cards (`#fffdf9`) and an ivory dock. Dark mode retains its subtle
+warm/cool gradients, neutral surfaces, and softer primary text. The broad,
+low-opacity gradients fade into the base color down the page.
+Photography and red accents are unchanged. These CSS-only palette
+overrides apply only while `.index-wrap` is present, including viewport margins;
+trip pages and the editor retain their existing themes. There is no background
+animation or additional image download.
+
+| Token / role | Light | Dark |
+|--------------|-------|------|
+| `--page-background` | `#f7f3eb` | `#202123` |
+| `--surface-elevated` (cards, overflow menu) | `#fffdf9` | `#2b2c2e` |
+| `--palette-surface` | `#fcf9f3` | `#27282a` |
+| `--palette-surface-muted` (selected controls) | `#eee9e0` | `#323335` |
+| `--header-background` (dock) | `rgba(252, 249, 243, 0.9)` | `rgba(39, 40, 42, 0.9)` |
+| Primary text | `#222222` | `#e8e8e6` |
+| `--index-gradient-warm` | `rgba(222, 174, 139, 0.12)` | `rgba(177, 149, 123, 0.07)` |
+| `--index-gradient-haze` | `rgba(238, 217, 184, 0.16)` | `rgba(126, 151, 179, 0.09)` |
+
+The warm gradient is a `90% 720px` ellipse anchored at the upper left. The haze
+is an `80% 900px` ellipse anchored at `100% 160px`. Neither repeats or moves.
+Use these broad washes rather than distinct colored blobs, and keep photographs
+untinted. `:root:has(.index-wrap)` scopes the tokens; `body:has(.index-wrap)`
+paints the gradients. This also covers the viewport margins and requires no
+client-side theme or route effects.
 
 ## 1. Visual Theme & Atmosphere
 
