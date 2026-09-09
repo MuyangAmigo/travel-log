@@ -1,17 +1,24 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
+import Link from "next/link";
+import type { Locale } from "@/lib/trips";
+import ThemeToggle from "@/components/ThemeToggle";
 
 type IndexView = "gallery" | "list";
 
 interface Props {
   children: ReactNode;
+  locale: Locale;
+  languageSwitcher: ReactNode;
   labels: {
     group: string;
     gallery: string;
     list: string;
+    controls: string;
+    moreOptions: string;
+    edit: string;
   };
-  tagline: string;
 }
 
 const STORAGE_KEY = "travel-log-index-view";
@@ -22,8 +29,9 @@ function isIndexView(value: string | null): value is IndexView {
 
 export default function IndexViewSwitcher({
   children,
+  locale,
+  languageSwitcher,
   labels,
-  tagline,
 }: Props) {
   const [view, setView] = useState<IndexView>("gallery");
 
@@ -47,8 +55,13 @@ export default function IndexViewSwitcher({
 
   return (
     <>
-      <div className="index-toolbar">
-        <p className="index-tagline">{tagline}</p>
+      <div className="trip-grid" data-view={view}>
+        {children}
+      </div>
+
+      <aside className="index-controls" aria-label={labels.controls}>
+        {languageSwitcher}
+        <span className="control-divider" aria-hidden="true" />
         <div className="index-view-switch" role="group" aria-label={labels.group}>
           <button
             type="button"
@@ -81,11 +94,25 @@ export default function IndexViewSwitcher({
             </svg>
           </button>
         </div>
-      </div>
-
-      <div className="trip-grid" data-view={view}>
-        {children}
-      </div>
+        <span className="control-divider" aria-hidden="true" />
+        <ThemeToggle locale={locale} />
+        <button
+          type="button"
+          className="index-more-button"
+          popoverTarget="index-more-options"
+          aria-label={labels.moreOptions}
+          title={labels.moreOptions}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="5" cy="12" r="1.5" />
+            <circle cx="12" cy="12" r="1.5" />
+            <circle cx="19" cy="12" r="1.5" />
+          </svg>
+        </button>
+        <div id="index-more-options" className="index-more-options" popover="auto">
+          <Link href="/edit">{labels.edit}</Link>
+        </div>
+      </aside>
     </>
   );
 }

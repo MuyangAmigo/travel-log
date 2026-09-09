@@ -97,7 +97,10 @@ export const dict = {
     viewSwitcher: "切换旅行列表视图",
     galleryView: "画廊视图",
     listView: "列表视图",
-    siteTitle: "Junjie's Travel Journal",
+    siteTitle: "Junjie 的旅行手记",
+    controls: "阅读偏好",
+    moreOptions: "更多选项",
+    edit: "编辑旅行手记",
     siteSub: "一本慢慢写下去的手帐",
   },
   en: {
@@ -111,6 +114,9 @@ export const dict = {
     galleryView: "Gallery view",
     listView: "List view",
     siteTitle: "Junjie's Travel Journal",
+    controls: "Reading preferences",
+    moreOptions: "More options",
+    edit: "Edit journal",
     siteSub: "A journal kept slowly, one trip at a time.",
   },
 } as const;
