@@ -1,5 +1,27 @@
 # Design System Inspired by Airbnb
 
+## Journal index refinement
+
+The index uses a personal editorial identity rather than a marketplace wordmark:
+Junjie's existing About-page portrait, one localized journal title, and one
+supporting line. The shared header uses the same portrait and localized name.
+
+Language, gallery/list selection, theme, and an overflow entry for editing live
+in one bottom dock on the index. Desktop uses a compact centered floating dock;
+phones use a full-width dock with safe-area padding. Controls have 44px targets,
+visible keyboard focus, and sufficient content clearance below the last trip.
+The overflow opens above the dock and supports native outside-click and Escape
+dismissal.
+
+Gallery mode retains the wide, photography-first grid and overlaid privacy
+badges. List mode uses a centered 1040px content column, 220px landscape
+thumbnails on desktop, and subtle row separators instead of boxed cards.
+Location and the complete authored date range sit below each title; list-mode
+privacy labels are quiet inline metadata. Phone rows use smaller thumbnails and
+wrapping metadata. These index-specific rules supersede the original generic
+marketplace header and layout guidance below; the existing palette and font
+tokens remain unchanged.
+
 ## 1. Visual Theme & Atmosphere
 
 Airbnb's website is a warm, photography-forward marketplace that feels like flipping through a travel magazine where every page invites you to book. The light theme operates on a foundation of pure white (`#ffffff`), while the dark theme uses a warm near-black (`#111113`). The iconic Rausch Red (`#ff385c`) — named after Airbnb's first street address — remains the singular brand accent in both themes. The result is a clean canvas where listing photography, category icons, and the red CTA button are the primary sources of color.

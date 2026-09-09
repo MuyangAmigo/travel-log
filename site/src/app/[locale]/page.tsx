@@ -3,8 +3,19 @@ import { notFound } from "next/navigation";
 import { trips, locales, dict, type Locale } from "@/lib/trips";
 import { withBasePath } from "@/lib/base-path";
 import IndexViewSwitcher from "@/components/IndexViewSwitcher";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
 import SiteHeader from "@/components/SiteHeader";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+
+function PrivateBadge({ locale, inline = false }: { locale: Locale; inline?: boolean }) {
+  return (
+    <span className={inline ? "tc-private-inline" : "tc-badge private"}>
+      <svg width="10" height="12" viewBox="0 0 10 12" fill="none" aria-hidden="true">
+        <path d="M5 1a2 2 0 012 2v2H3V3a2 2 0 012-2zM1 6h8v5H1V6z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
+      </svg>
+      {locale === "zh" ? "私密" : "Private"}
+    </span>
+  );
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -21,74 +32,64 @@ export default async function LocaleHome({
   const t = dict[loc];
 
   return (
-    <>
-      <SiteHeader locale={loc} />
-      <main className="index-wrap">
-        <section className="index-hero">
-          <div>
-            <p className="index-eyebrow">{t.allTrips}</p>
-            <h1 className="site-title">{t.siteTitle}</h1>
-            <p className="site-sub">{t.siteSub}</p>
-          </div>
-          <LanguageSwitcher current={loc} />
-        </section>
+    <main className="index-wrap">
+      <SiteHeader locale={loc} index />
 
-        <IndexViewSwitcher
-          tagline={t.tagline}
-          labels={{
-            group: t.viewSwitcher,
-            gallery: t.galleryView,
-            list: t.listView,
-          }}
-        >
-          {trips.map((trip, index) => {
-            const route = `/${loc}/trips/${trip.slug}`;
-            const content = (
-              <>
-                <div className="tc-media">
-                  <img
-                    src={trip.coverImage}
-                    alt={trip.title[loc]}
-                    loading={index === 0 ? "eager" : "lazy"}
-                    decoding="async"
-                    fetchPriority={index === 0 ? "high" : "auto"}
-                  />
-                  {trip.private && (
-                  <span className="tc-badge private" aria-label={loc === "zh" ? "需要密码" : "Password protected"}>
-                    <svg width="10" height="12" viewBox="0 0 10 12" fill="none" aria-hidden="true">
-                      <path d="M5 1a2 2 0 012 2v2H3V3a2 2 0 012-2zM1 6h8v5H1V6z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
-                    </svg>
-                    {loc === "zh" ? "私密" : "Private"}
-                  </span>
-                )}
+      <IndexViewSwitcher
+        locale={loc}
+        languageSwitcher={<LanguageSwitcher current={loc} />}
+        labels={{
+          group: t.viewSwitcher,
+          gallery: t.galleryView,
+          list: t.listView,
+          controls: t.controls,
+          moreOptions: t.moreOptions,
+          edit: t.edit,
+        }}
+      >
+        {trips.map((trip, index) => {
+          const route = `/${loc}/trips/${trip.slug}`;
+          const content = (
+            <>
+              <div className="tc-media">
+                <img
+                  src={trip.coverImage}
+                  alt={trip.title[loc]}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  decoding="async"
+                  fetchPriority={index === 0 ? "high" : "auto"}
+                />
+                {trip.private && <PrivateBadge locale={loc} />}
               </div>
               <div className="tc-body">
                 <div className="tc-title-row">
                   <h2 className="tc-title">{trip.title[loc]}</h2>
-                  <span className="tc-date">{trip.dateRange.split(" — ")[0]}</span>
                 </div>
-                <p className="tc-location">{trip.location[loc]}</p>
+                <div className="tc-meta">
+                  <p className="tc-location">{trip.location[loc]}</p>
+                  <span className="tc-date">{trip.dateRange}</span>
+                  {trip.private && <PrivateBadge locale={loc} inline />}
+                </div>
                 <p className="tc-sub">{trip.subtitle[loc]}</p>
               </div>
-              </>
-            );
+            </>
+          );
 
-            if (trip.private) {
-              return (
-                <a key={trip.slug} href={withBasePath(route)} className="trip-card">
-                  {content}
-                </a>
-              );
-            }
-
+          if (trip.private) {
             return (
-              <Link key={trip.slug} href={route} className="trip-card">
+              <a key={trip.slug} href={withBasePath(route)} className="trip-card">
                 {content}
-              </Link>
+              </a>
             );
-          })}
-        </IndexViewSwitcher>
-      </main>
-    </>
+          }
+
+          return (
+            <Link key={trip.slug} href={route} className="trip-card">
+              {content}
+            </Link>
+          );
+        })}
+      </IndexViewSwitcher>
+    </main>
   );
 }
