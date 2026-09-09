@@ -14,5 +14,5 @@ if (document.slug !== SLUG) {
 export const meta: TripMeta = {
   ...tripDocumentToMeta(document, img),
   slug: SLUG,
-  private: true,
+  private: document.metadata.private,
 };

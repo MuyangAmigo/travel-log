@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import test from "node:test";
+import { parseRegisteredTripSlugs } from "../src/github-editor-repository.js";
 import {
   assertDocumentSlug,
   parseTripDocument,
@@ -10,24 +11,23 @@ import { minimalTripDocument } from "./helpers/editor-fixtures.js";
 
 test("accepts every registered structured trip document", () => {
   const tripsDirectory = new URL("../../site/src/content/trips/", import.meta.url);
-  const validated = [];
-  for (const slug of readdirSync(tripsDirectory)) {
-    try {
-      const source = readFileSync(
-        new URL(`${slug}/content.json`, tripsDirectory),
-        "utf8"
-      );
-      assert.deepEqual(
-        validateTripDocument(JSON.parse(source)),
-        [],
-        `${slug} must match the API schema`
-      );
-      validated.push(slug);
-    } catch (error) {
-      if (error?.code !== "ENOENT") throw error;
-    }
+  const registry = readFileSync(
+    new URL("../../site/src/lib/trips.ts", import.meta.url),
+    "utf8"
+  );
+  for (const slug of parseRegisteredTripSlugs(registry)) {
+    const source = readFileSync(
+      new URL(`${slug}/content.json`, tripsDirectory),
+      "utf8"
+    );
+    const document = JSON.parse(source);
+    assert.deepEqual(
+      validateTripDocument(document),
+      [],
+      `${slug} must match the API schema`
+    );
+    assertDocumentSlug(document, slug);
   }
-  assert.equal(validated.length, 11);
 });
 
 test("rejects unknown fields, dangling references, and duplicate IDs", () => {

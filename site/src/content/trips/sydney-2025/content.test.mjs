@@ -33,7 +33,7 @@ test("Sydney stays private with an aligned editorial title and a scene-setting c
   assert.equal(document.pages[0].blocks.length, 1, "The fixed-height cover must not hide other content");
   assert.match(
     readFileSync(new URL("./meta.ts", import.meta.url), "utf8"),
-    /private:\s*true/
+    /private:\s*document\.metadata\.private/
   );
 });
 
