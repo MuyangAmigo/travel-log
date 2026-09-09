@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
 import { generateKeyPairSync } from "node:crypto";
-import { readFileSync } from "node:fs";
 import test from "node:test";
 import {
   GitHubEditorRepository,
@@ -16,23 +15,22 @@ import {
 } from "./helpers/editor-fixtures.js";
 
 test("derives the allowlist only from entries in the registered trips array", () => {
-  const source = readFileSync(
-    new URL("../../site/src/lib/trips.ts", import.meta.url),
-    "utf8"
-  );
+  const source = `
+import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
+import { meta as kotaKinabalu2025Meta } from "@/content/trips/kota-kinabalu-2025/meta";
+export const trips: TripMeta[] = [
+  bangkok2026Meta,
+  kotaKinabalu2025Meta,
+].sort((a, b) => b.date.localeCompare(a.date));
+`;
   const slugs = parseRegisteredTripSlugs(source);
-  assert.equal(slugs.length, 11);
-  assert.ok(slugs.includes("bangkok-2026"));
-  assert.ok(slugs.includes("kota-kinabalu-2025"));
+  assert.deepEqual(slugs, ["bangkok-2026", "kota-kinabalu-2025"]);
 
   const withUnusedImport = source.replace(
     'import { meta as bangkok2026Meta }',
     'import { meta as unregisteredMeta } from "@/content/trips/unregistered/meta";\nimport { meta as bangkok2026Meta }'
   );
-  assert.equal(
-    parseRegisteredTripSlugs(withUnusedImport).includes("unregistered"),
-    false
-  );
+  assert.deepEqual(parseRegisteredTripSlugs(withUnusedImport), slugs);
 });
 
 test("rejects unknown trips before trying to load a content path", async () => {
