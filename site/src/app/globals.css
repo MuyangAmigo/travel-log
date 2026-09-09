@@ -680,6 +680,7 @@ body {
 .index-more-options {
   position: fixed;
   inset: auto auto calc(92px + env(safe-area-inset-bottom)) 50%;
+  transform: translateX(-50%);
   margin: 0;
   padding: 6px;
   border: 1px solid var(--border-subtle);
@@ -1174,6 +1175,7 @@ body {
   }
   .index-more-options {
     inset: auto 16px calc(76px + env(safe-area-inset-bottom)) auto;
+    transform: none;
   }
   .index-brand {
     gap: 12px;
