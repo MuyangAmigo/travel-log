@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "slug": "sydney-2025",
+  "metadata": {
+    "date": "2025-09-01",
+    "dateRange": "2025.09.01 — 09.09",
+    "coverImageId": "img-4955",
+    "title": { "zh": "悉尼 · 先安顿，再漫游", "en": "Sydney · Settle In, Then Wander" },
+    "subtitle": { "zh": "从帮妹妹整理宿舍，到校园、港湾与海岸步道", "en": "Helping my sister settle in, then exploring campus, harbour and coast" },
+    "location": { "zh": "澳大利亚 · 悉尼", "en": "Sydney, Australia" },
+    "private": true
+  },
+  "images": [
+    { "id": "file-2d5a4910154f", "filename": "file-2d5a4910154f.webp", "alt": { "zh": "飞机座椅间的三人合影", "en": "Three of us posing between the aircraft seats" } },
+    { "id": "img-4811", "filename": "img-4811.webp", "alt": { "zh": "机舱座位上的双人自拍", "en": "Two-person selfie in our aircraft seats" } },
+    { "id": "img-4814", "filename": "img-4814.webp", "alt": { "zh": "显示 PVG 至 SYD 航线和目的地时间的机上屏幕", "en": "Flight screen showing PVG to SYD and the destination time" } },
+    { "id": "img-4822", "filename": "img-4822.webp", "alt": { "zh": "乔治街南段的轻轨、车辆与高楼", "en": "Light rail, traffic and tall buildings on southern George Street" } },
+    { "id": "img-4835", "filename": "img-4835.webp", "alt": { "zh": "UNSW 校园台阶边的黑白鸟", "en": "Black-and-white bird beside steps at UNSW" } },
+    { "id": "img-4836", "filename": "img-4836.webp", "alt": { "zh": "弯喙的澳洲白鹮走过校园路面", "en": "Australian white ibis with a curved bill walking across campus" } },
+    { "id": "img-4838", "filename": "img-4838.webp", "alt": { "zh": "UNSW 草坪与拱形教学楼前的双人照", "en": "Two of us before the UNSW lawn and arched building facade" } },
+    { "id": "img-4844", "filename": "img-4844.webp", "alt": { "zh": "三人在 UNSW 草坪前手持饮品合影", "en": "Three of us holding drinks in front of the UNSW lawn" } },
+    { "id": "img-4846", "filename": "img-4846.webp", "alt": { "zh": "主图书馆建筑楼顶的 UNSW 字样", "en": "Large UNSW lettering on the Main Library building" } },
+    { "id": "img-4847", "filename": "img-4847.webp", "alt": { "zh": "傍晚云层下的校园步道与教学楼", "en": "Campus path and teaching buildings beneath evening clouds" } },
+    { "id": "img-4879", "filename": "img-4879.webp", "alt": { "zh": "北悉尼 Microsoft 标志前的三人合影", "en": "Three of us beside the Microsoft sign in North Sydney" } },
+    { "id": "img-4873", "filename": "img-4873.webp", "alt": { "zh": "办公楼里的绿植走廊", "en": "Office corridor lined with greenery" } },
+    { "id": "img-4883", "filename": "img-4883.webp", "alt": { "zh": "室内展示区的赛车模拟座椅和弹珠台", "en": "Racing simulator seat and pinball machine in the display area" } },
+    { "id": "img-4885", "filename": "img-4885.webp", "alt": { "zh": "高层窗外的悉尼海港大桥、港湾与市区", "en": "Harbour Bridge, water and city buildings seen through a high-rise window" } },
+    { "id": "img-4887", "filename": "img-4887.webp", "alt": { "zh": "悉尼市政厅的砂岩钟塔", "en": "Sandstone clock tower of Sydney Town Hall" } },
+    { "id": "img-4888", "filename": "img-4888.webp", "alt": { "zh": "QVB 南端附近的维多利亚女王雕像与 George St 路牌", "en": "Queen Victoria statue near the south end of QVB and a George St sign" } },
+    { "id": "img-4901", "filename": "img-4901.webp", "alt": { "zh": "圣玛丽大教堂内的尖拱、祭坛和彩窗", "en": "Pointed arches, altar and stained glass inside St Mary's Cathedral" } },
+    { "id": "img-4915", "filename": "img-4915.webp", "alt": { "zh": "树荫步道上与教堂双尖塔同框的三人合影", "en": "Three of us on a shaded path with the cathedral's twin spires behind us" } },
+    { "id": "img-4927", "filename": "img-4927.webp", "alt": { "zh": "Anzac Memorial 正面与倒影池", "en": "Front of the Anzac Memorial and its reflection pool" } },
+    { "id": "img-4932", "filename": "img-4932.webp", "alt": { "zh": "Anzac Memorial 台阶前的三人合影", "en": "Three of us at the steps of the Anzac Memorial" } },
+    { "id": "img-4955", "filename": "img-4955.webp", "alt": { "zh": "蓝天下的悉尼歌剧院与弧形滨水岸线", "en": "Sydney Opera House and the curved waterfront beneath a blue sky" } },
+    { "id": "img-5055", "filename": "img-5055.webp", "alt": { "zh": "西侧水面上方的夕阳和橙金色云层", "en": "Sunset and orange-gold clouds above the water to the west" } },
+    { "id": "img-4973", "filename": "img-4973.webp", "alt": { "zh": "歌剧院滨水区域的三人自拍，海港大桥也入镜", "en": "Three-person selfie by the Opera House waterfront with Harbour Bridge in view" } },
+    { "id": "img-5016", "filename": "img-5016.webp", "alt": { "zh": "环形码头西侧的三人照，背后是歌剧院和渡轮", "en": "Three of us west of Circular Quay with the Opera House and a ferry behind us" } },
+    { "id": "img-9520", "filename": "img-9520.webp", "alt": { "zh": "皇家植物园草地上躺着的人，远处是城市高楼", "en": "A person lying on the Royal Botanic Garden lawn with city towers beyond" } },
+    { "id": "img-5047", "filename": "img-5047.webp", "alt": { "zh": "天文台山回身留影，身后是悉尼海港大桥", "en": "Portrait looking back on Observatory Hill with Harbour Bridge behind" } },
+    { "id": "img-5059", "filename": "img-5059.webp", "alt": { "zh": "牛排、绿色配菜与一小杯酱汁", "en": "Steak, green vegetables and a small cup of sauce" } },
+    { "id": "img-5061", "filename": "img-5061.webp", "alt": { "zh": "配虾仁、小番茄和绿叶的意面", "en": "Pasta with prawns, cherry tomatoes and green leaves" } },
+    { "id": "img-5072", "filename": "img-5072.webp", "alt": { "zh": "从港湾水面方向望向歌剧院白色屋顶", "en": "White roofs of the Opera House seen from the harbour water" } },
+    { "id": "img-5090", "filename": "img-5090.webp", "alt": { "zh": "动物园水池上方以悉尼港为背景的双人自拍", "en": "Two-person selfie above a zoo pool with Sydney Harbour in the background" } },
+    { "id": "img-5092", "filename": "img-5092.webp", "alt": { "zh": "长颈鹿围场与身后的悉尼港及城市天际线", "en": "Giraffe enclosure with Sydney Harbour and the city skyline behind it" } },
+    { "id": "img-5099", "filename": "img-5099.webp", "alt": { "zh": "在大猩猩雕塑手掌和脸旁留影的人", "en": "Portrait beside the hand and face of a gorilla sculpture" } },
+    { "id": "img-5110", "filename": "img-5110.webp", "alt": { "zh": "鸟舍里的自拍，旁边有植物牌上的栖鸟", "en": "Aviary selfie with a bird perched on a plant sign" } },
+    { "id": "img-5179", "filename": "img-5179.webp", "alt": { "zh": "下午从塔龙加动物园看到的悉尼港全景", "en": "Afternoon panorama of Sydney Harbour from Taronga Zoo" } },
+    { "id": "img-5155", "filename": "img-5155.webp", "alt": { "zh": "桉叶与蕨类之间抱着树干的考拉", "en": "Koala clinging to a trunk among eucalyptus leaves and ferns" } },
+    { "id": "img-5161", "filename": "img-5161.webp", "alt": { "zh": "袋鼠围场前的单人照", "en": "Portrait in front of the kangaroo enclosure" } },
+    { "id": "img-5190", "filename": "img-5190.webp", "alt": { "zh": "枝叶间沿横枝活动的小熊猫", "en": "Red panda moving along a branch among leaves" } },
+    { "id": "file-19011866f603", "filename": "file-19011866f603.webp", "alt": { "zh": "塔龙加海港观景平台上的三人合影", "en": "Three of us on a harbour viewing platform at Taronga" } },
+    { "id": "img-5219", "filename": "img-5219.webp", "alt": { "zh": "雅瑶邑晚餐的烤鱼与柠檬", "en": "Grilled fish and lemon at our YAYOI dinner" } },
+    { "id": "img-5220", "filename": "img-5220.webp", "alt": { "zh": "雅瑶邑餐桌上的一碗汤面", "en": "Bowl of noodle soup on the table at YAYOI" } },
+    { "id": "img-5222", "filename": "img-5222.webp", "alt": { "zh": "蓝绿色杯中的紫色拉花饮品", "en": "Purple drink with latte art in a turquoise cup" } },
+    { "id": "img-5224", "filename": "img-5224.webp", "alt": { "zh": "炒蛋吐司、香肠片和后方的薯饼", "en": "Scrambled eggs on toast, sliced sausage and hash browns behind" } },
+    { "id": "img-5225", "filename": "img-5225.webp", "alt": { "zh": "邦迪浪花前张开双臂的人像", "en": "Portrait with arms spread in front of the waves at Bondi" } },
+    { "id": "file-f4243d3e7c0a", "filename": "file-f4243d3e7c0a.webp", "alt": { "zh": "邦迪浅水边的双人合影", "en": "Two of us posing in the shallows at Bondi" } },
+    { "id": "file-102f324e1181", "filename": "file-102f324e1181.webp", "alt": { "zh": "浅水里举起双手的人像", "en": "Portrait with both arms raised in shallow water" } },
+    { "id": "img-5259", "filename": "img-5259.webp", "alt": { "zh": "栏杆前望向 Tamarama 海湾的背影", "en": "Back view of a person looking across Tamarama Bay from a railing" } },
+    { "id": "file-c1ff132d57be", "filename": "file-c1ff132d57be.webp", "alt": { "zh": "邦迪沙滩上的三人自拍", "en": "Three-person selfie on Bondi Beach" } },
+    { "id": "img-5246", "filename": "img-5246.webp", "alt": { "zh": "海岸步道上两个人举手的影子", "en": "Shadows of two people raising their arms on the coastal path" } },
+    { "id": "img-5238", "filename": "img-5238.webp", "alt": { "zh": "Bondi Icebergs 露天泳池与外侧海浪", "en": "Bondi Icebergs outdoor pool with ocean waves beyond" } },
+    { "id": "img-5243", "filename": "img-5243.webp", "alt": { "zh": "海岸步道旁纹理鲜明的风化砂岩", "en": "Textured weathered sandstone beside the coastal path" } }
+  ],
+  "sections": [
+    { "id": "overview", "navigation": { "marker": { "zh": "序", "en": "Intro" }, "label": { "zh": "先安顿，再漫游", "en": "Settle in, then wander" }, "detail": { "zh": "上海到悉尼，日常也是旅行的一部分", "en": "Shanghai to Sydney, with everyday life at the heart of the trip" } } },
+    { "id": "day-1", "navigation": { "marker": { "zh": "01", "en": "01" }, "label": { "zh": "机舱里的出发照", "en": "Departure selfies" }, "detail": { "zh": "9 月 1 日 · 上海 → 悉尼", "en": "1 Sep · Shanghai to Sydney" } } },
+    { "id": "day-2", "navigation": { "marker": { "zh": "02", "en": "02" }, "label": { "zh": "先休息，再采买", "en": "Rest, then supplies" }, "detail": { "zh": "9 月 2 日 · 抵达与整理宿舍", "en": "2 Sep · Arrival and settling in" } } },
+    { "id": "day-3", "navigation": { "marker": { "zh": "03", "en": "03" }, "label": { "zh": "没有照片的一天", "en": "A day without photos" }, "detail": { "zh": "9 月 3 日 · 继续安顿妹妹的住处", "en": "3 Sep · More shopping and sorting out my sister's room" } } },
+    { "id": "day-4", "navigation": { "marker": { "zh": "04", "en": "04" }, "label": { "zh": "到妹妹的学校看看", "en": "My sister's campus" }, "detail": { "zh": "9 月 4 日 · UNSW Kensington", "en": "4 Sep · UNSW Kensington" } } },
+    { "id": "day-5", "navigation": { "marker": { "zh": "05", "en": "05" }, "label": { "zh": "高层港景与钟塔", "en": "Harbour views and a clock tower" }, "detail": { "zh": "9 月 5 日 · 北悉尼微软、市政厅与 QVB", "en": "5 Sep · Microsoft, Town Hall and QVB" } } },
+    { "id": "day-6", "navigation": { "marker": { "zh": "06", "en": "06" }, "label": { "zh": "把城市串成一天", "en": "A day across the city" }, "detail": { "zh": "9 月 6 日 · 教堂、歌剧院、植物园与夕阳", "en": "6 Sep · Cathedral, Opera House, gardens and sunset" } } },
+    { "id": "day-7", "navigation": { "marker": { "zh": "07", "en": "07" }, "label": { "zh": "动物园里的悉尼港", "en": "The harbour from the zoo" }, "detail": { "zh": "9 月 7 日 · 塔龙加与雅瑶邑晚餐", "en": "7 Sep · Taronga and dinner at YAYOI" } } },
+    { "id": "day-8", "navigation": { "marker": { "zh": "08", "en": "08" }, "label": { "zh": "从早午餐走到海边", "en": "From brunch to the coast" }, "detail": { "zh": "9 月 8 日 · 邦迪、Icebergs 与 Tamarama", "en": "8 Sep · Bondi, Icebergs and Tamarama" } } },
+    { "id": "day-9", "navigation": { "marker": { "zh": "09", "en": "09" }, "label": { "zh": "回到上海", "en": "Back to Shanghai" }, "detail": { "zh": "9 月 9 日 · 返程与往返航班", "en": "9 Sep · Homeward flight and itinerary" } } }
+  ],
+  "pages": [
+    {
+      "id": "cover", "sectionId": "overview",
+      "blocks": [
+        { "id": "cover-title", "type": "cover", "backgroundImageId": "img-4955", "eyebrow": { "zh": "澳大利亚 · 悉尼", "en": "AUSTRALIA · SYDNEY" }, "title": { "zh": "悉尼 · 先安顿，再漫游", "en": "Sydney · Settle In, Then Wander" }, "subtitle": { "zh": "先把生活安排好，再走向海港和海边", "en": "First the everyday tasks, then the harbour and the coast" }, "date": { "zh": "2025 年 9 月 1 日 — 9 月 9 日", "en": "1–9 September 2025" }, "intro": { "zh": "妹妹在新南威尔士大学读书。这趟旅行，我们先帮她安顿住处，再慢慢走进悉尼。", "en": "My younger sister was studying at UNSW. We began by helping her settle in, then took time to explore Sydney." }, "separators": true }
+      ]
+    },
+    {
+      "id": "introduction", "sectionId": "overview",
+      "blocks": [
+        { "id": "introduction-header", "type": "header", "markerVariant": "category", "markerLabel": { "zh": "序言", "en": "Intro" }, "markerValue": { "zh": "SYD", "en": "SYD" }, "title": { "zh": "日常，也是旅行的一部分", "en": "Everyday life belongs in the story" }, "subtitle": { "zh": "从生活琐事，到后半程的蓝天与歌剧院", "en": "From practical tasks to blue skies and the Opera House" } },
+        { "id": "opening", "type": "prose", "paragraphs": [
+          { "zh": "前半程不是从景点开始的。逛超市、买东西、整理宿舍，等这些事情一件件安排起来，后面几天才有了校园、海港、动物园和海边的游玩。", "en": "We did not start with the sights. We went to supermarkets, bought supplies and sorted out my sister's room. Once those things were in place, there was time for campus, the harbour, the zoo and the beach." },
+          { "zh": "照片最多的是后半程，但没有拍照的那两天也属于这次旅行。把它们补回来，才看得出这趟行程原本的样子。", "en": "Most of the photos came from the second half, but the two days without photos belong here too. Including them gives this trip its full shape." }
+        ] },
+        { "id": "overview-route", "type": "route", "compact": true, "stops": [
+          { "id": "settle", "icon": "01–03", "label": { "zh": "出发与安顿", "en": "Travel and settle in" } },
+          { "id": "campus-city", "icon": "04–06", "label": { "zh": "校园与城市", "en": "Campus and city" } },
+          { "id": "zoo-coast", "icon": "07–08", "label": { "zh": "动物园与海岸", "en": "Zoo and coast" } },
+          { "id": "home", "icon": "09", "label": { "zh": "回到上海", "en": "Home to Shanghai" } }
+        ] },
+        { "id": "source-note", "type": "note", "title": { "zh": "照片、行程单与后来补充的回忆", "en": "Photos, itinerary and later memories" }, "body": { "zh": "50 张精选照片以 25 组双图呈现，正文使用统一比例的裁剪缩略图，点击可查看完整图片；封面另复用其中一张。配对兼顾画幅和主题，个别组跨越当天不同时段，先后以正文为准。没有把握的细节保持概括，航班时间只代表行程单所列的当地时间。", "en": "The 50 selected photos appear in 25 pairs with matching cropped thumbnails. Click a thumbnail to view the full photo; one image is also used on the cover. Pairs follow format and subject; some span different times on the same day, so the text gives the sequence. Uncertain details remain general. Flight times are the local times listed on the itinerary, not confirmed actual departure or arrival times." } }
+      ]
+    },
+    {
+      "id": "departure", "sectionId": "day-1",
+      "blocks": [
+        { "id": "day-1-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "1", "en": "1" }, "title": { "zh": "从机舱合影开始", "en": "Starting with a cabin selfie" }, "subtitle": { "zh": "9 月 1 日 · 周一 · 上海浦东 → 悉尼", "en": "Mon 1 Sep · Shanghai Pudong to Sydney" } },
+        { "id": "day-1-story", "type": "prose", "paragraphs": [
+          { "zh": "从上海浦东出发，搭乘吉祥航空 HO1669 飞往悉尼。行程单上写着 18:25 从浦东 T2 出发，次日清晨抵达悉尼 T1。", "en": "We left Shanghai Pudong on Juneyao Air flight HO1669 to Sydney. The itinerary listed an 18:25 departure from Pudong T2 and arrival at Sydney T1 the next morning." },
+          { "zh": "这一天留下的主要是机舱里的照片：三个人对着镜头合影，还有座位上的双人自拍。前面的座椅、头顶的行李架和机舱灯光，把出发时的画面一起留了下来。", "en": "Most of the day's photos were from the cabin: three of us facing the camera, then a selfie of two of us in our seats. The seats ahead, overhead lockers and cabin lights stayed in the frame with us." }
+        ] },
+        { "id": "day-1-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "file-2d5a4910154f", "shape": "portrait", "caption": { "zh": "出发的第一组画面，三个人先同框。", "en": "The trip's first pictures began with all three of us." } },
+          { "imageId": "img-4811", "shape": "portrait", "caption": { "zh": "换个近一点的角度，把座位上的片刻留下。", "en": "A closer view of a moment in our seats." } }
+        ] }
+      ]
+    },
+    {
+      "id": "arrival", "sectionId": "day-2",
+      "blocks": [
+        { "id": "day-2-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "2", "en": "2" }, "title": { "zh": "先休息，再开始安顿", "en": "Rest first, then settle in" }, "subtitle": { "zh": "9 月 2 日 · 周二 · 抵达悉尼", "en": "Tue 2 Sep · Arrival in Sydney" } },
+        { "id": "day-2-story", "type": "prose", "paragraphs": [
+          { "zh": "跨过一夜，到了悉尼。机上屏幕留着 PVG → SYD 的航线，目的地当地时间显示清晨 06:02。抵达后先休息，睡了一会儿。", "en": "After the overnight flight, we reached Sydney. The screen showed PVG → SYD and a destination local time of 06:02. Once we arrived, we rested and slept for a while." },
+          { "zh": "下午到晚上，开始逛超市买东西、整顿妹妹的宿舍。妹妹在 UNSW 上学，这两天最主要的安排，就是帮她把住处安顿起来。", "en": "From the afternoon into the evening, we went to supermarkets, bought things and sorted out my sister's room. She was studying at UNSW, and helping her settle in was the main plan for these two days." },
+          { "zh": "下午的照片还留下了乔治街南段的街景：沿街高楼、轻轨和路上的车辆。至于去了哪家超市、具体买了什么，就不靠这些街景补写了。", "en": "The afternoon photos also caught southern George Street: tall buildings, light rail and traffic. They do not tell me which supermarket we visited or exactly what we bought, so I have left those details out." }
+        ] },
+        { "id": "day-2-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4814", "shape": "portrait", "caption": { "zh": "屏幕上的悉尼时间，已经到了清晨。", "en": "On the screen, it was already morning in Sydney." } },
+          { "imageId": "img-4822", "shape": "portrait", "caption": { "zh": "下午的城市片段，夹在采买和整理之间。", "en": "An afternoon city scene between shopping and sorting things out." } }
+        ] },
+        { "id": "arrival-times", "type": "note", "title": { "zh": "两种时间记录，不等于实际落地时间", "en": "Two records, neither a confirmed landing time" }, "body": { "zh": "行程单列的抵达时间是 06:15，机上屏幕当时显示的预计抵达时间则是 07:06。这里各自保留，不据此判断实际落地的钟点或是否延误。", "en": "The itinerary listed arrival at 06:15; the screen showed an estimated arrival of 07:06. I have kept both records without using them to infer the actual landing time or a delay." } }
+      ]
+    },
+    {
+      "id": "settling-in", "sectionId": "day-3",
+      "blocks": [
+        { "id": "day-3-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "3", "en": "3" }, "title": { "zh": "把住处一点点整理好", "en": "Getting the room in order" }, "subtitle": { "zh": "9 月 3 日 · 周三 · 继续采买、整理宿舍", "en": "Wed 3 Sep · More supplies and sorting out the room" } },
+        { "id": "day-3-story", "type": "prose", "paragraphs": [
+          { "zh": "这一天基本延续前一天的安排。我们继续帮妹妹安顿住处，采买、整理宿舍，一整天都在做类似的事情。", "en": "The day followed much the same pattern as the one before. We kept helping my sister settle in, buying supplies and sorting out her room. Those tasks filled the day." },
+          { "zh": "这天没有留下可归入当天的照片，但不是行程的空白。它记录的是妹妹开始在悉尼生活时，我们一起处理的那些具体安排，而不是某个打卡地点。", "en": "There are no photos that can be assigned to this day, but it was not a gap in the trip. It was about the practical things we did together as my sister began life in Sydney, rather than a place we visited." }
+        ] },
+        { "id": "day-3-note", "type": "highlight", "title": { "zh": "没有照片，也属于这次旅行", "en": "Part of the trip, even without pictures" }, "body": { "zh": "前半程的生活日常，和后半程的海港与海边，放在一起才完整。", "en": "The everyday tasks at the start belong beside the harbour and coastal scenes that came later." } }
+      ]
+    },
+    {
+      "id": "unsw", "sectionId": "day-4",
+      "blocks": [
+        { "id": "day-4-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "4", "en": "4" }, "title": { "zh": "到妹妹的学校看看", "en": "A look around my sister's campus" }, "subtitle": { "zh": "9 月 4 日 · 周四 · UNSW Kensington", "en": "Thu 4 Sep · UNSW Kensington" } },
+        { "id": "day-4-story", "type": "prose", "paragraphs": [
+          { "zh": "从这天开始，照片里出现了妹妹就读的新南威尔士大学 UNSW。下午到了 Kensington 校园，在草坪和教学楼前拍了双人、三人合影。背景是一排连续的拱形立面，手里的饮品也一起留在了照片里。", "en": "This was the day my sister's university, UNSW, began to appear in our photos. We visited the Kensington campus in the afternoon and took pictures of two and three of us before the lawn and teaching buildings. A row of arches formed the backdrop, and our drinks made it into the pictures too." },
+          { "zh": "校园路上还拍到了两种鸟：台阶边的黑白鸟，以及长着弯喙、在路面上走动的白鹮。它们和校园建筑一样，都是这天下午看到的细节。", "en": "We also photographed two kinds of birds: a black-and-white bird beside the steps and an ibis with a curved bill walking across the path. They were as much a part of that afternoon as the buildings." }
+        ] },
+        { "id": "campus-birds", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4835", "shape": "portrait", "caption": { "zh": "看校园，也看看台阶边的小住客。", "en": "Looking around campus included the small resident beside the steps." } },
+          { "imageId": "img-4836", "shape": "portrait", "caption": { "zh": "白鹮从步道上走过，弯喙很醒目。", "en": "The ibis crossed the path, its curved bill easy to spot." } }
+        ] },
+        { "id": "campus-portraits", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4838", "shape": "portrait", "caption": { "zh": "拱形立面前，先拍一张双人照。", "en": "A two-person picture before the arches." } },
+          { "imageId": "img-4844", "shape": "portrait", "caption": { "zh": "再把三个人和手里的饮品一起放进画面。", "en": "Then all three of us, drinks included." } }
+        ] },
+        { "id": "campus-library-story", "type": "prose", "paragraphs": [
+          { "zh": "之后经过主图书馆一带，楼顶很大的 UNSW 字样很醒目。再往校园西侧走，照片里是步道、教学楼和傍晚的云层。这里留下的是图书馆外与校园里的记录，没有把它写成进馆参观。", "en": "Later we passed the Main Library, with its large UNSW lettering high above us. Walking towards the western side of campus, we photographed paths, teaching buildings and evening clouds. These are records of the campus and library exterior, not a visit inside the library." }
+        ] },
+        { "id": "campus-buildings", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4846", "shape": "portrait", "caption": { "zh": "抬头就能认出学校的名字。", "en": "The university's name was clear above us." } },
+          { "imageId": "img-4847", "shape": "portrait", "caption": { "zh": "往西走，云层留在教学楼上方。", "en": "Heading west, with clouds above the teaching buildings." } }
+        ] }
+      ]
+    },
+    {
+      "id": "north-sydney", "sectionId": "day-5",
+      "blocks": [
+        { "id": "day-5-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "5", "en": "5" }, "title": { "zh": "从高层港景，到市中心钟塔", "en": "From high-rise harbour views to Town Hall" }, "subtitle": { "zh": "9 月 5 日 · 周五 · 北悉尼 → 市中心", "en": "Fri 5 Sep · North Sydney to the city centre" } },
+        { "id": "office-story", "type": "prose", "paragraphs": [
+          { "zh": "下午到了北悉尼的微软办公楼，在 Microsoft 标志前留了一张三人合影。室内有绿植走廊，还有摆着赛车模拟座椅和弹珠台的展示区。照片记录了这些布置，没有留下是否试玩的明确记录。", "en": "In the afternoon we visited the Microsoft office building in North Sydney and took a picture of the three of us beside the sign. Inside were a green corridor and a display area with a racing simulator seat and a pinball machine. The photos record the setup, but not whether we tried them." },
+          { "zh": "隔着高层窗户看出去，海港大桥、港湾和市中心的楼群都在眼前。玻璃上能看到一点反光，但桥与水面的关系很清楚，和后来站在港边拍的角度很不一样。", "en": "Through the high-rise windows we could see Harbour Bridge, the water and the city buildings. There was a little reflection on the glass, but the view showed the bridge and harbour clearly. It was quite different from the pictures we later took at water level." }
+        ] },
+        { "id": "office-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4879", "shape": "portrait", "caption": { "zh": "到北悉尼，在这个标志前留影。", "en": "A stop in North Sydney, recorded beside the sign." } },
+          { "imageId": "img-4873", "shape": "portrait", "caption": { "zh": "窗外是城市，室内也留了一片绿意。", "en": "The city outside, with greenery inside too." } }
+        ] },
+        { "id": "office-view-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4883", "shape": "portrait", "caption": { "zh": "记下展示区的布置，不补写试玩经历。", "en": "The display as we saw it, without adding an unrecorded game." } },
+          { "imageId": "img-4885", "shape": "portrait", "caption": { "zh": "隔着玻璃，换一个高度看悉尼港。", "en": "Sydney Harbour from a different height, through glass." } }
+        ] },
+        { "id": "city-story", "type": "prose", "paragraphs": [
+          { "zh": "再往后，照片转到了市中心。我们拍了悉尼市政厅 Sydney Town Hall 的钟塔，也拍了 QVB 南端附近的维多利亚女王雕像。雕像旁的 George St 路牌，把这段街景的位置也记了下来。", "en": "The later photos moved to the city centre. We photographed the clock tower of Sydney Town Hall and the Queen Victoria statue near the south end of QVB. The George St sign beside the statue also recorded where we were." }
+        ] },
+        { "id": "city-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4887", "shape": "portrait", "caption": { "zh": "从港湾高楼，走到砂岩钟塔前。", "en": "From harbour high-rises to a sandstone clock tower." } },
+          { "imageId": "img-4888", "shape": "portrait", "caption": { "zh": "雕像和路牌一起，把街角的位置留下。", "en": "The statue and street sign place this city corner." } }
+        ] }
+      ]
+    },
+    {
+      "id": "hyde-park", "sectionId": "day-6",
+      "blocks": [
+        { "id": "day-6-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "6", "en": "6" }, "title": { "zh": "把城市地标串成一天", "en": "A day linking the city sights" }, "subtitle": { "zh": "9 月 6 日 · 周六 · 海德公园与圣玛丽大教堂", "en": "Sat 6 Sep · Hyde Park and St Mary's Cathedral" } },
+        { "id": "day-6-route", "type": "timeline", "items": [
+          { "id": "midday", "time": { "zh": "中午", "en": "Midday" }, "event": { "zh": "海德公园 → 圣玛丽大教堂 → Anzac Memorial", "en": "Hyde Park → St Mary's Cathedral → Anzac Memorial" }, "detail": { "zh": "喷泉、砂岩、彩窗与倒影池。", "en": "Fountain, sandstone, stained glass and the reflection pool." } },
+          { "id": "afternoon", "time": { "zh": "下午", "en": "Afternoon" }, "event": { "zh": "环形码头高处 → 歌剧院 → 皇家植物园", "en": "Elevated Circular Quay view → Opera House → Royal Botanic Garden" }, "detail": { "zh": "随后经过悉尼音乐学院外，再到环形码头西侧。", "en": "Then past the Conservatorium exterior to the west side of Circular Quay." } },
+          { "id": "evening", "time": { "zh": "傍晚至晚餐", "en": "Evening" }, "event": { "zh": "天文台山 → 西侧水面夕阳 → Barangaroo", "en": "Observatory Hill → Sunset over the water to the west → Barangaroo" }, "detail": { "zh": "以 The Butcher's Block 的晚餐收尾。", "en": "Finishing with dinner at The Butcher's Block." } }
+        ] },
+        { "id": "cathedral-story", "type": "prose", "paragraphs": [
+          { "zh": "中午先到了海德公园一带，拍了喷泉和圣玛丽大教堂。教堂外是砂岩墙、双尖塔和树荫下的步道；走到里面，画面换成了高高的尖拱、彩窗和祭坛。", "en": "Around midday we reached Hyde Park and photographed the fountain and St Mary's Cathedral. Outside were sandstone walls, twin spires and shaded paths. Inside, the view changed to tall pointed arches, stained glass and the altar." },
+          { "zh": "从教堂出来，我们在步道上拍了三人合影，双尖塔从树木后面露出来。接着去了海德公园南部的澳新军团战争纪念馆 Anzac Memorial，看正面建筑和前方水池的倒影，在台阶前留影，也拍了馆内的一角。", "en": "Outside the cathedral, we took a picture of the three of us on the path, with the twin spires rising behind the trees. Next was the Anzac Memorial in southern Hyde Park. We saw the building and its reflection in the pool, posed by the steps and photographed part of the interior." }
+        ] },
+        { "id": "cathedral-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4901", "shape": "portrait", "caption": { "zh": "从砂岩外墙走进彩窗下。", "en": "From the sandstone exterior to the stained glass inside." } },
+          { "imageId": "img-4915", "shape": "portrait", "caption": { "zh": "走出来时，双尖塔还在树后。", "en": "Back outside, the twin spires rose behind the trees." } }
+        ] },
+        { "id": "memorial-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4927", "shape": "portrait", "caption": { "zh": "水池把纪念馆的正面再映了一遍。", "en": "The pool repeated the memorial's facade." } },
+          { "imageId": "img-4932", "shape": "portrait", "caption": { "zh": "继续往南走，在台阶前留下三人照。", "en": "Further south, another picture of the three of us by the steps." } }
+        ] }
+      ]
+    },
+    {
+      "id": "harbour-gardens", "sectionId": "day-6",
+      "blocks": [
+        { "id": "harbour-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "6", "en": "6" }, "title": { "zh": "歌剧院、植物园与港湾两岸", "en": "Opera House, gardens and two harbour viewpoints" }, "subtitle": { "zh": "9 月 6 日 · 下午到傍晚 · 环形码头 → 天文台山", "en": "6 Sep · Afternoon into evening · Circular Quay to Observatory Hill" } },
+        { "id": "harbour-story", "type": "prose", "paragraphs": [
+          { "zh": "下午到了环形码头。先从高处看码头和海港大桥，之后走到歌剧院附近。白色屋顶、蓝天和弧形的滨水岸线都很清楚；港边既有三人自拍，也拍了石墙旁的人像和海鸥。", "en": "In the afternoon we reached Circular Quay. We first looked over the wharves and Harbour Bridge from above, then walked towards the Opera House. Its white roofs stood against the blue sky and curved waterfront. By the harbour we took selfies of all three of us, portraits beside a stone wall and pictures of gulls." },
+          { "zh": "接着去了皇家植物园 Royal Botanic Garden Sydney。临海步道之后是草地、大树和花木，照片里还留下了躺在草地上的片段，远处是市区高楼。", "en": "Next came the Royal Botanic Garden Sydney. Beyond the waterfront path were lawns, large trees and flowering plants. The photos also kept a moment lying on the grass, with city towers in the distance." },
+          { "zh": "之后经过悉尼音乐学院外，再到了环形码头西侧。澳大利亚当代艺术博物馆的外墙和字样出现在照片里；从这边隔水回望歌剧院，又拍了一张三人合影，画面中还有经过的渡轮。两边都拍到了歌剧院，但不是同一机位的重复。", "en": "We passed the Sydney Conservatorium of Music exterior and reached the west side of Circular Quay. The Museum of Contemporary Art Australia facade and lettering appeared in our pictures. Looking back across the water, we took another group photo with the Opera House and a passing ferry. The Opera House appeared from both sides, but these were different viewpoints." }
+        ] },
+        { "id": "harbour-portraits", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4973", "shape": "portrait", "caption": { "zh": "靠近歌剧院时，大桥也在镜头里。", "en": "Near the Opera House, the bridge joined us in the frame." } },
+          { "imageId": "img-5016", "shape": "portrait", "caption": { "zh": "换到码头西侧，隔水再留一张。", "en": "Another picture from across the water on the west side of the quay." } }
+        ] },
+        { "id": "observatory-story", "type": "prose", "paragraphs": [
+          { "zh": "傍晚向天文台山一带走，路上拍了一座砂岩教堂。到了 Observatory Hill，树下长椅、草坡和海港大桥又组成了另一种港景。在这里留了坐姿照，也留了以大桥为背景的单人照。", "en": "In the evening we walked towards Observatory Hill, photographing a sandstone church on the way. At the hill, benches under trees, grassy slopes and Harbour Bridge made another harbour view. We took seated pictures and individual portraits with the bridge behind us." }
+        ] },
+        { "id": "garden-hill-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-9520", "shape": "portrait", "caption": { "zh": "下午的植物园，留下一段草地上的停顿。", "en": "An afternoon pause on the garden lawn." } },
+          { "imageId": "img-5047", "shape": "portrait", "caption": { "zh": "傍晚到了天文台山，大桥换了一个背景角度。", "en": "By evening, the bridge formed a different backdrop on Observatory Hill." } }
+        ] }
+      ]
+    },
+    {
+      "id": "sunset-dinner", "sectionId": "day-6",
+      "blocks": [
+        { "id": "sunset-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "6", "en": "6" }, "title": { "zh": "夕阳之后，去 Barangaroo 吃晚餐", "en": "Sunset, then dinner in Barangaroo" }, "subtitle": { "zh": "9 月 6 日 · The Butcher's Block Barangaroo", "en": "6 Sep · The Butcher's Block Barangaroo" } },
+        { "id": "sunset-story", "type": "prose", "paragraphs": [
+          { "zh": "再往西侧水面方向，太阳靠近对岸树梢，云层变成橙金色。这一组把白天歌剧院前的蓝天和傍晚的港湾夕阳放在一起，记下的是一天里的两个不同时段。", "en": "Looking towards the water to the west, the sun neared the treetops on the opposite shore and the clouds turned orange-gold. This pair brings together the daytime blue sky at the Opera House and the harbour sunset: two separate moments from the same day." }
+        ] },
+        { "id": "daylight-sunset-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-4955", "shape": "portrait", "caption": { "zh": "白天的歌剧院：这一张拍在前面的港边行程。", "en": "The Opera House by day, photographed earlier on the waterfront." } },
+          { "imageId": "img-5055", "shape": "portrait", "caption": { "zh": "到了傍晚，蓝天换成橙金色的云。", "en": "By evening, orange-gold clouds had replaced the blue sky." } }
+        ] },
+        { "id": "dinner-story", "type": "prose", "paragraphs": [
+          { "zh": "晚上在 The Butcher's Block Barangaroo 用餐。餐桌上拍了牛排、鲜虾意面，也有面包配蘸酱和绿色蔬菜的照片。意面里能看到虾仁、小番茄和绿色叶片，牛排旁是配菜和一小杯酱汁。", "en": "We had dinner at The Butcher's Block Barangaroo. The table photos show steak, prawn pasta, bread with dips and green vegetables. The pasta had prawns, cherry tomatoes and green leaves; the steak came with vegetables and a small cup of sauce." },
+          { "zh": "后来能找回餐厅名字，一个关键线索是面包盘里的衬纸，上面直接印着 THE BUTCHER'S BLOCK。这里留下菜品和地点，口味、价格以及正式菜名不凭照片补写。", "en": "A key clue to finding the restaurant name later was the paper lining the bread plate, printed with THE BUTCHER'S BLOCK. I can record the food and place, but not infer flavours, prices or formal dish names from photos." }
+        ] },
+        { "id": "butchers-block-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5059", "shape": "portrait", "caption": { "zh": "从一天的城市步行，坐回晚餐桌前。", "en": "Back at a dinner table after a day walking through the city." } },
+          { "imageId": "img-5061", "shape": "portrait", "caption": { "zh": "这一盘里的虾仁和小番茄，都还能看清。", "en": "The prawns and small tomatoes are still clear in the photo." } }
+        ] }
+      ]
+    },
+    {
+      "id": "taronga", "sectionId": "day-7",
+      "blocks": [
+        { "id": "day-7-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "7", "en": "7" }, "title": { "zh": "动物园里也看得到悉尼港", "en": "Sydney Harbour from the zoo" }, "subtitle": { "zh": "9 月 7 日 · 周日 · 悉尼港 → 塔龙加动物园", "en": "Sun 7 Sep · Sydney Harbour to Taronga Zoo" } },
+        { "id": "zoo-arrival-story", "type": "prose", "paragraphs": [
+          { "zh": "这一天的照片先从水面视角的歌剧院开始，接下来就是塔龙加动物园 Taronga Zoo。船名和具体航线没有确定下来，就不为这段补上一个班次。", "en": "The day's photos begin with the Opera House seen from the water, followed by Taronga Zoo. The boat name and exact route are not confirmed, so I have not added a service or sailing time." },
+          { "zh": "动物园里看得到海港和市区，长颈鹿围场的背景甚至就是悉尼天际线。这种动物、树木、水面和高楼同框的画面，很能说明这天去了哪里。", "en": "The harbour and city were visible from the zoo; the giraffe enclosure even had the Sydney skyline behind it. Animals, trees, water and towers in one frame gave these pictures a clear sense of place." }
+        ] },
+        { "id": "zoo-arrival-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5072", "shape": "portrait", "caption": { "zh": "先从水面这一侧，再看歌剧院。", "en": "First, another look at the Opera House from the water." } },
+          { "imageId": "img-5090", "shape": "portrait", "caption": { "zh": "进了动物园，港湾仍然在身后。", "en": "Inside the zoo, the harbour was still behind us." } }
+        ] },
+        { "id": "zoo-animals-story", "type": "prose", "paragraphs": [
+          { "zh": "先拍了水池里的海狮类动物，之后看到长颈鹿。在大猩猩雕塑的手掌和脸旁留了单人照，再经过小猴与鸟类展区，在鸟舍里和栖鸟同框自拍。", "en": "We first photographed sea-lion-like animals in a pool, then saw the giraffes. We took a portrait beside the hand and face of a gorilla sculpture, passed small monkeys and bird exhibits, and took a selfie beside a perched bird in the aviary." },
+          { "zh": "后面还有袋鼠、蜥蜴、绿色的蛙、水下的龟、水豚、环尾狐猴和狐獴。照片很多，选片时没有把相近的动物连拍全放进来，而是给考拉、人物和港景都留了位置。", "en": "There were also kangaroos, lizards, a green frog, a turtle underwater, capybaras, ring-tailed lemurs and meerkats. There were many photos. Rather than include every similar animal shot, I left room for the koala, portraits and harbour views too." }
+        ] },
+        { "id": "giraffe-sculpture-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5092", "shape": "portrait", "caption": { "zh": "长颈鹿的背景，就是悉尼的水面与高楼。", "en": "The giraffes had Sydney's water and towers as their backdrop." } },
+          { "imageId": "img-5099", "shape": "portrait", "caption": { "zh": "动物之外，也在雕塑旁留一张纪念照。", "en": "Beyond the animals, a picture beside the sculpture." } }
+        ] },
+        { "id": "aviary-harbour-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5110", "shape": "portrait", "caption": { "zh": "这一次，同框的是鸟舍里的栖鸟。", "en": "This time a perched bird shared the selfie." } },
+          { "imageId": "img-5179", "shape": "portrait", "caption": { "zh": "这张是当天下午的园内港景，与鸟舍照并非同时。", "en": "This harbour view was taken later that afternoon, not at the same time as the aviary photo." } }
+        ] }
+      ]
+    },
+    {
+      "id": "koalas-yayoi", "sectionId": "day-7",
+      "blocks": [
+        { "id": "zoo-afternoon-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "7", "en": "7" }, "title": { "zh": "考拉、小熊猫，和回城后的晚餐", "en": "Koala, red panda and dinner back in town" }, "subtitle": { "zh": "9 月 7 日 · 塔龙加 → The Galeries · 雅瑶邑", "en": "7 Sep · Taronga to YAYOI at The Galeries" } },
+        { "id": "zoo-afternoon-story", "type": "prose", "paragraphs": [
+          { "zh": "下午拍到考拉抱着树干，也在袋鼠围场前留下了人像。另有农场动物、企鹅、小熊猫以及后段展区的照片；小熊猫在枝叶之间活动，一连拍了不少张。", "en": "In the afternoon we photographed a koala holding onto a tree trunk and took a portrait by the kangaroo enclosure. There were also photos of farm animals, penguins, a red panda and later exhibits. The red panda moved among the branches, and we took quite a few pictures." }
+        ] },
+        { "id": "koala-kangaroo-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5155", "shape": "portrait", "caption": { "zh": "桉叶之间，考拉抱着树干。", "en": "Among the eucalyptus leaves, the koala held onto its trunk." } },
+          { "imageId": "img-5161", "shape": "portrait", "caption": { "zh": "走到袋鼠围场前，也给人物留一个位置。", "en": "At the kangaroo enclosure, room for a portrait too." } }
+        ] },
+        { "id": "panda-platform-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5190", "shape": "portrait", "caption": { "zh": "连拍里选一张，把枝叶间的小熊猫留下。", "en": "One from a series of pictures of the red panda among the branches." } },
+          { "imageId": "file-19011866f603", "shape": "portrait", "caption": { "zh": "属于这次行程的三人合影，不按设备时钟硬排先后。", "en": "A group photo from this trip, without forcing its place in the day from the device clock." } }
+        ] },
+        { "id": "platform-note", "type": "note", "title": { "zh": "保留合影，也保留时间上的不确定", "en": "Keeping the photo and its timing uncertainty" }, "body": { "zh": "海港平台合影可能来自妹妹的手机，已经确认属于这次行程。不同设备的时钟未必同步，因此没有把它写成离园前的最后一站。", "en": "The harbour-platform photo may have come from my sister's phone, and it is confirmed as part of this trip. Device clocks may not have matched, so I have not described it as our last stop before leaving." } },
+        { "id": "yayoi-story", "type": "prose", "paragraphs": [
+          { "zh": "傍晚回到市区，照片里有服装店的陈列，也有 The Galeries 的餐饮店招。晚餐在雅瑶邑（YAYOI），这一点已经确认：餐桌上拍了烤鱼和一碗汤面。", "en": "Back in the city that evening, we photographed clothing displays and food signs at The Galeries. Dinner was at YAYOI, which has been confirmed. The table photos show grilled fish and a bowl of noodle soup." }
+        ] },
+        { "id": "yayoi-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5219", "shape": "portrait", "caption": { "zh": "回城后的烤鱼，旁边配着柠檬。", "en": "Grilled fish with lemon after returning to town." } },
+          { "imageId": "img-5220", "shape": "portrait", "caption": { "zh": "同一顿晚餐，以汤面留下另一张餐桌照。", "en": "Noodle soup in another picture from the same dinner." } }
+        ] }
+      ]
+    },
+    {
+      "id": "brunch-bondi", "sectionId": "day-8",
+      "blocks": [
+        { "id": "day-8-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "8", "en": "8" }, "title": { "zh": "从早午餐，走到邦迪的浪边", "en": "From brunch to the waves at Bondi" }, "subtitle": { "zh": "9 月 8 日 · 周一 · 酒店附近 → 邦迪海滩", "en": "Mon 8 Sep · Near the hotel, then Bondi Beach" } },
+        { "id": "brunch-story", "type": "prose", "paragraphs": [
+          { "zh": "上午的照片从餐桌开始。印象中是在所住酒店附近，紫色的拉花饮品应该是一杯拿铁。杯子和餐盘是蓝绿色的，另外还有炒蛋吐司、香肠片和薯饼。", "en": "The morning photos began at a table. I remember it as being near our hotel, and the purple drink with latte art was probably a latte. The cup and plates were turquoise. There were also scrambled eggs on toast, sliced sausage and hash browns." },
+          { "zh": "具体咖啡店和拿铁口味现在记不清了，所以就保留“酒店附近的一杯拿铁”这个记忆，不把后来搜索到的候选店名写成确定答案。", "en": "I no longer remember the cafe or the latte flavour. I have kept it as the memory of a latte near the hotel, rather than turning a cafe found in a later search into a confirmed stop." }
+        ] },
+        { "id": "brunch-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5222", "shape": "portrait", "caption": { "zh": "记忆里应该是拿铁，紫色不等于确认了口味。", "en": "Probably a latte in my memory; its purple colour does not confirm the flavour." } },
+          { "imageId": "img-5224", "shape": "portrait", "caption": { "zh": "出发去海边前，照片先从这一桌开始。", "en": "Before the beach, the day's pictures began with this meal." } }
+        ] },
+        { "id": "bondi-story", "type": "prose", "paragraphs": [
+          { "zh": "中午到了邦迪海滩 Bondi Beach。蓝天、沙滩和一层层海浪成了照片的背景：有人张开双臂，有人在浅水边举手拍照，也有双人合影和三个人挤在一起的自拍。", "en": "Around midday we reached Bondi Beach. Blue sky, sand and layers of waves filled the background. There were outstretched arms before the waves, raised hands in the shallows, two-person pictures and selfies with all three of us squeezed into the frame." },
+          { "zh": "在沙滩上休息、到浪边拍照，是这天照片里很明确的片段。它们不只是海景，更多的是我们出现在这片海边的样子。", "en": "Resting on the sand and taking pictures by the waves are clear moments in these photos. They are not just seascapes, but records of us being there." }
+        ] },
+        { "id": "bondi-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5225", "shape": "portrait", "caption": { "zh": "站到浪前，把双臂张开。", "en": "Arms spread in front of the waves." } },
+          { "imageId": "file-f4243d3e7c0a", "shape": "portrait", "caption": { "zh": "浅水边的双人照，与当天其他邦迪照片一起留下。", "en": "A picture of two of us in the shallows, kept with the day's other Bondi photos." } }
+        ] }
+      ]
+    },
+    {
+      "id": "coastal-walk", "sectionId": "day-8",
+      "blocks": [
+        { "id": "coast-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "8", "en": "8" }, "title": { "zh": "从 Icebergs 走到 Tamarama", "en": "From Icebergs to Tamarama" }, "subtitle": { "zh": "9 月 8 日 · 下午 · 邦迪南端的海岸步道", "en": "8 Sep · Afternoon · The coast south of Bondi" } },
+        { "id": "coast-route", "type": "route", "compact": true, "stops": [
+          { "id": "bondi", "icon": "1", "label": { "zh": "邦迪海滩", "en": "Bondi Beach" } },
+          { "id": "icebergs", "icon": "2", "label": { "zh": "Icebergs 泳池外", "en": "Outside Icebergs" } },
+          { "id": "sandstone", "icon": "3", "label": { "zh": "砂岩与海岸步道", "en": "Sandstone coastal path" } },
+          { "id": "tamarama", "icon": "4", "label": { "zh": "Tamarama 海湾", "en": "Tamarama Bay" } }
+        ] },
+        { "id": "coast-story", "type": "prose", "paragraphs": [
+          { "zh": "下午往邦迪南端走，从外面拍了 Bondi Icebergs 紧挨大海的露天泳池。再沿海岸步道往南，画面里逐渐变成岩台、风化砂岩和海边草地，步道上还有两个人举手的影子。", "en": "In the afternoon we walked towards Bondi's southern end and photographed the outdoor pool at Bondi Icebergs from outside. Continuing south along the coastal path, the pictures shifted to rock shelves, weathered sandstone and grass by the sea. Two raised-arm shadows appeared on the path too." },
+          { "zh": "最后一组海边照片是在 Tamarama 海湾东北侧一带。栏杆前的背影望向海湾，对岸是沙滩和坡上的住宅。照片所能还原的是邦迪到 Tamarama 的这一段，不把它写成走完了整条 Bondi–Coogee 路线。", "en": "The last coastal pictures were around the northeast side of Tamarama Bay. A back-view portrait at the railing looked towards the beach and homes on the opposite slope. The photos support this stretch from Bondi to Tamarama, not a claim that we completed the full Bondi–Coogee walk." }
+        ] },
+        { "id": "water-bay-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "file-102f324e1181", "shape": "portrait", "caption": { "zh": "前面的邦迪浅水片段，手举向蓝天。", "en": "Earlier in the Bondi shallows, hands raised towards the sky." } },
+          { "imageId": "img-5259", "shape": "portrait", "caption": { "zh": "后来站到 Tamarama 的栏杆前，望向对岸。", "en": "Later at the Tamarama railing, looking across the bay." } }
+        ] },
+        { "id": "selfie-shadows-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "file-c1ff132d57be", "shape": "portrait", "caption": { "zh": "沙滩上的三个人，先挤进同一张自拍。", "en": "All three of us squeezed into a beach selfie." } },
+          { "imageId": "img-5246", "shape": "portrait", "caption": { "zh": "走上步道后，影子成了另一种合影。", "en": "On the path, our shadows made a different kind of picture together." } }
+        ] },
+        { "id": "pool-rocks-pair", "type": "gallery", "layout": "two", "images": [
+          { "imageId": "img-5238", "shape": "portrait", "caption": { "zh": "只在外面拍泳池，海浪紧挨着池沿。", "en": "A view of the pool from outside, with waves close to its edge." } },
+          { "imageId": "img-5243", "shape": "portrait", "caption": { "zh": "继续往南，镜头转向砂岩里的纹理。", "en": "Further south, the camera turned to the sandstone textures." } }
+        ] }
+      ]
+    },
+    {
+      "id": "return-flights", "sectionId": "day-9",
+      "blocks": [
+        { "id": "day-9-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "9", "en": "9" }, "title": { "zh": "从悉尼回上海", "en": "From Sydney back to Shanghai" }, "subtitle": { "zh": "9 月 9 日 · 周二 · 吉祥航空 HO1670", "en": "Tue 9 Sep · Juneyao Air HO1670" } },
+        { "id": "return-story", "type": "prose", "paragraphs": [
+          { "zh": "返程是吉祥航空 HO1670。行程单列着 08:15 从悉尼金斯福德 T1 出发，16:20 抵达上海浦东 T2，均为两地各自的当地时间。", "en": "We returned on Juneyao Air flight HO1670. The itinerary listed departure from Sydney Kingsford Smith T1 at 08:15 and arrival at Shanghai Pudong T2 at 16:20, both in the respective local time." },
+          { "zh": "这一天没有留下照片，就以这段返程信息收尾，不补写机场购物、机上餐食或其他没有记录的安排。", "en": "There are no photos from this day, so the return-flight details close the record. I have not added airport shopping, onboard meals or other unrecorded plans." }
+        ] },
+        { "id": "flights", "type": "timeline", "items": [
+          { "id": "outbound", "time": { "zh": "9 月 1–2 日", "en": "1–2 Sep" }, "event": { "zh": "吉祥航空 HO1669 · 上海 → 悉尼", "en": "Juneyao Air HO1669 · Shanghai → Sydney" }, "detail": { "zh": "9 月 1 日 18:25 · 上海浦东 PVG T2 · UTC+8\n9 月 2 日 06:15 · 悉尼金斯福德 SYD T1 · UTC+10", "en": "1 Sep 18:25 · Shanghai Pudong PVG T2 · UTC+8\n2 Sep 06:15 · Sydney Kingsford Smith SYD T1 · UTC+10" } },
+          { "id": "inbound", "time": { "zh": "9 月 9 日", "en": "9 Sep" }, "event": { "zh": "吉祥航空 HO1670 · 悉尼 → 上海", "en": "Juneyao Air HO1670 · Sydney → Shanghai" }, "detail": { "zh": "08:15 · 悉尼金斯福德 SYD T1 · UTC+10\n16:20 · 上海浦东 PVG T2 · UTC+8", "en": "08:15 · Sydney Kingsford Smith SYD T1 · UTC+10\n16:20 · Shanghai Pudong PVG T2 · UTC+8" } }
+        ] },
+        { "id": "flight-note", "type": "note", "title": { "zh": "航班信息以行程单为准", "en": "Flight details from the itinerary" }, "body": { "zh": "以上为行程单所列的当地时间，不是另行核实的实际起降时刻。去程机上屏幕曾显示预计 07:06 抵达，不能据此推定实际落地时间。", "en": "These are the local times listed on the itinerary, not independently confirmed actual times. The outbound screen also showed an estimated arrival of 07:06; that does not establish the actual landing time." } },
+        { "id": "closing-story", "type": "prose", "paragraphs": [
+          { "zh": "回看这一趟，前面是帮妹妹安顿住处的日常，后面是校园、城市和海边。合在一起，才是这次悉尼旅行的完整主线。", "en": "Looking back, the trip began with helping my sister settle in and continued through campus, city and coast. Together, those parts tell the full story of our time in Sydney." }
+        ] },
+        { "id": "ending", "type": "ending", "title": { "zh": "先安顿，再漫游", "en": "Settle in, then wander" }, "subtitle": { "zh": "没有照片的日常，也留在这本手帐里。", "en": "The everyday moments without photos belong in this journal too." } }
+      ]
+    }
+  ]
+}
