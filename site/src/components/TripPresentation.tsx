@@ -52,6 +52,7 @@ export default function TripPresentation({
       ref={rootRef}
       className={styles.presentation}
       data-trip-style={style}
+      lang={locale === "zh" ? "zh-CN" : "en"}
       style={{ "--trip-cover-image": `url(${JSON.stringify(coverImage)})` } as CSSProperties}
     >
       <div className="trip-content">

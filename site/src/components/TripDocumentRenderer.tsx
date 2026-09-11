@@ -486,7 +486,7 @@ export default function TripDocumentRenderer({
   }
 
   return (
-    <div className="structured-trip" style={{ display: "contents" }}>
+    <div className="structured-trip" data-trip-document={document.slug} style={{ display: "contents" }}>
       {document.pages.map((page, pageIndex) => {
         const isSectionStart = firstPageBySection.get(page.sectionId) === page.id;
         return (

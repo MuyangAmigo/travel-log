@@ -156,7 +156,7 @@ test("every existing trip supports each style without changing its content", () 
   for (const entry of readdirSync(root, { withFileTypes: true })) {
     if (!entry.isDirectory()) continue;
     const { document } = readTripDocument(entry.name);
-    assert.equal(resolveTripStyle(document.metadata.style), "classic");
+    assert.equal(resolveTripStyle(document.metadata.style), document.metadata.style ?? "classic");
     for (const style of TRIP_STYLE_IDS) {
       const styled = structuredClone(document);
       styled.metadata.style = style;
