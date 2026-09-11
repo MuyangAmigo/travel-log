@@ -77,7 +77,7 @@ Read applicable child instructions before editing files in `site/`.
    renderer emits `data-trip-section` on every `.card-wrap` in the chapter and
    the matching anchor `id` on its first `.card-wrap`. When revising authored
    JSX, keep those attributes on `.card-wrap` and export a localized `sections`
-   are needed. The shared layout can also derive labels from `.cover-title`,
+   array when curated labels or descriptions are needed.
    `.day-title`, `.day-sub`, and `.day-circle`.
 7. Let the shared route own `TripPresentation`, `TripEntryLayout`,
    `CardScaleController`, and `ImageLightbox`; do not render them inside locale
