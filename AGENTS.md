@@ -3,8 +3,10 @@
 Use these instructions when creating or revising a trip in this repository.
 Read [DESIGN.md, reusable TravelEntry authoring](DESIGN.md#12-reusable-travelentry-authoring)
 before choosing the reading sequence or layout. It is the visual source of truth;
-this file defines the creation and delivery workflow. Read applicable child
-instructions before editing files in `site/`.
+its common design rules apply to every new TravelEntry, not just Phuket or a
+particular destination. The reference trip demonstrates the design; it does not
+limit who can reuse it. This file defines the creation and delivery workflow.
+Read applicable child instructions before editing files in `site/`.
 
 ## Source of truth
 
@@ -53,9 +55,9 @@ instructions before editing files in `site/`.
    blank banners and non-content filler, not inconvenient crops or essential
    photographs.
 3. Create `site/src/content/trips/<slug>/content.json`, `meta.ts`, `zh.tsx`, and
-   `en.tsx`. Follow the existing structured-trip pattern in
-   [`phuket-2026/meta.ts`](site/src/content/trips/phuket-2026/meta.ts) and its locale
-   modules: parse with `parseTripDocument`, export `SLUG`, `img`, `document`, and
+   `en.tsx`. Follow the existing structured-trip pattern (see the
+   [`meta.ts` example](site/src/content/trips/phuket-2026/meta.ts) and its locale
+   modules): parse with `parseTripDocument`, export `SLUG`, `img`, `document`, and
    localized `TripMeta` via `tripDocumentToMeta`, and use `createTripLocale` for
    both locale components and section exports. Keep directory, `SLUG`, and
    document slug consistent. Use only fields supported by
@@ -81,16 +83,15 @@ instructions before editing files in `site/`.
    `CardScaleController`, and `ImageLightbox`; do not render them inside locale
    components. Compose existing renderer blocks and `globals.css` classes, not a
    new visual system, per-trip presentation JavaScript, or arbitrary wrappers.
-8. Check [presentation scope and reuse](DESIGN.md#presentation-scope-and-reuse)
-   before selecting a style. The sequential Photo Story pilot introduced by
-   [PR #34](https://github.com/MuyangAmigo/travel-log/pull/34) is scoped to
-   `phuket-2026`, not all Photo Story entries. Wait for that implementation to
-   land before following its code steps. A new slug needs a separately authorized
-   explicit scope extension (or a separately reviewed shared opt-in), not just
-   `metadata.style: "photo-story"`. Authored JSX without the shared document marker
-   requires deliberate identity wiring. Preserve old trips and other styles;
-   never use unsupported metadata, a fourth style, query parameters, or browser
-   storage to bypass published styling.
+8. Apply the [common reading layout and photo rules](DESIGN.md#reading-axis-and-photography)
+   to the new entry, regardless of destination. Verify that the selected shared
+   presentation actually supports the design; a style name alone is not proof.
+   Include any required shared presentation wiring in the entry's implementation
+   following the [implementation notes](DESIGN.md#presentation-scope-and-reuse);
+   reuse is a normal part of the creation workflow. Preserve unrelated published
+   trips; do not
+   work around a gap with duplicated components, unsupported metadata, a fourth
+   style, query parameters, or browser storage.
 9. Register the trip in [`site/src/lib/trips.ts`](site/src/lib/trips.ts), keeping
    the newest trips first. Preview and complete the checks below before delivery.
 
@@ -140,15 +141,17 @@ privacy. See [authentication documentation](docs/microsoft-auth.md).
 - [ ] Preview the Chinese index and trip locally; check cover crop, name, and
   privacy badge. Inspect both locale trip pages and the editor's bilingual preview
   at 1440px, 900px, and 390px, plus a narrow 320px phone.
-- [ ] For explicitly opted-in reading flow, verify the document/style selector
-  and locale `lang`, then measure the [reading axis targets](DESIGN.md#reading-axis-and-photography)
-  (including any authored width constraints). Other trips, Classic, Field Journal,
-  and non-opted-in Photo Story remain unchanged.
+- [ ] Every new entry is checked against the
+  [common reading axis targets](DESIGN.md#reading-axis-and-photography), including
+  authored width constraints. Verify locale handling and actual presentation
+  coverage; if reusing the reference CSS, check its document/style selector and
+  `lang`. Meet the same design standard for each destination rather than assuming
+  a style setting automatically supplies it. Unrelated published trips remain unchanged.
 - [ ] Desktop prose and galleries share a center axis; tablet and phone layouts
   have readable text and no horizontal overflow. Natural-ratio portraits and
   full-table images retain their compositions; phone three-image groups stack
-  in the opted-in flow. Check full image loading and layout shifts, not just the
-  cover or first screen.
+  in the common reading layout. Check full image loading and layout shifts, not
+  just the cover or first screen.
 - [ ] Chapter anchors, current-section tracking, the applicable desktop rails or
   quiet menu, tablet menu, mobile flow, and keyboard navigation work. Lightbox
   opening, closing with Escape, and focus return work in pages and isolated

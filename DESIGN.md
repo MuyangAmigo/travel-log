@@ -294,8 +294,10 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 ## 9. Trip Inner Pages
 
 For new entries, follow the [reusable TravelEntry authoring guide](#12-reusable-travelentry-authoring)
-for story order, photo treatment, and explicit presentation opt-in. The baseline
-styles below remain supported; the reading-flow pilot is not a global migration.
+for the common story order, reading layout, and photo treatment. It applies to
+every destination, not just the reference trip. The existing styles below describe
+current rendering behavior; documenting the common standard does not itself
+migrate already published entries.
 
 Trip detail pages intentionally diverge from the Airbnb-style shell. They use a mobile-editorial travel post aesthetic inspired by Chinese social travel guides:
 
@@ -364,14 +366,20 @@ Editor live and bilingual approval previews share the production renderer and pr
 
 ## 12. Reusable TravelEntry Authoring
 
-This is the entry-creation guide; [AGENTS.md](AGENTS.md) supplies the source,
-upload, privacy, and delivery workflow. A trip is a continuous first-person
-editorial story, not a product landing page. Apply these narrative principles
-to new entries without silently changing the published presentation of old ones.
-For inner-page decisions, this guide takes precedence over the generic
-marketplace examples above. Keep the existing font and semantic theme tokens in
-[`globals.css`](site/src/app/globals.css); do not import a new font, visual
-system, or animation library.
+**Scope: every new TravelEntry, in both Chinese and English, regardless of
+destination.** This is the common authoring and design standard, not a
+Phuket-only guide or a requirement to copy one trip. Use it by default when
+creating an entry and when an existing entry is explicitly being redesigned,
+unless the user requests a different treatment. [AGENTS.md](AGENTS.md) supplies
+the source, upload, privacy, and delivery workflow.
+
+A trip is a continuous first-person editorial story, not a product landing page.
+For inner-page decisions, this guide takes precedence over the generic marketplace
+examples above. Keep the existing font and semantic theme tokens in
+[`globals.css`](site/src/app/globals.css); do not import a new font, visual system,
+or animation library. Follow the common design now; the
+[implementation notes](#presentation-scope-and-reuse) explain where current code
+still needs deliberate wiring. Those limitations do not narrow the design's scope.
 
 ### Reading rhythm
 
@@ -388,19 +396,18 @@ costs. Add transitions only where the note or images support them. A timeline
 or route summary should clarify movement, not interpose an entire day's future
 events between a paragraph and the photograph it introduces.
 
-The reference is the Phuket sequence in
-[implementation PR #34](https://github.com/MuyangAmigo/travel-log/pull/34),
-not a template of experiences to copy: breakfast has a reflective pause after
-the photograph; the night market moves from stalls to prices and dishes to the
-full-table photograph before the hotel story; the first and second dives precede
-the third-dive payoff. Use the same causal clarity for another trip's actual
-events. Keep Chinese and English block order, facts, required images, and chapter
-boundaries aligned; translate naturally rather than matching sentence lengths.
+Choose the sequence from the actual scene. An arrival can lead into the first
+view and an initial impression; a meal can move from choosing dishes and prices
+to the table photograph and the verdict; a difficult activity can build through
+earlier attempts before its outcome. These are examples, not required experiences
+or fixed page templates. Keep Chinese and English block order, facts, required
+images, and chapter boundaries aligned; translate naturally rather than matching
+sentence lengths.
 
 ### Reading axis and photography
 
-Prose and media share a stable center axis, not necessarily a width. The pilot's
-measured starting points are:
+Prose and media share a stable center axis, not necessarily a width. Use these
+reusable starting points when laying out a new entry:
 
 | Element | Reading-flow target |
 | --- | --- |
@@ -411,16 +418,18 @@ measured starting points are:
 | Single natural-ratio image | Up to 420px, centered and fluid on phones |
 | Three-image groups | Single column at 760px and below |
 
-These values were measured and previewed for the pilot, not established as
-universal usability guarantees. Check actual Chinese and English paragraphs,
-available viewport width, long place names, and authored width overrides.
-Do not apply these numbers to Classic or Field Journal by changing global CSS.
+These values were measured and previewed in the reference implementation and
+adopted here as the common starting point, not universal usability guarantees.
+Check each trip's actual Chinese and English paragraphs, available viewport width,
+long place names, and authored width overrides. Adapting them to a trip's content
+is not permission to silently restyle unrelated published entries.
 
 Give scene-setting images and important moments visual emphasis; use pairs or
 grids for supporting details. Preserve the complete required source image set in
-both locales. A portrait breakfast or full-table composition must not become a
-wide banner merely to fill space. Keep natural ratios when the whole composition
-matters; use an explicit shape only after checking that its crop is appropriate.
+both locales. A tall architectural scene, portrait meal photograph, or full-table
+composition must not become a wide banner merely to fill space. Keep natural
+ratios when the whole composition matters; use an explicit shape only after
+checking that its crop is appropriate.
 The listing cover must still be a scene-setting image, not a portrait or selfie.
 
 Captions add narrative context; alt text describes what is visible. Neither
@@ -454,119 +463,115 @@ media. Motion is optional only when the content genuinely benefits; respect
 `prefers-reduced-motion` and provide a readable non-animated fallback. Keep
 photography untinted in both themes.
 
-### Presentation scope and reuse
-
-**Dependency:** the implementation described here is introduced by
-[PR #34](https://github.com/MuyangAmigo/travel-log/pull/34), reference commit
-`f47ad1b9cd393d544d818f6151f1942b91209ae7`. That implementation must land before
-following the pilot-specific code steps. This documentation does not enable the
-layout for any additional trip.
-
-The existing `metadata.style` accepts only `classic`, `photo-story`, and
-`field-journal`; omitted means Classic. **Setting `photo-story` alone is not an
-opt-in to sequential reading flow.** In the reference implementation:
-
-- [`TripDocumentRenderer.tsx`](site/src/components/TripDocumentRenderer.tsx)
-  adds `data-trip-document={document.slug}` to the structured-trip root.
-- `TripPresentation` adds `lang={locale === "zh" ? "zh-CN" : "en"}` so the
-  reading-column language rule also works inside editor preview frames.
-- [`TripPresentation.module.css`](site/src/components/TripPresentation.module.css)
-  restricts the pilot to this selector:
-
-```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]))
-```
-
-Only Phuket with published Photo Story metadata matches. Other Photo Story
-documents, Classic, and Field Journal retain their prior layouts.
-
-To reuse the presentation for a future entry:
-
-1. Confirm the reference implementation is present. Compose the existing
-   structured blocks first; do not copy the pilot's presentation code into locale
-   components.
-2. In a separately authorized implementation change, intentionally extend the
-   existing scoped selector to include the new document slug while keeping the
-   `data-trip-style="photo-story"` condition. Alternatively, extract a shared
-   explicit opt-in as a separately reviewed design and implementation change.
-   Do not broaden all Photo Story trips as a shortcut.
-3. Set the entry's published `metadata.style` to `photo-story` through the
-   existing content/editor flow and verify its document marker and language.
-   Do not add unsupported metadata fields, a fourth style, query-parameter
-   switches, or localStorage style overrides.
-4. Check the actual trip route and both editor locale previews. Keep the existing
-   shared renderer and frame-local `ownerDocument` / `defaultView` behavior.
-   Verify the newly opted-in entry and confirm older trips and other styles
-   remain unchanged.
-
-Legacy authored JSX without the structured renderer marker does not match this
-selector automatically. Deliberately wire document identity through the shared
-presentation path in an authorized change, or migrate to the shared structured
-renderer; do not fake the Phuket slug or duplicate shell components to obtain
-the style.
-
 ### Compose existing blocks
 
 Use [`trip-document.ts`](site/src/lib/trip-document.ts) as the schema source.
 The existing `prose`, `gallery`, `timeline`, `route`, notes, and expense blocks
 already cover the reading sequence. `prose.width` is localized
 (`{"zh":"full","en":"full"}`); `gallery.width` is a single `full`, `medium`, or
-`narrow` value. Omit prose width or use `full` to let the scoped reading-column
-rule control the maximum. Authored `medium` / `narrow` prose widths produce
+`narrow` value. Omit prose width or use `full` to let the shared presentation
+control the maximum; verify it meets the reading targets rather than assuming a
+style name guarantees them. Authored `medium` / `narrow` prose widths produce
 inline constraints; inspect those before expecting exactly 612px or 640px.
 Use the schema's `spacing` values rather than arbitrary spacer wrappers, and
 check the result because presentation CSS can override block spacing.
 
 For one natural-ratio photograph, use `layout: "one"` and **omit `shape`**.
 `shape: "portrait"` still requests a fixed crop; `"natural"` is not a supported
-shape. The pilot detects the absence of `.sq`, `.ls`, `.wd`, `.pt`, and `.hero`
-and caps that single-image group at 420px. Preserve a useful narrower gallery
-where the story calls for a detail spread.
+shape. Verify that the selected presentation retains the natural ratio and
+applies the single-image width target; current scope details are
+[below](#presentation-scope-and-reuse). Preserve a useful narrower gallery where
+the story calls for a detail spread.
 
-This small bilingual `pages[].blocks` excerpt is adapted from Phuket's breakfast
-scene to show prose → photograph → pause. It is not a complete `content.json`;
-`breakfast-poolside` must resolve to an existing `images[]` asset with its filename
-and bilingual alt text. Use another trip's source, IDs, and actual photos rather
-than copying these experiences:
+This destination-neutral bilingual `pages[].blocks` template shows prose →
+photograph → reaction. It is not a complete `content.json`. Replace every
+bracketed instruction with source-backed writing before publishing, choose unique
+block IDs, and replace `scene-image` with an actual `images[]` asset ID whose
+filename and bilingual alt text are defined in the document. The structure is
+reusable; the experiences must always come from the new trip's source:
 
 ```json
 [
   {
-    "id": "breakfast-intro",
+    "id": "scene-intro",
     "type": "prose",
     "paragraphs": [
       {
-        "zh": "十点多慢悠悠晃去吃早餐，挑了个户外的位子，眼前就是酒店超大的泳池，再远一点是海。",
-        "en": "After ten, I wandered to breakfast and chose an outdoor table facing the hotel's huge pool, with the sea beyond."
+        "zh": "[依据原始笔记，用第一人称交代这一幕的来由。]",
+        "en": "[Use the source note to introduce this scene in the first person.]"
       }
     ]
   },
   {
-    "id": "breakfast-photo",
+    "id": "scene-photo",
     "type": "gallery",
     "layout": "one",
     "images": [
       {
-        "imageId": "breakfast-poolside",
+        "imageId": "scene-image",
         "caption": {
-          "zh": "十点多的户外座位，泳池之外就是海。",
-          "en": "An outdoor table after ten, with the pool in front and the sea beyond."
+          "zh": "[补充这张照片在故事中的意义，不重复 alt 文本。]",
+          "en": "[Explain the photograph's place in the story without repeating its alt text.]"
         }
       }
     ]
   },
   {
-    "id": "breakfast-pause",
+    "id": "scene-reaction",
     "type": "prose",
     "paragraphs": [
       {
-        "zh": "11 点多回房间接着躺。不赶路，不打卡，今天什么都不做，就很好。",
-        "en": "After eleven, I went back to the room to lie down. No rushing around, no sightseeing checklist. Today, doing nothing was enough."
+        "zh": "[保留原始笔记中的真实感受，或自然衔接下一件事。]",
+        "en": "[Preserve the source note's genuine reaction or transition naturally to the next event.]"
       }
     ]
   }
 ]
 ```
+
+### Presentation scope and reuse
+
+**Current implementation status, not a limit on the design's scope.**
+[PR #34](https://github.com/MuyangAmigo/travel-log/pull/34) (reference commit
+`f47ad1b9cd393d544d818f6151f1942b91209ae7`) first validates the common design
+with Phuket. Its breakfast pause, night-market sequence, and staged dive story
+are examples, not required content for other entries. The design applies to all
+new entries now; that PR must land before reusing its particular code.
+
+The reference adds `data-trip-document={document.slug}` in
+[`TripDocumentRenderer.tsx`](site/src/components/TripDocumentRenderer.tsx) and
+`lang={locale === "zh" ? "zh-CN" : "en"}` in `TripPresentation`.
+[`TripPresentation.module.css`](site/src/components/TripPresentation.module.css)
+currently limits the CSS to:
+
+```css
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]))
+```
+
+Consequently, setting `photo-story` alone does not yet give another document the
+new layout. Its single-image rule detects absence of `.sq`, `.ls`, `.wd`, `.pt`,
+and `.hero` to preserve natural ratios and apply the 420px cap.
+
+**Shared presentation integration is part of creating the next entry, not a
+special exception to this guide.**
+
+1. Compose the new entry with the shared blocks, then include the required shared
+   presentation wiring in its implementation: intentionally add its document slug
+   to the existing scoped selector, keeping the `photo-story` condition, or
+   implement a reusable explicit opt-in in the shared presentation.
+2. When reusing this CSS, publish `metadata.style: "photo-story"` through the
+   existing content/editor flow and verify the actual document marker and language.
+   The schema still accepts only `classic`, `photo-story`, and `field-journal`
+   (omitted means Classic). Do not invent fields, a fourth style, query switches,
+   or localStorage overrides instead of implementing shared support.
+3. Check the new entry's route and both locale previews against the common
+   targets, preserving frame-local `ownerDocument` / `defaultView` behavior.
+   Do not broaden the selector to silently restyle unrelated published entries;
+   this docs-only change does not migrate them.
+
+For authored JSX without the structured marker, wire document identity through
+the shared presentation path or migrate to the shared renderer as part of the
+entry work. Do not fake another trip's slug or duplicate shell components.
 
 Before delivery, use the [completion checklist](AGENTS.md#completion-checklist)
 to verify story order, bilingual image completeness, measured responsive layout,
