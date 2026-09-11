@@ -142,6 +142,9 @@ auth-api-test ──► build ──► auth-api-deploy ──► deploy
 
 - **PRs** run the API tests and the encrypted production build — but never publish.
 - **Images** stay in Azure Blob; the static bundle only references their URLs.
+- **Browser icon** reuses the index profile photo. If that photo URL changes in
+  `SiteHeader.tsx`, update the icon in `site/src/app/layout.tsx` and
+  `scripts/microsoft-auth-template.html` so public pages and private-trip gates stay aligned.
 - Lockfile note: if the committed `site/package-lock.json` is stale, CI regenerates it
   during install — keep generated lockfile churn out of unrelated commits.
 
