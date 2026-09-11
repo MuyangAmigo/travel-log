@@ -50,6 +50,29 @@ const minimalDocument = {
   ],
 };
 
+test("site and API preserve optional thumbnails and reject unsafe thumbnail paths", () => {
+  const document = structuredClone(minimalDocument);
+  document.images[0].thumbnailFilename = "cover-thumb.webp";
+  for (const parse of [parseTripDocument, parseApiDocument]) {
+    assert.equal(parse(document).images[0].thumbnailFilename, "cover-thumb.webp");
+    for (const invalid of ["../secret.jpg", "https://example.com/image.jpg", "script.svg", ""]) {
+      const copy = structuredClone(document);
+      copy.images[0].thumbnailFilename = invalid;
+      assert.throws(() => parse(copy));
+    }
+    for (const length of [179, 180, 181]) {
+      const copy = structuredClone(document);
+      const filename = `${"a".repeat(length - 5)}.webp`;
+      copy.images[0].thumbnailFilename = filename;
+      if (length <= 180) {
+        assert.equal(parse(copy).images[0].thumbnailFilename, filename);
+      } else {
+        assert.throws(() => parse(copy), `${length}-character thumbnails must be rejected`);
+      }
+    }
+  }
+});
+
 function readTripDocument(slug) {
   const source = readFileSync(
     new URL(`../content/trips/${slug}/content.json`, import.meta.url),

@@ -8,6 +8,7 @@ import {
   useState,
   type DragEvent,
 } from "react";
+import { localTripImage } from "@/lib/local-trip-images";
 import TripPreviewFrame, { TripPreviewSizePicker, type PreviewViewport } from "./TripPreviewFrame";
 import { TRIP_STYLE_IDS, TRIP_STYLES, isTripStyle, resolveTripStyle } from "@/lib/trip-style";
 import {
@@ -86,7 +87,7 @@ function parseEditorSession(value: string | null): EditorSession | null {
 }
 
 function imageUrl(slug: string, filename: string): string {
-  return `https://junjieblob.blob.core.windows.net/images/travel/${encodeURIComponent(
+  return localTripImage(slug, filename) ?? `https://junjieblob.blob.core.windows.net/images/travel/${encodeURIComponent(
     slug
   )}/${encodeURIComponent(filename)}`;
 }

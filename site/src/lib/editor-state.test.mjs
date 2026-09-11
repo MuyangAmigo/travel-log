@@ -108,6 +108,25 @@ test("style-only edits do not request translation and survive draft recovery", (
   }
 });
 
+test("draft recovery preserves optional thumbnails without changing legacy image assets", () => {
+  for (const thumbnail of [undefined, "detail-thumb.webp"]) {
+    const original = documentFixture();
+    if (thumbnail) original.images[1].thumbnailFilename = thumbnail;
+    const draft = structuredClone(original);
+    draft.metadata.style = "photo-story";
+    const stored = parseStoredEditorDraft(JSON.stringify({
+      baseSha: "1".repeat(40),
+      baseBlobSha: "2".repeat(40),
+      document: draft,
+      savedAt: 123,
+    }), original.slug);
+    const recovery = getEditorDraftRecovery(stored, original, "2".repeat(40));
+    assert.equal(recovery.status, "safe");
+    assert.deepEqual(recovery.document.images, original.images);
+    assert.deepEqual(collectChangedLocalizedPaths(original, recovery.document), []);
+  }
+});
+
 test("duplicates pages with fresh page, block, and nested item IDs", () => {
   const page = documentFixture().pages[1];
   const duplicate = duplicatePage(page);

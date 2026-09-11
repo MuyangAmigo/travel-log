@@ -1379,6 +1379,10 @@ body:has(.index-wrap) {
   outline-offset: -6px;
 }
 
+.trip-card:is([href$="/trips/kansai-2025"], [href$="/trips/kansai-2025/"]) .tc-media img {
+  object-position: center 80%;
+}
+
 .image-lightbox {
   position: fixed;
   inset: 0;

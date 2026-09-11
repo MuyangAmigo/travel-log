@@ -1,0 +1,39 @@
+.library {
+  padding-bottom: 88px;
+}
+
+.library :global(.image-lightbox-image) {
+  max-height: calc(100dvh - 152px);
+}
+
+.navigation {
+  position: absolute;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: #fff;
+  font: 500 14px/1.5 var(--font-ui);
+  cursor: default;
+}
+
+.navigation button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 50%;
+  background: rgba(20, 20, 20, .72);
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.navigation button:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+.navigation button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}

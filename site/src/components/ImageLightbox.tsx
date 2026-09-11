@@ -1,12 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState, type RefObject, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type RefObject, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Locale } from "@/lib/trips";
+import styles from "./ImageLightbox.module.css";
 
 type SelectedImage = {
   src: string;
   alt: string;
+  index: number;
+  total: number;
 };
 
 const labels = {
@@ -14,13 +17,17 @@ const labels = {
     dialog: "图片预览",
     close: "关闭图片预览",
     open: "查看大图",
+    previous: "上一张",
+    next: "下一张",
   },
   en: {
     dialog: "Image preview",
     close: "Close image preview",
     open: "View full image",
+    previous: "Previous image",
+    next: "Next image",
   },
-} satisfies Record<Locale, Record<"dialog" | "close" | "open", string>>;
+} satisfies Record<Locale, Record<"dialog" | "close" | "open" | "previous" | "next", string>>;
 
 export default function ImageLightbox({
   locale,
@@ -34,7 +41,26 @@ export default function ImageLightbox({
   const [selected, setSelected] = useState<SelectedImage | null>(null);
   const sourceImage = useRef<HTMLImageElement | null>(null);
   const closeButton = useRef<HTMLButtonElement | null>(null);
+  const dialogRef = useRef<HTMLDivElement | null>(null);
+  const libraryImages = useRef<HTMLImageElement[]>([]);
   const copy = labels[locale];
+  const isOpen = selected !== null;
+
+  const stepImage = useCallback((offset: number) => {
+    setSelected((current) => {
+      if (!current || current.total < 2) return current;
+      const index = current.index + offset;
+      const image = libraryImages.current[index];
+      if (!image) return current;
+      sourceImage.current = image;
+      return {
+        src: image.dataset.fullSrc || image.currentSrc || image.src,
+        alt: image.alt,
+        index,
+        total: current.total,
+      };
+    });
+  }, []);
 
   useEffect(() => {
     const root = rootRef.current?.querySelector<HTMLElement>(".trip-content");
@@ -42,6 +68,7 @@ export default function ImageLightbox({
     if (!root || !viewport) return;
 
     const images = Array.from(root.querySelectorAll<HTMLImageElement>('img:not([aria-hidden="true"])'));
+    libraryImages.current = images.filter((image) => image.dataset.fullSrc);
     const originalAttributes = images.map((image) => ({
       image,
       role: image.getAttribute("role"),
@@ -61,8 +88,10 @@ export default function ImageLightbox({
     const openImage = (image: HTMLImageElement) => {
       sourceImage.current = image;
       setSelected({
-        src: image.currentSrc || image.src,
+        src: image.dataset.fullSrc || image.currentSrc || image.src,
         alt: image.alt,
+        index: libraryImages.current.indexOf(image),
+        total: image.dataset.fullSrc ? libraryImages.current.length : 0,
       });
     };
 
@@ -101,7 +130,7 @@ export default function ImageLightbox({
   }, [copy, rootRef, contentKey]);
 
   useEffect(() => {
-    if (!selected) return;
+    if (!isOpen) return;
     const document = rootRef.current?.ownerDocument;
     if (!document) return;
 
@@ -112,9 +141,15 @@ export default function ImageLightbox({
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setSelected(null);
+      } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault();
+        stepImage(event.key === "ArrowLeft" ? -1 : 1);
       } else if (event.key === "Tab") {
         event.preventDefault();
-        closeButton.current?.focus();
+        const buttons = Array.from(dialogRef.current?.querySelectorAll<HTMLButtonElement>("button:not(:disabled)") ?? []);
+        const index = buttons.findIndex((button) => button === document.activeElement);
+        const next = (index + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length;
+        buttons[next]?.focus();
       }
     };
 
@@ -124,14 +159,15 @@ export default function ImageLightbox({
       document.body.style.overflow = originalOverflow;
       sourceImage.current?.focus();
     };
-  }, [selected, rootRef]);
+  }, [isOpen, rootRef, stepImage]);
 
   const portalRoot = rootRef.current?.ownerDocument.body;
   if (!selected || !portalRoot) return null;
 
   return createPortal(
     <div
-      className="image-lightbox"
+      ref={dialogRef}
+      className={`image-lightbox${selected.total > 1 ? ` ${styles.library}` : ""}`}
       role="dialog"
       aria-modal="true"
       aria-label={copy.dialog}
@@ -149,6 +185,17 @@ export default function ImageLightbox({
         <span aria-hidden="true">×</span>
       </button>
       <img src={selected.src} alt={selected.alt} className="image-lightbox-image" />
+      {selected.total > 1 && (
+        <div className={styles.navigation}>
+          <button type="button" disabled={selected.index === 0} onClick={() => stepImage(-1)} aria-label={copy.previous}>
+            <span aria-hidden="true">←</span>
+          </button>
+          <span role="status" aria-live="polite">{selected.index + 1} / {selected.total}</span>
+          <button type="button" disabled={selected.index === selected.total - 1} onClick={() => stepImage(1)} aria-label={copy.next}>
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      )}
     </div>,
     portalRoot,
   );

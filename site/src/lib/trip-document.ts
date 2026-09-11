@@ -17,6 +17,7 @@ export type BlockSpacing = {
 export type TripImageAsset = {
   id: string;
   filename: string;
+  thumbnailFilename?: string;
   alt: LocalizedText;
 };
 
@@ -305,13 +306,16 @@ class ValidationContext {
     return value;
   }
 
-  string(value: unknown, path: string, options?: { allowEmpty?: boolean; pattern?: RegExp }) {
+  string(value: unknown, path: string, options?: { allowEmpty?: boolean; pattern?: RegExp; maximum?: number }) {
     if (typeof value !== "string") {
       this.issue(path, "must be a string");
       return;
     }
     if (!options?.allowEmpty && value.trim().length === 0) {
       this.issue(path, "must not be empty");
+    }
+    if (options?.maximum !== undefined && value.length > options.maximum) {
+      this.issue(path, `must contain no more than ${options.maximum} characters`);
     }
     if (options?.pattern && !options.pattern.test(value)) {
       this.issue(path, "has an invalid format");
@@ -908,10 +912,16 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
   checkUniqueIds(context, images, "$.images", imageIds);
   images.forEach((image, index) => {
     const path = `$.images[${index}]`;
-    const item = context.record(image, path, ["id", "filename", "alt"]);
+    const item = context.record(image, path, ["id", "filename", "thumbnailFilename", "alt"]);
     if (!item) return;
     context.id(item.id, `${path}.id`);
     context.string(item.filename, `${path}.filename`, { pattern: IMAGE_FILENAME_PATTERN });
+    if (item.thumbnailFilename !== undefined) {
+      context.string(item.thumbnailFilename, `${path}.thumbnailFilename`, {
+        pattern: IMAGE_FILENAME_PATTERN,
+        maximum: 180,
+      });
+    }
     context.localized(item.alt, `${path}.alt`);
   });
 

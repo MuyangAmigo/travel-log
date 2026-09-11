@@ -647,8 +647,8 @@
   }
 }
 
-/* Phuket pilots a sequential photo story; other trips and styles stay unchanged. */
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"])) {
+/* Explicit document opt-ins preserve other published trips and styles. */
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"])) {
   --reading-column: 640px;
 
   &:lang(zh) {
@@ -895,6 +895,69 @@
 
     & :global(.g3) {
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"])) {
+  & :global(.card > .pgrid) {
+    max-width: 960px;
+    margin-inline: auto;
+  }
+
+  & :global(.pgrid .pf img) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  & :global(.pgrid .pf img.sq) {
+    aspect-ratio: 1;
+  }
+
+  & :global(.pgrid .pf img.pt) {
+    aspect-ratio: 9 / 16;
+  }
+
+  & :global(.pgrid .pf img.ls) {
+    aspect-ratio: 3 / 2;
+  }
+
+  & :global(.pgrid .pf img.wd) {
+    aspect-ratio: 16 / 9;
+  }
+
+  & :global(.card-wrap:not([id]) .day-circle) {
+    display: none;
+  }
+
+  & :global(.card-wrap:not([id]) .day-title) {
+    font-size: 26px;
+  }
+
+  & :global(.trip-cover-image) {
+    object-position: center 80%;
+  }
+
+  & :global(.cover-border) {
+    position: relative;
+    z-index: 1;
+    min-height: 640px;
+  }
+
+  @media (max-width: 760px) {
+    & :global(.g2),
+    & :global(.g4) {
+      grid-template-columns: 1fr;
+    }
+
+    & :global(.cover-border) {
+      min-height: 580px;
+      padding: 32px 20px;
+    }
+
+    & :global(.card-wrap:not([id]) .day-title) {
+      font-size: 24px;
     }
   }
 }
