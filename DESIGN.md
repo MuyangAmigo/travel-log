@@ -448,7 +448,7 @@ and page numbers without discarding chapter structure. Keep
 `data-trip-section` on every `.card-wrap` in a chapter and the matching anchor
 `id` on that chapter's first `.card-wrap`. Structured documents use
 `pages[].sectionId` and optional localized `sections[].navigation`;
-`sections` array typed with `TripEntrySection`.
+locale modules export a `sections` array typed as `TripEntrySection`.
 
 The [shared route](site/src/app/[locale]/trips/[slug]/page.tsx) owns
 [`TripPresentation`](site/src/components/TripPresentation.tsx), which owns
