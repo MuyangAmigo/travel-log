@@ -444,10 +444,10 @@ a separately scoped shared-renderer change, not invented content fields.
 
 Weaken sheet-like card boundaries and redundant decoration, day-weather icons,
 and page numbers without discarding chapter structure. Keep
-`.card-wrap > .card` as the section containers. Retain stable section IDs and
-`data-trip-section`; put the chapter anchor `id` on its first card. Structured
-documents use `pages[].sectionId` and optional localized `sections[].navigation`;
-the renderer derives the chapter metadata. Authored JSX can export a localized
+`.card-wrap > .card` as the page containers. Retain stable section IDs by putting
+`data-trip-section` on every `.card-wrap` in a chapter and the matching anchor
+`id` on that chapter's first `.card-wrap`. Structured documents use
+`pages[].sectionId` and optional localized `sections[].navigation`;
 `sections` array typed with `TripEntrySection`.
 
 The [shared route](site/src/app/[locale]/trips/[slug]/page.tsx) owns
