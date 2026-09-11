@@ -738,13 +738,19 @@ export function validateTripDocument(value, options) {
   const imageIds = validateUniqueIds(context, images, "$.images");
   images.forEach((image, index) => {
     const path = `$.images[${index}]`;
-    const item = context.object(image, path, ["id", "filename", "alt"]);
+    const item = context.object(image, path, ["id", "filename", "thumbnailFilename", "alt"], ["id", "filename", "alt"]);
     if (!item) return;
     context.id(item.id, `${path}.id`);
     context.string(item.filename, `${path}.filename`, {
       pattern: IMAGE_FILENAME_PATTERN,
       maximum: 180,
     });
+    if (item.thumbnailFilename !== undefined) {
+      context.string(item.thumbnailFilename, `${path}.thumbnailFilename`, {
+        pattern: IMAGE_FILENAME_PATTERN,
+        maximum: 180,
+      });
+    }
     context.localized(item.alt, `${path}.alt`);
   });
 

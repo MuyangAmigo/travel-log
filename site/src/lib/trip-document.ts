@@ -17,6 +17,7 @@ export type BlockSpacing = {
 export type TripImageAsset = {
   id: string;
   filename: string;
+  thumbnailFilename?: string;
   alt: LocalizedText;
 };
 
@@ -908,10 +909,13 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
   checkUniqueIds(context, images, "$.images", imageIds);
   images.forEach((image, index) => {
     const path = `$.images[${index}]`;
-    const item = context.record(image, path, ["id", "filename", "alt"]);
+    const item = context.record(image, path, ["id", "filename", "thumbnailFilename", "alt"]);
     if (!item) return;
     context.id(item.id, `${path}.id`);
     context.string(item.filename, `${path}.filename`, { pattern: IMAGE_FILENAME_PATTERN });
+    if (item.thumbnailFilename !== undefined) {
+      context.string(item.thumbnailFilename, `${path}.thumbnailFilename`, { pattern: IMAGE_FILENAME_PATTERN });
+    }
     context.localized(item.alt, `${path}.alt`);
   });
 

@@ -446,7 +446,9 @@ export class AzureOpenAiTranslator {
     const translations = validateTranslationResult(
       modelResult,
       fields,
-      translatedDocument.images.map((image) => image.filename)
+      translatedDocument.images.flatMap((image) =>
+        image.thumbnailFilename ? [image.filename, image.thumbnailFilename] : [image.filename]
+      )
     );
     translations.forEach((translation, index) => {
       fields[index].target.en = translation.text;

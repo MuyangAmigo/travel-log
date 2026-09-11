@@ -588,7 +588,11 @@ export class AzureStorageImageService {
   }
 
   async verifyDocumentImages(document) {
-    const filenames = document.images.map((image) => image.filename);
+    const filenames = document.images.flatMap((image) =>
+      image.thumbnailFilename && image.thumbnailFilename !== image.filename
+        ? [image.filename, image.thumbnailFilename]
+        : [image.filename]
+    );
     if (new Set(filenames).size !== filenames.length) {
       throw new EditorApiError(
         422,

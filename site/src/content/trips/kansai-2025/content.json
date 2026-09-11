@@ -1,0 +1,2814 @@
+{
+  "version": 1,
+  "slug": "kansai-2025",
+  "metadata": {
+    "date": "2025-04-30",
+    "dateRange": "2025.04.30 — 2025.05.05",
+    "coverImageId": "p1154",
+    "title": {
+      "zh": "关西，沿着绿意去看猫",
+      "en": "Kansai, Following the Green to the Cats"
+    },
+    "subtitle": {
+      "zh": "大阪的街角、京都的绿色，与和歌山的猫电车",
+      "en": "Osaka street corners, Kyoto greenery and Wakayama's cat trains"
+    },
+    "location": {
+      "zh": "日本 · 大阪 / 京都 / 和歌山",
+      "en": "Osaka / Kyoto / Wakayama, Japan"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "p0019",
+      "filename": "p0019.webp",
+      "thumbnailFilename": "p0019-thumb.webp",
+      "alt": {
+        "zh": "窗边木桌旁的四人自拍",
+        "en": "Four-person selfie beside a wooden table by the window"
+      }
+    },
+    {
+      "id": "p0035",
+      "filename": "p0035.webp",
+      "thumbnailFilename": "p0035-thumb.webp",
+      "alt": {
+        "zh": "高楼街道前的双人全身合照",
+        "en": "Full-length portrait of two people on a street lined with tall buildings"
+      }
+    },
+    {
+      "id": "p0011",
+      "filename": "p0011.webp",
+      "thumbnailFilename": "p0011-thumb.webp",
+      "alt": {
+        "zh": "本町的 Travelodge 红白外立面",
+        "en": "Red-and-white Travelodge facade in Honmachi"
+      }
+    },
+    {
+      "id": "p0045",
+      "filename": "p0045.webp",
+      "thumbnailFilename": "p0045-thumb.webp",
+      "alt": {
+        "zh": "暮色中的阪急楼群和路灯",
+        "en": "Hankyu buildings and streetlights at dusk"
+      }
+    },
+    {
+      "id": "p0061",
+      "filename": "p0061.webp",
+      "thumbnailFilename": "p0061-thumb.webp",
+      "alt": {
+        "zh": "两只举在一起的甜品杯",
+        "en": "Two dessert cups held up together"
+      }
+    },
+    {
+      "id": "p0063",
+      "filename": "p0063.webp",
+      "thumbnailFilename": "p0063-thumb.webp",
+      "alt": {
+        "zh": "夜里的牛角招牌",
+        "en": "Illuminated Gyu-Kaku sign at night"
+      }
+    },
+    {
+      "id": "p0071",
+      "filename": "p0071.webp",
+      "thumbnailFilename": "p0071-thumb.webp",
+      "alt": {
+        "zh": "窗边的三明治和饮料",
+        "en": "Sandwich and drink beside a window"
+      }
+    },
+    {
+      "id": "p0105",
+      "filename": "p0105.webp",
+      "thumbnailFilename": "p0105-thumb.webp",
+      "alt": {
+        "zh": "商场内有灯光的一整面瓶子陈列",
+        "en": "Illuminated wall of bottles inside a shopping complex"
+      }
+    },
+    {
+      "id": "p0123",
+      "filename": "p0123.webp",
+      "thumbnailFilename": "p0123-thumb.webp",
+      "alt": {
+        "zh": "粉色的 CHIIKAWA LAND 入口",
+        "en": "Pink CHIIKAWA LAND entrance"
+      }
+    },
+    {
+      "id": "p0179",
+      "filename": "p0179.webp",
+      "thumbnailFilename": "p0179-thumb.webp",
+      "alt": {
+        "zh": "两人坐在无脸男塑像两侧",
+        "en": "Two people seated on either side of a No-Face figure"
+      }
+    },
+    {
+      "id": "p0161",
+      "filename": "p0161.webp",
+      "thumbnailFilename": "p0161-thumb.webp",
+      "alt": {
+        "zh": "树形布景前手捧猫巴士玩偶的人像",
+        "en": "Portrait holding a Catbus plush in front of a tree-shaped display"
+      }
+    },
+    {
+      "id": "p0169",
+      "filename": "p0169.webp",
+      "thumbnailFilename": "p0169-thumb.webp",
+      "alt": {
+        "zh": "树形布景前手抱龙猫玩偶的人像",
+        "en": "Portrait holding a Totoro plush in front of a tree-shaped display"
+      }
+    },
+    {
+      "id": "p0209",
+      "filename": "p0209.webp",
+      "thumbnailFilename": "p0209-thumb.webp",
+      "alt": {
+        "zh": "丸福珈琲店招牌和咖啡店座位",
+        "en": "Marufuku Coffee sign and cafe seating"
+      }
+    },
+    {
+      "id": "p0215",
+      "filename": "p0215.webp",
+      "thumbnailFilename": "p0215-thumb.webp",
+      "alt": {
+        "zh": "玻璃杯中的冰咖啡和桌面",
+        "en": "Iced coffee in a glass on a table"
+      }
+    },
+    {
+      "id": "p0217",
+      "filename": "p0217.webp",
+      "thumbnailFilename": "p0217-thumb.webp",
+      "alt": {
+        "zh": "玻璃碗里的布丁与草莓",
+        "en": "Pudding and strawberry in a glass dish"
+      }
+    },
+    {
+      "id": "p0219",
+      "filename": "p0219.webp",
+      "thumbnailFilename": "p0219-thumb.webp",
+      "alt": {
+        "zh": "松饼、黄油和银色糖浆壶",
+        "en": "Pancakes, butter and a silver syrup jug"
+      }
+    },
+    {
+      "id": "p0237",
+      "filename": "p0237.webp",
+      "thumbnailFilename": "p0237-thumb.webp",
+      "alt": {
+        "zh": "有鸡蛋、肉片和葱的汤面",
+        "en": "Noodle soup with egg, sliced meat and spring onion"
+      }
+    },
+    {
+      "id": "p0239",
+      "filename": "p0239.webp",
+      "thumbnailFilename": "p0239-thumb.webp",
+      "alt": {
+        "zh": "面条配料与蘸汁分开的餐盘",
+        "en": "Noodles and toppings served separately from dipping broth"
+      }
+    },
+    {
+      "id": "p0257",
+      "filename": "p0257.webp",
+      "thumbnailFilename": "p0257-thumb.webp",
+      "alt": {
+        "zh": "湿路旁撑透明伞的人像",
+        "en": "Portrait holding a clear umbrella beside a wet street"
+      }
+    },
+    {
+      "id": "p0267",
+      "filename": "p0267.webp",
+      "thumbnailFilename": "p0267-thumb.webp",
+      "alt": {
+        "zh": "药店招牌前伞下的人像",
+        "en": "Portrait under an umbrella in front of a pharmacy sign"
+      }
+    },
+    {
+      "id": "p0273",
+      "filename": "p0273.webp",
+      "thumbnailFilename": "p0273-thumb.webp",
+      "alt": {
+        "zh": "咖啡店室内悬挂的花材与桌椅",
+        "en": "Hanging flowers, tables and chairs inside a cafe"
+      }
+    },
+    {
+      "id": "p0301",
+      "filename": "p0301.webp",
+      "thumbnailFilename": "p0301-thumb.webp",
+      "alt": {
+        "zh": "餐盘里的面包与后方的饮料",
+        "en": "Bread on a plate with a drink behind it"
+      }
+    },
+    {
+      "id": "p0353",
+      "filename": "p0353.webp",
+      "thumbnailFilename": "p0353-thumb.webp",
+      "alt": {
+        "zh": "大阪城天守阁前的四人自拍",
+        "en": "Four-person selfie in front of Osaka Castle's main tower"
+      }
+    },
+    {
+      "id": "p0459",
+      "filename": "p0459.webp",
+      "thumbnailFilename": "p0459-thumb.webp",
+      "alt": {
+        "zh": "壕沟外的树木与城市楼群全景",
+        "en": "Panorama of trees and city buildings beyond the moat"
+      }
+    },
+    {
+      "id": "p0363",
+      "filename": "p0363.webp",
+      "thumbnailFilename": "p0363-thumb.webp",
+      "alt": {
+        "zh": "岩石和花丛上方的大阪城天守阁",
+        "en": "Osaka Castle's main tower above rocks and flowers"
+      }
+    },
+    {
+      "id": "p0375",
+      "filename": "p0375.webp",
+      "thumbnailFilename": "p0375-thumb.webp",
+      "alt": {
+        "zh": "天守阁前竖起手指的人像",
+        "en": "Portrait with a raised finger in front of the castle tower"
+      }
+    },
+    {
+      "id": "p0419",
+      "filename": "p0419.webp",
+      "thumbnailFilename": "p0419-thumb.webp",
+      "alt": {
+        "zh": "大阪城壕沟、绿树和高楼",
+        "en": "Osaka Castle moat, green trees and tall buildings"
+      }
+    },
+    {
+      "id": "p0435",
+      "filename": "p0435.webp",
+      "thumbnailFilename": "p0435-thumb.webp",
+      "alt": {
+        "zh": "拱门下的人像和蓝天",
+        "en": "Portrait under an archway with blue sky beyond"
+      }
+    },
+    {
+      "id": "p0483",
+      "filename": "p0483.webp",
+      "thumbnailFilename": "p0483-thumb.webp",
+      "alt": {
+        "zh": "心斋桥沿街商店外立面",
+        "en": "Shop facades along a Shinsaibashi street"
+      }
+    },
+    {
+      "id": "p0493",
+      "filename": "p0493.webp",
+      "thumbnailFilename": "p0493-thumb.webp",
+      "alt": {
+        "zh": "道顿堀街道上方的红色蟹招牌",
+        "en": "Red crab sign above a Dotonbori street"
+      }
+    },
+    {
+      "id": "p0501",
+      "filename": "p0501.webp",
+      "thumbnailFilename": "p0501-thumb.webp",
+      "alt": {
+        "zh": "手提的一只白色 551 HORAI 袋子",
+        "en": "White 551 HORAI bag held by its handles"
+      }
+    },
+    {
+      "id": "p0505",
+      "filename": "p0505.webp",
+      "thumbnailFilename": "p0505-thumb.webp",
+      "alt": {
+        "zh": "桌上的烤串和碗碟",
+        "en": "Grilled skewers and dishes on a table"
+      }
+    },
+    {
+      "id": "p0539",
+      "filename": "p0539.webp",
+      "thumbnailFilename": "p0539-thumb.webp",
+      "alt": {
+        "zh": "三千院屋檐下的树影与苔地",
+        "en": "Tree shadows and moss beneath the eaves at Sanzen-in"
+      }
+    },
+    {
+      "id": "p0644",
+      "filename": "p0644.webp",
+      "thumbnailFilename": "p0644-thumb.webp",
+      "alt": {
+        "zh": "苔地上的小地藏像",
+        "en": "Small Jizo statue on moss"
+      }
+    },
+    {
+      "id": "p0567",
+      "filename": "p0567.webp",
+      "thumbnailFilename": "p0567-thumb.webp",
+      "alt": {
+        "zh": "绿色苔庭前的双人自拍",
+        "en": "Two-person selfie in front of a green moss garden"
+      }
+    },
+    {
+      "id": "p0678",
+      "filename": "p0678.webp",
+      "thumbnailFilename": "p0678-thumb.webp",
+      "alt": {
+        "zh": "白墙前的四人全身合影",
+        "en": "Full-length group portrait of four people in front of a white wall"
+      }
+    },
+    {
+      "id": "p0734",
+      "filename": "p0734.webp",
+      "thumbnailFilename": "p0734-thumb.webp",
+      "alt": {
+        "zh": "贵船神社朱红灯笼夹着石阶",
+        "en": "Stone steps lined with vermilion lanterns at Kifune Shrine"
+      }
+    },
+    {
+      "id": "p0740",
+      "filename": "p0740.webp",
+      "thumbnailFilename": "p0740-thumb.webp",
+      "alt": {
+        "zh": "灯笼石阶旁的单人全身照",
+        "en": "Full-length portrait beside lantern-lined steps"
+      }
+    },
+    {
+      "id": "p0754",
+      "filename": "p0754.webp",
+      "thumbnailFilename": "p0754-thumb.webp",
+      "alt": {
+        "zh": "树下两个人用手臂比心",
+        "en": "Two people making a heart shape with their arms beneath trees"
+      }
+    },
+    {
+      "id": "p0770",
+      "filename": "p0770.webp",
+      "thumbnailFilename": "p0770-thumb.webp",
+      "alt": {
+        "zh": "手持的一张尚未显字的水占纸",
+        "en": "A water fortune sheet held before its text appears"
+      }
+    },
+    {
+      "id": "p0898",
+      "filename": "p0898.webp",
+      "thumbnailFilename": "p0898-thumb.webp",
+      "alt": {
+        "zh": "观光列车座位上竖拇指的人像",
+        "en": "Portrait giving a thumbs-up in a sightseeing train seat"
+      }
+    },
+    {
+      "id": "p0904",
+      "filename": "p0904.webp",
+      "thumbnailFilename": "p0904-thumb.webp",
+      "alt": {
+        "zh": "列车座位上的双人合影",
+        "en": "Two-person portrait in train seats"
+      }
+    },
+    {
+      "id": "p0890",
+      "filename": "p0890.webp",
+      "thumbnailFilename": "p0890-thumb.webp",
+      "alt": {
+        "zh": "列车外的河谷水面与绿树",
+        "en": "River valley and green trees seen from the train"
+      }
+    },
+    {
+      "id": "p0912",
+      "filename": "p0912.webp",
+      "thumbnailFilename": "p0912-thumb.webp",
+      "alt": {
+        "zh": "红栏杆前竖起双拇指的人像",
+        "en": "Portrait giving two thumbs-up in front of a red railing"
+      }
+    },
+    {
+      "id": "p0968",
+      "filename": "p0968.webp",
+      "thumbnailFilename": "p0968-thumb.webp",
+      "alt": {
+        "zh": "岚山竹林中的步道",
+        "en": "Path through the Arashiyama bamboo grove"
+      }
+    },
+    {
+      "id": "p0976",
+      "filename": "p0976.webp",
+      "thumbnailFilename": "p0976-thumb.webp",
+      "alt": {
+        "zh": "步道上方的紫藤花架",
+        "en": "Wisteria trellis over a path"
+      }
+    },
+    {
+      "id": "p1005",
+      "filename": "p1005.webp",
+      "thumbnailFilename": "p1005-thumb.webp",
+      "alt": {
+        "zh": "石凳前竖拇指的人像",
+        "en": "Portrait giving a thumbs-up by a stone bench"
+      }
+    },
+    {
+      "id": "p1008",
+      "filename": "p1008.webp",
+      "thumbnailFilename": "p1008-thumb.webp",
+      "alt": {
+        "zh": "树下石凳上的全身坐姿照",
+        "en": "Full-length seated portrait on a stone bench beneath a tree"
+      }
+    },
+    {
+      "id": "p1016",
+      "filename": "p1016.webp",
+      "thumbnailFilename": "p1016-thumb.webp",
+      "alt": {
+        "zh": "曹源池的水面、庭园、屋顶与山坡",
+        "en": "Sogenchi Pond, garden, temple roofs and hillside"
+      }
+    },
+    {
+      "id": "p1020",
+      "filename": "p1020.webp",
+      "thumbnailFilename": "p1020-thumb.webp",
+      "alt": {
+        "zh": "曹源池前的双人全身合照",
+        "en": "Full-length portrait of two people beside Sogenchi Pond"
+      }
+    },
+    {
+      "id": "p0684",
+      "filename": "p0684.webp",
+      "thumbnailFilename": "p0684-thumb.webp",
+      "alt": {
+        "zh": "三千院弧形屋檐前的双人照",
+        "en": "Two-person portrait in front of Sanzen-in's curved eaves"
+      }
+    },
+    {
+      "id": "p1035",
+      "filename": "p1035.webp",
+      "thumbnailFilename": "p1035-thumb.webp",
+      "alt": {
+        "zh": "岚山院门前的双人全身合照",
+        "en": "Full-length portrait of two people in front of an Arashiyama gate"
+      }
+    },
+    {
+      "id": "p1074",
+      "filename": "p1074.webp",
+      "thumbnailFilename": "p1074-thumb.webp",
+      "alt": {
+        "zh": "桂川的宽阔水面与远山",
+        "en": "Broad waters of the Katsura River and distant hills"
+      }
+    },
+    {
+      "id": "p1333",
+      "filename": "p1333.webp",
+      "thumbnailFilename": "p1333-thumb.webp",
+      "alt": {
+        "zh": "善/ZEN 餐桌旁的四人合照",
+        "en": "Four-person group photo at the dinner table at ZEN"
+      }
+    },
+    {
+      "id": "p1076",
+      "filename": "p1076.webp",
+      "thumbnailFilename": "p1076-thumb.webp",
+      "alt": {
+        "zh": "桂川浅滩中的白色水鸟",
+        "en": "White waterbird in the Katsura River shallows"
+      }
+    },
+    {
+      "id": "p1081",
+      "filename": "p1081.webp",
+      "thumbnailFilename": "p1081-thumb.webp",
+      "alt": {
+        "zh": "黑色餐盘中的薄切肉",
+        "en": "Thinly sliced meat on a black platter"
+      }
+    },
+    {
+      "id": "p1082",
+      "filename": "p1082.webp",
+      "thumbnailFilename": "p1082-thumb.webp",
+      "alt": {
+        "zh": "餐桌上方举起的四只杯子",
+        "en": "Four glasses raised above a dining table"
+      }
+    },
+    {
+      "id": "p1105",
+      "filename": "p1105.webp",
+      "thumbnailFilename": "p1105-thumb.webp",
+      "alt": {
+        "zh": "猫咪立牌旁拿票留影的人",
+        "en": "Person posing with a ticket beside a cat-themed standee"
+      }
+    },
+    {
+      "id": "p1107",
+      "filename": "p1107.webp",
+      "thumbnailFilename": "p1107-thumb.webp",
+      "alt": {
+        "zh": "同一猫咪立牌旁的另一张人像",
+        "en": "Another portrait beside the same cat-themed standee"
+      }
+    },
+    {
+      "id": "p1148",
+      "filename": "p1148.webp",
+      "thumbnailFilename": "p1148-thumb.webp",
+      "alt": {
+        "zh": "黑金色 TAMA MUSEUM 电车车头",
+        "en": "Front of the black-and-gold TAMA MUSEUM train"
+      }
+    },
+    {
+      "id": "p1128",
+      "filename": "p1128.webp",
+      "thumbnailFilename": "p1128-thumb.webp",
+      "alt": {
+        "zh": "黑金色 TAMA MUSEUM 电车前的双人照",
+        "en": "Two-person portrait in front of the black-and-gold TAMA MUSEUM train"
+      }
+    },
+    {
+      "id": "p1132",
+      "filename": "p1132.webp",
+      "thumbnailFilename": "p1132-thumb.webp",
+      "alt": {
+        "zh": "猫电车的木色车门与灯饰",
+        "en": "Wood-toned doors and lights inside the cat-themed train"
+      }
+    },
+    {
+      "id": "p1133",
+      "filename": "p1133.webp",
+      "thumbnailFilename": "p1133-thumb.webp",
+      "alt": {
+        "zh": "车厢墙上的猫画像与装饰",
+        "en": "Cat portraits and decorations on a carriage wall"
+      }
+    },
+    {
+      "id": "p1138",
+      "filename": "p1138.webp",
+      "thumbnailFilename": "p1138-thumb.webp",
+      "alt": {
+        "zh": "驾驶台、前方铁轨与街边房屋",
+        "en": "Driver's console, tracks ahead and houses beside the line"
+      }
+    },
+    {
+      "id": "p1169",
+      "filename": "p1169.webp",
+      "thumbnailFilename": "p1169-thumb.webp",
+      "alt": {
+        "zh": "伊太祈曽站外立牌旁的人像",
+        "en": "Portrait beside a standee outside Idakiso Station"
+      }
+    },
+    {
+      "id": "p1172",
+      "filename": "p1172.webp",
+      "thumbnailFilename": "p1172-thumb.webp",
+      "alt": {
+        "zh": "同一站外立牌旁的另一张人像",
+        "en": "Another portrait beside the standee outside the station"
+      }
+    },
+    {
+      "id": "p1158",
+      "filename": "p1158.webp",
+      "thumbnailFilename": "p1158-thumb.webp",
+      "alt": {
+        "zh": "伊太祈曽站内窝在垫子上的猫",
+        "en": "Cat curled up on a cushion inside Idakiso Station"
+      }
+    },
+    {
+      "id": "p1186",
+      "filename": "p1186.webp",
+      "thumbnailFilename": "p1186-thumb.webp",
+      "alt": {
+        "zh": "蓝天下的伊太祁曽神社鸟居",
+        "en": "Torii at Itakiso Shrine beneath a blue sky"
+      }
+    },
+    {
+      "id": "p1219",
+      "filename": "p1219.webp",
+      "thumbnailFilename": "p1219-thumb.webp",
+      "alt": {
+        "zh": "玻璃后卧着的贵志站猫站长",
+        "en": "Cat stationmaster resting behind glass at Kishi Station"
+      }
+    },
+    {
+      "id": "p1223",
+      "filename": "p1223.webp",
+      "thumbnailFilename": "p1223-thumb.webp",
+      "alt": {
+        "zh": "猫脸屋顶的贵志站房正面",
+        "en": "Front of Kishi Station with its cat-face roof"
+      }
+    },
+    {
+      "id": "p1332",
+      "filename": "p1332.webp",
+      "thumbnailFilename": "p1332-thumb.webp",
+      "alt": {
+        "zh": "神社内立在木头上的木雕",
+        "en": "Small wooden carving on a piece of wood inside the shrine"
+      }
+    },
+    {
+      "id": "p1232",
+      "filename": "p1232.webp",
+      "thumbnailFilename": "p1232-thumb.webp",
+      "alt": {
+        "zh": "贵志站牌旁手持的猫绘马",
+        "en": "Cat-themed ema plaque held beside the Kishi Station sign"
+      }
+    },
+    {
+      "id": "p1239",
+      "filename": "p1239.webp",
+      "thumbnailFilename": "p1239-thumb.webp",
+      "alt": {
+        "zh": "TAMA 杯中的猫脸绿色冰品",
+        "en": "Green cat-face frozen dessert in a TAMA cup"
+      }
+    },
+    {
+      "id": "p1240",
+      "filename": "p1240.webp",
+      "thumbnailFilename": "p1240-thumb.webp",
+      "alt": {
+        "zh": "印有猫图案和 TAMA 字样的点心",
+        "en": "Snack stamped with a cat illustration and the word TAMA"
+      }
+    },
+    {
+      "id": "p1247",
+      "filename": "p1247.webp",
+      "thumbnailFilename": "p1247-thumb.webp",
+      "alt": {
+        "zh": "路边凸镜映出的两人和小路",
+        "en": "Two people and a lane reflected in a roadside convex mirror"
+      }
+    },
+    {
+      "id": "p1288",
+      "filename": "p1288.webp",
+      "thumbnailFilename": "p1288-thumb.webp",
+      "alt": {
+        "zh": "平池水中小岛上的树",
+        "en": "Tree on a small island in Hiraike Pond"
+      }
+    },
+    {
+      "id": "p1231",
+      "filename": "p1231.webp",
+      "thumbnailFilename": "p1231-thumb.webp",
+      "alt": {
+        "zh": "TAMA 海报前手持的猫绘马",
+        "en": "Cat-themed ema plaque held in front of a TAMA poster"
+      }
+    },
+    {
+      "id": "p1276",
+      "filename": "p1276.webp",
+      "thumbnailFilename": "p1276-thumb.webp",
+      "alt": {
+        "zh": "平池岸边草地、水面与远处喷泉",
+        "en": "Grass beside Hiraike Pond, water and a distant fountain"
+      }
+    },
+    {
+      "id": "p1278",
+      "filename": "p1278.webp",
+      "thumbnailFilename": "p1278-thumb.webp",
+      "alt": {
+        "zh": "平池水面与蓝天前的双人自拍",
+        "en": "Two-person selfie with Hiraike Pond and blue sky behind"
+      }
+    },
+    {
+      "id": "p1297",
+      "filename": "p1297.webp",
+      "thumbnailFilename": "p1297-thumb.webp",
+      "alt": {
+        "zh": "甘露寺石碑旁的双人自拍",
+        "en": "Two-person selfie beside a Kanroji Temple stone marker"
+      }
+    },
+    {
+      "id": "p1313",
+      "filename": "p1313.webp",
+      "thumbnailFilename": "p1313-thumb.webp",
+      "alt": {
+        "zh": "网架上的金黄色炸物和卷心菜",
+        "en": "Golden fried food on a rack with shredded cabbage"
+      }
+    },
+    {
+      "id": "p1317",
+      "filename": "p1317.webp",
+      "thumbnailFilename": "p1317-thumb.webp",
+      "alt": {
+        "zh": "餐后网架里留下的小旗签",
+        "en": "Small flag picks left in a rack after the meal"
+      }
+    },
+    {
+      "id": "p1321",
+      "filename": "p1321.webp",
+      "thumbnailFilename": "p1321-thumb.webp",
+      "alt": {
+        "zh": "机场午餐的面、盒装配菜和寿司卷",
+        "en": "Airport lunch of noodles, boxed side dishes and sushi rolls"
+      }
+    },
+    {
+      "id": "p1154",
+      "filename": "p1154.webp",
+      "alt": {
+        "zh": "蓝天和架空电线下的白色 TAMA 猫电车",
+        "en": "White TAMA cat-themed train beneath blue sky and overhead wires"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "关西",
+          "en": "KANSAI"
+        },
+        "label": {
+          "zh": "旅行手记",
+          "en": "Travel Journal"
+        },
+        "detail": {
+          "zh": "大阪的街角、京都的绿色，与和歌山的猫电车",
+          "en": "Osaka street corners, Kyoto greenery and Wakayama's cat trains"
+        }
+      }
+    },
+    {
+      "id": "day-2025-04-30",
+      "navigation": {
+        "marker": {
+          "zh": "04.30",
+          "en": "04.30"
+        },
+        "label": {
+          "zh": "先把自己放进大阪的街景",
+          "en": "Finding our place in Osaka"
+        },
+        "detail": {
+          "zh": "本町 · 梅田",
+          "en": "Honmachi · Umeda"
+        }
+      }
+    },
+    {
+      "id": "day-2025-05-01",
+      "navigation": {
+        "marker": {
+          "zh": "05.01",
+          "en": "05.01"
+        },
+        "label": {
+          "zh": "把半天留给玩偶和咖啡",
+          "en": "An afternoon of plush toys and coffee"
+        },
+        "detail": {
+          "zh": "大阪 · 心斋桥",
+          "en": "Osaka · Shinsaibashi"
+        }
+      }
+    },
+    {
+      "id": "day-2025-05-02",
+      "navigation": {
+        "marker": {
+          "zh": "05.02",
+          "en": "05.02"
+        },
+        "label": {
+          "zh": "透明伞之后，是大阪城的蓝天",
+          "en": "From clear umbrellas to blue skies"
+        },
+        "detail": {
+          "zh": "大阪 · 从雨走到晴",
+          "en": "Osaka · From rain to sunshine"
+        }
+      }
+    },
+    {
+      "id": "day-2025-05-03",
+      "navigation": {
+        "marker": {
+          "zh": "05.03",
+          "en": "05.03"
+        },
+        "label": {
+          "zh": "京都，把一天过成许多种绿色",
+          "en": "Kyoto, in shades of green"
+        },
+        "detail": {
+          "zh": "大原 · 贵船 · 岚山",
+          "en": "Ohara · Kifune · Arashiyama"
+        }
+      }
+    },
+    {
+      "id": "day-2025-05-04",
+      "navigation": {
+        "marker": {
+          "zh": "05.04",
+          "en": "05.04"
+        },
+        "label": {
+          "zh": "沿着贵志川线，去见猫站长",
+          "en": "Following the railway to the cats"
+        },
+        "detail": {
+          "zh": "和歌山 · 贵志川线",
+          "en": "Wakayama · Kishigawa Line"
+        }
+      }
+    },
+    {
+      "id": "day-2025-05-05",
+      "navigation": {
+        "marker": {
+          "zh": "05.05",
+          "en": "05.05"
+        },
+        "label": {
+          "zh": "在关西机场，给旅途收个尾",
+          "en": "A last meal before home"
+        },
+        "detail": {
+          "zh": "关西国际机场",
+          "en": "Kansai International Airport"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "trip-cover",
+          "type": "cover",
+          "backgroundImageId": "p1154",
+          "eyebrow": {
+            "zh": "日本 · 关西",
+            "en": "KANSAI, JAPAN"
+          },
+          "title": {
+            "zh": "关西，沿着绿意去看猫",
+            "en": "Kansai, Following the Green to the Cats"
+          },
+          "subtitle": {
+            "zh": "旅行手记",
+            "en": "Travel Journal"
+          },
+          "date": {
+            "zh": "2025 年 4 月 30 日 — 5 月 5 日",
+            "en": "30 April — 5 May 2025"
+          },
+          "intro": {
+            "zh": "沿着绿意，把一起入镜的小片刻留住。",
+            "en": "Following the green, keeping the little moments we shared in the frame."
+          },
+          "introStyle": "quote"
+        }
+      ]
+    },
+    {
+      "id": "introduction",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "opening",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这个五一，我和小土，还有胖敏、李哥夫妇，一起去了大阪、京都和和歌山。大阪有街角的咖啡、商店里的玩偶和一顿接一顿的饭；京都换成苔藓、树影、朱红灯笼和穿过山谷的小火车；到了和歌山，车厢、站房，连手里的点心都成了猫的模样。热闹的城市和安静的绿色之间，是我们一次次停下来、一起入镜的小片刻。",
+              "en": "This May Day holiday, my partner Xiaotu and I travelled through Osaka, Kyoto and Wakayama with Pangmin and Li Ge. Osaka brought coffee, plush toys and one meal after another. Kyoto was moss, tree shade, vermilion lanterns and a little train through a valley. In Wakayama, carriages, stations and even the treats in our hands took the shape of cats. Between the busy streets and the quiet greenery were all those small moments when we stopped for a photo together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr30-flight-photos",
+      "sectionId": "day-2025-04-30",
+      "blocks": [
+        {
+          "id": "apr30-flight-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "1 天 · 04.30",
+            "en": "01 · 04.30"
+          },
+          "title": {
+            "zh": "先把自己放进大阪的街景",
+            "en": "Finding our place in Osaka"
+          },
+          "subtitle": {
+            "zh": "本町 · 梅田",
+            "en": "Honmachi · Umeda"
+          }
+        },
+        {
+          "id": "apr30-flight-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "4 月 30 日，我们出发去关西。机上餐盘摆在面前，客舱屏幕亮着；这一趟五一，就从这里开始。",
+              "en": "On 30 April, we set off for Kansai. A meal tray in front of us, the cabin screen glowing: this was the beginning of our May Day trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr30-honmachi-photos",
+      "sectionId": "day-2025-04-30",
+      "blocks": [
+        {
+          "id": "apr30-honmachi-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "04.30",
+            "en": "04.30"
+          },
+          "title": {
+            "zh": "窗边，先来一张合照",
+            "en": "A first photo by the window"
+          },
+          "subtitle": {
+            "zh": "大阪本町",
+            "en": "Honmachi, Osaka"
+          }
+        },
+        {
+          "id": "apr30-honmachi-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午到了大阪本町。街角是 Travelodge 的红白招牌，窗边是我们挤在一起的合照：木桌、随身的包，还有镜头前的剪刀手。还没走到那些熟悉的地标，旅行已经有了具体的人。",
+              "en": "By the afternoon we were in Honmachi, Osaka. There was the red-and-white Travelodge sign on a street corner, then all of us squeezing into a photo by a window: a wooden table, our bags, and peace signs for the camera. Before any of the familiar landmarks, the trip already had its people."
+            }
+          ]
+        },
+        {
+          "id": "apr30-honmachi-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0011",
+              "caption": {
+                "zh": "本町街角，Travelodge 的红白招牌。",
+                "en": "The red-and-white Travelodge sign on a Honmachi street corner."
+              },
+              "shape": "wide"
+            },
+            {
+              "imageId": "p0019",
+              "caption": {
+                "zh": "本町窗边，先来一张合照。",
+                "en": "A first photo together by a window in Honmachi."
+              },
+              "shape": "wide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr30-umeda-photos",
+      "sectionId": "day-2025-04-30",
+      "blocks": [
+        {
+          "id": "apr30-umeda-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "04.30",
+            "en": "04.30"
+          },
+          "title": {
+            "zh": "街灯亮起的时候",
+            "en": "As the streetlights came on"
+          },
+          "subtitle": {
+            "zh": "大阪梅田",
+            "en": "Umeda, Osaka"
+          }
+        },
+        {
+          "id": "apr30-umeda-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚转到梅田。阪急的楼体和高楼之间有一小片蓝色的天，沿街的灯渐渐亮起来。有人在前面走，有人在路边停下来合影，我们也把城市一层层叠起来的线条拍了下来。",
+              "en": "Toward evening we headed to Umeda. A patch of blue sky sat between the Hankyu buildings and the towers, while lights began to come on along the street. Some of us walked ahead; others stopped for a photo. We paused, too, for the city's layers of lines."
+            }
+          ]
+        },
+        {
+          "id": "apr30-umeda-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0035",
+              "caption": {
+                "zh": "梅田街头，胖敏和李哥站进城市的线条里。",
+                "en": "On a street in Umeda, Pangmin and Li Ge step into the city's lines."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0045",
+              "caption": {
+                "zh": "阪急楼群与逐渐亮起的街灯。",
+                "en": "The Hankyu buildings and streetlights gradually coming on."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr30-dinner-photos",
+      "sectionId": "day-2025-04-30",
+      "blocks": [
+        {
+          "id": "apr30-dinner-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "04.30",
+            "en": "04.30"
+          },
+          "title": {
+            "zh": "把甜品杯举到一起",
+            "en": "Two dessert cups raised together"
+          },
+          "subtitle": {
+            "zh": "大阪・牛角",
+            "en": "Gyu-Kaku, Osaka"
+          }
+        },
+        {
+          "id": "apr30-dinner-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "第一晚吃牛角。肉放上烤网，大家在桌边夹菜、烤肉，饭后又把两只甜品杯举到一起。走出门时再拍一张“牛角”的招牌，第一天的夜色，就和这一顿饭连在了一起。",
+              "en": "Our first dinner was at Gyu-Kaku. Meat went onto the grill as we cooked and reached across the table; afterward, two dessert cups were held up together. One more photo of the sign on our way out, and the first evening became inseparable from that meal."
+            }
+          ]
+        },
+        {
+          "id": "apr30-dinner-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0061",
+              "caption": {
+                "zh": "把两只甜品杯举到一起。",
+                "en": "Raising two dessert cups together."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0063",
+              "caption": {
+                "zh": "晚饭之后，门口的牛角招牌。",
+                "en": "After dinner, the Gyu-Kaku sign outside."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may01-brunch-photos",
+      "sectionId": "day-2025-05-01",
+      "blocks": [
+        {
+          "id": "may01-brunch-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "2 天 · 05.01",
+            "en": "02 · 05.01"
+          },
+          "title": {
+            "zh": "把半天留给玩偶和咖啡",
+            "en": "An afternoon of plush toys and coffee"
+          },
+          "subtitle": {
+            "zh": "大阪 · 心斋桥",
+            "en": "Osaka · Shinsaibashi"
+          }
+        },
+        {
+          "id": "may01-brunch-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "临近中午，先在本町的窗边吃三明治，配一杯饮料。吃完走回街上，经过车站，再沿着心斋桥商店街慢慢逛，把时间交给一间接一间的店。",
+              "en": "Close to noon, we started with a sandwich and a drink by a window in Honmachi. Then it was back onto the street, past the station and into Shinsaibashi's shopping arcade, letting one shop lead us into the next."
+            }
+          ]
+        },
+        {
+          "id": "may01-brunch-library-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p0071",
+              "caption": {
+                "zh": "从窗边的三明治开始。",
+                "en": "Starting with a sandwich by the window."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may01-shops-photos",
+      "sectionId": "day-2025-05-01",
+      "blocks": [
+        {
+          "id": "may01-shops-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.01",
+            "en": "05.01"
+          },
+          "title": {
+            "zh": "和玩偶认真合影",
+            "en": "Posing properly with plush toys"
+          },
+          "subtitle": {
+            "zh": "心斋桥・PARCO 周边",
+            "en": "Around Shinsaibashi and PARCO"
+          }
+        },
+        {
+          "id": "may01-shops-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "PARCO 一带的角色商店，从角落生物、Chiikawa 一路看到吉卜力。小土捧起猫巴士，我抱着龙猫站到镜头前；到了无脸男的座椅，我们又坐过去，一起占满一排座位。逛店逛成了一连串和玩偶认真合影的姿势。",
+              "en": "Around PARCO, the character shops took us from Sumikko Gurashi and Chiikawa to Ghibli. Xiaotu picked up a Catbus; I held Totoro for a photo. At No-Face's bench, we sat down together and filled the row. Browsing had turned into a series of very earnest poses with plush toys."
+            }
+          ]
+        },
+        {
+          "id": "may01-shops-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0105",
+              "caption": {
+                "zh": "下午商场里，一整面瓶子的陈列。",
+                "en": "A whole wall of bottles on display in the shopping center that afternoon."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p0123",
+              "caption": {
+                "zh": "Chiikawa Land 的粉色入口。",
+                "en": "The pink entrance to Chiikawa Land."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "may01-shops-library-2",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p0161",
+              "caption": {
+                "zh": "小土捧起猫巴士。",
+                "en": "Xiaotu holds up the Catbus."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0169",
+              "caption": {
+                "zh": "我抱着龙猫，在树下留一张。",
+                "en": "A photo under the tree, with me hugging Totoro."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0179",
+              "caption": {
+                "zh": "我和小土陪着无脸男，占满一排座位。",
+                "en": "Xiaotu and I keep No-Face company, filling a whole row of seats."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may01-cafe-photos",
+      "sectionId": "day-2025-05-01",
+      "blocks": [
+        {
+          "id": "may01-cafe-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.01",
+            "en": "05.01"
+          },
+          "title": {
+            "zh": "坐下来，吃一桌甜的",
+            "en": "A table full of sweets"
+          },
+          "subtitle": {
+            "zh": "丸福珈琲店・心斋桥",
+            "en": "Marufuku Coffee, Shinsaibashi"
+          }
+        },
+        {
+          "id": "may01-cafe-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午在丸福珈琲店坐下来。桌上有咖啡、顶着草莓的布丁和叠起来的松饼，银色糖浆壶与杯碟排在一起。把这一桌甜的慢慢吃完，再回到地铁和街道。",
+              "en": "In the afternoon we sat down at Marufuku Coffee. Coffee, pudding topped with a strawberry, and a stack of pancakes filled the table, with a silver syrup jug among the cups and plates. We took our time with the sweets before heading back to the subway and the streets."
+            }
+          ]
+        },
+        {
+          "id": "may01-cafe-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0209",
+              "caption": {
+                "zh": "逛到丸福珈琲店，先记下门口的招牌。",
+                "en": "Reaching Marufuku Coffee, with a photo of the sign before we go in."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0215",
+              "caption": {
+                "zh": "坐下来，桌上的冰咖啡也留一张。",
+                "en": "Once seated, a photo of the iced coffee on the table too."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may01-cafe-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0217",
+              "caption": {
+                "zh": "丸福的布丁和草莓。",
+                "en": "Pudding and strawberries at Marufuku."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p0219",
+              "caption": {
+                "zh": "另一边是松饼、黄油和糖浆壶。",
+                "en": "On the other side: pancakes, butter, and a syrup pitcher."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may01-dinner-photos",
+      "sectionId": "day-2025-05-01",
+      "blocks": [
+        {
+          "id": "may01-dinner-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.01",
+            "en": "05.01"
+          },
+          "title": {
+            "zh": "夜晚落在两只面碗里",
+            "en": "Ending the night over noodles"
+          },
+          "subtitle": {
+            "zh": "大阪梅田",
+            "en": "Umeda, Osaka"
+          }
+        },
+        {
+          "id": "may01-dinner-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上回到梅田，街灯亮着，晚餐换成了两种面：一碗带蛋和肉片的汤面，一份面条与蘸汁分开放的蘸面。白天的松饼和玩偶之后，这一天落在了两只面碗里。",
+              "en": "Back in Umeda that evening, the streetlights were on and dinner came in two forms: noodle soup with egg and sliced meat, and noodles served separately from their dipping broth. After a day of pancakes and plush toys, we ended up over two bowls of noodles."
+            }
+          ]
+        },
+        {
+          "id": "may01-dinner-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0237",
+              "caption": {
+                "zh": "晚餐的一碗汤面。",
+                "en": "A bowl of noodle soup for dinner."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0239",
+              "caption": {
+                "zh": "面条和蘸汁，分开摆在桌上。",
+                "en": "Noodles and dipping sauce, served separately on the table."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may02-brunch-photos",
+      "sectionId": "day-2025-05-02",
+      "blocks": [
+        {
+          "id": "may02-brunch-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "3 天 · 05.02",
+            "en": "03 · 05.02"
+          },
+          "title": {
+            "zh": "透明伞之后，是大阪城的蓝天",
+            "en": "From clear umbrellas to blue skies"
+          },
+          "subtitle": {
+            "zh": "大阪 · 从雨走到晴",
+            "en": "Osaka · From rain to sunshine"
+          }
+        },
+        {
+          "id": "may02-brunch-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "上午还有雨。透明伞、湿漉漉的路面、街对面的药店招牌，被一起装进了镜头。接着走进“パンとエスプレッソと堺筋倶楽部”：高挑的室内、花材、面包台和桌上的红色卡片，给这顿早午餐留下了很明确的背景。桌上摆着面包、蛋和饮料，我们也在门口补了一张照片。",
+              "en": "There was still rain in the morning. Clear umbrellas, wet pavement and the pharmacy sign across the road all found their way into our photos. Then we stepped into Pan to Espresso to Sakaisuji Club: the high ceiling, flowers, bread counter and red card on the table gave brunch its own setting. Bread, eggs and drinks arrived, and we took another photo at the entrance."
+            }
+          ]
+        },
+        {
+          "id": "may02-brunch-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0257",
+              "caption": {
+                "zh": "雨里撑着透明伞。",
+                "en": "Holding a clear umbrella in the rain."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0267",
+              "caption": {
+                "zh": "街对面的伞下人像。",
+                "en": "A portrait beneath an umbrella across the street."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may02-brunch-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0273",
+              "caption": {
+                "zh": "堺筋倶楽部的花材与桌椅。",
+                "en": "Flowers, tables, and chairs at Sakaisuji Club."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0301",
+              "caption": {
+                "zh": "早午餐里的面包与饮料。",
+                "en": "Bread and drinks at brunch."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may02-castle-photos",
+      "sectionId": "day-2025-05-02",
+      "blocks": [
+        {
+          "id": "may02-castle-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.02",
+            "en": "05.02"
+          },
+          "title": {
+            "zh": "把蓝天和我们一起拍进去",
+            "en": "Blue skies, with all of us in the frame"
+          },
+          "subtitle": {
+            "zh": "大阪城公园・丰国神社",
+            "en": "Osaka Castle Park and Hokoku Shrine"
+          }
+        },
+        {
+          "id": "may02-castle-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到大阪城时，天已经蓝了。护城河边是新绿，天守阁前则是人群。我们把四个人挤进自拍的画框，又轮流和天守阁合影；有人用手指在远处比位置，有人把整个身体留进画面。之后继续走过丰国神社和公园里的拱门，河水、城墙和现代楼群轮流出现在身后。",
+              "en": "By the time we reached Osaka Castle, the sky was blue. Fresh green lined the moat, and crowds gathered before the keep. All four of us squeezed into a selfie, then took turns posing with the castle: pointing toward it from a distance, or stepping back for a full-length shot. We continued past Hokoku Shrine and the park's archway, with water, stone walls and modern towers taking turns behind us."
+            }
+          ]
+        },
+        {
+          "id": "may02-castle-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0353",
+              "caption": {
+                "zh": "大阪城前，我、小土、胖敏和李哥挤进同一张自拍。",
+                "en": "Xiaotu, Pangmin, Li Ge, and I squeeze into one selfie in front of Osaka Castle."
+              },
+              "shape": "wide"
+            },
+            {
+              "imageId": "p0459",
+              "caption": {
+                "zh": "壕沟另一边，是大阪的楼群和大片蓝天。",
+                "en": "Beyond the moat, Osaka's buildings sit beneath a wide blue sky."
+              },
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "may02-castle-library-2",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p0375",
+              "caption": {
+                "zh": "和天守阁单独合一张影。",
+                "en": "A solo photo with the castle's main tower."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0363",
+              "caption": {
+                "zh": "天守阁前，岩石与花丛。",
+                "en": "Rocks and flowers in front of the castle's main tower."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0419",
+              "caption": {
+                "zh": "护城河的水面，把城外的楼群接进来。",
+                "en": "The moat's water brings the buildings outside the castle into the scene."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0435",
+              "caption": {
+                "zh": "走到拱门下，让门框把人和蓝天圈在一起。",
+                "en": "Under the archway, the frame holds a person and the blue sky together."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may02-shops-photos",
+      "sectionId": "day-2025-05-02",
+      "blocks": [
+        {
+          "id": "may02-shops-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.02",
+            "en": "05.02"
+          },
+          "title": {
+            "zh": "再逛一段大阪的街",
+            "en": "Back on Osaka's shopping streets"
+          },
+          "subtitle": {
+            "zh": "心斋桥・道顿堀及后续商场",
+            "en": "Shinsaibashi, Dotonbori, and shopping centers visited afterward"
+          }
+        },
+        {
+          "id": "may02-shops-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午再回到心斋桥和道顿堀，沿着店铺外立面、蟹招牌和商场继续走。到了晚上，手里又多了一只红白相间的 551 袋子。",
+              "en": "In the afternoon we returned to Shinsaibashi and Dotonbori, walking past shopfronts, the crab sign and more shopping centres. By evening, a red-and-white 551 bag had joined us."
+            }
+          ]
+        },
+        {
+          "id": "may02-shops-library-1",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p0483",
+              "caption": {
+                "zh": "回到心斋桥，沿街的店铺外立面。",
+                "en": "Back in Shinsaibashi, storefronts along the street."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p0493",
+              "caption": {
+                "zh": "道顿堀抬头可见的蟹招牌。",
+                "en": "Looking up at a crab sign in Dotonbori."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p0501",
+              "caption": {
+                "zh": "晚些时候，手里的一只 551 袋子。",
+                "en": "Later, a 551 bag in hand."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may02-dinner-photos",
+      "sectionId": "day-2025-05-02",
+      "blocks": [
+        {
+          "id": "may02-dinner-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.02",
+            "en": "05.02"
+          },
+          "title": {
+            "zh": "夜里的烤串",
+            "en": "Skewers after dark"
+          },
+          "subtitle": {
+            "zh": "大阪",
+            "en": "Osaka"
+          }
+        },
+        {
+          "id": "may02-dinner-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走到夜里，终于又围回餐桌。烤串摆在盘中，旁边是碗碟和菜单；从透明伞走到蓝天的一天，就用这顿晚饭收尾。",
+              "en": "After walking into the night, we gathered around a table again. Skewers lay on a plate beside bowls and a menu: dinner to close a day that had taken us from clear umbrellas to blue skies."
+            }
+          ]
+        },
+        {
+          "id": "may02-dinner-library-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p0505",
+              "caption": {
+                "zh": "这一晚以烤串的照片收尾。",
+                "en": "The evening ends with photos of grilled skewers."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may03-sanzenin-photos",
+      "sectionId": "day-2025-05-03",
+      "blocks": [
+        {
+          "id": "may03-sanzenin-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "4 天 · 05.03",
+            "en": "04 · 05.03"
+          },
+          "title": {
+            "zh": "京都，把一天过成许多种绿色",
+            "en": "Kyoto, in shades of green"
+          },
+          "subtitle": {
+            "zh": "大原 · 贵船 · 岚山",
+            "en": "Ohara · Kifune · Arashiyama"
+          }
+        },
+        {
+          "id": "may03-sanzenin-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "京都这一日，先走进大原的三千院。屋檐下望出去，树干把苔地上的光影分成一块一块；绕到园子里，又看见池水、白花和小小的地藏。我和小土在绿意里自拍，又和胖敏、李哥在白墙前站齐，留下一张四个人都完整入镜的合照。院门弯曲的屋檐，也成了我和小土另一张合照的背景。",
+              "en": "Our Kyoto day began at Sanzen-in in Ohara. Looking out from under the eaves, tree trunks divided the light and shade across the moss. Around the garden were water, white flowers and a little Jizo figure. Xiaotu and I took a selfie in the greenery, then joined Pangmin and Li Ge in a line against a white wall. The gate's curved eaves became the backdrop for another photo of the two of us."
+            }
+          ]
+        },
+        {
+          "id": "may03-sanzenin-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0539",
+              "caption": {
+                "zh": "三千院屋檐下，光落在苔地上。",
+                "en": "Beneath Sanzen-in's eaves, light falls across the moss."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0644",
+              "caption": {
+                "zh": "绿意里小小的地藏。",
+                "en": "A little Jizo figure amid the greenery."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may03-sanzenin-library-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p0567",
+              "caption": {
+                "zh": "三千院苔庭前，我和小土的自拍。",
+                "en": "A selfie of Xiaotu and me in front of Sanzen-in's moss garden."
+              }
+            }
+          ]
+        },
+        {
+          "id": "may03-sanzenin-library-3",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0678",
+              "caption": {
+                "zh": "白墙前，把四个人都拍进去。",
+                "en": "All four of us in the frame in front of the white wall."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p0684",
+              "caption": {
+                "zh": "中午的三千院门前，我和小土站在弯曲的屋檐下。",
+                "en": "At Sanzen-in's gate around midday, Xiaotu and I stand beneath the curved eaves."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may03-kifune-photos",
+      "sectionId": "day-2025-05-03",
+      "blocks": [
+        {
+          "id": "may03-kifune-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.03",
+            "en": "05.03"
+          },
+          "title": {
+            "zh": "灯笼一路排上石阶",
+            "en": "Lanterns along the stone steps"
+          },
+          "subtitle": {
+            "zh": "京都・贵船神社与溪边",
+            "en": "Kifune Shrine and the streamside, Kyoto"
+          }
+        },
+        {
+          "id": "may03-kifune-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "接着到了贵船。溪流沿着道路，朱红色的灯笼一路排上石阶。我在灯笼旁站好，胖敏和李哥则在树下比出一个大大的心形。参拜之后，把水占纸拿到水边，轻轻放进水里。",
+              "en": "Next came Kifune. A stream ran beside the road, and vermilion lanterns lined the stone steps. I posed beside the lanterns; under a tree, Pangmin and Li Ge made a big heart together. After visiting the shrine, we took the water-fortune paper to the water and gently laid it in."
+            }
+          ]
+        },
+        {
+          "id": "may03-kifune-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0734",
+              "caption": {
+                "zh": "贵船的朱红灯笼和石阶。",
+                "en": "Vermilion lanterns and stone steps at Kifune Shrine."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0740",
+              "caption": {
+                "zh": "站进同一排灯笼里。",
+                "en": "Stepping into that same row of lanterns."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may03-kifune-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0754",
+              "caption": {
+                "zh": "贵船树下，胖敏和李哥比出一个大大的心形。",
+                "en": "Beneath the trees in Kibune, Pangmin and Li Ge make a big heart shape."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0770",
+              "caption": {
+                "zh": "水占纸还在手里，下一步是放进水中。",
+                "en": "The water-fortune slip is still in hand; next it goes into the water."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may03-train-photos",
+      "sectionId": "day-2025-05-03",
+      "blocks": [
+        {
+          "id": "may03-train-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.03",
+            "en": "05.03"
+          },
+          "title": {
+            "zh": "坐进河谷的绿色里",
+            "en": "A seat among the valley's greens"
+          },
+          "subtitle": {
+            "zh": "嵯峨野观光铁道",
+            "en": "Sagano Scenic Railway"
+          }
+        },
+        {
+          "id": "may03-train-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午换成嵯峨野的小火车。上车后，红色栏杆、车顶和窗外的树影一起进入了画面。河谷里能看见水和小艇，我们则坐在车厢里，轮流看向镜头、竖起拇指。这一段路，还有嵯峨站的站牌和站台合照留在相册里。",
+              "en": "In the afternoon we switched to the Sagano scenic train. Aboard, the red railings, carriage roof and trees outside the windows entered the frame together. Water and small boats appeared in the valley below, while we sat in the carriage, taking turns to face the camera and give a thumbs-up. The Saga Station sign and photos together on the platform also became part of this stretch of the trip."
+            }
+          ]
+        },
+        {
+          "id": "may03-train-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p0890",
+              "caption": {
+                "zh": "车窗外，沿着河谷铺开的新绿。",
+                "en": "Outside the train window, fresh green foliage spreads along the valley."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p0912",
+              "caption": {
+                "zh": "红栏旁，对着镜头竖起两个拇指。",
+                "en": "Two thumbs up for the camera beside the red railing."
+              },
+              "shape": "landscape"
+            }
+          ]
+        },
+        {
+          "id": "may03-train-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0898",
+              "caption": {
+                "zh": "小火车上，小土转过来对着镜头。",
+                "en": "On the scenic train, Xiaotu turns toward the camera."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0904",
+              "caption": {
+                "zh": "同一节车厢里，胖敏和李哥的合照。",
+                "en": "A photo of Pangmin and Li Ge together in the same carriage."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may03-arashiyama-photos",
+      "sectionId": "day-2025-05-03",
+      "blocks": [
+        {
+          "id": "may03-arashiyama-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.03",
+            "en": "05.03"
+          },
+          "title": {
+            "zh": "从竹林慢慢走到水边",
+            "en": "From the bamboo to the water"
+          },
+          "subtitle": {
+            "zh": "岚山・御髪神社・竹林・天龙寺・桂川",
+            "en": "Arashiyama, Mikami Shrine, the bamboo grove, Tenryu-ji, and the Katsura River"
+          }
+        },
+        {
+          "id": "arashiyama-path",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从列车走回岚山，接着经过御髪神社。竹林的小路通向一片树影，再往前，是垂下来的紫藤花架。",
+              "en": "Back on foot in Arashiyama, we passed Mikami Shrine. A path through the bamboo led into deep shade; farther on, wisteria hung from its trellis."
+            }
+          ]
+        },
+        {
+          "id": "may03-arashiyama-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p0968",
+              "caption": {
+                "zh": "岚山竹林，小路通向一片树影。",
+                "en": "In Arashiyama's bamboo grove, a path leads into the shade."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p0976",
+              "caption": {
+                "zh": "随后看到的紫藤花架。",
+                "en": "The wisteria trellis we see next."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "arashiyama-bench",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "来到天龙寺，我和小土在石凳前轮流坐着拍照。换个人，背景里的树还是同一棵。",
+              "en": "At Tenryu-ji, Xiaotu and I took turns sitting on a stone bench for photos. A different person, but the same tree behind us."
+            }
+          ]
+        },
+        {
+          "id": "may03-arashiyama-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1005",
+              "caption": {
+                "zh": "天龙寺的石凳，靠近一些，竖起拇指。",
+                "en": "On the stone bench at Tenryu-ji, a closer shot and a thumbs-up."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1008",
+              "caption": {
+                "zh": "再换小土坐下，背景不变。",
+                "en": "Then Xiaotu takes a seat, with the same backdrop."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "arashiyama-pond",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "曹源池边，屋顶、山坡与倒影铺展开来。我们在池前合影，胖敏和李哥也在院门前一起入镜。",
+              "en": "By Sogenchi Pond, rooftops, hillsides and their reflections opened out before us. We posed together by the water; Pangmin and Li Ge stood together at the gate, too."
+            }
+          ]
+        },
+        {
+          "id": "may03-arashiyama-library-3",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p1016",
+              "caption": {
+                "zh": "曹源池前，屋顶、山坡和倒影。",
+                "en": "Roofs, hillsides, and reflections at Sogenchi Pond."
+              }
+            }
+          ]
+        },
+        {
+          "id": "may03-arashiyama-library-4",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1020",
+              "caption": {
+                "zh": "我和小土，在曹源池前留一张合照。",
+                "en": "Xiaotu and I take a photo together at Sogenchi Pond."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1035",
+              "caption": {
+                "zh": "下午的岚山院门前，胖敏和李哥一起入镜。",
+                "en": "That afternoon, Pangmin and Li Ge pose together at a temple gate in Arashiyama."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "arashiyama-river",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚又走到桂川边。水面开阔下来，岸边有人坐着，浅滩里停着一只白色水鸟。林间的深绿，慢慢换成了水面的浅灰蓝。",
+              "en": "Toward evening we reached the Katsura River. The water opened out, people sat along the bank, and a white waterbird stood in the shallows. The deep green of the trees gave way to the pale blue-grey of the river."
+            }
+          ]
+        },
+        {
+          "id": "may03-arashiyama-library-5",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1074",
+              "caption": {
+                "zh": "傍晚的桂川水面。",
+                "en": "The Katsura River toward evening."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1076",
+              "caption": {
+                "zh": "桂川浅滩，一只白色水鸟停在水中。",
+                "en": "A white waterbird stands in the shallows of the Katsura River."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may03-dinner-photos",
+      "sectionId": "day-2025-05-03",
+      "blocks": [
+        {
+          "id": "may03-dinner-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.03",
+            "en": "05.03"
+          },
+          "title": {
+            "zh": "回到城市，再围一张桌",
+            "en": "Back in the city, around a table"
+          },
+          "subtitle": {
+            "zh": "大阪・善/ZEN 与夜街",
+            "en": "Zen (善/ZEN) and nighttime streets, Osaka"
+          }
+        },
+        {
+          "id": "may03-dinner-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚些时候回到大阪，在善 / ZEN 围着桌子坐下。薄切肉、锅物和举起来的杯子摆满餐桌；四个人的晚餐合照，把这一天重新接回了城市。吃完再走进大阪的夜街。",
+              "en": "Later we returned to Osaka and gathered around a table at ZEN. Thinly sliced meat, a hot pot and raised glasses filled the table. Our dinner photo of all four of us brought the day back to the city, before we stepped out into Osaka's night streets."
+            }
+          ]
+        },
+        {
+          "id": "may03-dinner-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p1081",
+              "caption": {
+                "zh": "送上桌的薄切肉。",
+                "en": "Thinly sliced meat arrives at the table."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1082",
+              "caption": {
+                "zh": "开饭时，一起举杯。",
+                "en": "Raising our glasses together as the meal begins."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may03-dinner-library-2",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p1333",
+              "caption": {
+                "zh": "回到大阪，四个人又围在同一张桌边。",
+                "en": "Back in Osaka, all four of us gather around one table again."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may04-rail-photos",
+      "sectionId": "day-2025-05-04",
+      "blocks": [
+        {
+          "id": "may04-rail-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "5 天 · 05.04",
+            "en": "05 · 05.04"
+          },
+          "title": {
+            "zh": "沿着贵志川线，去见猫站长",
+            "en": "Following the railway to the cats"
+          },
+          "subtitle": {
+            "zh": "和歌山 · 贵志川线",
+            "en": "Wakayama · Kishigawa Line"
+          }
+        },
+        {
+          "id": "may04-rail-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "一早从天王寺站出发，到和歌山站转贵志川线。先和猫咪立牌各拍一张，手里的车票也一起入镜。黑金色的 TAMA MUSEUM 电车停在轨道上，像一间会移动的猫主题展室；另一列白色 TAMA 电车顶着猫耳，映着蓝天，是另一副可爱的模样。",
+              "en": "We set out from Tennoji Station early and changed at Wakayama for the Kishigawa Line. First came a photo each beside a cat cutout, tickets in hand. The black-and-gold TAMA MUSEUM train stood on the tracks like a travelling cat exhibition; another train, the white TAMA with its cat ears against the blue sky, had a different kind of charm."
+            }
+          ]
+        },
+        {
+          "id": "may04-rail-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1105",
+              "caption": {
+                "zh": "在和歌山站，和猫咪立牌合影。",
+                "en": "Posing with the cat standee at Wakayama Station."
+              },
+              "shape": "square",
+              "focus": "upper"
+            },
+            {
+              "imageId": "p1107",
+              "caption": {
+                "zh": "换小土站到立牌旁，再拍一张。",
+                "en": "Xiaotu takes a turn beside the standee for another photo."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "may04-rail-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1128",
+              "caption": {
+                "zh": "上车前，我和小土先与电车一起入镜。",
+                "en": "Before boarding, Xiaotu and I pose with the train."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1148",
+              "caption": {
+                "zh": "黑金色 TAMA 电车的车头。",
+                "en": "The front of the black-and-gold TAMA train."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "rail-carriage",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "上车后，门、灯、座椅和一幅幅猫的画像继续把这个主题铺满。再往前看，仪表台外是铁轨和低矮的房子。",
+              "en": "Inside, doors, lamps, seats and picture after picture of cats carried the theme through the carriage. Looking forward past the controls, we could see rails and low houses."
+            }
+          ]
+        },
+        {
+          "id": "may04-rail-library-3",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p1132",
+              "caption": {
+                "zh": "车门、灯和木色的车厢。",
+                "en": "Doors, lights, and the wood-toned carriage interior."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1133",
+              "caption": {
+                "zh": "车厢里一面面猫的画像。",
+                "en": "Rows of cat portraits inside the carriage."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1138",
+              "caption": {
+                "zh": "从车内向前看，仪表台外是铁轨与街边房子。",
+                "en": "Looking forward from inside the train, past the dashboard to the tracks and houses along the street."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may04-idakiso-photos",
+      "sectionId": "day-2025-05-04",
+      "blocks": [
+        {
+          "id": "may04-idakiso-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.04",
+            "en": "05.04"
+          },
+          "title": {
+            "zh": "先看猫，再走进树荫里",
+            "en": "A cat, then a walk into the shade"
+          },
+          "subtitle": {
+            "zh": "伊太祈曽站・伊太祁曽神社",
+            "en": "Idakiso Station and Itakiso Shrine"
+          }
+        },
+        {
+          "id": "may04-idakiso-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在伊太祈曽站，先看见一只窝在垫子上的猫。出站后，我和小土轮流站到猫电车立牌旁，再走去附近的伊太祁曽神社。穿过鸟居和树荫，参道、社殿，还有木头上小小的雕刻，一路慢慢看过去。",
+              "en": "At Idakiso Station, we found a cat curled up on a cushion. Outside, Xiaotu and I took turns beside the cat-train cutout, then walked to nearby Itakiso Shrine. Beyond the torii and the shade of the trees, we followed the approach past the shrine buildings and little carvings in wood."
+            }
+          ]
+        },
+        {
+          "id": "may04-idakiso-library-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p1158",
+              "caption": {
+                "zh": "伊太祈曽站里，猫窝在垫子上。",
+                "en": "A cat curled up on a cushion inside Idakiso Station."
+              }
+            }
+          ]
+        },
+        {
+          "id": "may04-idakiso-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p1169",
+              "caption": {
+                "zh": "伊太祈曽站外，小土和另一块猫电车立牌合影。",
+                "en": "Outside Idakiso Station, Xiaotu poses with another cat-train standee."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1172",
+              "caption": {
+                "zh": "同一个站外背景，轮到我站好。",
+                "en": "My turn to pose, with the same backdrop outside the station."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may04-idakiso-library-3",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p1186",
+              "caption": {
+                "zh": "附近神社的鸟居和蓝天。",
+                "en": "A torii gate and blue sky at the nearby shrine."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1332",
+              "caption": {
+                "zh": "神社里，一只立在木头上的小木雕。",
+                "en": "A small wooden carving standing on a piece of wood at the shrine."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may04-kishi-photos",
+      "sectionId": "day-2025-05-04",
+      "blocks": [
+        {
+          "id": "may04-kishi-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.04",
+            "en": "05.04"
+          },
+          "title": {
+            "zh": "连屋顶和点心都是猫",
+            "en": "Cats on the roof, cats on the sweets"
+          },
+          "subtitle": {
+            "zh": "贵志站",
+            "en": "Kishi Station"
+          }
+        },
+        {
+          "id": "may04-kishi-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到了贵志站，站房的屋顶也是一张猫脸。猫站长趴在自己的小空间里，我们隔着玻璃看过去。拿着绘马在站牌旁留影之后，托盘里又摆上了热狗、猫脸绿色冰品和印着 TAMA 的点心。今天从车票到午间的食物，都被猫串了起来。",
+              "en": "At Kishi Station, even the roof was a cat's face. The cat stationmaster lay in its own little space as we looked through the glass. After photos holding an ema plaque beside the station sign, our tray held a hot dog, a green cat-faced frozen treat and a sweet stamped with TAMA. Cats connected everything today, from our tickets to lunch."
+            }
+          ]
+        },
+        {
+          "id": "may04-kishi-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1219",
+              "caption": {
+                "zh": "贵志站的猫站长，趴在自己的小天地里。",
+                "en": "Kishi Station's cat stationmaster, resting in a little world of its own."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1223",
+              "caption": {
+                "zh": "抬头，站房本身也是猫的模样。",
+                "en": "Look up: the station building itself looks like a cat."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "may04-kishi-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1231",
+              "caption": {
+                "zh": "贵志站的猫绘马，在 TAMA 海报前再拍一张。",
+                "en": "Another photo of Kishi Station's cat ema plaque, this time in front of a TAMA poster."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1232",
+              "caption": {
+                "zh": "贵志站牌旁，手里的猫绘马。",
+                "en": "A cat-shaped ema plaque in hand beside the Kishi Station sign."
+              },
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "may04-kishi-library-3",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p1239",
+              "caption": {
+                "zh": "猫脸绿色冰品，也装进 TAMA 杯里。",
+                "en": "A green frozen treat with a cat's face, served in a TAMA cup too."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1240",
+              "caption": {
+                "zh": "另一只点心上，还是 TAMA。",
+                "en": "Another treat, also marked TAMA."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may04-hiraike-photos",
+      "sectionId": "day-2025-05-04",
+      "blocks": [
+        {
+          "id": "may04-hiraike-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.04",
+            "en": "05.04"
+          },
+          "title": {
+            "zh": "池水、蓝天和乡间小路",
+            "en": "Pond water, blue skies and country lanes"
+          },
+          "subtitle": {
+            "zh": "平池绿地公园・甘露寺周边",
+            "en": "Hiraike Green Park and the area around Kanro-ji"
+          }
+        },
+        {
+          "id": "may04-hiraike-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "离开站房后，走进乡间的小路。路边凸镜映出我们两个人；平池绿地公园里有水鸟、树影和伸向水面的步道，远处还开着喷泉。我们在池边留了一张自拍，再走到甘露寺，在山门与石碑旁拍照。和歌山，就这样留成了很具体的蓝天、池水和小路。",
+              "en": "Leaving the station, we followed the country lanes. A roadside mirror caught the two of us; at Hiraike Green Park there were waterbirds, reflections of trees, a path reaching toward the water and a fountain in the distance. We took a selfie by the pond, then walked to Kanroji for photos beside its gate and stone marker. This was our Wakayama: blue sky, pond water and little lanes."
+            }
+          ]
+        },
+        {
+          "id": "may04-hiraike-library-1",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p1247",
+              "caption": {
+                "zh": "路边凸镜里，两个人和一条小路。",
+                "en": "Two people and a little road reflected in a roadside convex mirror."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1276",
+              "caption": {
+                "zh": "平池岸边，远处的喷泉与近处的草地。",
+                "en": "By Hiraike Pond, a fountain in the distance and grass in the foreground."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p1288",
+              "caption": {
+                "zh": "平池里，一小片树影与水面。",
+                "en": "A small patch of tree shadows and water at Hiraike Pond."
+              },
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "may04-hiraike-library-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1278",
+              "caption": {
+                "zh": "我和小土，把平池的水和天留在身后。",
+                "en": "Xiaotu and I, with Hiraike Pond's water and sky behind us."
+              },
+              "shape": "wide"
+            },
+            {
+              "imageId": "p1297",
+              "caption": {
+                "zh": "再到甘露寺石碑前留影。",
+                "en": "Another photo in front of the stone monument at Kanro-ji."
+              },
+              "shape": "wide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may04-evening-photos",
+      "sectionId": "day-2025-05-04",
+      "blocks": [
+        {
+          "id": "may04-evening-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Journal"
+          },
+          "markerValue": {
+            "zh": "05.04",
+            "en": "05.04"
+          },
+          "title": {
+            "zh": "一盘炸物，几面小旗",
+            "en": "Fried bites and little flags"
+          },
+          "subtitle": {
+            "zh": "大阪梅田",
+            "en": "Umeda, Osaka"
+          }
+        },
+        {
+          "id": "may04-evening-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上回到大阪梅田，逛过服饰店，再坐下来吃一盘金黄色的炸物，旁边配着卷心菜。吃完之后，盘中只剩几面小小的旗签。白天的猫电车和乡间绿意，就这样接上了大阪的夜晚。",
+              "en": "Back in Umeda that evening, we browsed clothing shops, then sat down to golden fried bites with cabbage alongside. By the end, only a few little flag picks remained on the plate. The day's cat trains and country greenery had met Osaka's night again."
+            }
+          ]
+        },
+        {
+          "id": "may04-evening-library-1",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p1313",
+              "caption": {
+                "zh": "回大阪后的炸物晚餐。",
+                "en": "A fried-food dinner back in Osaka."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p1317",
+              "caption": {
+                "zh": "吃完之后，留下几面小旗签。",
+                "en": "After the meal, just a few little flag picks remain."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may05-airport-photos",
+      "sectionId": "day-2025-05-05",
+      "blocks": [
+        {
+          "id": "may05-airport-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "第",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "6 天 · 05.05",
+            "en": "06 · 05.05"
+          },
+          "title": {
+            "zh": "在关西机场，给旅途收个尾",
+            "en": "A last meal before home"
+          },
+          "subtitle": {
+            "zh": "关西国际机场",
+            "en": "Kansai International Airport"
+          }
+        },
+        {
+          "id": "may05-airport-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "5 月 5 日返程，走进关西国际机场的国际出发大厅。回家前吃一份简单的午餐：一碗面、盒装配菜和寿司卷。前几天热闹的店铺、庭园和列车都已经留在相册里，这份机场午餐给旅程收了尾。",
+              "en": "On 5 May we headed home, through the international departures hall at Kansai International Airport. Before leaving, we had a simple lunch: noodles, a boxed side dish and sushi rolls. The shops, gardens and trains of the previous days were already in our camera roll; this airport meal brought the trip to a close."
+            }
+          ]
+        },
+        {
+          "id": "may05-airport-library-1",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p1321",
+              "caption": {
+                "zh": "关西机场，回家前的最后一顿。",
+                "en": "One last meal at Kansai Airport before heading home."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "sectionId": "day-2025-05-05",
+      "blocks": [
+        {
+          "id": "closing-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回看这趟旅行，画面并不只属于大阪城、三千院或猫站长。还有雨里的透明伞、商店里抱起的玩偶、列车上的合影、餐桌上举起的杯子。寺院和列车给照片标出了地点，而那些一起停下来拍照的时刻，把它们连成了这趟五一。",
+              "en": "Looking back, this trip's pictures belong to more than Osaka Castle, Sanzen-in, or the cat stationmasters. There are clear umbrellas in the rain, plush toys held up in shops, photos together on the train, and glasses raised around a table. Temples and trains give the photos their locations, but the moments when we stop to take pictures together are what join them into this May Day trip."
+            }
+          ]
+        },
+        {
+          "id": "closing-title",
+          "type": "ending",
+          "title": {
+            "zh": "把照片连成旅途",
+            "en": "Connecting the Photos into a Journey"
+          },
+          "subtitle": {
+            "zh": "大阪 · 京都 · 和歌山",
+            "en": "Osaka · Kyoto · Wakayama"
+          }
+        }
+      ]
+    }
+  ]
+}

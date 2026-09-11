@@ -286,7 +286,8 @@ function renderBlock(
                 )}
               >
                 <img
-                  src={imageUrl(image.filename)}
+                  src={imageUrl(image.thumbnailFilename ?? image.filename)}
+                  data-full-src={image.thumbnailFilename ? imageUrl(image.filename) : undefined}
                   alt={text(item.alt ?? image.alt, locale)}
                   className={item.shape ? IMAGE_SHAPE_CLASS[item.shape] : undefined}
                   style={item.focus ? IMAGE_FOCUS_STYLE[item.focus] : undefined}

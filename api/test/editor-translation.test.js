@@ -39,6 +39,7 @@ test("collects stable paths and IDs for localized fields", () => {
 test("translates only requested Chinese fields and merges validated English", async () => {
   const document = minimalTripDocument();
   document.metadata.style = "photo-story";
+  document.images[0].thumbnailFilename = "cover-thumb.webp";
   document.metadata.title.zh = "新的旅行标题";
   document.metadata.title.en = "";
   let requestBody;
@@ -71,6 +72,7 @@ test("translates only requested Chinese fields and merges validated English", as
   ]);
 
   assert.equal(translated.metadata.title.en, "A New Trip Title");
+  assert.deepEqual(translated.images, document.images);
   assert.equal(translated.metadata.style, "photo-story");
   assert.equal(translated.metadata.subtitle.en, "Subtitle");
   assert.equal(requestBody.messages.length, 2);

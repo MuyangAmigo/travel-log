@@ -18,6 +18,30 @@ const delegationKey = {
   value: Buffer.from("delegation-secret").toString("base64"),
 };
 
+test("document verification includes thumbnails and fails when one is missing", async () => {
+  const checked = [];
+  const service = new AzureStorageImageService(editorConfig, {
+    fetchImpl: async (url) => {
+      checked.push(String(url));
+      return new Response(null, {
+        status: String(url).endsWith("missing.webp") ? 404 : 200,
+        headers: { "content-length": "1234", "content-type": "image/webp" },
+      });
+    },
+  });
+  const document = {
+    slug: "existing-trip",
+    images: [{ filename: "full.webp", thumbnailFilename: "thumb.webp" }],
+  };
+  const verified = await service.verifyDocumentImages(document);
+  assert.deepEqual(verified.map((image) => image.filename), ["full.webp", "thumb.webp"]);
+  assert.equal(checked.length, 2);
+  document.images[0].thumbnailFilename = "missing.webp";
+  await assert.rejects(service.verifyDocumentImages(document), (error) => error.code === "image_not_found");
+  document.images[0].thumbnailFilename = "full.webp";
+  assert.equal((await service.verifyDocumentImages(document)).length, 1);
+});
+
 test("normalizes safe upload names and rejects unsupported extensions", () => {
   assert.equal(normalizeUploadFilename("  My photo (1).JPG  "), "My-photo-1.jpg");
   assert.throws(
