@@ -332,7 +332,7 @@ Trip detail pages intentionally diverge from the Airbnb-style shell. They use a 
 - **Background**: page-level warm off-white `#f5f5f0` with flat white cards in light mode; warm near-black `#111113` with `#1c1c1e` cards in dark mode. Cards retain 44px padding and 16px vertical rhythm.
 - **Accent**: social-red `#ff2442` for cover tags, day badges, timeline times, and pill tags.
 - **Type**: Chinese-first UI/body stack through `--font-sans-cn`; body text is large and readable (26px on the 750px canvas, 1.9 line-height).
-- **Images**: rounded 12–16px photo grids, no old scrapbook filters, tape, or tilted frames. Captions sit below images in muted gray.
+- **Images**: rounded 12–16px photo grids, no old scrapbook filters, tape, or tilted frames. Images inside a row are previews with matching frame ratios and centered `object-fit: cover` crops, not natural-size layouts. Keep the source photo unpadded and uncropped so the shared lightbox can display it in full; do not bake letterboxing into the image to fill a preview frame. Captions sit below images in muted gray.
 - **Content components**: `.nbox` becomes a yellow-highlight note block, `.rbox.warn` becomes an orange warning block, `.tlwrap` becomes a stacked timeline-card list, and `.route` becomes a chip grid.
 
 Structured trip documents use `TripDocumentRenderer` and the existing class vocabulary. `TripPresentation` applies the published layout without changing the source content or reading order.

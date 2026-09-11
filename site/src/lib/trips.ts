@@ -34,6 +34,7 @@ import { meta as kotaKinabalu2025Meta } from "@/content/trips/kota-kinabalu-2025
 import { meta as seoul2023Meta } from "@/content/trips/seoul-2023/meta";
 import { meta as shaoxing2025Meta } from "@/content/trips/shaoxing-2025/meta";
 import { meta as sydney2025Meta } from "@/content/trips/sydney-2025/meta";
+import { meta as taizhou2025Meta } from "@/content/trips/taizhou-2025/meta";
 import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 
 // Newest first — sort by ISO `date` descending so the index/cover page
@@ -45,6 +46,7 @@ export const trips: TripMeta[] = [
   hangzhouConcert2026Meta,
   tokyo2025Meta,
   sydney2025Meta,
+  taizhou2025Meta,
   kotaKinabalu2025Meta,
   japanKansai2024Meta,
   shaoxing2025Meta,
