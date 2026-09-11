@@ -14,7 +14,7 @@
     "test:microsoft-auth": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test src/lib/microsoft-auth-policy.test.mjs"
   },
   "dependencies": {
-    "next": "16.3.0",
+    "next": "16.3.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
