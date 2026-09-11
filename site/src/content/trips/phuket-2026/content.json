@@ -625,8 +625,8 @@
           "id": "page-01-cover-1",
           "type": "cover",
           "eyebrow": {
-            "zh": "🏝️ 🌴 ✈️",
-            "en": "🏝️ 🌴 ✈️"
+            "zh": "泰国 · 普吉岛",
+            "en": "PHUKET, THAILAND"
           },
           "title": {
             "zh": "普吉 · 一场不期而遇的潜水",
@@ -644,24 +644,11 @@
             "zh": "「海岛躺平计划：\n不赶路，不打卡，醒来就是目的。」",
             "en": "\"The island chill plan:\nno rush, no checklist — waking up is the whole point.\""
           },
-          "stamp": {
-            "variant": "circle",
-            "text": {
-              "zh": "PHUKET\n2026",
-              "en": "PHUKET\n2026"
-            }
-          },
           "introStyle": "quote",
           "introWidth": {
             "zh": "narrow",
             "en": "narrow"
-          },
-          "separators": true,
-          "boxStamp": {
-            "zh": "BOARDING PASS",
-            "en": "BOARDING PASS"
-          },
-          "boxStampSpacing": "relaxed"
+          }
         }
       ]
     },
@@ -1013,8 +1000,8 @@
           "style": "body",
           "paragraphs": [
             {
-              "zh": "一夜的折腾，被一个自然醒的上午治愈了。十点多慢悠悠晃去吃早餐——超级丰盛，挑了个户外的位子，眼前就是酒店超大的泳池，再远一点是海。Omelette 自己加满小料，当地的面条味道也很特别。11 点多回房间接着躺。不赶路，不打卡，今天什么都不做，就很好。",
-              "en": "The night undid itself the moment I woke up naturally. After ten, I wandered to breakfast — lavish buffet, an outdoor table facing the hotel's huge pool and the sea beyond. Loaded the omelette with toppings; tried a local noodle that tasted like nowhere else. Back to the room by 11. No plans, no ticking clock. Today, doing nothing is the whole plan."
+              "zh": "一夜的折腾，被一个自然醒的上午治愈了。十点多慢悠悠晃去吃早餐——超级丰盛，挑了个户外的位子，眼前就是酒店超大的泳池，再远一点是海。Omelette 自己加满小料，当地的面条味道也很特别。",
+              "en": "The night undid itself the moment I woke up naturally. After ten, I wandered to breakfast — lavish buffet, an outdoor table facing the hotel's huge pool and the sea beyond. Loaded the omelette with toppings; tried a local noodle that tasted like nowhere else."
             }
           ]
         },
@@ -1027,16 +1014,26 @@
             {
               "imageId": "breakfast-poolside",
               "caption": {
-                "zh": "户外早餐 · 直面泳池与海景",
-                "en": "Outdoor breakfast · pool + sea view"
+                "zh": "十点多的户外座位，泳池之外就是海。",
+                "en": "An outdoor table after ten, with the pool in front and the sea beyond."
               },
-              "shape": "hero",
               "tone": "cool"
             }
           ],
           "spacing": {
             "top": 12
           }
+        },
+        {
+          "id": "page-03-prose-breakfast-pause",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "11 点多回房间接着躺。不赶路，不打卡，今天什么都不做，就很好。",
+              "en": "Back to the room by 11. No plans, no ticking clock. Today, doing nothing is the whole plan."
+            }
+          ]
         },
         {
           "id": "page-03-divider-1",
@@ -1095,8 +1092,75 @@
           "style": "body",
           "paragraphs": [
             {
-              "zh": "沙滩旁有家潜水店，四个人一合计——明天去潜水。就这样，一个下午多出了个新安排。回酒店泳池接着泡水。练了会儿自由泳，在躺椅上彻底躺平。海风、棕榈、远处浪声——所有元素都到位。",
-              "en": "A dive shop sat right by the beach, and the four of us agreed on the spot: tomorrow, we're diving. One afternoon, one new plan. Back at the hotel pool, I practiced freestyle and gave up to a lounger. Sea breeze, palms, distant surf — every element in place."
+              "zh": "沙滩旁有家潜水店，四个人一合计——明天去潜水。就这样，一个下午多出了个新安排。",
+              "en": "A dive shop sat right by the beach, and the four of us agreed on the spot: tomorrow, we're diving. One afternoon, one new plan."
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-prose-dive-shop",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "潜店叫 Patong Dive Center（PADI 认证），就在私人沙滩旁边。店里还有两只常住猫，一只霸占招牌位、一只趴地板，看似都不太欢迎拍照 🐱。",
+              "en": "Patong Dive Center (PADI-certified) sits right next to the private beach. Two resident cats own the place — one on the sign, one on the floor, neither especially welcoming to cameras 🐱."
+            }
+          ]
+        },
+        {
+          "id": "page-03-gallery-5",
+          "type": "gallery",
+          "layout": "two",
+          "variant": "polaroid",
+          "width": "narrow",
+          "images": [
+            {
+              "imageId": "dive-shop-cat",
+              "caption": {
+                "zh": "潜店招牌猫 · 占了 C 位",
+                "en": "Sign cat · owns the C-spot"
+              }
+            },
+            {
+              "imageId": "dive-shop-cat2",
+              "caption": {
+                "zh": "地板上的虎斑猫 · 表情有点凶",
+                "en": "Tabby on the floor · looking a bit grumpy"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-03-note-1",
+          "type": "note",
+          "variant": "note",
+          "title": {
+            "zh": "🤿 沙滩旁的潜水店",
+            "en": "🤿 The dive shop on the beach"
+          },
+          "body": {
+            "zh": "我们当场预订了明天 DSD 体验潜水：Racha 岛全日行程 4,400 THB / 人，2 人共 8,800 THB ≈ ¥1,800（押金 880 THB / 人 已付，无需另付公园费）。明早 6:45 酒店大堂集合。",
+            "en": "We booked tomorrow's DSD on the spot: full-day Racha trip at 4,400 THB / person, 8,800 THB for two ≈ ¥1,800 (880 THB / person deposit paid, no extra park fee). Pickup 6:45 a.m. at the hotel lobby."
+          },
+          "spacing": {
+            "top": 16
+          }
+        },
+        {
+          "id": "page-03-prose-pool",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "回酒店泳池接着泡水。练了会儿自由泳，在躺椅上彻底躺平。海风、棕榈、远处浪声——所有元素都到位。",
+              "en": "Back at the hotel pool, I practiced freestyle and gave up to a lounger. Sea breeze, palms, distant surf — every element in place."
             }
           ],
           "spacing": {
@@ -1154,48 +1218,6 @@
                 "en": "Pool + hotel building"
               },
               "tilt": "right"
-            }
-          ],
-          "spacing": {
-            "top": 12
-          }
-        },
-        {
-          "id": "page-03-note-1",
-          "type": "note",
-          "variant": "note",
-          "title": {
-            "zh": "🤿 沙滩旁的潜水店",
-            "en": "🤿 The dive shop on the beach"
-          },
-          "body": {
-            "zh": "潜店叫 Patong Dive Center（PADI 认证），就在私人沙滩旁边。店里还有两只常住猫，一只霸占招牌位、一只趴地板，看似都不太欢迎拍照 🐱。我们当场预订了明天 DSD 体验潜水：Racha 岛全日行程 4,400 THB / 人，2 人共 8,800 THB ≈ ¥1,800（押金 880 THB / 人 已付，无需另付公园费）。明早 6:45 酒店大堂集合。",
-            "en": "Patong Dive Center (PADI-certified) sits right next to the private beach. Two resident cats own the place — one on the sign, one on the floor, neither especially welcoming to cameras 🐱. We booked tomorrow's DSD on the spot: full-day Racha trip at 4,400 THB / person, 8,800 THB for two ≈ ¥1,800 (880 THB / person deposit paid, no extra park fee). Pickup 6:45 a.m. at the hotel lobby."
-          },
-          "spacing": {
-            "top": 16
-          }
-        },
-        {
-          "id": "page-03-gallery-5",
-          "type": "gallery",
-          "layout": "two",
-          "variant": "polaroid",
-          "width": "narrow",
-          "images": [
-            {
-              "imageId": "dive-shop-cat",
-              "caption": {
-                "zh": "潜店招牌猫 · 占了 C 位",
-                "en": "Sign cat · owns the C-spot"
-              }
-            },
-            {
-              "imageId": "dive-shop-cat2",
-              "caption": {
-                "zh": "地板上的虎斑猫 · 表情有点凶",
-                "en": "Tabby on the floor · looking a bit grumpy"
-              }
             }
           ],
           "spacing": {
@@ -1303,8 +1325,8 @@
           "style": "body",
           "paragraphs": [
             {
-              "zh": "吃完晚饭，趁着天色还早，在芭东海滩散了好久的步。海被傍晚的云烧成了一整片橙红色，浪声很轻，偶尔有人冲浪、游泳。最好看的是天上的滑翔伞——被快艇拉着在天空飞，彩色的伞在云层间起伏、转向、盘旋，像是有人在用天空当画布。看着看着就忘了时间。还有你和身后那把伞，恰好同时入了镜。",
-              "en": "After dinner, while the light was still warm, we walked Patong Beach for a long stretch. The sea burned orange under evening clouds, the surf was gentle, a few swimmers and surfers drifted. The best part was up in the sky — paragliders being tugged by speedboats, the colored canoes banking and turning between clouds like someone was painting the sky. We lost track of time. You and the parachute behind you ended up in the same frame, perfectly."
+              "zh": "吃完晚饭，趁着天色还早，在芭东海滩散了好久的步。海被傍晚的云烧成了一整片橙红色，浪声很轻，偶尔有人冲浪、游泳。最好看的是天上的滑翔伞——被快艇拉着在天空飞，彩色的伞在云层间起伏、转向、盘旋，像是有人在用天空当画布。看着看着就忘了时间。",
+              "en": "After dinner, while the light was still warm, we walked Patong Beach for a long stretch. The sea burned orange under evening clouds, the surf was gentle, a few swimmers and surfers drifted. The best part was up in the sky — paragliders being tugged by speedboats, the colored canoes banking and turning between clouds like someone was painting the sky. We lost track of time."
             }
           ]
         },
@@ -1336,6 +1358,17 @@
           "spacing": {
             "top": 12
           }
+        },
+        {
+          "id": "page-04-prose-selfie",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "还有你和身后那把伞，恰好同时入了镜。",
+              "en": "You and the parachute behind you ended up in the same frame, perfectly."
+            }
+          ]
         },
         {
           "id": "page-04-gallery-3",
@@ -1380,15 +1413,46 @@
           "style": "body",
           "paragraphs": [
             {
-              "zh": "马琳夜市（Malin Plaza）比芭东夜市更小众、人也少，节奏慢，摊主也不像游客区那样紧盯着钱包。一条大烤鱼 200 泰铢、一只大虾 250 泰铢、一份螃蟹 350 泰铢，鲍鱼 200 — 300 泰铢，每一道都让嘴角停不下来。吃到最后满桌海鲜合影一张，是这趟旅行最丰盛的一顿。",
-              "en": "Malin Plaza is a quieter alternative to Patong Night Market — fewer crowds, slower pace, vendors who don't hover. A whole grilled fish for 200 THB, a giant prawn for 250, a plate of crab for 350, abalone 200–300. Every bite kept us grinning. The full-table seafood shot at the end might be the most generous spread of the whole trip."
+              "zh": "马琳夜市（Malin Plaza）比芭东夜市更小众、人也少，节奏慢，摊主也不像游客区那样紧盯着钱包。",
+              "en": "Malin Plaza is a quieter alternative to Patong Night Market — fewer crowds, slower pace, vendors who don't hover."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-7",
+          "type": "gallery",
+          "layout": "one",
+          "variant": "framed",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "malin-stall",
+              "caption": {
+                "zh": "Malin Plaza 海鲜摊 · 比芭东夜市更 local",
+                "en": "Malin Plaza seafood stalls · more local than Patong"
+              },
+              "tone": "cool"
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-04-prose-market-prices",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "一条大烤鱼 200 泰铢、一只大虾 250 泰铢、一份螃蟹 350 泰铢，鲍鱼 200 — 300 泰铢，每一道都让嘴角停不下来。",
+              "en": "A whole grilled fish for 200 THB, a giant prawn for 250, a plate of crab for 350, abalone 200–300. Every bite kept us grinning."
             }
           ]
         },
         {
           "id": "page-04-gallery-4",
           "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "variant": "framed",
           "images": [
             {
@@ -1408,15 +1472,6 @@
               },
               "shape": "square",
               "tone": "cool"
-            },
-            {
-              "imageId": "malin-clams",
-              "caption": {
-                "zh": "炒花甲 · 香辣味足",
-                "en": "Stir-fried clams · spicy and fragrant"
-              },
-              "shape": "square",
-              "tone": "crisp"
             }
           ],
           "spacing": {
@@ -1468,22 +1523,22 @@
           "variant": "framed",
           "images": [
             {
+              "imageId": "malin-clams",
+              "caption": {
+                "zh": "炒花甲 · 香辣味足",
+                "en": "Stir-fried clams · spicy and fragrant"
+              },
+              "shape": "square",
+              "tone": "crisp"
+            },
+            {
               "imageId": "malin-yum",
               "caption": {
                 "zh": "海鲜沙拉 · 酸辣 + 鲜虾 + 粉丝",
                 "en": "Seafood yum · sour-spicy + prawn + glass noodles"
               },
-              "shape": "portrait",
+              "shape": "square",
               "tone": "warm"
-            },
-            {
-              "imageId": "malin-spread",
-              "caption": {
-                "zh": "满桌合影 · 海鲜全宴",
-                "en": "The full table · seafood feast"
-              },
-              "shape": "portrait",
-              "tone": "crisp"
             }
           ],
           "spacing": {
@@ -1491,25 +1546,31 @@
           }
         },
         {
-          "id": "page-04-gallery-7",
+          "id": "page-04-prose-market-feast",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "吃到最后满桌海鲜合影一张，是这趟旅行最丰盛的一顿。",
+              "en": "The full-table seafood shot at the end might be the most generous spread of the whole trip."
+            }
+          ]
+        },
+        {
+          "id": "page-04-gallery-feast",
           "type": "gallery",
           "layout": "one",
           "variant": "framed",
-          "width": "narrow",
           "images": [
             {
-              "imageId": "malin-stall",
+              "imageId": "malin-spread",
               "caption": {
-                "zh": "Malin Plaza 海鲜摊 · 比芭东夜市更 local",
-                "en": "Malin Plaza seafood stalls · more local than Patong"
+                "zh": "满桌合影 · 海鲜全宴",
+                "en": "The full table · seafood feast"
               },
-              "shape": "hero",
-              "tone": "cool"
+              "tone": "crisp"
             }
-          ],
-          "spacing": {
-            "top": 12
-          }
+          ]
         },
         {
           "id": "page-04-prose-4",
@@ -1538,7 +1599,6 @@
                 "zh": "毛巾小象 🐘 · 工作人员叠的，超治愈",
                 "en": "Towel elephant 🐘 · folded by the team, pure comfort"
               },
-              "shape": "hero",
               "tone": "cool"
             }
           ],
@@ -1596,8 +1656,8 @@
           "style": "body",
           "paragraphs": [
             {
-              "zh": "6:55 从酒店出发（迟了 10 分钟，司机大哥有点黑脸），一路接上同船潜友，8:00+ 才到码头。快艇颠到皇帝岛 Racha Noi + Racha Yai，三个潜点。船上午餐 JJ 和小土都因为晕船没吃，14:00 的第三潜终于开窍——背挺直、胯前挺、吐气下沉、吸气上浮，第一次感觉自己不是被水推着走，是在水里游的。珊瑚像花园一样铺开，整个海底震撼到说不出话。",
-              "en": "Lobby pickup at 6:55 a.m. (we were ten minutes late — the driver was not amused), and we picked up fellow divers along the way before reaching Chalong Pier past 8:00. A bouncy speedboat ride to Racha Noi and Racha Yai, three dive sites. JJ and Xiaotu both skipped lunch — seasick and wrecked. The third dive at 14:00 finally clicked: back straight, hips forward, exhale to sink, inhale to rise — for the first time I felt like I was swimming in the water, not being shoved by it. Coral spread like a garden. The whole seafloor left us speechless."
+              "zh": "6:55 从酒店出发（迟了 10 分钟，司机大哥有点黑脸），一路接上同船潜友，8:00+ 才到码头。快艇颠到皇帝岛 Racha Noi + Racha Yai，三个潜点。船上午餐 JJ 和小土都因为晕船没吃。"
+              "en": "Lobby pickup at 6:55 a.m. (we were ten minutes late — the driver was not amused), and we picked up fellow divers along the way before reaching Chalong Pier past 8:00. A bouncy speedboat ride to Racha Noi and Racha Yai, three dive sites. JJ and Xiaotu both skipped lunch — seasick and wrecked."
             }
           ]
         },
@@ -1663,96 +1723,6 @@
               "detail": {
                 "zh": "呛水、误关 BCD 充气、被教练用红带拽着走；后半段开始看到鱼群",
                 "en": "Choked on water, accidentally closed the BCD inflator, instructor towed me with a red strap; second half, fish started appearing"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-5",
-              "time": {
-                "zh": "14:00",
-                "en": "14:00"
-              },
-              "event": {
-                "zh": "第三潜（最后一潜）",
-                "en": "Dive 3 (last dive)"
-              },
-              "detail": {
-                "zh": "终于开窍：背挺直、胯前挺、吐气下沉、吸气上浮",
-                "en": "It finally clicked — back straight, hips forward, exhale to sink, inhale to rise"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-6",
-              "time": {
-                "zh": "15:00",
-                "en": "15:00"
-              },
-              "event": {
-                "zh": "潜水结束",
-                "en": "Dives over"
-              },
-              "detail": {
-                "zh": "收东西、慢慢回程",
-                "en": "Pack up, slow ride back"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-7",
-              "time": {
-                "zh": "17:00",
-                "en": "17:00"
-              },
-              "event": {
-                "zh": "回到普吉岛",
-                "en": "Back in Phuket"
-              },
-              "detail": {
-                "zh": "换小车回市区",
-                "en": "Transfer to a smaller car, head into town"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-8",
-              "time": {
-                "zh": "18:00+",
-                "en": "18:00+"
-              },
-              "event": {
-                "zh": "Naughty Nuri's 晚餐",
-                "en": "Naughty Nuri's dinner"
-              },
-              "detail": {
-                "zh": "招牌烤肋排 · 4 人共 ¥550",
-                "en": "Famous ribs · 4 people, ¥550"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-9",
-              "time": {
-                "zh": "19:30",
-                "en": "19:30"
-              },
-              "event": {
-                "zh": "回酒店 · 收获第二只小象",
-                "en": "Back at hotel · second towel elephant"
-              },
-              "detail": {
-                "zh": "卡片署名 Viong 🐘",
-                "en": "Note signed Viong 🐘"
-              }
-            },
-            {
-              "id": "page-05-timeline-1-item-10",
-              "time": {
-                "zh": "21:30",
-                "en": "21:30"
-              },
-              "event": {
-                "zh": "Let's Relax 2 小时泰式按摩",
-                "en": "Let's Relax · 2h Thai massage"
-              },
-              "detail": {
-                "zh": "2,400 THB ≈ ¥504",
-                "en": "2,400 THB ≈ ¥504"
               }
             }
           ],
@@ -1827,11 +1797,46 @@
           }
         },
         {
+          "id": "page-05-timeline-third-dive",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-5",
+              "time": {
+                "zh": "14:00",
+                "en": "14:00"
+              },
+              "event": {
+                "zh": "第三潜（最后一潜）",
+                "en": "Dive 3 (last dive)"
+              },
+              "detail": {
+                "zh": "终于开窍：背挺直、胯前挺、吐气下沉、吸气上浮",
+                "en": "It finally clicked — back straight, hips forward, exhale to sink, inhale to rise"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-prose-third-dive",
+          "type": "prose",
+          "style": "body",
+          "paragraphs": [
+            {
+              "zh": "14:00 的第三潜终于开窍——背挺直、胯前挺、吐气下沉、吸气上浮，第一次感觉自己不是被水推着走，是在水里游的。珊瑚像花园一样铺开，整个海底震撼到说不出话。",
+              "en": "The third dive at 14:00 finally clicked: back straight, hips forward, exhale to sink, inhale to rise — for the first time I felt like I was swimming in the water, not being shoved by it. Coral spread like a garden. The whole seafloor left us speechless."
+            }
+          ]
+        },
+        {
           "id": "page-05-gallery-3",
           "type": "gallery",
           "layout": "one",
           "variant": "framed",
-          "width": "narrow",
+          "width": "full",
           "images": [
             {
               "imageId": "dive-farewell",
@@ -1864,6 +1869,45 @@
           }
         },
         {
+          "id": "page-05-timeline-return",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-6",
+              "time": {
+                "zh": "15:00",
+                "en": "15:00"
+              },
+              "event": {
+                "zh": "潜水结束",
+                "en": "Dives over"
+              },
+              "detail": {
+                "zh": "收东西、慢慢回程",
+                "en": "Pack up, slow ride back"
+              }
+            },
+            {
+              "id": "page-05-timeline-1-item-7",
+              "time": {
+                "zh": "17:00",
+                "en": "17:00"
+              },
+              "event": {
+                "zh": "回到普吉岛",
+                "en": "Back in Phuket"
+              },
+              "detail": {
+                "zh": "换小车回市区",
+                "en": "Transfer to a smaller car, head into town"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
           "id": "page-05-divider-2",
           "type": "divider",
           "icon": "🍖",
@@ -1882,6 +1926,30 @@
               "en": "Back from the pier, Naughty Nuri's pink lucky pig at the door is unmissable. Caramelized ribs, a four-sausage platter, satay skewers with peanut sauce — the full table has a real ceremony to it. The ribs themselves run a touch greasy, and add-on ribs cost extra; for a网红 BBQ spot, the value is so-so."
             }
           ]
+        },
+        {
+          "id": "page-05-timeline-dinner",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-8",
+              "time": {
+                "zh": "18:00+",
+                "en": "18:00+"
+              },
+              "event": {
+                "zh": "Naughty Nuri's 晚餐",
+                "en": "Naughty Nuri's dinner"
+              },
+              "detail": {
+                "zh": "招牌烤肋排 · 4 人共 ¥550",
+                "en": "Famous ribs · 4 people, ¥550"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
         },
         {
           "id": "page-05-gallery-4",
@@ -1987,6 +2055,30 @@
           }
         },
         {
+          "id": "page-05-timeline-hotel",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-9",
+              "time": {
+                "zh": "19:30",
+                "en": "19:30"
+              },
+              "event": {
+                "zh": "回酒店 · 收获第二只小象",
+                "en": "Back at hotel · second towel elephant"
+              },
+              "detail": {
+                "zh": "卡片署名 Viong 🐘",
+                "en": "Note signed Viong 🐘"
+              }
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
           "id": "page-05-gallery-6",
           "type": "gallery",
           "layout": "one",
@@ -1999,7 +2091,6 @@
                 "zh": "第二只小象 🐘 · 卡片署名 Viong",
                 "en": "Second towel elephant 🐘 · note signed Viong"
               },
-              "shape": "hero",
               "tone": "cool"
             }
           ],
@@ -2015,6 +2106,30 @@
             {
               "zh": "回酒店又收获一只迷你毛巾小象——这是第二只了。卡片署名 Viong，应该是做晚班打扫的工作人员。两小时泰式按摩紧跟着，把这一天从海底到陆地的酸痛全推开了。",
               "en": "Back at the hotel, another mini towel elephant awaited — that's two now. The card was signed Viong, likely the night-shift housekeeping lead. A two-hour Thai massage right after, and every knot from sea to land was worked out."
+            }
+          ],
+          "spacing": {
+            "top": 12
+          }
+        },
+        {
+          "id": "page-05-timeline-massage",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "page-05-timeline-1-item-10",
+              "time": {
+                "zh": "21:30",
+                "en": "21:30"
+              },
+              "event": {
+                "zh": "Let's Relax 2 小时泰式按摩",
+                "en": "Let's Relax · 2h Thai massage"
+              },
+              "detail": {
+                "zh": "2,400 THB ≈ ¥504",
+                "en": "2,400 THB ≈ ¥504"
+              }
             }
           ],
           "spacing": {
@@ -2279,7 +2394,6 @@
                 "zh": "Day 4 早餐 · 97 号老位置 · 吐司 + 蛋 + 沙拉 + 咖啡",
                 "en": "Day 4 breakfast · table 97 · toast + egg + salad + coffee"
               },
-              "shape": "hero",
               "tone": "cool"
             }
           ],

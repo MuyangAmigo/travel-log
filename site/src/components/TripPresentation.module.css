@@ -646,3 +646,255 @@
     font-size: 32px;
   }
 }
+
+/* Phuket pilots a sequential photo story; other trips and styles stay unchanged. */
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"])) {
+  --reading-column: 640px;
+
+  &:lang(zh) {
+    --reading-column: 612px;
+  }
+
+  & :global(.trip-content) {
+    padding-bottom: 96px;
+    background: var(--trip-card);
+  }
+
+  & :global(.trip-entry-layout) {
+    max-width: 1040px;
+  }
+
+  & :global(.trip-entry-compact) {
+    width: min(100%, var(--reading-column));
+    margin: 0 auto 24px;
+  }
+
+  & :global(.trip-entry-compact details) {
+    background: var(--trip-card);
+    border-radius: 8px;
+  }
+
+  & :global(.trip-entry-compact summary) {
+    min-height: 48px;
+    padding: 12px 16px;
+  }
+
+  & :global(.trip-entry-compact nav) {
+    grid-template-columns: 1fr;
+  }
+
+  & :global(.card-wrap:not(:first-child)) {
+    padding-top: 0;
+  }
+
+  & :global(.card:not(:has(.cover-border))) {
+    display: flex;
+    padding: 80px 40px 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  & :global(.card:has(.cover-border)) {
+    height: auto;
+    min-height: 540px;
+  }
+
+  & :global(.cover-border) {
+    padding: 56px 40px;
+  }
+
+  & :global(.cover-title) {
+    max-width: 780px;
+    font-size: clamp(34px, 4vw, 58px);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0;
+  }
+
+  & :global(.cover-emoji) {
+    padding: 0;
+    background: transparent;
+    font-size: 13px;
+    letter-spacing: .08em;
+  }
+
+  & :global(.card > :is(.jtxt, .hw, .hwcn, .day-header, .tlwrap, .nbox, .rbox, .bill, .dv, .tags, .tcenter)) {
+    width: 100%;
+    max-width: var(--reading-column);
+    margin-inline: auto;
+  }
+
+  & :global(.card > :is(.jtxt, .hw, .hwcn)) {
+    margin-top: 0;
+    margin-bottom: 28px;
+    color: var(--trip-body);
+    font-size: 18px;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+  }
+
+  & :global(.jtxt p:last-child) {
+    margin-bottom: 0;
+  }
+
+  & :global(.day-header) {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 36px;
+    padding-bottom: 0;
+    border: 0;
+  }
+
+  & :global(.day-header > div:not(.day-circle):not(.day-weather)) {
+    text-align: left;
+  }
+
+  & :global(.day-circle) {
+    min-width: 0;
+    padding: 0;
+    background: transparent;
+    color: var(--trip-accent-text);
+  }
+
+  & :global(.day-circle .num) {
+    font-size: 13px;
+    letter-spacing: .06em;
+  }
+
+  & :global(.day-title) {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: 0;
+  }
+
+  & :global(.day-sub) {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  & :global(.day-weather),
+  & :global(.page-num) {
+    display: none;
+  }
+
+  & :global(.card > .pgrid) {
+    gap: 16px;
+    margin-top: 0;
+    margin-bottom: 44px;
+  }
+
+  & :global(.card > .pgrid:has(+ .pgrid)) {
+    margin-bottom: 20px;
+  }
+
+  & :global(.card > .g1:has(img:not(.sq, .ls, .wd, .pt, .hero))) {
+    width: min(100%, 420px);
+    margin-inline: auto;
+  }
+
+  & :global(.g1 img:not(.sq, .ls, .wd, .pt, .hero)) {
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  & :global(.pf),
+  & :global(.pol) {
+    overflow: visible;
+    background: transparent;
+  }
+
+  & :global(.cap),
+  & :global(.pol-t) {
+    margin: 0;
+    padding: 12px 0 0;
+    color: var(--trip-secondary);
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  & :global(.card > .dv) {
+    margin-top: 12px;
+    margin-bottom: 48px;
+  }
+
+  & :global(.dv span) {
+    display: none;
+  }
+
+  & :global(.card > :is(.nbox, .rbox, .bill)) {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  & :global(.nbox) {
+    border: 1px solid var(--trip-border);
+    border-radius: 12px;
+    background: var(--trip-surface);
+  }
+
+  & :global(.tlwrap) {
+    gap: 0;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  & :global(.tl-item) {
+    padding: 16px 0;
+    border: 0;
+    border-bottom: 1px solid var(--trip-border);
+    border-radius: 0;
+    background: transparent;
+  }
+
+  @media (max-width: 760px) {
+    & :global(.trip-content) {
+      padding: 0 16px 64px;
+    }
+
+    & :global(.card:not(:has(.cover-border))) {
+      padding: 48px 8px 0;
+    }
+
+    & :global(.card:has(.cover-border)) {
+      min-height: 440px;
+    }
+
+    & :global(.cover-border) {
+      padding: 32px 24px;
+    }
+
+    & :global(.cover-title) {
+      font-size: 34px;
+    }
+
+    & :global(.card > :is(.jtxt, .hw, .hwcn)) {
+      margin-bottom: 24px;
+      font-size: 17px;
+    }
+
+    & :global(.day-header) {
+      margin-bottom: 28px;
+    }
+
+    & :global(.day-title) {
+      font-size: 27px;
+    }
+
+    & :global(.card > .pgrid) {
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    & :global(.card > .dv) {
+      margin-bottom: 32px;
+    }
+
+    & :global(.g3) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

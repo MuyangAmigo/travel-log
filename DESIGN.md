@@ -72,6 +72,33 @@ untinted. `:root:has(.index-wrap)` scopes the tokens; `body:has(.index-wrap)`
 paints the gradients. This also covers the viewport margins and requires no
 client-side theme or route effects.
 
+## Phuket reading-flow pilot
+
+Phuket (`phuket-2026`) uses a sequential variation of its published `photo-story`
+presentation. The shared renderer exposes `data-trip-document`; the scoped rules
+in `TripPresentation.module.css` apply only to that document in Photo Story, both
+on the trip route and in the editor's bilingual viewport previews. Classic,
+Field Journal, and other trips retain their existing layouts.
+
+Text and media share a center axis, not a width: Chinese prose is capped at
+612px and English at 640px, with 18px body text (17px on phones); full-width
+galleries can expand to 960px. Text precedes its photographs rather than being
+automatically paired beside them. Single photographs without an authored shape
+retain their natural aspect ratio in a column capped at 420px; do not crop the
+portrait breakfast or full-table photographs into landscape banners. Existing
+narrow galleries remain intimate detail spreads. Three-image grids become a
+single column on phones.
+
+The existing cards remain chapter/anchor containers but no longer look like
+separate sheets. Chapter headings, prose, notes, and a quiet sticky chapter menu
+share the reading column. Theme tokens, fonts, privacy, image zoom, and authored
+section IDs are unchanged. No reveal animation or new media is required.
+
+Pacing is authored in the bilingual document: breakfast gets a pause after its
+photo; night-market stalls lead into prices and dishes, with the full-table
+photograph closing the scene; dive photographs follow the corresponding stages.
+All source images and recorded costs remain available in both locales.
+
 ## 1. Visual Theme & Atmosphere
 
 Airbnb's website is a warm, photography-forward marketplace that feels like flipping through a travel magazine where every page invites you to book. The light theme operates on a foundation of pure white (`#ffffff`), while the dark theme uses a warm near-black (`#111113`). The iconic Rausch Red (`#ff385c`) — named after Airbnb's first street address — remains the singular brand accent in both themes. The result is a clean canvas where listing photography, category icons, and the red CTA button are the primary sources of color.
