@@ -74,9 +74,9 @@ Read applicable child instructions before editing files in `site/`.
    a scene and its image.
 6. Keep `.card-wrap > .card` and stable chapter identity. For structured entries,
    set `pages[].sectionId` and optional localized `sections[].navigation`; the
-   renderer emits matching `data-trip-section` and an `id` on the chapter's first
-   card. When revising authored JSX, keep that same structure and export a
-   localized `sections` array typed with `TripEntrySection` when curated labels
+   renderer emits `data-trip-section` on every `.card-wrap` in the chapter and
+   the matching anchor `id` on its first `.card-wrap`. When revising authored
+   JSX, keep those attributes on `.card-wrap` and export a localized `sections`
    are needed. The shared layout can also derive labels from `.cover-title`,
    `.day-title`, `.day-sub`, and `.day-circle`.
 7. Let the shared route own `TripPresentation`, `TripEntryLayout`,
