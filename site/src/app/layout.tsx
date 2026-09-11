@@ -60,6 +60,13 @@ export const metadata: Metadata = {
   },
   description: "A hand-kept journal of travels — photos, food, and small discoveries.",
   authors: [{ name: "Junjie Li" }],
+  icons: {
+    icon: {
+      url: "https://muyangamigo.github.io/junjieweb/images/profile_photo.jpeg",
+      type: "image/jpeg",
+      sizes: "360x360",
+    },
+  },
 };
 
 export default function RootLayout({
