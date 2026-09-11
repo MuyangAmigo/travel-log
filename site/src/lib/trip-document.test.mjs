@@ -60,6 +60,16 @@ test("site and API preserve optional thumbnails and reject unsafe thumbnail path
       copy.images[0].thumbnailFilename = invalid;
       assert.throws(() => parse(copy));
     }
+    for (const length of [179, 180, 181]) {
+      const copy = structuredClone(document);
+      const filename = `${"a".repeat(length - 5)}.webp`;
+      copy.images[0].thumbnailFilename = filename;
+      if (length <= 180) {
+        assert.equal(parse(copy).images[0].thumbnailFilename, filename);
+      } else {
+        assert.throws(() => parse(copy), `${length}-character thumbnails must be rejected`);
+      }
+    }
   }
 });
 

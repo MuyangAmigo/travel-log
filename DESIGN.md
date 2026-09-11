@@ -470,6 +470,7 @@ in the reading flow, not behind a forced carousel or only in a lightbox.
 For larger libraries, `images[].thumbnailFilename` optionally supplies a smaller
 gallery image; `filename` remains the full-composition lightbox and cover asset.
 Both filenames use the trip image helper and must be verified before publication.
+Thumbnail filenames are limited to 180 characters by both the site and API.
 Omitting the thumbnail preserves existing image behavior.
 Inspect slow image loading for layout shifts as well as final crops. Use existing
 aspect-ratio support for deliberately shaped images; do not force a crop to hide

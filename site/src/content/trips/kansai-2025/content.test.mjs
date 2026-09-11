@@ -116,6 +116,15 @@ test("Kansai metadata and both locales share the private structured presentation
   assert.doesNotMatch(source, /\/Users\/|GPS|source_sha256|localhost|127\.0\.0\.1|blob\.core/);
 });
 
+test("Kansai captions match the individual photo and confirmed train name", () => {
+  const photos = blocks.filter((block) => block.type === "gallery").flatMap((block) => block.images);
+  assert.equal(photos.find((photo) => photo.imageId === "p0505").caption.en, "The evening ends with a photo of grilled skewers.");
+  const train = photos.find((photo) => photo.imageId === "p1148");
+  for (const locale of ["zh", "en"]) {
+    assert.match(train.caption[locale], /TAMA MUSEUM/);
+  }
+});
+
 test("local image previews require an explicit development-only loopback mapping", () => {
   const options = { mode: "development", slug: "kansai-2025", origin: "http://127.0.0.1:4382" };
   assert.equal(localTripImage("kansai-2025", "p1154.webp", options), "http://127.0.0.1:4382/kansai-2025/p1154.webp");
