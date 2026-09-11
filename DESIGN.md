@@ -226,6 +226,11 @@ What distinguishes Airbnb is its palette-based token system (`--palette-*`) and 
 - Heart/wishlist icon overlay on images
 - 8px–14px radius on contained images
 
+### Browser Favicon
+- Use [`site/public/favicon-rounded.png`](site/public/favicon-rounded.png), a 64px circular version of the existing profile illustration with transparent corners.
+- Round the image itself, not the page CSS; retain alpha transparency when replacing the asset.
+- The root layout and private-trip authentication template share this asset, with paths that work both locally and beneath `/travel-log`.
+
 ## 5. Layout Principles
 
 ### Spacing System

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Caveat, Homemade_Apple, Inter } from "next/font/google";
+import { withBasePath } from "@/lib/base-path";
 import "./fonts/lxgw-wenkai/style.css";
 import "./globals.css";
 
@@ -62,9 +63,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Junjie Li" }],
   icons: {
     icon: {
-      url: "https://muyangamigo.github.io/junjieweb/images/profile_photo.jpeg",
-      type: "image/jpeg",
-      sizes: "360x360",
+      url: withBasePath("/favicon-rounded.png"),
+      type: "image/png",
+      sizes: "64x64",
     },
   },
 };
