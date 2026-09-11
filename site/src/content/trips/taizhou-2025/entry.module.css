@@ -1,0 +1,8 @@
+.entry {
+  display: contents;
+}
+
+/* Preserve the approved pairs across the legacy tablet grid breakpoint. */
+.entry :global(.pgrid.g2) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
