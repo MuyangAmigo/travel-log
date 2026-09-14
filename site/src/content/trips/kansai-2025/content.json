@@ -769,6 +769,62 @@
       }
     },
     {
+      "id": "receipt-lv",
+      "filename": "louis-vuitton-receipt.jpeg",
+      "alt": {
+        "zh": "大阪阪急男士馆 Louis Vuitton 商品凭证",
+        "en": "Louis Vuitton item receipt from Hankyu Men's Osaka"
+      }
+    },
+    {
+      "id": "receipt-lv-payment",
+      "filename": "louis-vuitton-payment-receipt.jpeg",
+      "alt": {
+        "zh": "大阪阪急男士馆 Louis Vuitton 付款收据",
+        "en": "Louis Vuitton payment receipt from Hankyu Men's Osaka"
+      }
+    },
+    {
+      "id": "receipt-gucci",
+      "filename": "gucci-belt-receipt.jpeg",
+      "alt": {
+        "zh": "Gucci 男士皮带商品凭证",
+        "en": "Gucci men's belt item receipt"
+      }
+    },
+    {
+      "id": "receipt-gucci-payment",
+      "filename": "gucci-payment-receipt.jpeg",
+      "alt": {
+        "zh": "大阪阪急男士馆皮带付款收据，盖有免税章",
+        "en": "Belt payment receipt from Hankyu Men's Osaka with a tax-free stamp"
+      }
+    },
+    {
+      "id": "receipt-lululemon",
+      "filename": "lululemon-receipt.jpeg",
+      "alt": {
+        "zh": "列有七件服饰及免税合计的 Lululemon 收据",
+        "en": "Lululemon receipt listing seven clothing items and a tax-free total"
+      }
+    },
+    {
+      "id": "receipt-y3",
+      "filename": "y3-receipt.jpeg",
+      "alt": {
+        "zh": "大阪阪急男士馆 Y-3 男士 T 恤收据",
+        "en": "Y-3 men's T-shirt receipt from Hankyu Men's Osaka"
+      }
+    },
+    {
+      "id": "receipt-north-face",
+      "filename": "north-face-receipt.jpeg",
+      "alt": {
+        "zh": "心斋桥 PARCO The North Face 鞋子及购物袋免税收据",
+        "en": "Tax-free receipt for shoes and a shopping bag from The North Face at Shinsaibashi PARCO"
+      }
+    },
+    {
       "id": "p1154",
       "filename": "p1154.webp",
       "alt": {
@@ -894,6 +950,23 @@
         "detail": {
           "zh": "关西国际机场",
           "en": "Kansai International Airport"
+        }
+      }
+    },
+    {
+      "id": "shopping",
+      "navigation": {
+        "marker": {
+          "zh": "购物",
+          "en": "SHOP"
+        },
+        "label": {
+          "zh": "购物愿望与战利品",
+          "en": "Shopping Wishlist & Haul"
+        },
+        "detail": {
+          "zh": "心愿单 · 宝宝子的礼物 · 购物凭证",
+          "en": "Wishlist · A gift from my sweetheart · Receipts"
         }
       }
     }
@@ -2807,6 +2880,284 @@
             "zh": "大阪 · 京都 · 和歌山",
             "en": "Osaka · Kyoto · Wakayama"
           }
+        }
+      ]
+    },
+    {
+      "id": "shopping-wishlist",
+      "sectionId": "shopping",
+      "blocks": [
+        {
+          "id": "shopping-header",
+          "type": "header",
+          "markerVariant": "category",
+          "markerLabel": { "zh": "购物", "en": "SHOP" },
+          "markerValue": { "zh": "清单", "en": "LIST" },
+          "title": {
+            "zh": "购物愿望与战利品",
+            "en": "Shopping Wishlist & Haul"
+          },
+          "subtitle": {
+            "zh": "2025 关西 · 我的购物清单",
+            "en": "Kansai 2025 · My shopping list"
+          }
+        },
+        {
+          "id": "shopping-intro",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟关西之行，我也带着一份购物心愿单。护肤品、皮带、衣服和鞋子都打了勾，游戏本则还留在愿望里。把想买的、买到的，以及宝宝子送我的礼物，一起记在这里。",
+              "en": "I also brought a shopping wishlist on this Kansai trip. Skincare, belts, clothes and shoes all got their ticks; the gaming laptop stayed on the wishlist. Here are the things I wanted, what I bought, and the gift my sweetheart bought me."
+            }
+          ]
+        },
+        {
+          "id": "shopping-list",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "未购 · 游戏本",
+              "en": "Not bought · Gaming laptop"
+            },
+            {
+              "zh": "已购 · Bobbi Brown 卸妆油",
+              "en": "Bought · Bobbi Brown cleansing oil"
+            },
+            {
+              "zh": "已购 · 娇韵诗 Double Serum 轻盈版",
+              "en": "Bought · Clarins Double Serum Light Texture"
+            },
+            {
+              "zh": "已购 · SK-II 神仙水",
+              "en": "Bought · SK-II Facial Treatment Essence"
+            },
+            {
+              "zh": "已购 · 奢侈品皮带：LV、Gucci",
+              "en": "Bought · Luxury-brand belts: LV and Gucci"
+            },
+            {
+              "zh": "已购 · Lululemon：心斋桥直营店",
+              "en": "Bought · Lululemon: directly operated Shinsaibashi store"
+            },
+            {
+              "zh": "已购 · 鞋子：Nike、The North Face",
+              "en": "Bought · Shoes: Nike and The North Face"
+            },
+            {
+              "zh": "已购 · Y-3 Tee",
+              "en": "Bought · Y-3 Tee"
+            }
+          ]
+        },
+        {
+          "id": "shopping-gift-header",
+          "type": "header",
+          "markerVariant": "category",
+          "markerLabel": { "zh": "礼物", "en": "GIFT" },
+          "markerValue": { "zh": "眼镜", "en": "GM" },
+          "subtitle": { "zh": "Gentle Monster 眼镜", "en": "Gentle Monster glasses" },
+          "title": {
+            "zh": "宝宝子给我买的",
+            "en": "What My Sweetheart Bought Me"
+          }
+        },
+        {
+          "id": "shopping-gift",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "已购 · Gentle Monster 眼镜。这副是宝宝子给我买的，单独留一行，记下这份礼物。",
+              "en": "Bought · Gentle Monster glasses. My sweetheart bought these for me, so they get a line of their own here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-belts",
+      "sectionId": "shopping",
+      "blocks": [
+        {
+          "id": "shopping-receipts-header",
+          "type": "header",
+          "markerVariant": "category",
+          "markerLabel": { "zh": "购物", "en": "SHOP" },
+          "markerValue": { "zh": "皮带", "en": "BELTS" },
+          "title": {
+            "zh": "购物凭证",
+            "en": "Purchase Receipts"
+          },
+          "subtitle": {
+            "zh": "先收好两条皮带的票据",
+            "en": "The receipts for the two belts"
+          }
+        },
+        {
+          "id": "shopping-lv-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "LV 和 Gucci 两条皮带都买到了。先放 LV 的商品凭证和阪急付款收据，同一笔购买的两张票据放在一起。",
+              "en": "I bought both the LV and Gucci belts. First are the LV item receipt and the Hankyu payment receipt, kept together as two records of the same purchase."
+            }
+          ]
+        },
+        {
+          "id": "shopping-lv-receipt",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-lv",
+              "caption": {
+                "zh": "5 月 1 日，LV 皮带的商品凭证。",
+                "en": "1 May: the item receipt for the LV belt."
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-lv-payment",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-lv-payment",
+              "caption": {
+                "zh": "对应的阪急收据：票面含税合计 ¥107,800，并盖有免税章；不是另一笔购买。",
+                "en": "The matching Hankyu receipt shows a tax-inclusive total of ¥107,800 and a tax-free stamp; this is not another purchase."
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-gucci-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "Gucci 的皮带也从心愿单变成了战利品。品牌凭证和百货店付款收据，同样一起收好。",
+              "en": "The Gucci belt also moved from the wishlist to the haul. Its brand receipt and department-store payment receipt belong together too."
+            }
+          ]
+        },
+        {
+          "id": "shopping-gucci-receipt",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-gucci",
+              "caption": {
+                "zh": "5 月 1 日，Gucci 男士皮带的商品凭证。",
+                "en": "1 May: the item receipt for the Gucci men's belt."
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-gucci-payment",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-gucci-payment",
+              "caption": {
+                "zh": "阪急付款收据列出 5% 折扣，票面含税合计 ¥72,627，并盖有免税章。",
+                "en": "The Hankyu payment receipt lists a 5% discount, a tax-inclusive total of ¥72,627 and a tax-free stamp."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-clothes",
+      "sectionId": "shopping",
+      "blocks": [
+        {
+          "id": "shopping-clothes-header",
+          "type": "header",
+          "markerVariant": "category",
+          "markerLabel": { "zh": "购物", "en": "SHOP" },
+          "markerValue": { "zh": "衣鞋", "en": "WEAR" },
+          "subtitle": { "zh": "Lululemon · Y-3 · The North Face", "en": "Lululemon · Y-3 · The North Face" },
+          "title": {
+            "zh": "衣服和鞋子，也打上勾",
+            "en": "Clothes and shoes, ticked off too"
+          }
+        },
+        {
+          "id": "shopping-lululemon-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "Lululemon 去的是心斋桥直营店，留下的这张小票列了七件服饰。购物清单上的这一项，也完成了。",
+              "en": "For Lululemon, I went to the directly operated Shinsaibashi store. The receipt lists seven clothing items: another entry ticked off my shopping list."
+            }
+          ]
+        },
+        {
+          "id": "shopping-lululemon-receipt",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-lululemon",
+              "caption": {
+                "zh": "七件服饰的小票，免税合计 ¥84,728。",
+                "en": "The receipt for seven clothing items, with a tax-free total of ¥84,728."
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-y3-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "Y-3 Tee 也买到了，收据上留着阪急男士馆 Y-3 柜台的名字。",
+              "en": "I bought the Y-3 Tee too. The receipt carries the name of the Y-3 counter at Hankyu Men's Osaka."
+            }
+          ]
+        },
+        {
+          "id": "shopping-y3-receipt",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-y3",
+              "caption": {
+                "zh": "5 月 1 日的 T 恤收据：列有 5% 折扣，票面含税合计 ¥24,035，并盖有免税章。",
+                "en": "The T-shirt receipt from 1 May lists a 5% discount, a tax-inclusive total of ¥24,035 and a tax-free stamp."
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-shoes-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "鞋子这项，Nike 和 The North Face 都打了勾。这里留的是 The North Face 心斋桥 PARCO 店的免税收据，鞋子和购物袋分别列在上面。",
+              "en": "For shoes, both Nike and The North Face got their ticks. The receipt kept here is from The North Face at Shinsaibashi PARCO, with the shoes and shopping bag listed separately."
+            }
+          ]
+        },
+        {
+          "id": "shopping-north-face-receipt",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "receipt-north-face",
+              "caption": {
+                "zh": "鞋子 ¥25,000，购物袋 ¥46，免税合计 ¥25,046。",
+                "en": "Shoes ¥25,000 and shopping bag ¥46: a tax-free total of ¥25,046."
+              }
+            }
+          ]
         }
       ]
     }
