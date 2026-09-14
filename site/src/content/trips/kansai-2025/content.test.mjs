@@ -7,6 +7,15 @@ import { localTripImage } from "../../../lib/local-trip-images.ts";
 const source = readFileSync(new URL("./content.json", import.meta.url), "utf8");
 const document = parseTripDocument(JSON.parse(source));
 const blocks = document.pages.flatMap((page) => page.blocks);
+const receiptFiles = {
+  "receipt-lv": "louis-vuitton-receipt.jpeg",
+  "receipt-lv-payment": "louis-vuitton-payment-receipt.jpeg",
+  "receipt-gucci": "gucci-belt-receipt.jpeg",
+  "receipt-gucci-payment": "gucci-payment-receipt.jpeg",
+  "receipt-lululemon": "lululemon-receipt.jpeg",
+  "receipt-y3": "y3-receipt.jpeg",
+  "receipt-north-face": "north-face-receipt.jpeg",
+};
 const approvedIds = `
 p0011 p0019 p0035 p0045 p0061 p0063
 p0071 p0105 p0123 p0161 p0169 p0179 p0209 p0215 p0217 p0219 p0237 p0239
@@ -25,8 +34,9 @@ may04-rail may04-idakiso may04-kishi may04-hiraike may04-evening
 may05-airport`.trim().split(/\s+/);
 
 test("Kansai preserves the 83-photo library and separate P1154 cover", () => {
-  const photos = blocks.filter((block) => block.type === "gallery").flatMap((block) => block.images);
-  assert.equal(document.images.length, 84);
+  const photos = blocks.filter((block) => block.type === "gallery").flatMap((block) => block.images)
+    .filter((photo) => !Object.hasOwn(receiptFiles, photo.imageId));
+  assert.equal(document.images.length, 91);
   assert.equal(photos.length, 83);
   assert.deepEqual(new Set(photos.map((photo) => photo.imageId)), new Set(approvedIds));
   assert.equal(new Set(photos.map((photo) => photo.imageId)).size, 83);
@@ -34,7 +44,7 @@ test("Kansai preserves the 83-photo library and separate P1154 cover", () => {
   assert.equal(document.images.find((image) => image.id === "p1154").filename, "p1154.webp");
   assert.ok(photos.some((photo) => photo.imageId === "p1016"));
   assert.ok(!photos.some((photo) => photo.imageId === "p1154"));
-  assert.deepEqual(new Set(document.images.map((image) => image.id)), new Set([...approvedIds, "p1154"]));
+  assert.deepEqual(new Set(document.images.map((image) => image.id)), new Set([...approvedIds, "p1154", ...Object.keys(receiptFiles)]));
   for (const photo of photos) {
     const asset = document.images.find((image) => image.id === photo.imageId);
     assert.equal(asset.thumbnailFilename, `${photo.imageId}-thumb.webp`);
@@ -48,9 +58,9 @@ test("Kansai weaves all 23 events into six chronological diary chapters", () => 
   const days = ["2025-04-30", "2025-05-01", "2025-05-02", "2025-05-03", "2025-05-04", "2025-05-05"];
   assert.equal(blocks.filter((block) => block.type === "timeline").length, 0);
   assert.deepEqual(document.pages.filter((page) => page.id.endsWith("-photos")).map((page) => page.id), eventIds.map((id) => `${id}-photos`));
-  assert.deepEqual(document.sections.map((section) => section.id), ["overview", ...days.map((date) => `day-${date}`)]);
+  assert.deepEqual(document.sections.map((section) => section.id), ["overview", ...days.map((date) => `day-${date}`), "shopping"]);
   for (const locale of ["zh", "en"]) {
-    assert.equal(deriveTripEntrySections(document, locale).length, 7);
+    assert.equal(deriveTripEntrySections(document, locale).length, 8);
   }
   for (const id of eventIds) {
     const page = document.pages.find((page) => page.id === `${id}-photos`);
@@ -122,6 +132,49 @@ test("Kansai captions match the individual photo and confirmed train name", () =
   const train = photos.find((photo) => photo.imageId === "p1148");
   for (const locale of ["zh", "en"]) {
     assert.match(train.caption[locale], /TAMA MUSEUM/);
+  }
+});
+
+test("Kansai shopping preserves purchase status, the gift, and all seven correctly identified receipts", () => {
+  const pages = document.pages.filter((page) => page.sectionId === "shopping");
+  assert.deepEqual(pages.map((page) => page.id), ["shopping-wishlist", "shopping-belts", "shopping-clothes"]);
+  assert.deepEqual(document.pages.slice(-3), pages);
+  const list = blocks.find((block) => block.id === "shopping-list");
+  assert.equal(list.paragraphs.length, 8);
+  assert.deepEqual(list.paragraphs[0], { zh: "未购 · 游戏本", en: "Not bought · Gaming laptop" });
+  for (const item of list.paragraphs.slice(1)) {
+    assert.match(item.zh, /^已购 · /);
+    assert.match(item.en, /^Bought · /);
+  }
+  for (const brand of ["Bobbi Brown", "Double Serum", "SK-II", "LV", "Gucci", "Lululemon", "Nike", "The North Face", "Y-3"]) {
+    for (const locale of ["zh", "en"]) {
+      assert.ok(list.paragraphs.some((item) => item[locale].includes(brand)), `${locale}: ${brand}`);
+    }
+  }
+  assert.match(list.paragraphs[5].zh, /心斋桥直营店/);
+  assert.match(list.paragraphs[5].en, /directly operated Shinsaibashi store/);
+  const gift = blocks.find((block) => block.id === "shopping-gift").paragraphs[0];
+  assert.match(gift.zh, /已购 · Gentle Monster 眼镜.*宝宝子给我买/);
+  assert.match(gift.en, /Bought · Gentle Monster glasses.*My sweetheart bought/);
+  const galleries = pages.flatMap((page) => page.blocks).filter((block) => block.type === "gallery");
+  assert.equal(galleries.length, 7);
+  assert.deepEqual(galleries.map((gallery) => gallery.images[0].imageId), Object.keys(receiptFiles));
+  for (const gallery of galleries) {
+    assert.equal(gallery.layout, "one");
+    assert.equal(gallery.images.length, 1);
+    const photo = gallery.images[0];
+    assert.equal(photo.shape, undefined);
+    const asset = document.images.find((image) => image.id === photo.imageId);
+    assert.equal(asset.filename, receiptFiles[photo.imageId]);
+    for (const locale of ["zh", "en"]) {
+      assert.ok(asset.alt[locale]);
+      assert.ok(photo.caption[locale]);
+    }
+  }
+  const shopping = JSON.stringify(pages);
+  assert.doesNotMatch(shopping, /Yodobashi|友都八喜|hotel booking|酒店预订/i);
+  for (const amount of ["107,800", "72,627", "84,728", "24,035", "25,046"]) {
+    assert.ok(shopping.includes(amount));
   }
 });
 
