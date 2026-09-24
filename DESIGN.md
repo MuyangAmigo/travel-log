@@ -564,20 +564,19 @@ reusable; the experiences must always come from the new trip's source:
 ### Presentation scope and reuse
 
 **Current implementation status, not a limit on the design's scope.**
-[PR #34](https://github.com/MuyangAmigo/travel-log/pull/34) (reference commit
-`f47ad1b9cd393d544d818f6151f1942b91209ae7`) first validates the common design
-with Phuket. Its breakfast pause, night-market sequence, and staged dive story
-are examples, not required content for other entries. The design applies to all
-new entries now; that PR must land before reusing its particular code.
+The common design was first validated with Phuket and subsequently reused by
+Kansai 2025. The Phuket breakfast pause, night-market sequence, and staged dive
+story are examples, not required content for other entries. The design applies
+to all new entries.
 
-The reference adds `data-trip-document={document.slug}` in
+The structured renderer adds `data-trip-document={document.slug}` in
 [`TripDocumentRenderer.tsx`](site/src/components/TripDocumentRenderer.tsx) and
 `lang={locale === "zh" ? "zh-CN" : "en"}` in `TripPresentation`.
 [`TripPresentation.module.css`](site/src/components/TripPresentation.module.css)
-currently limits the CSS to:
+currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the

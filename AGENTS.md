@@ -8,6 +8,88 @@ particular destination. The reference trip demonstrates the design; it does not
 limit who can reuse it. This file defines the creation and delivery workflow.
 Read applicable child instructions before editing files in `site/`.
 
+## Repository architecture
+
+- This is a bilingual (`zh`/`en`) travel journal. The shell (index, header, trip
+  chrome) uses an adaptive light/dark, photography-first design with Inter and
+  Rausch Red (`#ff385c`); trip pages use a separate mobile-editorial visual
+  language. [DESIGN.md](DESIGN.md) is the visual specification.
+- `site/` is a Next.js 16 App Router / React 19 / TypeScript / Tailwind v4
+  static export. Run `npm install`, `npm run dev`, and `npm run build` from
+  `site/`. CI uses Node 22. The live GitHub Pages site is served under
+  `/travel-log` via `NEXT_PUBLIC_BASE_PATH`.
+- `api/` contains the Azure Functions authentication and editor API.
+  `.github/workflows/github-pages.yml` validates pull requests and deploys
+  the site and API on `main`. `scripts/upload-trip-images.sh` uploads photos;
+  `scripts/encrypt-private-trips.mjs` protects private pages after the build.
+- Locale is the URL segment (`/[locale]/...`); `site/src/lib/trips.ts` defines
+  `locales`, listing metadata, and UI translations. The dynamic trip route
+  generates pages from that registry, so new trips must be registered there.
+- Each trip in `site/src/content/trips/<slug>/` has `content.json`, `meta.ts`,
+  `zh.tsx`, and `en.tsx`. The structured document is the source for metadata
+  and the shared renderer; see the creation workflow below. Images resolve
+  through `img(filename)` in `meta.ts`. Production uses blob URLs; development
+  can use the configured local-image preview override in
+  `site/src/lib/local-trip-images.ts`.
+- `site/src/app/[locale]/trips/[slug]/page.tsx` wraps content in
+  `TripPresentation`. It owns `TripEntryLayout`, `CardScaleController`, and
+  `ImageLightbox`; locale modules must not duplicate them. The default Classic
+  presentation uses a 750px card canvas, scales on tablet, flows at phone
+  widths, and has a centered reading column with chapter rails on desktop.
+  `TripEntryLayout` derives fallback anchors from cards when no explicit
+  chapter metadata is supplied.
+- The optional structured `metadata.style` accepts `classic`, `photo-story`,
+  or `field-journal` (default Classic). The editor's `TripPreviewFrame` uses
+  the same renderer and presentation in isolated viewport frames. Keep style
+  validation aligned between the site and API; do not override published
+  styles through query parameters or browser storage. Browser effects in
+  previews must use the rendered root's `ownerDocument` and `defaultView`.
+
+## Shared presentation vocabulary
+
+Reuse the classes and tokens in `site/src/app/globals.css` and the scoped
+styles in `site/src/components/TripPresentation.module.css` rather than
+introducing trip-specific visual systems. The common photo-story reading rules
+currently opt in the Phuket and Kansai 2025 documents explicitly; selecting
+`photo-story` alone does not apply those rules to a new trip.
+
+- Shell: `.site-header`, `.site-brand`, `.theme-toggle`, `.trip-grid`,
+  `.trip-card`, `.tc-media`, `.tc-badge`, `.trip-shell-header`, and
+  `.lang-switch`. Theme tokens include `--palette-bg-primary-core`,
+  semantic surface/text colors, `--ab-radius-*`, and `--ab-shadow-card`.
+- Trip content: `.card-wrap > .card`, `.pf` with aspect classes
+  `.sq|.ls|.wd|.pt|.hero`, `.pgrid` with `.g1|.g2|.g3|.g4|.g12|.g21`,
+  `.day-header`, `.tlwrap`, `.route`, `.sgrid`, `.bill`, `.rbox`, `.nbox`,
+  `.tags`, `.stamp-circle`, and `.dv`. Legacy `.tape`, `.deco`, and
+  `.sticker` are hidden by the active editorial styling.
+- `--font-ui` supplies Inter for the shell; trip content uses the Chinese
+  sans/serif font stacks. `ThemeToggle` follows the system preference until
+  the visitor chooses a theme, saved as `travel-log-theme`; the private-trip
+  gate uses the same preference.
+
+## Private trips and deployment
+
+- A private trip remains on the public index with a private badge. During
+  `npm run build`, `scripts/encrypt-private-trips.mjs` discovers private slugs
+  from `content.json` metadata, encrypts each locale's exported HTML with
+  staticrypt, and removes plaintext route payloads. `npm run dev` does not
+  encrypt. Blob images, including private-trip images, remain publicly
+  accessible.
+- The gate supports Microsoft personal-account authorization with PKCE or a
+  rate-limited passcode. The Azure Function validates the request and releases
+  a page-specific key, not the reusable server-side password. See
+  [docs/microsoft-auth.md](docs/microsoft-auth.md) for configuration. Private
+  builds require `TRAVEL_LOG_PRIVATE_PASSWORD`,
+  `NEXT_PUBLIC_MICROSOFT_CLIENT_ID`, `NEXT_PUBLIC_MICROSOFT_REDIRECT_URI`,
+  and `TRAVEL_LOG_AUTH_API_URL`.
+- On GitHub Pages, keep `next/link` routes root-relative; use
+  `withBasePath()` from `site/src/lib/base-path.ts` for raw anchors and
+  document-level redirects. Pull requests validate the production-path
+  build but do not get a Pages preview deployment.
+- Changing a production image path requires uploading the new blob. A browser may retain
+  cached plaintext HTML after a trip is changed from public to private until
+  a hard refresh; the encrypted page itself specifies no-cache behavior.
+
 ## Source of truth
 
 - Start from the travel note supplied by the user. Preserve its chronology, facts, prices, personal reactions, and first-person voice.
@@ -58,7 +140,7 @@ Read applicable child instructions before editing files in `site/`.
    `en.tsx`. Follow the existing structured-trip pattern (see the
    [`meta.ts` example](site/src/content/trips/phuket-2026/meta.ts) and its locale
    modules): parse with `parseTripDocument`, export `SLUG`, `img`, `document`, and
-   localized `TripMeta` via `tripDocumentToMeta`, and use `createTripLocale` for
+   locale-keyed `TripMeta` via `tripDocumentToMeta`, and use `createTripLocale` for
    both locale components and section exports. Keep directory, `SLUG`, and
    document slug consistent. Use only fields supported by
    [`trip-document.ts`](site/src/lib/trip-document.ts).
@@ -77,8 +159,8 @@ Read applicable child instructions before editing files in `site/`.
    renderer emits `data-trip-section` on every `.card-wrap` in the chapter and
    the matching anchor `id` on its first `.card-wrap`. When revising authored
    JSX, keep those attributes on `.card-wrap` and export a localized `sections`
-   array when curated labels or descriptions are needed.
-   `.day-title`, `.day-sub`, and `.day-circle`.
+   array when curated labels or descriptions are needed. Keep `.day-title`,
+   `.day-sub`, and `.day-circle` for the shared chapter navigation.
 7. Let the shared route own `TripPresentation`, `TripEntryLayout`,
    `CardScaleController`, and `ImageLightbox`; do not render them inside locale
    components. Compose existing renderer blocks and `globals.css` classes, not a
@@ -123,7 +205,9 @@ Images remain publicly reachable even for private entries; do not promise image
 privacy. See [authentication documentation](docs/microsoft-auth.md).
 
 - If dependencies are absent and the committed lockfile has the known invalid-version issue, follow CI behavior: regenerate the lockfile for local installation, build, then avoid committing unrelated generated lockfile changes.
-- Next.js may modify `site/next-env.d.ts` or generate `site/AGENTS.md` and `site/CLAUDE.md`. Do not include these unrelated generated changes with a trip unless intentionally updating them.
+- Next.js may modify `site/next-env.d.ts` or regenerate agent-guidance files
+  in `site/`. Do not include unrelated generated changes with a trip unless
+  intentionally updating them.
 - Commit only files belonging to the requested change. When a PR already exists, push follow-up commits and keep its description accurate.
 - For documentation-only changes, check links, paths, documented commands and
   schema/style claims against code, and run `git diff --check`; do not install
