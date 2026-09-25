@@ -64,6 +64,7 @@ hosted separately and are not covered by the same page encryption.
 The site is designed and built as a lightweight bilingual experience with:
 
 - A warm, photography-led gallery
+- Gallery and list views, sortable by travel date or first publication (with the choice saved locally)
 - Light and dark themes
 - Layouts for desktop, tablet, and mobile
 - Accessible keyboard navigation

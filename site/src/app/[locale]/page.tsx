@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { trips, locales, dict, type Locale } from "@/lib/trips";
+import { trips, publishedTripOrder, locales, dict, type Locale } from "@/lib/trips";
 import { withBasePath } from "@/lib/base-path";
 import IndexViewSwitcher from "@/components/IndexViewSwitcher";
 import SiteHeader from "@/components/SiteHeader";
@@ -37,11 +37,15 @@ export default async function LocaleHome({
 
       <IndexViewSwitcher
         locale={loc}
+        publishedOrder={publishedTripOrder}
         languageSwitcher={<LanguageSwitcher current={loc} />}
         labels={{
           group: t.viewSwitcher,
           gallery: t.galleryView,
           list: t.listView,
+          sortBy: t.sortBy,
+          recentPublication: t.recentPublication,
+          travelDate: t.travelDate,
           controls: t.controls,
           moreOptions: t.moreOptions,
           edit: t.edit,

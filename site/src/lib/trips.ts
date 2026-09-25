@@ -40,8 +40,7 @@ import { meta as sydney2025Meta } from "@/content/trips/sydney-2025/meta";
 import { meta as taizhou2025Meta } from "@/content/trips/taizhou-2025/meta";
 import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 
-// Newest first — sort by ISO `date` descending so the index/cover page
-// always lists trips in reverse chronological order regardless of insertion.
+// Keep this literal registry compatible with the editor API's slug parser.
 export const trips: TripMeta[] = [
   phuket2026Meta,
   fukuokaSolo2026Meta,
@@ -60,6 +59,36 @@ export const trips: TripMeta[] = [
   seoul2023Meta,
   japan2023Meta,
 ].sort((a, b) => b.date.localeCompare(a.date));
+
+// Publication is a listing property, distinct from the trip's travel date.
+// Existing timestamps reflect the first addition of each trip to the index.
+const publishedAtBySlug: Record<string, string> = {
+  "phuket-2026": "2026-08-21T14:20:22+07:00",
+  "fukuoka-solo-2026": "2026-08-14T16:01:09+08:00",
+  "bangkok-2026": "2026-04-18T00:54:52+08:00",
+  "hangzhou-concert-2026": "2026-05-02T23:41:17+08:00",
+  "tokyo-2025": "2026-08-14T14:50:29+08:00",
+  "sydney-2025": "2026-09-09T13:53:16+08:00",
+  "taizhou-2025": "2026-09-11T15:08:44+08:00",
+  "kota-kinabalu-2025": "2026-09-05T23:56:55+08:00",
+  "kansai-2025": "2026-09-11T23:49:38+08:00",
+  "kansai-family-2024": "2026-09-25T16:31:49+08:00",
+  "japan-kansai-2024": "2026-08-14T19:15:08+08:00",
+  "jiuzhaigou-2024": "2026-09-25T16:49:17+08:00",
+  "shaoxing-2025": "2026-08-14T16:39:24+08:00",
+  "chengdu-2025": "2026-08-14T13:27:57+08:00",
+  "seoul-2023": "2026-08-14T16:33:42+08:00",
+  "japan-2023": "2026-08-14T23:41:17+08:00",
+};
+
+export const publishedTripOrder = trips
+  .map((_, index) => index)
+  .sort(
+    (a, b) =>
+      Date.parse(publishedAtBySlug[trips[b].slug]) -
+        Date.parse(publishedAtBySlug[trips[a].slug]) ||
+      a - b
+  );
 
 export function getTrip(slug: string): TripMeta | undefined {
   return trips.find((t) => t.slug === slug);
@@ -105,6 +134,9 @@ export const dict = {
     viewSwitcher: "切换旅行列表视图",
     galleryView: "画廊视图",
     listView: "列表视图",
+    sortBy: "排序方式",
+    recentPublication: "最近发布",
+    travelDate: "出游时间",
     siteTitle: "Junjie 的旅行手记",
     controls: "阅读偏好",
     moreOptions: "更多选项",
@@ -121,6 +153,9 @@ export const dict = {
     viewSwitcher: "Change trip list view",
     galleryView: "Gallery view",
     listView: "List view",
+    sortBy: "Sort by",
+    recentPublication: "Recently published",
+    travelDate: "Travel date",
     siteTitle: "Junjie's Travel Journal",
     controls: "Reading preferences",
     moreOptions: "More options",
