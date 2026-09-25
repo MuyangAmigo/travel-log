@@ -40,36 +40,53 @@ import { meta as sydney2025Meta } from "@/content/trips/sydney-2025/meta";
 import { meta as taizhou2025Meta } from "@/content/trips/taizhou-2025/meta";
 import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 
+// Keep this literal registry compatible with the editor API's slug parser.
+export const trips: TripMeta[] = [
+  phuket2026Meta,
+  fukuokaSolo2026Meta,
+  bangkok2026Meta,
+  hangzhouConcert2026Meta,
+  tokyo2025Meta,
+  sydney2025Meta,
+  taizhou2025Meta,
+  kotaKinabalu2025Meta,
+  kansai2025Meta,
+  kansaiFamily2024Meta,
+  japanKansai2024Meta,
+  jiuzhaigou2024Meta,
+  shaoxing2025Meta,
+  chengdu2025Meta,
+  seoul2023Meta,
+  japan2023Meta,
+].sort((a, b) => b.date.localeCompare(a.date));
+
 // Publication is a listing property, distinct from the trip's travel date.
 // Existing timestamps reflect the first addition of each trip to the index.
-const listings: { trip: TripMeta; publishedAt: string }[] = [
-  { trip: phuket2026Meta, publishedAt: "2026-08-21T14:20:22+07:00" },
-  { trip: fukuokaSolo2026Meta, publishedAt: "2026-08-14T16:01:09+08:00" },
-  { trip: bangkok2026Meta, publishedAt: "2026-04-18T00:54:52+08:00" },
-  { trip: hangzhouConcert2026Meta, publishedAt: "2026-05-02T23:41:17+08:00" },
-  { trip: tokyo2025Meta, publishedAt: "2026-08-14T14:50:29+08:00" },
-  { trip: sydney2025Meta, publishedAt: "2026-09-09T13:53:16+08:00" },
-  { trip: taizhou2025Meta, publishedAt: "2026-09-11T15:08:44+08:00" },
-  { trip: kotaKinabalu2025Meta, publishedAt: "2026-09-05T23:56:55+08:00" },
-  { trip: kansai2025Meta, publishedAt: "2026-09-11T23:49:38+08:00" },
-  { trip: kansaiFamily2024Meta, publishedAt: "2026-09-25T16:31:49+08:00" },
-  { trip: japanKansai2024Meta, publishedAt: "2026-08-14T19:15:08+08:00" },
-  { trip: jiuzhaigou2024Meta, publishedAt: "2026-09-25T16:49:17+08:00" },
-  { trip: shaoxing2025Meta, publishedAt: "2026-08-14T16:39:24+08:00" },
-  { trip: chengdu2025Meta, publishedAt: "2026-08-14T13:27:57+08:00" },
-  { trip: seoul2023Meta, publishedAt: "2026-08-14T16:33:42+08:00" },
-  { trip: japan2023Meta, publishedAt: "2026-08-14T23:41:17+08:00" },
-];
-
-export const trips = listings
-  .map(({ trip, publishedAt }) => ({ ...trip, publishedAt }))
-  .sort((a, b) => b.date.localeCompare(a.date));
+const publishedAtBySlug: Record<string, string> = {
+  "phuket-2026": "2026-08-21T14:20:22+07:00",
+  "fukuoka-solo-2026": "2026-08-14T16:01:09+08:00",
+  "bangkok-2026": "2026-04-18T00:54:52+08:00",
+  "hangzhou-concert-2026": "2026-05-02T23:41:17+08:00",
+  "tokyo-2025": "2026-08-14T14:50:29+08:00",
+  "sydney-2025": "2026-09-09T13:53:16+08:00",
+  "taizhou-2025": "2026-09-11T15:08:44+08:00",
+  "kota-kinabalu-2025": "2026-09-05T23:56:55+08:00",
+  "kansai-2025": "2026-09-11T23:49:38+08:00",
+  "kansai-family-2024": "2026-09-25T16:31:49+08:00",
+  "japan-kansai-2024": "2026-08-14T19:15:08+08:00",
+  "jiuzhaigou-2024": "2026-09-25T16:49:17+08:00",
+  "shaoxing-2025": "2026-08-14T16:39:24+08:00",
+  "chengdu-2025": "2026-08-14T13:27:57+08:00",
+  "seoul-2023": "2026-08-14T16:33:42+08:00",
+  "japan-2023": "2026-08-14T23:41:17+08:00",
+};
 
 export const publishedTripOrder = trips
   .map((_, index) => index)
   .sort(
     (a, b) =>
-      Date.parse(trips[b].publishedAt) - Date.parse(trips[a].publishedAt) ||
+      Date.parse(publishedAtBySlug[trips[b].slug]) -
+        Date.parse(publishedAtBySlug[trips[a].slug]) ||
       a - b
   );
 
