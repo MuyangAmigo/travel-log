@@ -26,8 +26,8 @@ test("Jiuzhaigou keeps a non-repeating, people-free selection of 40 photos", () 
     gallery.images.length === 2 &&
     gallery.images.every((image) => image.shape === "square")
   ));
-  assert.equal(document.metadata.coverImageId, "img-6184");
-  assert.equal(document.images.find((image) => image.id === "img-6184").filename, "img_6184.webp");
+  assert.equal(document.metadata.coverImageId, "img-6205");
+  assert.equal(document.images.find((image) => image.id === "img-6205").filename, "img_6205.webp");
   for (const image of document.images) {
     assert.match(image.filename, /\.webp$/);
     assert.equal(image.thumbnailFilename, image.filename.replace(/\.webp$/, "-square.webp"));
@@ -46,7 +46,7 @@ test("Jiuzhaigou uses the private bilingual photo-story with chronological secti
   assert.equal(meta.style, "photo-story");
   assert.equal(meta.date, "2024-08-07");
   assert.deepEqual(document.pages[0].blocks[0].title, document.metadata.title);
-  assert.equal(document.pages[0].blocks[0].backgroundImageId, "img-6184");
+  assert.equal(document.pages[0].blocks[0].backgroundImageId, "img-6205");
   assert.equal(document.pages.length, 15);
   assert.deepEqual(document.sections.map((section) => section.id), [
     "cover", "arrival", "huanglong", "evening", "jiuzhai-woods", "jiuzhai-falls",
