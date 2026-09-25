@@ -961,3 +961,28 @@
     }
   }
 }
+
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-family-2024"])) {
+  & :global(.trip-cover-image) {
+    object-position: center 15%;
+  }
+
+  & :global(.cap) {
+    text-align: center;
+  }
+
+  /* Each authored pair shares one caption beneath both photographs. */
+  & :global(.g2 .cap) {
+    width: calc(200% + 16px);
+  }
+
+  & :global(.nbox p) {
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 760px) {
+    & :global(.g2 .cap) {
+      width: 100%;
+    }
+  }
+}

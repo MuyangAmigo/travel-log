@@ -472,6 +472,17 @@ aspect-ratio support for deliberately shaped images; do not force a crop to hide
 a natural-ratio loading problem. Any missing intrinsic-size support belongs in
 a separately scoped shared-renderer change, not invented content fields.
 
+Kansai family 2024 authors supporting photographs as equal two-image rows with
+matching `shape` values, grouping similar subjects and scales. Unmatched family
+portraits and full meals stay centered at their natural ratios. The paired
+three-person portraits use matching portrait thumbnails with comparable person
+sizes, and one pagoda thumbnail preserves its spire in a square frame. These
+three assets use `thumbnailFilename`; other paired frames crop with CSS only.
+The existing lightbox still opens the complete original in both cases.
+Its Photo Story scope centers each pair's shared caption across the row and
+resets it to one-column width when photos stack on phones. Other trips and
+styles keep their published presentation.
+
 ### Sections, navigation, and restraint
 
 Weaken sheet-like card boundaries and redundant decoration, day-weather icons,

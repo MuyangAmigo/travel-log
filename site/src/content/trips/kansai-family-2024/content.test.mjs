@@ -17,7 +17,7 @@ test("private Kansai family trip has matching bilingual titles, cover and six da
   assert.equal(document.metadata.dateRange, "2024.11.10 — 11.15");
   assert.equal(document.metadata.private, true);
   assert.equal(document.metadata.style, "photo-story");
-  assert.equal(document.metadata.coverImageId, "p9402");
+  assert.equal(document.metadata.coverImageId, "p9309");
   assert.deepEqual(blocks[0].title, document.metadata.title);
   assert.equal(blocks[0].backgroundImageId, document.metadata.coverImageId);
   assert.deepEqual(document.sections.map((section) => section.id), [
@@ -30,7 +30,7 @@ test("private Kansai family trip has matching bilingual titles, cover and six da
   }
   const meta = tripDocumentToMeta(document, (filename) => `test:${filename}`);
   assert.equal(meta.private, true);
-  assert.equal(meta.coverImage, "test:p9402.webp");
+  assert.equal(meta.coverImage, "test:p9309.webp");
   assert.equal(meta.title.en, "Kansai Family Trip — Osaka, Nara, Kyoto & Uji");
 });
 
@@ -63,6 +63,66 @@ test("all 85 curated, metadata-stripped photos are in the shared bilingual readi
   assert.ok(galleries.filter((gallery) => gallery.layout === "one")
     .every((gallery) => gallery.images.every((image) => image.shape === undefined)));
   assert.doesNotMatch(source, /(?:GPS|\/Users\/|blob\.core|IMG_\d+|FullSizeRender)/);
+});
+
+test("photo pairs have matching frames while family portraits and full meals retain their compositions", () => {
+  for (const gallery of galleries) {
+    assert.ok(["one", "two"].includes(gallery.layout), gallery.id);
+    assert.equal(gallery.images.length, gallery.layout === "one" ? 1 : 2, gallery.id);
+    if (gallery.layout === "two") {
+      assert.ok(gallery.images[0].shape, `${gallery.id} needs an explicit paired frame`);
+      assert.equal(gallery.images[0].shape, gallery.images[1].shape, gallery.id);
+    } else {
+      assert.equal(gallery.images[0].shape, undefined, gallery.id);
+    }
+  }
+  for (const id of ["p9149", "p9193", "p9199", "p9287", "p9295", "p9318", "p9337", "p9387", "p9481", "p9484", "p9498", "p9511"]) {
+    assert.equal(galleries.find((gallery) => gallery.images.some((image) => image.imageId === id))?.layout,
+      "one", `${id} needs its complete composition`);
+  }
+  const familyPair = galleries.find((gallery) => gallery.images[0].imageId === "p9435");
+  assert.deepEqual(familyPair.images.map((image) => image.imageId), ["p9435", "p9436"]);
+  assert.ok(familyPair.images.every((image) => image.shape === "portrait"));
+  assert.deepEqual(document.images.filter((image) => image.thumbnailFilename).map((image) => [
+    image.id, image.filename, image.thumbnailFilename,
+  ]), [
+    ["p9404", "p9404.webp", "p9404-square.webp"],
+    ["p9435", "p9435.webp", "p9435-paired.webp"],
+    ["p9436", "p9436.webp", "p9436-paired.webp"],
+  ], "balanced thumbnails must retain the complete original for the lightbox");
+  assert.equal(galleries.find((gallery) => gallery.id === "photos-23").images[1].focus, "upper");
+});
+
+test("researched background stays bilingual, sourced and beside the relevant chapter", () => {
+  const context = {
+    "kasuga-background": ["day-2", "三千", "3,000"],
+    "osaka-castle-background": ["day-3", "1931", "1931"],
+    "namba-yasaka-background": ["day-3", "12 米", "12 metres"],
+    "inari-background": ["day-5", "711", "711"],
+    "byodoin-background": ["day-5", "1052", "1052"],
+  };
+  for (const [id, [section, zh, en]] of Object.entries(context)) {
+    const page = document.pages.find((page) => page.blocks.some((block) => block.id === id));
+    assert.equal(page?.sectionId, section);
+    const block = page.blocks.find((block) => block.id === id);
+    assert.equal(block.type, "prose");
+    assert.ok(block.paragraphs[0].zh.includes(zh), id);
+    assert.ok(block.paragraphs[0].en.includes(en), id);
+    assert.equal(page.blocks[page.blocks.indexOf(block) + 1].type, "gallery");
+  }
+  const sources = blocks.find((block) => block.id === "background-sources");
+  const urls = [
+    "https://www.kasugataisha.or.jp/en/about_en/",
+    "https://www.osakacastle.net/",
+    "https://osaka-info.jp/en/spot/nanbayasakajinja/",
+    "https://inari.jp/en/",
+    "https://www.byodoin.or.jp/en/learn/history/",
+  ];
+  for (const locale of ["zh", "en"]) {
+    for (const url of urls) assert.ok(sources.body[locale].includes(url));
+  }
+  assert.match(sources.body.zh, /不代表现行信息/);
+  assert.match(sources.body.en, /not as current advice/);
 });
 
 test("six days retain source details, spending and corrected Fushimi-to-Uji order", () => {
