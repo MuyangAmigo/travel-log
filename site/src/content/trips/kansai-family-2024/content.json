@@ -4,7 +4,7 @@
   "metadata": {
     "date": "2024-11-10",
     "dateRange": "2024.11.10 — 11.15",
-    "coverImageId": "p9402",
+    "coverImageId": "p9309",
     "title": {
       "zh": "关西家庭旅行：大阪、奈良、京都与宇治",
       "en": "Kansai Family Trip — Osaka, Nara, Kyoto & Uji"
@@ -480,6 +480,7 @@
     {
       "id": "p9404",
       "filename": "p9404.webp",
+      "thumbnailFilename": "p9404-square.webp",
       "alt": {
         "zh": "清水寺三重塔与寺院屋檐",
         "en": "Kiyomizu-dera pagoda and temple roofs"
@@ -544,6 +545,7 @@
     {
       "id": "p9435",
       "filename": "p9435.webp",
+      "thumbnailFilename": "p9435-paired.webp",
       "alt": {
         "zh": "妈妈、妹妹和我在东本愿寺外合影",
         "en": "Mom, my sister and I outside Higashi Hongan-ji"
@@ -552,6 +554,7 @@
     {
       "id": "p9436",
       "filename": "p9436.webp",
+      "thumbnailFilename": "p9436-paired.webp",
       "alt": {
         "zh": "妈妈、妹妹和我站在京都塔下",
         "en": "Mom, my sister and I standing by Kyoto Tower"
@@ -868,7 +871,7 @@
             "zh": "带妈妈和妹妹从大阪出发，去奈良看鹿、在京都找回丢失的钱包，再沿宇治川慢慢走。六天很充实，也有几段真正慢下来的时光。",
             "en": "Mom, my sister and I started in Osaka, met the deer in Nara, found a lost wallet in Kyoto, and slowed down beside the Uji River. Six full days, with room to breathe."
           },
-          "backgroundImageId": "p9402"
+          "backgroundImageId": "p9309"
         }
       ]
     },
@@ -913,13 +916,15 @@
           "images": [
             {
               "imageId": "p9137",
+              "shape": "square",
               "caption": {
                 "zh": "从浦东启程。",
                 "en": "Leaving Pudong together."
               }
             },
             {
-              "imageId": "p9139"
+              "imageId": "p9139",
+              "shape": "square"
             }
           ]
         },
@@ -936,20 +941,33 @@
         {
           "id": "photos-4",
           "type": "gallery",
-          "layout": "three",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9149",
               "caption": {
-                "zh": "大阪的第一顿和第一夜。",
-                "en": "Our first Osaka meal, then the city after dark."
+                "zh": "三个人的一兰晚餐，给第一晚垫个底。",
+                "en": "Ichiran for three, to start our first evening."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-dotonbori",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9153",
+              "shape": "square",
+              "caption": {
+                "zh": "运河与街巷，各有各的热闹。",
+                "en": "Along the canal and in the lanes, two sides of Osaka after dark."
               }
             },
             {
-              "imageId": "p9153"
-            },
-            {
-              "imageId": "p9155"
+              "imageId": "p9155",
+              "shape": "square"
             }
           ]
         },
@@ -1002,23 +1020,39 @@
         {
           "id": "photos-7",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9166",
+              "shape": "wide",
               "caption": {
-                "zh": "从寺院走进鹿群。",
-                "en": "From the temple grounds into the company of deer."
+                "zh": "奈良的第一站，先看寺院的屋檐。",
+                "en": "Our first stop in Nara, beneath the temple roofs."
               }
             },
             {
-              "imageId": "p9167"
+              "imageId": "p9167",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "photos-nara-deer",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p9173",
+              "shape": "square",
+              "caption": {
+                "zh": "一只歇着，一只走近，鹿有自己的节奏。",
+                "en": "One resting, one coming closer—the deer set their own pace."
+              }
             },
             {
-              "imageId": "p9173"
-            },
-            {
-              "imageId": "p9180"
+              "imageId": "p9180",
+              "shape": "square"
             }
           ]
         },
@@ -1039,13 +1073,15 @@
           "images": [
             {
               "imageId": "p9182",
+              "shape": "wide",
               "caption": {
                 "zh": "从展厅出来，奈良仍然由鹿带路。",
                 "en": "Even outside the museum, the deer kept us company."
               }
             },
             {
-              "imageId": "p9185"
+              "imageId": "p9185",
+              "shape": "wide"
             }
           ]
         },
@@ -1062,46 +1098,94 @@
         {
           "id": "photos-11",
           "type": "gallery",
-          "layout": "four",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9193",
               "caption": {
-                "zh": "吃过饭，继续沿着东大寺的路走。",
-                "en": "After lunch, the walk through Tōdai-ji continued."
+                "zh": "牛肉饭、配汤和小菜，吃完再继续走。",
+                "en": "Beef rice, soup and little sides before we carried on."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-todaiji-gates",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9194",
+              "shape": "wide",
+              "caption": {
+                "zh": "一路抬头看木构与屋檐，东大寺的尺度很有气势。",
+                "en": "Timber and sweeping roofs gave the walk through Tōdai-ji its scale."
               }
             },
             {
-              "imageId": "p9194"
-            },
+              "imageId": "p9203",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "photos-nara-family",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9199"
-            },
-            {
-              "imageId": "p9203"
+              "imageId": "p9199",
+              "caption": {
+                "zh": "风景之外，把我们三个人也装进照片。",
+                "en": "Not just the scenery—a frame for the three of us."
+              }
             }
           ]
         },
         {
           "id": "photos-12",
           "type": "gallery",
-          "layout": "four",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p9208",
+              "caption": {
+                "zh": "大佛殿前，游人衬出了殿堂的高大。",
+                "en": "Visitors in front of the Great Buddha Hall put its size in perspective."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-nara-garden-deer",
+          "type": "gallery",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9205",
+              "shape": "square",
               "caption": {
-                "zh": "殿堂、庭园与随处停下来的鹿。",
-                "en": "Great halls, garden paths and deer at rest."
+                "zh": "池边和林间，都有鹿安安静静地待着。",
+                "en": "Beside the pond and among the trees, the deer had found quiet spots."
               }
             },
             {
-              "imageId": "p9208"
-            },
+              "imageId": "p9219",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-nara-garden",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9215"
-            },
-            {
-              "imageId": "p9219"
+              "imageId": "p9215",
+              "caption": {
+                "zh": "庭园里的石径，给寺院这一段收个尾。",
+                "en": "A garden path to close this part of the temple walk."
+              }
             }
           ]
         }
@@ -1124,50 +1208,83 @@
         {
           "id": "photos-14",
           "type": "gallery",
-          "layout": "four",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9227",
               "caption": {
-                "zh": "林荫路慢慢通向若草山。",
-                "en": "The shaded paths gradually led us toward Mount Wakakusa."
+                "zh": "草地上散着鹿，林间的光也慢了下来。",
+                "en": "Deer dotted the grass as the light softened among the trees."
+              }
+            }
+          ]
+        },
+        {
+          "id": "kasuga-background",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "整理照片时查了春日大社的介绍：境内约有三千座奉纳灯笼，建筑还通过每二十年一次的「式年造替」进行修缮、更新。再看这些沿林间小径排开的石灯笼，才意识到当天随手拍下的，不只是好看的风景，也是长久积累下来的祈愿。",
+              "en": "While sorting the photos, I read that Kasuga Taisha has around 3,000 donated lanterns, and that its buildings are repaired and renewed through the Shikinen Zotai ceremony every twenty years. Looking again at those stone lanterns along the wooded paths, I saw more than a pretty scene: they were wishes accumulated over generations."
+            }
+          ]
+        },
+        {
+          "id": "photos-kasuga-lanterns",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9237",
+              "shape": "square",
+              "caption": {
+                "zh": "石灯笼与树影，沿着小径一层层展开。",
+                "en": "Stone lanterns and tree shadows receded along the path."
               }
             },
             {
-              "imageId": "p9237"
-            },
+              "imageId": "p9243",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-kasuga-vermilion",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9239"
-            },
-            {
-              "imageId": "p9243"
+              "imageId": "p9239",
+              "caption": {
+                "zh": "从树林的绿色里，走到神社的朱红色前。",
+                "en": "From the green of the woods to the shrine's vermilion."
+              }
             }
           ]
         },
         {
           "id": "photos-15",
           "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9248",
+              "shape": "wide",
               "caption": {
                 "zh": "山坡上，时间终于慢下来。",
                 "en": "Up on the hillside, the day finally slowed down."
               }
             },
             {
-              "imageId": "p9249"
-            },
-            {
-              "imageId": "p9252"
+              "imageId": "p9249",
+              "shape": "wide"
             }
           ]
         },
         {
           "id": "photos-16",
           "type": "gallery",
-          "layout": "two",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9261",
@@ -1175,9 +1292,26 @@
                 "zh": "天色渐晚，鹿还留在草坡上。",
                 "en": "As the sun went down, the deer were still on the grass."
               }
+            }
+          ]
+        },
+        {
+          "id": "photos-wakakusa-sunset",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p9252",
+              "shape": "portrait",
+              "caption": {
+                "zh": "从金色天光等到太阳落下，奈良这一天舍不得结束。",
+                "en": "From golden light to the setting sun, a Nara day we did not want to end."
+              }
             },
             {
-              "imageId": "p9264"
+              "imageId": "p9264",
+              "shape": "portrait"
             }
           ]
         },
@@ -1230,23 +1364,48 @@
         {
           "id": "photos-19",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9269",
+              "shape": "square",
               "caption": {
                 "zh": "先绕过护城河，才走近天守阁。",
                 "en": "We walked along the moat before reaching the keep."
               }
             },
             {
-              "imageId": "p9270"
+              "imageId": "p9270",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "osaka-castle-background",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "后来补看大阪城的历史，才分清眼前建筑的年代：如今的天守阁是第三代，1931 年靠市民捐款重建，从落成起就是博物馆；现存的石垣、护城河等遗构则属于德川时代及以后。照片里看似同一座城，其实叠着不同年代的故事。",
+              "en": "Reading the castle's history afterward helped me separate its layers. Today's keep is the third incarnation, rebuilt in 1931 with donations from Osaka residents and used as a museum from the start. The surviving stone walls, moats and other historic structures date from the Tokugawa period onward. What looks like one castle in the photos holds several different eras."
+            }
+          ]
+        },
+        {
+          "id": "photos-castle-keep",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9274",
+              "shape": "square",
+              "caption": {
+                "zh": "同一座天守阁，云层与蓝天各留一面。",
+                "en": "The same keep, framed once by clouds and once by blue sky."
+              }
             },
             {
-              "imageId": "p9274"
-            },
-            {
-              "imageId": "p9277"
+              "imageId": "p9277",
+              "shape": "square"
             }
           ]
         },
@@ -1257,13 +1416,15 @@
           "images": [
             {
               "imageId": "p9279",
+              "shape": "wide",
               "caption": {
                 "zh": "从高处回望大阪与公园。",
                 "en": "Looking back across Osaka and the park from above."
               }
             },
             {
-              "imageId": "p9281"
+              "imageId": "p9281",
+              "shape": "wide"
             }
           ]
         },
@@ -1292,36 +1453,59 @@
           ]
         },
         {
+          "id": "namba-yasaka-background",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这张「大嘴」也值得补一笔：大阪观光局介绍，难波八坂神社的狮子造型建筑高约 12 米、宽约 11 米、深约 10 米。把这些数字和我们的合影放在一起看，才更容易理解当时为什么一眼就记住了它。",
+              "en": "That enormous mouth deserves a little background too. Osaka's tourism bureau gives the lion-head structure's dimensions as about 12 metres high, 11 metres wide and 10 metres deep. Put those numbers beside our family photo and it is easy to see why it made such an immediate impression."
+            }
+          ]
+        },
+        {
           "id": "photos-22",
           "type": "gallery",
           "layout": "two",
           "images": [
             {
               "imageId": "p9292",
+              "shape": "square",
               "caption": {
-                "zh": "从城墙转向狮子殿，和家人一起留影。",
-                "en": "From the castle walls to a family photograph at the lion-head shrine."
+                "zh": "正面与侧面，这张大嘴都很抢眼。",
+                "en": "Head-on or from the side, that enormous mouth stole the scene."
               }
             },
             {
-              "imageId": "p9295"
+              "imageId": "p9302",
+              "shape": "square"
             }
           ]
         },
         {
           "id": "photos-p9298",
           "type": "gallery",
-          "layout": "two",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9298",
               "caption": {
-                "zh": "再看绘马与狮子殿的细节。",
-                "en": "A closer look at the plaques and the lion-head hall."
+                "zh": "看过大狮子，再停下来看看一排排绘马。",
+                "en": "After the lion hall, a pause by the rows of votive plaques."
               }
-            },
+            }
+          ]
+        },
+        {
+          "id": "photos-lion-family",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9302"
+              "imageId": "p9295",
+              "caption": {
+                "zh": "站在狮子殿前，才更看得出它有多大。",
+                "en": "Standing in front of the lion hall gave it a human scale."
+              }
             }
           ]
         },
@@ -1332,13 +1516,16 @@
           "images": [
             {
               "imageId": "p9308",
+              "shape": "square",
               "caption": {
                 "zh": "通天阁就在新世界街道的尽头。",
                 "en": "Tsūtenkaku at the far end of Shinsekai."
               }
             },
             {
-              "imageId": "p9309"
+              "imageId": "p9309",
+              "shape": "square",
+              "focus": "upper"
             }
           ]
         }
@@ -1421,23 +1608,47 @@
         {
           "id": "photos-28",
           "type": "gallery",
-          "layout": "four",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9326",
               "caption": {
-                "zh": "从市场走向鸭川，把家人和河岸都拍下来。",
-                "en": "From the market to the Kamo River, with a family photo by the water."
+                "zh": "市场这一带，也藏着让人驻足的小小神社。",
+                "en": "Around the market, a small shrine offered another place to pause."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-kamo-river",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9332",
+              "shape": "wide",
+              "caption": {
+                "zh": "河对岸的房子和沿岸的秋色，换个方向又是一幅画。",
+                "en": "Riverside buildings and autumn trees, seen from two directions."
               }
             },
             {
-              "imageId": "p9332"
-            },
+              "imageId": "p9339",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "photos-kamo-family",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9337"
-            },
-            {
-              "imageId": "p9339"
+              "imageId": "p9337",
+              "caption": {
+                "zh": "鸭川边的合影，三个人一个都不能少。",
+                "en": "By the Kamo River, with all three of us in the frame."
+              }
             }
           ]
         },
@@ -1454,43 +1665,72 @@
         {
           "id": "photos-30",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9343",
+              "shape": "square",
               "caption": {
                 "zh": "京都的街巷，适合走走停停。",
                 "en": "Kyoto's lanes made it easy to pause along the way."
               }
             },
             {
-              "imageId": "p9344"
-            },
+              "imageId": "p9344",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-kyoto-lane",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9348"
-            },
-            {
-              "imageId": "p9359"
+              "imageId": "p9348",
+              "caption": {
+                "zh": "沿街巷往前走，塔尖从屋顶之间露出来。",
+                "en": "Further along the lane, a pagoda rose between the roofs."
+              }
             }
           ]
         },
         {
           "id": "photos-31",
           "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "images": [
             {
-              "imageId": "p9360",
+              "imageId": "p9359",
+              "shape": "square",
               "caption": {
-                "zh": "从八坂神社一路走向清水寺。",
-                "en": "The walk carried us from Yasaka toward Kiyomizu-dera."
+                "zh": "八坂神社里，鸟居与灯笼把视线留住。",
+                "en": "At Yasaka Shrine, the torii and lanterns caught our eye."
               }
             },
             {
-              "imageId": "p9364"
+              "imageId": "p9360",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-yasaka-details",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9364",
+              "shape": "square",
+              "focus": "upper",
+              "caption": {
+                "zh": "朱红门楼之后，继续寻找街巷里的塔。",
+                "en": "Beyond the vermilion gate, another glimpse of the pagoda in the lanes."
+              }
             },
             {
-              "imageId": "p9368"
+              "imageId": "p9368",
+              "shape": "square"
             }
           ]
         }
@@ -1517,13 +1757,15 @@
           "images": [
             {
               "imageId": "p9372",
+              "shape": "wide",
               "caption": {
                 "zh": "清水寺红色的门，见证了这场虚惊。",
                 "en": "Kiyomizu-dera's red gates framed the wallet scare."
               }
             },
             {
-              "imageId": "p9376"
+              "imageId": "p9376",
+              "shape": "wide"
             }
           ]
         },
@@ -1548,33 +1790,48 @@
           "images": [
             {
               "imageId": "p9402",
+              "shape": "square",
               "caption": {
                 "zh": "继续往里走，塔与屋檐渐渐映入眼帘。",
                 "en": "Further inside, the pagoda came into view above the roofs."
               }
             },
             {
-              "imageId": "p9404"
+              "imageId": "p9404",
+              "shape": "square"
             }
           ]
         },
         {
           "id": "photos-34",
           "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9410",
+              "shape": "square",
               "caption": {
                 "zh": "天色渐暗，京都塔亮了起来。",
                 "en": "The light faded and Kyoto Tower came on."
               }
             },
             {
-              "imageId": "p9411"
-            },
+              "imageId": "p9411",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-kyoto-tower-night",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9417"
+              "imageId": "p9417",
+              "caption": {
+                "zh": "到京都站时，塔已经亮在夜色里。",
+                "en": "By the time we reached Kyoto Station, the tower was bright against the night."
+              }
             }
           ]
         },
@@ -1641,71 +1898,110 @@
         {
           "id": "photos-38",
           "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9427",
+              "shape": "square",
               "caption": {
                 "zh": "在东本愿寺停下脚步。",
                 "en": "A pause at Higashi Hongan-ji before moving on."
               }
             },
             {
-              "imageId": "p9429"
-            },
+              "imageId": "p9429",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "photos-honganji-water",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9430"
+              "imageId": "p9430",
+              "caption": {
+                "zh": "寺院边的水道，把天空也收进了画面。",
+                "en": "Beside the temple, a waterway held a reflection of the sky."
+              }
             }
           ]
         },
         {
           "id": "photos-p9435",
           "type": "gallery",
-          "layout": "one",
+          "layout": "two",
+          "width": "medium",
           "images": [
             {
               "imageId": "p9435",
+              "shape": "portrait",
               "caption": {
-                "zh": "寺院外，我们三个人又聚到一张照片里。",
-                "en": "A photo of all three of us outside the temple."
+                "zh": "从寺院到京都塔，背景换了，三个人还在一起。",
+                "en": "From the temple to Kyoto Tower: a different backdrop, the same three of us."
               }
+            },
+            {
+              "imageId": "p9436",
+              "shape": "portrait"
             }
           ]
         },
         {
           "id": "photos-p9436",
           "type": "gallery",
-          "layout": "two",
+          "layout": "one",
           "images": [
             {
-              "imageId": "p9436",
+              "imageId": "p9438",
               "caption": {
-                "zh": "京都塔下，出发前再拍一张。",
-                "en": "One more photograph by Kyoto Tower before heading out."
+                "zh": "出发前，再留一张建筑之间的京都塔。",
+                "en": "Before leaving, one more view of Kyoto Tower between the buildings."
               }
-            },
+            }
+          ]
+        },
+        {
+          "id": "inari-background",
+          "type": "prose",
+          "paragraphs": [
             {
-              "imageId": "p9438"
+              "zh": "补读神社资料才知道，伏见稻荷大社始于 711 年，是日本稻荷神社的总本宫。这里的祈愿从五谷丰登延伸到生意兴隆、家人平安；这也让照片里的朱红色，不再只是一个熟悉的京都地标。",
+              "en": "The shrine's own history adds another layer: founded in 711, Fushimi Inari Taisha is the head shrine of Japan's Inari shrines. Prayers here range from good harvests to business prosperity and the safety of one's family. That gives the vermilion in our photos meaning beyond a familiar Kyoto landmark."
             }
           ]
         },
         {
           "id": "photos-39",
           "type": "gallery",
-          "layout": "three",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9444",
               "caption": {
-                "zh": "朱红的鸟居与神殿，停留在去宇治之前。",
-                "en": "Vermilion gates and shrine halls, before the journey to Uji."
+                "zh": "先在伏见稻荷停留，再往宇治走。",
+                "en": "A stop at Fushimi Inari before we continued to Uji."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-inari-halls",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9446",
+              "shape": "square",
+              "caption": {
+                "zh": "朱红栏杆与深色屋檐，是神社的另一种层次。",
+                "en": "Vermilion railings and dark roofs added another layer to the shrine."
               }
             },
             {
-              "imageId": "p9446"
-            },
-            {
-              "imageId": "p9448"
+              "imageId": "p9448",
+              "shape": "square"
             }
           ]
         },
@@ -1722,23 +2018,57 @@
         {
           "id": "photos-41",
           "type": "gallery",
-          "layout": "four",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9453",
               "caption": {
-                "zh": "宇治的店铺与河风，让脚步慢下来。",
-                "en": "Shops and the riverside made it easy to slow down in Uji."
+                "zh": "先逛抹茶店，把这一站的节奏放慢。",
+                "en": "A matcha-shop stop set a slower pace for Uji."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-uji-river",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9462",
+              "shape": "wide",
+              "caption": {
+                "zh": "从桥边看到对岸，宇治川把视野一下打开。",
+                "en": "From the bridge to the opposite bank, the Uji River opened up the view."
               }
             },
             {
-              "imageId": "p9462"
-            },
+              "imageId": "p9465",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "photos-uji-waterside",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9465"
-            },
+              "imageId": "p9468",
+              "caption": {
+                "zh": "沿河再走一段，不急着赶下一站。",
+                "en": "A little further along the river, with no hurry to move on."
+              }
+            }
+          ]
+        },
+        {
+          "id": "byodoin-background",
+          "type": "prose",
+          "paragraphs": [
             {
-              "imageId": "p9468"
+              "zh": "平等院的背景也在整理游记时补上：1052 年，藤原赖通把别业改成寺院，次年建成凤凰堂；后来，凤凰堂又成了 10 日元硬币上的图案。补上这段历史，再看当天留下的店铺、河面与庭院入口，宇治就不只是一站抹茶了。",
+              "en": "I added Byōdō-in's history while putting this diary together: Fujiwara no Yorimichi converted a villa into the temple in 1052, and the Phoenix Hall was completed the following year. The hall later became the design on the 10-yen coin. That bit of history adds another layer to a day our photos remember through shops, water and a garden entrance—there was more to Uji than matcha."
             }
           ]
         },
@@ -1785,17 +2115,28 @@
         {
           "id": "photos-45",
           "type": "gallery",
-          "layout": "two",
+          "layout": "one",
           "images": [
             {
               "imageId": "p9481",
               "caption": {
-                "zh": "鳗鱼饭很好吃，也确实很丰盛。",
-                "en": "The eel rice was delicious—and very generous."
+                "zh": "先把这一整份鳗鱼饭和配菜好好记下来。",
+                "en": "The whole eel-rice set, little sides included."
               }
-            },
+            }
+          ]
+        },
+        {
+          "id": "photos-eel-table",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9484"
+              "imageId": "p9484",
+              "caption": {
+                "zh": "满桌都摆开才发现，下次两份大的真的够了。",
+                "en": "Seeing the spread explains our note: two large portions next time."
+              }
             }
           ]
         }
@@ -1836,22 +2177,46 @@
           ]
         },
         {
+          "id": "narrative-last-coffee",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "又到 Lelabo Cafe 打了卡。三杯咖啡和一张合影，给回程前留一点不赶路的时间。",
+              "en": "We also stopped by Lelabo Cafe. Three cups of coffee and a photo together made room for a little pause before the journey home."
+            }
+          ]
+        },
+        {
           "id": "photos-47",
           "type": "gallery",
-          "layout": "three",
+          "layout": "one",
           "images": [
             {
-              "imageId": "p9494",
+              "imageId": "p9498",
               "caption": {
                 "zh": "最后一次一起喝咖啡，给六天留一张合影。",
                 "en": "One last coffee together, and a photo to remember the six days."
               }
+            }
+          ]
+        },
+        {
+          "id": "photos-last-coffee",
+          "type": "gallery",
+          "layout": "two",
+          "width": "medium",
+          "images": [
+            {
+              "imageId": "p9494",
+              "shape": "wide",
+              "caption": {
+                "zh": "从店门口到手里的咖啡，给回程前留一点小小的停顿。",
+                "en": "The doorway and our coffee cups, a small pause before the journey home."
+              }
             },
             {
-              "imageId": "p9498"
-            },
-            {
-              "imageId": "p9501"
+              "imageId": "p9501",
+              "shape": "wide"
             }
           ]
         },
@@ -1860,31 +2225,55 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "又到 Lelabo Cafe 打了卡。打车从酒店去京都站，坐 Haruka 特快前往关西机场；笔记里记着车程约 80 分钟、约半小时一班，也记着可以在车上补票、不用提前取票——这是当时的乘车记录，不一定适用于以后。",
-              "en": "We stopped by Lelabo Cafe, took a taxi to Kyoto Station, and boarded the Haruka limited express to Kansai Airport. My travel note says about 80 minutes, departures around every half-hour, and that we could settle the fare on board without collecting tickets in advance; that was our experience then, not current service advice."
+              "zh": "打车从酒店去京都站，坐 Haruka 特快前往关西机场；笔记里记着车程约 80 分钟、约半小时一班，也记着可以在车上补票、不用提前取票——这是当时的乘车记录，不一定适用于以后。",
+              "en": "We took a taxi from the hotel to Kyoto Station and boarded the Haruka limited express to Kansai Airport. My travel note says about 80 minutes, departures around every half-hour, and that we could settle the fare on board without collecting tickets in advance; that was our experience then, not current service advice."
             }
           ]
         },
         {
           "id": "photos-49",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "p9503",
+              "shape": "wide",
               "caption": {
-                "zh": "离开京都，坐上开往机场的列车。",
-                "en": "Leaving Kyoto by train for the airport."
+                "zh": "离开前，京都的水道和树影再看一眼。",
+                "en": "One last look at Kyoto's waterways and trees before leaving."
               }
             },
             {
-              "imageId": "p9506"
-            },
+              "imageId": "p9506",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "photos-haruka",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9510"
-            },
+              "imageId": "p9510",
+              "caption": {
+                "zh": "Haruka 的 Hello Kitty 涂装，给回程添了一点可爱。",
+                "en": "Haruka's Hello Kitty livery added a playful note to the trip home."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-station-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
             {
-              "imageId": "p9511"
+              "imageId": "p9511",
+              "caption": {
+                "zh": "站里的纪念拍照板，也留下一张到此一游。",
+                "en": "One more souvenir photo at the station's photo board."
+              }
             }
           ]
         },
@@ -2198,6 +2587,18 @@
               }
             }
           ]
+        },
+        {
+          "id": "background-sources",
+          "type": "note",
+          "title": {
+            "zh": "景点补记 · 资料来源",
+            "en": "Landmark background · sources"
+          },
+          "body": {
+            "zh": "景点背景来自以下官方资料，与 2024 年的亲历笔记分开记录；文中票价、车次与购物金额仍保留当时记录，不代表现行信息。\n春日大社：https://www.kasugataisha.or.jp/en/about_en/\n大阪城天守阁：https://www.osakacastle.net/\n大阪观光局 · 难波八坂神社：https://osaka-info.jp/en/spot/nanbayasakajinja/\n伏见稻荷大社：https://inari.jp/en/\n平等院：https://www.byodoin.or.jp/en/learn/history/",
+            "en": "Landmark background comes from these official sources and is separate from our 2024 travel notes. Admission prices, train details and purchases remain as recorded then, not as current advice.\nKasuga Taisha: https://www.kasugataisha.or.jp/en/about_en/\nOsaka Castle Museum: https://www.osakacastle.net/\nOsaka tourism bureau · Namba Yasaka Shrine: https://osaka-info.jp/en/spot/nanbayasakajinja/\nFushimi Inari Taisha: https://inari.jp/en/\nByōdō-in: https://www.byodoin.or.jp/en/learn/history/"
+          }
         }
       ]
     }
