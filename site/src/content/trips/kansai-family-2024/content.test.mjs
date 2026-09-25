@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
 import { deriveTripEntrySections, parseTripDocument, tripDocumentToMeta } from "../../../lib/trip-document.ts";
 
 const source = readFileSync(new URL("./content.json", import.meta.url), "utf8");
@@ -71,6 +73,6 @@ test("six days retain source details, spending and corrected Fushimi-to-Uji orde
   assert.equal(expense.rows.length, 25);
   assert.match(expense.title.en, /not a trip total/);
   assert.ok(expense.rows.every((row) => row.amount.zh.includes("JPY") && row.amount.en.includes("JPY")));
-  const css = readFileSync(new URL("../../../components/TripPresentation.module.css", import.meta.url), "utf8");
+  const css = readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), "../../../components/TripPresentation.module.css"), "utf8");
   assert.match(css, /\[data-trip-style="photo-story"\]:has\([^{}]*\[data-trip-document="kansai-family-2024"\]/);
 });
