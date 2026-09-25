@@ -1,20 +1,25 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import { Children, useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/trips";
 import ThemeToggle from "@/components/ThemeToggle";
 
 type IndexView = "gallery" | "list";
+type IndexSort = "travel-date" | "recent-publication";
 
 interface Props {
   children: ReactNode;
   locale: Locale;
+  publishedOrder: number[];
   languageSwitcher: ReactNode;
   labels: {
     group: string;
     gallery: string;
     list: string;
+    sortBy: string;
+    recentPublication: string;
+    travelDate: string;
     controls: string;
     moreOptions: string;
     edit: string;
@@ -22,25 +27,34 @@ interface Props {
 }
 
 const STORAGE_KEY = "travel-log-index-view";
+const SORT_STORAGE_KEY = "travel-log-index-sort";
 
 function isIndexView(value: string | null): value is IndexView {
   return value === "gallery" || value === "list";
 }
 
+function isIndexSort(value: string | null): value is IndexSort {
+  return value === "travel-date" || value === "recent-publication";
+}
+
 export default function IndexViewSwitcher({
   children,
   locale,
+  publishedOrder,
   languageSwitcher,
   labels,
 }: Props) {
   const [view, setView] = useState<IndexView>("gallery");
+  const [sort, setSort] = useState<IndexSort>("travel-date");
 
   useEffect(() => {
     try {
       const savedView = window.localStorage.getItem(STORAGE_KEY);
       if (isIndexView(savedView)) setView(savedView);
+      const savedSort = window.localStorage.getItem(SORT_STORAGE_KEY);
+      if (isIndexSort(savedSort)) setSort(savedSort);
     } catch (error) {
-      console.warn("Unable to read the saved index view preference.", error);
+      console.warn("Unable to read saved index preferences.", error);
     }
   }, []);
 
@@ -53,10 +67,23 @@ export default function IndexViewSwitcher({
     }
   }
 
+  function selectSort(nextSort: IndexSort) {
+    setSort(nextSort);
+    try {
+      window.localStorage.setItem(SORT_STORAGE_KEY, nextSort);
+    } catch (error) {
+      console.warn("Unable to save the index sort preference.", error);
+    }
+  }
+
+  const cards = Children.toArray(children);
+
   return (
     <>
       <div className="trip-grid" data-view={view}>
-        {children}
+        {sort === "recent-publication"
+          ? publishedOrder.map((index) => cards[index])
+          : cards}
       </div>
 
       <aside className="index-controls" aria-label={labels.controls}>
@@ -95,6 +122,37 @@ export default function IndexViewSwitcher({
           </button>
         </div>
         <span className="control-divider" aria-hidden="true" />
+        <button
+          type="button"
+          className="index-sort-button"
+          popoverTarget="index-sort-options"
+          aria-label={`${labels.sortBy}: ${sort === "travel-date" ? labels.travelDate : labels.recentPublication}`}
+          title={`${labels.sortBy}: ${sort === "travel-date" ? labels.travelDate : labels.recentPublication}`}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h16M4 12h11M4 18h6" />
+          </svg>
+        </button>
+        <div id="index-sort-options" className="index-sort-options" popover="auto" role="group" aria-label={labels.sortBy}>
+          <label>
+            <input
+              type="radio"
+              name="trip-sort"
+              checked={sort === "travel-date"}
+              onChange={() => selectSort("travel-date")}
+            />
+            {labels.travelDate}
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="trip-sort"
+              checked={sort === "recent-publication"}
+              onChange={() => selectSort("recent-publication")}
+            />
+            {labels.recentPublication}
+          </label>
+        </div>
         <ThemeToggle locale={locale} />
         <button
           type="button"
