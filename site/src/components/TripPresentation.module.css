@@ -648,7 +648,7 @@
 }
 
 /* Explicit document opt-ins preserve other published trips and styles. */
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"])) {
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="jiuzhaigou-2024"])) {
   --reading-column: 640px;
 
   &:lang(zh) {
@@ -899,7 +899,7 @@
   }
 }
 
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"])) {
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="jiuzhaigou-2024"])) {
   & :global(.card > .pgrid) {
     max-width: 960px;
     margin-inline: auto;
