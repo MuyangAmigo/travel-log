@@ -1,0 +1,2296 @@
+{
+  "version": 1,
+  "slug": "kansai-family-2024",
+  "metadata": {
+    "date": "2024-11-10",
+    "dateRange": "2024.11.10 — 11.15",
+    "coverImageId": "p9402",
+    "title": {
+      "zh": "关西家庭旅行：大阪、奈良、京都与宇治",
+      "en": "Kansai Family Trip — Osaka, Nara, Kyoto & Uji"
+    },
+    "subtitle": {
+      "zh": "和妈妈、妹妹一起，从奈良的鹿走到宇治的河边",
+      "en": "With Mom and my sister, from Nara's deer to the riverside in Uji"
+    },
+    "location": {
+      "zh": "日本 · 大阪、奈良、京都、宇治",
+      "en": "Osaka, Nara, Kyoto & Uji, Japan"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "p9137",
+      "filename": "p9137.webp",
+      "alt": {
+        "zh": "机场咖啡店的蓝色招牌",
+        "en": "Blue café sign at the airport"
+      }
+    },
+    {
+      "id": "p9139",
+      "filename": "p9139.webp",
+      "alt": {
+        "zh": "机场窗前手持咖啡杯",
+        "en": "Coffee held against the airport window"
+      }
+    },
+    {
+      "id": "p9149",
+      "filename": "p9149.webp",
+      "alt": {
+        "zh": "桌上的一兰拉面与配菜",
+        "en": "Ichiran ramen and sides on the table"
+      }
+    },
+    {
+      "id": "p9153",
+      "filename": "p9153.webp",
+      "alt": {
+        "zh": "大阪夜晚霓虹灯映照的道顿堀运河",
+        "en": "Dōtonbori canal under Osaka's neon lights"
+      }
+    },
+    {
+      "id": "p9155",
+      "filename": "p9155.webp",
+      "alt": {
+        "zh": "大阪夜间街道的灯笼和招牌",
+        "en": "Lanterns and shop signs on an Osaka street at night"
+      }
+    },
+    {
+      "id": "p9166",
+      "filename": "p9166.webp",
+      "alt": {
+        "zh": "奈良兴福寺一带的寺院建筑",
+        "en": "Temple buildings around Kōfuku-ji in Nara"
+      }
+    },
+    {
+      "id": "p9167",
+      "filename": "p9167.webp",
+      "alt": {
+        "zh": "蓝天下奈良寺院的朱红建筑",
+        "en": "Vermilion temple building beneath the Nara sky"
+      }
+    },
+    {
+      "id": "p9173",
+      "filename": "p9173.webp",
+      "alt": {
+        "zh": "奈良公园里躺着的一只鹿",
+        "en": "A deer lying in Nara Park"
+      }
+    },
+    {
+      "id": "p9180",
+      "filename": "p9180.webp",
+      "alt": {
+        "zh": "奈良公园站着的小鹿",
+        "en": "A standing deer in Nara Park"
+      }
+    },
+    {
+      "id": "p9182",
+      "filename": "p9182.webp",
+      "alt": {
+        "zh": "奈良国立博物馆外观",
+        "en": "Exterior of Nara National Museum"
+      }
+    },
+    {
+      "id": "p9185",
+      "filename": "p9185.webp",
+      "alt": {
+        "zh": "奈良国立博物馆前的鹿和石碑",
+        "en": "Deer beside a stone marker outside Nara National Museum"
+      }
+    },
+    {
+      "id": "p9193",
+      "filename": "p9193.webp",
+      "alt": {
+        "zh": "牛肉饭与配汤",
+        "en": "Beef rice and soup"
+      }
+    },
+    {
+      "id": "p9194",
+      "filename": "p9194.webp",
+      "alt": {
+        "zh": "东大寺南大门的木构立面",
+        "en": "Timber façade of Tōdai-ji's Great South Gate"
+      }
+    },
+    {
+      "id": "p9199",
+      "filename": "p9199.webp",
+      "alt": {
+        "zh": "一家人在奈良庭院里合影",
+        "en": "Family posing in a Nara garden"
+      }
+    },
+    {
+      "id": "p9203",
+      "filename": "p9203.webp",
+      "alt": {
+        "zh": "树木间的东大寺大门",
+        "en": "Tōdai-ji gate framed by trees"
+      }
+    },
+    {
+      "id": "p9205",
+      "filename": "p9205.webp",
+      "alt": {
+        "zh": "池边卧着的奈良鹿",
+        "en": "A deer resting beside a pond"
+      }
+    },
+    {
+      "id": "p9208",
+      "filename": "p9208.webp",
+      "alt": {
+        "zh": "东大寺大佛殿正面",
+        "en": "Front of Tōdai-ji's Great Buddha Hall"
+      }
+    },
+    {
+      "id": "p9215",
+      "filename": "p9215.webp",
+      "alt": {
+        "zh": "奈良寺院的石径和庭园",
+        "en": "Stone path and garden at a Nara temple"
+      }
+    },
+    {
+      "id": "p9219",
+      "filename": "p9219.webp",
+      "alt": {
+        "zh": "树林里的一群鹿",
+        "en": "A group of deer in the woods"
+      }
+    },
+    {
+      "id": "p9227",
+      "filename": "p9227.webp",
+      "alt": {
+        "zh": "奈良公园的草地与鹿群",
+        "en": "Deer scattered across the grass in Nara Park"
+      }
+    },
+    {
+      "id": "p9237",
+      "filename": "p9237.webp",
+      "alt": {
+        "zh": "春日大社林间的石灯笼",
+        "en": "Stone lanterns among trees at Kasuga Taisha"
+      }
+    },
+    {
+      "id": "p9239",
+      "filename": "p9239.webp",
+      "alt": {
+        "zh": "阳光下的神社朱红色建筑",
+        "en": "Vermilion shrine building in the afternoon light"
+      }
+    },
+    {
+      "id": "p9243",
+      "filename": "p9243.webp",
+      "alt": {
+        "zh": "春日大社石灯笼小径",
+        "en": "Stone-lantern path at Kasuga Taisha"
+      }
+    },
+    {
+      "id": "p9248",
+      "filename": "p9248.webp",
+      "alt": {
+        "zh": "若草山的草坡与凉亭",
+        "en": "Grassy slope and pavilion on Mount Wakakusa"
+      }
+    },
+    {
+      "id": "p9249",
+      "filename": "p9249.webp",
+      "alt": {
+        "zh": "若草山秋日草坡与游人",
+        "en": "Autumn grass and visitors on Mount Wakakusa"
+      }
+    },
+    {
+      "id": "p9252",
+      "filename": "p9252.webp",
+      "alt": {
+        "zh": "若草山上远眺夕阳",
+        "en": "Sunset view from Mount Wakakusa"
+      }
+    },
+    {
+      "id": "p9261",
+      "filename": "p9261.webp",
+      "alt": {
+        "zh": "夕阳下若草山的鹿与游人",
+        "en": "Deer and visitors on Mount Wakakusa at sunset"
+      }
+    },
+    {
+      "id": "p9264",
+      "filename": "p9264.webp",
+      "alt": {
+        "zh": "若草山夕阳落向远方",
+        "en": "Sun setting beyond Mount Wakakusa"
+      }
+    },
+    {
+      "id": "p9269",
+      "filename": "p9269.webp",
+      "alt": {
+        "zh": "大阪城护城河外的现代楼群",
+        "en": "Modern buildings beyond Osaka Castle's moat"
+      }
+    },
+    {
+      "id": "p9270",
+      "filename": "p9270.webp",
+      "alt": {
+        "zh": "大阪城护城河与城墙",
+        "en": "Osaka Castle's moat and stone walls"
+      }
+    },
+    {
+      "id": "p9274",
+      "filename": "p9274.webp",
+      "alt": {
+        "zh": "阴云下的大阪城天守阁",
+        "en": "Osaka Castle keep beneath the clouds"
+      }
+    },
+    {
+      "id": "p9277",
+      "filename": "p9277.webp",
+      "alt": {
+        "zh": "蓝天下的大阪城天守阁",
+        "en": "Osaka Castle keep beneath a blue sky"
+      }
+    },
+    {
+      "id": "p9279",
+      "filename": "p9279.webp",
+      "alt": {
+        "zh": "天守阁望向大阪市区",
+        "en": "View over Osaka from the castle keep"
+      }
+    },
+    {
+      "id": "p9281",
+      "filename": "p9281.webp",
+      "alt": {
+        "zh": "天守阁望向公园与市区",
+        "en": "Castle-keep view over the park and city"
+      }
+    },
+    {
+      "id": "p9292",
+      "filename": "p9292.webp",
+      "alt": {
+        "zh": "难波八坂神社的狮子殿",
+        "en": "Lion-head hall at Namba Yasaka Shrine"
+      }
+    },
+    {
+      "id": "p9298",
+      "filename": "p9298.webp",
+      "alt": {
+        "zh": "难波八坂神社的绘马墙",
+        "en": "Ema plaques at Namba Yasaka Shrine"
+      }
+    },
+    {
+      "id": "p9302",
+      "filename": "p9302.webp",
+      "alt": {
+        "zh": "难波八坂神社狮子殿近景",
+        "en": "Close view of the lion-head shrine hall"
+      }
+    },
+    {
+      "id": "p9308",
+      "filename": "p9308.webp",
+      "alt": {
+        "zh": "新世界街道尽头的通天阁",
+        "en": "Tsūtenkaku above the Shinsekai shopping street"
+      }
+    },
+    {
+      "id": "p9309",
+      "filename": "p9309.webp",
+      "alt": {
+        "zh": "新世界招牌间的通天阁",
+        "en": "Tsūtenkaku among Shinsekai signs"
+      }
+    },
+    {
+      "id": "p9318",
+      "filename": "p9318.webp",
+      "alt": {
+        "zh": "猪排与卷心菜摆在餐盘上",
+        "en": "Pork cutlet and cabbage on a plate"
+      }
+    },
+    {
+      "id": "p9326",
+      "filename": "p9326.webp",
+      "alt": {
+        "zh": "京都一座神社的拜殿",
+        "en": "Worship hall at a Kyoto shrine"
+      }
+    },
+    {
+      "id": "p9332",
+      "filename": "p9332.webp",
+      "alt": {
+        "zh": "鸭川与两岸街景",
+        "en": "Kamo River and the buildings along its banks"
+      }
+    },
+    {
+      "id": "p9337",
+      "filename": "p9337.webp",
+      "alt": {
+        "zh": "一家人在鸭川边合影",
+        "en": "Family selfie beside the Kamo River"
+      }
+    },
+    {
+      "id": "p9339",
+      "filename": "p9339.webp",
+      "alt": {
+        "zh": "鸭川河岸的树与步道",
+        "en": "Trees and walking path along the Kamo River"
+      }
+    },
+    {
+      "id": "p9343",
+      "filename": "p9343.webp",
+      "alt": {
+        "zh": "花见小路附近的街巷入口",
+        "en": "Entrance to a lane near Hanamikoji"
+      }
+    },
+    {
+      "id": "p9344",
+      "filename": "p9344.webp",
+      "alt": {
+        "zh": "京都木屋瓦檐下的街景",
+        "en": "Kyoto street scene beneath tiled wooden eaves"
+      }
+    },
+    {
+      "id": "p9348",
+      "filename": "p9348.webp",
+      "alt": {
+        "zh": "京都安静的传统街巷",
+        "en": "Quiet traditional street in Kyoto"
+      }
+    },
+    {
+      "id": "p9359",
+      "filename": "p9359.webp",
+      "alt": {
+        "zh": "京都神社前的鸟居",
+        "en": "Torii gate outside a Kyoto shrine"
+      }
+    },
+    {
+      "id": "p9360",
+      "filename": "p9360.webp",
+      "alt": {
+        "zh": "八坂神社的参拜建筑",
+        "en": "Worship hall at Yasaka Shrine"
+      }
+    },
+    {
+      "id": "p9364",
+      "filename": "p9364.webp",
+      "alt": {
+        "zh": "八坂神社朱红色神门",
+        "en": "Vermilion gate at Yasaka Shrine"
+      }
+    },
+    {
+      "id": "p9368",
+      "filename": "p9368.webp",
+      "alt": {
+        "zh": "京都街巷里望见五重塔",
+        "en": "Five-storey pagoda rising above a Kyoto street"
+      }
+    },
+    {
+      "id": "p9372",
+      "filename": "p9372.webp",
+      "alt": {
+        "zh": "清水寺入口的朱红大门",
+        "en": "Vermilion gate at the entrance to Kiyomizu-dera"
+      }
+    },
+    {
+      "id": "p9376",
+      "filename": "p9376.webp",
+      "alt": {
+        "zh": "清水寺红色楼门与石阶",
+        "en": "Red gate and stone steps at Kiyomizu-dera"
+      }
+    },
+    {
+      "id": "p9402",
+      "filename": "p9402.webp",
+      "alt": {
+        "zh": "京都清水寺的红色三重塔",
+        "en": "Red three-storey pagoda at Kyoto's Kiyomizu-dera"
+      }
+    },
+    {
+      "id": "p9404",
+      "filename": "p9404.webp",
+      "alt": {
+        "zh": "清水寺三重塔与寺院屋檐",
+        "en": "Kiyomizu-dera pagoda and temple roofs"
+      }
+    },
+    {
+      "id": "p9410",
+      "filename": "p9410.webp",
+      "alt": {
+        "zh": "傍晚的京都山峦与城市屋顶",
+        "en": "Kyoto rooftops and mountains at dusk"
+      }
+    },
+    {
+      "id": "p9411",
+      "filename": "p9411.webp",
+      "alt": {
+        "zh": "暮色里的京都塔",
+        "en": "Kyoto Tower glowing at dusk"
+      }
+    },
+    {
+      "id": "p9417",
+      "filename": "p9417.webp",
+      "alt": {
+        "zh": "夜里的京都塔",
+        "en": "Kyoto Tower at night"
+      }
+    },
+    {
+      "id": "p9423",
+      "filename": "p9423.webp",
+      "alt": {
+        "zh": "京都 Travelodge 酒店外墙标识",
+        "en": "Travelodge hotel sign in Kyoto"
+      }
+    },
+    {
+      "id": "p9427",
+      "filename": "p9427.webp",
+      "alt": {
+        "zh": "东本愿寺木构大殿",
+        "en": "Timber hall at Higashi Hongan-ji"
+      }
+    },
+    {
+      "id": "p9429",
+      "filename": "p9429.webp",
+      "alt": {
+        "zh": "东本愿寺宽阔的寺院屋顶",
+        "en": "Broad temple roof at Higashi Hongan-ji"
+      }
+    },
+    {
+      "id": "p9430",
+      "filename": "p9430.webp",
+      "alt": {
+        "zh": "寺院旁的水渠与秋色",
+        "en": "Canal and autumn trees beside the temple"
+      }
+    },
+    {
+      "id": "p9438",
+      "filename": "p9438.webp",
+      "alt": {
+        "zh": "京都塔与街景",
+        "en": "Kyoto Tower above the streets"
+      }
+    },
+    {
+      "id": "p9444",
+      "filename": "p9444.webp",
+      "alt": {
+        "zh": "神社里的朱红鸟居",
+        "en": "Vermilion torii at a shrine"
+      }
+    },
+    {
+      "id": "p9446",
+      "filename": "p9446.webp",
+      "alt": {
+        "zh": "蓝天下伏见稻荷大社的朱红神殿",
+        "en": "Vermilion shrine building at Fushimi Inari under blue sky"
+      }
+    },
+    {
+      "id": "p9448",
+      "filename": "p9448.webp",
+      "alt": {
+        "zh": "伏见稻荷大社的参拜建筑",
+        "en": "Worship building at Fushimi Inari"
+      }
+    },
+    {
+      "id": "p9453",
+      "filename": "p9453.webp",
+      "alt": {
+        "zh": "宇治一家店铺的木制门面",
+        "en": "Wooden storefront in Uji"
+      }
+    },
+    {
+      "id": "p9462",
+      "filename": "p9462.webp",
+      "alt": {
+        "zh": "宇治桥和宇治川上的天空",
+        "en": "Sky over Uji Bridge and the Uji River"
+      }
+    },
+    {
+      "id": "p9465",
+      "filename": "p9465.webp",
+      "alt": {
+        "zh": "宇治川河岸与桥梁",
+        "en": "Uji River embankment and bridge"
+      }
+    },
+    {
+      "id": "p9468",
+      "filename": "p9468.webp",
+      "alt": {
+        "zh": "宇治川与远处的山",
+        "en": "Uji River with hills in the distance"
+      }
+    },
+    {
+      "id": "p9469",
+      "filename": "p9469.webp",
+      "alt": {
+        "zh": "宇治庭院入口与枫叶",
+        "en": "Garden entrance and maple leaves in Uji"
+      }
+    },
+    {
+      "id": "p9481",
+      "filename": "p9481.webp",
+      "alt": {
+        "zh": "红色餐盘上的炭烧鳗鱼饭",
+        "en": "Charcoal-grilled eel rice on red serving trays"
+      }
+    },
+    {
+      "id": "p9484",
+      "filename": "p9484.webp",
+      "alt": {
+        "zh": "餐桌上的鳗鱼饭与配菜",
+        "en": "Eel rice and side dishes on the table"
+      }
+    },
+    {
+      "id": "p9494",
+      "filename": "p9494.webp",
+      "alt": {
+        "zh": "京都 Lelabo 咖啡店的门面",
+        "en": "Exterior of Lelabo café in Kyoto"
+      }
+    },
+    {
+      "id": "p9498",
+      "filename": "p9498.webp",
+      "alt": {
+        "zh": "一家人举着咖啡杯合影",
+        "en": "Family holding coffee cups together"
+      }
+    },
+    {
+      "id": "p9501",
+      "filename": "p9501.webp",
+      "alt": {
+        "zh": "庭院里的三只咖啡杯",
+        "en": "Three coffee cups in a courtyard"
+      }
+    },
+    {
+      "id": "p9503",
+      "filename": "p9503.webp",
+      "alt": {
+        "zh": "京都街边水渠",
+        "en": "Canal along a Kyoto street"
+      }
+    },
+    {
+      "id": "p9506",
+      "filename": "p9506.webp",
+      "alt": {
+        "zh": "京都街道上的秋叶",
+        "en": "Autumn leaves along a Kyoto street"
+      }
+    },
+    {
+      "id": "p9510",
+      "filename": "p9510.webp",
+      "alt": {
+        "zh": "站台上的 Hello Kitty Haruka 特快列车",
+        "en": "Hello Kitty Haruka limited express at the platform"
+      }
+    },
+    {
+      "id": "p9511",
+      "filename": "p9511.webp",
+      "alt": {
+        "zh": "京都站的 Hello Kitty 站牌",
+        "en": "Hello Kitty sign at Kyoto Station"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "KANSAI",
+          "en": "KANSAI"
+        },
+        "label": {
+          "zh": "一家人的关西",
+          "en": "Kansai together"
+        },
+        "detail": {
+          "zh": "2024.11.10 — 11.15",
+          "en": "November 10–15, 2024"
+        }
+      }
+    },
+    {
+      "id": "day-1",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 1",
+          "en": "DAY 1"
+        },
+        "label": {
+          "zh": "抵达关西",
+          "en": "Arriving in Kansai"
+        },
+        "detail": {
+          "zh": "浦东 → 大阪 · 道顿堀",
+          "en": "Pudong → Osaka · Dōtonbori"
+        }
+      }
+    },
+    {
+      "id": "day-2",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 2",
+          "en": "DAY 2"
+        },
+        "label": {
+          "zh": "奈良，与鹿同行",
+          "en": "Nara, walking with deer"
+        },
+        "detail": {
+          "zh": "兴福寺 → 东大寺 → 春日大社 → 若草山",
+          "en": "Kōfuku-ji → Tōdai-ji → Kasuga Taisha → Mount Wakakusa"
+        }
+      }
+    },
+    {
+      "id": "day-3",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 3",
+          "en": "DAY 3"
+        },
+        "label": {
+          "zh": "大阪城与梅田",
+          "en": "Osaka Castle and Umeda"
+        },
+        "detail": {
+          "zh": "天守阁 → 难波 → 新世界 → 梅田",
+          "en": "Castle keep → Namba → Shinsekai → Umeda"
+        }
+      }
+    },
+    {
+      "id": "day-4",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 4",
+          "en": "DAY 4"
+        },
+        "label": {
+          "zh": "京都，钱包失而复得",
+          "en": "Kyoto, and the lost wallet"
+        },
+        "detail": {
+          "zh": "锦市场 → 鸭川 → 清水寺",
+          "en": "Nishiki Market → Kamo River → Kiyomizu-dera"
+        }
+      }
+    },
+    {
+      "id": "day-5",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 5",
+          "en": "DAY 5"
+        },
+        "label": {
+          "zh": "宇治抹茶慢时光",
+          "en": "Slow matcha time in Uji"
+        },
+        "detail": {
+          "zh": "东本愿寺 → 伏见稻荷 → 宇治",
+          "en": "Higashi Hongan-ji → Fushimi Inari → Uji"
+        }
+      }
+    },
+    {
+      "id": "day-6",
+      "navigation": {
+        "marker": {
+          "zh": "DAY 6",
+          "en": "DAY 6"
+        },
+        "label": {
+          "zh": "高岛屋与回家",
+          "en": "Takashimaya and home"
+        },
+        "detail": {
+          "zh": "京都 → 关西机场 → 上海",
+          "en": "Kyoto → Kansai Airport → Shanghai"
+        }
+      }
+    },
+    {
+      "id": "spending",
+      "navigation": {
+        "marker": {
+          "zh": "JPY",
+          "en": "JPY"
+        },
+        "label": {
+          "zh": "记下的花费",
+          "en": "Recorded spending"
+        },
+        "detail": {
+          "zh": "部分价格 · 非全程总计",
+          "en": "Prices noted · not a trip total"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover-title",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "一家人的关西 · 2024",
+            "en": "Kansai with family · 2024"
+          },
+          "title": {
+            "zh": "关西家庭旅行：大阪、奈良、京都与宇治",
+            "en": "Kansai Family Trip — Osaka, Nara, Kyoto & Uji"
+          },
+          "subtitle": {
+            "zh": "和妈妈、妹妹一起，从奈良的鹿走到宇治的河边",
+            "en": "With Mom and my sister, from Nara's deer to the riverside in Uji"
+          },
+          "date": {
+            "zh": "2024.11.10 — 11.15",
+            "en": "November 10–15, 2024"
+          },
+          "intro": {
+            "zh": "带妈妈和妹妹从大阪出发，去奈良看鹿、在京都找回丢失的钱包，再沿宇治川慢慢走。六天很充实，也有几段真正慢下来的时光。",
+            "en": "Mom, my sister and I started in Osaka, met the deer in Nara, found a lost wallet in Kyoto, and slowed down beside the Uji River. Six full days, with room to breathe."
+          },
+          "backgroundImageId": "p9402"
+        }
+      ]
+    },
+    {
+      "id": "day-1-arrival",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "day-1-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "1",
+            "en": "1"
+          },
+          "title": {
+            "zh": "抵达关西",
+            "en": "Arriving in Kansai"
+          },
+          "subtitle": {
+            "zh": "2024.11.10",
+            "en": "November 10, 2024"
+          }
+        },
+        {
+          "id": "narrative-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "11 月 10 日，和妈妈、妹妹从浦东出发，飞往大阪关西机场。机场的一杯咖啡，是这趟六天家庭旅行的开场。",
+              "en": "On November 10, Mom, my sister and I flew from Pudong to Kansai Airport. A coffee at the airport marked the beginning of our six days together."
+            }
+          ]
+        },
+        {
+          "id": "photos-2",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9137",
+              "caption": {
+                "zh": "从浦东启程。",
+                "en": "Leaving Pudong together."
+              }
+            },
+            {
+              "imageId": "p9139",
+              "caption": {
+                "zh": "从浦东启程。",
+                "en": "Leaving Pudong together."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上到心斋桥一带，当然也想和格力高广告牌合影。道顿堀的霓虹灯把第一晚照得很热闹；一兰拉面是晚餐，三个人花了 6,000 日元。",
+              "en": "That evening we headed to Shinsaibashi for the familiar Glico-billboard photo. Dōtonbori's neon made our first night lively; dinner at Ichiran cost ¥6,000 for the three of us."
+            }
+          ]
+        },
+        {
+          "id": "photos-4",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9149",
+              "caption": {
+                "zh": "大阪的第一顿和第一夜。",
+                "en": "Our first Osaka meal, then the city after dark."
+              }
+            },
+            {
+              "imageId": "p9153",
+              "caption": {
+                "zh": "大阪的第一顿和第一夜。",
+                "en": "Our first Osaka meal, then the city after dark."
+              }
+            },
+            {
+              "imageId": "p9155",
+              "caption": {
+                "zh": "大阪的第一顿和第一夜。",
+                "en": "Our first Osaka meal, then the city after dark."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "饭后在 ABC Mart 买鞋花了 8,000 日元，又在大国药妆花了 20,000 日元。住大阪的 Fresa Inn Kitahama，离心斋桥约两站地铁。",
+              "en": "After dinner, I bought shoes at ABC Mart for ¥8,000 and we spent ¥20,000 at Daikoku Drug. We stayed at Fresa Inn Kitahama, about two metro stops from Shinsaibashi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-2-temples-and-deer",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "day-2-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "2",
+            "en": "2"
+          },
+          "title": {
+            "zh": "奈良，与鹿同行",
+            "en": "Nara, walking with deer"
+          },
+          "subtitle": {
+            "zh": "2024.11.11",
+            "en": "November 11, 2024"
+          }
+        },
+        {
+          "id": "narrative-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "早餐在 Doutor Coffee 解决，再从大阪坐近铁，约 40 分钟到奈良站。先去兴福寺，门票每人 500 日元；走进奈良公园，鹿已经不怎么怕人了，公园里看鹿不用门票。",
+              "en": "We had breakfast at Doutor Coffee and took the Kintetsu train from Osaka, reaching Nara Station in about 40 minutes. Kōfuku-ji was ¥500 each; the deer in free-to-enter Nara Park seemed entirely unafraid of us."
+            }
+          ]
+        },
+        {
+          "id": "photos-7",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9166",
+              "caption": {
+                "zh": "从寺院走进鹿群。",
+                "en": "From the temple grounds into the company of deer."
+              }
+            },
+            {
+              "imageId": "p9167",
+              "caption": {
+                "zh": "从寺院走进鹿群。",
+                "en": "From the temple grounds into the company of deer."
+              }
+            },
+            {
+              "imageId": "p9173",
+              "caption": {
+                "zh": "从寺院走进鹿群。",
+                "en": "From the temple grounds into the company of deer."
+              }
+            },
+            {
+              "imageId": "p9180",
+              "caption": {
+                "zh": "从寺院走进鹿群。",
+                "en": "From the temple grounds into the company of deer."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-8",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "奈良国立博物馆的正仓院展每人 2,200 日元，笔记里记下了奈良历史和神武天皇。馆外仍然到处是鹿。它们会主动来找鹿饼，但拿着饼不要在雄鹿面前晃。",
+              "en": "The Shōsōin Exhibition at Nara National Museum cost ¥2,200 each; I noted its Nara history and Emperor Jimmu exhibits. Deer were everywhere outside too. They come right up for crackers, but I learned not to wave a cracker in front of a stag."
+            }
+          ]
+        },
+        {
+          "id": "photos-9",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9182",
+              "caption": {
+                "zh": "从展厅出来，奈良仍然由鹿带路。",
+                "en": "Even outside the museum, the deer kept us company."
+              }
+            },
+            {
+              "imageId": "p9185",
+              "caption": {
+                "zh": "从展厅出来，奈良仍然由鹿带路。",
+                "en": "Even outside the museum, the deer kept us company."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-10",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午餐是东大寺旁边的牛肉饭，之后去东大寺，看南大门和大佛殿；也在园里留下一张全家合影。",
+              "en": "Lunch was beef rice beside Tōdai-ji. We went on to the Great South Gate and Great Buddha Hall and took a family photograph in the gardens."
+            }
+          ]
+        },
+        {
+          "id": "photos-11",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9193",
+              "caption": {
+                "zh": "吃过饭，继续沿着东大寺的路走。",
+                "en": "After lunch, the walk through Tōdai-ji continued."
+              }
+            },
+            {
+              "imageId": "p9194",
+              "caption": {
+                "zh": "吃过饭，继续沿着东大寺的路走。",
+                "en": "After lunch, the walk through Tōdai-ji continued."
+              }
+            },
+            {
+              "imageId": "p9199",
+              "caption": {
+                "zh": "吃过饭，继续沿着东大寺的路走。",
+                "en": "After lunch, the walk through Tōdai-ji continued."
+              }
+            },
+            {
+              "imageId": "p9203",
+              "caption": {
+                "zh": "吃过饭，继续沿着东大寺的路走。",
+                "en": "After lunch, the walk through Tōdai-ji continued."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-12",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9205",
+              "caption": {
+                "zh": "殿堂、庭园与随处停下来的鹿。",
+                "en": "Great halls, garden paths and deer at rest."
+              }
+            },
+            {
+              "imageId": "p9208",
+              "caption": {
+                "zh": "殿堂、庭园与随处停下来的鹿。",
+                "en": "Great halls, garden paths and deer at rest."
+              }
+            },
+            {
+              "imageId": "p9215",
+              "caption": {
+                "zh": "殿堂、庭园与随处停下来的鹿。",
+                "en": "Great halls, garden paths and deer at rest."
+              }
+            },
+            {
+              "imageId": "p9219",
+              "caption": {
+                "zh": "殿堂、庭园与随处停下来的鹿。",
+                "en": "Great halls, garden paths and deer at rest."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-2-sunset",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "narrative-13",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走过春日大社，林间石灯笼和鹿一路相伴。若草山门票每人 150 日元；在山坡上等到夕阳，下山的光线真美。这是全程最治愈的一天。",
+              "en": "We walked through Kasuga Taisha among stone lanterns and deer. Mount Wakakusa cost ¥150 each; we stayed for the sunset, and the light on the way down was beautiful. It was the most restorative day of the trip."
+            }
+          ]
+        },
+        {
+          "id": "photos-14",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9227",
+              "caption": {
+                "zh": "林荫路慢慢通向若草山。",
+                "en": "The shaded paths gradually led us toward Mount Wakakusa."
+              }
+            },
+            {
+              "imageId": "p9237",
+              "caption": {
+                "zh": "林荫路慢慢通向若草山。",
+                "en": "The shaded paths gradually led us toward Mount Wakakusa."
+              }
+            },
+            {
+              "imageId": "p9239",
+              "caption": {
+                "zh": "林荫路慢慢通向若草山。",
+                "en": "The shaded paths gradually led us toward Mount Wakakusa."
+              }
+            },
+            {
+              "imageId": "p9243",
+              "caption": {
+                "zh": "林荫路慢慢通向若草山。",
+                "en": "The shaded paths gradually led us toward Mount Wakakusa."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-15",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9248",
+              "caption": {
+                "zh": "山坡上，时间终于慢下来。",
+                "en": "Up on the hillside, the day finally slowed down."
+              }
+            },
+            {
+              "imageId": "p9249",
+              "caption": {
+                "zh": "山坡上，时间终于慢下来。",
+                "en": "Up on the hillside, the day finally slowed down."
+              }
+            },
+            {
+              "imageId": "p9252",
+              "caption": {
+                "zh": "山坡上，时间终于慢下来。",
+                "en": "Up on the hillside, the day finally slowed down."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-16",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9261",
+              "caption": {
+                "zh": "天色渐晚，鹿还留在草坡上。",
+                "en": "As the sun went down, the deer were still on the grass."
+              }
+            },
+            {
+              "imageId": "p9264",
+              "caption": {
+                "zh": "天色渐晚，鹿还留在草坡上。",
+                "en": "As the sun went down, the deer were still on the grass."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-17",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "记得去车站方向的末班车是 16:45，步行到车站约需 20 分钟。回到大阪难波，Okini 自助烤肉三人约 13,000 日元。后来去 Bic Camera 买电子产品：MacBook 和耳机约 96,000 日元；笔记里写着笔记本便宜 13,000、耳机便宜 200。日版笔记本默认日式键盘，想要美式键盘一定要指定 US Keyboard。",
+              "en": "My note says the last bus toward the station was at 16:45 and the walk to the station took around 20 minutes. Back in Namba, Okini all-you-can-eat barbecue cost about ¥13,000 for three. At Bic Camera we bought electronics: a MacBook and headphones for about ¥96,000; my note records savings of 13,000 on the laptop and 200 on the headphones, without a comparison basis. Japanese models have a Japanese keyboard layout, so we had to request a US Keyboard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-3-castle",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "day-3-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "3",
+            "en": "3"
+          },
+          "title": {
+            "zh": "大阪城与梅田",
+            "en": "Osaka Castle and Umeda"
+          },
+          "subtitle": {
+            "zh": "2024.11.12",
+            "en": "November 12, 2024"
+          }
+        },
+        {
+          "id": "narrative-18",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "又在 Doutor Coffee 吃过早餐，去大阪城。地铁站离天守阁还有一段路；天守阁门票每人 600 日元，逛下来约两小时。提前买票可以少排队。护城河和城墙，远看近看都很有气势。",
+              "en": "Another Doutor Coffee breakfast, then Osaka Castle. The keep was a fair walk from the station; admission was ¥600 each and our visit took about two hours. Buying tickets ahead can save the queue. The moat and walls looked imposing from every angle."
+            }
+          ]
+        },
+        {
+          "id": "photos-19",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9269",
+              "caption": {
+                "zh": "先绕过护城河，才走近天守阁。",
+                "en": "We walked along the moat before reaching the keep."
+              }
+            },
+            {
+              "imageId": "p9270",
+              "caption": {
+                "zh": "先绕过护城河，才走近天守阁。",
+                "en": "We walked along the moat before reaching the keep."
+              }
+            },
+            {
+              "imageId": "p9274",
+              "caption": {
+                "zh": "先绕过护城河，才走近天守阁。",
+                "en": "We walked along the moat before reaching the keep."
+              }
+            },
+            {
+              "imageId": "p9277",
+              "caption": {
+                "zh": "先绕过护城河，才走近天守阁。",
+                "en": "We walked along the moat before reaching the keep."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-20",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9279",
+              "caption": {
+                "zh": "从高处回望大阪与公园。",
+                "en": "Looking back across Osaka and the park from above."
+              }
+            },
+            {
+              "imageId": "p9281",
+              "caption": {
+                "zh": "从高处回望大阪与公园。",
+                "en": "Looking back across Osaka and the park from above."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-21",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午餐在大阪城外的罗森随便吃了点。接着去难波八坂神社，那张张着大嘴的狮子殿很难忘；再走到通天阁和新世界，招牌挤在一起。",
+              "en": "Lunch was a quick stop at the Lawson outside the castle. Then we visited Namba Yasaka Shrine and its unforgettable open-mouthed lion hall, before heading to Tsūtenkaku and Shinsekai, where the signs crowd the street."
+            }
+          ]
+        },
+        {
+          "id": "photos-22",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9292",
+              "caption": {
+                "zh": "从城墙转向狮子殿。",
+                "en": "From the castle walls to the lion-head shrine."
+              }
+            },
+            {
+              "imageId": "p9298",
+              "caption": {
+                "zh": "从城墙转向狮子殿。",
+                "en": "From the castle walls to the lion-head shrine."
+              }
+            },
+            {
+              "imageId": "p9302",
+              "caption": {
+                "zh": "从城墙转向狮子殿。",
+                "en": "From the castle walls to the lion-head shrine."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-23",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9308",
+              "caption": {
+                "zh": "通天阁就在新世界街道的尽头。",
+                "en": "Tsūtenkaku at the far end of Shinsekai."
+              }
+            },
+            {
+              "imageId": "p9309",
+              "caption": {
+                "zh": "通天阁就在新世界街道的尽头。",
+                "en": "Tsūtenkaku at the far end of Shinsekai."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-3-umeda",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "narrative-24",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午在梅田扫货：Lucua 的 Lululemon 花了 90,000 日元；友都八喜户外区只逛没买；Lucua 1100 女装两笔分别是 30,000 和 60,000 日元。大丸百货 13 楼买了 2,000 日元的任天堂小礼物，又在阪急百货 4 楼花 20,000 日元代购鬼冢虎。",
+              "en": "Our Umeda shopping run began with ¥90,000 at Lululemon in Lucua. We browsed Yodobashi's outdoor section without buying anything, then spent ¥30,000 and ¥60,000 on womenswear at Lucua 1100. We picked up ¥2,000 of small Nintendo gifts on Daimaru's 13th floor and made a ¥20,000 Onitsuka Tiger proxy purchase on Hankyu's fourth floor."
+            }
+          ]
+        },
+        {
+          "id": "narrative-25",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚餐在阪急百货 12 楼吃猪排，三人约 4,500 日元，真的好吃！晚上又在堂吉诃德买药妆，约 27,000 日元。",
+              "en": "Dinner was pork cutlet on Hankyu's 12th floor—really good, and about ¥4,500 for the three of us. We finished with around ¥27,000 of pharmacy and beauty shopping at Don Quijote."
+            }
+          ]
+        },
+        {
+          "id": "photos-26",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p9318",
+              "caption": {
+                "zh": "忙了一整天，这顿猪排很合心意。",
+                "en": "After a busy day, that pork cutlet really hit the spot."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-4-river-and-lanes",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "day-4-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "4",
+            "en": "4"
+          },
+          "title": {
+            "zh": "京都，钱包失而复得",
+            "en": "Kyoto, and the lost wallet"
+          },
+          "subtitle": {
+            "zh": "2024.11.13",
+            "en": "November 13, 2024"
+          }
+        },
+        {
+          "id": "narrative-27",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在 Doutor Coffee 吃过早餐，从大阪坐电车到京都，落脚四条大宫的 Travelodge。先逛锦市场，午餐就吃市场里的各样小吃。走到鸭川边拍照，一家人也在河边合影。",
+              "en": "After breakfast at Doutor Coffee we took the train from Osaka to Kyoto and settled at Travelodge in Shijo-Omiya. We browsed Nishiki Market, eating a mix of market snacks for lunch, then took photos by the Kamo River together."
+            }
+          ]
+        },
+        {
+          "id": "photos-28",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9326",
+              "caption": {
+                "zh": "从市场走向鸭川，把家人和河岸都拍下来。",
+                "en": "From the market to the Kamo River, with a family photo by the water."
+              }
+            },
+            {
+              "imageId": "p9332",
+              "caption": {
+                "zh": "从市场走向鸭川，把家人和河岸都拍下来。",
+                "en": "From the market to the Kamo River, with a family photo by the water."
+              }
+            },
+            {
+              "imageId": "p9337",
+              "caption": {
+                "zh": "从市场走向鸭川，把家人和河岸都拍下来。",
+                "en": "From the market to the Kamo River, with a family photo by the water."
+              }
+            },
+            {
+              "imageId": "p9339",
+              "caption": {
+                "zh": "从市场走向鸭川，把家人和河岸都拍下来。",
+                "en": "From the market to the Kamo River, with a family photo by the water."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-29",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "花见小路也拍了照；这里可以租和服，我们没有租。沿着八坂神社、二年坂和三年坂慢慢逛，街巷里抬头就能看见塔。",
+              "en": "We took photos on Hanamikoji, though we skipped the kimono rental. Then we wandered around Yasaka Shrine, Ninenzaka and Sannenzaka, looking up to find a pagoda above the streets."
+            }
+          ]
+        },
+        {
+          "id": "photos-30",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9343",
+              "caption": {
+                "zh": "京都的街巷，适合走走停停。",
+                "en": "Kyoto's lanes made it easy to pause along the way."
+              }
+            },
+            {
+              "imageId": "p9344",
+              "caption": {
+                "zh": "京都的街巷，适合走走停停。",
+                "en": "Kyoto's lanes made it easy to pause along the way."
+              }
+            },
+            {
+              "imageId": "p9348",
+              "caption": {
+                "zh": "京都的街巷，适合走走停停。",
+                "en": "Kyoto's lanes made it easy to pause along the way."
+              }
+            },
+            {
+              "imageId": "p9359",
+              "caption": {
+                "zh": "京都的街巷，适合走走停停。",
+                "en": "Kyoto's lanes made it easy to pause along the way."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-31",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9360",
+              "caption": {
+                "zh": "从八坂神社一路走向清水寺。",
+                "en": "The walk carried us from Yasaka toward Kiyomizu-dera."
+              }
+            },
+            {
+              "imageId": "p9364",
+              "caption": {
+                "zh": "从八坂神社一路走向清水寺。",
+                "en": "The walk carried us from Yasaka toward Kiyomizu-dera."
+              }
+            },
+            {
+              "imageId": "p9368",
+              "caption": {
+                "zh": "从八坂神社一路走向清水寺。",
+                "en": "The walk carried us from Yasaka toward Kiyomizu-dera."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-4-wallet",
+      "sectionId": "day-4",
+      "blocks": [
+        {
+          "id": "narrative-32",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "清水寺的夜间参拜每人 500 日元。偏偏在这里弄丢了钱包，又奇迹般找了回来——比风景更让人记得牢的，就是这一场虚惊。",
+              "en": "Nighttime admission to Kiyomizu-dera was ¥500 each. This was where we lost a wallet and, miraculously, found it again. That moment of panic and relief became the story we remember most."
+            }
+          ]
+        },
+        {
+          "id": "photos-33",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9372",
+              "caption": {
+                "zh": "清水寺红色的门与塔，见证了这场虚惊。",
+                "en": "Kiyomizu-dera's red gates and pagoda framed the wallet scare."
+              }
+            },
+            {
+              "imageId": "p9376",
+              "caption": {
+                "zh": "清水寺红色的门与塔，见证了这场虚惊。",
+                "en": "Kiyomizu-dera's red gates and pagoda framed the wallet scare."
+              }
+            },
+            {
+              "imageId": "p9402",
+              "caption": {
+                "zh": "清水寺红色的门与塔，见证了这场虚惊。",
+                "en": "Kiyomizu-dera's red gates and pagoda framed the wallet scare."
+              }
+            },
+            {
+              "imageId": "p9404",
+              "caption": {
+                "zh": "清水寺红色的门与塔，见证了这场虚惊。",
+                "en": "Kiyomizu-dera's red gates and pagoda framed the wallet scare."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-34",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9410",
+              "caption": {
+                "zh": "天色渐暗，京都塔亮了起来。",
+                "en": "The light faded and Kyoto Tower came on."
+              }
+            },
+            {
+              "imageId": "p9411",
+              "caption": {
+                "zh": "天色渐暗，京都塔亮了起来。",
+                "en": "The light faded and Kyoto Tower came on."
+              }
+            },
+            {
+              "imageId": "p9417",
+              "caption": {
+                "zh": "天色渐暗，京都塔亮了起来。",
+                "en": "The light faded and Kyoto Tower came on."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-35",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚餐到京都站的 Musashi 吃旋转寿司，鱼生选择比较多，不喜欢生鱼片的人可能不合适。回程逛优衣库花了 5,000 日元：妹妹买内搭，妈妈买羽绒背心，最后回 Travelodge Shijo Omiya。",
+              "en": "At Kyoto Station we had conveyor-belt sushi at Musashi. There was plenty of raw fish, so I would not pick it for someone who dislikes sashimi. On the way back, my sister bought base layers and Mom a down vest at Uniqlo for ¥5,000 altogether, before we returned to Travelodge Shijo Omiya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-5-inari-and-uji",
+      "sectionId": "day-5",
+      "blocks": [
+        {
+          "id": "day-5-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "5",
+            "en": "5"
+          },
+          "title": {
+            "zh": "宇治抹茶慢时光",
+            "en": "Slow matcha time in Uji"
+          },
+          "subtitle": {
+            "zh": "2024.11.14",
+            "en": "November 14, 2024"
+          }
+        },
+        {
+          "id": "narrative-36",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "早餐在 Tully's Coffee，花了 2,000 日元。先去东本愿寺，再到京都站与京都塔合影。之后先到伏见稻荷大社；午餐是不好吃的列车便当，另在神社外的便利店买了些吃的。",
+              "en": "Breakfast at Tully's Coffee was ¥2,000. We visited Higashi Hongan-ji and took a Kyoto Tower photo at the station. Then we went to Fushimi Inari Taisha first. Lunch was a disappointing train bento, supplemented by a convenience-store stop outside the shrine."
+            }
+          ]
+        },
+        {
+          "id": "photos-37",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p9423",
+              "caption": {
+                "zh": "从四条大宫的住处出发。",
+                "en": "Leaving our Shijo-Omiya hotel for the day."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-38",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9427",
+              "caption": {
+                "zh": "寺院、京都塔，随后出发去伏见。",
+                "en": "The temple and Kyoto Tower before we headed toward Fushimi."
+              }
+            },
+            {
+              "imageId": "p9429",
+              "caption": {
+                "zh": "寺院、京都塔，随后出发去伏见。",
+                "en": "The temple and Kyoto Tower before we headed toward Fushimi."
+              }
+            },
+            {
+              "imageId": "p9430",
+              "caption": {
+                "zh": "寺院、京都塔，随后出发去伏见。",
+                "en": "The temple and Kyoto Tower before we headed toward Fushimi."
+              }
+            },
+            {
+              "imageId": "p9438",
+              "caption": {
+                "zh": "寺院、京都塔，随后出发去伏见。",
+                "en": "The temple and Kyoto Tower before we headed toward Fushimi."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-39",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9444",
+              "caption": {
+                "zh": "朱红的鸟居与神殿，停留在去宇治之前。",
+                "en": "Vermilion gates and shrine halls, before the journey to Uji."
+              }
+            },
+            {
+              "imageId": "p9446",
+              "caption": {
+                "zh": "朱红的鸟居与神殿，停留在去宇治之前。",
+                "en": "Vermilion gates and shrine halls, before the journey to Uji."
+              }
+            },
+            {
+              "imageId": "p9448",
+              "caption": {
+                "zh": "朱红的鸟居与神殿，停留在去宇治之前。",
+                "en": "Vermilion gates and shrine halls, before the journey to Uji."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-40",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再坐 JR 奈良线前往宇治。比起前几天赶着走的路，这一天最悠闲：在伊藤右卫门和中村藤吉吃了些抹茶小零食，沿宇治桥和宇治川散步拍照，也去了平等院。",
+              "en": "After Fushimi, we continued to Uji on the JR Nara Line. This was the most leisurely day: matcha snacks from Itohkyuemon and Nakamura Tokichi, a walk and photos along Uji Bridge and the Uji River, and a visit to Byōdō-in."
+            }
+          ]
+        },
+        {
+          "id": "photos-41",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9453",
+              "caption": {
+                "zh": "宇治的店铺与河风，让脚步慢下来。",
+                "en": "Shops and the riverside made it easy to slow down in Uji."
+              }
+            },
+            {
+              "imageId": "p9462",
+              "caption": {
+                "zh": "宇治的店铺与河风，让脚步慢下来。",
+                "en": "Shops and the riverside made it easy to slow down in Uji."
+              }
+            },
+            {
+              "imageId": "p9465",
+              "caption": {
+                "zh": "宇治的店铺与河风，让脚步慢下来。",
+                "en": "Shops and the riverside made it easy to slow down in Uji."
+              }
+            },
+            {
+              "imageId": "p9468",
+              "caption": {
+                "zh": "宇治的店铺与河风，让脚步慢下来。",
+                "en": "Shops and the riverside made it easy to slow down in Uji."
+              }
+            }
+          ]
+        },
+        {
+          "id": "photos-42",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p9469",
+              "caption": {
+                "zh": "散步时经过的庭院入口。",
+                "en": "A garden entrance along the walk."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-5-evening",
+      "sectionId": "day-5",
+      "blocks": [
+        {
+          "id": "narrative-43",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "乘 JR 奈良线回到京都站，再去四条逛街。始祖鸟只看看，没有买；四条大丸买了 19,000 日元的运动皮鞋、11,000 日元的 Kanebo 精华。",
+              "en": "We took the JR Nara Line back to Kyoto Station and shopped in Shijo. We browsed Arc'teryx without buying anything; at Daimaru Kyoto we bought sporty leather shoes for ¥19,000 and Kanebo serum for ¥11,000."
+            }
+          ]
+        },
+        {
+          "id": "narrative-44",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚餐是大丸百货的炭烧鳗鱼饭，三个人花了 15,000 日元。很好吃，但吃多了会有点腻；下次三个人点两份大的就够了。",
+              "en": "Dinner was charcoal-grilled eel rice at Daimaru, ¥15,000 for three. Delicious, though a little rich toward the end; two large portions would have been enough for us."
+            }
+          ]
+        },
+        {
+          "id": "photos-45",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p9481",
+              "caption": {
+                "zh": "鳗鱼饭很好吃，也确实很丰盛。",
+                "en": "The eel rice was delicious—and very generous."
+              }
+            },
+            {
+              "imageId": "p9484",
+              "caption": {
+                "zh": "鳗鱼饭很好吃，也确实很丰盛。",
+                "en": "The eel rice was delicious—and very generous."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-6-last-day",
+      "sectionId": "day-6",
+      "blocks": [
+        {
+          "id": "day-6-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "DAY",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "6",
+            "en": "6"
+          },
+          "title": {
+            "zh": "高岛屋与回家",
+            "en": "Takashimaya and home"
+          },
+          "subtitle": {
+            "zh": "2024.11.15",
+            "en": "November 15, 2024"
+          }
+        },
+        {
+          "id": "narrative-46",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天，先在酒店附近的咖啡店喝了一杯，再去高岛屋看 Mikimoto。珍珠项链和耳环都很好看，单珠却难买；最后只买到了 7mm 的，记下两笔 80,000 和 60,000 日元。",
+              "en": "On our last day we started with coffee near the hotel, then went to Mikimoto at Takashimaya. The pearl necklace and earrings were beautiful, but single pearls were hard to find; only the 7 mm size was available. My notes record purchases of ¥80,000 and ¥60,000."
+            }
+          ]
+        },
+        {
+          "id": "photos-47",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p9494",
+              "caption": {
+                "zh": "最后一次一起喝咖啡，给六天留一张合影。",
+                "en": "One last coffee together, and a photo to remember the six days."
+              }
+            },
+            {
+              "imageId": "p9498",
+              "caption": {
+                "zh": "最后一次一起喝咖啡，给六天留一张合影。",
+                "en": "One last coffee together, and a photo to remember the six days."
+              }
+            },
+            {
+              "imageId": "p9501",
+              "caption": {
+                "zh": "最后一次一起喝咖啡，给六天留一张合影。",
+                "en": "One last coffee together, and a photo to remember the six days."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-48",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "又到 Lelabo Cafe 打了卡。打车从酒店去京都站，坐 Haruka 特快前往关西机场；笔记里记着车程约 80 分钟、约半小时一班，也记着可以在车上补票、不用提前取票——这是当时的乘车记录，不一定适用于以后。",
+              "en": "We stopped by Lelabo Cafe, took a taxi to Kyoto Station, and boarded the Haruka limited express to Kansai Airport. My travel note says about 80 minutes, departures around every half-hour, and that we could settle the fare on board without collecting tickets in advance; that was our experience then, not current service advice."
+            }
+          ]
+        },
+        {
+          "id": "photos-49",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p9503",
+              "caption": {
+                "zh": "离开京都，坐上开往机场的列车。",
+                "en": "Leaving Kyoto by train for the airport."
+              }
+            },
+            {
+              "imageId": "p9506",
+              "caption": {
+                "zh": "离开京都，坐上开往机场的列车。",
+                "en": "Leaving Kyoto by train for the airport."
+              }
+            },
+            {
+              "imageId": "p9510",
+              "caption": {
+                "zh": "离开京都，坐上开往机场的列车。",
+                "en": "Leaving Kyoto by train for the airport."
+              }
+            },
+            {
+              "imageId": "p9511",
+              "caption": {
+                "zh": "离开京都，坐上开往机场的列车。",
+                "en": "Leaving Kyoto by train for the airport."
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-50",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "机场的 Mensho Ramen 午餐花了 5,000 日元，偏贵，味道也一般。下午飞回上海浦东，晚餐是机上点心，已经预订了接机回家。六天里有若草山的夕阳，也有钱包找回来的松一口气；和家人在一起，这些细节才留得最久。",
+              "en": "Lunch at the airport's Mensho Ramen cost ¥5,000: expensive and only average. We flew back to Shanghai Pudong that afternoon, had a snack on the plane, and took our pre-booked airport pickup home. The Mount Wakakusa sunset and the relief of finding the wallet stayed with me most—little things that last because we were together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recorded-spending",
+      "sectionId": "spending",
+      "blocks": [
+        {
+          "id": "narrative-51",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这些是笔记里写下的门票、餐食和购物价格，不是六天的总花费；没有记下的机票、酒店和车费不计入。每人、三人合计以及约数分别注明，未买的商品不算支出。",
+              "en": "These are the admission, meal and shopping prices I wrote down, not the cost of the whole trip. Flights, hotels and transport without recorded prices are not included. Per-person prices, group bills and approximate amounts are distinguished; things we did not buy are excluded."
+            }
+          ]
+        },
+        {
+          "id": "recorded-costs",
+          "type": "expense",
+          "title": {
+            "zh": "笔记里的日元支出（非全程总计）",
+            "en": "Recorded spending in JPY (not a trip total)"
+          },
+          "rows": [
+            {
+              "id": "cost-1",
+              "label": {
+                "zh": "一兰拉面 · 3 人",
+                "en": "Ichiran ramen · 3 people"
+              },
+              "amount": {
+                "zh": "6,000 JPY",
+                "en": "JPY 6,000"
+              }
+            },
+            {
+              "id": "cost-2",
+              "label": {
+                "zh": "ABC Mart 鞋",
+                "en": "ABC Mart shoes"
+              },
+              "amount": {
+                "zh": "8,000 JPY",
+                "en": "JPY 8,000"
+              }
+            },
+            {
+              "id": "cost-3",
+              "label": {
+                "zh": "大国药妆",
+                "en": "Daikoku Drug"
+              },
+              "amount": {
+                "zh": "20,000 JPY",
+                "en": "JPY 20,000"
+              }
+            },
+            {
+              "id": "cost-4",
+              "label": {
+                "zh": "兴福寺 · 每人",
+                "en": "Kōfuku-ji · per person"
+              },
+              "amount": {
+                "zh": "500 JPY",
+                "en": "JPY 500"
+              }
+            },
+            {
+              "id": "cost-5",
+              "label": {
+                "zh": "奈良国立博物馆 · 每人",
+                "en": "Nara National Museum · per person"
+              },
+              "amount": {
+                "zh": "2,200 JPY",
+                "en": "JPY 2,200"
+              }
+            },
+            {
+              "id": "cost-6",
+              "label": {
+                "zh": "若草山 · 每人",
+                "en": "Mount Wakakusa · per person"
+              },
+              "amount": {
+                "zh": "150 JPY",
+                "en": "JPY 150"
+              }
+            },
+            {
+              "id": "cost-7",
+              "label": {
+                "zh": "Okini 自助烤肉 · 3 人",
+                "en": "Okini barbecue · 3 people"
+              },
+              "amount": {
+                "zh": "≈ 13,000 JPY",
+                "en": "JPY ≈ 13,000"
+              }
+            },
+            {
+              "id": "cost-8",
+              "label": {
+                "zh": "MacBook + 耳机 · 笔记中的合计",
+                "en": "MacBook and headphones · recorded combined price"
+              },
+              "amount": {
+                "zh": "≈ 96,000 JPY",
+                "en": "JPY ≈ 96,000"
+              }
+            },
+            {
+              "id": "cost-9",
+              "label": {
+                "zh": "大阪城天守阁 · 每人",
+                "en": "Osaka Castle keep · per person"
+              },
+              "amount": {
+                "zh": "600 JPY",
+                "en": "JPY 600"
+              }
+            },
+            {
+              "id": "cost-10",
+              "label": {
+                "zh": "Lucua Lululemon",
+                "en": "Lucua Lululemon"
+              },
+              "amount": {
+                "zh": "90,000 JPY",
+                "en": "JPY 90,000"
+              }
+            },
+            {
+              "id": "cost-11",
+              "label": {
+                "zh": "Lucua 1100 女装 · 第一笔",
+                "en": "Lucua 1100 clothing · first purchase"
+              },
+              "amount": {
+                "zh": "30,000 JPY",
+                "en": "JPY 30,000"
+              }
+            },
+            {
+              "id": "cost-12",
+              "label": {
+                "zh": "Lucua 1100 女装 · 第二笔",
+                "en": "Lucua 1100 clothing · second purchase"
+              },
+              "amount": {
+                "zh": "60,000 JPY",
+                "en": "JPY 60,000"
+              }
+            },
+            {
+              "id": "cost-13",
+              "label": {
+                "zh": "大丸任天堂礼物",
+                "en": "Daimaru Nintendo gifts"
+              },
+              "amount": {
+                "zh": "2,000 JPY",
+                "en": "JPY 2,000"
+              }
+            },
+            {
+              "id": "cost-14",
+              "label": {
+                "zh": "阪急鬼冢虎代购",
+                "en": "Hankyu Onitsuka Tiger proxy purchase"
+              },
+              "amount": {
+                "zh": "20,000 JPY",
+                "en": "JPY 20,000"
+              }
+            },
+            {
+              "id": "cost-15",
+              "label": {
+                "zh": "阪急猪排晚餐 · 3 人",
+                "en": "Hankyu pork cutlet · 3 people"
+              },
+              "amount": {
+                "zh": "≈ 4,500 JPY",
+                "en": "JPY ≈ 4,500"
+              }
+            },
+            {
+              "id": "cost-16",
+              "label": {
+                "zh": "堂吉诃德药妆",
+                "en": "Don Quijote pharmacy and beauty"
+              },
+              "amount": {
+                "zh": "≈ 27,000 JPY",
+                "en": "JPY ≈ 27,000"
+              }
+            },
+            {
+              "id": "cost-17",
+              "label": {
+                "zh": "清水寺夜间参拜 · 每人",
+                "en": "Kiyomizu-dera nighttime admission · per person"
+              },
+              "amount": {
+                "zh": "500 JPY",
+                "en": "JPY 500"
+              }
+            },
+            {
+              "id": "cost-18",
+              "label": {
+                "zh": "优衣库 · 妹妹与妈妈",
+                "en": "Uniqlo · my sister and Mom"
+              },
+              "amount": {
+                "zh": "5,000 JPY",
+                "en": "JPY 5,000"
+              }
+            },
+            {
+              "id": "cost-19",
+              "label": {
+                "zh": "Tully's Coffee 早餐",
+                "en": "Tully's Coffee breakfast"
+              },
+              "amount": {
+                "zh": "2,000 JPY",
+                "en": "JPY 2,000"
+              }
+            },
+            {
+              "id": "cost-20",
+              "label": {
+                "zh": "大丸运动皮鞋",
+                "en": "Daimaru sporty leather shoes"
+              },
+              "amount": {
+                "zh": "19,000 JPY",
+                "en": "JPY 19,000"
+              }
+            },
+            {
+              "id": "cost-21",
+              "label": {
+                "zh": "大丸 Kanebo 精华",
+                "en": "Daimaru Kanebo serum"
+              },
+              "amount": {
+                "zh": "11,000 JPY",
+                "en": "JPY 11,000"
+              }
+            },
+            {
+              "id": "cost-22",
+              "label": {
+                "zh": "炭烧鳗鱼饭 · 3 人",
+                "en": "Grilled eel rice · 3 people"
+              },
+              "amount": {
+                "zh": "15,000 JPY",
+                "en": "JPY 15,000"
+              }
+            },
+            {
+              "id": "cost-23",
+              "label": {
+                "zh": "Mikimoto · 第一笔",
+                "en": "Mikimoto · first purchase"
+              },
+              "amount": {
+                "zh": "80,000 JPY",
+                "en": "JPY 80,000"
+              }
+            },
+            {
+              "id": "cost-24",
+              "label": {
+                "zh": "Mikimoto · 第二笔",
+                "en": "Mikimoto · second purchase"
+              },
+              "amount": {
+                "zh": "60,000 JPY",
+                "en": "JPY 60,000"
+              }
+            },
+            {
+              "id": "cost-25",
+              "label": {
+                "zh": "机场 Mensho Ramen",
+                "en": "Airport Mensho Ramen"
+              },
+              "amount": {
+                "zh": "5,000 JPY",
+                "en": "JPY 5,000"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

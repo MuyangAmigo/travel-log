@@ -565,7 +565,7 @@ reusable; the experiences must always come from the new trip's source:
 
 **Current implementation status, not a limit on the design's scope.**
 The common design was first validated with Phuket and subsequently reused by
-Kansai 2025. The Phuket breakfast pause, night-market sequence, and staged dive
+Kansai 2025 and Kansai family 2024. The Phuket breakfast pause, night-market sequence, and staged dive
 story are examples, not required content for other entries. The design applies
 to all new entries.
 
@@ -576,7 +576,7 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
