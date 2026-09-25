@@ -30,6 +30,7 @@ import { meta as fukuokaSolo2026Meta } from "@/content/trips/fukuoka-solo-2026/m
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
 import { meta as japan2023Meta } from "@/content/trips/japan-2023/meta";
 import { meta as japanKansai2024Meta } from "@/content/trips/japan-kansai-2024/meta";
+import { meta as jiuzhaigou2024Meta } from "@/content/trips/jiuzhaigou-2024/meta";
 import { meta as kansaiFamily2024Meta } from "@/content/trips/kansai-family-2024/meta";
 import { meta as kansai2025Meta } from "@/content/trips/kansai-2025/meta";
 import { meta as kotaKinabalu2025Meta } from "@/content/trips/kota-kinabalu-2025/meta";
@@ -53,6 +54,7 @@ export const trips: TripMeta[] = [
   kansai2025Meta,
   kansaiFamily2024Meta,
   japanKansai2024Meta,
+  jiuzhaigou2024Meta,
   shaoxing2025Meta,
   chengdu2025Meta,
   seoul2023Meta,
