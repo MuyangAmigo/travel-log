@@ -22,441 +22,99 @@
   },
   "images": [
     {
-      "id": "performance-stage",
-      "filename": "3a43d4f35d2c92a05bb6639568df4df1.webp",
-      "thumbnailFilename": "3a43d4f35d2c92a05bb6639568df4df1-thumb.webp",
-      "alt": {
-        "zh": "舞台上的一排表演者",
-        "en": "Performers standing in a row on stage"
-      }
-    },
-    {
       "id": "img-6009",
       "filename": "img_6009.webp",
-      "thumbnailFilename": "img_6009-thumb.webp",
+      "thumbnailFilename": "img_6009-square.webp",
       "alt": {
-        "zh": "桌上的调料和纸杯",
-        "en": "Condiments and paper cups on a restaurant table"
-      }
-    },
-    {
-      "id": "img-6010",
-      "filename": "img_6010.webp",
-      "thumbnailFilename": "img_6010-thumb.webp",
-      "alt": {
-        "zh": "灰色砖墙与小窗",
-        "en": "A gray brick wall and a small window"
-      }
-    },
-    {
-      "id": "img-6011",
-      "filename": "img_6011.webp",
-      "thumbnailFilename": "img_6011-thumb.webp",
-      "alt": {
-        "zh": "深夜街边的店面",
-        "en": "A storefront on a late-night street"
+        "zh": "墙上贴纸与桌边的调料瓶",
+        "en": "Wall stickers and condiments beside the table"
       }
     },
     {
       "id": "img-6012",
       "filename": "img_6012.webp",
-      "thumbnailFilename": "img_6012-thumb.webp",
+      "thumbnailFilename": "img_6012-square.webp",
       "alt": {
         "zh": "红汤和清汤分隔的汤锅",
         "en": "A divided hotpot with red and clear broths"
       }
     },
     {
-      "id": "img-6013",
-      "filename": "img_6013.webp",
-      "thumbnailFilename": "img_6013-thumb.webp",
-      "alt": {
-        "zh": "沸腾的鸳鸯汤锅",
-        "en": "A bubbling two-broth hotpot"
-      }
-    },
-    {
-      "id": "img-6018",
-      "filename": "img_6018.webp",
-      "thumbnailFilename": "img_6018-thumb.webp",
-      "alt": {
-        "zh": "景区内标有清洁袋的袋子",
-        "en": "A sanitary-bag label in the scenic area"
-      }
-    },
-    {
-      "id": "img-6019",
-      "filename": "img_6019.webp",
-      "thumbnailFilename": "img_6019-thumb.webp",
-      "alt": {
-        "zh": "山间刻字的路边石碑",
-        "en": "An inscribed stone beside the mountain path"
-      }
-    },
-    {
       "id": "img-6020",
       "filename": "img_6020.webp",
-      "thumbnailFilename": "img_6020-thumb.webp",
+      "thumbnailFilename": "img_6020-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6020）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6020)"
+        "zh": "刻有黄龙字样的入口石碑",
+        "en": "Entrance stone inscribed with Huanglong"
       }
     },
     {
       "id": "img-6022",
       "filename": "img_6022.webp",
-      "thumbnailFilename": "img_6022-thumb.webp",
+      "thumbnailFilename": "img_6022-square.webp",
       "alt": {
         "zh": "山坡上的建筑与树木",
         "en": "A building and trees on the hillside"
       }
     },
     {
-      "id": "img-6023",
-      "filename": "img_6023.webp",
-      "thumbnailFilename": "img_6023-thumb.webp",
-      "alt": {
-        "zh": "山坡建筑的近景",
-        "en": "A closer view of the hillside building"
-      }
-    },
-    {
-      "id": "img-6024",
-      "filename": "img_6024.webp",
-      "thumbnailFilename": "img_6024-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6024）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6024)"
-      }
-    },
-    {
-      "id": "img-6025",
-      "filename": "img_6025.webp",
-      "thumbnailFilename": "img_6025-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6025）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6025)"
-      }
-    },
-    {
-      "id": "img-6026",
-      "filename": "img_6026.webp",
-      "thumbnailFilename": "img_6026-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6026）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6026)"
-      }
-    },
-    {
-      "id": "img-6027",
-      "filename": "img_6027.webp",
-      "thumbnailFilename": "img_6027-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6027）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6027)"
-      }
-    },
-    {
-      "id": "img-6028",
-      "filename": "img_6028.webp",
-      "thumbnailFilename": "img_6028-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6028）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6028)"
-      }
-    },
-    {
       "id": "img-6029",
       "filename": "img_6029.webp",
-      "thumbnailFilename": "img_6029-thumb.webp",
+      "thumbnailFilename": "img_6029-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6029）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6029)"
-      }
-    },
-    {
-      "id": "img-6030",
-      "filename": "img_6030.webp",
-      "thumbnailFilename": "img_6030-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6030）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6030)"
-      }
-    },
-    {
-      "id": "img-6032",
-      "filename": "img_6032.webp",
-      "thumbnailFilename": "img_6032-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6032）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6032)"
-      }
-    },
-    {
-      "id": "img-6033",
-      "filename": "img_6033.webp",
-      "thumbnailFilename": "img_6033-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6033）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6033)"
-      }
-    },
-    {
-      "id": "img-6036",
-      "filename": "img_6036.webp",
-      "thumbnailFilename": "img_6036-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6036）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6036)"
-      }
-    },
-    {
-      "id": "img-6037",
-      "filename": "img_6037.webp",
-      "thumbnailFilename": "img_6037-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6037）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6037)"
-      }
-    },
-    {
-      "id": "img-6038",
-      "filename": "img_6038.webp",
-      "thumbnailFilename": "img_6038-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6038）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6038)"
+        "zh": "雾中的山坡亭阁",
+        "en": "A mountain pavilion in the mist"
       }
     },
     {
       "id": "img-6039",
       "filename": "img_6039.webp",
-      "thumbnailFilename": "img_6039-thumb.webp",
+      "thumbnailFilename": "img_6039-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6039）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6039)"
-      }
-    },
-    {
-      "id": "img-6040",
-      "filename": "img_6040.webp",
-      "thumbnailFilename": "img_6040-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6040）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6040)"
-      }
-    },
-    {
-      "id": "img-6042",
-      "filename": "img_6042.webp",
-      "thumbnailFilename": "img_6042-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6042）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6042)"
-      }
-    },
-    {
-      "id": "img-6043",
-      "filename": "img_6043.webp",
-      "thumbnailFilename": "img_6043-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6043）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6043)"
-      }
-    },
-    {
-      "id": "img-6044",
-      "filename": "img_6044.webp",
-      "thumbnailFilename": "img_6044-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6044）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6044)"
-      }
-    },
-    {
-      "id": "img-6045",
-      "filename": "img_6045.webp",
-      "thumbnailFilename": "img_6045-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6045）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6045)"
-      }
-    },
-    {
-      "id": "img-6046",
-      "filename": "img_6046.webp",
-      "thumbnailFilename": "img_6046-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6046）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6046)"
-      }
-    },
-    {
-      "id": "img-6047",
-      "filename": "img_6047.webp",
-      "thumbnailFilename": "img_6047-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6047）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6047)"
+        "zh": "雾气后方的浅蓝色钙华池",
+        "en": "Pale blue travertine pools beneath the mist"
       }
     },
     {
       "id": "img-6048",
       "filename": "img_6048.webp",
-      "thumbnailFilename": "img_6048-thumb.webp",
+      "thumbnailFilename": "img_6048-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6048）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6048)"
-      }
-    },
-    {
-      "id": "img-6049",
-      "filename": "img_6049.webp",
-      "thumbnailFilename": "img_6049-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6049）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6049)"
-      }
-    },
-    {
-      "id": "img-6050",
-      "filename": "img_6050.webp",
-      "thumbnailFilename": "img_6050-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6050）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6050)"
+        "zh": "树林间的梯田状池水",
+        "en": "Terraced pools between the trees"
       }
     },
     {
       "id": "img-6051",
       "filename": "img_6051.webp",
-      "thumbnailFilename": "img_6051-thumb.webp",
+      "thumbnailFilename": "img_6051-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6051）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6051)"
-      }
-    },
-    {
-      "id": "img-6052",
-      "filename": "img_6052.webp",
-      "thumbnailFilename": "img_6052-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6052）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6052)"
-      }
-    },
-    {
-      "id": "img-6053",
-      "filename": "img_6053.webp",
-      "thumbnailFilename": "img_6053-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6053）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6053)"
-      }
-    },
-    {
-      "id": "img-6056",
-      "filename": "img_6056.webp",
-      "thumbnailFilename": "img_6056-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6056）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6056)"
-      }
-    },
-    {
-      "id": "img-6057",
-      "filename": "img_6057.webp",
-      "thumbnailFilename": "img_6057-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6057）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6057)"
-      }
-    },
-    {
-      "id": "img-6058",
-      "filename": "img_6058.webp",
-      "thumbnailFilename": "img_6058-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6058）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6058)"
-      }
-    },
-    {
-      "id": "img-6059",
-      "filename": "img_6059.webp",
-      "thumbnailFilename": "img_6059-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6059）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6059)"
-      }
-    },
-    {
-      "id": "img-6061",
-      "filename": "img_6061.webp",
-      "thumbnailFilename": "img_6061-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6061）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6061)"
+        "zh": "层层钙华池与碧绿的水",
+        "en": "Terraced travertine pools with green water"
       }
     },
     {
       "id": "img-6064",
       "filename": "img_6064.webp",
-      "thumbnailFilename": "img_6064-thumb.webp",
+      "thumbnailFilename": "img_6064-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6064）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6064)"
-      }
-    },
-    {
-      "id": "img-6065",
-      "filename": "img_6065.webp",
-      "thumbnailFilename": "img_6065-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6065）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6065)"
-      }
-    },
-    {
-      "id": "img-6066",
-      "filename": "img_6066.webp",
-      "thumbnailFilename": "img_6066-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6066）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6066)"
+        "zh": "树木环绕的溪水与山坡",
+        "en": "A stream and hillside surrounded by trees"
       }
     },
     {
       "id": "img-6067",
       "filename": "img_6067.webp",
-      "thumbnailFilename": "img_6067-thumb.webp",
+      "thumbnailFilename": "img_6067-square.webp",
       "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6067）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6067)"
-      }
-    },
-    {
-      "id": "img-6068",
-      "filename": "img_6068.webp",
-      "thumbnailFilename": "img_6068-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6068）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6068)"
-      }
-    },
-    {
-      "id": "img-6069",
-      "filename": "img_6069.webp",
-      "thumbnailFilename": "img_6069-thumb.webp",
-      "alt": {
-        "zh": "黄龙山间的钙华池、水流与树林（照片 6069）",
-        "en": "Travertine pools, flowing water and trees at Huanglong (photo 6069)"
+        "zh": "顺着坡面铺开的层叠瀑布",
+        "en": "Waterfall spreading over a broad slope"
       }
     },
     {
       "id": "img-6073",
       "filename": "img_6073.webp",
-      "thumbnailFilename": "img_6073-thumb.webp",
+      "thumbnailFilename": "img_6073-square.webp",
       "alt": {
         "zh": "餐桌上的菜肴和饮料",
         "en": "Food and drinks on the table"
@@ -465,808 +123,151 @@
     {
       "id": "img-6074",
       "filename": "img_6074.webp",
-      "thumbnailFilename": "img_6074-thumb.webp",
+      "thumbnailFilename": "img_6074-square.webp",
       "alt": {
         "zh": "餐桌中央的汤锅",
         "en": "A hotpot at the center of the dinner table"
       }
     },
     {
-      "id": "img-6075",
-      "filename": "img_6075.webp",
-      "thumbnailFilename": "img_6075-thumb.webp",
-      "alt": {
-        "zh": "餐后甜点与餐具",
-        "en": "Dessert and dishes after dinner"
-      }
-    },
-    {
-      "id": "img-6076",
-      "filename": "img_6076.webp",
-      "thumbnailFilename": "img_6076-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6076）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6076)"
-      }
-    },
-    {
-      "id": "img-6077",
-      "filename": "img_6077.webp",
-      "thumbnailFilename": "img_6077-thumb.webp",
-      "alt": {
-        "zh": "林间的单人自拍",
-        "en": "A portrait taken in the woods"
-      }
-    },
-    {
       "id": "img-6078",
       "filename": "img_6078.webp",
-      "thumbnailFilename": "img_6078-thumb.webp",
+      "thumbnailFilename": "img_6078-square.webp",
       "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6078）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6078)"
-      }
-    },
-    {
-      "id": "img-6081",
-      "filename": "img_6081.webp",
-      "thumbnailFilename": "img_6081-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6081）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6081)"
+        "zh": "高树之间的林地小径",
+        "en": "A path through tall trees"
       }
     },
     {
       "id": "img-6084",
       "filename": "img_6084.webp",
-      "thumbnailFilename": "img_6084-thumb.webp",
+      "thumbnailFilename": "img_6084-square.webp",
       "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6084）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6084)"
-      }
-    },
-    {
-      "id": "img-6085",
-      "filename": "img_6085.webp",
-      "thumbnailFilename": "img_6085-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6085）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6085)"
-      }
-    },
-    {
-      "id": "img-6087",
-      "filename": "img_6087.webp",
-      "thumbnailFilename": "img_6087-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6087）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6087)"
-      }
-    },
-    {
-      "id": "img-6088",
-      "filename": "img_6088.webp",
-      "thumbnailFilename": "img_6088-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6088）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6088)"
+        "zh": "山谷里蜿蜒的河流",
+        "en": "A winding river through the valley"
       }
     },
     {
       "id": "img-6089",
       "filename": "img_6089.webp",
-      "thumbnailFilename": "img_6089-thumb.webp",
+      "thumbnailFilename": "img_6089-square.webp",
       "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6089）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6089)"
-      }
-    },
-    {
-      "id": "img-6090",
-      "filename": "img_6090.webp",
-      "thumbnailFilename": "img_6090-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6090）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6090)"
-      }
-    },
-    {
-      "id": "img-6091",
-      "filename": "img_6091.webp",
-      "thumbnailFilename": "img_6091-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6091）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6091)"
-      }
-    },
-    {
-      "id": "img-6092",
-      "filename": "img_6092.webp",
-      "thumbnailFilename": "img_6092-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6092）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6092)"
-      }
-    },
-    {
-      "id": "img-6093",
-      "filename": "img_6093.webp",
-      "thumbnailFilename": "img_6093-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6093）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6093)"
+        "zh": "山峰倒映在平静的湖面",
+        "en": "Mountains reflected in a still lake"
       }
     },
     {
       "id": "img-6094",
       "filename": "img_6094.webp",
-      "thumbnailFilename": "img_6094-thumb.webp",
+      "thumbnailFilename": "img_6094-square.webp",
       "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6094）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6094)"
-      }
-    },
-    {
-      "id": "img-6095",
-      "filename": "img_6095.webp",
-      "thumbnailFilename": "img_6095-thumb.webp",
-      "alt": {
-        "zh": "九寨沟林间小径与碧色湖水（照片 6095）",
-        "en": "Woodland paths and blue-green lake water in Jiuzhaigou (photo 6095)"
-      }
-    },
-    {
-      "id": "img-6096",
-      "filename": "img_6096.webp",
-      "thumbnailFilename": "img_6096-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6096）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6096)"
-      }
-    },
-    {
-      "id": "img-6097",
-      "filename": "img_6097.webp",
-      "thumbnailFilename": "img_6097-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6097）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6097)"
-      }
-    },
-    {
-      "id": "img-6098",
-      "filename": "img_6098.webp",
-      "thumbnailFilename": "img_6098-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6098）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6098)"
-      }
-    },
-    {
-      "id": "img-6099",
-      "filename": "img_6099.webp",
-      "thumbnailFilename": "img_6099-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6099）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6099)"
-      }
-    },
-    {
-      "id": "img-6100",
-      "filename": "img_6100.webp",
-      "thumbnailFilename": "img_6100-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6100）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6100)"
-      }
-    },
-    {
-      "id": "img-6101",
-      "filename": "img_6101.webp",
-      "thumbnailFilename": "img_6101-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6101）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6101)"
-      }
-    },
-    {
-      "id": "img-6102",
-      "filename": "img_6102.webp",
-      "thumbnailFilename": "img_6102-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6102）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6102)"
+        "zh": "嫩绿树枝下的湖水",
+        "en": "Lake water beneath pale green branches"
       }
     },
     {
       "id": "img-6103",
       "filename": "img_6103.webp",
-      "thumbnailFilename": "img_6103-thumb.webp",
+      "thumbnailFilename": "img_6103-square.webp",
       "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6103）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6103)"
-      }
-    },
-    {
-      "id": "img-6105",
-      "filename": "img_6105.webp",
-      "thumbnailFilename": "img_6105-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6105）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6105)"
-      }
-    },
-    {
-      "id": "img-6106",
-      "filename": "img_6106.webp",
-      "thumbnailFilename": "img_6106-thumb.webp",
-      "alt": {
-        "zh": "九寨沟树林间的层叠瀑布（照片 6106）",
-        "en": "Tiered waterfall among the trees in Jiuzhaigou (photo 6106)"
-      }
-    },
-    {
-      "id": "img-6107",
-      "filename": "img_6107.webp",
-      "thumbnailFilename": "img_6107-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6107）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6107)"
-      }
-    },
-    {
-      "id": "img-6108",
-      "filename": "img_6108.webp",
-      "thumbnailFilename": "img_6108-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6108）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6108)"
-      }
-    },
-    {
-      "id": "img-6109",
-      "filename": "img_6109.webp",
-      "thumbnailFilename": "img_6109-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6109）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6109)"
+        "zh": "树林间垂下的数道瀑布",
+        "en": "Several waterfalls descending between trees"
       }
     },
     {
       "id": "img-6110",
       "filename": "img_6110.webp",
-      "thumbnailFilename": "img_6110-thumb.webp",
+      "thumbnailFilename": "img_6110-square.webp",
       "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6110）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6110)"
-      }
-    },
-    {
-      "id": "img-6111",
-      "filename": "img_6111.webp",
-      "thumbnailFilename": "img_6111-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6111）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6111)"
-      }
-    },
-    {
-      "id": "img-6116",
-      "filename": "img_6116.webp",
-      "thumbnailFilename": "img_6116-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6116）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6116)"
-      }
-    },
-    {
-      "id": "img-6117",
-      "filename": "img_6117.webp",
-      "thumbnailFilename": "img_6117-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6117）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6117)"
-      }
-    },
-    {
-      "id": "img-6118",
-      "filename": "img_6118.webp",
-      "thumbnailFilename": "img_6118-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6118）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6118)"
+        "zh": "碧蓝湖水与对岸的石山",
+        "en": "Blue lake water and rocky hills opposite"
       }
     },
     {
       "id": "img-6119",
       "filename": "img_6119.webp",
-      "thumbnailFilename": "img_6119-thumb.webp",
+      "thumbnailFilename": "img_6119-square.webp",
       "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6119）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6119)"
+        "zh": "乌云下静静的山间湖泊",
+        "en": "A quiet mountain lake beneath dark clouds"
       }
     },
     {
       "id": "img-6125",
       "filename": "img_6125.webp",
-      "thumbnailFilename": "img_6125-thumb.webp",
+      "thumbnailFilename": "img_6125-square.webp",
       "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6125）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6125)"
+        "zh": "山谷里的宽阔湖面",
+        "en": "A broad lake in the mountain valley"
       }
     },
     {
       "id": "img-6135",
       "filename": "img_6135.webp",
-      "thumbnailFilename": "img_6135-thumb.webp",
+      "thumbnailFilename": "img_6135-square.webp",
       "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6135）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6135)"
-      }
-    },
-    {
-      "id": "img-6136",
-      "filename": "img_6136.webp",
-      "thumbnailFilename": "img_6136-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6136）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6136)"
-      }
-    },
-    {
-      "id": "img-6137",
-      "filename": "img_6137.webp",
-      "thumbnailFilename": "img_6137-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6137）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6137)"
-      }
-    },
-    {
-      "id": "img-6139",
-      "filename": "img_6139.webp",
-      "thumbnailFilename": "img_6139-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6139）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6139)"
-      }
-    },
-    {
-      "id": "img-6140",
-      "filename": "img_6140.webp",
-      "thumbnailFilename": "img_6140-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6140）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6140)"
-      }
-    },
-    {
-      "id": "img-6141",
-      "filename": "img_6141.webp",
-      "thumbnailFilename": "img_6141-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6141）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6141)"
-      }
-    },
-    {
-      "id": "img-6142",
-      "filename": "img_6142.webp",
-      "thumbnailFilename": "img_6142-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6142）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6142)"
-      }
-    },
-    {
-      "id": "img-6144",
-      "filename": "img_6144.webp",
-      "thumbnailFilename": "img_6144-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6144）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6144)"
-      }
-    },
-    {
-      "id": "img-6146",
-      "filename": "img_6146.webp",
-      "thumbnailFilename": "img_6146-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6146）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6146)"
-      }
-    },
-    {
-      "id": "img-6147",
-      "filename": "img_6147.webp",
-      "thumbnailFilename": "img_6147-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6147）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6147)"
-      }
-    },
-    {
-      "id": "img-6148",
-      "filename": "img_6148.webp",
-      "thumbnailFilename": "img_6148-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6148）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6148)"
-      }
-    },
-    {
-      "id": "img-6149",
-      "filename": "img_6149.webp",
-      "thumbnailFilename": "img_6149-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6149）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6149)"
-      }
-    },
-    {
-      "id": "img-6150",
-      "filename": "img_6150.webp",
-      "thumbnailFilename": "img_6150-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6150）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6150)"
+        "zh": "倒木枝头上的小鸟与湖面",
+        "en": "A small bird on a branch above the lake"
       }
     },
     {
       "id": "img-6151",
       "filename": "img_6151.webp",
-      "thumbnailFilename": "img_6151-thumb.webp",
+      "thumbnailFilename": "img_6151-square.webp",
       "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6151）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6151)"
-      }
-    },
-    {
-      "id": "img-6152",
-      "filename": "img_6152.webp",
-      "thumbnailFilename": "img_6152-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6152）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6152)"
-      }
-    },
-    {
-      "id": "img-6153",
-      "filename": "img_6153.webp",
-      "thumbnailFilename": "img_6153-thumb.webp",
-      "alt": {
-        "zh": "九寨沟山林与湖水的不同视角（照片 6153）",
-        "en": "Mountains, forest and lake from Jiuzhaigou's paths (photo 6153)"
+        "zh": "蓝绿湖面映着白云和树木",
+        "en": "Clouds and trees reflected in a blue-green lake"
       }
     },
     {
       "id": "img-6154",
       "filename": "img_6154.webp",
-      "thumbnailFilename": "img_6154-thumb.webp",
+      "thumbnailFilename": "img_6154-square.webp",
       "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6154）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6154)"
-      }
-    },
-    {
-      "id": "img-6155",
-      "filename": "img_6155.webp",
-      "thumbnailFilename": "img_6155-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6155）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6155)"
-      }
-    },
-    {
-      "id": "img-6156",
-      "filename": "img_6156.webp",
-      "thumbnailFilename": "img_6156-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6156）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6156)"
-      }
-    },
-    {
-      "id": "img-6158",
-      "filename": "img_6158.webp",
-      "thumbnailFilename": "img_6158-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6158）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6158)"
-      }
-    },
-    {
-      "id": "img-6160",
-      "filename": "img_6160.webp",
-      "thumbnailFilename": "img_6160-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6160）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6160)"
-      }
-    },
-    {
-      "id": "img-6161",
-      "filename": "img_6161.webp",
-      "thumbnailFilename": "img_6161-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6161）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6161)"
-      }
-    },
-    {
-      "id": "img-6162",
-      "filename": "img_6162.webp",
-      "thumbnailFilename": "img_6162-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6162）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6162)"
-      }
-    },
-    {
-      "id": "img-6163",
-      "filename": "img_6163.webp",
-      "thumbnailFilename": "img_6163-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6163）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6163)"
-      }
-    },
-    {
-      "id": "img-6164",
-      "filename": "img_6164.webp",
-      "thumbnailFilename": "img_6164-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6164）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6164)"
-      }
-    },
-    {
-      "id": "img-6165",
-      "filename": "img_6165.webp",
-      "thumbnailFilename": "img_6165-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6165）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6165)"
-      }
-    },
-    {
-      "id": "img-6166",
-      "filename": "img_6166.webp",
-      "thumbnailFilename": "img_6166-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6166）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6166)"
-      }
-    },
-    {
-      "id": "img-6167",
-      "filename": "img_6167.webp",
-      "thumbnailFilename": "img_6167-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6167）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6167)"
+        "zh": "树枝下湍急的白色水流",
+        "en": "White rushing water beneath tree branches"
       }
     },
     {
       "id": "img-6168",
       "filename": "img_6168.webp",
-      "thumbnailFilename": "img_6168-thumb.webp",
+      "thumbnailFilename": "img_6168-square.webp",
       "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6168）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6168)"
-      }
-    },
-    {
-      "id": "img-6169",
-      "filename": "img_6169.webp",
-      "thumbnailFilename": "img_6169-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6169）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6169)"
-      }
-    },
-    {
-      "id": "img-6170",
-      "filename": "img_6170.webp",
-      "thumbnailFilename": "img_6170-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6170）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6170)"
-      }
-    },
-    {
-      "id": "img-6171",
-      "filename": "img_6171.webp",
-      "thumbnailFilename": "img_6171-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6171）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6171)"
-      }
-    },
-    {
-      "id": "img-6172",
-      "filename": "img_6172.webp",
-      "thumbnailFilename": "img_6172-thumb.webp",
-      "alt": {
-        "zh": "九寨沟激流、瀑布与湖岸（照片 6172）",
-        "en": "Rushing water, falls and lakeshore in Jiuzhaigou (photo 6172)"
-      }
-    },
-    {
-      "id": "img-6173",
-      "filename": "img_6173.webp",
-      "thumbnailFilename": "img_6173-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6173）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6173)"
-      }
-    },
-    {
-      "id": "img-6174",
-      "filename": "img_6174.webp",
-      "thumbnailFilename": "img_6174-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6174）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6174)"
-      }
-    },
-    {
-      "id": "img-6175",
-      "filename": "img_6175.webp",
-      "thumbnailFilename": "img_6175-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6175）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6175)"
+        "zh": "山坡上铺开的宽阔瀑布",
+        "en": "A broad waterfall across the hillside"
       }
     },
     {
       "id": "img-6176",
       "filename": "img_6176.webp",
-      "thumbnailFilename": "img_6176-thumb.webp",
+      "thumbnailFilename": "img_6176-square.webp",
       "alt": {
-        "zh": "九寨沟湖水与山林（照片 6176）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6176)"
-      }
-    },
-    {
-      "id": "img-6177",
-      "filename": "img_6177.webp",
-      "thumbnailFilename": "img_6177-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6177）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6177)"
-      }
-    },
-    {
-      "id": "img-6178",
-      "filename": "img_6178.webp",
-      "thumbnailFilename": "img_6178-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6178）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6178)"
-      }
-    },
-    {
-      "id": "img-6179",
-      "filename": "img_6179.webp",
-      "thumbnailFilename": "img_6179-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6179）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6179)"
-      }
-    },
-    {
-      "id": "img-6180",
-      "filename": "img_6180.webp",
-      "thumbnailFilename": "img_6180-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6180）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6180)"
-      }
-    },
-    {
-      "id": "img-6181",
-      "filename": "img_6181.webp",
-      "thumbnailFilename": "img_6181-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6181）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6181)"
-      }
-    },
-    {
-      "id": "img-6182",
-      "filename": "img_6182.webp",
-      "thumbnailFilename": "img_6182-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6182）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6182)"
-      }
-    },
-    {
-      "id": "img-6183",
-      "filename": "img_6183.webp",
-      "thumbnailFilename": "img_6183-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6183）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6183)"
+        "zh": "雾气缠绕的山峰和松林",
+        "en": "Misty mountain peaks and pine forest"
       }
     },
     {
       "id": "img-6184",
       "filename": "img_6184.webp",
-      "thumbnailFilename": "img_6184-thumb.webp",
+      "thumbnailFilename": "img_6184-square.webp",
       "alt": {
-        "zh": "九寨沟湖水与山林（照片 6184）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6184)"
-      }
-    },
-    {
-      "id": "img-6185",
-      "filename": "img_6185.webp",
-      "thumbnailFilename": "img_6185-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6185）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6185)"
-      }
-    },
-    {
-      "id": "img-6186",
-      "filename": "img_6186.webp",
-      "thumbnailFilename": "img_6186-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6186）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6186)"
-      }
-    },
-    {
-      "id": "img-6187",
-      "filename": "img_6187.webp",
-      "thumbnailFilename": "img_6187-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6187）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6187)"
-      }
-    },
-    {
-      "id": "img-6188",
-      "filename": "img_6188.webp",
-      "thumbnailFilename": "img_6188-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6188）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6188)"
-      }
-    },
-    {
-      "id": "img-6189",
-      "filename": "img_6189.webp",
-      "thumbnailFilename": "img_6189-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6189）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6189)"
+        "zh": "树林下清澈的蓝色湖水",
+        "en": "Clear blue lake water below the forest"
       }
     },
     {
       "id": "img-6190",
       "filename": "img_6190.webp",
-      "thumbnailFilename": "img_6190-thumb.webp",
+      "thumbnailFilename": "img_6190-square.webp",
       "alt": {
-        "zh": "九寨沟湖水与山林（照片 6190）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6190)"
-      }
-    },
-    {
-      "id": "img-6191",
-      "filename": "img_6191.webp",
-      "thumbnailFilename": "img_6191-thumb.webp",
-      "alt": {
-        "zh": "九寨沟湖水与山林（照片 6191）",
-        "en": "Lake water and forest in Jiuzhaigou (photo 6191)"
+        "zh": "木平台前明亮的蓝色湖面",
+        "en": "A bright blue lake beside a wooden platform"
       }
     },
     {
       "id": "img-6192",
       "filename": "img_6192.webp",
-      "thumbnailFilename": "img_6192-thumb.webp",
+      "thumbnailFilename": "img_6192-square.webp",
       "alt": {
         "zh": "山路上的绿色观光车",
         "en": "A green sightseeing bus on a mountain road"
@@ -1275,325 +276,109 @@
     {
       "id": "img-6194",
       "filename": "img_6194.webp",
-      "thumbnailFilename": "img_6194-thumb.webp",
+      "thumbnailFilename": "img_6194-square.webp",
       "alt": {
         "zh": "木制房间里的陈设",
         "en": "Furnishings inside a wooden room"
       }
     },
     {
-      "id": "img-6195",
-      "filename": "img_6195.webp",
-      "thumbnailFilename": "img_6195-thumb.webp",
-      "alt": {
-        "zh": "木制墙面上的陈列架",
-        "en": "Display shelves on a wooden wall"
-      }
-    },
-    {
-      "id": "img-6196",
-      "filename": "img_6196.webp",
-      "thumbnailFilename": "img_6196-thumb.webp",
-      "alt": {
-        "zh": "木制房间里的展示品",
-        "en": "Displayed objects in a wooden room"
-      }
-    },
-    {
       "id": "img-6197",
       "filename": "img_6197.webp",
-      "thumbnailFilename": "img_6197-thumb.webp",
+      "thumbnailFilename": "img_6197-square.webp",
       "alt": {
         "zh": "桌上的菜盘",
         "en": "Plates of food on a table"
       }
     },
     {
-      "id": "img-6201",
-      "filename": "img_6201.webp",
-      "thumbnailFilename": "img_6201-thumb.webp",
-      "alt": {
-        "zh": "湖边两人的剪影",
-        "en": "Two silhouettes beside a lake"
-      }
-    },
-    {
-      "id": "img-6203",
-      "filename": "img_6203.webp",
-      "thumbnailFilename": "img_6203-thumb.webp",
-      "alt": {
-        "zh": "清晨层叠的瀑布（照片 6203）",
-        "en": "Tiered waterfall in the morning (photo 6203)"
-      }
-    },
-    {
-      "id": "img-6204",
-      "filename": "img_6204.webp",
-      "thumbnailFilename": "img_6204-thumb.webp",
-      "alt": {
-        "zh": "清晨层叠的瀑布（照片 6204）",
-        "en": "Tiered waterfall in the morning (photo 6204)"
-      }
-    },
-    {
       "id": "img-6205",
       "filename": "img_6205.webp",
-      "thumbnailFilename": "img_6205-thumb.webp",
+      "thumbnailFilename": "img_6205-square.webp",
       "alt": {
-        "zh": "清晨层叠的瀑布（照片 6205）",
-        "en": "Tiered waterfall in the morning (photo 6205)"
-      }
-    },
-    {
-      "id": "img-6206",
-      "filename": "img_6206.webp",
-      "thumbnailFilename": "img_6206-thumb.webp",
-      "alt": {
-        "zh": "清晨层叠的瀑布（照片 6206）",
-        "en": "Tiered waterfall in the morning (photo 6206)"
-      }
-    },
-    {
-      "id": "img-6207",
-      "filename": "img_6207.webp",
-      "thumbnailFilename": "img_6207-thumb.webp",
-      "alt": {
-        "zh": "清晨层叠的瀑布（照片 6207）",
-        "en": "Tiered waterfall in the morning (photo 6207)"
-      }
-    },
-    {
-      "id": "img-6208",
-      "filename": "img_6208.webp",
-      "thumbnailFilename": "img_6208-thumb.webp",
-      "alt": {
-        "zh": "清晨层叠的瀑布（照片 6208）",
-        "en": "Tiered waterfall in the morning (photo 6208)"
-      }
-    },
-    {
-      "id": "img-6210",
-      "filename": "img_6210.webp",
-      "thumbnailFilename": "img_6210-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6210）",
-        "en": "Mountain lakes, trees and streams (photo 6210)"
-      }
-    },
-    {
-      "id": "img-6211",
-      "filename": "img_6211.webp",
-      "thumbnailFilename": "img_6211-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6211）",
-        "en": "Mountain lakes, trees and streams (photo 6211)"
+        "zh": "山谷里层层流下的瀑布",
+        "en": "Layered waterfalls in the mountain valley"
       }
     },
     {
       "id": "img-6212",
       "filename": "img_6212.webp",
-      "thumbnailFilename": "img_6212-thumb.webp",
+      "thumbnailFilename": "img_6212-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6212）",
-        "en": "Mountain lakes, trees and streams (photo 6212)"
-      }
-    },
-    {
-      "id": "img-6213",
-      "filename": "img_6213.webp",
-      "thumbnailFilename": "img_6213-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6213）",
-        "en": "Mountain lakes, trees and streams (photo 6213)"
-      }
-    },
-    {
-      "id": "img-6214",
-      "filename": "img_6214.webp",
-      "thumbnailFilename": "img_6214-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6214）",
-        "en": "Mountain lakes, trees and streams (photo 6214)"
-      }
-    },
-    {
-      "id": "img-6215",
-      "filename": "img_6215.webp",
-      "thumbnailFilename": "img_6215-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6215）",
-        "en": "Mountain lakes, trees and streams (photo 6215)"
+        "zh": "薄雾下倒映山影的湖水",
+        "en": "Mountain reflections in a misty lake"
       }
     },
     {
       "id": "img-6216",
       "filename": "img_6216.webp",
-      "thumbnailFilename": "img_6216-thumb.webp",
+      "thumbnailFilename": "img_6216-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6216）",
-        "en": "Mountain lakes, trees and streams (photo 6216)"
-      }
-    },
-    {
-      "id": "img-6217",
-      "filename": "img_6217.webp",
-      "thumbnailFilename": "img_6217-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6217）",
-        "en": "Mountain lakes, trees and streams (photo 6217)"
-      }
-    },
-    {
-      "id": "img-6218",
-      "filename": "img_6218.webp",
-      "thumbnailFilename": "img_6218-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6218）",
-        "en": "Mountain lakes, trees and streams (photo 6218)"
+        "zh": "山坡与林木倒映在湖面",
+        "en": "Hills and trees reflected in a lake"
       }
     },
     {
       "id": "img-6219",
       "filename": "img_6219.webp",
-      "thumbnailFilename": "img_6219-thumb.webp",
+      "thumbnailFilename": "img_6219-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6219）",
-        "en": "Mountain lakes, trees and streams (photo 6219)"
-      }
-    },
-    {
-      "id": "img-6220",
-      "filename": "img_6220.webp",
-      "thumbnailFilename": "img_6220-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6220）",
-        "en": "Mountain lakes, trees and streams (photo 6220)"
+        "zh": "树林间的溪流与浅蓝湖水",
+        "en": "Stream and pale blue water between trees"
       }
     },
     {
       "id": "img-6221",
       "filename": "img_6221.webp",
-      "thumbnailFilename": "img_6221-thumb.webp",
+      "thumbnailFilename": "img_6221-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6221）",
-        "en": "Mountain lakes, trees and streams (photo 6221)"
+        "zh": "山间水草与远方的树林",
+        "en": "Water plants and distant forest in the valley"
       }
     },
     {
       "id": "img-6222",
       "filename": "img_6222.webp",
-      "thumbnailFilename": "img_6222-thumb.webp",
+      "thumbnailFilename": "img_6222-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6222）",
-        "en": "Mountain lakes, trees and streams (photo 6222)"
-      }
-    },
-    {
-      "id": "img-6223",
-      "filename": "img_6223.webp",
-      "thumbnailFilename": "img_6223-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6223）",
-        "en": "Mountain lakes, trees and streams (photo 6223)"
-      }
-    },
-    {
-      "id": "img-6224",
-      "filename": "img_6224.webp",
-      "thumbnailFilename": "img_6224-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6224）",
-        "en": "Mountain lakes, trees and streams (photo 6224)"
-      }
-    },
-    {
-      "id": "img-6225",
-      "filename": "img_6225.webp",
-      "thumbnailFilename": "img_6225-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6225）",
-        "en": "Mountain lakes, trees and streams (photo 6225)"
+        "zh": "穿过树木的湍急溪流",
+        "en": "A rushing stream through the trees"
       }
     },
     {
       "id": "img-6226",
       "filename": "img_6226.webp",
-      "thumbnailFilename": "img_6226-thumb.webp",
+      "thumbnailFilename": "img_6226-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6226）",
-        "en": "Mountain lakes, trees and streams (photo 6226)"
-      }
-    },
-    {
-      "id": "img-6227",
-      "filename": "img_6227.webp",
-      "thumbnailFilename": "img_6227-thumb.webp",
-      "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6227）",
-        "en": "Mountain lakes, trees and streams (photo 6227)"
+        "zh": "树枝下清透的绿松石色湖水",
+        "en": "Turquoise lake water beneath branches"
       }
     },
     {
       "id": "img-6228",
       "filename": "img_6228.webp",
-      "thumbnailFilename": "img_6228-thumb.webp",
+      "thumbnailFilename": "img_6228-square.webp",
       "alt": {
-        "zh": "山间湖泊、林木与溪流（照片 6228）",
-        "en": "Mountain lakes, trees and streams (photo 6228)"
+        "zh": "山谷中宽阔的溪流",
+        "en": "A broad stream through the valley"
       }
     },
     {
       "id": "img-6232",
       "filename": "img_6232.webp",
-      "thumbnailFilename": "img_6232-thumb.webp",
+      "thumbnailFilename": "img_6232-square.webp",
       "alt": {
         "zh": "窗边桌上的两杯饮品",
         "en": "Two drinks on a table by a window"
       }
     },
     {
-      "id": "img-6233",
-      "filename": "img_6233.webp",
-      "thumbnailFilename": "img_6233-thumb.webp",
-      "alt": {
-        "zh": "桌上的两杯饮品特写",
-        "en": "Close-up of two drinks on a table"
-      }
-    },
-    {
       "id": "img-6239",
       "filename": "img_6239.webp",
-      "thumbnailFilename": "img_6239-thumb.webp",
+      "thumbnailFilename": "img_6239-square.webp",
       "alt": {
         "zh": "蓝天下的街道与建筑",
         "en": "A street and buildings beneath blue sky"
-      }
-    },
-    {
-      "id": "img-6240",
-      "filename": "img_6240.webp",
-      "thumbnailFilename": "img_6240-thumb.webp",
-      "alt": {
-        "zh": "街道旁彩色的风车装饰",
-        "en": "A colorful pinwheel decoration beside the street"
-      }
-    },
-    {
-      "id": "family-group",
-      "filename": "bc655be8c36cfa829063a1e80aa8f806.webp",
-      "thumbnailFilename": "bc655be8c36cfa829063a1e80aa8f806-thumb.webp",
-      "alt": {
-        "zh": "山间溪流旁的五人合影",
-        "en": "A group of five beside a mountain stream"
-      }
-    },
-    {
-      "id": "lakeside-silhouette",
-      "filename": "d435700a34f75d60a3906060d4a8e6a6.webp",
-      "thumbnailFilename": "d435700a34f75d60a3906060d4a8e6a6-thumb.webp",
-      "alt": {
-        "zh": "树荫下望向蓝色湖面的两人背影",
-        "en": "Two silhouettes looking across a blue lake beneath the trees"
       }
     }
   ],
@@ -1847,41 +632,27 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "这趟旅行和李子璐一家同行。行程表写着 20:45 从上海飞往成都双流，落地已经是次日 00:05；第一晚住成都东站附近的如家商旅酒店。相册凌晨一点多的照片里，桌上还有调料和一锅红白分明的汤，城市的第一段记忆先留在了饭桌旁。",
-              "en": "I traveled with Li Zilu and her family. The itinerary has us flying from Shanghai to Chengdu Shuangliu at 20:45, arriving at 00:05 the next day, with a first-night stay near Chengdu East. The photos taken after 1 a.m. show condiments and a split hotpot: the earliest frames of the trip are at a table."
+              "zh": "这趟旅行和李子璐一家同行。行程表写着 20:45 从上海飞往成都双流，落地已经是次日 00:05；第一晚住成都东站附近的如家商旅酒店。相册凌晨一点多的照片里，桌边的调料和一锅红白分明的汤，把城市的第一段记忆留在了饭桌旁。",
+              "en": "I traveled with Li Zilu and her family. The itinerary has us flying from Shanghai to Chengdu Shuangliu at 20:45, arriving at 00:05 the next day, with a first-night stay near Chengdu East. The photos taken after 1 a.m. show condiments and a divided hotpot: the earliest frames of the trip are at a table."
             }
           ]
         },
         {
           "id": "block-004",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "img-6009",
+              "shape": "square",
               "caption": {
-                "zh": "凌晨的桌面、砖墙和汤锅，留住抵达后的第一段时间。",
-                "en": "A late-night table, brick wall and hotpot mark the hours after arrival."
+                "zh": "凌晨的餐桌和汤锅，留住抵达后的第一段时间。",
+                "en": "A late-night table and hotpot mark the hours after arrival."
               }
             },
             {
-              "imageId": "img-6010"
-            },
-            {
-              "imageId": "img-6011"
-            },
-            {
-              "imageId": "img-6012"
-            }
-          ]
-        },
-        {
-          "id": "block-005",
-          "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "img-6013"
+              "imageId": "img-6012",
+              "shape": "square"
             }
           ]
         }
@@ -1892,7 +663,7 @@
       "sectionId": "huanglong",
       "blocks": [
         {
-          "id": "block-006",
+          "id": "block-005",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -1912,45 +683,31 @@
           }
         },
         {
-          "id": "block-007",
+          "id": "block-006",
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "出发前在 7 月 25 日买好了车票。行程表从早餐、买零食记起：09:39 的 C6006 从成都东出发，11:02 到镇江关；取车后计划开往免费的松潘古城墙，中午吃牦牛肉汤锅，再往黄龙走。照片里有山间的石碑和坡上的建筑，路程开始变得具体。",
-              "en": "The train tickets had been bought on July 25. The plan begins with breakfast and snacks, then the 09:39 C6006 from Chengdu East to Zhenjiangguan at 11:02. After picking up a rental car, the plan passes Songpan's free-to-visit old city wall, with yak-beef soup pot for lunch, before continuing toward Huanglong. A stone marker and buildings on the hillside make the journey tangible."
+              "zh": "出发前在 7 月 25 日买好了车票。行程表从早餐、买零食记起：09:39 的 C6006 从成都东出发，11:02 到镇江关；取车后计划开往免费的松潘古城墙，中午吃牦牛肉汤锅，再往黄龙走。照片里有黄龙入口的石碑和坡上的建筑，路程开始变得具体。",
+              "en": "The train tickets had been bought on July 25. The plan begins with breakfast and snacks, then the 09:39 C6006 from Chengdu East to Zhenjiangguan at 11:02. After picking up a rental car, the plan passes Songpan's free-to-visit old city wall, with yak-beef soup pot for lunch, before continuing toward Huanglong. The Huanglong entrance stone and buildings on the hillside make the journey tangible."
             }
           ]
         },
         {
-          "id": "block-008",
+          "id": "block-007",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6018",
+              "imageId": "img-6020",
+              "shape": "square",
               "caption": {
-                "zh": "从镇江关往山里走，镜头开始转向高处的林木。",
-                "en": "Leaving Zhenjiangguan, the camera turns toward the hillside and trees."
+                "zh": "走到黄龙入口，山坡上的建筑也进入了镜头。",
+                "en": "At the Huanglong entrance, the hillside buildings come into view."
               }
             },
             {
-              "imageId": "img-6019"
-            },
-            {
-              "imageId": "img-6020"
-            },
-            {
-              "imageId": "img-6022"
-            }
-          ]
-        },
-        {
-          "id": "block-009",
-          "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "img-6023"
+              "imageId": "img-6022",
+              "shape": "square"
             }
           ]
         }
@@ -1961,7 +718,7 @@
       "sectionId": "huanglong",
       "blocks": [
         {
-          "id": "block-010",
+          "id": "block-008",
           "type": "prose",
           "paragraphs": [
             {
@@ -1971,101 +728,36 @@
           ]
         },
         {
-          "id": "block-011",
+          "id": "block-009",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6024",
+              "imageId": "img-6029",
+              "shape": "square",
               "caption": {
-                "zh": "雾和钙华池交错，远景与脚边的水流轮流出现。",
-                "en": "Mist, terraces and close views of running water alternate along the path."
+                "zh": "雾中的亭阁、钙华池和林间水色。",
+                "en": "A pavilion in the mist, travertine terraces and water among the trees."
               }
             },
             {
-              "imageId": "img-6025"
-            },
-            {
-              "imageId": "img-6026"
-            },
-            {
-              "imageId": "img-6027"
+              "imageId": "img-6039",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-012",
+          "id": "block-010",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6028"
+              "imageId": "img-6048",
+              "shape": "square"
             },
             {
-              "imageId": "img-6029"
-            },
-            {
-              "imageId": "img-6030"
-            },
-            {
-              "imageId": "img-6032"
-            }
-          ]
-        },
-        {
-          "id": "block-013",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6033"
-            },
-            {
-              "imageId": "img-6036"
-            },
-            {
-              "imageId": "img-6037"
-            },
-            {
-              "imageId": "img-6038"
-            }
-          ]
-        },
-        {
-          "id": "block-014",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6039"
-            },
-            {
-              "imageId": "img-6040"
-            },
-            {
-              "imageId": "img-6042"
-            },
-            {
-              "imageId": "img-6043"
-            }
-          ]
-        },
-        {
-          "id": "block-015",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6044"
-            },
-            {
-              "imageId": "img-6045"
-            },
-            {
-              "imageId": "img-6046"
-            },
-            {
-              "imageId": "img-6047"
+              "imageId": "img-6051",
+              "shape": "square"
             }
           ]
         }
@@ -2076,102 +768,31 @@
       "sectionId": "huanglong",
       "blocks": [
         {
-          "id": "block-016",
+          "id": "block-011",
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "走到后面，树林、浅池与水道不断换位置；同一片山色里，水有时偏浅蓝，有时透着青绿。把这些相近的照片放在一起，才看得出脚步是怎样沿着池边慢慢往前的。",
-              "en": "Further on, trees, shallow pools and streams trade places in the frame. Against the same mountains, the water shifts between pale blue and green. Keeping these closely related photographs together lets the walk along the pools unfold at its own pace."
+              "zh": "走到后面，树林、浅池与水道不断换位置；同一片山色里，水有时偏浅蓝，有时透着青绿。镜头从林边的溪水走到铺开的瀑布，脚步也跟着水往前。",
+              "en": "Further on, trees, shallow pools and streams trade places in the frame. Against the same mountains, the water shifts between pale blue and green. The camera moves from a stream by the woods to a broad waterfall."
             }
           ]
         },
         {
-          "id": "block-017",
+          "id": "block-012",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6048",
+              "imageId": "img-6064",
+              "shape": "square",
               "caption": {
-                "zh": "傍晚前，镜头停在林间的水与缓坡上。",
-                "en": "Before evening, the camera lingers on water and gentle wooded slopes."
+                "zh": "傍晚前，溪水接着铺满坡面的瀑布。",
+                "en": "Before evening, a stream gives way to a waterfall across the slope."
               }
             },
             {
-              "imageId": "img-6049"
-            },
-            {
-              "imageId": "img-6050"
-            },
-            {
-              "imageId": "img-6051"
-            }
-          ]
-        },
-        {
-          "id": "block-018",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6052"
-            },
-            {
-              "imageId": "img-6053"
-            },
-            {
-              "imageId": "img-6056"
-            },
-            {
-              "imageId": "img-6057"
-            }
-          ]
-        },
-        {
-          "id": "block-019",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6058"
-            },
-            {
-              "imageId": "img-6059"
-            },
-            {
-              "imageId": "img-6061"
-            },
-            {
-              "imageId": "img-6064"
-            }
-          ]
-        },
-        {
-          "id": "block-020",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6065"
-            },
-            {
-              "imageId": "img-6066"
-            },
-            {
-              "imageId": "img-6067"
-            },
-            {
-              "imageId": "img-6068"
-            }
-          ]
-        },
-        {
-          "id": "block-021",
-          "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "img-6069"
+              "imageId": "img-6067",
+              "shape": "square"
             }
           ]
         }
@@ -2182,7 +803,7 @@
       "sectionId": "evening",
       "blocks": [
         {
-          "id": "block-022",
+          "id": "block-013",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2202,46 +823,31 @@
           }
         },
         {
-          "id": "block-023",
+          "id": "block-014",
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "计划里，从黄龙机场一带开往九寨沟千古风情，20:30 看演出，门票记了 800；之后住九寨沟景区店的如家商旅酒店，住宿记了 932。照片里有一张舞台合影，但它没有拍摄时间，不能只凭这张图确认整段晚间安排。晚些时候拍到的汤锅和甜点，倒是把赶路后的夜晚留了下来。",
-              "en": "The plan continues from the Huanglong Airport area toward the Jiuzhaigou Eternal Love show at 20:30, with 800 noted for tickets, then to the Home Inn near the scenic area, with 932 listed for lodging. A stage photo has no capture timestamp, so it cannot confirm the whole evening on its own. Later photographs of hotpot and dessert do record a meal after the day's travel."
+              "zh": "计划里，从黄龙机场一带开往九寨沟千古风情，20:30 看演出，门票记了 800；之后住九寨沟景区店的如家商旅酒店，住宿记了 932。相册没有足够的线索确认演出的时间；晚些时候拍到的一桌菜和汤锅，倒是把赶路后的夜晚留了下来。",
+              "en": "The plan continues from the Huanglong Airport area toward the Jiuzhaigou Eternal Love show at 20:30, with 800 noted for tickets, then to the Home Inn near the scenic area, with 932 listed for lodging. The album cannot confirm the timing of the performance, but later photographs of dinner and hotpot do record a meal after the day's travel."
             }
           ]
         },
         {
-          "id": "block-024",
+          "id": "block-015",
           "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "performance-stage",
-              "caption": {
-                "zh": "一张没有拍摄时间的舞台照片。",
-                "en": "A stage photograph without a capture timestamp."
-              }
-            }
-          ]
-        },
-        {
-          "id": "block-025",
-          "type": "gallery",
-          "layout": "three",
+          "layout": "two",
           "images": [
             {
               "imageId": "img-6073",
+              "shape": "square",
               "caption": {
                 "zh": "22 点后的餐桌，留住了这一天的尾声。",
                 "en": "A table photographed after 10 p.m. closes the day."
               }
             },
             {
-              "imageId": "img-6074"
-            },
-            {
-              "imageId": "img-6075"
+              "imageId": "img-6074",
+              "shape": "square"
             }
           ]
         }
@@ -2252,7 +858,7 @@
       "sectionId": "jiuzhai-woods",
       "blocks": [
         {
-          "id": "block-026",
+          "id": "block-016",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2272,7 +878,7 @@
           }
         },
         {
-          "id": "block-027",
+          "id": "block-017",
           "type": "prose",
           "paragraphs": [
             {
@@ -2282,79 +888,36 @@
           ]
         },
         {
-          "id": "block-028",
+          "id": "block-018",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6076",
+              "imageId": "img-6078",
+              "shape": "square",
               "caption": {
-                "zh": "树林与湖岸交替出现，途中也留下一张自拍。",
-                "en": "Woodland and lakeshore alternate, with a portrait along the way."
+                "zh": "从林地小径走向山间湖岸。",
+                "en": "From a woodland path to a lake in the mountains."
               }
             },
             {
-              "imageId": "img-6077"
-            },
-            {
-              "imageId": "img-6078"
-            },
-            {
-              "imageId": "img-6081"
+              "imageId": "img-6084",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-029",
+          "id": "block-019",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6084"
+              "imageId": "img-6089",
+              "shape": "square"
             },
             {
-              "imageId": "img-6085"
-            },
-            {
-              "imageId": "img-6087"
-            },
-            {
-              "imageId": "img-6088"
-            }
-          ]
-        },
-        {
-          "id": "block-030",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6089"
-            },
-            {
-              "imageId": "img-6090"
-            },
-            {
-              "imageId": "img-6091"
-            },
-            {
-              "imageId": "img-6092"
-            }
-          ]
-        },
-        {
-          "id": "block-031",
-          "type": "gallery",
-          "layout": "three",
-          "images": [
-            {
-              "imageId": "img-6093"
-            },
-            {
-              "imageId": "img-6094"
-            },
-            {
-              "imageId": "img-6095"
+              "imageId": "img-6094",
+              "shape": "square"
             }
           ]
         }
@@ -2365,7 +928,7 @@
       "sectionId": "jiuzhai-falls",
       "blocks": [
         {
-          "id": "block-032",
+          "id": "block-020",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2385,7 +948,7 @@
           }
         },
         {
-          "id": "block-033",
+          "id": "block-021",
           "type": "prose",
           "paragraphs": [
             {
@@ -2395,101 +958,36 @@
           ]
         },
         {
-          "id": "block-034",
+          "id": "block-022",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6096",
+              "imageId": "img-6103",
+              "shape": "square",
               "caption": {
                 "zh": "瀑布之后又回到湖边，山影逐渐展开。",
                 "en": "After the falls, the path returns to the lakes and widening mountain reflections."
               }
             },
             {
-              "imageId": "img-6097"
-            },
-            {
-              "imageId": "img-6098"
-            },
-            {
-              "imageId": "img-6099"
+              "imageId": "img-6110",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-035",
+          "id": "block-023",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6100"
+              "imageId": "img-6119",
+              "shape": "square"
             },
             {
-              "imageId": "img-6101"
-            },
-            {
-              "imageId": "img-6102"
-            },
-            {
-              "imageId": "img-6103"
-            }
-          ]
-        },
-        {
-          "id": "block-036",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6105"
-            },
-            {
-              "imageId": "img-6106"
-            },
-            {
-              "imageId": "img-6107"
-            },
-            {
-              "imageId": "img-6108"
-            }
-          ]
-        },
-        {
-          "id": "block-037",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6109"
-            },
-            {
-              "imageId": "img-6110"
-            },
-            {
-              "imageId": "img-6111"
-            },
-            {
-              "imageId": "img-6116"
-            }
-          ]
-        },
-        {
-          "id": "block-038",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6117"
-            },
-            {
-              "imageId": "img-6118"
-            },
-            {
-              "imageId": "img-6119"
-            },
-            {
-              "imageId": "img-6125"
+              "imageId": "img-6125",
+              "shape": "square"
             }
           ]
         }
@@ -2500,7 +998,7 @@
       "sectionId": "jiuzhai-blue",
       "blocks": [
         {
-          "id": "block-039",
+          "id": "block-024",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2520,7 +1018,7 @@
           }
         },
         {
-          "id": "block-040",
+          "id": "block-025",
           "type": "prose",
           "paragraphs": [
             {
@@ -2530,117 +1028,36 @@
           ]
         },
         {
-          "id": "block-041",
+          "id": "block-026",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "img-6135",
+              "shape": "square",
               "caption": {
-                "zh": "从浓蓝的湖到湍急的溪，颜色一直没有停下来。",
-                "en": "From deep-blue water to a rushing stream, the color never stays still."
+                "zh": "从湖中倒木到湍急的溪，颜色一直没有停下来。",
+                "en": "From a fallen branch over the lake to rushing water, the color keeps changing."
               }
             },
             {
-              "imageId": "img-6136"
-            },
-            {
-              "imageId": "img-6137"
-            },
-            {
-              "imageId": "img-6139"
+              "imageId": "img-6151",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-042",
+          "id": "block-027",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6140"
+              "imageId": "img-6154",
+              "shape": "square"
             },
             {
-              "imageId": "img-6141"
-            },
-            {
-              "imageId": "img-6142"
-            },
-            {
-              "imageId": "img-6144"
-            }
-          ]
-        },
-        {
-          "id": "block-043",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6146"
-            },
-            {
-              "imageId": "img-6147"
-            },
-            {
-              "imageId": "img-6148"
-            },
-            {
-              "imageId": "img-6149"
-            }
-          ]
-        },
-        {
-          "id": "block-044",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6150"
-            },
-            {
-              "imageId": "img-6151"
-            },
-            {
-              "imageId": "img-6152"
-            },
-            {
-              "imageId": "img-6153"
-            }
-          ]
-        },
-        {
-          "id": "block-045",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6154"
-            },
-            {
-              "imageId": "img-6155"
-            },
-            {
-              "imageId": "img-6156"
-            },
-            {
-              "imageId": "img-6158"
-            }
-          ]
-        },
-        {
-          "id": "block-046",
-          "type": "gallery",
-          "layout": "three",
-          "images": [
-            {
-              "imageId": "img-6160"
-            },
-            {
-              "imageId": "img-6161"
-            },
-            {
-              "imageId": "img-6162"
+              "imageId": "img-6168",
+              "shape": "square"
             }
           ]
         }
@@ -2651,7 +1068,7 @@
       "sectionId": "jiuzhai-blue",
       "blocks": [
         {
-          "id": "block-047",
+          "id": "block-028",
           "type": "prose",
           "paragraphs": [
             {
@@ -2661,117 +1078,21 @@
           ]
         },
         {
-          "id": "block-048",
+          "id": "block-029",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6163",
+              "imageId": "img-6176",
+              "shape": "square",
               "caption": {
-                "zh": "宽瀑、山影和湖水，镜头从近处重新走向远处。",
-                "en": "Broad falls, mountain reflections and lake water lead the eye outward again."
+                "zh": "雾里的山和一片亮蓝色的湖。",
+                "en": "Mountains in the mist, followed by a bright blue lake."
               }
             },
             {
-              "imageId": "img-6164"
-            },
-            {
-              "imageId": "img-6165"
-            },
-            {
-              "imageId": "img-6166"
-            }
-          ]
-        },
-        {
-          "id": "block-049",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6167"
-            },
-            {
-              "imageId": "img-6168"
-            },
-            {
-              "imageId": "img-6169"
-            },
-            {
-              "imageId": "img-6170"
-            }
-          ]
-        },
-        {
-          "id": "block-050",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6171"
-            },
-            {
-              "imageId": "img-6172"
-            },
-            {
-              "imageId": "img-6173"
-            },
-            {
-              "imageId": "img-6174"
-            }
-          ]
-        },
-        {
-          "id": "block-051",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6175"
-            },
-            {
-              "imageId": "img-6176"
-            },
-            {
-              "imageId": "img-6177"
-            },
-            {
-              "imageId": "img-6178"
-            }
-          ]
-        },
-        {
-          "id": "block-052",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6179"
-            },
-            {
-              "imageId": "img-6180"
-            },
-            {
-              "imageId": "img-6181"
-            },
-            {
-              "imageId": "img-6182"
-            }
-          ]
-        },
-        {
-          "id": "block-053",
-          "type": "gallery",
-          "layout": "three",
-          "images": [
-            {
-              "imageId": "img-6183"
-            },
-            {
-              "imageId": "img-6184"
-            },
-            {
-              "imageId": "img-6185"
+              "imageId": "img-6184",
+              "shape": "square"
             }
           ]
         }
@@ -2782,7 +1103,7 @@
       "sectionId": "jiuzhai-night",
       "blocks": [
         {
-          "id": "block-054",
+          "id": "block-030",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2802,87 +1123,46 @@
           }
         },
         {
-          "id": "block-055",
+          "id": "block-031",
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "接近傍晚，镜头还在蓝色湖边，之后出现了观光车、木制房间里的陈设和餐桌。行程表把当天景区项目记为 1102，晚餐记为 735；住处写着沟里的云漫山居。照片里还有两人坐在水边的背影，为这段长长的路留了一个安静的句号。",
-              "en": "Near evening, the camera is still beside blue water; later frames show a sightseeing bus, the interior of a wooden room and dinner. The notes list 1102 for the day's scenic-area entry without further breakdown, 735 for dinner, and a stay at Yunman Shanju inside the valley. A silhouette of two people by the water gives the long walk a quiet ending."
+              "zh": "接近傍晚，镜头还在蓝色湖边，之后出现了观光车、木制房间里的陈设和餐桌。行程表把当天景区项目记为 1102，晚餐记为 735；住处写着沟里的云漫山居。从湖边的木平台到最后一桌菜，这一天终于慢慢收尾。",
+              "en": "Near evening, the camera is still beside blue water; later frames show a sightseeing bus, the interior of a wooden room and dinner. The notes list 1102 for the day's scenic-area entry without further breakdown, 735 for dinner, and a stay at Yunman Shanju inside the valley. From the wooden platform by the lake to the last meal, the long day winds down."
             }
           ]
         },
         {
-          "id": "block-056",
+          "id": "block-032",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6186",
+              "imageId": "img-6190",
+              "shape": "square",
               "caption": {
                 "zh": "景区里的最后几幅，与晚上餐桌的照片相连。",
                 "en": "The final scenic-area frames lead into the evening meal."
               }
             },
             {
-              "imageId": "img-6187"
-            },
-            {
-              "imageId": "img-6188"
-            },
-            {
-              "imageId": "img-6189"
+              "imageId": "img-6192",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-057",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6190"
-            },
-            {
-              "imageId": "img-6191"
-            },
-            {
-              "imageId": "img-6192"
-            },
-            {
-              "imageId": "img-6194"
-            }
-          ]
-        },
-        {
-          "id": "block-058",
-          "type": "gallery",
-          "layout": "three",
-          "images": [
-            {
-              "imageId": "img-6195"
-            },
-            {
-              "imageId": "img-6196"
-            },
-            {
-              "imageId": "img-6197"
-            }
-          ]
-        },
-        {
-          "id": "block-059",
+          "id": "block-033",
           "type": "gallery",
           "layout": "two",
           "images": [
             {
-              "imageId": "img-6201",
-              "caption": {
-                "zh": "两张不同的湖边背影，不用为它们猜一个拍摄地点。",
-                "en": "Two different lakeside silhouettes, without guessing an exact shooting spot."
-              }
+              "imageId": "img-6194",
+              "shape": "square"
             },
             {
-              "imageId": "lakeside-silhouette"
+              "imageId": "img-6197",
+              "shape": "square"
             }
           ]
         }
@@ -2893,7 +1173,7 @@
       "sectionId": "last-morning",
       "blocks": [
         {
-          "id": "block-060",
+          "id": "block-034",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -2913,7 +1193,7 @@
           }
         },
         {
-          "id": "block-061",
+          "id": "block-035",
           "type": "prose",
           "paragraphs": [
             {
@@ -2923,63 +1203,36 @@
           ]
         },
         {
-          "id": "block-062",
+          "id": "block-036",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6203",
+              "imageId": "img-6205",
+              "shape": "square",
               "caption": {
                 "zh": "先是瀑布，接着是有雾的湖面。",
                 "en": "First the waterfalls, then a lake in the mist."
               }
             },
             {
-              "imageId": "img-6204"
-            },
-            {
-              "imageId": "img-6205"
-            },
-            {
-              "imageId": "img-6206"
+              "imageId": "img-6212",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-063",
+          "id": "block-037",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6207"
+              "imageId": "img-6216",
+              "shape": "square"
             },
             {
-              "imageId": "img-6208"
-            },
-            {
-              "imageId": "img-6210"
-            },
-            {
-              "imageId": "img-6211"
-            }
-          ]
-        },
-        {
-          "id": "block-064",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6212"
-            },
-            {
-              "imageId": "img-6213"
-            },
-            {
-              "imageId": "img-6214"
-            },
-            {
-              "imageId": "img-6215"
+              "imageId": "img-6219",
+              "shape": "square"
             }
           ]
         }
@@ -2990,7 +1243,7 @@
       "sectionId": "last-morning",
       "blocks": [
         {
-          "id": "block-065",
+          "id": "block-038",
           "type": "prose",
           "paragraphs": [
             {
@@ -3000,73 +1253,36 @@
           ]
         },
         {
-          "id": "block-066",
+          "id": "block-039",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6216",
+              "imageId": "img-6221",
+              "shape": "square",
               "caption": {
                 "zh": "最后一段湖岸与溪流的照片。",
                 "en": "The last run of lakeshore and stream photographs."
               }
             },
             {
-              "imageId": "img-6217"
-            },
-            {
-              "imageId": "img-6218"
-            },
-            {
-              "imageId": "img-6219"
+              "imageId": "img-6222",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-067",
+          "id": "block-040",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
-              "imageId": "img-6220"
+              "imageId": "img-6226",
+              "shape": "square"
             },
             {
-              "imageId": "img-6221"
-            },
-            {
-              "imageId": "img-6222"
-            },
-            {
-              "imageId": "img-6223"
-            }
-          ]
-        },
-        {
-          "id": "block-068",
-          "type": "gallery",
-          "layout": "four",
-          "images": [
-            {
-              "imageId": "img-6224"
-            },
-            {
-              "imageId": "img-6225"
-            },
-            {
-              "imageId": "img-6226"
-            },
-            {
-              "imageId": "img-6227"
-            }
-          ]
-        },
-        {
-          "id": "block-069",
-          "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "img-6228"
+              "imageId": "img-6228",
+              "shape": "square"
             }
           ]
         }
@@ -3077,7 +1293,7 @@
       "sectionId": "departure",
       "blocks": [
         {
-          "id": "block-070",
+          "id": "block-041",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -3097,54 +1313,36 @@
           }
         },
         {
-          "id": "block-071",
+          "id": "block-042",
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "下午的相册里是窗边两杯饮品，傍晚则出现蓝天下的街道、建筑和路边风车。另有一张与同行家人在山间的合照，没有拍摄时间；它留在这段旅程里，却不能用来补写某个确定的停留点。",
-              "en": "The afternoon album has two drinks by a window; by evening there are streets, buildings and a roadside pinwheel under blue sky. An undated group portrait with the family also belongs to this trip, but cannot establish a particular stop or time."
+              "zh": "下午的相册里是窗边两杯饮品，傍晚则出现蓝天下的街道、建筑和路边风车。照片在这里停下，旧行程表上的返程方式却还需要核对。",
+              "en": "The afternoon album has two drinks by a window; by evening there are streets, buildings and a roadside pinwheel under blue sky. The photographs end here, while the return route in the old itinerary still needs checking."
             }
           ]
         },
         {
-          "id": "block-072",
+          "id": "block-043",
           "type": "gallery",
-          "layout": "four",
+          "layout": "two",
           "images": [
             {
               "imageId": "img-6232",
+              "shape": "square",
               "caption": {
                 "zh": "下午的饮品和傍晚街景，照片在这里停下。",
                 "en": "Afternoon drinks and evening streets are where the dated photographs end."
               }
             },
             {
-              "imageId": "img-6233"
-            },
-            {
-              "imageId": "img-6239"
-            },
-            {
-              "imageId": "img-6240"
+              "imageId": "img-6239",
+              "shape": "square"
             }
           ]
         },
         {
-          "id": "block-073",
-          "type": "gallery",
-          "layout": "one",
-          "images": [
-            {
-              "imageId": "family-group",
-              "caption": {
-                "zh": "与同行家人的合影，具体拍摄时间未记下。",
-                "en": "A portrait with our companions; its exact time is not recorded."
-              }
-            }
-          ]
-        },
-        {
-          "id": "block-074",
+          "id": "block-044",
           "type": "note",
           "title": {
             "zh": "返程还需要核对",
@@ -3162,7 +1360,7 @@
       "sectionId": "expenses",
       "blocks": [
         {
-          "id": "block-075",
+          "id": "block-045",
           "type": "header",
           "markerLabel": {
             "zh": "章",
@@ -3182,7 +1380,7 @@
           }
         },
         {
-          "id": "block-076",
+          "id": "block-046",
           "type": "prose",
           "paragraphs": [
             {
@@ -3192,7 +1390,7 @@
           ]
         },
         {
-          "id": "block-077",
+          "id": "block-047",
           "type": "expense",
           "title": {
             "zh": "行程记录 · 元",
@@ -3301,7 +1499,7 @@
           ]
         },
         {
-          "id": "block-078",
+          "id": "block-048",
           "type": "ending",
           "title": {
             "zh": "水的颜色，留在相册里",

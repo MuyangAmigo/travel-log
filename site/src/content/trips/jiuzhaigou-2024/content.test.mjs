@@ -7,19 +7,36 @@ const source = readFileSync(new URL("./content.json", import.meta.url), "utf8");
 const document = parseTripDocument(JSON.parse(source));
 const blocks = document.pages.flatMap((page) => page.blocks);
 
-test("Jiuzhaigou includes each of the 175 supplied stills exactly once in both locales", () => {
-  const galleryPhotos = blocks.filter((block) => block.type === "gallery")
-    .flatMap((block) => block.images.map((image) => image.imageId));
-  assert.equal(document.images.length, 175);
-  assert.equal(galleryPhotos.length, 175);
+test("Jiuzhaigou keeps a non-repeating, people-free selection of 40 photos", () => {
+  const selected = `
+    6009 6012 6020 6022 6029 6039 6048 6051 6064 6067
+    6073 6074 6078 6084 6089 6094 6103 6110 6119 6125
+    6135 6151 6154 6168 6176 6184 6190 6192 6194 6197
+    6205 6212 6216 6219 6221 6222 6226 6228 6232 6239
+  `.trim().split(/\s+/).map((number) => `img-${number}`);
+  const galleries = blocks.filter((block) => block.type === "gallery");
+  const galleryPhotos = galleries.flatMap((block) => block.images.map((image) => image.imageId));
+  assert.equal(document.images.length, 40);
+  assert.equal(galleryPhotos.length, 40);
+  assert.deepEqual(galleryPhotos, selected);
   assert.deepEqual(new Set(galleryPhotos), new Set(document.images.map((image) => image.id)));
+  assert.equal(galleries.length, 20);
+  assert.ok(galleries.every((gallery) =>
+    gallery.layout === "two" &&
+    gallery.images.length === 2 &&
+    gallery.images.every((image) => image.shape === "square")
+  ));
   assert.equal(document.metadata.coverImageId, "img-6184");
   assert.equal(document.images.find((image) => image.id === "img-6184").filename, "img_6184.webp");
   for (const image of document.images) {
     assert.match(image.filename, /\.webp$/);
-    assert.equal(image.thumbnailFilename, image.filename.replace(/\.webp$/, "-thumb.webp"));
+    assert.equal(image.thumbnailFilename, image.filename.replace(/\.webp$/, "-square.webp"));
     assert.ok(image.alt.zh && image.alt.en);
   }
+  for (const removed of ["performance-stage", "family-group", "lakeside-silhouette", "img-6010", "img-6011", "img-6077", "img-6187", "img-6188", "img-6201"]) {
+    assert.ok(!galleryPhotos.includes(removed), removed);
+  }
+  assert.doesNotMatch(source, /自拍|合影|背影|portrait|selfie|silhouette/i);
 });
 
 test("Jiuzhaigou uses the private bilingual photo-story with chronological sections", () => {
