@@ -50,7 +50,7 @@ Read applicable child instructions before editing files in `site/`.
 Reuse the classes and tokens in `site/src/app/globals.css` and the scoped
 styles in `site/src/components/TripPresentation.module.css` rather than
 introducing trip-specific visual systems. The common photo-story reading rules
-currently opt in the Phuket and Kansai 2025 documents explicitly; selecting
+currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents explicitly; selecting
 `photo-story` alone does not apply those rules to a new trip.
 
 - Shell: `.site-header`, `.site-brand`, `.theme-toggle`, `.trip-grid`,
