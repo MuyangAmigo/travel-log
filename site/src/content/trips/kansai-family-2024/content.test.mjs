@@ -34,14 +34,32 @@ test("private Kansai family trip has matching bilingual titles, cover and six da
   assert.equal(meta.title.en, "Kansai Family Trip — Osaka, Nara, Kyoto & Uji");
 });
 
-test("all 80 curated, metadata-stripped photos are in the shared bilingual reading flow", () => {
-  assert.equal(document.images.length, 80);
-  assert.equal(photoIds.length, 80);
-  assert.equal(new Set(photoIds).size, 80);
+test("all 85 curated, metadata-stripped photos are in the shared bilingual reading flow", () => {
+  assert.equal(document.images.length, 85);
+  assert.equal(photoIds.length, 85);
+  assert.equal(new Set(photoIds).size, 85);
   assert.deepEqual(new Set(photoIds), new Set(document.images.map((image) => image.id)));
   assert.ok(document.images.every((image) => /^p\d{4}\.webp$/.test(image.filename)
     && image.alt.zh && image.alt.en));
-  assert.ok(galleries.every((gallery) => gallery.images.every((image) => image.caption.zh && image.caption.en)));
+  assert.ok(galleries.every((gallery) => gallery.images[0].caption?.zh && gallery.images[0].caption?.en
+    && gallery.images.slice(1).every((image) => image.caption === undefined)));
+  for (const locale of ["zh", "en"]) {
+    const captions = galleries.map((gallery) => gallery.images[0].caption[locale]);
+    assert.equal(new Set(captions).size, captions.length, `${locale} repeats a caption`);
+  }
+  const familyScenes = {
+    "day-3": ["p9287", "p9295"],
+    "day-4": ["p9387"],
+    "day-5": ["p9435", "p9436"],
+  };
+  for (const [sectionId, ids] of Object.entries(familyScenes)) {
+    const photos = document.pages.filter((page) => page.sectionId === sectionId)
+      .flatMap((page) => page.blocks).filter((block) => block.type === "gallery")
+      .flatMap((block) => block.images.map((image) => image.imageId));
+    for (const id of ids) {
+      assert.ok(photos.includes(id), `${id} must be near its day's scene`);
+    }
+  }
   assert.ok(galleries.filter((gallery) => gallery.layout === "one")
     .every((gallery) => gallery.images.every((image) => image.shape === undefined)));
   assert.doesNotMatch(source, /(?:GPS|\/Users\/|blob\.core|IMG_\d+|FullSizeRender)/);
