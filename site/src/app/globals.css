@@ -672,6 +672,7 @@ body:has(.index-wrap) {
 .index-controls .lang-switch a,
 .index-controls .index-view-switch button,
 .index-controls .theme-toggle,
+.index-sort-button,
 .index-more-button {
   display: inline-flex;
   align-items: center;
@@ -682,6 +683,7 @@ body:has(.index-wrap) {
   border-radius: var(--ab-radius-sm);
 }
 .index-controls .theme-toggle,
+.index-sort-button,
 .index-more-button {
   flex-shrink: 0;
   border: 0;
@@ -698,17 +700,28 @@ body:has(.index-wrap) {
   box-shadow: none;
 }
 .index-more-button:hover,
+.index-sort-button:hover,
 .index-controls .theme-toggle:hover {
   background: var(--palette-surface-muted);
   color: var(--palette-text-primary);
   box-shadow: none;
 }
-.index-more-button svg {
+.index-more-button svg,
+.index-sort-button svg {
   width: 20px;
   height: 20px;
+}
+.index-more-button svg {
   fill: currentColor;
 }
-.index-more-options {
+.index-sort-button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+.index-more-options,
+.index-sort-options {
   position: fixed;
   inset: auto auto calc(92px + env(safe-area-inset-bottom)) 50%;
   transform: translateX(-50%);
@@ -733,8 +746,27 @@ body:has(.index-wrap) {
 .index-more-options a:hover {
   background: var(--palette-surface-muted);
 }
+.index-sort-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: var(--ab-radius-sm);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.index-sort-options label:hover {
+  background: var(--palette-surface-muted);
+}
+.index-sort-options input {
+  accent-color: var(--palette-bg-primary-core);
+}
 .index-brand:focus-visible,
 .index-controls a:focus-visible,
+.index-sort-button:focus-visible,
 .index-more-button:focus-visible {
   outline: 2px solid var(--palette-bg-primary-core);
   outline-offset: 3px;
@@ -1227,7 +1259,8 @@ body:has(.index-wrap) {
     border-radius: 0;
     box-shadow: none;
   }
-  .index-more-options {
+  .index-more-options,
+  .index-sort-options {
     inset: auto 16px calc(76px + env(safe-area-inset-bottom)) auto;
     transform: none;
   }
@@ -1340,6 +1373,18 @@ body:has(.index-wrap) {
 }
 
 @media (max-width: 400px) {
+  .index-controls {
+    gap: 4px;
+    padding-inline: max(4px, env(safe-area-inset-left)) max(4px, env(safe-area-inset-right));
+  }
+  .index-controls .lang-switch a,
+  .index-controls .index-view-switch button,
+  .index-controls .theme-toggle,
+  .index-sort-button,
+  .index-more-button {
+    width: 40px;
+  }
+
   .card-wrap {
     --card-scale-width: calc((100vw - 12px) / 1200);
   }
