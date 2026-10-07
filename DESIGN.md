@@ -357,6 +357,43 @@ Each trip can set optional `metadata.style` in its `content.json`. Missing means
 The owner selects a style in the editor's Overall information section. One published choice applies to both languages and all readers. Selection changes the draft preview only; explicit approval and Publish commit the setting, and the site rebuild makes it visible. Reader pages do not expose a style-setting toolbar or use browser storage to override the published style.
 
 Editor live and bilingual approval previews share the production renderer and presentation inside same-origin, script-disabled frames. Their real viewport widths are 1440px, 900px, and 390px; fitting a frame into the editor does not change its responsive breakpoint. Frame-local chapter navigation, scaling, and lightboxes must not affect the parent editor or another locale frame.
+Because native image lazy loading is disabled in script-disabled frames, the
+shared preview defers gallery sources and uses each frame's own
+`IntersectionObserver` to load images near its visible reading area. The
+script-disabled sandbox stays unchanged; full-image lightboxes can resolve the
+deferred source even before its thumbnail has loaded.
+
+### Guide-and-essay field journal
+
+Hakone 2026 (`hakone-2026`) explicitly opts into a guide-and-essay variation of
+`field-journal`. It reuses the common center-axis reading rules, with a split
+text/scene cover, dated daily essays, red-margin practical/background notes,
+and a complete shared-spending ledger. A quiet sticky chapter menu replaces the
+desktop side rail. Other Field Journal documents retain their published layout.
+
+The Chinese daily essays preserve the source wording in full, interleaved with
+the original itinerary and curated, time-matched photographs. Source payment
+details move to the final ledger rather than interrupt the story. Scene headings
+show itinerary times; individual photo captions show camera capture times and
+the matching scene, with clearly labelled itinerary-based ranges where a capture
+time is absent.
+
+Supporting photos use equal landscape, 3:4 portrait and square pairs, with a few
+two-by-two contact pages for meals and related artworks. Collages always contain
+two or four images, never an odd tile count. Compact pairs and contact pages
+retain two columns on phones; wider scene-setting images and centered
+natural-ratio meals or principal portraits vary the rhythm. Every tile opens its
+uncropped original through the existing lightbox. Repeated shots and sunny
+comparison material of unconfirmed origin are not included in the curated entry.
+The cover uses the supplied lake-torii photograph with a modest, explicit colour
+enhancement requested by the author, not a theme-dependent filter.
+
+Structured image assets may provide optional positive integer `width` and
+`height` together (up to 20,000 each). The renderer emits these intrinsic
+dimensions for original-source images to reserve natural-ratio space while
+loading; cropped thumbnails rely on the authored shape. Both site and API
+validators support these dimensions without changing the three supported style
+IDs.
 
 ## 10. Theme Behavior
 

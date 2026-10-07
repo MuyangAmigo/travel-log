@@ -26,6 +26,7 @@ export interface TripMeta {
 import { meta as bangkok2026Meta } from "@/content/trips/bangkok-2026/meta";
 import { meta as chengdu2025Meta } from "@/content/trips/chengdu-2025/meta";
 import { meta as phuket2026Meta } from "@/content/trips/phuket-2026/meta";
+import { meta as hakone2026Meta } from "@/content/trips/hakone-2026/meta";
 import { meta as fukuokaSolo2026Meta } from "@/content/trips/fukuoka-solo-2026/meta";
 import { meta as hangzhouConcert2026Meta } from "@/content/trips/hangzhou-concert-2026/meta";
 import { meta as japan2023Meta } from "@/content/trips/japan-2023/meta";
@@ -42,6 +43,7 @@ import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 
 // Keep this literal registry compatible with the editor API's slug parser.
 export const trips: TripMeta[] = [
+  hakone2026Meta,
   phuket2026Meta,
   fukuokaSolo2026Meta,
   bangkok2026Meta,
@@ -63,6 +65,7 @@ export const trips: TripMeta[] = [
 // Publication is a listing property, distinct from the trip's travel date.
 // Existing timestamps reflect the first addition of each trip to the index.
 const publishedAtBySlug: Record<string, string> = {
+  "hakone-2026": "2026-10-07T22:54:35+08:00",
   "phuket-2026": "2026-08-21T14:20:22+07:00",
   "fukuoka-solo-2026": "2026-08-14T16:01:09+08:00",
   "bangkok-2026": "2026-04-18T00:54:52+08:00",
