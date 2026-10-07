@@ -15,6 +15,7 @@ type TripDocumentRendererProps = {
   document: TripDocument;
   locale: TripDocumentLocale;
   imageUrl: (filename: string) => string;
+  deferImages?: boolean;
 };
 
 const SPACING_CLASS = {
@@ -142,7 +143,8 @@ function renderBlock(
   block: TripBlock,
   document: TripDocument,
   locale: TripDocumentLocale,
-  imageUrl: (filename: string) => string
+  imageUrl: (filename: string) => string,
+  deferImages: boolean
 ) {
   const spacing = spacingClasses(block.spacing);
 
@@ -286,11 +288,19 @@ function renderBlock(
                 )}
               >
                 <img
-                  src={imageUrl(image.thumbnailFilename ?? image.filename)}
+                  src={deferImages ? undefined : imageUrl(image.thumbnailFilename ?? image.filename)}
+                  data-deferred-src={deferImages ? imageUrl(image.thumbnailFilename ?? image.filename) : undefined}
                   data-full-src={image.thumbnailFilename ? imageUrl(image.filename) : undefined}
                   alt={text(item.alt ?? image.alt, locale)}
+                  width={image.thumbnailFilename ? undefined : image.width}
+                  height={image.thumbnailFilename ? undefined : image.height}
                   className={item.shape ? IMAGE_SHAPE_CLASS[item.shape] : undefined}
-                  style={item.focus ? IMAGE_FOCUS_STYLE[item.focus] : undefined}
+                  style={{
+                    ...(item.focus ? IMAGE_FOCUS_STYLE[item.focus] : undefined),
+                    ...(!item.shape && !image.thumbnailFilename && image.width && image.height
+                      ? { aspectRatio: `${image.width} / ${image.height}` }
+                      : undefined),
+                  }}
                   loading="lazy"
                   decoding="async"
                 />
@@ -478,6 +488,7 @@ export default function TripDocumentRenderer({
   document,
   locale,
   imageUrl,
+  deferImages = false,
 }: TripDocumentRendererProps) {
   const firstPageBySection = new Map<string, string>();
   for (const page of document.pages) {
@@ -506,7 +517,7 @@ export default function TripDocumentRenderer({
                   : undefined
               }
             >
-              {page.blocks.map((block) => renderBlock(block, document, locale, imageUrl))}
+              {page.blocks.map((block) => renderBlock(block, document, locale, imageUrl, deferImages))}
               <div className="page-num">
                 - {String(pageIndex + 1).padStart(2, "0")} -
               </div>

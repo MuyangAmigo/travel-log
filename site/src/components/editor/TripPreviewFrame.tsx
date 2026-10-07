@@ -111,6 +111,28 @@ export default function TripPreviewFrame({
     };
   }, [frameDocument, locale]);
 
+  useEffect(() => {
+    const viewport = frameDocument?.defaultView;
+    if (!frameDocument || !viewport) return;
+    // Native lazy loading is disabled inside script-disabled preview frames.
+    const observer = new viewport.IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        const image = entry.target;
+        if (!(image instanceof viewport.HTMLImageElement)) continue;
+        const source = image.dataset.deferredSrc;
+        if (!source) throw new Error("A deferred preview image is missing its source.");
+        image.src = source;
+        observer.unobserve(image);
+      }
+    }, { rootMargin: "600px" });
+    for (const image of frameDocument.querySelectorAll<HTMLImageElement>("img[data-deferred-src]")) {
+      if (image.getAttribute("src") !== image.dataset.deferredSrc) image.removeAttribute("src");
+      observer.observe(image);
+    }
+    return () => observer.disconnect();
+  }, [frameDocument, trip, locale]);
+
   return (
     <div ref={containerRef} className="editor-frame-container">
       {!cover && <p className="editor-alert error" role="alert">请先选择有效的封面图片。</p>}
@@ -145,7 +167,7 @@ export default function TripPreviewFrame({
           coverImage={imageUrl(cover.filename)}
           sections={sections}
         >
-          <TripDocumentRenderer document={trip} locale={locale} imageUrl={imageUrl} />
+          <TripDocumentRenderer document={trip} locale={locale} imageUrl={imageUrl} deferImages />
         </TripPresentation>,
         frameDocument.body,
       )}

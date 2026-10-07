@@ -54,7 +54,7 @@ export default function ImageLightbox({
       if (!image) return current;
       sourceImage.current = image;
       return {
-        src: image.dataset.fullSrc || image.currentSrc || image.src,
+        src: image.dataset.fullSrc || image.currentSrc || image.dataset.deferredSrc || image.src,
         alt: image.alt,
         index,
         total: current.total,
@@ -88,7 +88,7 @@ export default function ImageLightbox({
     const openImage = (image: HTMLImageElement) => {
       sourceImage.current = image;
       setSelected({
-        src: image.dataset.fullSrc || image.currentSrc || image.src,
+        src: image.dataset.fullSrc || image.currentSrc || image.dataset.deferredSrc || image.src,
         alt: image.alt,
         index: libraryImages.current.indexOf(image),
         total: image.dataset.fullSrc ? libraryImages.current.length : 0,

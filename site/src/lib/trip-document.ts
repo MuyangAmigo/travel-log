@@ -18,6 +18,8 @@ export type TripImageAsset = {
   id: string;
   filename: string;
   thumbnailFilename?: string;
+  width?: number;
+  height?: number;
   alt: LocalizedText;
 };
 
@@ -912,7 +914,7 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
   checkUniqueIds(context, images, "$.images", imageIds);
   images.forEach((image, index) => {
     const path = `$.images[${index}]`;
-    const item = context.record(image, path, ["id", "filename", "thumbnailFilename", "alt"]);
+    const item = context.record(image, path, ["id", "filename", "thumbnailFilename", "width", "height", "alt"]);
     if (!item) return;
     context.id(item.id, `${path}.id`);
     context.string(item.filename, `${path}.filename`, { pattern: IMAGE_FILENAME_PATTERN });
@@ -921,6 +923,14 @@ export function validateTripDocument(value: unknown): TripDocumentValidationIssu
         pattern: IMAGE_FILENAME_PATTERN,
         maximum: 180,
       });
+    }
+    if (item.width !== undefined || item.height !== undefined) {
+      for (const key of ["width", "height"] as const) {
+        const dimension = item[key];
+        if (typeof dimension !== "number" || !Number.isInteger(dimension) || dimension < 1 || dimension > 20000) {
+          context.issue(`${path}.${key}`, "must be an integer from 1 to 20000; provide both width and height");
+        }
+      }
     }
     context.localized(item.alt, `${path}.alt`);
   });

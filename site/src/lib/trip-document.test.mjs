@@ -81,6 +81,21 @@ function readTripDocument(slug) {
   return { source, document: parseTripDocument(JSON.parse(source)) };
 }
 
+test("site and API preserve paired intrinsic dimensions and reject invalid sizes", () => {
+  for (const parse of [parseTripDocument, parseApiDocument]) {
+    const document = structuredClone(minimalDocument);
+    document.images[0].width = 1200;
+    document.images[0].height = 1800;
+    assert.equal(parse(document).images[0].width, 1200);
+    assert.equal(parse(document).images[0].height, 1800);
+    for (const invalid of [0, -1, 1.5, 20001, "1200", null, undefined]) {
+      const copy = structuredClone(document);
+      copy.images[0].width = invalid;
+      assert.throws(() => parse(copy), `Invalid intrinsic width: ${String(invalid)}`);
+    }
+  }
+});
+
 function collectReferencedImageIds(document) {
   const references = new Set([document.metadata.coverImageId]);
   for (const page of document.pages) {
