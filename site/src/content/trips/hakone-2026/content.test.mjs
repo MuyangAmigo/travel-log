@@ -16,6 +16,10 @@ test("Hakone keeps private bilingual field-journal metadata and the requested en
   assert.equal(document.metadata.date, "2026-09-28");
   assert.equal(document.metadata.dateRange, "2026.09.28 — 10.05");
   assert.equal(document.metadata.coverImageId, "p4221");
+  assert.deepEqual(document.metadata.subtitle, {
+    zh: "从雨中温泉到多摩川花火",
+    en: "From rainy hot springs to Tamagawa fireworks",
+  });
   assert.deepEqual(blocks[0].title, document.metadata.title);
   assert.equal(blocks[0].backgroundImageId, "p4221");
   assert.deepEqual(document.sections.map((section) => section.id),
