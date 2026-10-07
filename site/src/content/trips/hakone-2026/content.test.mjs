@@ -27,6 +27,8 @@ test("Hakone keeps private bilingual field-journal metadata and the requested en
   }
   assert.equal(tripDocumentToMeta(document, (filename) => `test:${filename}`).coverImage,
     "test:p4221-vivid.webp");
+  assert.ok(blocks.filter((block) => block.type === "header")
+    .every((block) => !/[\u4e00-\u9fff]/u.test(block.markerValue.en)));
 });
 
 test("all 51 Chinese essay paragraphs preserve the Word source verbatim and in order", () => {
