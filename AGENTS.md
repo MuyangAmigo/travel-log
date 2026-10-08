@@ -39,11 +39,16 @@ Read applicable child instructions before editing files in `site/`.
   `TripEntryLayout` derives fallback anchors from cards when no explicit
   chapter metadata is supplied.
 - The optional structured `metadata.style` accepts `classic`, `photo-story`,
-  or `field-journal` (default Classic). The editor's `TripPreviewFrame` uses
+  `field-journal`, or `scrapbook` (default Classic). The editor's `TripPreviewFrame` uses
   the same renderer and presentation in isolated viewport frames. Keep style
   validation aligned between the site and API; do not override published
   styles through query parameters or browser storage. Browser effects in
   previews must use the rendered root's `ownerDocument` and `defaultView`.
+- `scrapbook` is the shared Japanese vintage-collage presentation, available to
+  every document without a slug opt-in. Reuse `timeline` and `route` for practical
+  cards; `flight` supports localized title/locations, optional flight number,
+  endpoint dates/times/terminals, and a note. Keep unknown facts absent and
+  endpoint times local; do not infer duration or booking status.
 
 ## Shared presentation vocabulary
 
@@ -164,7 +169,7 @@ currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents expli
 7. Let the shared route own `TripPresentation`, `TripEntryLayout`,
    `CardScaleController`, and `ImageLightbox`; do not render them inside locale
    components. Compose existing renderer blocks and `globals.css` classes, not a
-   new visual system, per-trip presentation JavaScript, or arbitrary wrappers.
+   per-trip visual system, presentation JavaScript, or arbitrary wrappers.
 8. Apply the [common reading layout and photo rules](DESIGN.md#reading-axis-and-photography)
    to the new entry, regardless of destination. Verify that the selected shared
    presentation actually supports the design; a style name alone is not proof.
@@ -172,8 +177,8 @@ currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents expli
    following the [implementation notes](DESIGN.md#presentation-scope-and-reuse);
    reuse is a normal part of the creation workflow. Preserve unrelated published
    trips; do not
-   work around a gap with duplicated components, unsupported metadata, a fourth
-   style, query parameters, or browser storage.
+   work around a gap with duplicated components, unsupported metadata or style
+   IDs, query parameters, or browser storage.
 9. Register the trip in [`site/src/lib/trips.ts`](site/src/lib/trips.ts), keeping
    the newest trips first. Preview and complete the checks below before delivery.
 

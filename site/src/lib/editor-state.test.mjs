@@ -3,13 +3,16 @@ import test from "node:test";
 import {
   addUploadedImage,
   collectChangedLocalizedPaths,
+  createBlock,
   detachImage,
   duplicatePage,
+  duplicateBlock,
   getEditorDraftRecovery,
   isEditorOperationCurrent,
   parseStoredEditorDraft,
   referencedImageIds,
 } from "./editor-state.ts";
+import { minimalFlightBlock } from "../../../api/test/helpers/editor-fixtures.js";
 
 function documentFixture() {
   return {
@@ -90,7 +93,7 @@ test("collects only changed and newly-empty English fields by stable ID path", (
 
 test("style-only edits do not request translation and survive draft recovery", () => {
   const original = documentFixture();
-  for (const style of ["classic", "photo-story", "field-journal"]) {
+  for (const style of ["classic", "photo-story", "field-journal", "scrapbook"]) {
     const document = structuredClone(original);
     document.metadata.style = style;
     assert.deepEqual(collectChangedLocalizedPaths(original, document), []);
@@ -106,6 +109,37 @@ test("style-only edits do not request translation and survive draft recovery", (
     assert.deepEqual(recovery.document.pages, original.pages);
     assert.equal(getEditorDraftRecovery(stored, original, "3".repeat(40)).status, "conflict");
   }
+});
+
+test("flight defaults do not invent facts and duplication preserves endpoint data", () => {
+  const blank = createBlock("flight", "cover");
+  assert.equal(blank.type, "flight");
+  assert.deepEqual(Object.keys(blank.departure), ["location"]);
+  assert.deepEqual(Object.keys(blank.arrival), ["location"]);
+  assert.equal(blank.flightNumber, undefined);
+  const original = minimalFlightBlock();
+  const duplicate = duplicateBlock(original);
+  assert.notEqual(duplicate.id, original.id);
+  assert.deepEqual({ ...duplicate, id: original.id }, original);
+  duplicate.departure.location.zh = "另一机场";
+  assert.notEqual(duplicate.departure.location.zh, original.departure.location.zh);
+});
+
+test("flight endpoint edits have stable translation paths and survive draft recovery", () => {
+  const original = documentFixture();
+  original.pages[0].blocks.push(minimalFlightBlock());
+  const draft = structuredClone(original);
+  draft.metadata.style = "scrapbook";
+  draft.pages[0].blocks[1].departure.location.zh = "新的出发地";
+  draft.pages[0].blocks[1].departure.time = "22:00";
+  assert.deepEqual(collectChangedLocalizedPaths(original, draft),
+    ["$.pages[id=cover-page].blocks[id=flight-block].departure.location"]);
+  const stored = parseStoredEditorDraft(JSON.stringify({
+    baseSha: "1".repeat(40), baseBlobSha: "2".repeat(40), document: draft, savedAt: 123,
+  }), original.slug);
+  const recovery = getEditorDraftRecovery(stored, original, "2".repeat(40));
+  assert.equal(recovery.status, "safe");
+  assert.deepEqual(recovery.document.pages, draft.pages);
 });
 
 test("draft recovery preserves optional thumbnails without changing legacy image assets", () => {

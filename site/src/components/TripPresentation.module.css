@@ -3,6 +3,105 @@
   width: 100%;
 }
 
+.presentation :global(.trip-flight) {
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid var(--trip-border);
+  border-radius: 12px;
+  background: var(--trip-card);
+  color: var(--trip-text);
+  font-family: var(--font-sans-cn, serif);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.presentation :global(.trip-flight-heading) {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 24px;
+}
+
+.presentation :global(.trip-flight-heading h3) {
+  margin: 0;
+  font-size: 21px;
+}
+
+.presentation :global(.trip-flight-number) {
+  font-family: var(--font-ui, sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.presentation :global(.trip-flight-journey) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 52px minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+}
+
+.presentation :global(.trip-flight-endpoint) {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.presentation :global(.trip-flight-endpoint h4) {
+  margin: 6px 0 12px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.presentation :global(.trip-flight-label),
+.presentation :global(.trip-flight-date),
+.presentation :global(.trip-flight-terminal) {
+  display: block;
+  color: var(--trip-secondary);
+  font-size: 13px;
+}
+
+.presentation :global(.trip-flight-time) {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-ui, sans-serif);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+}
+
+.presentation :global(.trip-flight-footer) {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--trip-border);
+  color: var(--trip-secondary);
+  font-size: 14px;
+}
+
+.presentation :global(.trip-flight-footer p) {
+  margin: 0 0 12px;
+}
+
+.presentation :global(.trip-flight-footer > span) {
+  font-size: 12px;
+}
+
+.presentation :global(.journal-doodle) {
+  display: block;
+  width: 52px;
+  height: auto;
+  color: var(--trip-text);
+  pointer-events: none;
+}
+
+.presentation :global(.journal-doodle-paper) {
+  fill: var(--scrapbook-blue, var(--trip-surface));
+  stroke: var(--scrapbook-rule, var(--trip-border));
+  stroke-width: 1;
+}
+
 .presentation[data-trip-style="classic"] {
   display: contents;
 }
@@ -1146,4 +1245,507 @@
       width: 100%;
     }
   }
+}
+
+.presentation[data-trip-style="scrapbook"] {
+  /* Resolve font aliases here: Next's font variables live on body, not :root. */
+  --font-sans-cn: 'LXGW WenKai', var(--font-eb-garamond, 'Noto Sans SC'), 'Noto Sans SC', sans-serif;
+  --font-serif-cn: 'LXGW WenKai', var(--font-eb-garamond, 'Noto Serif SC'), 'Noto Serif SC', serif;
+  --font-ui: var(--font-inter, Inter), system-ui, 'Segoe UI', 'LXGW WenKai', sans-serif;
+  --font-hand: var(--font-caveat, cursive);
+  --reading-column: 640px;
+  --trip-background: #ece6db;
+  --trip-card: #fffdf5;
+  --trip-surface: #f5eee0;
+  --trip-border: #d8cbb6;
+  --trip-text: #34372f;
+  --trip-body: #34372f;
+  --trip-secondary: #665c4e;
+  --trip-muted: #746957;
+  --trip-caption: #665c4e;
+  --trip-accent-text: #805034;
+  --trip-note-background: #f4e6c8;
+  --trip-note-text: #493e30;
+  --trip-warning-background: #fae6d9;
+  --trip-warning-text: #783c28;
+  --scrapbook-kraft: #d6bc94;
+  --scrapbook-blue: #c9dce0;
+  --scrapbook-sage: #dce2c9;
+  --scrapbook-rule: #c8bea9;
+  --ink: var(--trip-text);
+  --ink-light: var(--trip-secondary);
+  --accent-coral: var(--trip-accent-text);
+  --accent-gold: var(--trip-accent-text);
+  --accent-teal: var(--trip-accent-text);
+  --kraft-light: var(--trip-border);
+
+  &:lang(zh) { --reading-column: 612px; }
+
+  & :global(.trip-content) {
+    padding: 32px 24px 96px;
+    background-color: var(--trip-background);
+    background-image: radial-gradient(var(--scrapbook-rule) .45px, transparent .45px);
+    background-size: 9px 9px;
+  }
+
+  & :global(.trip-entry-layout) { width: min(100%, 1280px); max-width: 1280px; }
+  & :global(.trip-entry-main) { display: block; max-width: 1040px; margin-inline: auto; }
+  & :global(.card-wrap) { min-width: 0; padding-top: 0; }
+
+  & :global(.card) {
+    position: relative;
+    padding: 48px 40px;
+    border: 1px solid var(--trip-border);
+    border-top: 0;
+    border-radius: 0;
+    background: var(--trip-card);
+    box-shadow: 4px 5px 0 var(--scrapbook-kraft);
+  }
+
+  & :global(.card-wrap:last-child .card) { border-radius: 0; }
+  & :global(.page-num), & :global(.day-weather), & :global(.cover-line) { display: none; }
+
+  & :global(.card:has(.cover-border)) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 32px;
+    height: auto;
+    min-height: 520px;
+    margin-bottom: 24px;
+    padding: 40px !important;
+    overflow: visible;
+    border: 1px solid var(--trip-border);
+    background: var(--trip-card);
+    box-shadow: 6px 8px 0 var(--scrapbook-kraft), 0 16px 32px rgb(52 43 30 / .1);
+  }
+
+  & :global(.card:has(.cover-border)::before) {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 66px;
+    top: -18px;
+    left: 36px;
+    border: 3px double var(--trip-secondary);
+    border-radius: 18px 18px 12px 12px;
+    transform: rotate(-9deg);
+    pointer-events: none;
+  }
+
+  & :global(.card:has(.cover-border)::after) {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    right: 14%;
+    width: 108px;
+    height: 25px;
+    background: var(--scrapbook-blue);
+    clip-path: polygon(3% 0, 98% 4%, 96% 34%, 100% 65%, 97% 100%, 0 94%, 3% 61%, 0 28%);
+    transform: rotate(6deg);
+    pointer-events: none;
+  }
+
+  & :global(.trip-cover-image) {
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center 55%;
+    border: 10px solid var(--trip-surface);
+    border-radius: 0;
+    box-shadow: 2px 4px 8px rgb(52 43 30 / .14);
+    opacity: 1;
+    filter: none;
+  }
+
+  & :global(.card:has(.cover-border):not(:has(.trip-cover-image))) {
+    background-image: var(--trip-cover-image);
+    background-size: 43% auto;
+    background-position: 94% center;
+    background-repeat: no-repeat;
+  }
+
+  & :global(.cover-border) {
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    inset: auto;
+    z-index: 1;
+    width: 100%;
+    min-height: 0;
+    padding: 12px 0 108px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    text-align: left;
+    color: var(--trip-text);
+  }
+
+  & :global(.cover-title) {
+    max-width: none;
+    margin: 0 0 20px;
+    color: var(--trip-text);
+    font: 600 clamp(32px, 3.6vw, 48px)/1.35 var(--font-serif-cn);
+    letter-spacing: 0;
+    text-wrap: balance;
+    text-shadow: none;
+  }
+
+  & :global(.cover-subtitle) {
+    margin: 0 0 20px;
+    color: var(--trip-secondary);
+    font: 16px/1.8 var(--font-sans-cn);
+    letter-spacing: 0;
+  }
+
+  & :global(.cover-date) {
+    display: inline-block;
+    margin: 0 0 24px;
+    padding: 5px 12px;
+    background: var(--scrapbook-blue);
+    color: var(--trip-text);
+    font: 600 14px/1.7 var(--font-sans-cn);
+    letter-spacing: 0;
+    transform: rotate(-2deg);
+  }
+
+  & :global(.cover-border p) {
+    margin: 0;
+    color: var(--trip-body) !important;
+    font: 18px/1.85 var(--font-sans-cn);
+    font-size: 18px !important;
+    line-height: 1.85 !important;
+    max-width: 100% !important;
+    text-align: left;
+  }
+
+  & :global(.scrapbook-cover-label) { margin-top: 20px; color: var(--trip-secondary); font-size: 12px; }
+  & :global(.scrapbook-cover-decoration) {
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    pointer-events: none;
+  }
+  & :global(.scrapbook-cover-decoration .journal-doodle) { width: 78px; transform: rotate(-8deg); }
+  & :global(.scrapbook-cover-stamp) {
+    display: grid;
+    place-items: center;
+    width: 58px;
+    height: 58px;
+    border: 2px dashed var(--trip-accent-text);
+    border-radius: 48% 52% 46% 54%;
+    color: var(--trip-accent-text);
+    font: 26px var(--font-hand), var(--font-serif-cn);
+    transform: rotate(9deg);
+  }
+
+  & :global(.day-header) {
+    width: min(100%, var(--reading-column));
+    align-self: center;
+    gap: 16px;
+    margin: 0 auto 32px;
+    padding: 0 0 20px;
+    border-bottom: 1px dashed var(--trip-border);
+  }
+  & :global(.day-circle) {
+    min-width: 62px;
+    padding: 8px;
+    border: 1px solid var(--scrapbook-rule);
+    border-radius: 2px 5px 3px 2px;
+    background: var(--scrapbook-kraft);
+    color: var(--trip-text);
+    transform: rotate(-3deg);
+  }
+  & :global(.day-title) { font: 600 28px/1.5 var(--font-serif-cn); color: var(--trip-text); }
+  & :global(.day-sub) { font: 14px/1.7 var(--font-sans-cn); color: var(--trip-secondary); }
+  & :global(.card-wrap:not([id]) .day-circle) { display: none; }
+  & :global(.card-wrap:not([id]) .day-title) { font-size: 24px; }
+
+  & :global(.jtxt), & :global(.hw), & :global(.hwcn) {
+    width: 100%;
+    max-width: var(--reading-column);
+    margin-inline: auto;
+    color: var(--trip-body);
+    font: 400 18px/1.85 var(--font-sans-cn);
+    letter-spacing: normal;
+  }
+  & :global(.jtxt p), & :global(.hw p), & :global(.hwcn p) { margin-bottom: 20px; }
+
+  & :global(.pgrid) { max-width: 960px; margin: 12px auto 32px; gap: 20px; }
+  & :global(.pgrid.g1:has(img:not(.sq, .ls, .wd, .pt, .hero))) { max-width: 420px !important; }
+  & :global(.pf), & :global(.pol) {
+    position: relative;
+    height: auto;
+    padding: 8px 8px 0;
+    border: 1px solid var(--trip-border);
+    border-radius: 0;
+    background: var(--trip-surface);
+    box-shadow: 2px 3px 0 var(--scrapbook-kraft);
+    transform: none;
+    filter: none;
+    overflow: visible;
+  }
+  & :global(.pf::before), & :global(.pol::before) {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: calc(50% - 28px);
+    width: 56px;
+    height: 14px;
+    background: var(--scrapbook-blue);
+    transform: rotate(-4deg);
+    pointer-events: none;
+  }
+  & :global(.pf img), & :global(.pol img) {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    object-fit: cover;
+    filter: none;
+  }
+  & :global(.pf img.sq), & :global(.pol img.sq) { aspect-ratio: 1; }
+  & :global(.pf img.ls), & :global(.pol img.ls) { aspect-ratio: 3 / 2; }
+  & :global(.pf img.wd), & :global(.pol img.wd) { aspect-ratio: 16 / 9; }
+  & :global(.pf img.pt), & :global(.pol img.pt) { aspect-ratio: 3 / 4; }
+  & :global(.pf img.hero), & :global(.pol img.hero) { aspect-ratio: 2 / 1; }
+  & :global(.cap), & :global(.pol-t) {
+    position: static;
+    padding: 12px 4px;
+    color: var(--trip-caption);
+    font: 14px/1.7 var(--font-sans-cn);
+    text-align: left;
+  }
+
+  & :global(.trip-practical-spread) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 24px;
+    width: 100%;
+    max-width: 960px;
+    margin: 16px auto 32px;
+  }
+  & :global(.trip-practical-card) {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    min-width: 0;
+    margin: 16px auto 32px;
+    padding: 24px;
+    border: 1px solid var(--trip-border);
+    border-radius: 3px;
+    background: var(--trip-surface);
+    box-shadow: 3px 4px 0 var(--scrapbook-kraft);
+    color: var(--trip-text);
+    font: 16px/1.8 var(--font-sans-cn);
+  }
+  & :global(.trip-practical-spread > .trip-practical-card) { margin: 0; }
+  & :global(.trip-practical-title) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    font: 600 21px/1.6 var(--font-serif-cn);
+  }
+  & :global(.trip-practical-title .journal-doodle) { width: 48px; flex: none; }
+  & :global(.scrapbook-itinerary) {
+    background-image: repeating-linear-gradient(transparent 0 31px, var(--trip-border) 31px 32px);
+  }
+  & :global(.tlwrap) { gap: 0; padding: 0; margin: 0; }
+  & :global(.tl-item) {
+    position: relative;
+    display: grid;
+    grid-template-columns: 70px minmax(0, 1fr);
+    gap: 4px 12px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--trip-surface);
+    box-shadow: none;
+  }
+  & :global(.tl-item .tm) {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    width: auto;
+    color: var(--trip-accent-text);
+    font: 600 15px/1.8 var(--font-sans-cn);
+  }
+  & :global(.tl-item .ev) { grid-column: 2; font-size: 16px; }
+  & :global(.tl-item .dt) { grid-column: 2; color: var(--trip-secondary); font-size: 14px; }
+
+  & :global(.scrapbook-route) { background: var(--scrapbook-sage); }
+  & :global(.scrapbook-route-list) { margin: 0; padding: 0; list-style: none; }
+  & :global(.scrapbook-route-list li) {
+    position: relative;
+    min-height: 54px;
+    padding: 0 0 24px 42px;
+    overflow-wrap: anywhere;
+  }
+  & :global(.scrapbook-route-icon) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+    width: 26px;
+    height: 28px;
+    border: 1px solid var(--trip-secondary);
+    border-radius: 46% 54% 51% 49%;
+    background: var(--trip-card);
+    color: var(--trip-text);
+    font-size: 13px;
+  }
+  & :global(.scrapbook-route-list li:not(:last-child)::after) {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 32px;
+    bottom: 4px;
+    border-left: 1px dashed var(--trip-secondary);
+  }
+  & :global(.scrapbook-route-list li:last-child) { min-height: 28px; padding-bottom: 0; }
+
+  & :global(.trip-flight) { border-radius: 12px 3px 12px 3px; background: var(--trip-card); }
+  & :global(.trip-flight::before), & :global(.trip-flight::after) {
+    content: "";
+    position: absolute;
+    top: 46%;
+    width: 14px;
+    height: 28px;
+    border: 1px solid var(--trip-border);
+    background: var(--trip-card);
+    pointer-events: none;
+  }
+  & :global(.trip-flight::before) { left: -1px; border-left: 0; border-radius: 0 20px 20px 0; }
+  & :global(.trip-flight::after) { right: -1px; border-right: 0; border-radius: 20px 0 0 20px; }
+  & :global(.trip-flight-number) {
+    padding: 4px 8px;
+    border: 1px dashed var(--trip-accent-text);
+    color: var(--trip-accent-text);
+    transform: rotate(2deg);
+  }
+
+  & :global(.nbox), & :global(.rbox) {
+    position: relative;
+    width: 100%;
+    max-width: var(--reading-column);
+    margin: 24px auto 32px;
+    padding: 24px;
+    border: 1px solid var(--trip-border);
+    border-radius: 1px;
+    background: var(--trip-note-background);
+    color: var(--trip-note-text);
+    box-shadow: 2px 3px 0 var(--scrapbook-kraft);
+  }
+  & :global(.nbox::before), & :global(.rbox::before) {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 22px;
+    width: 76px;
+    height: 18px;
+    background: var(--scrapbook-blue);
+    transform: rotate(-5deg);
+    pointer-events: none;
+  }
+  & :global(.nbox-lbl), & :global(.rbox h4) { color: inherit; font: 600 18px/1.7 var(--font-serif-cn); }
+  & :global(.nbox p), & :global(.rbox p) { color: inherit; font-size: 16px; overflow-wrap: anywhere; }
+  & :global(.rbox.warn) { background: var(--trip-warning-background); color: var(--trip-warning-text); }
+
+  & :global(.bill) {
+    width: 100%;
+    max-width: 960px;
+    margin: 24px auto;
+    padding: 24px;
+    border: 1px dashed var(--trip-secondary);
+    border-radius: 0;
+    background: var(--trip-surface);
+  }
+  & :global(.bill h4) { font: 600 21px/1.6 var(--font-serif-cn); }
+  & :global(.bill .br) { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; font-size: 15px; }
+  & :global(.bill .br > span:nth-child(2)) { grid-column: 1; grid-row: 2; white-space: normal; color: var(--trip-secondary); }
+  & :global(.bill .br > strong) { grid-column: 2; grid-row: 1 / 3; align-self: center; color: var(--trip-text); }
+
+  & :global(.trip-entry-compact details) { background: var(--trip-card); border-radius: 3px; }
+  & :global(.trip-entry-nav a.active) { background: var(--scrapbook-blue); color: var(--trip-text); }
+  & :global(.trip-entry-rail-kicker) { color: var(--trip-secondary); }
+
+  @media (min-width: 1280px) {
+    & :global(.trip-entry-layout) { display: grid; grid-template-columns: 168px minmax(0, 1fr); gap: 32px; }
+    & :global(.trip-entry-rail-left) { display: block; width: auto; }
+    & :global(.trip-entry-rail-card) { padding: 16px 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+    & :global(.trip-entry-nav a) { grid-template-columns: 1fr; gap: 3px; padding: 12px; border-radius: 2px; font-size: 14px; }
+    & :global(.trip-entry-nav-marker) { color: var(--trip-secondary); font: 600 12px/1.6 var(--font-sans-cn); }
+    & :global(.trip-entry-compact) { display: none; }
+  }
+
+  @media (max-width: 900px) {
+    & :global(.trip-practical-spread) { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 760px) {
+    & :global(.trip-content) { padding: 16px 12px 64px; }
+    & :global(.card) { padding: 28px 20px; }
+    & :global(.card:has(.cover-border)) { grid-template-columns: 1fr; min-height: 0; gap: 24px; padding: 32px 20px 20px !important; }
+    & :global(.cover-border) { padding: 12px 0 0; }
+    & :global(.cover-title) { font-size: 32px; }
+    & :global(.trip-cover-image) { grid-column: 1; grid-row: 2; aspect-ratio: 4 / 3; }
+    & :global(.card:has(.cover-border)::after) { top: auto; bottom: 123px; right: 28px; width: 64px; }
+    & :global(.scrapbook-cover-decoration) { position: static; grid-column: 1; grid-row: 3; justify-content: space-between; }
+    & :global(.scrapbook-cover-decoration .journal-doodle) { width: 62px; }
+    & :global(.jtxt), & :global(.hw), & :global(.hwcn), & :global(.cover-border p) { font-size: 17px; }
+    & :global(.cover-border p) { font-size: 17px !important; }
+    & :global(.day-header) { gap: 12px; margin-bottom: 24px; }
+    & :global(.day-title) { font-size: 23px; }
+    & :global(.card-wrap:not([id]) .day-title) { font-size: 21px; }
+    & :global(.day-circle) { min-width: 48px; }
+    & :global(.pgrid) { gap: 12px; }
+    & :global(.g3), & :global(.g12), & :global(.g21) { grid-template-columns: 1fr; }
+    & :global(.g3 > :last-child:nth-child(odd)) { grid-column: auto; }
+    & :global(.pf), & :global(.pol) { padding: 5px 5px 0; }
+    & :global(.pf::before), & :global(.pol::before) { top: -7px; height: 12px; width: 44px; left: calc(50% - 22px); }
+    & :global(.cap), & :global(.pol-t) { padding: 10px 2px; font-size: 13px; }
+    & :global(.trip-practical-card), & :global(.nbox), & :global(.rbox), & :global(.bill) { padding: 20px 16px; }
+    & :global(.trip-flight-journey) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    & :global(.trip-flight-journey > .journal-doodle) { display: none; }
+    & :global(.trip-flight-heading h3) { font-size: 19px; }
+    & :global(.trip-flight-time) { font-size: 25px; }
+    & :global(.bill .br) { grid-template-columns: 1fr; }
+    & :global(.bill .br > strong) { grid-column: 1; grid-row: 3; }
+  }
+}
+
+:global([data-theme="dark"]) .presentation[data-trip-style="scrapbook"] {
+  --trip-background: #252923;
+  --trip-card: #30332b;
+  --trip-surface: #383b31;
+  --trip-border: #5a5b4b;
+  --trip-text: #f4eddf;
+  --trip-body: #f4eddf;
+  --trip-secondary: #d0c5af;
+  --trip-muted: #c8bba3;
+  --trip-caption: #d0c5af;
+  --trip-accent-text: #ebbe94;
+  --trip-note-background: #45402f;
+  --trip-note-text: #f4e6c8;
+  --trip-warning-background: #4c372e;
+  --trip-warning-text: #ffd2b5;
+  --scrapbook-kraft: #53503d;
+  --scrapbook-blue: #405960;
+  --scrapbook-sage: #424d39;
+  --scrapbook-rule: #666551;
 }

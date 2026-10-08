@@ -1,4 +1,4 @@
-export const TRIP_STYLE_IDS = ["classic", "photo-story", "field-journal"] as const;
+export const TRIP_STYLE_IDS = ["classic", "photo-story", "field-journal", "scrapbook"] as const;
 export type TripStyle = (typeof TRIP_STYLE_IDS)[number];
 
 export const TRIP_STYLES = {
@@ -13,6 +13,10 @@ export const TRIP_STYLES = {
   "field-journal": {
     label: { zh: "旅途手记", en: "Field journal" },
     description: { zh: "紧凑图片与清晰日期，沿着旅程慢慢读。", en: "A narrower reading column with clear day markers." },
+  },
+  scrapbook: {
+    label: { zh: "日式拼贴手帐", en: "Japanese scrapbook" },
+    description: { zh: "手绘纸张、票根与路线卡片，宽屏展开的旅途拼贴。", en: "A wide journal of layered paper, flight tickets, and hand-drawn routes." },
   },
 } as const satisfies Record<TripStyle, {
   label: Record<"zh" | "en", string>;

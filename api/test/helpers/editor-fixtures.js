@@ -3,6 +3,27 @@ export const BLOB_SHA = "2".repeat(40);
 export const TREE_SHA = "3".repeat(40);
 export const COMMIT_SHA = "4".repeat(40);
 
+export function minimalFlightBlock() {
+  return {
+    id: "flight-block",
+    type: "flight",
+    title: { zh: "跨年夜航", en: "An overnight flight" },
+    flightNumber: "XZ101",
+    departure: {
+      location: { zh: "出发机场", en: "Departure airport" },
+      date: "2026-12-31",
+      time: "23:40",
+      terminal: { zh: "T1", en: "T1" },
+    },
+    arrival: {
+      location: { zh: "抵达机场", en: "Arrival airport" },
+      date: "2027-01-01",
+      time: "05:10",
+    },
+    note: { zh: "时间均为当地时间。", en: "All times are local." },
+  };
+}
+
 export function minimalTripDocument(slug = "existing-trip") {
   return {
     version: 1,

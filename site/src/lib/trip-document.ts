@@ -122,6 +122,22 @@ export type RouteBlock = TripBlockBase & {
   }[];
 };
 
+export type FlightEndpoint = {
+  location: LocalizedText;
+  date?: string;
+  time?: string;
+  terminal?: LocalizedText;
+};
+
+export type FlightBlock = TripBlockBase & {
+  type: "flight";
+  title: LocalizedText;
+  flightNumber?: string;
+  departure: FlightEndpoint;
+  arrival: FlightEndpoint;
+  note?: LocalizedText;
+};
+
 export type DividerBlock = TripBlockBase & {
   type: "divider";
   icon: string;
@@ -213,6 +229,7 @@ export type TripBlock =
   | GalleryBlock
   | TimelineBlock
   | RouteBlock
+  | FlightBlock
   | DividerBlock
   | NoteBlock
   | HighlightBlock
@@ -242,6 +259,23 @@ export type TripDocumentV1 = {
 
 export type TripDocument = TripDocumentV1;
 
+export function groupTripBlocks(blocks: readonly TripBlock[], style?: TripStyle): TripBlock[][] {
+  const practical = (block: TripBlock) =>
+    block.type === "flight" || block.type === "timeline" || block.type === "route";
+  const groups: TripBlock[][] = [];
+  for (let index = 0; index < blocks.length; index += 1) {
+    const block = blocks[index];
+    const next = blocks[index + 1];
+    if (style === "scrapbook" && practical(block) && next && practical(next)) {
+      groups.push([block, next]);
+      index += 1;
+    } else {
+      groups.push([block]);
+    }
+  }
+  return groups;
+}
+
 export type TripDocumentValidationIssue = {
   path: string;
   message: string;
@@ -266,6 +300,8 @@ type UnknownRecord = Record<string, unknown>;
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const SLUG_PATTERN = ID_PATTERN;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const FLIGHT_TIME_PATTERN = /^(?:[01]\d|2[0-3]):[0-5]\d$/;
+const FLIGHT_NUMBER_PATTERN = /^[A-Z0-9]{2,3}[ -]?\d{1,4}[A-Z]?$/;
 const IMAGE_FILENAME_PATTERN =
   /^(?!\.{1,2}$)[^\\/:*?"<>|\u0000-\u001f]+\.(?:avif|gif|jpe?g|png|webp)$/i;
 const TOP_SPACING_VALUES = [8, 12, 16, 20, 24] as const;
@@ -365,6 +401,25 @@ function validateOptionalLocalized(
   path: string
 ) {
   if (record[key] !== undefined) context.localized(record[key], `${path}.${key}`);
+}
+
+function validateFlightEndpoint(context: ValidationContext, value: unknown, path: string) {
+  const endpoint = context.record(value, path, ["location", "date", "time", "terminal"]);
+  if (!endpoint) return;
+  context.localized(endpoint.location, `${path}.location`);
+  validateOptionalLocalized(context, endpoint, "terminal", path);
+  if (endpoint.time !== undefined) {
+    context.string(endpoint.time, `${path}.time`, { pattern: FLIGHT_TIME_PATTERN });
+  }
+  if (endpoint.date !== undefined) {
+    context.string(endpoint.date, `${path}.date`, { pattern: ISO_DATE_PATTERN });
+    if (typeof endpoint.date === "string" && ISO_DATE_PATTERN.test(endpoint.date)) {
+      const timestamp = Date.parse(`${endpoint.date}T00:00:00Z`);
+      if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== endpoint.date) {
+        context.issue(`${path}.date`, "must be a valid calendar date");
+      }
+    }
+  }
 }
 
 function validateLocalizedEnum(
@@ -656,6 +711,20 @@ function validateBlock(
         context.string(item.icon, `${stopPath}.icon`);
         context.localized(item.label, `${stopPath}.label`);
       });
+      return;
+    }
+    case "flight": {
+      const block = context.record(value, path, [
+        "id", "type", "spacing", "title", "flightNumber", "departure", "arrival", "note",
+      ]);
+      if (!block) return;
+      context.localized(block.title, `${path}.title`);
+      if (block.flightNumber !== undefined) {
+        context.string(block.flightNumber, `${path}.flightNumber`, { pattern: FLIGHT_NUMBER_PATTERN });
+      }
+      validateFlightEndpoint(context, block.departure, `${path}.departure`);
+      validateFlightEndpoint(context, block.arrival, `${path}.arrival`);
+      validateOptionalLocalized(context, block, "note", path);
       return;
     }
     case "divider": {

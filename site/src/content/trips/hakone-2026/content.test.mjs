@@ -9,10 +9,10 @@ const document = parseTripDocument(JSON.parse(source));
 const blocks = document.pages.flatMap((page) => page.blocks);
 const galleries = blocks.filter((block) => block.type === "gallery");
 
-test("Hakone keeps private bilingual field-journal metadata and the requested enhanced IMG_4221 cover", () => {
+test("Hakone keeps private bilingual scrapbook metadata and the requested enhanced IMG_4221 cover", () => {
   assert.equal(document.slug, "hakone-2026");
   assert.equal(document.metadata.private, true);
-  assert.equal(document.metadata.style, "field-journal");
+  assert.equal(document.metadata.style, "scrapbook");
   assert.equal(document.metadata.date, "2026-09-28");
   assert.equal(document.metadata.dateRange, "2026.09.28 — 10.05");
   assert.equal(document.metadata.coverImageId, "p4221");
@@ -33,6 +33,23 @@ test("Hakone keeps private bilingual field-journal metadata and the requested en
     "test:p4221-vivid.webp");
   assert.ok(blocks.filter((block) => block.type === "header")
     .every((block) => !/[\u4e00-\u9fff]/u.test(block.markerValue.en)));
+});
+
+test("flight cards and daily summaries use diary facts, not the older planning handbook", () => {
+  const flights = blocks.filter((block) => block.type === "flight");
+  assert.deepEqual(flights.map((block) => block.flightNumber), ["NH968", "NH919"]);
+  assert.deepEqual(flights.map((block) => [block.departure.time, block.arrival.time]),
+    [["01:50", "05:22"], ["09:20", "11:20"]]);
+  assert.deepEqual(flights.map((block) => [block.departure.terminal.zh, block.arrival.terminal.zh]),
+    [["T2", "T3"], ["T1", "T2"]]);
+  for (const day of [0, 1, 2, 3, 4, 5, 6, 7]) {
+    const page = document.pages.find((page) => page.sectionId === `day-${day}`);
+    assert.equal(page.blocks[0].type, "header");
+    assert.equal(page.blocks[1].id, `day-${day}-summary`);
+    assert.equal(page.blocks[1].type, "timeline");
+    assert.equal(page.blocks[1].items.length, 2);
+  }
+  assert.ok(blocks.find((block) => block.id === "return-flight").note.en.includes("not a live"));
 });
 
 test("all 51 Chinese essay paragraphs preserve the Word source verbatim and in order", () => {

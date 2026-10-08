@@ -94,6 +94,7 @@ export default function TripPreviewFrame({
       html.style.cssText = source.documentElement.style.cssText;
       html.dataset.theme = source.documentElement.dataset.theme ?? "light";
       html.lang = locale === "zh" ? "zh-CN" : "en";
+      frameDocument.body.className = source.body.className;
     };
     syncStyles();
     syncTheme();

@@ -3,6 +3,8 @@ import { EditorApiError } from "./editor-errors.js";
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 const SLUG_PATTERN = ID_PATTERN;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/u;
+const FLIGHT_TIME_PATTERN = /^(?:[01]\d|2[0-3]):[0-5]\d$/u;
+const FLIGHT_NUMBER_PATTERN = /^[A-Z0-9]{2,3}[ -]?\d{1,4}[A-Z]?$/u;
 const IMAGE_FILENAME_PATTERN =
   /^(?!\.{1,2}$)[^\\/:*?"<>|\u0000-\u001f]+\.(?:avif|gif|jpe?g|png|webp)$/iu;
 const LOCALES = ["zh", "en"];
@@ -116,6 +118,25 @@ function validateOptionalLocalized(context, record, key, path) {
 function validateOptionalString(context, record, key, path) {
   if (record[key] !== undefined) {
     context.string(record[key], `${path}.${key}`);
+  }
+}
+
+function validateFlightEndpoint(context, value, path) {
+  const endpoint = context.object(value, path, ["location", "date", "time", "terminal"], ["location"]);
+  if (!endpoint) return;
+  context.localized(endpoint.location, `${path}.location`);
+  validateOptionalLocalized(context, endpoint, "terminal", path);
+  if (endpoint.time !== undefined) {
+    context.string(endpoint.time, `${path}.time`, { pattern: FLIGHT_TIME_PATTERN });
+  }
+  if (endpoint.date !== undefined) {
+    context.string(endpoint.date, `${path}.date`, { pattern: ISO_DATE_PATTERN });
+    if (typeof endpoint.date === "string" && ISO_DATE_PATTERN.test(endpoint.date)) {
+      const timestamp = Date.parse(`${endpoint.date}T00:00:00Z`);
+      if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== endpoint.date) {
+        context.issue(`${path}.date`, "must be a valid calendar date");
+      }
+    }
   }
 }
 
@@ -444,6 +465,20 @@ function validateBlock(
       });
       return;
     }
+    case "flight": {
+      const block = blockObject(context, value, path,
+        ["title", "flightNumber", "departure", "arrival", "note"],
+        ["title", "departure", "arrival"]);
+      if (!block) return;
+      context.localized(block.title, `${path}.title`);
+      if (block.flightNumber !== undefined) {
+        context.string(block.flightNumber, `${path}.flightNumber`, { pattern: FLIGHT_NUMBER_PATTERN });
+      }
+      validateFlightEndpoint(context, block.departure, `${path}.departure`);
+      validateFlightEndpoint(context, block.arrival, `${path}.arrival`);
+      validateOptionalLocalized(context, block, "note", path);
+      return;
+    }
     case "divider": {
       const block = blockObject(context, value, path, ["icon"], ["icon"]);
       if (block) context.string(block.icon, `${path}.icon`);
@@ -727,6 +762,7 @@ export function validateTripDocument(value, options) {
         "classic",
         "photo-story",
         "field-journal",
+        "scrapbook",
       ]);
     }
   }

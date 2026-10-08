@@ -227,6 +227,14 @@ export function createBlock(
           },
         ],
       };
+    case "flight":
+      return {
+        id,
+        type,
+        title: localized("航班记录"),
+        departure: { location: localized("出发地") },
+        arrival: { location: localized("抵达地") },
+      };
     case "divider":
       return { id, type, icon: "✦" };
     case "note":

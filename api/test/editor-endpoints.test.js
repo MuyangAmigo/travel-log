@@ -7,6 +7,7 @@ import {
   COMMIT_SHA,
   editorConfig,
   minimalTripDocument,
+  minimalFlightBlock,
   SHA,
 } from "./helpers/editor-fixtures.js";
 
@@ -334,7 +335,8 @@ test("checks the registered-trip allowlist before issuing or verifying uploads",
 test("requires approval, verifies every document image, then publishes atomically", async () => {
   const order = [];
   const document = minimalTripDocument();
-  document.metadata.style = "photo-story";
+  document.metadata.style = "scrapbook";
+  document.pages[0].blocks.push(minimalFlightBlock());
   const handlers = createEditorHandlers({
     authorize: async () => {},
     getConfig: () => editorConfig,

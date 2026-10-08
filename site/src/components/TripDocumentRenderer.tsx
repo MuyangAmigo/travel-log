@@ -1,10 +1,12 @@
 import { Fragment, type CSSProperties, type ReactNode } from "react";
 import {
   deriveTripEntrySections,
+  groupTripBlocks,
   localize,
   type BlockSpacing,
   type ContentWidth,
   type GalleryBlock,
+  type FlightEndpoint,
   type LocalizedText,
   type TripBlock,
   type TripDocument,
@@ -139,6 +141,54 @@ function getImage(document: TripDocument, imageId: string) {
   return image;
 }
 
+const PRACTICAL_COPY = {
+  zh: { itinerary: "行程小记", route: "这一程的路线", departure: "出发", arrival: "抵达", localTime: "时间均为当地时间" },
+  en: { itinerary: "Along the way", route: "The route", departure: "Departure", arrival: "Arrival", localTime: "All times are local" },
+} as const;
+
+function JournalDoodle({ kind }: { kind: "plane" | "camera" | "route" }) {
+  return (
+    <svg className={`journal-doodle journal-doodle-${kind}`} viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+      <path className="journal-doodle-paper" d="M11 25 28 12 81 17 94 41 86 80 62 92 18 83 7 55Z" />
+      <g fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+        {kind === "plane" ? (
+          <>
+            <path d="m20 56 25-9 12-24 7-1-2 22 20-6 5 5-25 14-9 23-5 2 1-22-20 5Z" />
+            <path d="M13 76q11 13 24 5M16 67l-7 3M74 23l5-5" strokeDasharray="4 5" />
+          </>
+        ) : kind === "camera" ? (
+          <>
+            <path d="m20 34 12 1 5-9 25 1 7 10 14 2-3 37-62-3Z" />
+            <circle cx="50" cy="54" r="16" /><circle cx="50" cy="54" r="11" />
+            <path d="m69 46 6 1M23 44l8 1M10 27l5 3M81 21l-1 7M65 84l6 3" />
+          </>
+        ) : (
+          <>
+            <path d="M24 38c-26 19 24 15 20 31s39 20 36-9" strokeDasharray="4 5" />
+            <path d="M24 38S9 24 19 16s24 4 5 22ZM80 61S64 47 75 39s24 5 5 22Z" />
+            <circle cx="24" cy="23" r="3" /><circle cx="80" cy="46" r="3" />
+            <path d="m54 24 4-7 3 8 8 3-8 3-3 7-3-8-7-2Z" />
+          </>
+        )}
+      </g>
+    </svg>
+  );
+}
+
+function FlightEndpointDetails({
+  endpoint, label, locale,
+}: { endpoint: FlightEndpoint; label: string; locale: TripDocumentLocale }) {
+  return (
+    <div className="trip-flight-endpoint">
+      <div className="trip-flight-label">{label}</div>
+      <h4>{text(endpoint.location, locale)}</h4>
+      {endpoint.time && <time className="trip-flight-time" dateTime={endpoint.date ? `${endpoint.date}T${endpoint.time}` : endpoint.time}>{endpoint.time}</time>}
+      {endpoint.date && <time className="trip-flight-date" dateTime={endpoint.date}>{endpoint.date}</time>}
+      {endpoint.terminal && <div className="trip-flight-terminal">{text(endpoint.terminal, locale)}</div>}
+    </div>
+  );
+}
+
 function renderBlock(
   block: TripBlock,
   document: TripDocument,
@@ -147,6 +197,8 @@ function renderBlock(
   deferImages: boolean
 ) {
   const spacing = spacingClasses(block.spacing);
+  const scrapbook = document.metadata.style === "scrapbook";
+  const practicalCopy = PRACTICAL_COPY[locale];
 
   switch (block.type) {
     case "cover": {
@@ -170,6 +222,12 @@ function renderBlock(
           : undefined;
       return (
         <Fragment key={block.id}>
+          {scrapbook && (
+            <div className="scrapbook-cover-decoration" aria-hidden="true">
+              <JournalDoodle kind="camera" />
+              <span className="scrapbook-cover-stamp">{locale === "zh" ? "旅" : "GO"}</span>
+            </div>
+          )}
           {background && (
             <img
               className="trip-cover-image"
@@ -187,13 +245,14 @@ function renderBlock(
             </div>
           )}
           <div className={classes("cover-border", spacing)}>
-            <div className="cover-emoji">{text(block.eyebrow, locale)}</div>
+            {!scrapbook && <div className="cover-emoji">{text(block.eyebrow, locale)}</div>}
             <h1 className="cover-title">{withLineBreaks(text(block.title, locale))}</h1>
             <div className="cover-subtitle">{text(block.subtitle, locale)}</div>
             {block.separators && <div className="cover-line" />}
             <div className="cover-date">{text(block.date, locale)}</div>
             {block.separators && <div className="cover-line" />}
             <p style={introStyle}>{withLineBreaks(text(block.intro, locale))}</p>
+            {scrapbook && <div className="scrapbook-cover-label">{text(block.eyebrow, locale)}</div>}
             {block.stamp?.variant === "box" && (
               <div className="mt20">
                 <span className="stamp-box">{withLineBreaks(text(block.stamp.text, locale))}</span>
@@ -316,6 +375,22 @@ function renderBlock(
       );
     }
     case "timeline":
+      if (scrapbook) {
+        return (
+          <article key={block.id} className={classes("trip-practical-card", "scrapbook-itinerary", spacing)} data-trip-block={block.id}>
+            <h3 className="trip-practical-title"><JournalDoodle kind="camera" />{practicalCopy.itinerary}</h3>
+            <div className="tlwrap">
+              {block.items.map((item) => (
+                <div key={item.id} className="tl-item">
+                  <span className="tm">{text(item.time, locale)}</span>
+                  <div className="ev">{text(item.event, locale)}</div>
+                  <div className="dt">{text(item.detail, locale)}</div>
+                </div>
+              ))}
+            </div>
+          </article>
+        );
+      }
       return (
         <div key={block.id} className={classes("tlwrap", spacing)}>
           {block.items.map((item) => (
@@ -328,6 +403,21 @@ function renderBlock(
         </div>
       );
     case "route": {
+      if (scrapbook) {
+        return (
+          <article key={block.id} className={classes("trip-practical-card", "scrapbook-route", spacing)} data-trip-block={block.id}>
+            <h3 className="trip-practical-title"><JournalDoodle kind="route" />{practicalCopy.route}</h3>
+            <ol className="scrapbook-route-list">
+              {block.stops.map((stop) => (
+                <li key={stop.id}>
+                  <span className="scrapbook-route-icon">{stop.icon}</span>
+                  {withLineBreaks(text(stop.label, locale))}
+                </li>
+              ))}
+            </ol>
+          </article>
+        );
+      }
       const routeStyle: CSSProperties | undefined = block.compact
         ? { flexWrap: "wrap", gap: 4 }
         : undefined;
@@ -345,6 +435,24 @@ function renderBlock(
         </div>
       );
     }
+    case "flight":
+      return (
+        <article key={block.id} className={classes("trip-flight", "trip-practical-card", spacing)} data-trip-block={block.id}>
+          <div className="trip-flight-heading">
+            <h3>{text(block.title, locale)}</h3>
+            {block.flightNumber && <span className="trip-flight-number">{block.flightNumber}</span>}
+          </div>
+          <div className="trip-flight-journey">
+            <FlightEndpointDetails endpoint={block.departure} label={practicalCopy.departure} locale={locale} />
+            <JournalDoodle kind="plane" />
+            <FlightEndpointDetails endpoint={block.arrival} label={practicalCopy.arrival} locale={locale} />
+          </div>
+          <div className="trip-flight-footer">
+            {block.note && <p>{withLineBreaks(text(block.note, locale))}</p>}
+            <span>{practicalCopy.localTime}</span>
+          </div>
+        </article>
+      );
     case "divider":
       return (
         <div key={block.id} className={classes("dv", spacing)}>
@@ -517,7 +625,13 @@ export default function TripDocumentRenderer({
                   : undefined
               }
             >
-              {page.blocks.map((block) => renderBlock(block, document, locale, imageUrl, deferImages))}
+              {groupTripBlocks(page.blocks, document.metadata.style).map((group) =>
+                group.length === 2 ? (
+                  <div className="trip-practical-spread" key={group[0].id}>
+                    {group.map((block) => renderBlock(block, document, locale, imageUrl, deferImages))}
+                  </div>
+                ) : renderBlock(group[0], document, locale, imageUrl, deferImages)
+              )}
               <div className="page-num">
                 - {String(pageIndex + 1).padStart(2, "0")} -
               </div>

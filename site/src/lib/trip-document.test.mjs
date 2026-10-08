@@ -3,6 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import {
   deriveTripEntrySections,
+  groupTripBlocks,
   parseTripDocument,
   tripDocumentToMeta,
   TripDocumentValidationError,
@@ -10,6 +11,7 @@ import {
 } from "./trip-document.ts";
 import { TRIP_STYLE_IDS, resolveTripStyle } from "./trip-style.ts";
 import { parseTripDocument as parseApiDocument } from "../../../api/src/trip-document.js";
+import { minimalFlightBlock } from "../../../api/test/helpers/editor-fixtures.js";
 
 const minimalDocument = {
   version: 1,
@@ -168,7 +170,7 @@ test("style resolution errors identify the rejected value and supported choices"
   ]) {
     assert.throws(() => resolveTripStyle(value), {
       name: "Error",
-      message: `Unsupported trip style ${received} (type: ${typeof value}). Supported styles: classic, photo-story, field-journal.`,
+      message: `Unsupported trip style ${received} (type: ${typeof value}). Supported styles: ${TRIP_STYLE_IDS.join(", ")}.`,
     });
   }
 });
@@ -187,6 +189,80 @@ test("site and API accept the same persistent styles and reject invalid values",
       assert.throws(() => resolveTripStyle(style));
     }
   }
+});
+
+test("site and API preserve complete and minimal flight records without inferring missing facts", () => {
+  for (const parse of [parseTripDocument, parseApiDocument]) {
+    for (const flight of [
+      minimalFlightBlock(),
+      { id: "flight-block", type: "flight", title: { zh: "航班", en: "Flight" },
+        departure: { location: { zh: "出发地", en: "Departure" } },
+        arrival: { location: { zh: "抵达地", en: "Arrival" } } },
+    ]) {
+      const document = structuredClone(minimalDocument);
+      document.pages[0].blocks.push(flight);
+      assert.deepEqual(parse(document).pages[0].blocks.at(-1), flight);
+    }
+    const localClocks = structuredClone(minimalDocument);
+    const flight = minimalFlightBlock();
+    flight.arrival.date = flight.departure.date;
+    flight.arrival.time = "04:00";
+    localClocks.pages[0].blocks.push(flight);
+    assert.deepEqual(parse(localClocks).pages[0].blocks.at(-1), flight,
+      "Endpoint local clocks must not be compared as one timezone");
+  }
+});
+
+test("site and API reject malformed flight fields and unsupported booking data", () => {
+  const invalidChanges = [
+    (block) => { delete block.departure; },
+    (block) => { delete block.arrival.location; },
+    (block) => { block.departure.time = "24:00"; },
+    (block) => { block.arrival.time = "05:60"; },
+    (block) => { block.arrival.time = "5:10"; },
+    (block) => { block.departure.date = "2026-02-30"; },
+    (block) => { block.departure.date = "2025-02-29"; },
+    (block) => { block.departure.date = "2026-13-01"; },
+    (block) => { block.departure.date = "tomorrow"; },
+    (block) => { block.departure.terminal = "T1"; },
+    (block) => { block.flightNumber = ""; },
+    (block) => { block.flightNumber = 101; },
+    (block) => { block.flightNumber = "xz101"; },
+    (block) => { block.note = { zh: "备注" }; },
+    (block) => { block.bookingReference = "not-supported"; },
+    (block) => { block.arrival.duration = "2 hours"; },
+  ];
+  for (const parse of [parseTripDocument, parseApiDocument]) {
+    for (const change of invalidChanges) {
+      const document = structuredClone(minimalDocument);
+      const flight = minimalFlightBlock();
+      change(flight);
+      document.pages[0].blocks.push(flight);
+      assert.throws(() => parse(document));
+    }
+    const document = structuredClone(minimalDocument);
+    const leapDay = minimalFlightBlock();
+    leapDay.departure.date = "2028-02-29";
+    document.pages[0].blocks.push(leapDay);
+    assert.deepEqual(parse(document).pages[0].blocks.at(-1), leapDay);
+  }
+});
+
+test("scrapbook pairs only adjacent practical blocks without changing source order", () => {
+  const flight = minimalFlightBlock();
+  const route = { id: "route", type: "route", stops: [] };
+  const timeline = { id: "timeline", type: "timeline", items: [] };
+  const prose = { id: "prose", type: "prose", paragraphs: [] };
+  const blocks = [flight, route, timeline, prose, flight, timeline, route];
+  const original = structuredClone(blocks);
+  assert.deepEqual(groupTripBlocks(blocks, "scrapbook"),
+    [[flight, route], [timeline], [prose], [flight, timeline], [route]]);
+  assert.deepEqual(groupTripBlocks(blocks, "scrapbook").flat(), blocks);
+  assert.deepEqual(blocks, original);
+  for (const style of [undefined, "classic", "photo-story", "field-journal"]) {
+    assert.deepEqual(groupTripBlocks(blocks, style), blocks.map((block) => [block]));
+  }
+  assert.deepEqual(groupTripBlocks([], "scrapbook"), []);
 });
 
 test("every existing trip supports each style without changing its content", () => {

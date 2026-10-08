@@ -8,6 +8,7 @@ import {
 import {
   editorConfig,
   minimalTripDocument,
+  minimalFlightBlock,
 } from "./helpers/editor-fixtures.js";
 
 test("collects stable paths and IDs for localized fields", () => {
@@ -109,7 +110,7 @@ test("preserves style-only edits without calling the model", async () => {
       throw new Error("Style is not a localized field.");
     },
   });
-  for (const style of ["classic", "photo-story", "field-journal"]) {
+  for (const style of ["classic", "photo-story", "field-journal", "scrapbook"]) {
     const document = minimalTripDocument();
     document.metadata.style = style;
     assert.equal(
@@ -121,6 +122,31 @@ test("preserves style-only edits without calling the model", async () => {
     assert.notEqual(translated, document);
   }
   assert.equal(modelCalls, 0);
+});
+
+test("translates flight display text while preserving dates, times, and flight numbers", async () => {
+  const document = minimalTripDocument();
+  document.metadata.style = "scrapbook";
+  const flight = minimalFlightBlock();
+  flight.departure.location.en = "";
+  document.pages[0].blocks.push(flight);
+  const fields = collectLocalizedFields(document);
+  const path = "$.pages[id=cover-page].blocks[id=flight-block].departure.location";
+  assert.ok(fields.some((field) => field.path === path));
+  assert.ok(!fields.some((field) =>
+    field.path.includes("[id=flight-block]") && /flightNumber|\.date$|\.time$/.test(field.path)));
+  const translator = new AzureOpenAiTranslator(editorConfig, {
+    fetchImpl: async () => Response.json({
+      choices: [{ finish_reason: "stop", message: {
+        content: JSON.stringify({ translations: [{
+          id: "cover-page/flight-block", path, text: "Departure airport",
+        }] }),
+      } }],
+    }),
+  });
+  const translated = await translator.translateDocument(document, [path]);
+  assert.deepEqual(translated.pages[0].blocks.at(-1), minimalFlightBlock());
+  assert.equal(translated.metadata.style, "scrapbook");
 });
 
 test("uses managed identity when no Azure OpenAI API key is configured", async () => {

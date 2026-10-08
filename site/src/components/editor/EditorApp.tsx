@@ -104,6 +104,7 @@ function blockSummary(block: TripBlock): string {
     case "highlight":
     case "rating":
     case "ending":
+    case "flight":
       return block.title.zh;
     case "prose":
       return block.paragraphs[0]?.zh ?? BLOCK_LABELS[block.type];

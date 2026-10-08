@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { createEditorId, moveItem } from "@/lib/editor-state";
 import type {
   LocalizedText,
+  FlightEndpoint,
   TripBlock,
   TripImageAsset,
 } from "@/lib/trip-document";
@@ -15,6 +16,7 @@ export const BLOCK_LABELS: Record<TripBlock["type"], string> = {
   gallery: "照片墙",
   timeline: "时间线",
   route: "路线",
+  flight: "机票卡片",
   divider: "分隔线",
   note: "便签",
   highlight: "亮点",
@@ -46,11 +48,13 @@ function Field({
   value,
   onChange,
   multiline = false,
+  type = "text",
 }: {
   label: string;
   value: string;
   onChange: (value: string) => void;
   multiline?: boolean;
+  type?: "text" | "date" | "time";
 }) {
   return (
     <label className="editor-field">
@@ -58,7 +62,7 @@ function Field({
       {multiline ? (
         <textarea value={value} onChange={(event) => onChange(event.target.value)} rows={3} />
       ) : (
-        <input value={value} onChange={(event) => onChange(event.target.value)} />
+        <input type={type} value={value} onChange={(event) => onChange(event.target.value)} />
       )}
     </label>
   );
@@ -103,6 +107,29 @@ function SelectField({
         {children}
       </select>
     </label>
+  );
+}
+
+function FlightEndpointFields({
+  label, value, onChange,
+}: {
+  label: string;
+  value: FlightEndpoint;
+  onChange: (endpoint: FlightEndpoint) => void;
+}) {
+  return (
+    <div className="editor-subitem">
+      <LocalizedField label={`${label}机场 / 地点`} value={value.location}
+        onChange={(location) => onChange({ ...value, location })} />
+      <div className="editor-form-row">
+        <Field label={`${label}日期（可留空）`} type="date" value={value.date ?? ""}
+          onChange={(date) => onChange({ ...value, date: date || undefined })} />
+        <Field label={`${label}当地时间（可留空）`} type="time" value={value.time ?? ""}
+          onChange={(time) => onChange({ ...value, time: time || undefined })} />
+      </div>
+      <Field label={`${label}航站楼（可留空）`} value={value.terminal?.zh ?? ""}
+        onChange={(terminal) => onChange({ ...value, terminal: optionalText(value.terminal, terminal) })} />
+    </div>
   );
 }
 
@@ -763,6 +790,22 @@ export default function BlockEditor({ block, images, onChange }: Props) {
           >
             + 添加图片
           </button>
+        </>
+      );
+      break;
+    case "flight":
+      fields = (
+        <>
+          <LocalizedField label="卡片标题" value={block.title}
+            onChange={(title) => onChange({ ...block, title })} />
+          <Field label="航班号（如 NH968，可留空）" value={block.flightNumber ?? ""}
+            onChange={(flightNumber) => onChange({ ...block, flightNumber: flightNumber.trim() || undefined })} />
+          <FlightEndpointFields label="出发" value={block.departure}
+            onChange={(departure) => onChange({ ...block, departure })} />
+          <FlightEndpointFields label="抵达" value={block.arrival}
+            onChange={(arrival) => onChange({ ...block, arrival })} />
+          <Field label="备注（可留空，不推算时长或预订状态）" value={block.note?.zh ?? ""} multiline
+            onChange={(note) => onChange({ ...block, note: optionalText(block.note, note) })} />
         </>
       );
       break;

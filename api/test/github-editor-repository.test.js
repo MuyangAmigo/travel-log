@@ -10,6 +10,7 @@ import {
   COMMIT_SHA,
   editorConfig,
   minimalTripDocument,
+  minimalFlightBlock,
   SHA,
   TREE_SHA,
 } from "./helpers/editor-fixtures.js";
@@ -77,7 +78,8 @@ test("rejects a trip removed from the current registered allowlist", async () =>
 test("publishes one existing content file through a single non-forced ref update", async () => {
   const repository = new GitHubEditorRepository(editorConfig);
   const document = minimalTripDocument();
-  document.metadata.style = "field-journal";
+  document.metadata.style = "scrapbook";
+  document.pages[0].blocks.push(minimalFlightBlock());
   const calls = [];
   repository.assertDraftBase = async (slug, baseSha, baseBlobSha) => {
     assert.deepEqual(

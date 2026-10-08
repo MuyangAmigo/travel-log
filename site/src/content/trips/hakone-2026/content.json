@@ -18,7 +18,7 @@
       "en": "Hakone / Tokyo / Narita, Japan"
     },
     "private": true,
-    "style": "field-journal"
+    "style": "scrapbook"
   },
   "images": [
     {
@@ -1675,6 +1675,56 @@
       ]
     },
     {
+      "id": "flight-notes",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "outbound-flight",
+          "type": "flight",
+          "title": { "zh": "夜航，去东京", "en": "A night flight to Tokyo" },
+          "flightNumber": "NH968",
+          "departure": {
+            "location": { "zh": "上海浦东", "en": "Shanghai Pudong" },
+            "date": "2026-09-29",
+            "time": "01:50",
+            "terminal": { "zh": "T2", "en": "T2" }
+          },
+          "arrival": {
+            "location": { "zh": "东京羽田", "en": "Tokyo Haneda" },
+            "date": "2026-09-29",
+            "time": "05:22",
+            "terminal": { "zh": "T3", "en": "T3" }
+          },
+          "note": {
+            "zh": "旅行记录中的实际抵达时间；原定 05:45，提前落地。",
+            "en": "The diary's recorded arrival time; we landed before the scheduled 05:45."
+          }
+        },
+        {
+          "id": "return-flight",
+          "type": "flight",
+          "title": { "zh": "带着回忆，回上海", "en": "Home to Shanghai, memories packed" },
+          "flightNumber": "NH919",
+          "departure": {
+            "location": { "zh": "东京成田", "en": "Tokyo Narita" },
+            "date": "2026-10-05",
+            "time": "09:20",
+            "terminal": { "zh": "T1", "en": "T1" }
+          },
+          "arrival": {
+            "location": { "zh": "上海浦东", "en": "Shanghai Pudong" },
+            "date": "2026-10-05",
+            "time": "11:20",
+            "terminal": { "zh": "T2", "en": "T2" }
+          },
+          "note": {
+            "zh": "时间取自旅行记录，不是实时航班时刻表。",
+            "en": "Times are from the travel diary, not a live airline timetable."
+          }
+        }
+      ]
+    },
+    {
       "id": "orientation",
       "sectionId": "overview",
       "blocks": [
@@ -1697,6 +1747,30 @@
             "zh": "上海 / 箱根 / 东京 / 成田",
             "en": "Shanghai / Hakone / Tokyo / Narita"
           }
+        },
+        {
+          "id": "journey-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "summary-hakone",
+              "time": { "zh": "09.29", "en": "09.29" },
+              "event": { "zh": "夜航之后，先休息再进山", "en": "Rest after the red-eye, then into the hills" },
+              "detail": { "zh": "羽田 First Cabin 补觉，晚上住汤本富士屋酒店。", "en": "A First Cabin rest at Haneda, then a night at Yumoto Fujiya Hotel." }
+            },
+            {
+              "id": "summary-tokyo",
+              "time": { "zh": "09.30", "en": "09.30" },
+              "event": { "zh": "从箱根，回到东京的日常", "en": "From Hakone to everyday Tokyo" },
+              "detail": { "zh": "转住滨松町，连续四晚；沿着街区慢慢逛。", "en": "Four nights in Hamamatsucho, exploring the city one neighbourhood at a time." }
+            },
+            {
+              "id": "summary-home",
+              "time": { "zh": "10.04–05", "en": "10.04–05" },
+              "event": { "zh": "最后一晚，住近成田", "en": "The last night, near Narita" },
+              "detail": { "zh": "东横 INN 过夜，清晨坐接驳车去 T1，再飞回上海。", "en": "A night at Toyoko Inn, the morning shuttle to T1, then home to Shanghai." }
+            }
+          ]
         },
         {
           "id": "route",
@@ -1794,6 +1868,24 @@
             "zh": "极乐汤川沙店 → 浦东T2",
             "en": "Gokurakuyu Chuansha → Pudong T2"
           }
+        },
+        {
+          "id": "day-0-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-0-bath",
+              "time": { "zh": "18:30 许", "en": "Around 18:30" },
+              "event": { "zh": "极乐汤川沙店", "en": "Gokurakuyu, Chuansha" },
+              "detail": { "zh": "出发前泡汤，等小土下班来汇合。", "en": "A bath before departure, waiting for Xiaotu to arrive from work." }
+            },
+            {
+              "id": "day-0-airport",
+              "time": { "zh": "23:00 许", "en": "Around 23:00" },
+              "event": { "zh": "去浦东 T2", "en": "To Pudong T2" },
+              "detail": { "zh": "从汤馆打车去机场，准备夜航。", "en": "A taxi from the bathhouse to the airport for the night flight." }
+            }
+          ]
         },
         {
           "id": "essay-1",
@@ -1949,6 +2041,24 @@
             "zh": "浦东T2 → 羽田T3",
             "en": "Pudong T2 → Haneda T3"
           }
+        },
+        {
+          "id": "day-1-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-1-takeoff",
+              "time": { "zh": "01:50", "en": "01:50" },
+              "event": { "zh": "NH968 夜航", "en": "NH968, the red-eye" },
+              "detail": { "zh": "从浦东 T2 出发，飞往羽田。", "en": "Leaving Pudong T2 for Haneda." }
+            },
+            {
+              "id": "day-1-arrival",
+              "time": { "zh": "05:22", "en": "05:22" },
+              "event": { "zh": "抵达羽田 T3", "en": "Arrival at Haneda T3" },
+              "detail": { "zh": "提前落地，取行李后转去 T1。", "en": "An early landing; after baggage claim, on to T1." }
+            }
+          ]
         },
         {
           "id": "itinerary-10-11-12-13",
@@ -2495,6 +2605,24 @@
             "zh": "汤本富士屋酒店",
             "en": "Yumoto Fujiya Hotel"
           }
+        },
+        {
+          "id": "day-2-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-2-breakfast",
+              "time": { "zh": "08:45–09:15", "en": "08:45–09:15" },
+              "event": { "zh": "酒店自助早餐", "en": "The hotel breakfast buffet" },
+              "detail": { "zh": "乌冬、味噌汤与沙拉，早餐已含在房费里。", "en": "Udon, miso soup and salad; breakfast was included." }
+            },
+            {
+              "id": "day-2-bath",
+              "time": { "zh": "09:30–10:00", "en": "09:30–10:00" },
+              "event": { "zh": "最后一回晨汤", "en": "One last morning bath" },
+              "detail": { "zh": "赶在浴场清扫前泡汤，11:00 退房。", "en": "A soak before the cleaning closure, then checkout at 11:00." }
+            }
+          ]
         },
         {
           "id": "itinerary-34-35",
@@ -3315,6 +3443,24 @@
           }
         },
         {
+          "id": "day-3-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-3-out",
+              "time": { "zh": "11:30", "en": "11:30" },
+              "event": { "zh": "晴空里，去新宿", "en": "To Shinjuku in the sunshine" },
+              "detail": { "zh": "睡到自然醒，再慢悠悠出门。", "en": "Sleeping naturally, then leaving at leisure." }
+            },
+            {
+              "id": "day-3-shrine",
+              "time": { "zh": "12:10", "en": "12:10" },
+              "event": { "zh": "花园神社", "en": "Hanazono Shrine" },
+              "detail": { "zh": "穿过商业街，遇见意外的红茶礼物。", "en": "Across the shopping streets, with an unexpected tea gift." }
+            }
+          ]
+        },
+        {
           "id": "essay-18",
           "type": "prose",
           "style": "handwritten-cn",
@@ -3725,6 +3871,24 @@
             "zh": "しんぱち食堂 · 大门店",
             "en": "Shinpachi Shokudo · Daimon"
           }
+        },
+        {
+          "id": "day-4-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-4-out",
+              "time": { "zh": "11:40", "en": "11:40" },
+              "event": { "zh": "睡饱，再出门", "en": "Rested, then out" },
+              "detail": { "zh": "前一天暴走之后，今天继续放慢脚步。", "en": "After the previous day's long walk, another slow start." }
+            },
+            {
+              "id": "day-4-lunch",
+              "time": { "zh": "12:14", "en": "12:14" },
+              "event": { "zh": "大门店的三文鱼定食", "en": "Salmon sets in Daimon" },
+              "detail": { "zh": "しんぱち食堂，出乎意料地好吃；这时结账。", "en": "Unexpectedly excellent Shinpachi Shokudo; the bill was settled at this time." }
+            }
+          ]
         },
         {
           "id": "essay-23-24",
@@ -4363,6 +4527,24 @@
             "zh": "滨松町 → 二子玉川RISE",
             "en": "Hamamatsucho → Futako-Tamagawa Rise"
           }
+        },
+        {
+          "id": "day-5-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-5-coffee",
+              "time": { "zh": "12:11", "en": "12:11" },
+              "event": { "zh": "罗森买咖啡", "en": "Coffee at Lawson" },
+              "detail": { "zh": "出门坐地铁前，再买一瓶咖啡提神。", "en": "One more bottled coffee before heading to the station." }
+            },
+            {
+              "id": "day-5-lunch",
+              "time": { "zh": "午餐", "en": "Lunch" },
+              "event": { "zh": "二子玉川 RISE 一膳", "en": "Ichizen, Futako-Tamagawa Rise" },
+              "detail": { "zh": "Town Front 七楼，双拼和牛御膳与海苔味噌汤。", "en": "Wagyu combination sets and seaweed miso soup on Town Front's seventh floor." }
+            }
+          ]
         },
         {
           "id": "essay-32-33",
@@ -5053,6 +5235,24 @@
             "zh": "滨松町 → 赤羽桥 → 饭仓熊野神社",
             "en": "Hamamatsucho → Akabanebashi → Iikura Kumano Shrine"
           }
+        },
+        {
+          "id": "day-6-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-6-checkout",
+              "time": { "zh": "10:30", "en": "10:30" },
+              "event": { "zh": "退房，寄存行李", "en": "Checkout and luggage storage" },
+              "detail": { "zh": "办好退房，轻装去东京最后一天的漫游。", "en": "Checked out and travelling light for the last Tokyo day." }
+            },
+            {
+              "id": "day-6-shrine",
+              "time": { "zh": "10:45", "en": "10:45" },
+              "event": { "zh": "饭仓熊野神社", "en": "Iikura Kumano Shrine" },
+              "detail": { "zh": "途中走进小神祠，领到八咫乌御朱印。", "en": "An unexpected small shrine, and its yatagarasu stamp." }
+            }
+          ]
         },
         {
           "id": "essay-42-43",
@@ -6205,6 +6405,24 @@
             "zh": "东横INN → 成田T1",
             "en": "Toyoko Inn → Narita T1"
           }
+        },
+        {
+          "id": "day-7-summary",
+          "type": "timeline",
+          "items": [
+            {
+              "id": "day-7-shuttle",
+              "time": { "zh": "06:30", "en": "06:30" },
+              "event": { "zh": "酒店接驳车", "en": "The hotel shuttle" },
+              "detail": { "zh": "从东横 INN 出发，约 06:50 到成田 T1。", "en": "Leaving Toyoko Inn and reaching Narita T1 around 06:50." }
+            },
+            {
+              "id": "day-7-airside",
+              "time": { "zh": "07:20", "en": "07:20" },
+              "event": { "zh": "通关，逛免税店", "en": "Airside, with time for duty-free" },
+              "detail": { "zh": "托运行李、安检与通关顺利，接下来慢慢挑伴手礼。", "en": "Bag drop and formalities went smoothly, leaving time to choose gifts." }
+            }
+          ]
         },
         {
           "id": "essay-53-54",

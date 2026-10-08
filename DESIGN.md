@@ -351,6 +351,7 @@ Each trip can set optional `metadata.style` in its `content.json`. Missing means
 | `classic` | Classic / 经典游记 | The original card layout, desktop chapter rails, tablet scaling, and fluid mobile cards. |
 | `photo-story` | Photo story / 影像游记 | Wide photography, equal-width desktop prose/photo pairs, centered cover and chapter headings, and compact chapter navigation. The [explicitly scoped reading-flow variation](#presentation-scope-and-reuse) replaces the pairs with sequential blocks. |
 | `field-journal` | Field journal / 旅途手记 | A narrower continuous reading column, simple day markers and timelines, compact photo groups, and a quiet desktop chapter rail. |
+| `scrapbook` | Japanese scrapbook / 日式拼贴手帐 | Wide paper spreads, hand-drawn labels, kraft backing sheets, taped photographs, itinerary/route cards, flight tickets, and a desktop chapter rail. |
 
 `TripPresentation.module.css` scopes the alternative layouts using `data-trip-style`. Reuse semantic theme tokens and existing image focus hints. Respect authored cover backgrounds; alternatives use the existing listing cover only when no cover background is authored. Classic retains its original cover treatment.
 
@@ -365,8 +366,10 @@ deferred source even before its thumbnail has loaded.
 
 ### Guide-and-essay field journal
 
-Hakone 2026 (`hakone-2026`) explicitly opts into a guide-and-essay variation of
-`field-journal`. It reuses the common center-axis reading rules, with a split
+Hakone 2026 (`hakone-2026`) first piloted a guide-and-essay variation of
+`field-journal`, retained when that style is selected in the editor. Its current
+published style is the [Japanese scrapbook](#japanese-vintage-scrapbook).
+The Field Journal variation reuses the common center-axis reading rules, with a split
 text/scene cover, dated daily essays, red-margin practical/background notes,
 and a complete shared-spending ledger. A quiet sticky chapter menu replaces the
 desktop side rail. Other Field Journal documents retain their published layout.
@@ -392,8 +395,69 @@ Structured image assets may provide optional positive integer `width` and
 `height` together (up to 20,000 each). The renderer emits these intrinsic
 dimensions for original-source images to reserve natural-ratio space while
 loading; cropped thumbnails rely on the authored shape. Both site and API
-validators support these dimensions without changing the three supported style
-IDs.
+validators support these dimensions independently of the published style.
+
+### Japanese vintage scrapbook
+
+`scrapbook` is a reusable, diary-first presentation. Selecting it is sufficient:
+its rules are scoped to `data-trip-style="scrapbook"`, not a destination list.
+The index, shell, other styles, source paragraphs, and image assets are not
+restyled or rewritten by that selection. The private Hakone–Tokyo 2026 entry is
+the first example; its original essays, 192 itinerary paragraphs, complete
+135-photo set, and final ledger remain intact.
+
+The visual reference is a vintage electronic-journal collage: cream and kraft
+paper, irregular labels, clips, blue tape, hand-drawn connectors, and original
+small illustrated stickers. The components and SVG artwork are original; do
+not copy template artwork or import a template's fonts or photographic assets.
+Use the existing font tokens and style-scoped semantic trip colours.
+Resolve Scrapbook's font aliases within its presentation, where Next's
+body-scoped font variables are available. Preview frames copy those body font
+classes along with the styles, so their type matches the reader page without
+enabling scripts inside the frame.
+
+| Role | Light | Dark |
+| --- | --- | --- |
+| Canvas | `#ece6db` | `#252923` |
+| Paper | `#fffdf5` | `#30332b` |
+| Backing paper | `#f5eee0` | `#383b31` |
+| Ink | `#34372f` | `#f4eddf` |
+| Secondary ink | `#665c4e` | `#d0c5af` |
+| Tape | `#c9dce0` | `#405960` |
+| Kraft | `#d6bc94` | `#53503d` |
+
+At 1280px and above, the frame expands to 1280px with a 168px chapter rail,
+32px gutter, and an editorial column capped at 1040px. Cover title and
+scene-setting photograph share a broad opening spread. Practical cards can
+appear in pairs up to 960px; at 900px and below they stack. The existing sticky
+chapter menu replaces the desktop rail below 1280px. Phone covers stack title,
+photograph, and decorative labels in reading order.
+
+Prose keeps the common Chinese/English 612px/640px caps, 18px text (17px on
+phones), and 1.85 line-height. Photographs retain their original colour and
+lightbox sources. Paper frames and tape stay outside the image content; images
+and captions are not tilted or obscured. Natural single images use the 420px
+cap, supporting portraits use 3:4 frames, and three-image groups stack on
+phones. Authored narrower gallery widths remain useful detail spreads.
+
+Reuse `timeline`, `route`, notes, warnings, and `expense`. Only adjacent
+practical blocks in the same page can be paired, at most two per spread;
+prose and galleries are never moved to fill a gap. Day summaries belong before
+the first scene, not between a paragraph and its photographs.
+
+The optional `flight` block contains a localized `title`, required
+`departure.location` and `arrival.location`, an optional `flightNumber`, optional
+endpoint `date` (`YYYY-MM-DD`), `time` (`HH:mm`), localized `terminal`, and a
+localized `note`. Both validators reject unsupported fields and invalid dates
+or times. Do not compare endpoint clocks as one timezone, infer duration,
+invent booking status, or add passenger/booking identifiers. It uses the shared
+editor and renderer and has a neutral treatment in the other styles.
+
+Decorative layers are non-interactive and hidden from assistive technology.
+They may overlap backing paper, not essential text, image subjects, keyboard
+focus, or controls. No new font, animation library, raster texture, day filter,
+monthly planner, or reader-side style override is required. Frame-local
+navigation, image loading, and lightboxes keep their existing ownership.
 
 ## 10. Theme Behavior
 
@@ -640,8 +704,8 @@ special exception to this guide.**
    implement a reusable explicit opt-in in the shared presentation.
 2. When reusing this CSS, publish `metadata.style: "photo-story"` through the
    existing content/editor flow and verify the actual document marker and language.
-   The schema still accepts only `classic`, `photo-story`, and `field-journal`
-   (omitted means Classic). Do not invent fields, a fourth style, query switches,
+   The schema accepts `classic`, `photo-story`, `field-journal`, and `scrapbook`
+   (omitted means Classic). Do not invent fields, unsupported style IDs, query switches,
    or localStorage overrides instead of implementing shared support.
 3. Check the new entry's route and both locale previews against the common
    targets, preserving frame-local `ownerDocument` / `defaultView` behavior.

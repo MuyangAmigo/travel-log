@@ -7,7 +7,7 @@ import {
   parseTripDocument,
   validateTripDocument,
 } from "../src/trip-document.js";
-import { minimalTripDocument } from "./helpers/editor-fixtures.js";
+import { minimalTripDocument, minimalFlightBlock } from "./helpers/editor-fixtures.js";
 
 test("accepts every registered structured trip document", () => {
   const tripsDirectory = new URL("../../site/src/content/trips/", import.meta.url);
@@ -67,13 +67,25 @@ test("accepts omitted style without rewriting legacy documents and preserves all
   assert.deepEqual(parseTripDocument(legacy), legacy);
   assert.equal(Object.hasOwn(parseTripDocument(legacy).metadata, "style"), false);
 
-  for (const style of ["classic", "photo-story", "field-journal"]) {
+  for (const style of ["classic", "photo-story", "field-journal", "scrapbook"]) {
     const document = minimalTripDocument();
     document.metadata.style = style;
     assert.deepEqual(validateTripDocument(document), []);
     assert.deepEqual(parseTripDocument(document), document);
     assert.equal(parseTripDocument(document).metadata.style, style);
   }
+});
+
+test("flight records support empty English only during translation and preserve scalar facts", () => {
+  const document = minimalTripDocument();
+  document.metadata.style = "scrapbook";
+  const flight = minimalFlightBlock();
+  flight.departure.location.en = "";
+  document.pages[0].blocks.push(flight);
+  assert.throws(() => parseTripDocument(document));
+  assert.deepEqual(parseTripDocument(document, { allowEmptyEnglish: true }), document);
+  flight.departure.time = "25:00";
+  assert.throws(() => parseTripDocument(document, { allowEmptyEnglish: true }));
 });
 
 test("rejects unknown, null, and incorrectly typed styles in both validation modes", () => {
