@@ -614,6 +614,14 @@ export default function BlockEditor({ block, images, onChange }: Props) {
             <option value="medium">中</option>
             <option value="narrow">窄</option>
           </SelectField>
+          <Field
+            label="整组照片说明（中文，可选）"
+            value={block.caption?.zh ?? ""}
+            onChange={(zh) =>
+              onChange({ ...block, caption: optionalText(block.caption, zh) })
+            }
+            multiline
+          />
           {block.images.map((item, index) => (
             <div className="editor-subitem" key={`${item.imageId}-${index}`}>
               <div className="editor-form-row">

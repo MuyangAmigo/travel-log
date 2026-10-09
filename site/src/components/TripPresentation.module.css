@@ -648,7 +648,7 @@
 }
 
 /* Explicit document opt-ins preserve other published trips and styles. */
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   --reading-column: 640px;
 
@@ -900,7 +900,7 @@
   }
 }
 
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   & :global(.card > .pgrid) {
     max-width: 960px;
@@ -1200,6 +1200,60 @@
     & :global(.g2 .cap) {
       width: 100%;
       grid-row: 3;
+    }
+  }
+}
+
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="beijing-winter-awakening-2022"])) {
+  & :global(.trip-cover-image) {
+    object-position: center 35%;
+  }
+
+  & :global(.pgrid.g2),
+  & :global(.pgrid.g4) {
+    max-width: 800px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  & :global(.pgrid.g3) {
+    max-width: 800px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  & :global(.pgrid .pf img) {
+    height: auto;
+    object-fit: cover;
+  }
+
+  & :global(.pgrid .pf img.pt) {
+    aspect-ratio: 3 / 4;
+  }
+
+  & :global(.pgrid .pf img.ls) {
+    aspect-ratio: 4 / 3;
+  }
+
+  & :global(.pgrid[data-trip-block="r020-tall"] .pf img.pt) {
+    aspect-ratio: 9 / 16;
+  }
+
+  & :global(.cap) {
+    text-align: center;
+  }
+
+  & :global(.nbox p) {
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 480px) {
+    & :global(.pgrid.g2) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 760px) {
+    & :global(.pgrid.g3) {
+      grid-template-columns: 1fr;
     }
   }
 }

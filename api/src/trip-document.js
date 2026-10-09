@@ -322,7 +322,7 @@ function validateBlock(
         context,
         value,
         path,
-        ["layout", "variant", "width", "images"],
+        ["layout", "variant", "width", "caption", "images"],
         ["layout", "images"]
       );
       if (!block) return;
@@ -340,6 +340,7 @@ function validateBlock(
       if (block.width !== undefined) {
         context.enum(block.width, `${path}.width`, ["full", "medium", "narrow"]);
       }
+      validateOptionalLocalized(context, block, "caption", path);
       context
         .array(block.images, `${path}.images`, { minimum: 1, maximum: 50 })
         .forEach((image, index) => {

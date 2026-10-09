@@ -123,6 +123,38 @@ test("preserves style-only edits without calling the model", async () => {
   assert.equal(modelCalls, 0);
 });
 
+test("translates gallery-level captions by block ID without changing the photographs", async () => {
+  const document = minimalTripDocument();
+  document.pages[0].blocks.push({
+    id: "gallery",
+    type: "gallery",
+    layout: "one",
+    caption: { zh: "整组照片的说明", en: "" },
+    images: [{ imageId: document.images[0].id }],
+  });
+  const path = "$.pages[id=cover-page].blocks[id=gallery].caption";
+  const translator = new AzureOpenAiTranslator(editorConfig, {
+    fetchImpl: async () => Response.json({
+      choices: [{
+        finish_reason: "stop",
+        message: {
+          content: JSON.stringify({
+            translations: [{
+              id: "cover-page/gallery",
+              path,
+              text: "A caption for the whole group",
+            }],
+          }),
+        },
+      }],
+    }),
+  });
+  const translated = await translator.translateDocument(document, [path]);
+  const expected = structuredClone(document);
+  expected.pages[0].blocks[1].caption.en = "A caption for the whole group";
+  assert.deepEqual(translated, expected);
+});
+
 test("uses managed identity when no Azure OpenAI API key is configured", async () => {
   const document = minimalTripDocument();
   let requestHeaders;

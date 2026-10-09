@@ -555,6 +555,9 @@ style name guarantees them. Authored `medium` / `narrow` prose widths produce
 inline constraints; inspect those before expecting exactly 612px or 640px.
 Use the schema's `spacing` values rather than arbitrary spacer wrappers, and
 check the result because presentation CSS can override block spacing.
+Use `gallery.caption` for a localized caption describing the whole group; the
+renderer places it after every photograph in DOM and visual order. Keep
+`gallery.images[].caption` for captions belonging to individual photographs.
 
 For one natural-ratio photograph, use `layout: "one"` and **omit `shape`**.
 `shape: "portrait"` still requests a fixed crop; `"natural"` is not a supported
@@ -624,7 +627,7 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
@@ -638,6 +641,22 @@ the mixed square/portrait museum details share a 3:4 frame with space around
 the square image. Each pair has one centered caption; pairs stack in source
 order at 480px and below. Single portraits and full-table photographs stay
 natural-ratio. This scoped opt-in does not change other trips or styles.
+
+Beijing (`beijing-winter-awakening-2022`) uses the same reading flow with
+62 photographs: eleven wide scene images, 23 natural-ratio singles, nine
+two-image groups, two three-image strips and one four-image spread.
+Supporting thumbnail groups share an 800px maximum and matching filled frames
+(`object-fit: cover`), rather than letterboxing dissimilar images. Full-body
+portraits, complete statues and individual clocks stay centered at their natural
+ratios; the two tall clocks share matching 9:16 frames. The original uncropped
+image remains available in the shared lightbox.
+Pairs stack at 480px and below, three-image strips stack at 760px, and the
+four-image spread retains two columns. Natural singles are capped at 420px,
+and wide scenes at 960px. Each group has one centered caption below all its
+photographs, authored as `gallery.caption` rather than a first-image caption
+repositioned by CSS. The shared renderer's `data-trip-block` gallery marker supports
+the tall-clock exception without new schema fields. These rules apply only to
+Beijing's Photo Story presentation, including bilingual editor frames.
 
 **Shared presentation integration is part of creating the next entry, not a
 special exception to this guide.**
