@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Caveat, Homemade_Apple, Inter } from "next/font/google";
 import { withBasePath } from "@/lib/base-path";
+import "@fontsource-variable/inter/wght.css";
+import "@fontsource-variable/eb-garamond/wght.css";
+import "@fontsource-variable/eb-garamond/wght-italic.css";
+import "@fontsource-variable/caveat/wght.css";
+import "@fontsource/homemade-apple/latin.css";
 import "./fonts/lxgw-wenkai/style.css";
 import "./globals.css";
 
@@ -24,35 +28,6 @@ const themeInitializationScript = `
     root.style.colorScheme = theme;
   })();
 `;
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const ebGaramond = EB_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-eb-garamond",
-  display: "swap",
-});
-
-const caveat = Caveat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-caveat",
-  display: "swap",
-});
-
-const homemadeApple = Homemade_Apple({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-homemade-apple",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -80,9 +55,7 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
         <script dangerouslySetInnerHTML={{ __html: themeInitializationScript }} />
       </head>
-      <body className={`${inter.variable} ${ebGaramond.variable} ${caveat.variable} ${homemadeApple.variable}`}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -19,6 +19,11 @@
 }
 
 :root {
+  --font-inter: 'Inter Variable';
+  --font-eb-garamond: 'EB Garamond Variable';
+  --font-caveat: 'Caveat Variable';
+  --font-homemade-apple: 'Homemade Apple';
+
   /* --- Airbnb palette (shell) --- */
   --palette-bg-primary-core: #ff385c;        /* Rausch Red */
   --palette-bg-tertiary-core: #e00b41;       /* Deep Rausch (pressed) */
