@@ -648,7 +648,7 @@
 }
 
 /* Explicit document opt-ins preserve other published trips and styles. */
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   --reading-column: 640px;
 
@@ -900,7 +900,7 @@
   }
 }
 
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   & :global(.card > .pgrid) {
     max-width: 960px;
@@ -1144,6 +1144,62 @@
   @media (max-width: 760px) {
     & :global(.g2 .cap) {
       width: 100%;
+    }
+  }
+}
+
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="macau-2023"])) {
+  & :global(.pgrid.g2 .pf img) {
+    height: auto;
+    object-fit: contain;
+  }
+
+  & :global(.pgrid .pf img.pt) {
+    aspect-ratio: 3 / 4;
+  }
+
+  & :global(.pgrid .pf img.ls) {
+    aspect-ratio: 4 / 3;
+  }
+
+  & :global(.cap) {
+    text-align: center;
+  }
+
+  & :global(.g2 .cap) {
+    width: calc(200% + 16px);
+  }
+
+  & :global(.nbox p) {
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 760px) {
+    & :global(.g2 .cap) {
+      width: calc(200% + 12px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    & :global(.g2) {
+      grid-template-columns: 1fr;
+    }
+
+    & :global(.pgrid.g2 .pf img) {
+      aspect-ratio: auto;
+    }
+
+    & :global(.g2 > .pf:first-child) {
+      display: contents;
+    }
+
+    & :global(.g2 > .pf:nth-child(2)) {
+      grid-row: 2;
+    }
+
+    & :global(.g2 .cap) {
+      width: 100%;
+      grid-row: 3;
     }
   }
 }
