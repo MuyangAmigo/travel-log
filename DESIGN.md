@@ -624,12 +624,20 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
 new layout. Its single-image rule detects absence of `.sq`, `.ls`, `.wd`, `.pt`,
 and `.hero` to preserve natural ratios and apply the 420px cap.
+
+Macau 2023 opts into these shared reading rules in both locales and editor
+frames. Its approved two-photo rows use complete compositions (`object-fit:
+contain`) rather than cropping: matching native ratios remain natural, and
+the mixed square/portrait museum details share a 3:4 frame with space around
+the square image. Each pair has one centered caption; pairs stack in source
+order at 480px and below. Single portraits and full-table photographs stay
+natural-ratio. This scoped opt-in does not change other trips or styles.
 
 **Shared presentation integration is part of creating the next entry, not a
 special exception to this guide.**

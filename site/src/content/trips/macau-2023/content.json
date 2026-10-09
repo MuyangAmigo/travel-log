@@ -1,0 +1,1244 @@
+{
+  "version": 1,
+  "slug": "macau-2023",
+  "metadata": {
+    "date": "2023-02-10",
+    "dateRange": "2023.02.10 — 02.12",
+    "coverImageId": "m017",
+    "title": {
+      "zh": "澳门，拎着购物袋逛小巷",
+      "en": "Macau, Side Streets and Shopping Bags"
+    },
+    "subtitle": {
+      "zh": "从一碗牛杂，到返程后的手信合照",
+      "en": "From a bowl of beef offal to souvenirs after the journey home"
+    },
+    "location": {
+      "zh": "中国 · 澳门",
+      "en": "Macau, China"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "m001",
+      "filename": "m001.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "机舱里两名戴口罩的人，两人都比剪刀手",
+        "en": "Two masked travellers making peace signs in an aircraft cabin"
+      }
+    },
+    {
+      "id": "m004",
+      "filename": "m004.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "双床房，圆形蓝白床头装饰",
+        "en": "Twin hotel beds beneath a round blue-and-white wall decoration"
+      }
+    },
+    {
+      "id": "m006",
+      "filename": "m006.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "深夜街边人物照片，右侧黄色告示",
+        "en": "A masked person beside a yellow notice on a street at night"
+      }
+    },
+    {
+      "id": "m007",
+      "filename": "m007.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "路氹楼群、钟楼与雾中的塔",
+        "en": "Cotai buildings, clock towers and a tower in the haze"
+      }
+    },
+    {
+      "id": "m017",
+      "filename": "m017.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "金色建筑立面、路氹街道与巴士",
+        "en": "A golden building façade, buses and a Cotai street"
+      }
+    },
+    {
+      "id": "m011",
+      "filename": "m011.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "两人戴口罩的室外广场合照",
+        "en": "Two masked travellers in a photo together on an outdoor plaza"
+      }
+    },
+    {
+      "id": "m013",
+      "filename": "m013.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "同一室内装饰前的两人合照",
+        "en": "Two masked travellers beside a large teacup decoration indoors"
+      }
+    },
+    {
+      "id": "m019",
+      "filename": "m019.webp",
+      "width": 2335,
+      "height": 2335,
+      "alt": {
+        "zh": "旺记咖啡奶茶瓶，背景官也街路牌",
+        "en": "A Wong Kei milk tea bottle in front of the Rua do Cunha street sign"
+      }
+    },
+    {
+      "id": "m020",
+      "filename": "m020.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "手持粉色星巴克饮料，带草莓颗粒",
+        "en": "A pink Starbucks drink with strawberry pieces held in hand"
+      }
+    },
+    {
+      "id": "m022",
+      "filename": "m022.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "手持鸡蛋仔，背景柜台",
+        "en": "Egg waffles held in front of a shop counter"
+      }
+    },
+    {
+      "id": "m026",
+      "filename": "m026.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "安德鲁饼店纸袋，背景澳葡之家标识",
+        "en": "A Lord Stow's Bakery paper bag against a pink wall"
+      }
+    },
+    {
+      "id": "m029",
+      "filename": "m029.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "粉色墙面和铁艺灯前的两人合照",
+        "en": "Two masked travellers in front of a pink wall and wrought-iron lamps"
+      }
+    },
+    {
+      "id": "m028",
+      "filename": "m028.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "同处自行车、花篮与红灯笼，更完整的竖向构图",
+        "en": "A bicycle, red flowers and a red lantern beside a shop window"
+      }
+    },
+    {
+      "id": "m032",
+      "filename": "m032.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "利嘉路施利华街牌、铁艺灯、安东尼招牌",
+        "en": "A Rua Correia da Silva street sign, iron lamp and António sign"
+      }
+    },
+    {
+      "id": "m035",
+      "filename": "m035.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "沿坡道延伸的彩色壁画",
+        "en": "A colourful mural stretching down a sloping lane"
+      }
+    },
+    {
+      "id": "m036",
+      "filename": "m036.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "彩绘街角建筑、金色汽车和前景绿植",
+        "en": "A painted corner building, gold-coloured car and green plants"
+      }
+    },
+    {
+      "id": "m039",
+      "filename": "m039.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "浅绿色廊柱、灯具和绿色卡通装置",
+        "en": "Pale green veranda columns, hanging lamps and a green cartoon sculpture"
+      }
+    },
+    {
+      "id": "m040",
+      "filename": "m040.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "窗边一幅装框的街景画，窗外树木和瓦顶",
+        "en": "A framed street painting beside a window, with trees and roof tiles outside"
+      }
+    },
+    {
+      "id": "m041",
+      "filename": "m041.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "通心粉与煎蛋近照",
+        "en": "A close-up of macaroni topped with a fried egg"
+      }
+    },
+    {
+      "id": "m042",
+      "filename": "m042.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "饮料、蔬菜与多个菜盘的餐桌",
+        "en": "A drink, vegetables and several dishes on a dining table"
+      }
+    },
+    {
+      "id": "m044",
+      "filename": "m044.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "意面与面包，餐盘和桌面有花纹",
+        "en": "Pasta and bread on a patterned plate and tabletop"
+      }
+    },
+    {
+      "id": "m045",
+      "filename": "m045.webp",
+      "width": 2329,
+      "height": 2329,
+      "alt": {
+        "zh": "SUMOL MARACUJÁ 百香果罐装汽水",
+        "en": "A green SUMOL passion-fruit soda can held in hand"
+      }
+    },
+    {
+      "id": "m046",
+      "filename": "m046.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "甜点、勺子与写着番茄屋的牌子",
+        "en": "Dessert and a spoon beside a label bearing Tomato Portuguese Food's name"
+      }
+    },
+    {
+      "id": "m048",
+      "filename": "m048.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "大树、红白老建筑与金色大楼同框",
+        "en": "A large tree, an older red-and-white building and golden towers"
+      }
+    },
+    {
+      "id": "m049",
+      "filename": "m049.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "红白窗廊、柱子和盆栽",
+        "en": "A red-and-white veranda with shutters, columns and potted plants"
+      }
+    },
+    {
+      "id": "m054",
+      "filename": "m054.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "财神娱乐场标识所在的大路纵深",
+        "en": "A view down a broad road with the Fortuna casino sign"
+      }
+    },
+    {
+      "id": "m055",
+      "filename": "m055.webp",
+      "width": 614,
+      "height": 1092,
+      "alt": {
+        "zh": "窄街纵深、绿植与旧楼，图像原始尺寸较小",
+        "en": "A narrow street between older buildings and green plants"
+      }
+    },
+    {
+      "id": "m066",
+      "filename": "m066.webp",
+      "width": 1393,
+      "height": 1393,
+      "alt": {
+        "zh": "横琴口岸澳门口岸区标识清楚可读",
+        "en": "The clearly marked Macau side of the Hengqin border crossing"
+      }
+    },
+    {
+      "id": "m067",
+      "filename": "m067.webp",
+      "width": 1349,
+      "height": 2400,
+      "alt": {
+        "zh": "人物在餐桌前比剪刀手，有饺子、汤和菜盘",
+        "en": "A person making a peace sign behind a table with dumplings, soup and other dishes"
+      }
+    },
+    {
+      "id": "m069",
+      "filename": "m069.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "整桌护肤品、礼盒与手信，CPB、Guerlain、Crema Nera、晃记饼家字样可辨认",
+        "en": "Skincare products, gift boxes and souvenirs arranged across a table"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "开篇",
+          "en": "OPENING"
+        },
+        "label": {
+          "zh": "澳门，拎着购物袋逛小巷",
+          "en": "Macau, Side Streets and Shopping Bags"
+        },
+        "detail": {
+          "zh": "澳门半岛与氹仔，吃饭、逛街和购物",
+          "en": "Food, walks and shopping on the peninsula and in Taipa"
+        }
+      }
+    },
+    {
+      "id": "arrival",
+      "navigation": {
+        "marker": {
+          "zh": "02.10 夜",
+          "en": "02.10 NIGHT"
+        },
+        "label": {
+          "zh": "先过关，再找牛杂",
+          "en": "Across the Border, Then Beef Offal"
+        },
+        "detail": {
+          "zh": "珠海金湾机场 → 机场快线 → 拱北口岸 → 澳门雅辰酒店 → 附近夜宵",
+          "en": "Zhuhai Jinwan Airport → Airport Express → Gongbei border crossing → Artyzen Grand Lapa Macau → a late bite nearby"
+        }
+      }
+    },
+    {
+      "id": "taipa",
+      "navigation": {
+        "marker": {
+          "zh": "02.11",
+          "en": "02.11"
+        },
+        "label": {
+          "zh": "从大楼逛进小巷",
+          "en": "From Big Buildings into Little Streets"
+        },
+        "detail": {
+          "zh": "半岛 → AP1 → 威尼斯人附近 → 官也街及周边 → 龙环葡韵 → 喜莲咖啡 → 威尼斯人购物",
+          "en": "Macau Peninsula → AP1 → near The Venetian → Rua do Cunha and nearby streets → Taipa Houses → Hei Lin Café → shopping at The Venetian"
+        }
+      }
+    },
+    {
+      "id": "peninsula",
+      "navigation": {
+        "marker": {
+          "zh": "02.12",
+          "en": "02.12"
+        },
+        "label": {
+          "zh": "赠品不错，汽水就那样",
+          "en": "Good Gifts, Ordinary Soda"
+        },
+        "detail": {
+          "zh": "酒店 → 新八佰伴 → 番茄屋 → 半岛步行回酒店 → 7/11 → 星际酒店 → 横琴 → 珠海机场",
+          "en": "Hotel → New Yaohan → Tomato Portuguese Food → walk back through the peninsula → 7/11 → StarWorld Hotel → Hengqin → Zhuhai Airport"
+        }
+      }
+    },
+    {
+      "id": "home",
+      "navigation": {
+        "marker": {
+          "zh": "02.13 凌晨",
+          "en": "02.13 EARLY"
+        },
+        "label": {
+          "zh": "购物袋里的尾声",
+          "en": "An Epilogue from the Shopping Bags"
+        },
+        "detail": {
+          "zh": "返程以后 · 购物与手信合照",
+          "en": "After the return journey · purchases and souvenirs together"
+        }
+      }
+    },
+    {
+      "id": "spending",
+      "navigation": {
+        "marker": {
+          "zh": "账目",
+          "en": "NOTES"
+        },
+        "label": {
+          "zh": "留下来的费用记录",
+          "en": "The costs I recorded"
+        },
+        "detail": {
+          "zh": "不是完整账单；没有记录的费用不补算",
+          "en": "Not a complete bill; missing costs have not been estimated"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover-title",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "MACAU · 澳门",
+            "en": "MACAU"
+          },
+          "title": {
+            "zh": "澳门，拎着购物袋逛小巷",
+            "en": "Macau, Side Streets and Shopping Bags"
+          },
+          "subtitle": {
+            "zh": "澳门半岛 · 氹仔 · 购物袋里的尾声",
+            "en": "The peninsula · Taipa · an epilogue from the shopping bags"
+          },
+          "date": {
+            "zh": "2023.02.10 — 02.12",
+            "en": "February 10–12, 2023"
+          },
+          "intro": {
+            "zh": "这次用随心飞去澳门，先飞到珠海，再过关。行程不长，住在澳门半岛的雅辰酒店，靠近金沙；白天去氹仔找吃的、逛街，最后一天又留给半岛。回头看照片，最有这趟旅行味道的，是手里的奶茶、彩色的小巷，还有越来越多的购物袋。",
+            "en": "For this Macau trip, I used the Fly Anywhere pass: first a flight to Zhuhai, then across the border. It was a short visit, based at Artyzen Grand Lapa on the Macau Peninsula, near Sands. The days took us to Taipa for food and shopping, with the last day back on the peninsula. Looking through the photos, the things that feel most like this trip are the milk tea in hand, the colourful side streets, and the steadily growing collection of shopping bags."
+          },
+          "backgroundImageId": "m017"
+        }
+      ]
+    },
+    {
+      "id": "opening",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "opening-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "吃得有惊喜，也有失望。筱琳牛杂留下了很好的印象，喜莲咖啡却非常一般；惦记很久的葡国汽水，喝到嘴里也就是普通汽水。购物倒是很实在：三件八五折的优惠，以及新八佰伴给得不错的赠品，都值得记上一笔。",
+              "en": "Some meals were a pleasant surprise; others were a letdown. Siu Lam's beef offal left a very good impression, while Hei Lin Café was decidedly average. The Portuguese soda I had wanted to try for ages turned out to be just ordinary soda. Shopping was more straightforward: the three-item 15% discount and the generous gifts at New Yaohan both deserve a mention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrival-chapter",
+      "sectionId": "arrival",
+      "blocks": [
+        {
+          "id": "arrival-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "02.10 夜",
+            "en": "02.10 NIGHT"
+          },
+          "title": {
+            "zh": "先过关，再找牛杂",
+            "en": "Across the Border, Then Beef Offal"
+          },
+          "subtitle": {
+            "zh": "02.10 夜—02.11 凌晨",
+            "en": "02.10 night–02.11 early morning"
+          }
+        },
+        {
+          "id": "arrival-story-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "2 月 10 日出发。原来记下的航班到达时间是 19:55，目的地是珠海金湾机场。飞机上的合照还留着口罩和剪刀手；从这一张开始，短途旅行有了自己的开场。",
+              "en": "We set off on February 10. The arrival time I originally noted was 19:55, at Zhuhai Jinwan Airport. The photo on the plane still has the masks and peace signs; it gives this little trip its opening scene."
+            }
+          ]
+        },
+        {
+          "id": "r01",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m001",
+              "caption": {
+                "zh": "飞机上的第一张合照，给这次短途旅行开个头。",
+                "en": "The first photo together on the plane opens this little trip."
+              }
+            }
+          ]
+        },
+        {
+          "id": "arrival-story-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "落地后坐珠海机场快线到拱北口岸，过关以后再打车去酒店。澳门半岛这段距离不远，笔记里记的是约 4 公里、40 元人民币。住的雅辰酒店在金沙附近，房间照片里是两张床，床头挂着圆形的蓝白装饰。",
+              "en": "After landing, we took the Zhuhai Airport Express to Gongbei, crossed the border, and then took a taxi to the hotel. This stretch on the Macau Peninsula was not far: my note records roughly 4 kilometres and RMB 40. Artyzen Grand Lapa was near Sands, and the room photo shows twin beds beneath a round blue-and-white decoration."
+            }
+          ]
+        },
+        {
+          "id": "r02",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m004",
+              "caption": {
+                "zh": "这一晚住在澳门半岛；双床房保留完整横向构图。",
+                "en": "Our first night was on the Macau Peninsula; the twin room keeps its complete horizontal composition."
+              }
+            }
+          ]
+        },
+        {
+          "id": "arrival-story-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "安顿下来以后，又去附近吃了一份筱琳牛杂，非常赞。门口的照片已经拍到 2 月 11 日零点以后，这一顿是抵达当晚的延续，不是第二天中午那轮觅食。第一晚的记忆，就留在这张夜里的街边照片里。",
+              "en": "Once we had settled in, we went nearby for a serving of Siu Lam beef offal. It was excellent. The street-side photo was already taken after midnight on February 11, so this meal belongs to the end of our arrival night, not the next day's midday food walk. That night-time street photo is where the first evening stays."
+            }
+          ]
+        },
+        {
+          "id": "r03",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m006",
+              "caption": {
+                "zh": "抵达当晚的夜宵，照片时钟已走到 02.11 00:07。",
+                "en": "A late bite on arrival night—the photo clock had already reached 00:07 on February 11."
+              }
+            }
+          ]
+        },
+        {
+          "id": "arrival-route",
+          "type": "note",
+          "title": {
+            "zh": "路线小记",
+            "en": "Route notes"
+          },
+          "body": {
+            "zh": "珠海金湾机场 → 机场快线 → 拱北口岸 → 澳门雅辰酒店 → 附近夜宵",
+            "en": "Zhuhai Jinwan Airport → Airport Express → Gongbei border crossing → Artyzen Grand Lapa Macau → a late bite nearby"
+          }
+        }
+      ]
+    },
+    {
+      "id": "taipa-chapter",
+      "sectionId": "taipa",
+      "blocks": [
+        {
+          "id": "taipa-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "02.11",
+            "en": "02.11"
+          },
+          "title": {
+            "zh": "从大楼逛进小巷",
+            "en": "From Big Buildings into Little Streets"
+          },
+          "subtitle": {
+            "zh": "02.11",
+            "en": "02.11"
+          }
+        },
+        {
+          "id": "taipa-story-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "第二天中午才起床，坐 AP1 去氹仔，在威尼斯人附近下车。中午的照片里，大楼之间有一层灰白的雾，钟楼、塔楼和金色的立面排在路两侧。先在这一片走走，再往官也街附近找吃的。",
+              "en": "We did not get up until noon on the second day, then took AP1 to Taipa and got off near The Venetian. In the midday photos, pale grey haze sits between the buildings, with clock towers, tall hotels and golden façades along the road. We walked around here first, then headed towards Rua do Cunha for food."
+            }
+          ]
+        },
+        {
+          "id": "r04",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m007",
+              "shape": "wide",
+              "caption": {
+                "zh": "同一段中午步行：12:42 的远景，与 13:08 的街道视角。",
+                "en": "The same midday walk: a distant view at 12:42, and the street at 13:08."
+              }
+            },
+            {
+              "imageId": "m017",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走在外面要合照，进到商场里面也要合照。照片把这一段的顺序留了下来：室外的广场、室内的大茶杯装饰，然后才是小街里的食物和店铺。",
+              "en": "We took a photo together outside, then another inside the mall. The pictures keep the order of this stretch: the outdoor plaza, the giant teacup decoration indoors, and only then the food and shops in the little streets."
+            }
+          ]
+        },
+        {
+          "id": "r05",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m011",
+              "caption": {
+                "zh": "12:57 在室外，13:01 到了室内；合照也跟着这一段走。",
+                "en": "Outside at 12:57, indoors at 13:01; the photos together follow this stretch of the walk."
+              }
+            },
+            {
+              "imageId": "m013"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "官也街附近这一轮，原笔记记了旺记咖啡猪扒包、安德鲁蛋挞、晃记茶楼、鸡蛋仔、牛杂，还有星巴克 Pink Drink。照片里先出现的是旺记的瓶装奶茶，瓶身上写着“香滑手打奶茶”；旁边一张，是捧在手里的粉色饮料。",
+              "en": "For this round near Rua do Cunha, my original note lists Wong Kei's pork chop bun, Lord Stow's egg tarts, Fong Kei, egg waffles, beef offal, and a Starbucks Pink Drink. The first food photo shows Wong Kei's bottled milk tea, with “handmade milk tea” on the label; the next has the pink drink held in hand."
+            }
+          ]
+        },
+        {
+          "id": "r06",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m019",
+              "shape": "square",
+              "caption": {
+                "zh": "官也街边的旺记奶茶，和这一轮小吃里的 Pink Drink。",
+                "en": "Wong Kei milk tea beside Rua do Cunha, and the Pink Drink from this round of snacks."
+              }
+            },
+            {
+              "imageId": "m020",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-4",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "后面又拍了鸡蛋仔和安德鲁的纸袋。不是每一样吃的都有近照，没拍下来的猪扒包和牛杂，也还是这天下午的一部分。",
+              "en": "Later came photos of the egg waffles and Lord Stow's paper bag. Not everything we ate got its own close-up, but the pork chop bun and beef offal that went unphotographed still belong to this afternoon."
+            }
+          ]
+        },
+        {
+          "id": "r07",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m022",
+              "shape": "square",
+              "caption": {
+                "zh": "14:38 的鸡蛋仔，与 15:40 的安德鲁纸袋；配的是同日下午的小吃，不是同一时间。",
+                "en": "Egg waffles at 14:38 and Lord Stow's bag at 15:40: paired moments from the same afternoon, not the same instant."
+              }
+            },
+            {
+              "imageId": "m026",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "觅食的间隙在小巷里走走。粉色墙面、铁艺灯、门口的红灯笼和花篮，把这一段照片连成了另一种澳门：不再是路氹的大楼，而是可以边走边拍的街角。",
+              "en": "Between food stops, we wandered through the side streets. Pink walls, wrought-iron lamps, a red lantern and flower baskets make another version of Macau in these photos: not Cotai's big buildings, but corners we could walk past and photograph."
+            }
+          ]
+        },
+        {
+          "id": "r08",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m029",
+              "caption": {
+                "zh": "粉色墙面和铁艺灯前，再留一张小巷合照。",
+                "en": "Another photo together, in front of the pink wall and wrought-iron lamp."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r09",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m028",
+              "shape": "portrait",
+              "caption": {
+                "zh": "15:42 的花篮与红灯笼，15:54 的街牌与铁艺灯；店招只证明路过，没有补写在安东尼用餐。",
+                "en": "Flowers and a red lantern at 15:42; a street sign and iron lamp at 15:54. The sign records passing António, not dining there."
+              }
+            },
+            {
+              "imageId": "m032",
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再往前，是彩色壁画和街角的一辆金色汽车。墙面上的颜色很满，转过街角又是另一组图案；这些照片，和一路拍下的店招一起，留下了这天下午散步的样子。",
+              "en": "Further along were colourful murals and a gold-coloured car on a street corner. One wall was full of colour; around the corner was another set of patterns. Together with the shop signs along the way, these pictures hold the shape of our afternoon walk."
+            }
+          ]
+        },
+        {
+          "id": "r10",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m035",
+              "caption": {
+                "zh": "下午散步的彩色墙面：一段长墙，和转角处的另一面。",
+                "en": "Colourful walls on the afternoon walk: a long mural, and another view around the corner."
+              }
+            },
+            {
+              "imageId": "m036"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-7",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午还去了龙环葡韵住宅博物馆。原来记得的是，当年葡国官员住过的房子，很有历史感。窗边的画、廊柱和浅色外墙，让这一段和前面的热闹小街不太一样。",
+              "en": "In the afternoon, we also visited the Taipa Houses museum. What I noted at the time was that Portuguese officials had once lived there, and that the houses felt steeped in history. A painting beside a window, the veranda columns and pale exterior walls give this stretch a different feel from the busy little streets before it."
+            }
+          ]
+        },
+        {
+          "id": "r11",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m039",
+              "shape": "portrait",
+              "caption": {
+                "zh": "下午游览一带的廊柱与窗边画作；同框尺寸、完整照片，方图允许留白。",
+                "en": "Veranda columns and a painting by the window in the area we visited that afternoon; equal frames, complete photos, and space around the square image."
+              }
+            },
+            {
+              "imageId": "m040",
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-8",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚餐去了喜莲咖啡。照片里留着通心粉上的煎蛋、饮料和一桌菜，但评价还是照原来的记忆写：非常不推荐，很一般。不能因为饭菜拍得像样，就把这顿写成一次满意的用餐。",
+              "en": "Dinner was at Hei Lin Café. The photos show a fried egg over macaroni, a drink, and a table of dishes, but I am keeping the verdict exactly as I remember it: strongly not recommended, very average. A meal looking decent in a photo does not make it a satisfying one."
+            }
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m041",
+              "shape": "landscape",
+              "caption": {
+                "zh": "喜莲晚餐的近照与整桌记录；照片并不改变“很一般”的评价。",
+                "en": "A close-up and the table at Hei Lin; the photos do not change the “very average” verdict."
+              }
+            },
+            {
+              "imageId": "m042",
+              "shape": "landscape"
+            }
+          ]
+        },
+        {
+          "id": "taipa-story-9",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "饭后回威尼斯人逛街购物。这一段没有对应的商店照片，收获却记得很具体：DFA 三件八五折，很香；买了娇兰、CPB 三件套和梅森马吉拉。白天手里是饮料和小吃，晚上换成了购物袋。",
+              "en": "After dinner, we went back to The Venetian to shop. There are no corresponding shop photos for this part, but I recorded the purchases quite specifically: DFA's 15% discount for three items was a great deal, and we bought Guerlain, a three-piece CPB set, and Maison Margiela. The drinks and snacks in our hands during the day gave way to shopping bags in the evening."
+            }
+          ]
+        },
+        {
+          "id": "taipa-route",
+          "type": "note",
+          "title": {
+            "zh": "路线小记",
+            "en": "Route notes"
+          },
+          "body": {
+            "zh": "半岛 → AP1 → 威尼斯人附近 → 官也街及周边 → 龙环葡韵 → 喜莲咖啡 → 威尼斯人购物",
+            "en": "Macau Peninsula → AP1 → near The Venetian → Rua do Cunha and nearby streets → Taipa Houses → Hei Lin Café → shopping at The Venetian"
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-chapter",
+      "sectionId": "peninsula",
+      "blocks": [
+        {
+          "id": "peninsula-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "02.12",
+            "en": "02.12"
+          },
+          "title": {
+            "zh": "赠品不错，汽水就那样",
+            "en": "Good Gifts, Ordinary Soda"
+          },
+          "subtitle": {
+            "zh": "02.12",
+            "en": "02.12"
+          }
+        },
+        {
+          "id": "peninsula-story-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天起床后，打车去新八佰伴。购物体验不错，虽然没有免税，也没有额外折扣，赠品却很好。我在这里买了阿玛尼的黑钥匙面霜。",
+              "en": "After getting up on the last day, we took a taxi to New Yaohan. The shopping experience was good: there was no duty-free benefit and no extra discount, but the gifts were generous. I bought Armani Crema Nera cream here."
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "之后走到哪吒庙附近的番茄屋吃葡国菜。餐桌照片里有一盘意面，盘子和桌面都带着花纹；我还点了惦记很久的葡国汽水，绿色罐身写着 SUMOL。",
+              "en": "Afterwards, we walked to Tomato Portuguese Food, near Na Tcha Temple, for Portuguese food. The table photo shows a plate of pasta, with patterns on both the plate and the table. I also ordered the Portuguese soda I had been wanting to try for ages, in a green SUMOL can."
+            }
+          ]
+        },
+        {
+          "id": "r13",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m044",
+              "shape": "square",
+              "caption": {
+                "zh": "番茄屋这一顿：餐桌上的意面，以及惦记很久、喝完觉得普通的 SUMOL。",
+                "en": "This meal at Tomato Portuguese Food: pasta, and the long-anticipated SUMOL that tasted ordinary."
+              }
+            },
+            {
+              "imageId": "m045",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "喝完的评价倒没有期待时那么隆重：就是普通汽水……这顿还留下一张甜点照片，上面插着番茄屋的小牌子。具体菜名和价格没有记下来，这里就不补了。",
+              "en": "The verdict after drinking it was less grand than the anticipation: just ordinary soda… There is also a dessert photo from this meal, with Tomato Portuguese Food's little label. I did not record the exact dish names or prices, so I am not filling them in now."
+            }
+          ]
+        },
+        {
+          "id": "r14",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m046",
+              "caption": {
+                "zh": "番茄屋的小牌子还在；甜点名称没有补猜。",
+                "en": "Tomato Portuguese Food's little label remains in the picture; the dessert's name has not been guessed."
+              }
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-4",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "饭后散步回酒店。路上有大树、红白相间的老建筑，也有金色的大楼；近处的窗廊和远处的高楼一起，留在半岛这一段的照片里。",
+              "en": "After eating, we walked back to the hotel. Along the way were big trees, older red-and-white buildings, and golden towers. The close-up windowed veranda and the taller buildings further away both stayed in the photos from this part of the peninsula."
+            }
+          ]
+        },
+        {
+          "id": "r15",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m048",
+              "shape": "square",
+              "caption": {
+                "zh": "半岛散步里，大树与大楼同框，再走近红白相间的窗廊。",
+                "en": "On the peninsula walk, a tree and towers share a frame, before a closer look at the red-and-white veranda."
+              }
+            },
+            {
+              "imageId": "m049",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "经过大路，也经过窄一点的街道。回到酒店附近，在 7/11 买饮料，把最后剩的一点澳门币花完。这样的收尾很日常：没有新的景点，只是在离开前再走一段路。",
+              "en": "We passed broad roads as well as narrower streets. Near the hotel, we bought drinks at 7/11 and spent the last of our Macau patacas. It was an ordinary sort of ending: no new sight to visit, just another stretch of walking before we left."
+            }
+          ]
+        },
+        {
+          "id": "r16",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m054",
+              "caption": {
+                "zh": "15:28 的大路，与 15:35 的窄街；按步行顺序配对。",
+                "en": "The broad road at 15:28 and the narrow street at 15:35, paired in walking order."
+              }
+            },
+            {
+              "imageId": "m055"
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-6",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "返程从星际酒店坐珠海机场快线，到横琴通关，再去珠海机场，整体很顺畅。横琴口岸的名字清清楚楚地留在照片里，和来时走拱北的路线不一样。",
+              "en": "For the return journey, we took the Zhuhai Airport Express from StarWorld Hotel, crossed at Hengqin, then continued to Zhuhai Airport. It all went smoothly. The name of the Hengqin crossing is clearly visible in the photo—a different route from arriving through Gongbei."
+            }
+          ]
+        },
+        {
+          "id": "r17",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m066",
+              "caption": {
+                "zh": "17:37 拍下横琴口岸；返程走的是这一边。",
+                "en": "Hengqin border crossing, photographed at 17:37; this was the return route."
+              }
+            }
+          ]
+        },
+        {
+          "id": "peninsula-story-7",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到机场后还拍了一张吃饭的照片，一桌饭菜前又是一个剪刀手。原笔记记下的返程起飞时间是 20:45；这一张，是照片里最后一顿返程路上的饭。",
+              "en": "At the airport, we took one more meal photo, with another peace sign behind a table of food. My original note gives the return departure time as 20:45; this is the last photographed meal on the way back."
+            }
+          ]
+        },
+        {
+          "id": "r18",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m067",
+              "caption": {
+                "zh": "返程路上的一桌饭，和照片里的剪刀手；店名与消费没有推定。",
+                "en": "A table of food and a peace sign on the way back; no restaurant name or spending has been inferred."
+              }
+            }
+          ]
+        },
+        {
+          "id": "peninsula-route",
+          "type": "note",
+          "title": {
+            "zh": "路线小记",
+            "en": "Route notes"
+          },
+          "body": {
+            "zh": "酒店 → 新八佰伴 → 番茄屋 → 半岛步行回酒店 → 7/11 → 星际酒店 → 横琴 → 珠海机场",
+            "en": "Hotel → New Yaohan → Tomato Portuguese Food → walk back through the peninsula → 7/11 → StarWorld Hotel → Hengqin → Zhuhai Airport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "home-chapter",
+      "sectionId": "home",
+      "blocks": [
+        {
+          "id": "home-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "DAY"
+          },
+          "markerValue": {
+            "zh": "02.13 凌晨",
+            "en": "02.13 EARLY"
+          },
+          "title": {
+            "zh": "购物袋里的尾声",
+            "en": "An Epilogue from the Shopping Bags"
+          },
+          "subtitle": {
+            "zh": "02.13 凌晨",
+            "en": "02.13 early morning"
+          }
+        },
+        {
+          "id": "home-story-1",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "返程后的凌晨，把购物和手信摆到桌上，又拍了一张。娇兰的礼盒、CPB 三件套、阿玛尼面霜，还有晃记饼家的盒子，都出现在这一桌。那几段商场里没有拍下来的购物，也在这里有了一个尾声。",
+              "en": "In the early morning after returning, we laid the purchases and souvenirs on a table for another photo. Guerlain gift boxes, the three-piece CPB set, Armani cream, and Fong Kei's boxes all appear together. The shopping stretches without in-store photos found an epilogue here."
+            }
+          ]
+        },
+        {
+          "id": "r19",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "m069",
+              "caption": {
+                "zh": "02.13 01:00，返程后的购物与手信合照，不放回澳门第三天。",
+                "en": "01:00 on February 13: purchases and souvenirs after returning, not moved back into the third day in Macau."
+              }
+            }
+          ]
+        },
+        {
+          "id": "home-story-2",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟也有几个想留给下次的改进。酒店如果住在氹仔，或者至少选赌场酒店，离吃饭、购物和娱乐的地方会近一些；这次没有吃上黑珍珠，下次想去天巢。交通卡和电话卡也应该提前买好，能省掉不少麻烦。",
+              "en": "There are a few improvements I want to leave for next time. Staying in Taipa, or at least in a casino hotel, would put us closer to food, shopping and entertainment. We did not get to a Black Pearl restaurant this time; next time I want to try The Tasting Room. Buying a transport card and SIM card ahead of time would also save some hassle."
+            }
+          ]
+        },
+        {
+          "id": "home-story-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "澳门这一趟，留下的不只是买了什么：还有第一晚很好吃的牛杂、官也街的奶茶和鸡蛋仔，以及两顿并没有被照片美化的评价。把这些一起记下来，才像是我真正去过的这一次。",
+              "en": "What this Macau trip left behind was not only a list of purchases: it was also the very good beef offal on the first night, the milk tea and egg waffles around Rua do Cunha, and the meal and drink verdicts the photos did not get to polish away. Keeping all of that makes the diary feel like the trip I actually took."
+            }
+          ]
+        },
+        {
+          "id": "home-route",
+          "type": "note",
+          "title": {
+            "zh": "路线小记",
+            "en": "Route notes"
+          },
+          "body": {
+            "zh": "返程以后 · 购物与手信合照",
+            "en": "After the return journey · purchases and souvenirs together"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spending-page",
+      "sectionId": "spending",
+      "blocks": [
+        {
+          "id": "recorded-costs",
+          "type": "expense",
+          "title": {
+            "zh": "留下来的费用记录 · 不是完整账单",
+            "en": "The costs I recorded · not a complete bill"
+          },
+          "rows": [
+            {
+              "id": "cost-1",
+              "label": {
+                "zh": "过关后到酒店的出租车",
+                "en": "Taxi from the border crossing to the hotel"
+              },
+              "amount": {
+                "zh": "约 4 km / 40 RMB",
+                "en": "About 4 km / RMB 40"
+              }
+            },
+            {
+              "id": "cost-2",
+              "label": {
+                "zh": "威尼斯人购物优惠",
+                "en": "The Venetian shopping offer"
+              },
+              "amount": {
+                "zh": "三件 85 折",
+                "en": "15% off when buying three items"
+              }
+            },
+            {
+              "id": "cost-3",
+              "label": {
+                "zh": "新八佰伴购物",
+                "en": "Shopping at New Yaohan"
+              },
+              "amount": {
+                "zh": "无免税、无额外折扣；赠品好",
+                "en": "No duty-free benefit or extra discount; generous gifts"
+              }
+            },
+            {
+              "id": "cost-4",
+              "label": {
+                "zh": "机票、酒店、餐饮与购物总额",
+                "en": "Flights, hotel, dining and total shopping spend"
+              },
+              "amount": {
+                "zh": "未记录，不计算总预算",
+                "en": "Not recorded; no total budget calculated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
