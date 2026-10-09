@@ -1429,6 +1429,10 @@ body:has(.index-wrap) {
   object-position: center 80%;
 }
 
+.trip-card:is([href$="/trips/beijing-winter-awakening-2022"], [href$="/trips/beijing-winter-awakening-2022/"]) .tc-media img {
+  object-position: center top;
+}
+
 .image-lightbox {
   position: fixed;
   inset: 0;

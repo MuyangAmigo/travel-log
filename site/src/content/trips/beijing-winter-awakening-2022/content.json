@@ -4,7 +4,7 @@
   "metadata": {
     "date": "2022-12-29",
     "dateRange": "2022.12.29 — 2023.01.01",
-    "coverImageId": "b028",
+    "coverImageId": "b100",
     "title": {
       "zh": "北京，重新出门的冬天",
       "en": "Beijing, a Winter Back Outside"
@@ -791,7 +791,7 @@
             "zh": "经历了 2022 年上海封城，又刚刚从新冠里恢复，我在这一年的尾巴上去了北京。那时北京人很少，旅行体验很好。这趟行程的重头戏是环球影城和故宫：一边是电影里的世界，一边是北京的宫殿，中间还夹着一个冬日散步、吃烤鸭的下午和晚上。",
             "en": "After Shanghai's lockdown in 2022, and having just recovered from COVID, I went to Beijing at the very end of the year. There were very few people around then, and the trip was a really good experience. Universal Studios and the Forbidden City were the two main stops: a world from the movies on one side, Beijing's palaces on the other, with a winter afternoon walk and an evening of roast duck in between."
           },
-          "backgroundImageId": "b028"
+          "backgroundImageId": "b100"
         },
         {
           "id": "story-02",
@@ -1081,8 +1081,8 @@
               "imageId": "b028",
               "shape": "wide",
               "caption": {
-                "zh": "白天的霍格沃茨；封面复用这一张，不增加选片数量。",
-                "en": "Hogwarts by day; this photograph is also the cover, not an extra selection."
+                "zh": "白天的霍格沃茨，尖塔立在蓝天里。",
+                "en": "Hogwarts by day, its spires standing against the blue sky."
               }
             }
           ]

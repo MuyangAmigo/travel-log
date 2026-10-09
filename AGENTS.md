@@ -109,6 +109,8 @@ currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents expli
 - Use a place, landscape, architecture, food, performance, animal, or other scene-setting image for `coverImage`.
 - Do not use a portrait, couple photo, selfie, or any image whose main subject is a person as the listing cover.
 - A people-focused photo may still appear inside the trip entry when it supports the story.
+- Before selecting or replacing a cover, compare it with existing trip covers by resolved image URL and visual content. Filenames alone are not sufficient: duplicate or near-duplicate photos may have different names or paths.
+- Avoid reusing the same or a near-duplicate cover across trips unless the user explicitly requests it. Intentional reuse of a trip's cover in its own reading flow is allowed and does not count as a cross-trip duplicate.
 - Confirm that the chosen blob URL returns HTTP 200 before finishing.
 
 ## Images and Azure Blob Storage
@@ -222,6 +224,8 @@ privacy. See [authentication documentation](docs/microsoft-auth.md).
 - [ ] Every uploaded image and the scene-setting cover return HTTP 200; inspect
   the actual images as well as status codes. No source photos or temporary upload
   copies are committed; remove temporary copies after upload and verification.
+- [ ] Compare the chosen cover with existing trip covers by URL and visual
+  content; any cross-trip duplicate or near-duplicate has explicit user approval.
 - [ ] Preview the Chinese index and trip locally; check cover crop, name, and
   privacy badge. Inspect both locale trip pages and the editor's bilingual preview
   at 1440px, 900px, and 390px, plus a narrow 320px phone.
