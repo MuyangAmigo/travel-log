@@ -73,6 +73,19 @@ The site is designed and built as a lightweight bilingual experience with:
 It is built with Next.js and hosted on GitHub Pages, with photography stored in
 Azure Blob Storage.
 
+## 📝 Travel journal skill
+
+The repository includes a [travel-journal Skill](.github/skills/travel-journal/SKILL.md)
+for reconstructing a journal from photos and notes. It batches image previews,
+reuses cached derivatives, and checks an explicit photo-group plan for symmetry,
+complete rows and layout variety. Full prose and photo selections are reviewed
+locally before approval; uploads and publication require separate authorization.
+
+Ask an agent to use `travel-journal` with `PHOTO_DIR: /absolute/path/to/photos`.
+The default outputs are this repository's private bilingual entry and a matching
+offline NoteBrain journal. The Skill guides authoring; it does not automatically
+publish entries or change the site's existing presentation.
+
 ---
 
 <div align="center">
