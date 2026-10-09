@@ -95,7 +95,8 @@ export async function auditLayout({ selection, locale, imageAssets = [], selecto
       }
       peers.push(frame);
     }
-    for (const peers of visualRows) {
+    const frameGroups = row.shape ? [frames] : visualRows;
+    for (const peers of frameGroups) {
       if (peers.length > 1 && (Math.max(...peers.map((item) => item.width)) - Math.min(...peers.map((item) => item.width)) > 2
           || Math.max(...peers.map((item) => item.height)) - Math.min(...peers.map((item) => item.height)) > 2)) {
         errors.push(`${label}: rendered peer frames differ by more than 2px`);
