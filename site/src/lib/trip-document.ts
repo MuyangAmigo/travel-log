@@ -91,6 +91,7 @@ export type GalleryBlock = TripBlockBase & {
   layout: "one" | "two" | "three" | "four" | "weighted-left" | "weighted-right";
   variant?: "framed" | "polaroid";
   width?: "full" | "medium" | "narrow";
+  caption?: LocalizedText;
   images: {
     imageId: string;
     alt?: LocalizedText;
@@ -559,6 +560,7 @@ function validateBlock(
         "layout",
         "variant",
         "width",
+        "caption",
         "images",
       ]);
       if (!block) return;
@@ -576,6 +578,7 @@ function validateBlock(
       if (block.width !== undefined) {
         context.enum(block.width, `${path}.width`, ["full", "medium", "narrow"]);
       }
+      validateOptionalLocalized(context, block, "caption", path);
       context.array(block.images, `${path}.images`, 1).forEach((image, index) => {
         const imagePath = `${path}.images[${index}]`;
         const item = context.record(image, imagePath, [

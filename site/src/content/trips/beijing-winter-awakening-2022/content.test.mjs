@@ -77,8 +77,10 @@ test("all 62 approved photographs appear once in both locales with the mixed pho
     && image.width > 0 && image.height > 0 && image.alt.zh && image.alt.en));
   for (const gallery of galleries) {
     assert.equal(gallery.images.length, { one: 1, two: 2, three: 3, four: 4 }[gallery.layout]);
-    assert.ok(gallery.images[0].caption.zh && gallery.images[0].caption.en);
-    assert.ok(gallery.images.slice(1).every((image) => image.caption === undefined));
+    const caption = gallery.layout === "one" ? gallery.images[0].caption : gallery.caption;
+    assert.ok(caption.zh && caption.en);
+    assert.ok(gallery.images.slice(gallery.layout === "one" ? 1 : 0)
+      .every((image) => image.caption === undefined));
     for (let index = 0; index + 1 < gallery.images.length; index += 2) {
       assert.equal(gallery.images[index].shape, gallery.images[index + 1].shape);
     }
@@ -137,12 +139,11 @@ test("Beijing fills matched thumbnail frames without padding and preserves impor
   assert.match(scoped, /max-width: 800px/);
   assert.doesNotMatch(scoped, /max-width: (?:320|680)px !important/);
   assert.match(scoped, /\[data-trip-block="r020-tall"\][^{}]*img\.pt\) \{\s*aspect-ratio: 9 \/ 16/);
-  assert.match(scoped, /grid-row: 3/);
+  assert.doesNotMatch(scoped, /display: contents|grid-row:/);
   assert.match(scoped, /@media \(max-width: 480px\)/);
   assert.match(scoped, /grid-template-columns: 1fr/);
   assert.match(scoped, /grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
   assert.match(scoped, /@media \(max-width: 760px\)/);
-  assert.match(scoped, /grid-row: 4/);
   assert.doesNotMatch(scoped, /data-trip-document="(?:phuket|macau|kansai)/);
   const renderer = readFileSync(resolve(directory, "../../../components/TripDocumentRenderer.tsx"), "utf8");
   assert.match(renderer, /data-trip-block=\{block\.id\}/);

@@ -298,6 +298,7 @@ body {
 
 /* ===== PHOTO GRID ===== */
 .pgrid { display: grid; gap: 12px; position: relative; z-index: 1; }
+.pgrid > .cap { grid-column: 1 / -1; }
 .g1 { grid-template-columns: 1fr; }
 .g2 { grid-template-columns: 1fr 1fr; }
 .g3 { grid-template-columns: 1fr 1fr 1fr; }

@@ -1237,26 +1237,8 @@
     aspect-ratio: 9 / 16;
   }
 
-  & :global(.pgrid:is(.g2, .g3, .g4) > .pf) {
-    display: contents;
-  }
-
   & :global(.cap) {
     text-align: center;
-  }
-
-  /* The caption follows every image without changing the gallery's DOM order. */
-  & :global(.pgrid:is(.g2, .g3, .g4) .cap) {
-    grid-column: 1 / -1;
-  }
-
-  & :global(.g2 .cap),
-  & :global(.g3 .cap) {
-    grid-row: 2;
-  }
-
-  & :global(.g4 .cap) {
-    grid-row: 3;
   }
 
   & :global(.nbox p) {
@@ -1267,19 +1249,11 @@
     & :global(.pgrid.g2) {
       grid-template-columns: 1fr;
     }
-
-    & :global(.g2 .cap) {
-      grid-row: 3;
-    }
   }
 
   @media (max-width: 760px) {
     & :global(.pgrid.g3) {
       grid-template-columns: 1fr;
-    }
-
-    & :global(.g3 .cap) {
-      grid-row: 4;
     }
   }
 }

@@ -81,6 +81,25 @@ function readTripDocument(slug) {
   return { source, document: parseTripDocument(JSON.parse(source)) };
 }
 
+test("site and API accept localized gallery captions alongside individual captions", () => {
+  const document = structuredClone(minimalDocument);
+  document.pages[0].blocks.push({
+    id: "gallery",
+    type: "gallery",
+    layout: "one",
+    caption: { zh: "整组照片", en: "The whole group" },
+    images: [{ imageId: "cover", caption: { zh: "单张照片", en: "An individual photo" } }],
+  });
+  for (const parse of [parseTripDocument, parseApiDocument]) {
+    assert.deepEqual(parse(document), document);
+    for (const invalid of ["Caption", null, { zh: "缺少英文" }, { zh: "照片", en: 42 }]) {
+      const copy = structuredClone(document);
+      copy.pages[0].blocks[1].caption = invalid;
+      assert.throws(() => parse(copy));
+    }
+  }
+});
+
 test("site and API preserve paired intrinsic dimensions and reject invalid sizes", () => {
   for (const parse of [parseTripDocument, parseApiDocument]) {
     const document = structuredClone(minimalDocument);

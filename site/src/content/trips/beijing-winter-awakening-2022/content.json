@@ -942,14 +942,14 @@
           "id": "r003",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "10:24，入园前的地球仪合影；11:22，进园后的小黄人世界。",
+            "en": "10:24, together by the globe before entry; 11:22, the Minions' world inside the park."
+          },
           "images": [
             {
               "imageId": "b005",
-              "shape": "square",
-              "caption": {
-                "zh": "10:24，入园前的地球仪合影；11:22，进园后的小黄人世界。",
-                "en": "10:24, together by the globe before entry; 11:22, the Minions' world inside the park."
-              }
+              "shape": "square"
             },
             {
               "imageId": "b011",
@@ -971,14 +971,14 @@
           "id": "r004-details",
           "type": "gallery",
           "layout": "three",
+          "caption": {
+            "zh": "剧场招牌、小窗里的角色和红色灯光下的表演。",
+            "en": "The theatre sign, a character in a window and a performance under red lights."
+          },
           "images": [
             {
               "imageId": "b013",
-              "shape": "square",
-              "caption": {
-                "zh": "剧场招牌、小窗里的角色和红色灯光下的表演。",
-                "en": "The theatre sign, a character in a window and a performance under red lights."
-              }
+              "shape": "square"
             },
             {
               "imageId": "b014",
@@ -1047,14 +1047,14 @@
           "id": "r029-interior",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "画像墙与室内布景，保留两张完整横幅。",
+            "en": "The portrait wall and indoor set, keeping both complete landscape compositions."
+          },
           "images": [
             {
               "imageId": "b025",
-              "shape": "wide",
-              "caption": {
-                "zh": "画像墙与室内布景，保留两张完整横幅。",
-                "en": "The portrait wall and indoor set, keeping both complete landscape compositions."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "b026",
@@ -1101,14 +1101,14 @@
           "id": "r006",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "入口前与湖边，给同一个城堡留下两种合影。",
+            "en": "Two photos together at the same castle: by the entrance and beside the lake."
+          },
           "images": [
             {
               "imageId": "b021",
-              "shape": "landscape",
-              "caption": {
-                "zh": "入口前与湖边，给同一个城堡留下两种合影。",
-                "en": "Two photos together at the same castle: by the entrance and beside the lake."
-              }
+              "shape": "landscape"
             },
             {
               "imageId": "b031",
@@ -1231,14 +1231,14 @@
           "id": "r009-scenes",
           "type": "gallery",
           "layout": "three",
+          "caption": {
+            "zh": "入口合影、灯笼和功夫熊猫角色布景。",
+            "en": "A photograph together by the entrance, lanterns and the Kung Fu Panda set."
+          },
           "images": [
             {
               "imageId": "b050",
-              "shape": "wide",
-              "caption": {
-                "zh": "入口合影、灯笼和功夫熊猫角色布景。",
-                "en": "A photograph together by the entrance, lanterns and the Kung Fu Panda set."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "b054",
@@ -1405,14 +1405,14 @@
           "id": "r013",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "转到市区后，阳光里的房间与房间里的合影。",
+            "en": "After moving into the city: a sunlit room and a photograph together inside it."
+          },
           "images": [
             {
               "imageId": "b095",
-              "shape": "wide",
-              "caption": {
-                "zh": "转到市区后，阳光里的房间与房间里的合影。",
-                "en": "After moving into the city: a sunlit room and a photograph together inside it."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "b096",
@@ -1483,14 +1483,14 @@
           "id": "r016",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "祈年殿前的两个版本：一张正常合影，一张虎头帽子滤镜。",
+            "en": "Two versions in front of the hall: an ordinary selfie and a tiger-hat filter."
+          },
           "images": [
             {
               "imageId": "b102",
-              "shape": "wide",
-              "caption": {
-                "zh": "祈年殿前的两个版本：一张正常合影，一张虎头帽子滤镜。",
-                "en": "Two versions in front of the hall: an ordinary selfie and a tiger-hat filter."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "b104",
@@ -1551,14 +1551,14 @@
           "id": "r018",
           "type": "gallery",
           "layout": "four",
+          "caption": {
+            "zh": "桌边片鸭、烤鸭与餐桌上的其他两道菜，大董是这趟推荐的一餐。",
+            "en": "Duck carved beside the table, sliced duck and two other dishes: Da Dong was a meal to recommend."
+          },
           "images": [
             {
               "imageId": "b123",
-              "shape": "square",
-              "caption": {
-                "zh": "桌边片鸭、烤鸭与餐桌上的其他两道菜，大董是这趟推荐的一餐。",
-                "en": "Duck carved beside the table, sliced duck and two other dishes: Da Dong was a meal to recommend."
-              }
+              "shape": "square"
             },
             {
               "imageId": "b125",
@@ -1701,14 +1701,14 @@
           "id": "r020-tall",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "两件高而细的钟表，用相同比例保留完整器物。",
+            "en": "Two tall, slender clocks, kept whole in matching frames."
+          },
           "images": [
             {
               "imageId": "b146",
-              "shape": "portrait",
-              "caption": {
-                "zh": "两件高而细的钟表，用相同比例保留完整器物。",
-                "en": "Two tall, slender clocks, kept whole in matching frames."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "b147",
@@ -1778,14 +1778,14 @@
           "id": "r023-overview",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "冠饰与展柜中的一组器物，先看完整形态。",
+            "en": "A headdress and a group of objects in a case, starting with their complete forms."
+          },
           "images": [
             {
               "imageId": "b165",
-              "shape": "wide",
-              "caption": {
-                "zh": "冠饰与展柜中的一组器物，先看完整形态。",
-                "en": "A headdress and a group of objects in a case, starting with their complete forms."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "b168",
@@ -1797,14 +1797,14 @@
           "id": "r023-details",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "同一段参观的两个细节：冠饰纹样与花口器物。",
+            "en": "Two details from the same visit: headdress patterns and a flower-shaped opening."
+          },
           "images": [
             {
               "imageId": "b166",
-              "shape": "portrait",
-              "caption": {
-                "zh": "同一段参观的两个细节：冠饰纹样与花口器物。",
-                "en": "Two details from the same visit: headdress patterns and a flower-shaped opening."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "b169",
@@ -1865,14 +1865,14 @@
           "id": "r025",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "文创体验馆前的小猫，与随后留下的两只故宫图案纸杯。",
+            "en": "Cats outside the cultural-products shop, followed by two cups with Forbidden City designs."
+          },
           "images": [
             {
               "imageId": "b174",
-              "shape": "landscape",
-              "caption": {
-                "zh": "文创体验馆前的小猫，与随后留下的两只故宫图案纸杯。",
-                "en": "Cats outside the cultural-products shop, followed by two cups with Forbidden City designs."
-              }
+              "shape": "landscape"
             },
             {
               "imageId": "b175",

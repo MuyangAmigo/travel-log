@@ -555,6 +555,9 @@ style name guarantees them. Authored `medium` / `narrow` prose widths produce
 inline constraints; inspect those before expecting exactly 612px or 640px.
 Use the schema's `spacing` values rather than arbitrary spacer wrappers, and
 check the result because presentation CSS can override block spacing.
+Use `gallery.caption` for a localized caption describing the whole group; the
+renderer places it after every photograph in DOM and visual order. Keep
+`gallery.images[].caption` for captions belonging to individual photographs.
 
 For one natural-ratio photograph, use `layout: "one"` and **omit `shape`**.
 `shape: "portrait"` still requests a fixed crop; `"natural"` is not a supported
@@ -650,7 +653,8 @@ image remains available in the shared lightbox.
 Pairs stack at 480px and below, three-image strips stack at 760px, and the
 four-image spread retains two columns. Natural singles are capped at 420px,
 and wide scenes at 960px. Each group has one centered caption below all its
-photographs. The shared renderer's `data-trip-block` gallery marker supports
+photographs, authored as `gallery.caption` rather than a first-image caption
+repositioned by CSS. The shared renderer's `data-trip-block` gallery marker supports
 the tall-clock exception without new schema fields. These rules apply only to
 Beijing's Photo Story presentation, including bilingual editor frames.
 

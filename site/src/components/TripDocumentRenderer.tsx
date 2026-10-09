@@ -313,6 +313,9 @@ function renderBlock(
               </div>
             );
           })}
+          {block.caption && (
+            <div className="cap">{withLineBreaks(text(block.caption, locale))}</div>
+          )}
         </div>
       );
     }

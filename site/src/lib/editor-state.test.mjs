@@ -127,6 +127,25 @@ test("draft recovery preserves optional thumbnails without changing legacy image
   }
 });
 
+test("gallery-level captions remain editable, translatable and recoverable", () => {
+  const original = documentFixture();
+  const draft = structuredClone(original);
+  const caption = { zh: "整组照片的说明", en: "" };
+  draft.pages[1].blocks[0].caption = caption;
+  assert.deepEqual(collectChangedLocalizedPaths(original, draft), [
+    "$.pages[id=day-page].blocks[id=gallery-block].caption",
+  ]);
+  const stored = parseStoredEditorDraft(JSON.stringify({
+    baseSha: "1".repeat(40),
+    baseBlobSha: "2".repeat(40),
+    document: draft,
+    savedAt: 123,
+  }), original.slug);
+  const recovery = getEditorDraftRecovery(stored, original, "2".repeat(40));
+  assert.equal(recovery.status, "safe");
+  assert.deepEqual(recovery.document.pages[1].blocks[0].caption, caption);
+});
+
 test("duplicates pages with fresh page, block, and nested item IDs", () => {
   const page = documentFixture().pages[1];
   const duplicate = duplicatePage(page);
