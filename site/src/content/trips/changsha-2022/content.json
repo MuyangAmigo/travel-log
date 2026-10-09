@@ -1,0 +1,1256 @@
+{
+  "version": 1,
+  "slug": "changsha-2022",
+  "metadata": {
+    "date": "2022-10-28",
+    "dateRange": "2022.10.28 — 10.30",
+    "coverImageId": "p028",
+    "title": {
+      "zh": "岳麓听风，星城寻梦",
+      "en": "Yuelu Breezes, Changsha Dreams"
+    },
+    "subtitle": {
+      "zh": "阴天的书院，舒适的校园漫步",
+      "en": "An overcast academy and a comfortable campus walk"
+    },
+    "location": {
+      "zh": "中国 · 长沙",
+      "en": "Changsha, China"
+    },
+    "private": true,
+    "style": "classic"
+  },
+  "images": [
+    {
+      "id": "p001",
+      "filename": "p001.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "蓝边白碗里的面条，上面盖着煎蛋",
+        "en": "Noodles topped with a fried egg in a white bowl with a blue rim"
+      }
+    },
+    {
+      "id": "p002",
+      "filename": "p002.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "坡子街路牌旁的老楼、阳台和后方玻璃高楼",
+        "en": "An old building and balconies beside a Pozi Street sign, with glass towers behind"
+      },
+      "thumbnailFilename": "p002-thumb.webp"
+    },
+    {
+      "id": "p003",
+      "filename": "p003.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "街巷和店招，近处墙上红色的长沙字样",
+        "en": "An alley lined with signs and red Changsha lettering on a nearby wall"
+      },
+      "thumbnailFilename": "p003-thumb.webp"
+    },
+    {
+      "id": "p005",
+      "filename": "p005.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "木桌上四只碗盘，肉菜、汤与切开的蛋",
+        "en": "Four bowls and plates on a wooden table, holding meat dishes, soup and cut eggs"
+      }
+    },
+    {
+      "id": "p006",
+      "filename": "p006.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "太平街蓝色路牌、门柱和石狮",
+        "en": "A blue Taiping Street sign, doorway pillar and stone lion"
+      },
+      "thumbnailFilename": "p006-thumb.webp"
+    },
+    {
+      "id": "p009",
+      "filename": "p009.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "茶颜悦色店门前一起举起的两只杯子",
+        "en": "Two cups held up together outside Chayan Yuese"
+      },
+      "thumbnailFilename": "p009-thumb.webp"
+    },
+    {
+      "id": "p010",
+      "filename": "p010.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "白墙灰瓦的街区、树木及远处高楼",
+        "en": "White-walled, grey-roofed buildings, trees and distant towers"
+      }
+    },
+    {
+      "id": "p012",
+      "filename": "p012.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "树林与水池后的绿瓦红柱亭子",
+        "en": "A green-tiled, red-pillared pavilion behind trees and a pond"
+      },
+      "thumbnailFilename": "p012-thumb.webp"
+    },
+    {
+      "id": "p013",
+      "filename": "p013.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "沿坡地起伏的白墙、灰瓦与曲廊",
+        "en": "White walls, grey roof tiles and corridors following a slope"
+      },
+      "thumbnailFilename": "p013-thumb.webp"
+    },
+    {
+      "id": "p015",
+      "filename": "p015.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "两名戴口罩的人在灰瓦屋顶前合影",
+        "en": "Two masked people in a photograph together in front of a tiled roof"
+      }
+    },
+    {
+      "id": "p016",
+      "filename": "p016.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "红色栏杆、弯曲灰瓦屋脊和后面的树林",
+        "en": "Red railings, curved grey roof ridges and trees behind"
+      },
+      "thumbnailFilename": "p016-thumb.webp"
+    },
+    {
+      "id": "p018",
+      "filename": "p018.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "树枝之间的白墙楼阁与近处灰瓦",
+        "en": "A white-walled building between branches, with grey tiles nearby"
+      },
+      "thumbnailFilename": "p018-thumb.webp"
+    },
+    {
+      "id": "p020",
+      "filename": "p020.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "池边石头、草地、长屋与远处山上的塔",
+        "en": "Rocks, grass and a long building beside a pond, with a tower on the distant hill"
+      },
+      "thumbnailFilename": "p020-thumb.webp"
+    },
+    {
+      "id": "p022",
+      "filename": "p022.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "树木两侧夹着的大成殿，红墙和黄色瓦顶",
+        "en": "Dacheng Hall framed by trees, with red walls and a yellow tiled roof"
+      },
+      "thumbnailFilename": "p022-thumb.webp"
+    },
+    {
+      "id": "p025",
+      "filename": "p025.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "饭桌旁戴眼镜的人低头看手机",
+        "en": "A person wearing glasses looking down at a phone beside a dining table"
+      }
+    },
+    {
+      "id": "p024",
+      "filename": "p024.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "锅中的鸡肉和带皮肉块",
+        "en": "Chicken and skin-on meat pieces in a pot"
+      },
+      "thumbnailFilename": "p024-thumb.webp"
+    },
+    {
+      "id": "p026",
+      "filename": "p026.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "红椒与葱花覆盖的鱼头，旁边有金属汤勺",
+        "en": "A fish head topped with red peppers and spring onions, beside a metal ladle"
+      },
+      "thumbnailFilename": "p026-thumb.webp"
+    },
+    {
+      "id": "p028",
+      "filename": "p028.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "夜色里大楼的红色屏幕写着长沙",
+        "en": "A red screen on a building at night displaying Changsha"
+      },
+      "thumbnailFilename": "p028-thumb.webp"
+    },
+    {
+      "id": "p030",
+      "filename": "p030.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "夜间楼面上一层层亮着的商铺招牌",
+        "en": "Layers of illuminated shop signs on a building at night"
+      },
+      "thumbnailFilename": "p030-thumb.webp"
+    },
+    {
+      "id": "p031",
+      "filename": "p031.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "两只饮料杯套写着星心上海，背景是室内灯光",
+        "en": "Two drink cups with Star-heart-Shanghai sleeves against indoor lights"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "序",
+          "en": "Intro"
+        },
+        "label": {
+          "zh": "岳麓听风，星城寻梦",
+          "en": "Yuelu Breezes, Changsha Dreams"
+        },
+        "detail": {
+          "zh": "长沙随心飞周末行",
+          "en": "A Fly Anywhere weekend in Changsha"
+        }
+      }
+    },
+    {
+      "id": "departure",
+      "navigation": {
+        "marker": {
+          "zh": "10.28",
+          "en": "10.28"
+        },
+        "label": {
+          "zh": "10 月 28 日 · 出发页，留一个夜晚的空白",
+          "en": "October 28 · A page for the evening departure"
+        },
+        "detail": {
+          "zh": "本人确认 10 月 28 日晚出发；暂无当天照片，实际航班时刻未确认",
+          "en": "Evening departure confirmed from memory; no photographs or confirmed actual flight times"
+        }
+      }
+    },
+    {
+      "id": "early-hours",
+      "navigation": {
+        "marker": {
+          "zh": "10.29",
+          "en": "10.29"
+        },
+        "label": {
+          "zh": "10 月 29 日 · 凌晨，从一碗面开始",
+          "en": "October 29 · Starting with a bowl of noodles"
+        },
+        "detail": {
+          "zh": "01:52 照片记录 · 长沙街边用餐，店名未确认",
+          "en": "01:52 photograph · A meal in Changsha; restaurant not identified"
+        }
+      }
+    },
+    {
+      "id": "alleyways",
+      "navigation": {
+        "marker": {
+          "zh": "10.29",
+          "en": "10.29"
+        },
+        "label": {
+          "zh": "10 月 29 日 · 白天，街巷与饭桌",
+          "en": "October 29 · Alleyways and the lunch table"
+        },
+        "detail": {
+          "zh": "12:46 坡子街路牌 → 太平街一带 → 午饭 → 茶颜悦色",
+          "en": "Pozi Street sign → Taiping Street area → Lunch → Chayan Yuese"
+        }
+      }
+    },
+    {
+      "id": "green-hills",
+      "navigation": {
+        "marker": {
+          "zh": "10.29",
+          "en": "10.29"
+        },
+        "label": {
+          "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+          "en": "October 29 · An overcast afternoon at Yuelu Academy"
+        },
+        "detail": {
+          "zh": "湘江西岸街景 → 林间绿瓦亭 → 岳麓书院的曲廊、园林与大成殿 → 步行至大学校园（本人回忆，无照片）",
+          "en": "West-bank streets → Pavilion among the trees → Yuelu Academy's corridors, garden and Dacheng Hall → Walk to a university campus, recalled without photographs"
+        }
+      }
+    },
+    {
+      "id": "night-lights",
+      "navigation": {
+        "marker": {
+          "zh": "10.29",
+          "en": "10.29"
+        },
+        "label": {
+          "zh": "10 月 29 日 · 晚上，饭桌之后是灯光",
+          "en": "October 29 · Dinner, then the city lights"
+        },
+        "detail": {
+          "zh": "18:46—18:57 晚饭 → 20:00—20:16 五一广场周边夜景",
+          "en": "18:46–18:57 dinner photographs → 20:00–20:16 street scenes around Wuyi Square"
+        }
+      }
+    },
+    {
+      "id": "return",
+      "navigation": {
+        "marker": {
+          "zh": "10.30",
+          "en": "10.30"
+        },
+        "label": {
+          "zh": "10 月 30 日 · 回程，再逛一会儿五一广场",
+          "en": "October 30 · One more wander around Wuyi Square"
+        },
+        "detail": {
+          "zh": "上午用餐后五一广场闲逛 → 午饭 → 地铁前往黄花机场（依笔记补写，无照片）→ 17:07 浦东机场双杯照",
+          "en": "A meal and a wander around Wuyi Square → Lunch → Metro to Huanghua Airport, reconstructed from notes without photographs → Two cups at Pudong Airport at 17:07"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "cardVariant": "inset-cover",
+      "blocks": [
+        {
+          "id": "cover-story",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "长沙 · 周末手记",
+            "en": "CHANGSHA · WEEKEND JOURNAL"
+          },
+          "title": {
+            "zh": "岳麓听风，星城寻梦",
+            "en": "Yuelu Breezes, Changsha Dreams"
+          },
+          "subtitle": {
+            "zh": "阴天的书院，舒适的校园漫步",
+            "en": "An overcast academy and a comfortable campus walk"
+          },
+          "date": {
+            "zh": "2022.10.28 — 10.30",
+            "en": "October 28–30, 2022"
+          },
+          "intro": {
+            "zh": "这个长沙周末，我把日子留在了街巷、饭桌和山林之间。白天是坡子街一带的老楼、太平街密密的店招和茶颜悦色的杯子；下午换成绿树、白墙与一层叠着一层的灰瓦；到了晚上，又回到五一广场周边的灯光里。",
+            "en": "I kept this Changsha weekend somewhere between the alleyways, the dinner table and the green hills. By day there were the old buildings around Pozi Street, the tightly packed signs along Taiping Street and cups from Chayan Yuese. In the afternoon, the scene changed to trees, white walls and layers of grey roof tiles; by evening, I was back among the lights around Wuyi Square."
+          },
+          "backgroundImageId": "p028"
+        }
+      ]
+    },
+    {
+      "id": "introduction",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "introduction-memory",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟随心飞的短途周末行，最值得回忆的还是阴天里的岳麓书院。那天下午，走在白墙、灰瓦和树影之间很惬意；后来从书院走到了大学校园，那一段也很舒适。街巷里的吃喝和夜景之外，这份舒服的感觉一直留了下来。",
+              "en": "What I remember most from this short weekend trip using my Fly Anywhere pass is Yuelu Academy on an overcast day. Walking among its white walls, grey roofs and trees felt wonderfully relaxed. Afterwards, I walked from the academy to a university campus, and that stretch felt comfortable too. Beyond the food, drinks and night scenes, that easy feeling stayed with me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planned-departure",
+      "sectionId": "departure",
+      "blocks": [
+        {
+          "id": "planned-departure-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.28",
+            "en": "10.28"
+          },
+          "title": {
+            "zh": "10 月 28 日 · 出发页，留一个夜晚的空白",
+            "en": "October 28 · A page for the evening departure"
+          },
+          "subtitle": {
+            "zh": "跨过零点的行程",
+            "en": "A journey crossing midnight"
+          }
+        },
+        {
+          "id": "planned-departure-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "10 月 28 日晚上出发，去长沙过这个周末。原来的安排把抵达写成了「24:20」——按这个写法，是第二天零点二十分；实际落地时刻还没有补回来。去程没有留下照片，我先从接下来的那碗面，翻开这趟长沙的相册。",
+              "en": "I set off on the evening of October 28 to spend the weekend in Changsha. The original plan gives the arrival as \"24:20\", meaning twenty past midnight the following day; the actual landing time has not been recovered. There are no photographs of the outward journey, so I open this Changsha album with the bowl of noodles that followed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noodle-bowl",
+      "sectionId": "early-hours",
+      "blocks": [
+        {
+          "id": "noodle-bowl-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "10 月 29 日 · 凌晨，从一碗面开始",
+            "en": "October 29 · Starting with a bowl of noodles"
+          },
+          "subtitle": {
+            "zh": "夜里的第一张照片",
+            "en": "The first photograph of the night"
+          }
+        },
+        {
+          "id": "noodle-bowl-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "凌晨的画面很近：蓝边白碗里是一碗面，煎蛋盖在最上面，碗边能看到葱花和红色的调料。长沙的这一页没有从机场开始，而是先落在了这张饭桌照片上。",
+              "en": "The early-hours picture is a close one: noodles in a white bowl with a blue rim, a fried egg on top, and spring onions and red seasoning visible around the edge. This page of Changsha starts not at the airport, but with a photograph from the table."
+            }
+          ]
+        },
+        {
+          "id": "noodle-bowl",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p001",
+              "caption": {
+                "zh": "凌晨 01:52，这碗面是相册里长沙的开场。",
+                "en": "At 01:52, this bowl of noodles opens the Changsha album."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "street-corners",
+      "sectionId": "alleyways",
+      "blocks": [
+        {
+          "id": "street-corners-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "10 月 29 日 · 白天，街巷与饭桌",
+            "en": "October 29 · Alleyways and the lunch table"
+          },
+          "subtitle": {
+            "zh": "老楼下，店招一块接一块",
+            "en": "Signs lining the streets beneath old buildings"
+          }
+        },
+        {
+          "id": "street-corners-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到了白天，我走进长沙的街巷。路口的老楼带着一排排阳台和防盗窗，后面是玻璃高楼；再往街里看，招牌从屋檐下一直排到远处。墙上红色的「长沙」两个字，把城市的名字放得很大。",
+              "en": "By daytime, I was walking through Changsha's alleyways. At the junction, an old building had rows of balconies and window grilles, with glass towers rising behind it. Farther down the street, signs ran from beneath the eaves into the distance. Large red characters on a wall spelled out the city's name: Changsha."
+            }
+          ]
+        },
+        {
+          "id": "street-corners",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p002",
+              "caption": {
+                "zh": "午饭前的两处停留：坡子街的老楼，街巷里密密的店招。",
+                "en": "Two stops before lunch: an old building on Pozi Street, and the signs crowding the alleyways."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p003",
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch-table",
+      "sectionId": "alleyways",
+      "blocks": [
+        {
+          "id": "lunch-table-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "午饭留一张完整的桌面",
+            "en": "Keeping the whole lunch table"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 白天，街巷与饭桌",
+            "en": "October 29 · Alleyways and the lunch table"
+          }
+        },
+        {
+          "id": "lunch-table-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午饭的照片里，几只碗盘铺开在木桌上：有带红椒的肉菜，有一锅汤，也有切开的蛋。这里先留下那一桌饭的样子；具体菜名、店名和吃下去的感觉，还要靠记忆补回来。",
+              "en": "In the lunch photograph, several bowls and plates spread across a wooden table: a meat dish with red peppers, a pot of soup, and cut eggs. For now, I keep the meal as it appeared on the table; the exact dishes, restaurant and how they tasted still need to come back through memory."
+            }
+          ]
+        },
+        {
+          "id": "lunch-table",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p005",
+              "caption": {
+                "zh": "13:15，碗盘铺开在木桌上，是这顿午饭留下的样子。",
+                "en": "At 13:15, bowls and plates spread across the wooden table: the lunch as it was photographed."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiping-tea",
+      "sectionId": "alleyways",
+      "blocks": [
+        {
+          "id": "taiping-tea-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "太平街的路牌和两只杯子",
+            "en": "A Taiping Street sign and two cups"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 白天，街巷与饭桌",
+            "en": "October 29 · Alleyways and the lunch table"
+          }
+        },
+        {
+          "id": "taiping-tea-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "饭后，太平街的蓝色路牌出现在石狮和门柱旁边。随后相册里是茶颜悦色门前的杯子：先有一杯的近照，后来两只杯子一起入镜。这段街头停留，从路牌旁接到了茶饮店门前。",
+              "en": "After lunch, Taiping Street's blue sign appeared beside a stone lion and a doorway pillar. Next in the album came cups outside Chayan Yuese: first a close-up of one cup, then two cups together. This pause on the street carried on from the sign to the tea shop's entrance."
+            }
+          ]
+        },
+        {
+          "id": "taiping-tea",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p006",
+              "caption": {
+                "zh": "饭后的太平街，13:50 的路牌和 14:24 一起举起的两只杯子。",
+                "en": "Taiping Street after lunch: the sign at 13:50, and two cups held up together at 14:24."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p009",
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-bank",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "west-bank-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          },
+          "subtitle": {
+            "zh": "把高楼留在远处",
+            "en": "Leaving the towers in the distance"
+          }
+        },
+        {
+          "id": "west-bank-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午转到湘江西岸，眼前换成白墙、灰瓦和树木。远处的高楼还在，只是隔着一层灰蒙蒙的天色。这张照片停在两种城市尺度之间，也把白天的街巷接到了接下来的山林里。",
+              "en": "In the afternoon, I moved to the west bank of the Xiang River, where white walls, grey roofs and trees took over the view. The distant towers were still there, behind a hazy grey sky. This photograph sits between two scales of the city, linking the daytime streets to the green hills that came next."
+            }
+          ]
+        },
+        {
+          "id": "west-bank",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p010",
+              "caption": {
+                "zh": "15:23，到了西岸，远处的高楼还在树木和屋檐之后。",
+                "en": "At 15:23 on the west bank, the towers were still there beyond the trees and roofs."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trees-and-corridor",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "trees-and-corridor-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "阴天，把下午留给书院",
+            "en": "An overcast afternoon for the academy"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          }
+        },
+        {
+          "id": "trees-and-corridor-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再往岳麓山一带走，眼前已经是满眼的树。绿瓦红柱的亭子藏在枝叶后面，水面映着树影；接着走到了岳麓书院，贴着坡地起伏的曲廊和白墙出现在身边，灰瓦的弧线一层叠着一层。",
+              "en": "Farther towards Yuelu Mountain, trees filled the view. A pavilion with green tiles and red pillars hid behind the branches, with trees reflected in the water. Then I reached Yuelu Academy, where white walls and corridors followed the slope, and curved grey roofs layered over one another."
+            },
+            {
+              "zh": "最值得回忆的就是这个阴天的下午。在书院里走着很惬意，白墙、灰瓦和树影，也连着那份舒服的记忆。",
+              "en": "This overcast afternoon is what I remember most. Walking through the academy felt wonderfully relaxed; its white walls, grey roofs and trees belong to that comfortable memory too."
+            }
+          ]
+        },
+        {
+          "id": "trees-and-corridor",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p012",
+              "caption": {
+                "zh": "从林间树影走到书院的白墙曲廊，阴天的下午很惬意。",
+                "en": "From trees around the pavilion to the academy's white walls and corridors: an overcast, pleasantly relaxed afternoon."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p013",
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared-portrait",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "shared-portrait-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "合影也在这一段",
+            "en": "A photo together belongs here too"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          }
+        },
+        {
+          "id": "shared-portrait-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "廊边还留着一张双人合影。两个人都戴着口罩，背后是灰瓦屋顶和树叶。风景之外，这一张把同行的片刻也留下来，不需要另补一个拍照的理由。",
+              "en": "There is also a photograph of two people together beside the corridor. Both are wearing masks, with a tiled roof and leaves behind them. Alongside the scenery, it keeps a shared moment without needing another reason for taking the picture."
+            }
+          ]
+        },
+        {
+          "id": "shared-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p015",
+              "caption": {
+                "zh": "16:34，廊边的合影也留在了灰瓦和树叶之间。",
+                "en": "At 16:34, a photo together beside the corridor, among grey roof tiles and leaves."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rooflines",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "rooflines-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "沿着屋檐看过去",
+            "en": "Following the rooflines"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          }
+        },
+        {
+          "id": "rooflines-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "我沿着这一段白墙和曲廊往前走。横着看，是栏杆、屋脊和后面的山；转到树下，近处的枝叶又把楼阁遮住一半。同样的灰瓦换个角度，就多了一层树影。",
+              "en": "I walked along this stretch of white walls and corridors. In the wider view, there were railings, roof ridges and the hillside behind them; from beneath a tree, nearby branches partly hid the building again. The same grey tiles gained another layer of trees from a different angle."
+            }
+          ]
+        },
+        {
+          "id": "rooflines",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p016",
+              "caption": {
+                "zh": "同一段建筑，从开阔的屋檐看到近处的树影。",
+                "en": "The same stretch of buildings, from open rooflines to trees close by."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p018",
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garden-and-hall",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "garden-and-hall-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "水池之后，黄瓦在树间",
+            "en": "After the pond, yellow tiles among trees"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          }
+        },
+        {
+          "id": "garden-and-hall-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "后面的画面又回到水边。石头、草地和一排长屋倒映在小池里，远处能看到山上的塔；下一张则是树木两侧夹着的红墙黄瓦，大成殿的牌匾就在中央。到这里，这段下午的相册从亭子、曲廊，翻到了园林和殿宇。",
+              "en": "The next views returned to the water. Rocks, grass and a long building reflected in a small pond, with a tower visible on the distant hill. The following photograph showed red walls and yellow tiles framed by trees, with the Dacheng Hall sign in the middle. By this point, the afternoon album had moved from the pavilion and corridors to the garden and hall."
+            }
+          ]
+        },
+        {
+          "id": "garden-and-hall",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p020",
+              "caption": {
+                "zh": "小池的倒影之后，是树间的大成殿：16:57 与 17:01。",
+                "en": "After the little pond's reflections came Dacheng Hall among the trees: 16:57 and 17:01."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p022",
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campus-walk",
+      "sectionId": "green-hills",
+      "blocks": [
+        {
+          "id": "campus-walk-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "出了书院，接着走到校园",
+            "en": "Out of the academy and on to a campus"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 下午，阴天的岳麓书院",
+            "en": "October 29 · An overcast afternoon at Yuelu Academy"
+          }
+        },
+        {
+          "id": "campus-walk-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从书院出来后，我又走到了大学校园。这一段没有照片，但记得走着很舒适。阴天里的书院和随后的校园散步连在一起，是这个周末最值得回忆的一段。",
+              "en": "After leaving the academy, I walked on to a university campus. There are no photographs of this stretch, but I remember how comfortable the walk felt. The overcast academy and the campus walk afterwards belong together as the part of this weekend I remember most."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner-person",
+      "sectionId": "night-lights",
+      "blocks": [
+        {
+          "id": "dinner-person-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "10 月 29 日 · 晚上，饭桌之后是灯光",
+            "en": "October 29 · Dinner, then the city lights"
+          },
+          "subtitle": {
+            "zh": "饭桌对面的片刻",
+            "en": "A moment across the dinner table"
+          }
+        },
+        {
+          "id": "dinner-person-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上又回到市区的饭桌旁。镜头里，桌对面的人低着头看手机，手和手机都留在画面下方。比起店面的招牌，这张照片先把晚饭里的一个普通片刻留下了。",
+              "en": "In the evening, I was back at a table in the city. The person across it was looking down at a phone, with hands and phone kept in the lower part of the frame. Rather than the restaurant's sign, this photograph first keeps an ordinary moment during dinner."
+            }
+          ]
+        },
+        {
+          "id": "dinner-person",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p025",
+              "caption": {
+                "zh": "18:48，晚饭桌对面低头看手机的片刻。",
+                "en": "At 18:48, a moment looking down at a phone across the dinner table."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner-dishes",
+      "sectionId": "night-lights",
+      "blocks": [
+        {
+          "id": "dinner-dishes-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "两口锅里的晚饭",
+            "en": "Dinner in two pots"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 晚上，饭桌之后是灯光",
+            "en": "October 29 · Dinner, then the city lights"
+          }
+        },
+        {
+          "id": "dinner-dishes-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这顿饭留下了两道近照：一锅鸡肉和带皮肉块，另一锅是铺着红椒与葱花的鱼头。桌上的颜色很分明，一边是肉和汤汁的棕黄，另一边是鱼头上的红椒与青葱。",
+              "en": "Dinner left two close-up photographs: one pot of chicken and skin-on meat pieces, and another of a fish head topped with red peppers and spring onions. The colours on the table were distinct: brown and gold from meat and sauce on one side, red peppers and green spring onions on the other."
+            }
+          ]
+        },
+        {
+          "id": "dinner-dishes",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p024",
+              "caption": {
+                "zh": "18:46 与 18:57，两道菜把晚饭留在了相册里。",
+                "en": "At 18:46 and 18:57, two dishes kept dinner in the album."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p026",
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-lights",
+      "sectionId": "night-lights",
+      "blocks": [
+        {
+          "id": "city-lights-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.29",
+            "en": "10.29"
+          },
+          "title": {
+            "zh": "夜色把招牌全点亮了",
+            "en": "Night lit up all the signs"
+          },
+          "subtitle": {
+            "zh": "10 月 29 日 · 晚上，饭桌之后是灯光",
+            "en": "October 29 · Dinner, then the city lights"
+          }
+        },
+        {
+          "id": "city-lights-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "饭后再走到五一广场周边，白天那些店招已经换成了发亮的颜色。巨大的红色屏幕上写着「长沙」，旁边的楼面则把餐馆、茶饮和商铺的招牌一层层排到高处。灰蒙蒙的白天、下午的绿树，到这里都接上了夜里的灯光。",
+              "en": "After dinner, I walked around Wuyi Square again, where the daytime signs had turned into glowing colours. A huge red screen read \"Changsha\", while signs for restaurants, tea shops and other businesses stacked up the neighbouring buildings. The grey daytime sky and afternoon trees now connected to the evening lights."
+            }
+          ]
+        },
+        {
+          "id": "city-lights",
+          "type": "gallery",
+          "layout": "two",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p028",
+              "caption": {
+                "zh": "20:13 的「长沙」，20:16 一层层亮起来的招牌，是这一天最后的街景。",
+                "en": "The \"Changsha\" screen at 20:13 and layers of lit signs at 20:16 were the day's last street views."
+              },
+              "shape": "wide"
+            },
+            {
+              "imageId": "p030",
+              "shape": "wide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "return-morning",
+      "sectionId": "return",
+      "blocks": [
+        {
+          "id": "return-morning-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.30",
+            "en": "10.30"
+          },
+          "title": {
+            "zh": "10 月 30 日 · 回程，再逛一会儿五一广场",
+            "en": "October 30 · One more wander around Wuyi Square"
+          },
+          "subtitle": {
+            "zh": "没有拍照的半天，也留在日记里",
+            "en": "Keeping an unphotographed half-day in the journal"
+          }
+        },
+        {
+          "id": "return-morning-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "第二天上午，吃过饭后，我又在五一广场闲逛。午饭后，坐地铁前往黄花机场，离开长沙，返回上海。在长沙的最后半天，就这样从五一广场接到了机场。",
+              "en": "The next morning, after eating, I wandered around Wuyi Square again. After lunch, I took the metro to Huanghua Airport, left Changsha and returned to Shanghai. My final half-day in Changsha carried on from the square to the airport."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airport-cups",
+      "sectionId": "return",
+      "blocks": [
+        {
+          "id": "airport-cups-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "日期",
+            "en": "DATE"
+          },
+          "markerValue": {
+            "zh": "10.30",
+            "en": "10.30"
+          },
+          "title": {
+            "zh": "到了上海，杯套也换了城市",
+            "en": "Back in Shanghai, the cup sleeves changed city too"
+          },
+          "subtitle": {
+            "zh": "10 月 30 日 · 回程，再逛一会儿五一广场",
+            "en": "October 30 · One more wander around Wuyi Square"
+          }
+        },
+        {
+          "id": "airport-cups-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回到上海后，两只星巴克杯子又一起入镜，杯套上写着「星♡上海」，一杯浅色，一杯红色。浦东机场的这张双杯照，把长沙的周末接回了上海。",
+              "en": "After returning to Shanghai, two Starbucks cups appeared together again, their sleeves reading \"Star ♡ Shanghai\": one pale drink and one red. This photograph of two cups at Pudong Airport linked the Changsha weekend back to Shanghai."
+            }
+          ]
+        },
+        {
+          "id": "airport-cups",
+          "type": "gallery",
+          "layout": "one",
+          "width": "full",
+          "images": [
+            {
+              "imageId": "p031",
+              "caption": {
+                "zh": "17:07，回到浦东机场，杯套上的城市也换成了上海。",
+                "en": "At 17:07, back at Pudong Airport, the city on the cup sleeves had changed to Shanghai."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "sectionId": "return",
+      "blocks": [
+        {
+          "id": "closing-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "收尾",
+            "en": "END"
+          },
+          "markerValue": {
+            "zh": "10.30",
+            "en": "10.30"
+          },
+          "title": {
+            "zh": "把这个周末留在一起",
+            "en": "Keeping this weekend together"
+          },
+          "subtitle": {
+            "zh": "岳麓听风，星城寻梦",
+            "en": "Yuelu Breezes, Changsha Dreams"
+          }
+        },
+        {
+          "id": "closing-memory",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "回头想这趟长沙周末，街上的招牌、饭桌上的碗盘和夜里的灯光都在照片里；最值得回忆的，却还是阴天的岳麓书院。书院里很惬意，从书院走到大学校园也很舒适。那段没有照片的散步，和相册里的白墙、灰瓦、树影一起，成了这趟旅行最想留下的部分。",
+              "en": "Looking back on this Changsha weekend, the shop signs, dishes on the table and evening lights are all in the photographs. What I remember most, though, is Yuelu Academy under an overcast sky. The academy felt wonderfully relaxed, and the walk from there to a university campus felt comfortable too. That unphotographed walk, together with the white walls, grey roofs and trees in the album, became the part of the trip I most wanted to keep."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
