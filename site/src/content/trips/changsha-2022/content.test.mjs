@@ -21,7 +21,7 @@ const approvedRows = [
   ["p025"], ["p024", "p026"], ["p028", "p030"], ["p031"],
 ];
 
-test("Changsha preserves the approved private bilingual title, dates and scene-setting cover", () => {
+test("Changsha preserves the approved private bilingual identity with the requested Chayan Yuese cover", () => {
   assert.equal(document.slug, "changsha-2022");
   assert.equal(document.metadata.date, "2022-10-28");
   assert.equal(document.metadata.dateRange, "2022.10.28 — 10.30");
@@ -32,11 +32,16 @@ test("Changsha preserves the approved private bilingual title, dates and scene-s
     en: "Yuelu Breezes, Changsha Dreams",
   });
   assert.deepEqual(blocks[0].title, document.metadata.title);
-  assert.equal(blocks[0].backgroundImageId, "p028");
+  assert.equal(document.metadata.coverImageId, "cover-chayan-7141");
+  assert.equal(blocks[0].backgroundImageId, document.metadata.coverImageId);
+  const cover = document.images.find((image) => image.id === document.metadata.coverImageId);
+  assert.deepEqual([cover.width, cover.height], [2000, 1125]);
+  assert.match(cover.alt.zh, /茶颜悦色/);
+  assert.match(cover.alt.en, /Chayan Yuese/);
   const meta = tripDocumentToMeta(document, (filename) => `test:${filename}`);
   assert.equal(meta.private, true);
   assert.equal(meta.style, "classic");
-  assert.equal(meta.coverImage, "test:p028.webp");
+  assert.equal(meta.coverImage, "test:cover-chayan-7141.webp");
   assert.deepEqual(document.sections.map((section) => section.id), [
     "overview", "departure", "early-hours", "alleyways", "green-hills", "night-lights", "return",
   ]);
@@ -47,8 +52,10 @@ test("Changsha preserves the approved private bilingual title, dates and scene-s
   }
 });
 
-test("the exact 20 approved photographs remain in seven complete pairs and six natural singles", () => {
-  assert.deepEqual(document.images.map((image) => image.id), approvedRows.flat());
+test("the exact 20 approved story photographs remain unchanged alongside the separate cover", () => {
+  assert.deepEqual(document.images.map((image) => image.id), [
+    ...approvedRows.flat(), document.metadata.coverImageId,
+  ]);
   assert.deepEqual(galleries.map((gallery) => gallery.images.map((image) => image.imageId)), approvedRows);
   assert.equal(new Set(approvedRows.flat()).size, 20);
   assert.equal(galleries.filter((gallery) => gallery.layout === "two").length, 7);

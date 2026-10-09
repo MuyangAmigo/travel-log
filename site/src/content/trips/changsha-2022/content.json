@@ -4,7 +4,7 @@
   "metadata": {
     "date": "2022-10-28",
     "dateRange": "2022.10.28 — 10.30",
-    "coverImageId": "p028",
+    "coverImageId": "cover-chayan-7141",
     "title": {
       "zh": "岳麓听风，星城寻梦",
       "en": "Yuelu Breezes, Changsha Dreams"
@@ -234,6 +234,16 @@
         "zh": "两只饮料杯套写着星心上海，背景是室内灯光",
         "en": "Two drink cups with Star-heart-Shanghai sleeves against indoor lights"
       }
+    },
+    {
+      "id": "cover-chayan-7141",
+      "filename": "cover-chayan-7141.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "手举一杯咖啡，背景是茶颜悦色店铺的招牌",
+        "en": "A hand holding a cup of coffee in front of a Chayan Yuese shop sign"
+      }
     }
   ],
   "sections": [
@@ -386,7 +396,7 @@
             "zh": "这个长沙周末，我把日子留在了街巷、饭桌和山林之间。白天是坡子街一带的老楼、太平街密密的店招和茶颜悦色的杯子；下午换成绿树、白墙与一层叠着一层的灰瓦；到了晚上，又回到五一广场周边的灯光里。",
             "en": "I kept this Changsha weekend somewhere between the alleyways, the dinner table and the green hills. By day there were the old buildings around Pozi Street, the tightly packed signs along Taiping Street and cups from Chayan Yuese. In the afternoon, the scene changed to trees, white walls and layers of grey roof tiles; by evening, I was back among the lights around Wuyi Square."
           },
-          "backgroundImageId": "p028"
+          "backgroundImageId": "cover-chayan-7141"
         }
       ]
     },
