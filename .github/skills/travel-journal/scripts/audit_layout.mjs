@@ -101,8 +101,12 @@ export async function auditLayout({ selection, locale, imageAssets = [], selecto
         errors.push(`${label}: rendered peer frames differ by more than 2px`);
       }
     }
-    if (row.layout === "three" && view.innerWidth <= 760 && visualRows.some((group) => group.length !== 1)) {
-      errors.push(`${label}: three-image groups must stack on phones`);
+    if (row.layout === "three" && view.innerWidth <= 760) {
+      if (visualRows.some((group) => group.length !== 1)) {
+        errors.push(`${label}: three-image groups must stack on phones`);
+      } else if (frames.some((frame, index) => index > 0 && frame.y <= frames[index - 1].y)) {
+        errors.push(`${label}: phone stack does not preserve source order`);
+      }
     }
     if (visualRows.length > 1 && visualRows.some((group) => group.length !== visualRows[0].length)) {
       errors.push(`${label}: orphan image cell in rendered grid`);
