@@ -1206,7 +1206,7 @@
 
 .presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="beijing-winter-awakening-2022"])) {
   & :global(.trip-cover-image) {
-    object-position: center 35%;
+    object-position: center top;
   }
 
   & :global(.pgrid.g2),

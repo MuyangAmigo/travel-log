@@ -48,10 +48,11 @@ test("Beijing uses the approved private bilingual identity and cross-year dates"
     en: "Beijing, a Winter Back Outside",
   });
   assert.deepEqual(blocks[0].title, document.metadata.title);
-  assert.equal(blocks[0].backgroundImageId, "b028");
+  assert.equal(document.metadata.coverImageId, "b100");
+  assert.equal(blocks[0].backgroundImageId, document.metadata.coverImageId);
   const meta = tripDocumentToMeta(document, (filename) => `test:${filename}`);
   assert.equal(meta.private, true);
-  assert.equal(meta.coverImage, "test:b028.webp");
+  assert.equal(meta.coverImage, "test:b100.webp");
   assert.deepEqual(document.sections.map((section) => section.id), [
     "overview", "arrival", "universal", "city", "palace", "reflection", "spending",
   ]);
@@ -131,6 +132,11 @@ test("Beijing fills matched thumbnail frames without padding and preserves impor
   assert.match(css, /\[data-trip-style="photo-story"\]:has\([^{}]*\[data-trip-document="beijing-winter-awakening-2022"\]/);
   assert.match(css, /^\.presentation\[data-trip-style="photo-story"\]:has\(:global\(\[data-trip-document="beijing-winter-awakening-2022"\]\)\) \{/m);
   const scoped = css.slice(css.lastIndexOf('.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="beijing-winter-awakening-2022"]))'));
+  assert.match(scoped, /& :global\(\.trip-cover-image\) \{\s*object-position: center top;/);
+  const indexCss = readFileSync(resolve(directory, "../../../app/globals.css"), "utf8");
+  assert.ok(indexCss.includes(
+    '.trip-card:is([href$="/trips/beijing-winter-awakening-2022"], [href$="/trips/beijing-winter-awakening-2022/"]) .tc-media img {\n  object-position: center top;\n}'
+  ));
   assert.match(scoped, /object-fit: cover/);
   assert.doesNotMatch(scoped, /object-fit: contain/);
   assert.match(scoped, /aspect-ratio: 3 \/ 4/);
