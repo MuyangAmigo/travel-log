@@ -273,6 +273,7 @@ function renderBlock(
         <div
           key={block.id}
           className={classes("pgrid", GALLERY_LAYOUT_CLASS[block.layout], spacing)}
+          data-trip-block={block.id}
           style={galleryStyle}
         >
           {block.images.map((item, index) => {

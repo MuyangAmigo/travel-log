@@ -1,0 +1,2112 @@
+{
+  "version": 1,
+  "slug": "beijing-winter-awakening-2022",
+  "metadata": {
+    "date": "2022-12-29",
+    "dateRange": "2022.12.29 — 2023.01.01",
+    "coverImageId": "b028",
+    "title": {
+      "zh": "北京，重新出门的冬天",
+      "en": "Beijing, a Winter Back Outside"
+    },
+    "subtitle": {
+      "zh": "环球的蓝天，天坛的夕阳，故宫的新年",
+      "en": "Blue skies at Universal, dusk at the Temple of Heaven, a new year at the Forbidden City"
+    },
+    "location": {
+      "zh": "中国 · 北京",
+      "en": "Beijing, China"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "b001",
+      "filename": "b001.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "大兴机场内灯光照亮的曲线屋顶",
+        "en": "The curved roof of Daxing Airport lit from below"
+      }
+    },
+    {
+      "id": "b002",
+      "filename": "b002.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "酒店玻璃入口旁的圣诞树",
+        "en": "A Christmas tree beside a hotel's glass entrance"
+      }
+    },
+    {
+      "id": "b007",
+      "filename": "b007.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "蓝天下的 Universal CityWalk Beijing 招牌",
+        "en": "The Universal CityWalk Beijing sign beneath a blue sky"
+      }
+    },
+    {
+      "id": "b005",
+      "filename": "b005.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "环球地球仪前两名戴口罩的人合影",
+        "en": "Two masked travellers taking a photo in front of the Universal globe"
+      }
+    },
+    {
+      "id": "b011",
+      "filename": "b011.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "洗衣机主题布景旁的黄色小黄人",
+        "en": "Yellow Minions beside a washing-machine-themed set"
+      }
+    },
+    {
+      "id": "b013",
+      "filename": "b013.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "Sing 剧场的蓝色招牌与幕布",
+        "en": "A blue Sing theatre sign above the curtain"
+      }
+    },
+    {
+      "id": "b014",
+      "filename": "b014.webp",
+      "width": 1498,
+      "height": 1498,
+      "alt": {
+        "zh": "Sing 剧场绿色小窗里的角色",
+        "en": "A character in a small green window at the Sing theatre"
+      }
+    },
+    {
+      "id": "b015",
+      "filename": "b015.webp",
+      "width": 2044,
+      "height": 2044,
+      "alt": {
+        "zh": "红色舞台灯光下两名 Sing 角色",
+        "en": "Two Sing characters under red stage lighting"
+      }
+    },
+    {
+      "id": "b016",
+      "filename": "b016.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "Sing 剧场舞台上的多个角色",
+        "en": "Several characters on the Sing theatre stage"
+      }
+    },
+    {
+      "id": "b022",
+      "filename": "b022.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "城堡内手持物品的金色人物雕像",
+        "en": "A golden figure holding objects inside the castle"
+      }
+    },
+    {
+      "id": "b024",
+      "filename": "b024.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "石墙拱门中展翅的鸟形造型",
+        "en": "A winged bird figure inside an arched stone doorway"
+      }
+    },
+    {
+      "id": "b025",
+      "filename": "b025.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "挂满画像的城堡石墙与灯具",
+        "en": "Portraits and lamps on stone walls inside the castle"
+      }
+    },
+    {
+      "id": "b026",
+      "filename": "b026.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "城堡室内的桌椅、楼梯和黑板",
+        "en": "Tables, chairs, stairs and a board inside the castle"
+      }
+    },
+    {
+      "id": "b028",
+      "filename": "b028.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "蓝天下的霍格沃茨城堡与树木",
+        "en": "Hogwarts Castle and trees beneath a blue sky"
+      }
+    },
+    {
+      "id": "b021",
+      "filename": "b021.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "霍格沃茨入口前戴口罩的双人自拍",
+        "en": "A selfie of two masked travellers in front of Hogwarts"
+      }
+    },
+    {
+      "id": "b031",
+      "filename": "b031.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "霍格沃茨湖边手持纸杯的双人自拍",
+        "en": "Two masked travellers with paper cups beside the Hogwarts lake"
+      }
+    },
+    {
+      "id": "b032",
+      "filename": "b032.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "两只 Butterbeer 纸杯，背景为城堡",
+        "en": "Two Butterbeer paper cups with the castle behind"
+      }
+    },
+    {
+      "id": "b042",
+      "filename": "b042.webp",
+      "width": 1897,
+      "height": 1897,
+      "alt": {
+        "zh": "功夫熊猫巡游花车上的鼓与角色",
+        "en": "A drum and characters on a Kung Fu Panda parade float"
+      }
+    },
+    {
+      "id": "b044",
+      "filename": "b044.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "驯龙高手舞台上展翅的龙",
+        "en": "Dragons spreading their wings on the How to Train Your Dragon stage"
+      }
+    },
+    {
+      "id": "b045",
+      "filename": "b045.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "蓝天下手持武器的擎天柱雕像",
+        "en": "An Optimus Prime statue holding a weapon beneath a blue sky"
+      }
+    },
+    {
+      "id": "b047",
+      "filename": "b047.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "戴眼镜的人手持一只大肉腿",
+        "en": "A person wearing glasses holding a large meat leg"
+      }
+    },
+    {
+      "id": "b050",
+      "filename": "b050.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "功夫熊猫入口附近的双人合影",
+        "en": "Two masked travellers near the Kung Fu Panda entrance"
+      }
+    },
+    {
+      "id": "b054",
+      "filename": "b054.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "功夫熊猫区域的屋檐与彩色灯笼",
+        "en": "Rooftops and colourful lanterns in the Kung Fu Panda area"
+      }
+    },
+    {
+      "id": "b056",
+      "filename": "b056.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "功夫熊猫室内布景中的多个角色",
+        "en": "Several characters in an indoor Kung Fu Panda set"
+      }
+    },
+    {
+      "id": "b059",
+      "filename": "b059.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "商店里戴着熊猫帽子的戴眼镜人物",
+        "en": "A person wearing glasses and a panda hat in a shop"
+      }
+    },
+    {
+      "id": "b066",
+      "filename": "b066.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "暮色中的哈利波特街道和亮起的街灯",
+        "en": "Harry Potter streets and glowing lamps at dusk"
+      }
+    },
+    {
+      "id": "b070",
+      "filename": "b070.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "灯光秀中金红色的霍格沃茨尖塔",
+        "en": "Hogwarts spires in gold and red during the light show"
+      }
+    },
+    {
+      "id": "b088",
+      "filename": "b088.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "Bubba Gump 餐桌上的虾、饭、汤与饮料",
+        "en": "Shrimp, rice, soup and a drink on a Bubba Gump table"
+      }
+    },
+    {
+      "id": "b078",
+      "filename": "b078.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "环球圣诞装饰前的双人全身合影",
+        "en": "A full-length photo of two travellers in front of Universal Christmas decorations"
+      }
+    },
+    {
+      "id": "b093",
+      "filename": "b093.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "手持紫色和金色巧克力蛙包装",
+        "en": "A purple and gold Chocolate Frog package held in hand"
+      }
+    },
+    {
+      "id": "b095",
+      "filename": "b095.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "西城万豪房间内的床、椅子和阳光",
+        "en": "A bed, chair and sunlight in the Xicheng Marriott room"
+      }
+    },
+    {
+      "id": "b096",
+      "filename": "b096.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "酒店客房里戴口罩的双人自拍",
+        "en": "Two masked travellers taking a selfie in a hotel room"
+      }
+    },
+    {
+      "id": "b098",
+      "filename": "b098.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "天坛公园被冬日阳光照亮的树木步道",
+        "en": "A tree-lined path in the Temple of Heaven park lit by winter sunlight"
+      }
+    },
+    {
+      "id": "b100",
+      "filename": "b100.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "天坛祈年殿蓝瓦、红门和白色台阶",
+        "en": "Blue tiles, red doors and white steps at the Hall of Prayer for Good Harvests"
+      }
+    },
+    {
+      "id": "b102",
+      "filename": "b102.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "祈年殿前戴口罩的双人自拍",
+        "en": "Two masked travellers taking a selfie in front of the hall"
+      }
+    },
+    {
+      "id": "b104",
+      "filename": "b104.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "祈年殿前带虎头帽子滤镜的双人自拍",
+        "en": "A selfie in front of the hall with a tiger-hat filter"
+      }
+    },
+    {
+      "id": "b108",
+      "filename": "b108.webp",
+      "width": 2347,
+      "height": 2347,
+      "alt": {
+        "zh": "夕阳与天坛屋檐上的脊兽剪影",
+        "en": "The setting sun and roof-figure silhouettes at the Temple of Heaven"
+      }
+    },
+    {
+      "id": "b120",
+      "filename": "b120.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "天坛傍晚城市远景前的双人合影",
+        "en": "Two travellers with a distant city view at the Temple of Heaven at dusk"
+      }
+    },
+    {
+      "id": "b123",
+      "filename": "b123.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "大董厨师在餐桌旁片烤鸭",
+        "en": "A Da Dong chef carving roast duck beside a table"
+      }
+    },
+    {
+      "id": "b125",
+      "filename": "b125.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "白盘中绿色配菜与浅黄色汤汁",
+        "en": "A white plate with green vegetables and a pale yellow sauce"
+      }
+    },
+    {
+      "id": "b126",
+      "filename": "b126.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "白盘上的烤鸭皮、鸭肉与骨架",
+        "en": "Roast duck skin, meat and bones on a white plate"
+      }
+    },
+    {
+      "id": "b128",
+      "filename": "b128.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "白盘里的一份面条和深色酱料",
+        "en": "Noodles and a dark sauce on a white plate"
+      }
+    },
+    {
+      "id": "b135",
+      "filename": "b135.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "故宫大殿前向上延伸的白色石阶",
+        "en": "White stone steps leading towards a Forbidden City hall"
+      }
+    },
+    {
+      "id": "b140",
+      "filename": "b140.webp",
+      "width": 2400,
+      "height": 1107,
+      "alt": {
+        "zh": "故宫内戴口罩和讲解设备的双人合影",
+        "en": "Two masked travellers with audio equipment in the Forbidden City"
+      }
+    },
+    {
+      "id": "b144",
+      "filename": "b144.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "展柜内有建筑造型的装饰钟表",
+        "en": "A decorative architectural clock in a display case"
+      }
+    },
+    {
+      "id": "b145",
+      "filename": "b145.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "展柜内有花鸟装饰的钟表",
+        "en": "A clock decorated with flowers and birds in a display case"
+      }
+    },
+    {
+      "id": "b146",
+      "filename": "b146.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "黑色背景前高而细的金色钟表",
+        "en": "A tall, slender golden clock against a dark background"
+      }
+    },
+    {
+      "id": "b147",
+      "filename": "b147.webp",
+      "width": 1350,
+      "height": 2400,
+      "alt": {
+        "zh": "红色背景前楼阁造型的钟表",
+        "en": "A pavilion-shaped clock against a red background"
+      }
+    },
+    {
+      "id": "b150",
+      "filename": "b150.webp",
+      "width": 1204,
+      "height": 1204,
+      "alt": {
+        "zh": "故宫地砖上两个人的影子",
+        "en": "Two people's shadows on the Forbidden City paving"
+      }
+    },
+    {
+      "id": "b161",
+      "filename": "b161.webp",
+      "width": 949,
+      "height": 1687,
+      "alt": {
+        "zh": "琉璃红墙前两名戴口罩的人全身合影",
+        "en": "A full-length photo of two masked travellers in front of a glazed red wall"
+      }
+    },
+    {
+      "id": "b165",
+      "filename": "b165.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "展柜中蓝色装饰的冠饰",
+        "en": "A headdress with blue decorations in a display case"
+      }
+    },
+    {
+      "id": "b166",
+      "filename": "b166.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "蓝色冠饰上的金色和珍珠色装饰近景",
+        "en": "Gold and pearl-coloured details on a blue headdress"
+      }
+    },
+    {
+      "id": "b168",
+      "filename": "b168.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "展柜中镶嵌彩色装饰的三件器物",
+        "en": "Three objects with colourful decorations in a display case"
+      }
+    },
+    {
+      "id": "b169",
+      "filename": "b169.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "红色底面上花口形状的装饰器物",
+        "en": "A decorative object with a flower-shaped opening on a red base"
+      }
+    },
+    {
+      "id": "b172",
+      "filename": "b172.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "故宫九龙壁与白色石栏和天空",
+        "en": "The Nine-Dragon Wall, a white stone railing and the sky"
+      }
+    },
+    {
+      "id": "b173",
+      "filename": "b173.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "两侧故宫红墙夹着蓝色和黄色天空",
+        "en": "A passage between red Forbidden City walls beneath a blue and yellow sky"
+      }
+    },
+    {
+      "id": "b174",
+      "filename": "b174.webp",
+      "width": 2400,
+      "height": 2400,
+      "alt": {
+        "zh": "文创体验馆前并排的小猫摆件",
+        "en": "Cat figures in a row outside the cultural-products shop"
+      }
+    },
+    {
+      "id": "b175",
+      "filename": "b175.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "木桌上两只印着故宫图案的纸杯",
+        "en": "Two paper cups with Forbidden City designs on a wooden table"
+      }
+    },
+    {
+      "id": "b177",
+      "filename": "b177.webp",
+      "width": 2400,
+      "height": 1800,
+      "alt": {
+        "zh": "神武门上的故宫博物院牌匾",
+        "en": "The Palace Museum sign on Shenwu Gate"
+      }
+    },
+    {
+      "id": "b179",
+      "filename": "b179.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "故宫角楼、冬日树木与结冰水面",
+        "en": "A Forbidden City corner tower, winter trees and frozen water"
+      }
+    },
+    {
+      "id": "b182",
+      "filename": "b182.webp",
+      "width": 1800,
+      "height": 2400,
+      "alt": {
+        "zh": "手持故宫图案纸杯，背景为角楼",
+        "en": "A paper cup with a Forbidden City design held in front of a corner tower"
+      }
+    },
+    {
+      "id": "b183",
+      "filename": "b183.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": {
+        "zh": "轨道交通车厢里两名戴口罩的人合影",
+        "en": "Two masked travellers together inside a train carriage"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "序",
+          "en": "Opening"
+        },
+        "label": {
+          "zh": "冬天重新出门",
+          "en": "Back outside in winter"
+        },
+        "detail": {
+          "zh": "2022.12.29 — 2023.01.01",
+          "en": "2022.12.29 — 2023.01.01"
+        }
+      }
+    },
+    {
+      "id": "arrival",
+      "navigation": {
+        "marker": {
+          "zh": "12.29",
+          "en": "12.29"
+        },
+        "label": {
+          "zh": "夜里抵达北京",
+          "en": "Arriving in Beijing at night"
+        },
+        "detail": {
+          "zh": "虹桥 → 大兴 → 环球附近酒店",
+          "en": "Hongqiao → Daxing → a hotel near Universal"
+        }
+      }
+    },
+    {
+      "id": "universal",
+      "navigation": {
+        "marker": {
+          "zh": "12.30",
+          "en": "12.30"
+        },
+        "label": {
+          "zh": "把一天留在电影里",
+          "en": "A day in the movies"
+        },
+        "detail": {
+          "zh": "10:30 入园 · 从小黄人到城堡灯光",
+          "en": "Park entry at 10:30 · from Minions to the castle lights"
+        }
+      }
+    },
+    {
+      "id": "city",
+      "navigation": {
+        "marker": {
+          "zh": "12.31",
+          "en": "12.31"
+        },
+        "label": {
+          "zh": "冬日散步，晚上吃烤鸭",
+          "en": "A winter walk, then roast duck"
+        },
+        "detail": {
+          "zh": "西城万豪 · 天坛 · SKP · 大董 · SPA",
+          "en": "Xicheng Marriott · Temple of Heaven · SKP · Da Dong · spa"
+        }
+      }
+    },
+    {
+      "id": "palace",
+      "navigation": {
+        "marker": {
+          "zh": "01.01",
+          "en": "01.01"
+        },
+        "label": {
+          "zh": "把新年的第一天留给故宫",
+          "en": "New Year's Day at the Forbidden City"
+        },
+        "detail": {
+          "zh": "钟表 · 红墙 · 珍宝 · 角楼 · 返沪",
+          "en": "Clocks · red walls · treasures · corner tower · home"
+        }
+      }
+    },
+    {
+      "id": "reflection",
+      "navigation": {
+        "marker": {
+          "zh": "回望",
+          "en": "Looking back"
+        },
+        "label": {
+          "zh": "回头看",
+          "en": "Looking back"
+        },
+        "detail": {
+          "zh": "好的和不那么好的，都留着",
+          "en": "Keeping both the good and the less good"
+        }
+      }
+    },
+    {
+      "id": "spending",
+      "navigation": {
+        "marker": {
+          "zh": "小账",
+          "en": "Notes"
+        },
+        "label": {
+          "zh": "当时记下的小账",
+          "en": "The costs I wrote down"
+        },
+        "detail": {
+          "zh": "只记有来源的费用，不凑全程总价",
+          "en": "Only recorded costs, not an invented trip total"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "overview-page",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "BEIJING · PHOTO DIARY",
+            "en": "BEIJING · PHOTO DIARY"
+          },
+          "title": {
+            "zh": "北京，重新出门的冬天",
+            "en": "Beijing, a Winter Back Outside"
+          },
+          "subtitle": {
+            "zh": "环球的蓝天，天坛的夕阳，故宫的新年",
+            "en": "Blue skies at Universal, dusk at the Temple of Heaven, a new year at the Forbidden City"
+          },
+          "date": {
+            "zh": "2022.12.29 — 2023.01.01",
+            "en": "29 December 2022 — 1 January 2023"
+          },
+          "intro": {
+            "zh": "经历了 2022 年上海封城，又刚刚从新冠里恢复，我在这一年的尾巴上去了北京。那时北京人很少，旅行体验很好。这趟行程的重头戏是环球影城和故宫：一边是电影里的世界，一边是北京的宫殿，中间还夹着一个冬日散步、吃烤鸭的下午和晚上。",
+            "en": "After Shanghai's lockdown in 2022, and having just recovered from COVID, I went to Beijing at the very end of the year. There were very few people around then, and the trip was a really good experience. Universal Studios and the Forbidden City were the two main stops: a world from the movies on one side, Beijing's palaces on the other, with a winter afternoon walk and an evening of roast duck in between."
+          },
+          "backgroundImageId": "b028"
+        },
+        {
+          "id": "story-02",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "翻回相册，口罩和厚外套出现在一张张合影里。蓝天底下的霍格沃茨、傍晚的祈年殿、元旦的红墙和角楼，都留在了这次重新出门的旅行里。",
+              "en": "Looking back through the album, masks and thick coats appear in photo after photo together. Hogwarts beneath a blue sky, the Hall of Prayer for Good Harvests at dusk, and the red walls and corner tower on New Year's Day all became part of this first trip back outside."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrival-page",
+      "sectionId": "arrival",
+      "blocks": [
+        {
+          "id": "arrival-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "12.29",
+            "en": "12.29"
+          },
+          "title": {
+            "zh": "夜里抵达北京",
+            "en": "Arriving in Beijing at night"
+          },
+          "subtitle": {
+            "zh": "虹桥 → 大兴 → 环球附近酒店",
+            "en": "Hongqiao → Daxing → a hotel near Universal"
+          }
+        },
+        {
+          "id": "story-03",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "周四晚上从虹桥出发，飞到北京大兴。相册里的第一张，是大兴机场伸展开的屋顶，灯光照着那些弯曲的线条。到了北京，这趟旅行才真正开始。",
+              "en": "On Thursday evening I flew from Hongqiao to Beijing Daxing. The first picture in the album shows the airport's sweeping roof, with lights tracing its curves. Once I was in Beijing, the trip had really begun."
+            }
+          ]
+        },
+        {
+          "id": "r001",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b001",
+              "shape": "wide",
+              "caption": {
+                "zh": "大兴机场的第一张照片，给这趟北京留一个夜间开头。",
+                "en": "The first picture at Daxing Airport gives the trip a night-time opening."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-04",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "落地后打车去环球附近的酒店，原笔记里记着这段路大约一个小时，180 元。到酒店已经是夜里，门口还摆着圣诞树。第一晚没有再安排景点，落地、入住、休整，把明天留给环球。",
+              "en": "After landing, I took a taxi to a hotel near Universal. My original notes put that journey at about an hour and RMB 180. It was already night when I reached the hotel, and a Christmas tree still stood by the entrance. There were no more sights planned for the first evening: arrive, check in and rest, leaving the next day for Universal."
+            }
+          ]
+        },
+        {
+          "id": "r002",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b002",
+              "caption": {
+                "zh": "酒店门口还留着圣诞装饰，第一晚就先落地、入住、休整。",
+                "en": "Christmas decorations still stood by the hotel: arrive, check in and rest."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "universal-page",
+      "sectionId": "universal",
+      "blocks": [
+        {
+          "id": "universal-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "12.30",
+            "en": "12.30"
+          },
+          "title": {
+            "zh": "把一天留在电影里",
+            "en": "A day in the movies"
+          },
+          "subtitle": {
+            "zh": "10:30 入园 · 从小黄人到城堡灯光",
+            "en": "Park entry at 10:30 · from Minions to the castle lights"
+          }
+        },
+        {
+          "id": "story-05",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从酒店坐地铁到环球，路上大约 20 分钟。当天是 10:30 才入园，在那之前，先给地球仪和 CityWalk 留了照片。招牌后面是没有叶子的树，头顶则是很蓝的天空。",
+              "en": "The metro ride from the hotel to Universal took about 20 minutes. I didn't enter the park until 10:30 that day; before that, there were photographs of the globe and CityWalk. Behind the sign stood bare trees, beneath a very blue sky."
+            }
+          ]
+        },
+        {
+          "id": "r028",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b007",
+              "caption": {
+                "zh": "10:25 的 CityWalk 招牌；10:30 入园前，先把蓝天留下。",
+                "en": "The CityWalk sign at 10:25, before entering the park at 10:30."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-06",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "地球仪前拍了合影，进园后接着走到小黄人的世界。蓝天、黄色的小黄人和那些电影里的布景，一下子把照片里的颜色换了个样。",
+              "en": "We took a photo together in front of the globe, then headed into the Minions' world after entering the park. The blue sky, yellow Minions and movie sets suddenly changed the colours in the album."
+            }
+          ]
+        },
+        {
+          "id": "r003",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b005",
+              "shape": "square",
+              "caption": {
+                "zh": "10:24，入园前的地球仪合影；11:22，进园后的小黄人世界。",
+                "en": "10:24, together by the globe before entry; 11:22, the Minions' world inside the park."
+              }
+            },
+            {
+              "imageId": "b011",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "story-07",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "上午先逛小黄人，再看 Sing 音乐之声。进了剧场，照片里的蓝天换成了舞台灯光。招牌、小窗里的角色、红色灯光下的表演，再到整个舞台，都留在了这一段相册里。",
+              "en": "The morning began with Minions, followed by Sing on Tour. Inside the theatre, blue sky gave way to stage lighting. The sign, a character in a little window, the performance under red lights and then the whole stage all made it into this part of the album."
+            }
+          ]
+        },
+        {
+          "id": "r004-details",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "b013",
+              "shape": "square",
+              "caption": {
+                "zh": "剧场招牌、小窗里的角色和红色灯光下的表演。",
+                "en": "The theatre sign, a character in a window and a performance under red lights."
+              }
+            },
+            {
+              "imageId": "b014",
+              "shape": "square"
+            },
+            {
+              "imageId": "b015",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "r004-stage",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b016",
+              "shape": "wide",
+              "caption": {
+                "zh": "Sing 音乐之声的完整舞台。",
+                "en": "The complete Sing on Tour stage."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-08",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "然后是哈利波特。进了城堡，光线暗下来，石墙、雕像和挂满画像的墙面把场景换成了另外一种样子。镜头里还有楼梯、桌椅和展翅的造型，连这些室内细节也都拍了下来。",
+              "en": "Harry Potter came next. Inside the castle, the light dimmed, and stone walls, statues and a wall full of portraits changed the scene again. There were stairs, tables and chairs, and a winged figure in the pictures too; I photographed those indoor details as well."
+            }
+          ]
+        },
+        {
+          "id": "r029-statue",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b022",
+              "caption": {
+                "zh": "城堡里的雕像，从帽尖到基座完整留下。",
+                "en": "A castle statue, kept whole from its hat to its base."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r029-bird",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b024",
+              "caption": {
+                "zh": "石墙拱门里展翅的造型。",
+                "en": "A winged figure inside an arched stone doorway."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r029-interior",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b025",
+              "shape": "wide",
+              "caption": {
+                "zh": "画像墙与室内布景，保留两张完整横幅。",
+                "en": "The portrait wall and indoor set, keeping both complete landscape compositions."
+              }
+            },
+            {
+              "imageId": "b026",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "story-09",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再走到室外，霍格沃茨的尖塔立在蓝天里，城堡下面还有树和水面。白天先给城堡拍一张完整的照片，也把自己留在它前面。",
+              "en": "Back outside, Hogwarts' spires stood against the blue sky, with trees and water below. I took a photograph of the whole castle in daylight, and made sure we appeared in front of it too."
+            }
+          ]
+        },
+        {
+          "id": "r005",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b028",
+              "shape": "wide",
+              "caption": {
+                "zh": "白天的霍格沃茨；封面复用这一张，不增加选片数量。",
+                "en": "Hogwarts by day; this photograph is also the cover, not an extra selection."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-10",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "同一个城堡，入口前和湖边的合影还是不一样。站在湖边时，两只纸杯也一起进了镜头。后来晚上还会再回来，这会儿先留下它在阳光里的样子。",
+              "en": "It was the same castle, but the photos together by the entrance and beside the lake were different. By the lake, two paper cups came into the frame as well. We would return later that evening; for now, I kept its sunlit appearance."
+            }
+          ]
+        },
+        {
+          "id": "r006",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b021",
+              "shape": "landscape",
+              "caption": {
+                "zh": "入口前与湖边，给同一个城堡留下两种合影。",
+                "en": "Two photos together at the same castle: by the entrance and beside the lake."
+              }
+            },
+            {
+              "imageId": "b031",
+              "shape": "landscape"
+            }
+          ]
+        },
+        {
+          "id": "story-11",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "纸杯上印着 Butterbeer。把两只杯子凑到一起，城堡就暂时退到了背景里。这也是这一段相册里的小小停顿，接下来还要继续往前逛。",
+              "en": "Butterbeer was printed on the paper cups. Bringing the two cups together made the castle recede into the background for a moment. It was a little pause in this part of the album, before continuing around the park."
+            }
+          ]
+        },
+        {
+          "id": "r030",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b032",
+              "caption": {
+                "zh": "印着 Butterbeer 的纸杯，让城堡暂时退到背景里。",
+                "en": "Cups marked Butterbeer, letting the castle recede into the background for a moment."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-12",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "午餐之后接着看花车巡游，再去看驯龙高手。巡游里有功夫熊猫的花车，剧场里则是张开翅膀的龙。一天就这样在不同电影的场景之间切换。",
+              "en": "After lunch came the parade, followed by How to Train Your Dragon. The parade had a Kung Fu Panda float; in the theatre, a dragon spread its wings. The day kept shifting between scenes from different films."
+            }
+          ]
+        },
+        {
+          "id": "r007-parade",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b042",
+              "caption": {
+                "zh": "巡游里的功夫熊猫花车。",
+                "en": "The Kung Fu Panda parade float."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r007-stage",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b044",
+              "shape": "wide",
+              "caption": {
+                "zh": "驯龙高手的舞台，张开的翅膀也保留在画面里。",
+                "en": "The How to Train Your Dragon stage, with the spread wings kept in the frame."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-13",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午继续走变形金刚、侏罗纪公园，再到功夫熊猫。擎天柱举着武器站在蓝天下，另一张照片却是手里拿着一只大肉腿——游乐园里除了那些大场面，也有这样的吃东西小插曲。",
+              "en": "In the afternoon we continued through Transformers and Jurassic Park, then Kung Fu Panda. Optimus Prime stood beneath the blue sky holding his weapon; another photograph showed a large meat leg held in hand. Alongside the park's big spectacles, there were these little food moments too."
+            }
+          ]
+        },
+        {
+          "id": "r008-optimus",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b045",
+              "caption": {
+                "zh": "蓝天下的擎天柱。",
+                "en": "Optimus Prime beneath the blue sky."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r008-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b047",
+              "caption": {
+                "zh": "游乐园里的小插曲：手里这一只大肉腿。",
+                "en": "A little park moment: the large meat leg in hand."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-14",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "功夫熊猫这边是灯笼、屋檐和“平先生面馆”。逛到商店，还留下了一张戴熊猫帽子的照片，毛茸茸的帽子和身后的货架一起留在了镜头里。",
+              "en": "The Kung Fu Panda area had lanterns, rooftops and Mr. Ping's Noodle Shop. In a shop, I also took a photograph of a panda hat being worn, with its fluffy shape and the shelves behind it both in the frame."
+            }
+          ]
+        },
+        {
+          "id": "r009-scenes",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "b050",
+              "shape": "wide",
+              "caption": {
+                "zh": "入口合影、灯笼和功夫熊猫角色布景。",
+                "en": "A photograph together by the entrance, lanterns and the Kung Fu Panda set."
+              }
+            },
+            {
+              "imageId": "b054",
+              "shape": "wide"
+            },
+            {
+              "imageId": "b056",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "r009-hat",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b059",
+              "caption": {
+                "zh": "商店里的熊猫帽子，耳朵和绒球都留下。",
+                "en": "A panda hat in the shop, keeping its ears and pom-poms in the frame."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-15",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "天暗下来以后，回去二刷哈利波特。屋顶上的白色装饰、亮起来的街灯，和中午完全不是同一种光线。等城堡灯光秀开始，尖塔又被染上了不同的颜色；同一座城堡，从白天一直看到晚上。",
+              "en": "After dark we returned to Harry Potter for a second visit. The white decorations on the rooftops and the glowing street lamps were in a completely different light from midday. When the castle light show began, its spires took on different colours again: the same castle, seen from daylight into the evening."
+            }
+          ]
+        },
+        {
+          "id": "r010-street",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b066",
+              "shape": "wide",
+              "caption": {
+                "zh": "二刷哈利波特，先走过暮色里的街道。",
+                "en": "Back in Harry Potter, starting with the street at dusk."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r010-lights",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b070",
+              "caption": {
+                "zh": "城堡亮灯，尖塔和光束都完整保留。",
+                "en": "The illuminated castle, keeping the spires and light beams whole."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-16",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚餐吃了 Bubba Gump。照片里有虾、米饭、汤和饮料，品牌也明明白白印在杯子上。不过这顿饭我不推荐，性价比偏低。环球附近没有好吃的餐厅，也是这次留下的遗憾：如果打算出园找饭吃，还是得提前做点准备。",
+              "en": "Dinner was at Bubba Gump. The photographs show shrimp, rice, soup and a drink, with the brand clearly printed on the cup. But I wouldn't recommend this meal; it wasn't good value. The lack of good restaurants around Universal was another disappointment from the trip. If planning to leave the park to find dinner, it pays to prepare beforehand."
+            }
+          ]
+        },
+        {
+          "id": "r011",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b088",
+              "caption": {
+                "zh": "Bubba Gump 的一桌饭；照片留下了，性价比不高的感受也留下。",
+                "en": "A table at Bubba Gump; the photographs stay, and so does the poor-value verdict."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-17",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "夜里继续逛、购物，最后回酒店。圣诞装饰前的全身合影和回酒店后拍下的巧克力蛙包装，给这一天留了两个小小的收尾。玩了一整天，回头看相册，人物和电影场景都没有缺席。",
+              "en": "There was more wandering and shopping that evening, before returning to the hotel. A full-length photo together in front of the Christmas decorations and a picture of a Chocolate Frog package back at the hotel gave the day two small closing moments. Looking through the album after a full day out, neither the people nor the movie scenes were missing."
+            }
+          ]
+        },
+        {
+          "id": "r012-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b078",
+              "caption": {
+                "zh": "19:35 的节日合影，从头到脚完整留下。",
+                "en": "The festive photo at 19:35, kept whole from head to feet."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r012-souvenir",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b093",
+              "caption": {
+                "zh": "23:01，回酒店后拍下的巧克力蛙包装。",
+                "en": "23:01, a Chocolate Frog package photographed back at the hotel."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-page",
+      "sectionId": "city",
+      "blocks": [
+        {
+          "id": "city-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "12.31",
+            "en": "12.31"
+          },
+          "title": {
+            "zh": "冬日散步，晚上吃烤鸭",
+            "en": "A winter walk, then roast duck"
+          },
+          "subtitle": {
+            "zh": "西城万豪 · 天坛 · SKP · 大董 · SPA",
+            "en": "Xicheng Marriott · Temple of Heaven · SKP · Da Dong · spa"
+          }
+        },
+        {
+          "id": "story-18",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从环球这边转去北京市区，坐地铁大约一个半小时，换住西城万豪。下午的房间照片里，阳光落在床边和椅子上；也在房间里留了一张合影。",
+              "en": "We moved from the Universal area into central Beijing, taking the metro for about an hour and a half and switching to the Xicheng Marriott. In the afternoon room photograph, sunlight fell beside the bed and chair; we took a photo together in the room as well."
+            }
+          ]
+        },
+        {
+          "id": "r013",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b095",
+              "shape": "wide",
+              "caption": {
+                "zh": "转到市区后，阳光里的房间与房间里的合影。",
+                "en": "After moving into the city: a sunlit room and a photograph together inside it."
+              }
+            },
+            {
+              "imageId": "b096",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "story-19",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午去公园散步。冬天的树枝已经空了，阳光把步道旁的树干照得很亮。走过这样的路，再往前，照片里就出现了祈年殿。",
+              "en": "In the afternoon we went for a walk in the park. The winter branches were bare, and sunlight lit the tree trunks beside the path. Further along that walk, the Hall of Prayer for Good Harvests appeared in the photographs."
+            }
+          ]
+        },
+        {
+          "id": "r014",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b098",
+              "shape": "wide",
+              "caption": {
+                "zh": "冬天的枝条空了，步道上的阳光还很亮。",
+                "en": "The winter branches are bare, but the light along the path is still bright."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-20",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这天下午去的是天坛，门票 40 元。祈年殿的蓝瓦、红门和白色台阶都很清楚，殿前还有可以慢慢走、慢慢拍照的空间。",
+              "en": "That afternoon's visit was to the Temple of Heaven, with admission costing RMB 40. The hall's blue tiles, red doors and white steps were clear, and there was room in front of it to walk and take photographs at our own pace."
+            }
+          ]
+        },
+        {
+          "id": "r015",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b100",
+              "caption": {
+                "zh": "冬日的祈年殿：这天下午去天坛，门票 40 元。",
+                "en": "The Hall of Prayer for Good Harvests: an afternoon at the Temple of Heaven, admission RMB 40."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-21",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "除了建筑，也拍了合影。正常的自拍留一张，加上虎头帽子滤镜的也留一张；同一座祈年殿前，照片可以很认真，也可以很不认真。",
+              "en": "There were photos together as well as buildings. I kept an ordinary selfie and another with a tiger-hat filter: in front of the same hall, the photographs could be serious or not serious at all."
+            }
+          ]
+        },
+        {
+          "id": "r016",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b102",
+              "shape": "wide",
+              "caption": {
+                "zh": "祈年殿前的两个版本：一张正常合影，一张虎头帽子滤镜。",
+                "en": "Two versions in front of the hall: an ordinary selfie and a tiger-hat filter."
+              }
+            },
+            {
+              "imageId": "b104",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "story-22",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "太阳往下落的时候，屋檐和脊兽变成了剪影。再往外看，是冬天的树和远处的城市。又留下了一张合影，这个下午就从有阳光的步道，走到了傍晚。",
+              "en": "As the sun sank, the eaves and roof figures became silhouettes. Looking out further, there were winter trees and the distant city. We took another photograph together, and the afternoon moved from the sunlit path into dusk."
+            }
+          ]
+        },
+        {
+          "id": "r017-sunset",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b108",
+              "caption": {
+                "zh": "天坛屋檐下的夕阳，太阳和脊兽都留在画面里。",
+                "en": "Sunset beneath the Temple of Heaven eaves, keeping the sun and roof figures in the frame."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r017-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b120",
+              "shape": "wide",
+              "caption": {
+                "zh": "傍晚再留一张合影。",
+                "en": "One more photograph together at dusk."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-23",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上逛 SKP，吃大董烤鸭。厨师在桌边片鸭的过程和片好的鸭肉都拍下来了，桌上的其他菜和一盘面也留了照片。大董是这趟我愿意推荐的一餐，和前一天那顿性价比不高的晚餐，刚好形成对照。",
+              "en": "That evening we visited SKP and ate Da Dong roast duck. I photographed the chef carving the duck beside the table and the sliced meat afterwards, along with other dishes and a plate of noodles. Da Dong was a meal I would recommend, a contrast to the previous evening's poor-value dinner."
+            }
+          ]
+        },
+        {
+          "id": "r018",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "b123",
+              "shape": "square",
+              "caption": {
+                "zh": "桌边片鸭、烤鸭与餐桌上的其他两道菜，大董是这趟推荐的一餐。",
+                "en": "Duck carved beside the table, sliced duck and two other dishes: Da Dong was a meal to recommend."
+              }
+            },
+            {
+              "imageId": "b125",
+              "shape": "square"
+            },
+            {
+              "imageId": "b126",
+              "shape": "square"
+            },
+            {
+              "imageId": "b128",
+              "shape": "square"
+            }
+          ]
+        },
+        {
+          "id": "story-24",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "夜里还安排了 SPA。另一个吃饭的小遗憾，是想吃八爷涮肉，没排上。把它记在这里：北京这趟并不是每顿都满意，也不是每家想去的店都吃到了。",
+              "en": "There was a spa visit that night too. Another food disappointment was wanting to eat at Baye Shuanrou but not getting a table. It belongs in the record: not every meal in Beijing was satisfying, and we didn't get to every restaurant we had wanted to try."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-page",
+      "sectionId": "palace",
+      "blocks": [
+        {
+          "id": "palace-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "01.01",
+            "en": "01.01"
+          },
+          "title": {
+            "zh": "把新年的第一天留给故宫",
+            "en": "New Year's Day at the Forbidden City"
+          },
+          "subtitle": {
+            "zh": "钟表 · 红墙 · 珍宝 · 角楼 · 返沪",
+            "en": "Clocks · red walls · treasures · corner tower · home"
+          }
+        },
+        {
+          "id": "story-25",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "元旦留给故宫，从酒店坐地铁过去，笔记里记着大约 20 分钟。前两天相册里还是电影城堡和冬日公园，到了这一天，就换成了真正的宫殿、石阶和一层层的屋顶。",
+              "en": "New Year's Day was for the Forbidden City; my notes put the metro ride from the hotel at about 20 minutes. The previous two days in the album had movie castles and a winter park. This day brought real palaces, stone steps and layers of rooftops."
+            }
+          ]
+        },
+        {
+          "id": "r019",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b135",
+              "shape": "wide",
+              "caption": {
+                "zh": "新年的第一天，从故宫大殿前的石阶展开。",
+                "en": "New Year's Day opens out across the steps in front of a Forbidden City hall."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-26",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "在殿前留一张合影，口罩、厚外套和挂在脖子上的讲解设备也一起进了镜头。",
+              "en": "We took a photograph together in front of a hall, with masks, thick coats and the audio equipment hanging around our necks all in the frame."
+            }
+          ]
+        },
+        {
+          "id": "r032",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b140",
+              "caption": {
+                "zh": "殿前的一张合影，口罩、外套和讲解设备也一起留着。",
+                "en": "A photograph together in front of the hall, with masks, coats and audio equipment."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-27",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "我在笔记里专门留下了“推荐跟着讲解走”。宫殿之外，钟表馆和珍宝馆也都值得逛。钟表的装饰有建筑，有花和鸟，从白色的石阶走进展厅，照片的颜色和细节又变了一回。",
+              "en": "I specifically noted that following an explanation of the sights was worth recommending. Beyond the palaces, the Gallery of Clocks and the Gallery of Treasures were both worth visiting. Buildings, flowers and birds appeared in the clocks' decorations; walking from the white stone steps into the exhibition rooms changed the colours and details in the photographs again."
+            }
+          ]
+        },
+        {
+          "id": "r020-clock",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b144",
+              "caption": {
+                "zh": "钟表里的建筑造型。",
+                "en": "Architecture in a clock's decoration."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r020-flowers",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b145",
+              "caption": {
+                "zh": "另一件钟表上的花和鸟。",
+                "en": "Flowers and birds on another clock."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r020-tall",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b146",
+              "shape": "portrait",
+              "caption": {
+                "zh": "两件高而细的钟表，用相同比例保留完整器物。",
+                "en": "Two tall, slender clocks, kept whole in matching frames."
+              }
+            },
+            {
+              "imageId": "b147",
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "story-28",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走到室外，地砖上还留下一张两个人的影子。那些宫殿和展品是故宫的样子，这样的小照片，则是这一趟旅行里的样子。",
+              "en": "Outside, there was also a photograph of two people's shadows on the paving. The palaces and exhibits showed the Forbidden City; these little photographs showed this particular trip."
+            }
+          ]
+        },
+        {
+          "id": "r021",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b150",
+              "caption": {
+                "zh": "地砖上的两道影子，也是旅行里值得留下的小照片。",
+                "en": "Two shadows on the paving are a small photograph worth keeping too."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-29",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "院子里的红墙、琉璃纹样和阳光，也是很好的合影背景。穿着厚外套站在墙前，连脚下的影子也一起留了下来。",
+              "en": "The red walls, glazed patterns and sunlight in the courtyard made a good background for a photo together. Standing in front of the wall in thick coats, we kept our shadows at our feet in the picture too."
+            }
+          ]
+        },
+        {
+          "id": "r022",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b161",
+              "caption": {
+                "zh": "阳光里的红墙合影，连脚下的地面和影子一起保留。",
+                "en": "Together by the sunlit red wall, keeping the ground and shadows in the frame."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-30",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再往展柜里看，是蓝色的冠饰和嵌着不同颜色装饰的器物。从大殿的屋檐到展柜里的小小纹样，故宫这一天的照片里，有很大的场面，也有很细的东西。",
+              "en": "Back in the display cases were blue headdresses and objects decorated in different colours. From the eaves of the great halls to tiny patterns inside the cases, the Forbidden City photographs held both big scenes and small details."
+            }
+          ]
+        },
+        {
+          "id": "r023-overview",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b165",
+              "shape": "wide",
+              "caption": {
+                "zh": "冠饰与展柜中的一组器物，先看完整形态。",
+                "en": "A headdress and a group of objects in a case, starting with their complete forms."
+              }
+            },
+            {
+              "imageId": "b168",
+              "shape": "wide"
+            }
+          ]
+        },
+        {
+          "id": "r023-details",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b166",
+              "shape": "portrait",
+              "caption": {
+                "zh": "同一段参观的两个细节：冠饰纹样与花口器物。",
+                "en": "Two details from the same visit: headdress patterns and a flower-shaped opening."
+              }
+            },
+            {
+              "imageId": "b169",
+              "shape": "portrait"
+            }
+          ]
+        },
+        {
+          "id": "story-31",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "看过展柜，再走过九龙壁和两侧的红墙。屋檐和天空之间留下了很长的线条，冬天的光把墙面照得一半亮、一半暗。",
+              "en": "After the displays came the Nine-Dragon Wall and the passage between red walls. Long lines stretched between the eaves and the sky, and winter light left the walls partly bright and partly in shade."
+            }
+          ]
+        },
+        {
+          "id": "r024-wall",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b172",
+              "shape": "wide",
+              "caption": {
+                "zh": "走出展柜，完整的九龙壁把视线拉回室外。",
+                "en": "Back outside after the displays, the complete Nine-Dragon Wall."
+              }
+            }
+          ]
+        },
+        {
+          "id": "r024-passage",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b173",
+              "caption": {
+                "zh": "两侧红墙夹着天空的通道。",
+                "en": "A passage between red walls beneath the sky."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-32",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "出宫前后，还拍了文创体验馆前的猫咪摆件，随后相册里出现了两只故宫图案的纸杯。角楼咖啡是我在笔记里留下的推荐，盖章打卡也被记在了推荐里。这些小事，和看宫殿、逛展馆一起，组成了元旦这一天。",
+              "en": "Around the end of the visit, I photographed the cat figures outside the cultural-products shop; two paper cups with Forbidden City designs then appeared in the album. Corner Tower Café was a recommendation in my notes, as was collecting souvenir stamps. Those little things, alongside the palaces and exhibitions, made up New Year's Day."
+            }
+          ]
+        },
+        {
+          "id": "r025",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "b174",
+              "shape": "landscape",
+              "caption": {
+                "zh": "文创体验馆前的小猫，与随后留下的两只故宫图案纸杯。",
+                "en": "Cats outside the cultural-products shop, followed by two cups with Forbidden City designs."
+              }
+            },
+            {
+              "imageId": "b175",
+              "shape": "landscape"
+            }
+          ]
+        },
+        {
+          "id": "story-33",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走到神武门，门楼上的“故宫博物院”也留进了相册。看过里面的宫殿和展柜，再回头看这一块牌匾，故宫这一天已经走到了出宫的时候。",
+              "en": "At Shenwu Gate, the Palace Museum sign on the gatehouse went into the album too. After the palaces and display cases inside, looking back at that sign marked the point when it was time to leave."
+            }
+          ]
+        },
+        {
+          "id": "r031",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b177",
+              "caption": {
+                "zh": "走到神武门，故宫博物院的牌匾也留进了相册。",
+                "en": "At Shenwu Gate, the Palace Museum sign joins the album."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-34",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "傍晚的角楼在冰面后面，树已经没有叶子，天空还是蓝的。看到这里，故宫这一天也慢慢走到了尾声。",
+              "en": "At dusk, the corner tower stood beyond the ice. The trees were bare, and the sky was still blue. By this point, the day at the Forbidden City was slowly drawing to a close."
+            }
+          ]
+        },
+        {
+          "id": "r026",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b179",
+              "shape": "wide",
+              "caption": {
+                "zh": "角楼在冰面后面，元旦的傍晚慢慢收尾。",
+                "en": "The corner tower beyond the ice; New Year's Day is slowly drawing to a close."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-35",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后留下一张拿着咖啡杯、以角楼为背景的照片。",
+              "en": "I took one last picture holding the coffee cup with the corner tower in the background."
+            }
+          ]
+        },
+        {
+          "id": "r027",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b182",
+              "caption": {
+                "zh": "角楼前的最后一个小停顿：17:22，咖啡杯还在手里。",
+                "en": "One last pause at the corner tower: at 17:22 the coffee cup is still in hand."
+              }
+            }
+          ]
+        },
+        {
+          "id": "story-36",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再下一张合影，已经到了轨道交通车厢里。晚上从首都机场飞回虹桥，北京的跨年周末就这样收进了相册。",
+              "en": "The next photo together was already inside a train carriage. That evening I flew from Beijing Capital back to Hongqiao, and the New Year weekend in Beijing was tucked away in the album."
+            }
+          ]
+        },
+        {
+          "id": "r033",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "b183",
+              "shape": "wide",
+              "caption": {
+                "zh": "19:33，镜头已经移到车厢里；北京的跨年周末在这张合影里收尾。",
+                "en": "19:33, and the camera is inside a carriage: a final photo for the Beijing New Year weekend."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reflection-page",
+      "sectionId": "reflection",
+      "blocks": [
+        {
+          "id": "reflection-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "回望",
+            "en": "Looking back"
+          },
+          "title": {
+            "zh": "回头看",
+            "en": "Looking back"
+          },
+          "subtitle": {
+            "zh": "好的和不那么好的，都留着",
+            "en": "Keeping both the good and the less good"
+          }
+        },
+        {
+          "id": "story-37",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟最鲜明的记忆，还是那时候北京人很少，体验很好。经历上海封城，又刚从新冠里恢复，能出门走走、逛逛、拍下这些照片，本身就是这次旅行很重要的一部分。",
+              "en": "The clearest memory of the trip is still how few people there were in Beijing then, and how good the experience was. After Shanghai's lockdown and just recovering from COVID, being able to go out, wander and take these photographs was an important part of the trip in itself."
+            }
+          ]
+        },
+        {
+          "id": "story-38",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "环球影城和故宫是两个完全不同的世界，中间还有冬天的公园、好吃的大董、不太推荐的 Bubba Gump，以及没排上的八爷涮肉。好的和不那么好的都留着，才是这一趟北京。",
+              "en": "Universal Studios and the Forbidden City were two completely different worlds. In between were the winter park, a good meal at Da Dong, a less recommendable dinner at Bubba Gump, and the table we couldn't get at Baye Shuanrou. Keeping both the good and the less good makes it this particular Beijing trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spending-page",
+      "sectionId": "spending",
+      "blocks": [
+        {
+          "id": "spending-header",
+          "type": "header",
+          "markerLabel": {
+            "zh": "手记",
+            "en": "Diary"
+          },
+          "markerValue": {
+            "zh": "小账",
+            "en": "Notes"
+          },
+          "title": {
+            "zh": "当时记下的小账",
+            "en": "The costs I wrote down"
+          },
+          "subtitle": {
+            "zh": "只记有来源的费用，不凑全程总价",
+            "en": "Only recorded costs, not an invented trip total"
+          }
+        },
+        {
+          "id": "story-39",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "大兴机场到环球附近：打车约 60 分钟，180 元。天坛门票：40 元。",
+              "en": "Daxing Airport to the Universal area: about 60 minutes by taxi, RMB 180. Temple of Heaven admission: RMB 40."
+            }
+          ]
+        },
+        {
+          "id": "story-40",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "其余机票、住宿、环球与故宫门票、餐饮、购物和 SPA 没有完整金额记录，不凑一个全程总价。交通时长和这些金额都是当时笔记里的记录，不是今天的参考报价。",
+              "en": "There isn't a complete record of flight, hotel, Universal or Forbidden City tickets, meals, shopping or spa costs, so I won't invent a total for the trip. The travel times and amounts here are from my notes at the time, not current prices."
+            }
+          ]
+        },
+        {
+          "id": "recorded-costs",
+          "type": "expense",
+          "title": {
+            "zh": "两笔有记录的费用",
+            "en": "Two recorded costs"
+          },
+          "rows": [
+            {
+              "id": "airport-taxi",
+              "label": {
+                "zh": "大兴机场 → 环球附近",
+                "en": "Daxing Airport → Universal area"
+              },
+              "detail": {
+                "zh": "打车约 60 分钟",
+                "en": "About 60 minutes by taxi"
+              },
+              "amount": {
+                "zh": "¥180",
+                "en": "RMB 180"
+              }
+            },
+            {
+              "id": "temple-admission",
+              "label": {
+                "zh": "天坛门票",
+                "en": "Temple of Heaven admission"
+              },
+              "amount": {
+                "zh": "¥40",
+                "en": "RMB 40"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
