@@ -658,6 +658,12 @@ repositioned by CSS. The shared renderer's `data-trip-block` gallery marker supp
 the tall-clock exception without new schema fields. These rules apply only to
 Beijing's Photo Story presentation, including bilingual editor frames.
 
+Changsha 2022 uses the explicitly requested default Classic presentation rather
+than opting into Photo Story. Its pairs use matching square, 4:3, or 16:9 cropped
+`thumbnailFilename` assets; the shared lightbox opens each complete `filename`
+asset instead. Unpaired portraits and full-table photographs retain their natural
+composition. No Classic-wide or per-trip presentation CSS is added.
+
 **Shared presentation integration is part of creating the next entry, not a
 special exception to this guide.**
 
