@@ -913,14 +913,14 @@
           "id": "photos-2",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从浦东启程。",
+            "en": "Leaving Pudong together."
+          },
           "images": [
             {
               "imageId": "p9137",
-              "shape": "square",
-              "caption": {
-                "zh": "从浦东启程。",
-                "en": "Leaving Pudong together."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9139",
@@ -956,14 +956,14 @@
           "id": "photos-dotonbori",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "运河与街巷，各有各的热闹。",
+            "en": "Along the canal and in the lanes, two sides of Osaka after dark."
+          },
           "images": [
             {
               "imageId": "p9153",
-              "shape": "square",
-              "caption": {
-                "zh": "运河与街巷，各有各的热闹。",
-                "en": "Along the canal and in the lanes, two sides of Osaka after dark."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9155",
@@ -1021,14 +1021,14 @@
           "id": "photos-7",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "奈良的第一站，先看寺院的屋檐。",
+            "en": "Our first stop in Nara, beneath the temple roofs."
+          },
           "images": [
             {
               "imageId": "p9166",
-              "shape": "wide",
-              "caption": {
-                "zh": "奈良的第一站，先看寺院的屋檐。",
-                "en": "Our first stop in Nara, beneath the temple roofs."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9167",
@@ -1041,14 +1041,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "medium",
+          "caption": {
+            "zh": "一只歇着，一只走近，鹿有自己的节奏。",
+            "en": "One resting, one coming closer—the deer set their own pace."
+          },
           "images": [
             {
               "imageId": "p9173",
-              "shape": "square",
-              "caption": {
-                "zh": "一只歇着，一只走近，鹿有自己的节奏。",
-                "en": "One resting, one coming closer—the deer set their own pace."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9180",
@@ -1070,14 +1070,14 @@
           "id": "photos-9",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从展厅出来，奈良仍然由鹿带路。",
+            "en": "Even outside the museum, the deer kept us company."
+          },
           "images": [
             {
               "imageId": "p9182",
-              "shape": "wide",
-              "caption": {
-                "zh": "从展厅出来，奈良仍然由鹿带路。",
-                "en": "Even outside the museum, the deer kept us company."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9185",
@@ -1113,14 +1113,14 @@
           "id": "photos-todaiji-gates",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "一路抬头看木构与屋檐，东大寺的尺度很有气势。",
+            "en": "Timber and sweeping roofs gave the walk through Tōdai-ji its scale."
+          },
           "images": [
             {
               "imageId": "p9194",
-              "shape": "wide",
-              "caption": {
-                "zh": "一路抬头看木构与屋檐，东大寺的尺度很有气势。",
-                "en": "Timber and sweeping roofs gave the walk through Tōdai-ji its scale."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9203",
@@ -1160,14 +1160,14 @@
           "id": "photos-nara-garden-deer",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "池边和林间，都有鹿安安静静地待着。",
+            "en": "Beside the pond and among the trees, the deer had found quiet spots."
+          },
           "images": [
             {
               "imageId": "p9205",
-              "shape": "square",
-              "caption": {
-                "zh": "池边和林间，都有鹿安安静静地待着。",
-                "en": "Beside the pond and among the trees, the deer had found quiet spots."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9219",
@@ -1233,14 +1233,14 @@
           "id": "photos-kasuga-lanterns",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "石灯笼与树影，沿着小径一层层展开。",
+            "en": "Stone lanterns and tree shadows receded along the path."
+          },
           "images": [
             {
               "imageId": "p9237",
-              "shape": "square",
-              "caption": {
-                "zh": "石灯笼与树影，沿着小径一层层展开。",
-                "en": "Stone lanterns and tree shadows receded along the path."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9243",
@@ -1266,14 +1266,14 @@
           "id": "photos-15",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "山坡上，时间终于慢下来。",
+            "en": "Up on the hillside, the day finally slowed down."
+          },
           "images": [
             {
               "imageId": "p9248",
-              "shape": "wide",
-              "caption": {
-                "zh": "山坡上，时间终于慢下来。",
-                "en": "Up on the hillside, the day finally slowed down."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9249",
@@ -1300,14 +1300,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "medium",
+          "caption": {
+            "zh": "从金色天光等到太阳落下，奈良这一天舍不得结束。",
+            "en": "From golden light to the setting sun, a Nara day we did not want to end."
+          },
           "images": [
             {
               "imageId": "p9252",
-              "shape": "portrait",
-              "caption": {
-                "zh": "从金色天光等到太阳落下，奈良这一天舍不得结束。",
-                "en": "From golden light to the setting sun, a Nara day we did not want to end."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "p9264",
@@ -1365,14 +1365,14 @@
           "id": "photos-19",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "先绕过护城河，才走近天守阁。",
+            "en": "We walked along the moat before reaching the keep."
+          },
           "images": [
             {
               "imageId": "p9269",
-              "shape": "square",
-              "caption": {
-                "zh": "先绕过护城河，才走近天守阁。",
-                "en": "We walked along the moat before reaching the keep."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9270",
@@ -1394,14 +1394,14 @@
           "id": "photos-castle-keep",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "同一座天守阁，云层与蓝天各留一面。",
+            "en": "The same keep, framed once by clouds and once by blue sky."
+          },
           "images": [
             {
               "imageId": "p9274",
-              "shape": "square",
-              "caption": {
-                "zh": "同一座天守阁，云层与蓝天各留一面。",
-                "en": "The same keep, framed once by clouds and once by blue sky."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9277",
@@ -1413,14 +1413,14 @@
           "id": "photos-20",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从高处回望大阪与公园。",
+            "en": "Looking back across Osaka and the park from above."
+          },
           "images": [
             {
               "imageId": "p9279",
-              "shape": "wide",
-              "caption": {
-                "zh": "从高处回望大阪与公园。",
-                "en": "Looking back across Osaka and the park from above."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9281",
@@ -1466,14 +1466,14 @@
           "id": "photos-22",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "正面与侧面，这张大嘴都很抢眼。",
+            "en": "Head-on or from the side, that enormous mouth stole the scene."
+          },
           "images": [
             {
               "imageId": "p9292",
-              "shape": "square",
-              "caption": {
-                "zh": "正面与侧面，这张大嘴都很抢眼。",
-                "en": "Head-on or from the side, that enormous mouth stole the scene."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9302",
@@ -1513,14 +1513,14 @@
           "id": "photos-23",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "通天阁就在新世界街道的尽头。",
+            "en": "Tsūtenkaku at the far end of Shinsekai."
+          },
           "images": [
             {
               "imageId": "p9308",
-              "shape": "square",
-              "caption": {
-                "zh": "通天阁就在新世界街道的尽头。",
-                "en": "Tsūtenkaku at the far end of Shinsekai."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9309",
@@ -1623,14 +1623,14 @@
           "id": "photos-kamo-river",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "河对岸的房子和沿岸的秋色，换个方向又是一幅画。",
+            "en": "Riverside buildings and autumn trees, seen from two directions."
+          },
           "images": [
             {
               "imageId": "p9332",
-              "shape": "wide",
-              "caption": {
-                "zh": "河对岸的房子和沿岸的秋色，换个方向又是一幅画。",
-                "en": "Riverside buildings and autumn trees, seen from two directions."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9339",
@@ -1666,14 +1666,14 @@
           "id": "photos-30",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "京都的街巷，适合走走停停。",
+            "en": "Kyoto's lanes made it easy to pause along the way."
+          },
           "images": [
             {
               "imageId": "p9343",
-              "shape": "square",
-              "caption": {
-                "zh": "京都的街巷，适合走走停停。",
-                "en": "Kyoto's lanes made it easy to pause along the way."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9344",
@@ -1699,14 +1699,14 @@
           "id": "photos-31",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "八坂神社里，鸟居与灯笼把视线留住。",
+            "en": "At Yasaka Shrine, the torii and lanterns caught our eye."
+          },
           "images": [
             {
               "imageId": "p9359",
-              "shape": "square",
-              "caption": {
-                "zh": "八坂神社里，鸟居与灯笼把视线留住。",
-                "en": "At Yasaka Shrine, the torii and lanterns caught our eye."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9360",
@@ -1718,15 +1718,15 @@
           "id": "photos-yasaka-details",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "朱红门楼之后，继续寻找街巷里的塔。",
+            "en": "Beyond the vermilion gate, another glimpse of the pagoda in the lanes."
+          },
           "images": [
             {
               "imageId": "p9364",
               "shape": "square",
-              "focus": "upper",
-              "caption": {
-                "zh": "朱红门楼之后，继续寻找街巷里的塔。",
-                "en": "Beyond the vermilion gate, another glimpse of the pagoda in the lanes."
-              }
+              "focus": "upper"
             },
             {
               "imageId": "p9368",
@@ -1754,14 +1754,14 @@
           "id": "photos-33",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "清水寺红色的门，见证了这场虚惊。",
+            "en": "Kiyomizu-dera's red gates framed the wallet scare."
+          },
           "images": [
             {
               "imageId": "p9372",
-              "shape": "wide",
-              "caption": {
-                "zh": "清水寺红色的门，见证了这场虚惊。",
-                "en": "Kiyomizu-dera's red gates framed the wallet scare."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9376",
@@ -1787,14 +1787,14 @@
           "id": "photos-p9402",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "继续往里走，塔与屋檐渐渐映入眼帘。",
+            "en": "Further inside, the pagoda came into view above the roofs."
+          },
           "images": [
             {
               "imageId": "p9402",
-              "shape": "square",
-              "caption": {
-                "zh": "继续往里走，塔与屋檐渐渐映入眼帘。",
-                "en": "Further inside, the pagoda came into view above the roofs."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9404",
@@ -1806,14 +1806,14 @@
           "id": "photos-34",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "天色渐暗，京都塔亮了起来。",
+            "en": "The light faded and Kyoto Tower came on."
+          },
           "images": [
             {
               "imageId": "p9410",
-              "shape": "square",
-              "caption": {
-                "zh": "天色渐暗，京都塔亮了起来。",
-                "en": "The light faded and Kyoto Tower came on."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9411",
@@ -1899,14 +1899,14 @@
           "id": "photos-38",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "在东本愿寺停下脚步。",
+            "en": "A pause at Higashi Hongan-ji before moving on."
+          },
           "images": [
             {
               "imageId": "p9427",
-              "shape": "square",
-              "caption": {
-                "zh": "在东本愿寺停下脚步。",
-                "en": "A pause at Higashi Hongan-ji before moving on."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9429",
@@ -1933,14 +1933,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "medium",
+          "caption": {
+            "zh": "从寺院到京都塔，背景换了，三个人还在一起。",
+            "en": "From the temple to Kyoto Tower: a different backdrop, the same three of us."
+          },
           "images": [
             {
               "imageId": "p9435",
-              "shape": "portrait",
-              "caption": {
-                "zh": "从寺院到京都塔，背景换了，三个人还在一起。",
-                "en": "From the temple to Kyoto Tower: a different backdrop, the same three of us."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "p9436",
@@ -1990,14 +1990,14 @@
           "id": "photos-inari-halls",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "朱红栏杆与深色屋檐，是神社的另一种层次。",
+            "en": "Vermilion railings and dark roofs added another layer to the shrine."
+          },
           "images": [
             {
               "imageId": "p9446",
-              "shape": "square",
-              "caption": {
-                "zh": "朱红栏杆与深色屋檐，是神社的另一种层次。",
-                "en": "Vermilion railings and dark roofs added another layer to the shrine."
-              }
+              "shape": "square"
             },
             {
               "imageId": "p9448",
@@ -2033,14 +2033,14 @@
           "id": "photos-uji-river",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从桥边看到对岸，宇治川把视野一下打开。",
+            "en": "From the bridge to the opposite bank, the Uji River opened up the view."
+          },
           "images": [
             {
               "imageId": "p9462",
-              "shape": "wide",
-              "caption": {
-                "zh": "从桥边看到对岸，宇治川把视野一下打开。",
-                "en": "From the bridge to the opposite bank, the Uji River opened up the view."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9465",
@@ -2205,14 +2205,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "medium",
+          "caption": {
+            "zh": "从店门口到手里的咖啡，给回程前留一点小小的停顿。",
+            "en": "The doorway and our coffee cups, a small pause before the journey home."
+          },
           "images": [
             {
               "imageId": "p9494",
-              "shape": "wide",
-              "caption": {
-                "zh": "从店门口到手里的咖啡，给回程前留一点小小的停顿。",
-                "en": "The doorway and our coffee cups, a small pause before the journey home."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9501",
@@ -2234,14 +2234,14 @@
           "id": "photos-49",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "离开前，京都的水道和树影再看一眼。",
+            "en": "One last look at Kyoto's waterways and trees before leaving."
+          },
           "images": [
             {
               "imageId": "p9503",
-              "shape": "wide",
-              "caption": {
-                "zh": "离开前，京都的水道和树影再看一眼。",
-                "en": "One last look at Kyoto's waterways and trees before leaving."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "p9506",

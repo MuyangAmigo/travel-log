@@ -41,10 +41,16 @@ test("all 85 curated, metadata-stripped photos are in the shared bilingual readi
   assert.deepEqual(new Set(photoIds), new Set(document.images.map((image) => image.id)));
   assert.ok(document.images.every((image) => /^p\d{4}\.webp$/.test(image.filename)
     && image.alt.zh && image.alt.en));
-  assert.ok(galleries.every((gallery) => gallery.images[0].caption?.zh && gallery.images[0].caption?.en
-    && gallery.images.slice(1).every((image) => image.caption === undefined)));
+  for (const gallery of galleries) {
+    const caption = gallery.layout === "two" ? gallery.caption : gallery.images[0].caption;
+    assert.ok(caption.zh && caption.en);
+    if (gallery.layout === "two") {
+      assert.ok(gallery.images.every((image) => image.caption === undefined));
+    }
+  }
   for (const locale of ["zh", "en"]) {
-    const captions = galleries.map((gallery) => gallery.images[0].caption[locale]);
+    const captions = galleries.map((gallery) =>
+      (gallery.caption ?? gallery.images[0].caption)[locale]);
     assert.equal(new Set(captions).size, captions.length, `${locale} repeats a caption`);
   }
   const familyScenes = {

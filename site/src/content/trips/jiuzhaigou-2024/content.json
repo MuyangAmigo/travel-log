@@ -641,14 +641,14 @@
           "id": "block-004",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "凌晨的餐桌和汤锅，留住抵达后的第一段时间。",
+            "en": "A late-night table and hotpot mark the hours after arrival."
+          },
           "images": [
             {
               "imageId": "img-6009",
-              "shape": "square",
-              "caption": {
-                "zh": "凌晨的餐桌和汤锅，留住抵达后的第一段时间。",
-                "en": "A late-night table and hotpot mark the hours after arrival."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6012",
@@ -696,14 +696,14 @@
           "id": "block-007",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "走到黄龙入口，山坡上的建筑也进入了镜头。",
+            "en": "At the Huanglong entrance, the hillside buildings come into view."
+          },
           "images": [
             {
               "imageId": "img-6020",
-              "shape": "square",
-              "caption": {
-                "zh": "走到黄龙入口，山坡上的建筑也进入了镜头。",
-                "en": "At the Huanglong entrance, the hillside buildings come into view."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6022",
@@ -731,14 +731,14 @@
           "id": "block-009",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "雾中的亭阁、钙华池和林间水色。",
+            "en": "A pavilion in the mist, travertine terraces and water among the trees."
+          },
           "images": [
             {
               "imageId": "img-6029",
-              "shape": "square",
-              "caption": {
-                "zh": "雾中的亭阁、钙华池和林间水色。",
-                "en": "A pavilion in the mist, travertine terraces and water among the trees."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6039",
@@ -750,6 +750,10 @@
           "id": "block-010",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "沿着黄龙的山坡继续看，池水一层层从浅蓝转向青绿。",
+            "en": "Further along Huanglong's hillside, the terraced water shifts from pale blue to green."
+          },
           "images": [
             {
               "imageId": "img-6048",
@@ -781,14 +785,14 @@
           "id": "block-012",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "傍晚前，溪水接着铺满坡面的瀑布。",
+            "en": "Before evening, a stream gives way to a waterfall across the slope."
+          },
           "images": [
             {
               "imageId": "img-6064",
-              "shape": "square",
-              "caption": {
-                "zh": "傍晚前，溪水接着铺满坡面的瀑布。",
-                "en": "Before evening, a stream gives way to a waterfall across the slope."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6067",
@@ -836,14 +840,14 @@
           "id": "block-015",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "22 点后的餐桌，留住了这一天的尾声。",
+            "en": "A table photographed after 10 p.m. closes the day."
+          },
           "images": [
             {
               "imageId": "img-6073",
-              "shape": "square",
-              "caption": {
-                "zh": "22 点后的餐桌，留住了这一天的尾声。",
-                "en": "A table photographed after 10 p.m. closes the day."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6074",
@@ -891,14 +895,14 @@
           "id": "block-018",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从林地小径走向山间湖岸。",
+            "en": "From a woodland path to a lake in the mountains."
+          },
           "images": [
             {
               "imageId": "img-6078",
-              "shape": "square",
-              "caption": {
-                "zh": "从林地小径走向山间湖岸。",
-                "en": "From a woodland path to a lake in the mountains."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6084",
@@ -910,6 +914,10 @@
           "id": "block-019",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "走到湖边，山影和树枝让同一片水色有了不同的样子。",
+            "en": "By the lakeshore, mountain reflections and overhanging branches give the water different faces."
+          },
           "images": [
             {
               "imageId": "img-6089",
@@ -961,14 +969,14 @@
           "id": "block-022",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "瀑布之后又回到湖边，山影逐渐展开。",
+            "en": "After the falls, the path returns to the lakes and widening mountain reflections."
+          },
           "images": [
             {
               "imageId": "img-6103",
-              "shape": "square",
-              "caption": {
-                "zh": "瀑布之后又回到湖边，山影逐渐展开。",
-                "en": "After the falls, the path returns to the lakes and widening mountain reflections."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6110",
@@ -980,6 +988,10 @@
           "id": "block-023",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "看过瀑布，再把目光放回开阔的湖面，是这一天快水与静水交替的节奏。",
+            "en": "After the waterfalls, the view opens onto the lakes again: the day's rhythm of rushing and still water."
+          },
           "images": [
             {
               "imageId": "img-6119",
@@ -1031,14 +1043,14 @@
           "id": "block-026",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从湖中倒木到湍急的溪，颜色一直没有停下来。",
+            "en": "From a fallen branch over the lake to rushing water, the color keeps changing."
+          },
           "images": [
             {
               "imageId": "img-6135",
-              "shape": "square",
-              "caption": {
-                "zh": "从湖中倒木到湍急的溪，颜色一直没有停下来。",
-                "en": "From a fallen branch over the lake to rushing water, the color keeps changing."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6151",
@@ -1050,6 +1062,10 @@
           "id": "block-027",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "从湖边继续往前，急流和宽阔的瀑布又把水声带回了这段路。",
+            "en": "Further along from the lakes, rushing streams and broad falls bring the sound of water back to the walk."
+          },
           "images": [
             {
               "imageId": "img-6154",
@@ -1081,14 +1097,14 @@
           "id": "block-029",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "雾里的山和一片亮蓝色的湖。",
+            "en": "Mountains in the mist, followed by a bright blue lake."
+          },
           "images": [
             {
               "imageId": "img-6176",
-              "shape": "square",
-              "caption": {
-                "zh": "雾里的山和一片亮蓝色的湖。",
-                "en": "Mountains in the mist, followed by a bright blue lake."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6184",
@@ -1136,14 +1152,14 @@
           "id": "block-032",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "景区里的最后几幅，与晚上餐桌的照片相连。",
+            "en": "The final scenic-area frames lead into the evening meal."
+          },
           "images": [
             {
               "imageId": "img-6190",
-              "shape": "square",
-              "caption": {
-                "zh": "景区里的最后几幅，与晚上餐桌的照片相连。",
-                "en": "The final scenic-area frames lead into the evening meal."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6192",
@@ -1155,6 +1171,10 @@
           "id": "block-033",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "镜头从景区转到木制房间和晚餐，这一天终于在饭桌旁慢慢收尾。",
+            "en": "The camera moves from the scenic area to a wooden room and dinner, letting the day wind down at the table."
+          },
           "images": [
             {
               "imageId": "img-6194",
@@ -1206,14 +1226,14 @@
           "id": "block-036",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "先是瀑布，接着是有雾的湖面。",
+            "en": "First the waterfalls, then a lake in the mist."
+          },
           "images": [
             {
               "imageId": "img-6205",
-              "shape": "square",
-              "caption": {
-                "zh": "先是瀑布，接着是有雾的湖面。",
-                "en": "First the waterfalls, then a lake in the mist."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6212",
@@ -1225,6 +1245,10 @@
           "id": "block-037",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "第二天早上继续沿着水走，山林的倒影之后，又接上林间的溪流。",
+            "en": "The second morning's walk stays beside the water, from reflected mountains and trees to streams in the woods."
+          },
           "images": [
             {
               "imageId": "img-6216",
@@ -1256,14 +1280,14 @@
           "id": "block-039",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "最后一段湖岸与溪流的照片。",
+            "en": "The last run of lakeshore and stream photographs."
+          },
           "images": [
             {
               "imageId": "img-6221",
-              "shape": "square",
-              "caption": {
-                "zh": "最后一段湖岸与溪流的照片。",
-                "en": "The last run of lakeshore and stream photographs."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6222",
@@ -1275,6 +1299,10 @@
           "id": "block-040",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "临近这段景区行程的尾声，湖水与溪流里的蓝绿仍在变化。",
+            "en": "Toward the end of this stretch through the scenic area, blue and green still shift between lake and stream."
+          },
           "images": [
             {
               "imageId": "img-6226",
@@ -1326,14 +1354,14 @@
           "id": "block-043",
           "type": "gallery",
           "layout": "two",
+          "caption": {
+            "zh": "下午的饮品和傍晚街景，照片在这里停下。",
+            "en": "Afternoon drinks and evening streets are where the dated photographs end."
+          },
           "images": [
             {
               "imageId": "img-6232",
-              "shape": "square",
-              "caption": {
-                "zh": "下午的饮品和傍晚街景，照片在这里停下。",
-                "en": "Afternoon drinks and evening streets are where the dated photographs end."
-              }
+              "shape": "square"
             },
             {
               "imageId": "img-6239",

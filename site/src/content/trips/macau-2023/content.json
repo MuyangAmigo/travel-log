@@ -626,14 +626,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "同一段中午步行：12:42 的远景，与 13:08 的街道视角。",
+            "en": "The same midday walk: a distant view at 12:42, and the street at 13:08."
+          },
           "images": [
             {
               "imageId": "m007",
-              "shape": "wide",
-              "caption": {
-                "zh": "同一段中午步行：12:42 的远景，与 13:08 的街道视角。",
-                "en": "The same midday walk: a distant view at 12:42, and the street at 13:08."
-              }
+              "shape": "wide"
             },
             {
               "imageId": "m017",
@@ -656,13 +656,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "12:57 在室外，13:01 到了室内；合照也跟着这一段走。",
+            "en": "Outside at 12:57, indoors at 13:01; the photos together follow this stretch of the walk."
+          },
           "images": [
             {
-              "imageId": "m011",
-              "caption": {
-                "zh": "12:57 在室外，13:01 到了室内；合照也跟着这一段走。",
-                "en": "Outside at 12:57, indoors at 13:01; the photos together follow this stretch of the walk."
-              }
+              "imageId": "m011"
             },
             {
               "imageId": "m013"
@@ -684,14 +684,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "官也街边的旺记奶茶，和这一轮小吃里的 Pink Drink。",
+            "en": "Wong Kei milk tea beside Rua do Cunha, and the Pink Drink from this round of snacks."
+          },
           "images": [
             {
               "imageId": "m019",
-              "shape": "square",
-              "caption": {
-                "zh": "官也街边的旺记奶茶，和这一轮小吃里的 Pink Drink。",
-                "en": "Wong Kei milk tea beside Rua do Cunha, and the Pink Drink from this round of snacks."
-              }
+              "shape": "square"
             },
             {
               "imageId": "m020",
@@ -714,14 +714,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "14:38 的鸡蛋仔，与 15:40 的安德鲁纸袋；配的是同日下午的小吃，不是同一时间。",
+            "en": "Egg waffles at 14:38 and Lord Stow's bag at 15:40: paired moments from the same afternoon, not the same instant."
+          },
           "images": [
             {
               "imageId": "m022",
-              "shape": "square",
-              "caption": {
-                "zh": "14:38 的鸡蛋仔，与 15:40 的安德鲁纸袋；配的是同日下午的小吃，不是同一时间。",
-                "en": "Egg waffles at 14:38 and Lord Stow's bag at 15:40: paired moments from the same afternoon, not the same instant."
-              }
+              "shape": "square"
             },
             {
               "imageId": "m026",
@@ -759,14 +759,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "15:42 的花篮与红灯笼，15:54 的街牌与铁艺灯；店招只证明路过，没有补写在安东尼用餐。",
+            "en": "Flowers and a red lantern at 15:42; a street sign and iron lamp at 15:54. The sign records passing António, not dining there."
+          },
           "images": [
             {
               "imageId": "m028",
-              "shape": "portrait",
-              "caption": {
-                "zh": "15:42 的花篮与红灯笼，15:54 的街牌与铁艺灯；店招只证明路过，没有补写在安东尼用餐。",
-                "en": "Flowers and a red lantern at 15:42; a street sign and iron lamp at 15:54. The sign records passing António, not dining there."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "m032",
@@ -789,13 +789,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "下午散步的彩色墙面：一段长墙，和转角处的另一面。",
+            "en": "Colourful walls on the afternoon walk: a long mural, and another view around the corner."
+          },
           "images": [
             {
-              "imageId": "m035",
-              "caption": {
-                "zh": "下午散步的彩色墙面：一段长墙，和转角处的另一面。",
-                "en": "Colourful walls on the afternoon walk: a long mural, and another view around the corner."
-              }
+              "imageId": "m035"
             },
             {
               "imageId": "m036"
@@ -817,14 +817,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "下午游览一带的廊柱与窗边画作；同框尺寸、完整照片，方图允许留白。",
+            "en": "Veranda columns and a painting by the window in the area we visited that afternoon; equal frames, complete photos, and space around the square image."
+          },
           "images": [
             {
               "imageId": "m039",
-              "shape": "portrait",
-              "caption": {
-                "zh": "下午游览一带的廊柱与窗边画作；同框尺寸、完整照片，方图允许留白。",
-                "en": "Veranda columns and a painting by the window in the area we visited that afternoon; equal frames, complete photos, and space around the square image."
-              }
+              "shape": "portrait"
             },
             {
               "imageId": "m040",
@@ -847,14 +847,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "喜莲晚餐的近照与整桌记录；照片并不改变“很一般”的评价。",
+            "en": "A close-up and the table at Hei Lin; the photos do not change the “very average” verdict."
+          },
           "images": [
             {
               "imageId": "m041",
-              "shape": "landscape",
-              "caption": {
-                "zh": "喜莲晚餐的近照与整桌记录；照片并不改变“很一般”的评价。",
-                "en": "A close-up and the table at Hei Lin; the photos do not change the “very average” verdict."
-              }
+              "shape": "landscape"
             },
             {
               "imageId": "m042",
@@ -935,14 +935,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "番茄屋这一顿：餐桌上的意面，以及惦记很久、喝完觉得普通的 SUMOL。",
+            "en": "This meal at Tomato Portuguese Food: pasta, and the long-anticipated SUMOL that tasted ordinary."
+          },
           "images": [
             {
               "imageId": "m044",
-              "shape": "square",
-              "caption": {
-                "zh": "番茄屋这一顿：餐桌上的意面，以及惦记很久、喝完觉得普通的 SUMOL。",
-                "en": "This meal at Tomato Portuguese Food: pasta, and the long-anticipated SUMOL that tasted ordinary."
-              }
+              "shape": "square"
             },
             {
               "imageId": "m045",
@@ -990,14 +990,14 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "半岛散步里，大树与大楼同框，再走近红白相间的窗廊。",
+            "en": "On the peninsula walk, a tree and towers share a frame, before a closer look at the red-and-white veranda."
+          },
           "images": [
             {
               "imageId": "m048",
-              "shape": "square",
-              "caption": {
-                "zh": "半岛散步里，大树与大楼同框，再走近红白相间的窗廊。",
-                "en": "On the peninsula walk, a tree and towers share a frame, before a closer look at the red-and-white veranda."
-              }
+              "shape": "square"
             },
             {
               "imageId": "m049",
@@ -1020,13 +1020,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "15:28 的大路，与 15:35 的窄街；按步行顺序配对。",
+            "en": "The broad road at 15:28 and the narrow street at 15:35, paired in walking order."
+          },
           "images": [
             {
-              "imageId": "m054",
-              "caption": {
-                "zh": "15:28 的大路，与 15:35 的窄街；按步行顺序配对。",
-                "en": "The broad road at 15:28 and the narrow street at 15:35, paired in walking order."
-              }
+              "imageId": "m054"
             },
             {
               "imageId": "m055"

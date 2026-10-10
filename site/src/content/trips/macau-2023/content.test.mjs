@@ -59,9 +59,10 @@ test("all 30 approved unique photos stay in the shared bilingual flow as 11 pair
     && image.alt.zh && image.alt.en));
   for (const gallery of galleries) {
     assert.equal(gallery.images.length, gallery.layout === "one" ? 1 : 2);
-    assert.ok(gallery.images[0].caption.zh && gallery.images[0].caption.en);
-    assert.ok(gallery.images.slice(1).every((image) => image.caption === undefined));
+    const caption = gallery.layout === "two" ? gallery.caption : gallery.images[0].caption;
+    assert.ok(caption.zh && caption.en);
     if (gallery.layout === "two") {
+      assert.ok(gallery.images.every((image) => image.caption === undefined));
       assert.equal(gallery.images[0].shape, gallery.images[1].shape);
     } else {
       assert.equal(gallery.images[0].shape, undefined);
@@ -111,8 +112,8 @@ test("Macau explicitly opts into shared reading rules without broadening other s
   assert.match(scope, /img\.ls\) \{\s*aspect-ratio: 4 \/ 3/);
   assert.match(scope, /@media \(max-width: 480px\)/);
   assert.match(scope, /grid-template-columns: 1fr/);
-  assert.match(scope, /width: calc\(200% \+ 16px\)/);
-  assert.match(scope, /grid-row: 3/);
+  assert.doesNotMatch(scope, /width: calc\(200%/);
+  assert.doesNotMatch(scope, /display: contents|grid-row: 3/);
   assert.ok(readFileSync(resolve(tripDirectory, "../../../lib/trips.ts"), "utf8")
     .includes('@/content/trips/macau-2023/meta'));
 });

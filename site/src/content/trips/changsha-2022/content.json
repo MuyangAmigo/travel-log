@@ -542,13 +542,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "午饭前的两处停留：坡子街的老楼，街巷里密密的店招。",
+            "en": "Two stops before lunch: an old building on Pozi Street, and the signs crowding the alleyways."
+          },
           "images": [
             {
               "imageId": "p002",
-              "caption": {
-                "zh": "午饭前的两处停留：坡子街的老楼，街巷里密密的店招。",
-                "en": "Two stops before lunch: an old building on Pozi Street, and the signs crowding the alleyways."
-              },
               "shape": "square"
             },
             {
@@ -649,13 +649,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "饭后的太平街，13:50 的路牌和 14:24 一起举起的两只杯子。",
+            "en": "Taiping Street after lunch: the sign at 13:50, and two cups held up together at 14:24."
+          },
           "images": [
             {
               "imageId": "p006",
-              "caption": {
-                "zh": "饭后的太平街，13:50 的路牌和 14:24 一起举起的两只杯子。",
-                "en": "Taiping Street after lunch: the sign at 13:50, and two cups held up together at 14:24."
-              },
               "shape": "landscape"
             },
             {
@@ -760,13 +760,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "从林间树影走到书院的白墙曲廊，阴天的下午很惬意。",
+            "en": "From trees around the pavilion to the academy's white walls and corridors: an overcast, pleasantly relaxed afternoon."
+          },
           "images": [
             {
               "imageId": "p012",
-              "caption": {
-                "zh": "从林间树影走到书院的白墙曲廊，阴天的下午很惬意。",
-                "en": "From trees around the pavilion to the academy's white walls and corridors: an overcast, pleasantly relaxed afternoon."
-              },
               "shape": "square"
             },
             {
@@ -867,13 +867,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "同一段建筑，从开阔的屋檐看到近处的树影。",
+            "en": "The same stretch of buildings, from open rooflines to trees close by."
+          },
           "images": [
             {
               "imageId": "p016",
-              "caption": {
-                "zh": "同一段建筑，从开阔的屋檐看到近处的树影。",
-                "en": "The same stretch of buildings, from open rooflines to trees close by."
-              },
               "shape": "square"
             },
             {
@@ -923,13 +923,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "小池的倒影之后，是树间的大成殿：16:57 与 17:01。",
+            "en": "After the little pond's reflections came Dacheng Hall among the trees: 16:57 and 17:01."
+          },
           "images": [
             {
               "imageId": "p020",
-              "caption": {
-                "zh": "小池的倒影之后，是树间的大成殿：16:57 与 17:01。",
-                "en": "After the little pond's reflections came Dacheng Hall among the trees: 16:57 and 17:01."
-              },
               "shape": "square"
             },
             {
@@ -1066,13 +1066,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "18:46 与 18:57，两道菜把晚饭留在了相册里。",
+            "en": "At 18:46 and 18:57, two dishes kept dinner in the album."
+          },
           "images": [
             {
               "imageId": "p024",
-              "caption": {
-                "zh": "18:46 与 18:57，两道菜把晚饭留在了相册里。",
-                "en": "At 18:46 and 18:57, two dishes kept dinner in the album."
-              },
               "shape": "landscape"
             },
             {
@@ -1122,13 +1122,13 @@
           "type": "gallery",
           "layout": "two",
           "width": "full",
+          "caption": {
+            "zh": "20:13 的「长沙」，20:16 一层层亮起来的招牌，是这一天最后的街景。",
+            "en": "The \"Changsha\" screen at 20:13 and layers of lit signs at 20:16 were the day's last street views."
+          },
           "images": [
             {
               "imageId": "p028",
-              "caption": {
-                "zh": "20:13 的「长沙」，20:16 一层层亮起来的招牌，是这一天最后的街景。",
-                "en": "The \"Changsha\" screen at 20:13 and layers of lit signs at 20:16 were the day's last street views."
-              },
               "shape": "wide"
             },
             {

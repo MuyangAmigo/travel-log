@@ -66,9 +66,10 @@ test("the exact 20 approved story photographs remain unchanged alongside the sep
     assert(image.alt.zh && image.alt.en);
   }
   for (const gallery of galleries) {
-    assert(gallery.images[0].caption.zh && gallery.images[0].caption.en);
-    assert(gallery.images.slice(1).every((image) => image.caption === undefined));
+    const caption = gallery.layout === "two" ? gallery.caption : gallery.images[0].caption;
+    assert(caption.zh && caption.en);
     if (gallery.layout === "two") {
+      assert(gallery.images.every((image) => image.caption === undefined));
       assert.equal(gallery.images[0].shape, gallery.images[1].shape);
       for (const item of gallery.images) {
         const image = document.images.find((image) => image.id === item.imageId);

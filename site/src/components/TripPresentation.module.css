@@ -1132,19 +1132,8 @@
     text-align: center;
   }
 
-  /* Each authored pair shares one caption beneath both photographs. */
-  & :global(.g2 .cap) {
-    width: calc(200% + 16px);
-  }
-
   & :global(.nbox p) {
     overflow-wrap: anywhere;
-  }
-
-  @media (max-width: 760px) {
-    & :global(.g2 .cap) {
-      width: 100%;
-    }
   }
 }
 
@@ -1166,18 +1155,8 @@
     text-align: center;
   }
 
-  & :global(.g2 .cap) {
-    width: calc(200% + 16px);
-  }
-
   & :global(.nbox p) {
     overflow-wrap: anywhere;
-  }
-
-  @media (max-width: 760px) {
-    & :global(.g2 .cap) {
-      width: calc(200% + 12px);
-    }
   }
 
   @media (max-width: 480px) {
@@ -1187,19 +1166,6 @@
 
     & :global(.pgrid.g2 .pf img) {
       aspect-ratio: auto;
-    }
-
-    & :global(.g2 > .pf:first-child) {
-      display: contents;
-    }
-
-    & :global(.g2 > .pf:nth-child(2)) {
-      grid-row: 2;
-    }
-
-    & :global(.g2 .cap) {
-      width: 100%;
-      grid-row: 3;
     }
   }
 }

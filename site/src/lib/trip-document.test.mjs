@@ -226,6 +226,27 @@ test("every existing trip supports each style without changing its content", () 
   }
 });
 
+test("every journal photograph has a non-empty caption in both languages, individually or as a group", () => {
+  const root = new URL("../content/trips/", import.meta.url);
+  for (const entry of readdirSync(root, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const { document } = readTripDocument(entry.name);
+    for (const page of document.pages) {
+      for (const block of page.blocks) {
+        if (block.type !== "gallery") continue;
+        for (const image of block.images) {
+          for (const locale of ["zh", "en"]) {
+            assert.ok(
+              image.caption?.[locale].trim() || block.caption?.[locale].trim(),
+              `${document.slug}/${page.id}/${block.id}/${image.imageId}: missing ${locale} caption`
+            );
+          }
+        }
+      }
+    }
+  }
+});
+
 test("rejects unsupported versions and unknown schema fields", () => {
   const invalid = structuredClone(minimalDocument);
   invalid.version = 2;

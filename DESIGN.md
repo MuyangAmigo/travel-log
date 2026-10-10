@@ -534,8 +534,8 @@ three-person portraits use matching portrait thumbnails with comparable person
 sizes, and one pagoda thumbnail preserves its spire in a square frame. These
 three assets use `thumbnailFilename`; other paired frames crop with CSS only.
 The existing lightbox still opens the complete original in both cases.
-Its Photo Story scope centers each pair's shared caption across the row and
-resets it to one-column width when photos stack on phones. Other trips and
+Each pair's shared caption uses `gallery.caption`, centered below the complete
+row and after both photographs when they stack on phones. Other trips and
 styles keep their published presentation.
 
 ### Sections, navigation, and restraint
@@ -683,6 +683,13 @@ than opting into Photo Story. Its pairs use matching square, 4:3, or 16:9 croppe
 `thumbnailFilename` assets; the shared lightbox opens each complete `filename`
 asset instead. Unpaired portraits and full-table photographs retain their natural
 composition. No Classic-wide or per-trip presentation CSS is added.
+
+Jiuzhaigou, Kansai family, Macau, and Changsha use `gallery.caption` for their
+shared two-photo captions, rather than attaching a row's description to its
+first image. Every journal gallery photograph has a non-empty Chinese and
+English caption, either individually or through its group's caption. Decorative
+cover backgrounds use the cover's title and introduction; shopping images retain
+their product names and descriptions.
 
 **Shared presentation integration is part of creating the next entry, not a
 special exception to this guide.**
