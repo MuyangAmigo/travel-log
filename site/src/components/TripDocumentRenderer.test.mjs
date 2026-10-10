@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { registerHooks } from "node:module";
 import test from "node:test";
 import { createElement } from "react";
@@ -121,6 +121,52 @@ test("every Beijing group caption follows every photo in both locale pages and d
             className: "cap",
           }, gallery.caption[locale]))));
         }
+      }
+    }
+  }
+});
+
+test("all journal captions render in both locales and deferred editor previews", () => {
+  const root = new URL("../content/trips/", import.meta.url);
+  for (const entry of readdirSync(root, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const document = parseTripDocument(JSON.parse(readFileSync(
+      new URL(`${entry.name}/content.json`, root), "utf8"
+    )));
+    for (const locale of ["zh", "en"]) {
+      for (const deferImages of [false, true]) {
+        const markup = renderToStaticMarkup(createElement(TripDocumentRenderer, {
+          document: {
+            ...document,
+            pages: document.pages.map((page) => ({
+              ...page,
+              blocks: page.blocks.filter((block) => block.type === "gallery"),
+            })),
+          },
+          locale,
+          imageUrl: (filename) => `/images/${filename}`,
+          deferImages,
+        }));
+        const expected = document.pages.flatMap((page) => page.blocks)
+          .filter((block) => block.type === "gallery")
+          .flatMap((gallery) => {
+            const sequence = gallery.images.flatMap((item) => {
+              const image = document.images.find((image) => image.id === item.imageId);
+              return [image.thumbnailFilename ?? image.filename, ...(item.caption ? ["caption"] : [])];
+            });
+            if (gallery.caption) sequence.push("caption");
+            for (const caption of [
+              ...gallery.images.map((item) => item.caption),
+              gallery.caption,
+            ].filter(Boolean)) {
+              const escaped = renderToStaticMarkup(createElement("span", null, caption[locale]))
+                .replace(/^<span>|<\/span>$/gu, "").replace(/\n/gu, "<br/>");
+              assert.ok(markup.includes(escaped), `${entry.name}: missing rendered ${locale} caption`);
+            }
+            return sequence;
+          });
+        assert.deepEqual(readingSequence(markup), expected,
+          `${entry.name} / ${locale} / deferred=${deferImages}`);
       }
     }
   }

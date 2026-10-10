@@ -26,6 +26,10 @@ test("Jiuzhaigou keeps a non-repeating, people-free selection of 40 photos", () 
     gallery.images.length === 2 &&
     gallery.images.every((image) => image.shape === "square")
   ));
+  assert.ok(galleries.every((gallery) =>
+    gallery.caption?.zh.trim() && gallery.caption?.en.trim()
+    && gallery.images.every((image) => image.caption === undefined)
+  ));
   assert.equal(document.metadata.coverImageId, "img-6205");
   assert.equal(document.images.find((image) => image.id === "img-6205").filename, "img_6205.webp");
   for (const image of document.images) {
