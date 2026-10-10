@@ -43,6 +43,7 @@ import { meta as tokyo2025Meta } from "@/content/trips/tokyo-2025/meta";
 import { meta as macau2023Meta } from "@/content/trips/macau-2023/meta";
 import { meta as beijingWinterAwakening2022Meta } from "@/content/trips/beijing-winter-awakening-2022/meta";
 import { meta as changsha2022Meta } from "@/content/trips/changsha-2022/meta";
+import { meta as sanyaWinterSun2023Meta } from "@/content/trips/sanya-winter-sun-2023/meta";
 
 // Keep this literal registry compatible with the editor API's slug parser.
 export const trips: TripMeta[] = [
@@ -66,6 +67,7 @@ export const trips: TripMeta[] = [
   macau2023Meta,
   beijingWinterAwakening2022Meta,
   changsha2022Meta,
+  sanyaWinterSun2023Meta,
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 // Publication is a listing property, distinct from the trip's travel date.
@@ -91,6 +93,7 @@ const publishedAtBySlug: Record<string, string> = {
   "macau-2023": "2026-10-09T10:03:14+08:00",
   "beijing-winter-awakening-2022": "2026-10-09T21:17:22+08:00",
   "changsha-2022": "2026-10-09T22:40:02+08:00",
+  "sanya-winter-sun-2023": "2026-10-10T15:48:53+00:00",
 };
 
 export const publishedTripOrder = trips
