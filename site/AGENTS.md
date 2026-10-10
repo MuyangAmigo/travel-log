@@ -1,3 +1,12 @@
+# Site guidance
+
+Follow the root [validation and delivery policy](../AGENTS.md#validation-and-delivery).
+Commit agent-guidance updates only when intentional and relevant to the requested
+work. Keep unrelated generated edits, including `next-env.d.ts` and agent-guidance
+files, out of trip changes.
+The managed block's generic recommendation to commit it with other work does
+not authorize unrelated generated edits; this repository policy takes precedence.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

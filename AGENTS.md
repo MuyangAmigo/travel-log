@@ -49,9 +49,10 @@ Read applicable child instructions before editing files in `site/`.
 
 Reuse the classes and tokens in `site/src/app/globals.css` and the scoped
 styles in `site/src/components/TripPresentation.module.css` rather than
-introducing trip-specific visual systems. The common photo-story reading rules
-currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents explicitly; selecting
-`photo-story` alone does not apply those rules to a new trip.
+introducing trip-specific visual systems. The common reading rules require
+explicit document/style opt-ins; see the current
+[presentation scope and reuse](DESIGN.md#presentation-scope-and-reuse).
+Selecting `photo-story` alone does not apply those rules to a new trip.
 
 - Shell: `.site-header`, `.site-brand`, `.theme-toggle`, `.trip-grid`,
   `.trip-card`, `.tc-media`, `.tc-badge`, `.trip-shell-header`, and
@@ -176,8 +177,18 @@ currently opt in the Phuket, Kansai 2025, and Kansai family 2024 documents expli
    trips; do not
    work around a gap with duplicated components, unsupported metadata, a fourth
    style, query parameters, or browser storage.
-9. Register the trip in [`site/src/lib/trips.ts`](site/src/lib/trips.ts), keeping
-   the newest trips first. Preview and complete the checks below before delivery.
+9. Register the trip's `meta` import and imported identifier in the literal
+   `trips` array in [`site/src/lib/trips.ts`](site/src/lib/trips.ts). Retain the
+   existing import/array/`.sort(...)` form required by the editor API's
+   [`parseRegisteredTripSlugs`](api/src/github-editor-repository.js); do not
+   replace it with a computed registry. Add the new slug's confirmed
+   first-publication timestamp to `publishedAtBySlug`, using an ISO 8601 value
+   with a timezone that `Date.parse` accepts. Publication is a listing property,
+   separate from the travel `date`/`dateRange`, not a new TripDocument metadata
+   field. Preserve existing first-publication timestamps when revising trips.
+   Check both index sorting modes: recent publication (new publications first,
+   including older journeys) and travel date (newest journeys first). Preview
+   and complete the checks below before delivery.
 
 ## Writing quality
 
@@ -194,22 +205,26 @@ with `npm run test:trip-document` from `site/`, then the production build:
 
 ```bash
 cd site
+NEXT_PUBLIC_BASE_PATH=/travel-log \
 NEXT_PUBLIC_MICROSOFT_CLIENT_ID=11111111-2222-3333-4444-555555555555 \
 NEXT_PUBLIC_MICROSOFT_REDIRECT_URI=http://localhost:3000/auth/callback/ \
 TRAVEL_LOG_AUTH_API_URL=http://localhost:7071/api/unlock \
 TRAVEL_LOG_PRIVATE_PASSWORD=test npm run build
 ```
 
-These are local test values, not deployment credentials or a working sign-in
-service. A successful private-trip build must generate and encrypt both locale
-pages and remove their plaintext route payloads. `npm run dev` does not encrypt.
+The base path matches GitHub Pages; the authentication settings are local test
+values, not deployment credentials or a working sign-in service. A successful
+private-trip build must generate and encrypt both locale pages and remove their
+plaintext route payloads. `npm run dev` does not encrypt.
 Images remain publicly reachable even for private entries; do not promise image
 privacy. See [authentication documentation](docs/microsoft-auth.md).
 
 - If dependencies are absent and the committed lockfile has the known invalid-version issue, follow CI behavior: regenerate the lockfile for local installation, build, then avoid committing unrelated generated lockfile changes.
 - Next.js may modify `site/next-env.d.ts` or regenerate agent-guidance files
   in `site/`. Do not include unrelated generated changes with a trip unless
-  intentionally updating them.
+  intentionally updating them as part of the requested work. The
+  [site guidance policy](site/AGENTS.md#site-guidance) takes precedence over the
+  managed Next.js block's generic commit recommendation.
 - Commit only files belonging to the requested change. When a PR already exists, push follow-up commits and keep its description accurate.
 - For documentation-only changes, check links, paths, documented commands and
   schema/style claims against code, and run `git diff --check`; do not install
@@ -227,7 +242,9 @@ privacy. See [authentication documentation](docs/microsoft-auth.md).
 - [ ] Compare the chosen cover with existing trip covers by URL and visual
   content; any cross-trip duplicate or near-duplicate has explicit user approval.
 - [ ] Preview the Chinese index and trip locally; check cover crop, name, and
-  privacy badge. Inspect both locale trip pages and the editor's bilingual preview
+  privacy badge. Check both recent-publication and travel-date sorting, including
+  the new slug's confirmed first-publication timestamp and unchanged existing
+  timestamps. Inspect both locale trip pages and the editor's bilingual preview
   at 1440px, 900px, and 390px, plus a narrow 320px phone.
 - [ ] Every new entry is checked against the
   [common reading axis targets](DESIGN.md#reading-axis-and-photography), including

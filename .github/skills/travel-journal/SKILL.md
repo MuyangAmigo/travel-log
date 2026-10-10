@@ -182,12 +182,14 @@ shared center axis, equal frames, full compositions, no overflow, complete
 image loading, and layout shifts. Three-image groups must become one column
 on phones; pairs must stack appropriately in source order. Also check
 lightbox/Escape/focus return, navigation, themes, and reduced motion.
-Run `auditLayout` from `scripts/audit_layout.mjs` in every actual page/preview
-iframe and save its measurements. Resolve every reported `error`; passing JSON
-checks does not prove equal rendered frames. Run the structured tests and
-safe-config production build prescribed by `AGENTS.md`, verifying private-page
-encryption and plaintext payload removal in both languages. Do not substitute
-static checks for browser validation.
+Run `auditLayout` from `scripts/audit_layout.mjs` via `page.evaluate` or
+`frame.evaluate` in every actual page/preview iframe and save its measurements.
+Follow [browser acceptance](references/layout.md#browser-acceptance) for deferred
+image handling and explicit load errors. Resolve every reported `error`;
+passing JSON checks does not prove equal rendered frames. Run the structured
+tests and safe-config production build prescribed by `AGENTS.md`, verifying
+private-page encryption and plaintext payload removal in both languages.
+Do not substitute static checks for browser validation.
 
 Create the offline NoteBrain journal: copy each approved individual original
 and verify its hash, preserving EXIF by default. Use exported uncropped

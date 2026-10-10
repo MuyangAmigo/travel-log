@@ -19,12 +19,17 @@ export async function auditLayout({ selection, locale, imageAssets = [], selecto
   };
   const center = (box) => box.x + box.width / 2;
   if (galleries.length !== rows.length) errors.push("Rendered gallery count differs from approved rows");
-  // Trigger lazy images without scrolling away from the geometry being measured.
+  // Trigger lazy/deferred images without scrolling away from the geometry being measured.
   await Promise.all(galleries.flatMap((gallery) => [...gallery.querySelectorAll("img")]).map(async (image) => {
     const previousLoading = image.loading;
     image.loading = "eager";
     let timer;
     try {
+      const deferredSource = image.getAttribute("data-deferred-src")?.trim();
+      if (image.getAttribute("src") === null && deferredSource) {
+        new URL(deferredSource, ownerDocument.baseURI);
+        image.src = deferredSource;
+      }
       if (image.decode) {
         await Promise.race([
           image.decode(),

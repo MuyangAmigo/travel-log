@@ -162,8 +162,16 @@ document. The function is self-contained for serialization and uses the
 rendered root's ownerDocument/defaultView. With browser evaluation tools rather
 than a Node harness, evaluate the function body in that document with the same
 arguments. Save `report` to workspace `layout-audit-<locale>-<width>.json`.
+Before eager decoding and geometry checks, the audit promotes a validated,
+nonblank `data-deferred-src` to `src` only when `src` is absent. It never
+overwrites an existing `src` (including an explicitly empty value) and restores
+the previous loading policy after the audit. Direct `frame.evaluate` therefore
+supports deferred editor images without a separate hydration step.
+Unusable sources, failed image loads, and decoding failures remain explicit
+audit errors; do not skip them to obtain a passing report.
 Require `errors.length === 0` in every route and frame. It checks loaded assets
 against source IDs, equal rendered peer rectangles (≤2px), natural/contain
 compositions, document overflow, orphan cells, reading caps/axis and phone
 three-image stacking. It does not decide photographic quality, compare draft
-facts or test lightbox/keyboard/theme behavior; inspect those separately.
+facts, or test normal lazy loading, layout shifts, lightbox/keyboard/theme
+behavior; inspect those separately.
