@@ -634,7 +634,7 @@ reusable; the experiences must always come from the new trip's source:
 
 **Current implementation status, not a limit on the design's scope.**
 The common design was first validated with Phuket and subsequently reused by
-Kansai 2025 and Kansai family 2024. The Phuket breakfast pause, night-market sequence, and staged dive
+Kansai 2025, Kansai family 2024, and later journals including Sanya winter 2023. The Phuket breakfast pause, night-market sequence, and staged dive
 story are examples, not required content for other entries. The design applies
 to all new entries.
 
@@ -645,7 +645,7 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
@@ -677,6 +677,14 @@ photographs, authored as `gallery.caption` rather than a first-image caption
 repositioned by CSS. The shared renderer's `data-trip-block` gallery marker supports
 the tall-clock exception without new schema fields. These rules apply only to
 Beijing's Photo Story presentation, including bilingual editor frames.
+
+Sanya winter 2023 (`sanya-winter-sun-2023`) opts into the shared reading axis in
+both languages and editor frames. Its 76 photographs use 50 complete groups:
+natural-ratio singles and equal-frame pairs and triples. All gallery images
+use `object-fit: contain`, including mixed native ratios; portrait and landscape
+frames remain 3:4 and 4:3. Pairs stack on phones, and triples stack at 760px and
+below. Each photograph retains its individual bilingual caption and full-image
+lightbox access. This document-scoped reuse leaves other trips unchanged.
 
 Changsha 2022 uses the explicitly requested default Classic presentation rather
 than opting into Photo Story. Its pairs use matching square, 4:3, or 16:9 cropped

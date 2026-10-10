@@ -648,7 +648,7 @@
 }
 
 /* Explicit document opt-ins preserve other published trips and styles. */
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   --reading-column: 640px;
 
@@ -900,7 +900,7 @@
   }
 }
 
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"])),
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"])),
 .presentation[data-trip-style="field-journal"]:has(:global([data-trip-document="hakone-2026"])) {
   & :global(.card > .pgrid) {
     max-width: 960px;
@@ -1166,6 +1166,31 @@
 
     & :global(.pgrid.g2 .pf img) {
       aspect-ratio: auto;
+    }
+  }
+}
+
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="sanya-winter-sun-2023"])) {
+  & :global(.pgrid .pf img) {
+    height: auto;
+    object-fit: contain;
+  }
+
+  & :global(.pgrid .pf img.pt) {
+    aspect-ratio: 3 / 4;
+  }
+
+  & :global(.pgrid .pf img.ls) {
+    aspect-ratio: 4 / 3;
+  }
+
+  & :global(.cap) {
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    & :global(.g2) {
+      grid-template-columns: 1fr;
     }
   }
 }
