@@ -95,8 +95,16 @@ Use `parseTripDocument`, `tripDocumentToMeta`, `createTripLocale`, `SLUG` and
 `img(filename)` as current examples do. Keep directory/document/meta slug
 consistent, bilingual block order and all required images aligned. Preserve
 `metadata.private: true` and resolved meta privacy unless approved otherwise.
-Register newest-first in `site/src/lib/trips.ts`. The route owns presentation,
-chapter navigation, scale controller and lightbox; never duplicate them.
+Register the `meta` import and its identifier in the literal `trips` array in
+`site/src/lib/trips.ts`, retaining the import/array/`.sort(...)` form required by
+the editor API's `parseRegisteredTripSlugs`. Add the new slug's confirmed
+first-publication ISO 8601 timestamp with a timezone to `publishedAtBySlug`;
+require a value accepted by `Date.parse`. Publication is a listing property,
+not the travel date or a new TripDocument metadata field. Preserve existing
+first-publication timestamps when updating entries. Check both recent-publication
+and travel-date index sorting, including newly published older journeys.
+The route owns presentation, chapter navigation, scale controller and lightbox;
+never duplicate them.
 Use only supported metadata/gallery fields. Include a named cover, stable
 chapter IDs, nearby prose/photos and expenses only if supplied.
 
@@ -125,8 +133,11 @@ as a delivery dependency. Never claim the production entry is complete/published
 Read DESIGN §12 presentation scope; wire the new slug into required shared
 selectors deliberately. Run checker + current repository tests/build, and
 actual index/both-language/editor-frame previews at all prescribed widths.
+Use the [browser acceptance audit](layout.md#browser-acceptance) directly in each
+page/frame, including deferred preview images; image load errors block delivery.
 Validate private HTML encryption and absence of plaintext route payloads;
-`npm run dev` does not encrypt. Use AGENTS' safe test values, not real secrets.
+`npm run dev` does not encrypt. Use AGENTS' production base path and safe test
+authentication values, not real secrets or a claim of working sign-in.
 Keep generated Next files/lockfile churn and unrelated changes out of delivery.
 
 ## Offline NoteBrain delivery

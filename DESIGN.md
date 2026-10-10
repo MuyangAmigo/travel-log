@@ -1,5 +1,14 @@
 # Design System Inspired by Airbnb
 
+Airbnb research in sections 1–8 is reference material, not instructions to
+recreate its marketplace UI or import its proprietary font. The repository's
+shell uses Inter through `--font-ui` in
+[`globals.css`](site/src/app/globals.css). For implementation, follow the current
+index refinements below, [theme behavior](#10-theme-behavior),
+[agent prompts](#11-agent-prompt-guide), and
+[TravelEntry authoring](#12-reusable-travelentry-authoring). The repository-specific
+[Browser Favicon guidance](#browser-favicon) also remains applicable.
+
 ## Journal index refinement
 
 The index uses a personal editorial identity rather than a marketplace wordmark:
@@ -406,32 +415,41 @@ IDs.
 
 ## 11. Agent Prompt Guide
 
+Use these prompts for the current repository, not to reconstruct Airbnb's
+search, category, or wishlist UI. Reuse existing classes and semantic tokens
+from [`globals.css`](site/src/app/globals.css); keep the journal's portrait,
+localized identity, and index dock.
+
 ### Quick Color Reference
-- Background: Pure White (`#ffffff`) / Dark Canvas (`#111113`)
-- Surface: White (`#ffffff`) / Dark Surface (`#1c1c1e`)
-- Text: Near Black (`#222222`) / Soft White (`#f5f5f5`)
-- Brand accent: Rausch Red (`#ff385c`)
-- Secondary text: `#6a6a6a`
-- Disabled: `rgba(0,0,0,0.24)`
-- Card border: `rgba(0,0,0,0.02) 0px 0px 0px 1px`
-- Card shadow: full three-layer stack
-- Button surface: `#f2f2f2`
+- Background: `--page-background`
+- Card/menu surface: `--surface-elevated`; dock: `--header-background`
+- Text: `--palette-text-primary`; secondary: `--palette-text-secondary`
+- Brand accent: `--palette-bg-primary-core` (`#ff385c` light, `#ff4163` dark)
+- Disabled: `--palette-text-disabled`
+- Card/hover shadows: `--ab-shadow-card` / `--ab-shadow-hover`
+- Selected control surface: `--palette-surface-muted`
+- Radii: `--ab-radius-sm`, `--ab-radius-card`, `--ab-radius-lg`
+- Shell font: `--font-ui` (Inter with the existing fallback stack)
+
+Resolve these tokens in the active theme rather than hard-coding light colors.
+The [ambient index palette](#ambient-index-palette) overrides them only while
+`.index-wrap` is present; do not spread its gradients to trip pages or the editor.
 
 ### Example Component Prompts
-- "Create a listing card: white background, 20px radius. Three-layer shadow: rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px. Photo area on top (16:10 ratio), details below: 16px Airbnb Cereal VF weight 600 title, 14px weight 400 description in #6a6a6a."
-- "Design search bar: white background, full card shadow, 32px radius on container. Search text at 14px Cereal VF weight 400. Red search button (#ff385c, 50% radius, white icon)."
-- "Build category pill bar: horizontal scrollable row. Each pill: 14px Cereal VF weight 600, #222222 text, bottom border on active. Circular prev/next arrows (#f2f2f2 bg, 50% radius)."
-- "Create a CTA button: #222222 background, white text, 8px radius, 16px Cereal VF weight 500, 0px 24px padding. Hover: brand red accent."
-- "Design a heart/wishlist button: transparent background, 50% radius, white heart icon with dark shadow outline."
+- "Refine a gallery trip card using `.trip-card`, `.tc-media`, and `.tc-body`: one `--surface-elevated` surface, `--ab-radius-card` (20px), and `--ab-shadow-card`. Photo above text, 1:1 on desktop and 4:3 on phones. Use `--font-ui` (Inter), a 16px/600 title, existing secondary metadata styling, the full authored date range, and an overlaid privacy badge."
+- "Refine list mode in its centered 1040px column: one shared card surface, a flush 220px-wide full-height photo with a 165px minimum height on desktop, and quiet inline privacy metadata. On phones use the existing `clamp(88px, 24vw, 116px)` photo width and `16px 12px` text padding. Keep outer clipping; no separate photo rounding, shadow, or inset margin."
+- "Maintain the index's bottom dock: compact and centered on desktop, full-width with safe-area spacing on phones. Reuse language, view, sorting, theme, and edit-menu controls with 44px targets and visible keyboard focus. Menus open above the dock and dismiss on outside click or Escape."
+- "Refine the shared header without replacing its identity: keep the existing portrait and localized journal name, use `--font-ui`, semantic text/surface tokens, and the existing responsive layout."
+- "Check both light and dark index themes using the existing ambient tokens: warm ivory or lifted charcoal, broad low-opacity gradients, untinted photographs, and sparse red accents. Keep this palette scoped to `.index-wrap`; leave trip and editor themes unchanged."
 
 ### Iteration Guide
-1. Start with white — the photography provides all the color
-2. Rausch Red (#ff385c) is the singular accent — use sparingly for CTAs only
-3. Near-black (#222222) for text — the warmth matters
-4. Three-layer shadows create natural, warm lift — always use all three layers
-5. Generous radius: 8px buttons, 20px cards, 50% controls
-6. Cereal VF at 500–700 weight — no thin weights for any heading
-7. Photography is hero — every listing card is image-first
+1. Start with semantic surfaces in both themes; retain the index-only ambient palette
+2. Use `--palette-bg-primary-core` sparingly for accents and active controls
+3. Use semantic primary/secondary text tokens; do not force light-theme text colors in dark mode
+4. Reuse `--ab-shadow-card` and `--ab-shadow-hover` rather than a fixed light-only shadow stack
+5. Keep the existing radius scale: 8px buttons, 20px cards, 50% circular controls
+6. Use Inter through `--font-ui` and the existing type scale; do not import Airbnb Cereal VF
+7. Keep photography first: gallery photos are 1:1 on desktop and 4:3 on phones; inspect crops, focus states, and reduced motion
 
 ## 12. Reusable TravelEntry Authoring
 
@@ -633,6 +651,8 @@ currently limits the common photo-story reading rules to:
 Consequently, setting `photo-story` alone does not yet give another document the
 new layout. Its single-image rule detects absence of `.sq`, `.ls`, `.wd`, `.pt`,
 and `.hero` to preserve natural ratios and apply the 420px cap.
+The separate [Hakone Field Journal variation](#guide-and-essay-field-journal)
+shares reading-axis rules under its own document/style opt-in.
 
 Macau 2023 opts into these shared reading rules in both locales and editor
 frames. Its approved two-photo rows use complete compositions (`object-fit:
