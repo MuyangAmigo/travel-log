@@ -153,6 +153,13 @@ export default function TripEntryLayout({
           active = card;
         }
 
+        // A short final chapter may never reach the activation line.
+        const scroller = root.ownerDocument.scrollingElement;
+        if (scroller && scroller.scrollTop > 0
+          && scroller.scrollTop + viewport.innerHeight >= scroller.scrollHeight - 2) {
+          active = cards[cards.length - 1];
+        }
+
         const nextId = active.dataset.tripSection;
         if (nextId) setActiveId(nextId);
       });

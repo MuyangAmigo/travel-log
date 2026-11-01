@@ -645,7 +645,7 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"]), :global([data-trip-document="guangzhou-weekend-2022"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"]), :global([data-trip-document="guangzhou-weekend-2022"]), :global([data-trip-document="shenyang-2022"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
@@ -700,6 +700,21 @@ than opting into Photo Story. Its pairs use matching square, 4:3, or 16:9 croppe
 `thumbnailFilename` assets; the shared lightbox opens each complete `filename`
 asset instead. Unpaired portraits and full-table photographs retain their natural
 composition. No Classic-wide or per-trip presentation CSS is added.
+
+Shenyang 2022 (`shenyang-2022`) explicitly reuses the shared reading flow in both
+locales and isolated editor frames. Its 48 photographs form 29 approved groups:
+13 natural-ratio singles, 14 equal-frame pairs, one triple and one four-photo
+spread. Gallery images use `object-fit: contain`; shaped frames are 3:4, 4:3 or
+16:9, preserving full compositions rather than cropping portraits or tables.
+Pairs stack at 480px, triples at 760px, and the four-photo spread keeps a complete
+two-by-two grid. Each photograph retains its approved bilingual caption and
+full-image lightbox access. These document/style opt-ins leave other trips
+unchanged.
+
+Shared chapter tracking uses the rendered document's scroll position, including
+inside editor frames. At the end of a scrollable document, the final chapter
+becomes current even when its text is too short to reach the normal activation
+line.
 
 Jiuzhaigou, Kansai family, Macau, and Changsha use `gallery.caption` for their
 shared two-photo captions, rather than attaching a row's description to its
