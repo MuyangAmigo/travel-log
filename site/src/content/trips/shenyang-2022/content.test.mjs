@@ -17,7 +17,7 @@ const galleries = blocks.filter((block) => block.type === "gallery");
 const tripDirectory = dirname(fileURLToPath(import.meta.url));
 const hash = (value) => createHash("sha256").update(value).digest("hex");
 
-test("Shenyang keeps the approved private bilingual identity, dates and courtyard cover", () => {
+test("Shenyang keeps the approved private bilingual identity, dates and church cover", () => {
   assert.equal(document.slug, "shenyang-2022");
   assert.equal(document.metadata.date, "2022-10-03");
   assert.equal(document.metadata.dateRange, "2022.10.03 — 10.05");
@@ -28,10 +28,11 @@ test("Shenyang keeps the approved private bilingual identity, dates and courtyar
     en: "Shenyang, Between Red Walls and the Grand Stage",
   });
   assert.deepEqual(blocks[0].title, document.metadata.title);
-  assert.equal(blocks[0].backgroundImageId, "p-ff0819f09e227fa8");
+  assert.equal(document.metadata.coverImageId, "p-d75069e78469daf3");
+  assert.equal(blocks[0].backgroundImageId, document.metadata.coverImageId);
   const meta = tripDocumentToMeta(document, (filename) => `test:${filename}`);
   assert.equal(meta.private, true);
-  assert.equal(meta.coverImage, "test:p-ff0819f09e227fa8.webp");
+  assert.equal(meta.coverImage, "test:p-d75069e78469daf3.webp");
   assert.deepEqual(document.sections.map((section) => section.id),
     ["overview", "day-1", "day-2", "day-3", "home"]);
   for (const locale of ["zh", "en"]) {

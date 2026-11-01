@@ -39,8 +39,11 @@ test("Guangzhou preserves its approved private bilingual identity and 2022 evide
     en: "Guangzhou, a Weekend by the Pearl River",
   });
   assert.deepEqual(blocks[0].title, document.metadata.title);
-  assert.equal(document.metadata.coverImageId, "p-884b86d5d9efebac");
-  assert.equal(tripDocumentToMeta(document, (filename) => filename).private, true);
+  assert.equal(document.metadata.coverImageId, "p-89f0cde567165a9f");
+  assert.equal(blocks[0].backgroundImageId, document.metadata.coverImageId);
+  const meta = tripDocumentToMeta(document, (filename) => filename);
+  assert.equal(meta.private, true);
+  assert.equal(meta.coverImage, "p-89f0cde567165a9f.webp");
   for (const locale of ["zh", "en"]) {
     assert.match(readFileSync(new URL(`./${locale}.tsx`, import.meta.url), "utf8"),
       new RegExp(`createTripLocale\\(document, "${locale}", img\\)`));
