@@ -1,0 +1,1913 @@
+{
+  "version": 1,
+  "slug": "shenyang-2022",
+  "metadata": {
+    "date": "2022-10-03",
+    "dateRange": "2022.10.03 — 10.05",
+    "coverImageId": "p-ff0819f09e227fa8",
+    "title": {
+      "zh": "沈阳，把秋天留在红墙与大舞台",
+      "en": "Shenyang, Between Red Walls and the Grand Stage"
+    },
+    "subtitle": {
+      "zh": "随心飞国庆短途行 · 故宫、大帅府与东北文化",
+      "en": "A National Day Fly Anywhere Trip · Palaces and Northeastern Culture"
+    },
+    "location": {
+      "zh": "中国 · 沈阳",
+      "en": "Shenyang, China"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "p-4fa306e455f2e802",
+      "filename": "p-4fa306e455f2e802.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "酒店客房全景，床、书桌和夜色中的窗户",
+        "en": "Hotel room with a bed, desk and windows after dark"
+      }
+    },
+    {
+      "id": "p-2d739544dc03196a",
+      "filename": "p-2d739544dc03196a.webp",
+      "width": 1125,
+      "height": 2000,
+      "alt": {
+        "zh": "客房入口与走廊",
+        "en": "The entrance and corridor of the hotel room"
+      }
+    },
+    {
+      "id": "p-7eb97de133e95261",
+      "filename": "p-7eb97de133e95261.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "金属蒸屉中的一盘饺子",
+        "en": "Dumplings in a metal steamer"
+      }
+    },
+    {
+      "id": "p-00b8e8016d26d0ad",
+      "filename": "p-00b8e8016d26d0ad.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "广场、雕像与周围高楼的全景",
+        "en": "A square with a sculpture and surrounding high-rise buildings"
+      }
+    },
+    {
+      "id": "p-97c9c3e161f93383",
+      "filename": "p-97c9c3e161f93383.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "广场雕像近景",
+        "en": "A close view of the sculpture in the square"
+      }
+    },
+    {
+      "id": "p-15a7f063a7e9905d",
+      "filename": "p-15a7f063a7e9905d.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "两人在红色花坛前搭肩合影",
+        "en": "Two people with an arm around a shoulder in front of red flower beds"
+      }
+    },
+    {
+      "id": "p-8d8ebb5088923789",
+      "filename": "p-8d8ebb5088923789.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "宫殿正面、匾额与彩绘檐下",
+        "en": "The palace facade with a plaque and painted eaves"
+      }
+    },
+    {
+      "id": "p-940648e9566100fd",
+      "filename": "p-940648e9566100fd.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "宫殿前两人的合影",
+        "en": "Two people standing in front of a palace hall"
+      }
+    },
+    {
+      "id": "p-0a0c864d6c79af6b",
+      "filename": "p-0a0c864d6c79af6b.webp",
+      "width": 1774,
+      "height": 1774,
+      "alt": {
+        "zh": "宫殿前两人近距离自拍",
+        "en": "A close selfie of two people in front of the palace"
+      }
+    },
+    {
+      "id": "p-4f28df94506c3125",
+      "filename": "p-4f28df94506c3125.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "展柜中的青花瓷瓶",
+        "en": "A blue-and-white porcelain vase in a display case"
+      }
+    },
+    {
+      "id": "p-b4208f8a4d21b27a",
+      "filename": "p-b4208f8a4d21b27a.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "展柜中的彩色长颈器物",
+        "en": "A colorful long-necked object in a display case"
+      }
+    },
+    {
+      "id": "p-f850fd157b4b5dd0",
+      "filename": "p-f850fd157b4b5dd0.webp",
+      "width": 1125,
+      "height": 2000,
+      "alt": {
+        "zh": "宫殿廊内的彩绘构件",
+        "en": "Painted architectural details inside a palace corridor"
+      }
+    },
+    {
+      "id": "p-9001a3a922b34f9c",
+      "filename": "p-9001a3a922b34f9c.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "蓝天下翘起的屋檐",
+        "en": "An upturned roof corner against blue sky"
+      }
+    },
+    {
+      "id": "p-b1430beb5922ee29",
+      "filename": "p-b1430beb5922ee29.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "宫墙前一人的全身照",
+        "en": "A full-body portrait in front of a palace wall"
+      }
+    },
+    {
+      "id": "p-3bd0911b069e66c8",
+      "filename": "p-3bd0911b069e66c8.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "同一人的另一张单人照，原构图止于大腿",
+        "en": "A portrait by a doorway, framed down to the thighs"
+      }
+    },
+    {
+      "id": "p-ff0819f09e227fa8",
+      "filename": "p-ff0819f09e227fa8.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "故宫庭院，红柱、绿植与蓝天",
+        "en": "A palace courtyard with red columns, greenery and blue sky"
+      }
+    },
+    {
+      "id": "p-428cea8eb5913127",
+      "filename": "p-428cea8eb5913127.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "木桌上的桃形点心与餐具",
+        "en": "A peach-shaped sweet and tableware on a wooden table"
+      }
+    },
+    {
+      "id": "p-8f0dbcc7174d28ba",
+      "filename": "p-8f0dbcc7174d28ba.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "茶壶、茶杯、桃形点心与小点心",
+        "en": "A teapot, cups, a peach-shaped sweet and small snacks"
+      }
+    },
+    {
+      "id": "p-b4be88b897e5e1f2",
+      "filename": "p-b4be88b897e5e1f2.webp",
+      "width": 1125,
+      "height": 2000,
+      "alt": {
+        "zh": "同桌的人举手机拍照",
+        "en": "A person at the table holding up a phone to take a photograph"
+      }
+    },
+    {
+      "id": "p-df787c526b954a52",
+      "filename": "p-df787c526b954a52.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "大帅府区域的雕像与广场",
+        "en": "A sculpture and square at Marshal Zhang's Mansion"
+      }
+    },
+    {
+      "id": "p-d4051579fe0e411f",
+      "filename": "p-d4051579fe0e411f.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "墙上的“鸿禧”字样与花坛",
+        "en": "The characters Hongxi on a wall beside flower beds"
+      }
+    },
+    {
+      "id": "p-78c3c573f4472fc3",
+      "filename": "p-78c3c573f4472fc3.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "展柜中的金属带盖器物",
+        "en": "A lidded metal object in a display case"
+      }
+    },
+    {
+      "id": "p-a9e02ee51890e14c",
+      "filename": "p-a9e02ee51890e14c.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "石雕中的树木与动物细节",
+        "en": "Trees and animals depicted in a stone carving"
+      }
+    },
+    {
+      "id": "p-64332baa51405521",
+      "filename": "p-64332baa51405521.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "大帅府大楼正面全景",
+        "en": "A full view of the facade at Marshal Zhang's Mansion"
+      }
+    },
+    {
+      "id": "p-7b4d5d95cf710ec4",
+      "filename": "p-7b4d5d95cf710ec4.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "室内陈设，沙发、窗帘与挂画",
+        "en": "An interior with sofas, curtains and paintings"
+      }
+    },
+    {
+      "id": "p-ba8a286ba43e206a",
+      "filename": "p-ba8a286ba43e206a.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "露台栏杆外的树木与楼房",
+        "en": "Trees and buildings beyond a terrace railing"
+      }
+    },
+    {
+      "id": "p-47993170d933c9a8",
+      "filename": "p-47993170d933c9a8.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "教堂正面，两座高塔与圆窗",
+        "en": "A church facade with two towers and a round window"
+      }
+    },
+    {
+      "id": "p-d75069e78469daf3",
+      "filename": "p-d75069e78469daf3.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "教堂顶部双塔与雕像细节",
+        "en": "Details of the church's twin towers and sculptures"
+      }
+    },
+    {
+      "id": "p-2f1e930fe8cf7e17",
+      "filename": "p-2f1e930fe8cf7e17.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "刘老根大舞台外立面与红色招牌",
+        "en": "The facade and red sign at Liu Laogen Grand Stage"
+      }
+    },
+    {
+      "id": "p-065cfb167e924e23",
+      "filename": "p-065cfb167e924e23.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "两人在红墙前戴口罩比手势合影",
+        "en": "Two masked people making hand gestures in front of a red wall"
+      }
+    },
+    {
+      "id": "p-47636c20c6df64b1",
+      "filename": "p-47636c20c6df64b1.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "两杯饮料与沈阳路路牌",
+        "en": "Two drink cups beside a Shenyang Road sign"
+      }
+    },
+    {
+      "id": "p-c1101bce9985fdaa",
+      "filename": "p-c1101bce9985fdaa.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "红墙前的一杯饮料",
+        "en": "A drink cup in front of a red wall"
+      }
+    },
+    {
+      "id": "p-2cbc15e54e2aa132",
+      "filename": "p-2cbc15e54e2aa132.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "沈阳故宫石刻标识与庭院",
+        "en": "The Mukden Palace's stone sign and courtyard"
+      }
+    },
+    {
+      "id": "p-3c2ec319cb835c15",
+      "filename": "p-3c2ec319cb835c15.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "沿红墙延伸的小路与绿树",
+        "en": "A path beside a red wall and green trees"
+      }
+    },
+    {
+      "id": "p-41fef768be6be8a3",
+      "filename": "p-41fef768be6be8a3.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "四格小菜",
+        "en": "Four small dishes in a divided serving tray"
+      }
+    },
+    {
+      "id": "p-dab888d0e14e280a",
+      "filename": "p-dab888d0e14e280a.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "茶壶与玻璃杯",
+        "en": "A teapot and glasses"
+      }
+    },
+    {
+      "id": "p-4b335b21e6b5f6b1",
+      "filename": "p-4b335b21e6b5f6b1.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "带盖器皿中的肉类菜肴",
+        "en": "A meat dish in a lidded vessel"
+      }
+    },
+    {
+      "id": "p-00f5b396630ba2fd",
+      "filename": "p-00f5b396630ba2fd.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "木盘上的整只烤制禽类",
+        "en": "A whole roasted bird on a wooden platter"
+      }
+    },
+    {
+      "id": "p-f958457a1216d2df",
+      "filename": "p-f958457a1216d2df.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "盘中金黄色块状食物",
+        "en": "Golden pieces of food on a plate"
+      }
+    },
+    {
+      "id": "p-a06c030603160b8c",
+      "filename": "p-a06c030603160b8c.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "石板上的炸制食物与配菜",
+        "en": "Fried food and side dishes on a stone platter"
+      }
+    },
+    {
+      "id": "p-edb1a72a598e08ef",
+      "filename": "p-edb1a72a598e08ef.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "亮起的舞台与站成一排的演员",
+        "en": "Performers standing in a row on an illuminated stage"
+      }
+    },
+    {
+      "id": "p-90c650bb36c76f81",
+      "filename": "p-90c650bb36c76f81.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "酒店房间内手持一瓶饮料，标签可见BEER MILK TEA",
+        "en": "A hand holding a bottled drink labeled BEER MILK TEA in a hotel room"
+      }
+    },
+    {
+      "id": "p-f952f6542c026b77",
+      "filename": "p-f952f6542c026b77.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "酒店大厅，标有Latitude 42的台面",
+        "en": "A hotel lobby counter marked Latitude 42"
+      }
+    },
+    {
+      "id": "p-3eaacfb66017f06f",
+      "filename": "p-3eaacfb66017f06f.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "餐桌上的粉色饮料与菜肴",
+        "en": "A pink drink and dishes on a restaurant table"
+      }
+    },
+    {
+      "id": "p-bd7aedea082603fd",
+      "filename": "p-bd7aedea082603fd.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "白盘中的菜肴，背景有烤盘",
+        "en": "Food on a white plate with a roasting tray behind it"
+      }
+    },
+    {
+      "id": "p-fb3f97adefcebfb4",
+      "filename": "p-fb3f97adefcebfb4.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "前景切开的肉类和一桌菜",
+        "en": "Sliced meat in the foreground and dishes across the table"
+      }
+    },
+    {
+      "id": "p-35da4c03b252f59b",
+      "filename": "p-35da4c03b252f59b.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "K11区域的室外建筑、绿篱和装置",
+        "en": "Outdoor architecture, hedges and installations at K11"
+      }
+    },
+    {
+      "id": "p-cfdb376fae3a9134",
+      "filename": "p-cfdb376fae3a9134.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "K11区域外立面与室外大型装置",
+        "en": "A facade and large outdoor installation at K11"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "序",
+          "en": "INTRO"
+        },
+        "label": {
+          "zh": "沈阳，把秋天留在红墙与大舞台",
+          "en": "Shenyang, Between Red Walls and the Grand Stage"
+        },
+        "detail": {
+          "zh": "随心飞国庆短途行 · 故宫、大帅府与东北文化",
+          "en": "A National Day Fly Anywhere Trip · Palaces and Northeastern Culture"
+        }
+      }
+    },
+    {
+      "id": "day-1",
+      "navigation": {
+        "marker": {
+          "zh": "10.3",
+          "en": "OCT 3"
+        },
+        "label": {
+          "zh": "和平区落脚",
+          "en": "Settling into Heping"
+        },
+        "detail": {
+          "zh": "2022年10月3日",
+          "en": "October 3, 2022"
+        }
+      }
+    },
+    {
+      "id": "day-2",
+      "navigation": {
+        "marker": {
+          "zh": "10.4",
+          "en": "OCT 4"
+        },
+        "label": {
+          "zh": "红墙与大舞台",
+          "en": "Red Walls and the Grand Stage"
+        },
+        "detail": {
+          "zh": "2022年10月4日",
+          "en": "October 4, 2022"
+        }
+      }
+    },
+    {
+      "id": "day-3",
+      "navigation": {
+        "marker": {
+          "zh": "10.5",
+          "en": "OCT 5"
+        },
+        "label": {
+          "zh": "放慢，走向返程",
+          "en": "Slowing Down Before Heading Home"
+        },
+        "detail": {
+          "zh": "2022年10月5日",
+          "en": "October 5, 2022"
+        }
+      }
+    },
+    {
+      "id": "home",
+      "navigation": {
+        "marker": {
+          "zh": "归",
+          "en": "HOME"
+        },
+        "label": {
+          "zh": "把行程收好",
+          "en": "Keeping the Journey"
+        },
+        "detail": {
+          "zh": "返程与原记",
+          "en": "The Journey Home and Original Notes"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover-title",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "沈阳 · 国庆随心飞",
+            "en": "SHENYANG · NATIONAL DAY"
+          },
+          "title": {
+            "zh": "沈阳，把秋天留在红墙与大舞台",
+            "en": "Shenyang, Between Red Walls and the Grand Stage"
+          },
+          "subtitle": {
+            "zh": "随心飞国庆短途行 · 故宫、大帅府与东北文化",
+            "en": "A National Day Fly Anywhere Trip · Palaces and Northeastern Culture"
+          },
+          "date": {
+            "zh": "2022.10.03 — 10.05",
+            "en": "October 3–5, 2022"
+          },
+          "intro": {
+            "zh": "国庆用随心飞落地沈阳，把故宫、大帅府、中街和刘老根大舞台放进一次短途旅行。相册里有红墙、蓝天、餐桌，也有合影与酒店里的小片段。没去成的夜景、洗浴和博物馆同样留在行程里，这才是这趟旅行实际走过的样子。",
+            "en": "A Fly Anywhere pass brought me to Shenyang for the National Day holiday, with the Mukden Palace, Marshal Zhang's Mansion, Middle Street and Liu Laogen Grand Stage fitting into one short trip. The album holds red walls, blue sky and tables, as well as photographs together and small moments at the hotel. The night walk, bathhouse and museum that did not happen belong in the itinerary too: this is the trip we actually made."
+          },
+          "backgroundImageId": "p-ff0819f09e227fa8"
+        }
+      ]
+    },
+    {
+      "id": "arrival-room-page",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "arrival-room-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "03",
+            "en": "03"
+          },
+          "title": {
+            "zh": "10月3日｜先在和平区落脚",
+            "en": "October 3 | Settling into Heping"
+          },
+          "subtitle": {
+            "zh": "2022-10-03",
+            "en": "2022-10-03"
+          }
+        },
+        {
+          "id": "arrival-room-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这次国庆，我用随心飞安排了一趟沈阳短途旅行。行程记下的到达时间是10月3日18:40，落地桃仙机场后，有预约好的接机送往酒店。我们住在和平区的沈阳和平艾美酒店，靠近太原街地铁站。晚上拍下的客房照片里，窗外已经亮起灯，房间内是床、书桌和一段安静的走廊。",
+              "en": "For the National Day holiday, I used my Fly Anywhere pass for a short trip to Shenyang. The itinerary recorded an arrival at Taoxian Airport at 18:40 on October 3, followed by a reserved airport pickup to the hotel. We stayed at Le Méridien Shenyang, Heping, near Taiyuan Street Metro Station. By the time I photographed the room that evening, lights were on outside the window. Inside were the bed, a desk and a quiet stretch of corridor."
+            }
+          ]
+        },
+        {
+          "id": "arrival-room",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-4fa306e455f2e802",
+              "caption": {
+                "zh": "夜里的客房，是这趟沈阳行的落脚处。",
+                "en": "The room was our base in Shenyang."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p-2d739544dc03196a",
+              "caption": {
+                "zh": "从入口往里看，先把行李和旅途安顿下来。",
+                "en": "A view from the entrance into the room."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrival-dumplings-page",
+      "sectionId": "day-1",
+      "blocks": [
+        {
+          "id": "arrival-dumplings-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这一晚还留下一张蒸屉里饺子的照片。笔记没有记下店名，也没有留下这顿的评价，就让这盘饺子保留它原本的样子。原先想走的青年公园—彩电塔—青年大街—科普公园夜景路线，最后没去成；雅致永乐汇的洗浴计划也没有实现。抵达的第一晚，没有把清单全部打勾。",
+              "en": "That evening also left us a photograph of dumplings in a metal steamer. The note did not record the restaurant or a verdict on the food, so I am leaving the dumplings as they were. The planned night walk through Youth Park, the TV Tower, Qingnian Street and Science Park did not happen; neither did our planned bathhouse visit to Yazhi Yonglehui. We did not tick every box on the first evening."
+            }
+          ]
+        },
+        {
+          "id": "arrival-dumplings",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-7eb97de133e95261",
+              "caption": {
+                "zh": "抵达夜的一盘饺子，店名未记。",
+                "en": "Dumplings photographed on the arrival evening; the venue was not recorded."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morning-square-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "morning-square-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "10月4日｜蓝天下，从街头走进故宫",
+            "en": "October 4 | From Sunny Streets to the Palace"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "morning-square-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "第二天，笔记里的早餐是四季面条。出门后，照片里是一片很清楚的蓝天，广场上的雕像、周围的楼和花坛都晒在阳光下。先留下一点沈阳街头的样子，再往故宫走。",
+              "en": "Breakfast the next day was Siji Noodles, according to the note. Outside, the photographs show a very clear blue sky. The sculpture in the square, the surrounding buildings and the flower beds were all in sunlight. We kept a few views of Shenyang's streets before heading to the palace."
+            }
+          ]
+        },
+        {
+          "id": "morning-square",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-00b8e8016d26d0ad",
+              "caption": {
+                "zh": "广场周围的楼，和当天明亮的天色。",
+                "en": "Buildings around the square under a clear sky."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-97c9c3e161f93383",
+              "caption": {
+                "zh": "同一片广场，靠近一些看雕像。",
+                "en": "A closer view of the sculpture in the same square."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "square-together-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "square-together-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "花坛前的合影也留了下来。比起再多一个建筑角度，这张搭着肩的照片，把“我们来过这里”放进了当天的开头。",
+              "en": "We also kept a photograph together in front of the flower beds. Rather than another architectural angle, this picture with an arm around a shoulder puts us into the beginning of the day."
+            }
+          ]
+        },
+        {
+          "id": "square-together",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-15a7f063a7e9905d",
+              "caption": {
+                "zh": "红色花坛前的合影，留住旅途里的人。",
+                "en": "Together in front of the red flower beds."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-front-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-front-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "故宫｜抬头看屋檐，也留下合影",
+            "en": "The Palace | Eaves and Photographs Together"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "palace-front-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "上午去了沈阳故宫。相册里的故宫照片从接近中午开始：红墙、彩绘檐下、蓝天，还有殿前的合影。和街头的广场相比，这里的照片更愿意往上看，匾额和一层层屋檐占了不少画面。",
+              "en": "We visited the Mukden Palace that morning. The palace photographs begin around midday: red walls, painted eaves, blue sky and a photograph together in front of a hall. Compared with the square, the camera here looked upward more often, giving the plaques and layers of eaves plenty of space."
+            }
+          ]
+        },
+        {
+          "id": "palace-front",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-8d8ebb5088923789",
+              "caption": {
+                "zh": "彩绘檐下和匾额，把视线带到建筑上方。",
+                "en": "Painted eaves and a plaque draw the eye upward."
+              },
+              "shape": "wide"
+            },
+            {
+              "imageId": "p-940648e9566100fd",
+              "caption": {
+                "zh": "在殿前留下一张合影。",
+                "en": "A photograph together in front of the palace hall."
+              },
+              "shape": "wide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-source-selfie-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-source-selfie-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "换一个角度，屋檐仍在身后，蓝天占了半幅画面。原笔记里用的就是这张合影，也一起留在这篇日记里。",
+              "en": "From another angle, the eaves were still behind us and blue sky filled half the frame. This is the selfie used in the original trip note, and it belongs in this journal too."
+            }
+          ]
+        },
+        {
+          "id": "palace-source-selfie",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-0a0c864d6c79af6b",
+              "caption": {
+                "zh": "原笔记里的故宫合影，保留原始构图。",
+                "en": "The palace selfie used in the original trip note."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-objects-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-objects-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "进入展陈空间，又把视线收回到展柜里。瓷器与彩色器物和外面的红墙、屋檐，是这段参观里不同尺度的细节。没有把器物的名称记全，就不替照片补上一个不确定的名字。",
+              "en": "Inside the exhibition spaces, our attention moved back to the display cases. Porcelain and colorful objects added smaller details alongside the red walls and eaves outside. I did not record every object's name, so I will not give a photograph an uncertain label."
+            }
+          ]
+        },
+        {
+          "id": "palace-objects",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-4f28df94506c3125",
+              "caption": {
+                "zh": "展柜里的青花纹样。",
+                "en": "Blue-and-white decoration in a display case."
+              }
+            },
+            {
+              "imageId": "p-b4208f8a4d21b27a",
+              "caption": {
+                "zh": "另一件器物的颜色与轮廓。",
+                "en": "The color and outline of another displayed object."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-eaves-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-eaves-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再回到建筑边，廊内和屋檐的细节接着看。金色、绿色和红色挤在同一个画面里，转到侧面，檐角又伸进了蓝天。",
+              "en": "Back beside the buildings, we continued looking at the corridors and eaves. Gold, green and red shared the same frame. From the side, the roof corners reached into the blue sky."
+            }
+          ]
+        },
+        {
+          "id": "palace-eaves",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-f850fd157b4b5dd0",
+              "caption": {
+                "zh": "廊内近看彩绘构件。",
+                "en": "A closer look at the painted corridor details."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p-9001a3a922b34f9c",
+              "caption": {
+                "zh": "从侧面抬头，檐角伸进蓝天。",
+                "en": "An upturned roof corner against the sky."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-wall-portrait-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-wall-portrait-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "故宫里不只有建筑照，也拍了单人照。站到宫墙前，头顶是彩绘屋檐，脚下是院里的石砖。",
+              "en": "There were portraits as well as architectural photographs in the palace. By the wall, painted eaves were overhead and stone paving was underfoot."
+            }
+          ]
+        },
+        {
+          "id": "palace-wall-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-b1430beb5922ee29",
+              "caption": {
+                "zh": "宫墙前的一张全身照。",
+                "en": "A full-length photograph by the palace wall."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-doorway-portrait-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-doorway-portrait-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "另一张单人照站在门框里，身后的庭院和屋顶留在了同一个画面中。我们没有只拍建筑，也把自己放进这段参观。",
+              "en": "Another portrait was framed by a doorway, with the courtyard and rooftops behind it. We did not photograph only the buildings; we put ourselves into this part of the visit too."
+            }
+          ]
+        },
+        {
+          "id": "palace-doorway-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-3bd0911b069e66c8",
+              "caption": {
+                "zh": "门框与庭院之间的单人照。",
+                "en": "A portrait framed by the doorway and courtyard."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-courtyard-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-courtyard-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "往庭院里看，红柱、树丛和远处的殿宇正好排在一起。建筑的一侧落在影子里，另一侧仍晒着太阳，蓝天从屋顶上方铺开。",
+              "en": "Looking into the courtyard, red columns, shrubs and the hall beyond lined up together. One side of the buildings was in shadow and the other was still in sunlight, with blue sky opening above the roofs."
+            }
+          ]
+        },
+        {
+          "id": "palace-courtyard",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-ff0819f09e227fa8",
+              "caption": {
+                "zh": "庭院里的红柱与蓝天；拟作本篇封面。",
+                "en": "Red columns and blue sky in the courtyard; the proposed cover."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace-tea-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "palace-tea-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "木桌前｜给参观留一点停顿",
+            "en": "At a Wooden Table | A Pause Between Visits"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "palace-tea-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "故宫参观后，相册接着是一张木桌：桃形点心、小点心、茶壶和玻璃杯。没有店名和价格记录，但这组照片让上午的宫殿与下午的行走之间，多了一小段坐下来的画面。",
+              "en": "After the palace visit, the next photographs show a wooden table: a peach-shaped sweet, small snacks, a teapot and glasses. No venue or prices were recorded, but these pictures give the morning's palace and the afternoon's walking a brief seated pause between them."
+            }
+          ]
+        },
+        {
+          "id": "palace-tea",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-428cea8eb5913127",
+              "caption": {
+                "zh": "桃形点心和两套餐具。",
+                "en": "A peach-shaped sweet and two sets of utensils."
+              }
+            },
+            {
+              "imageId": "p-8f0dbcc7174d28ba",
+              "caption": {
+                "zh": "茶壶与小点心，把这一桌补完整。",
+                "en": "Tea and small snacks complete the view of the table."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-photographer-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "tea-photographer-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "桌子对面的人也举起了手机。相册不只留下吃的，也留下了拍照的这个动作。",
+              "en": "The person across the table had a phone raised too. The album kept not only the food but also the act of photographing it."
+            }
+          ]
+        },
+        {
+          "id": "tea-photographer",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-b4be88b897e5e1f2",
+              "caption": {
+                "zh": "先拍一张，再让这一刻进入相册。",
+                "en": "A photograph of the person photographing the table."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mansion-courtyard-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "mansion-courtyard-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "大帅府｜从院子到室内",
+            "en": "The Mansion | From the Grounds to the Rooms"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "mansion-courtyard-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午逛了中街，也去了大帅府。进入大帅府这段，照片先是院前的雕像和花坛，再往建筑与展陈里走。一天里看了两种很不一样的建筑：故宫的彩绘檐角之后，换成了大帅府的石色立面。",
+              "en": "In the afternoon, we explored Middle Street and visited Marshal Zhang's Mansion. The mansion photographs begin with a sculpture and flower beds before moving into the architecture and displays. We saw two very different kinds of building in one day: after the palace's painted eaves came the mansion's stone-colored facades."
+            }
+          ]
+        },
+        {
+          "id": "mansion-courtyard",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-df787c526b954a52",
+              "caption": {
+                "zh": "大帅府区域的院前雕像。",
+                "en": "A sculpture in the mansion grounds."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-d4051579fe0e411f",
+              "caption": {
+                "zh": "墙上字样与花坛的另一处细节。",
+                "en": "Wall lettering and flower beds elsewhere in the grounds."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mansion-details-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "mansion-details-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这段参观里还拍下了带盖金属器物，以及石雕上的树木与动物。一个在展柜里，一个刻在石面上，都是走近之后才进入镜头的细节。",
+              "en": "We also photographed a lidded metal object and stone carvings of trees and animals. One was in a display case, the other on a stone surface—details that came into view when we moved closer."
+            }
+          ]
+        },
+        {
+          "id": "mansion-details",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-78c3c573f4472fc3",
+              "caption": {
+                "zh": "展柜里的金属器物，保留完整轮廓。",
+                "en": "The complete outline of a metal object in a display case."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-a9e02ee51890e14c",
+              "caption": {
+                "zh": "石雕里的树与动物。",
+                "en": "Trees and animals carved into stone."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mansion-building-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "mansion-building-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "走到大楼正面，镜头又抬起来。柱廊、窗和顶端的线条都放进了照片里，眼前的建筑和刚才展柜里的小器物是完全不同的尺度。",
+              "en": "At the front of the large building, the camera looked upward again. The colonnade, windows and lines along the top all fit into the photograph. The building in front of us was on a completely different scale from the small objects in the display cases."
+            }
+          ]
+        },
+        {
+          "id": "mansion-building",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-64332baa51405521",
+              "caption": {
+                "zh": "大帅府大楼正面，完整保留建筑。",
+                "en": "The mansion building viewed from the front."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mansion-inside-out-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "mansion-inside-out-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "室内是沙发、窗帘和挂画，转到露台，镜头又越过栏杆看向树木与楼房。从屋内到屋外，这两张照片接着同一段参观。",
+              "en": "Inside were sofas, curtains and paintings. Out on the terrace, the camera looked past the railing toward trees and buildings. These two photographs continue the same visit from indoors to outdoors."
+            }
+          ]
+        },
+        {
+          "id": "mansion-inside-out",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-7b4d5d95cf710ec4",
+              "caption": {
+                "zh": "屋内的陈设与窗边。",
+                "en": "Furnishings and a window inside the building."
+              }
+            },
+            {
+              "imageId": "p-ba8a286ba43e206a",
+              "caption": {
+                "zh": "走到露台，视线越过栏杆。",
+                "en": "Looking beyond the railing from the terrace."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "street-church-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "street-church-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "街头｜走过双塔，再回到红墙边",
+            "en": "On Foot | Twin Towers and Red Walls"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "street-church-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午继续走街，途中拍到了一座双塔教堂。照片留下了正面圆窗与高塔，也留下顶部雕像的细节；这里只按街头所见写，不把外观照片当作进去参观过的证明。",
+              "en": "We kept walking through the streets that afternoon and photographed a twin-towered church along the way. The pictures show its round window and tall towers, as well as sculptures near the top. This is a record of the exterior we saw, not a claim that we went inside."
+            }
+          ]
+        },
+        {
+          "id": "street-church",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-47993170d933c9a8",
+              "caption": {
+                "zh": "途中拍下的双塔教堂外观。",
+                "en": "The exterior of a twin-towered church seen along the walk."
+              }
+            },
+            {
+              "imageId": "p-d75069e78469daf3",
+              "caption": {
+                "zh": "镜头往上，留住双塔与雕像。",
+                "en": "The towers and sculptures higher up on the facade."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage-exterior-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "stage-exterior-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "接近傍晚时，先拍到了刘老根大舞台的红色招牌。留存的两张票都印着10月4日19:00，票面价各380元。这是票据上的信息，不等于确认了折扣或实际支付总额。",
+              "en": "Toward evening, we first photographed the red sign at Liu Laogen Grand Stage. The two surviving tickets both show October 4 at 19:00, with a face value of RMB 380 each. That is information printed on the tickets, not confirmation of a discount or the total actually paid."
+            }
+          ]
+        },
+        {
+          "id": "stage-exterior",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-2f1e930fe8cf7e17",
+              "caption": {
+                "zh": "白天先见到的招牌，晚上还会回来。",
+                "en": "The stage sign photographed before the evening performance."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-wall-together-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "red-wall-together-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "之后又在故宫红墙旁留下合影。两个人戴着口罩，对着镜头比手势，红墙占了很大一片背景。",
+              "en": "Later, we took another photograph together beside the palace's red wall. Wearing masks, we made hand gestures toward the camera, with the wall filling much of the background."
+            }
+          ]
+        },
+        {
+          "id": "red-wall-together",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-065cfb167e924e23",
+              "caption": {
+                "zh": "红墙前的两人合影。",
+                "en": "Together in front of the red palace wall."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shenyang-drinks-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "shenyang-drinks-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这一段路还留下了印着“沈阳”的饮料杯。先和沈阳路路牌放在一起拍，再拿到红墙前。杯套、路牌和墙面的红色，都是这次街头行走里很具体的记号。",
+              "en": "This part of the walk also left us drink cups printed with Shenyang's name. First we photographed them with the Shenyang Road sign, then against the red wall. The sleeves, the road sign and the red wall are very specific markers of this walk."
+            }
+          ]
+        },
+        {
+          "id": "shenyang-drinks",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-47636c20c6df64b1",
+              "caption": {
+                "zh": "两杯“沈阳”，和沈阳路路牌同框。",
+                "en": "Two Shenyang cups with the Shenyang Road sign."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p-c1101bce9985fdaa",
+              "caption": {
+                "zh": "走到红墙旁，给杯子换一个背景。",
+                "en": "The red wall becomes another backdrop for a cup."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-wall-path-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "red-wall-path-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "再看一眼故宫的石刻标识，沿着红墙旁的小路走。这组傍晚的照片仍然有树、有墙，也没有离开白天的蓝天。",
+              "en": "We looked once more at the palace's stone sign and followed the path beside the red wall. These late-afternoon photographs still have trees, walls and the same blue sky as earlier in the day."
+            }
+          ]
+        },
+        {
+          "id": "red-wall-path",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-2cbc15e54e2aa132",
+              "caption": {
+                "zh": "故宫标识旁的庭院一角。",
+                "en": "A corner of the grounds beside the palace sign."
+              }
+            },
+            {
+              "imageId": "p-3c2ec319cb835c15",
+              "caption": {
+                "zh": "沿红墙延伸的小路。",
+                "en": "A path following the red wall."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner-start-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "dinner-start-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "青梅酒肆｜晚饭之后去看戏",
+            "en": "Qingmei Jiusi | Dinner Before the Show"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "dinner-start-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚饭是青梅酒肆。照片里先摆上了四格小菜和茶壶，接着几盘菜陆续进入相册。原记没有留下点菜单和口味评价，这里保留餐桌本身，不替这一顿加上“必吃”或“踩雷”的结论。",
+              "en": "Dinner was at Qingmei Jiusi. The photographs first show four small dishes and a teapot, followed by several plates of food. The original note did not record the order or a verdict on the flavors, so I am keeping the table itself rather than adding a must-try recommendation or a disappointment that was never recorded."
+            }
+          ]
+        },
+        {
+          "id": "dinner-start",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-41fef768be6be8a3",
+              "caption": {
+                "zh": "晚饭开始时的四格小菜。",
+                "en": "Four small dishes at the start of dinner."
+              }
+            },
+            {
+              "imageId": "p-dab888d0e14e280a",
+              "caption": {
+                "zh": "旁边的茶壶与玻璃杯。",
+                "en": "Tea and glasses beside them."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner-dishes-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "dinner-dishes-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "桌上有带盖器皿里的肉类，也有木盘上的烤制禽类，接着又拍了白盘和石板上的菜。白天的相册一直围着墙、屋檐和石雕转，到晚饭时，这一页换成了餐桌。",
+              "en": "There was meat in a lidded vessel and roasted poultry on a wooden platter, followed by food on a white plate and a stone platter. The day's album had revolved around walls, eaves and carvings; by dinner, this page had become a table."
+            }
+          ]
+        },
+        {
+          "id": "dinner-dishes",
+          "type": "gallery",
+          "layout": "four",
+          "images": [
+            {
+              "imageId": "p-4b335b21e6b5f6b1",
+              "caption": {
+                "zh": "带盖器皿里的一道菜。",
+                "en": "A dish served in a lidded vessel."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-00f5b396630ba2fd",
+              "caption": {
+                "zh": "木盘上的烤制禽类。",
+                "en": "Roasted poultry on a wooden platter."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-f958457a1216d2df",
+              "caption": {
+                "zh": "白盘里的金黄色块状食物。",
+                "en": "Golden pieces served on a white plate."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-a06c030603160b8c",
+              "caption": {
+                "zh": "石板上的菜与配菜。",
+                "en": "Food and garnishes on a stone platter."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evening-stage-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "evening-stage-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "04",
+            "en": "04"
+          },
+          "title": {
+            "zh": "大舞台｜把这一天的结尾交给东北文化",
+            "en": "The Grand Stage | An Evening of Northeastern Culture"
+          },
+          "subtitle": {
+            "zh": "2022-10-04",
+            "en": "2022-10-04"
+          }
+        },
+        {
+          "id": "evening-stage-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚上去了刘老根大舞台。白天拍过的招牌，到这里变成了真正亮起来的舞台：红色背景前，演员站成一排。故宫、大帅府和这一场演出，都在10月4日这一天里，东北文化的体验很满。照片不替我补记具体节目，只保留当晚的舞台。",
+              "en": "In the evening we went to Liu Laogen Grand Stage. The sign photographed earlier became an illuminated stage: performers stood in a row against a red backdrop. The palace, the mansion and this show all fit into October 4, making it a full day of Northeastern culture. The photograph keeps the stage that evening without inventing a list of specific acts."
+            }
+          ]
+        },
+        {
+          "id": "evening-stage",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-edb1a72a598e08ef",
+              "caption": {
+                "zh": "当晚的大舞台，演员在红色背景前站成一排。",
+                "en": "Performers lined up against the red backdrop that evening."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-drink-page",
+      "sectionId": "day-2",
+      "blocks": [
+        {
+          "id": "hotel-drink-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "看完演出，回程照片留下了太原街站的墙面标识，随后又回到酒店房间，镜头里是一瓶饮料。这一天从广场和宫殿开始，以房间里的日常小物结束。",
+              "en": "After the show, the return journey left a photograph of the Taiyuan Street station sign. Then we were back in the hotel room, where the camera recorded a bottled drink. A day that began with a square and palaces ended with an everyday object in the room."
+            }
+          ]
+        },
+        {
+          "id": "hotel-drink",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-90c650bb36c76f81",
+              "caption": {
+                "zh": "回到房间后拍下的一瓶饮料。",
+                "en": "A bottled drink photographed back in the room."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "last-hotel-page",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "last-hotel-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "05",
+            "en": "05"
+          },
+          "title": {
+            "zh": "10月5日｜把最后一天放慢",
+            "en": "October 5 | Slowing Down"
+          },
+          "subtitle": {
+            "zh": "2022-10-05",
+            "en": "2022-10-05"
+          }
+        },
+        {
+          "id": "last-hotel-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "最后一天上午在酒店休整，没有再赶一个新的景点。中午离开前还拍下大厅里写着Latitude 42的台面。原定下午的辽宁省博物馆也没去成，把这个未完成的计划和第一晚的夜景、洗浴一起保留，不把它们写成去过的地方。",
+              "en": "On the last morning we rested at the hotel instead of rushing to another sight. Before leaving around midday, we photographed the lobby counter marked Latitude 42. The planned afternoon visit to the Liaoning Provincial Museum did not happen either. I am keeping that unfinished plan alongside the first evening's night walk and bathhouse, rather than writing them as places we visited."
+            }
+          ]
+        },
+        {
+          "id": "last-hotel",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-f952f6542c026b77",
+              "caption": {
+                "zh": "离开前，留下一张酒店大厅的照片。",
+                "en": "One final photograph of the hotel lobby."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "last-table-review-page",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "last-table-review-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "05",
+            "en": "05"
+          },
+          "title": {
+            "zh": "待补的餐桌记录",
+            "en": "A Table Record Awaiting Context"
+          },
+          "subtitle": {
+            "zh": "2022-10-05",
+            "en": "2022-10-05"
+          }
+        },
+        {
+          "id": "last-table-review-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "【编辑待确认，不作为已确认经历：原记写“午餐麦当劳”，但10月5日13:45—14:02的三张照片是一桌菜和饮料。这组照片的餐厅、这顿饭与麦当劳记录的先后关系，需要补充。照片先按实际日期放在这里，不改写原记。】",
+              "en": "[Editor note—unconfirmed, not a confirmed experience: the original note says lunch was McDonald's, but three photographs taken between 13:45 and 14:02 on October 5 show dishes and drinks on a table. The venue and how this meal relates to the McDonald's note still need context. These photographs stay on their actual date without rewriting the original note.]"
+            }
+          ]
+        },
+        {
+          "id": "last-table-review",
+          "type": "gallery",
+          "layout": "three",
+          "images": [
+            {
+              "imageId": "p-3eaacfb66017f06f",
+              "caption": {
+                "zh": "10月5日的饮料与餐桌；来由待确认。",
+                "en": "A drink and table photographed on October 5; context pending."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p-bd7aedea082603fd",
+              "caption": {
+                "zh": "同一组餐桌照片，店名未确认。",
+                "en": "Another view of the same table; venue unconfirmed."
+              },
+              "shape": "portrait"
+            },
+            {
+              "imageId": "p-fb3f97adefcebfb4",
+              "caption": {
+                "zh": "前景的肉类与完整餐桌；不据此补写菜名。",
+                "en": "Meat in the foreground and the full table; no dish name inferred."
+              },
+              "shape": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k11-last-walk-page",
+      "sectionId": "day-3",
+      "blocks": [
+        {
+          "id": "k11-last-walk-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "沈阳",
+            "en": "SHENYANG"
+          },
+          "markerValue": {
+            "zh": "05",
+            "en": "05"
+          },
+          "title": {
+            "zh": "K11｜从闲逛走向返程",
+            "en": "K11 | A Last Walk Before Heading Home"
+          },
+          "subtitle": {
+            "zh": "2022-10-05",
+            "en": "2022-10-05"
+          }
+        },
+        {
+          "id": "k11-last-walk-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午在K11闲逛。和前一天的红墙、石色大楼相比，这里的照片换成了现代建筑、绿篱和室外装置。没有再安排一整套参观路线，就在返程前走走看看。",
+              "en": "We browsed around K11 that afternoon. Compared with the previous day's red walls and stone-colored buildings, these photographs show modern architecture, hedges and outdoor installations. We did not add another full sightseeing itinerary, just a little walking and looking before the journey home."
+            }
+          ]
+        },
+        {
+          "id": "k11-last-walk",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-35da4c03b252f59b",
+              "caption": {
+                "zh": "K11区域的室外建筑与绿篱。",
+                "en": "Outdoor architecture and hedges around K11."
+              }
+            },
+            {
+              "imageId": "p-cfdb376fae3a9134",
+              "caption": {
+                "zh": "稍晚拍下的外立面与室外装置。",
+                "en": "The facade and an outdoor installation photographed later."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-page",
+      "sectionId": "home",
+      "blocks": [
+        {
+          "id": "home-heading",
+          "type": "header",
+          "markerLabel": {
+            "zh": "返程",
+            "en": "HOME"
+          },
+          "markerValue": {
+            "zh": "归",
+            "en": "HOME"
+          },
+          "title": {
+            "zh": "把行程收好",
+            "en": "Keeping the Journey"
+          },
+          "subtitle": {
+            "zh": "未完成的计划，也留在记录里",
+            "en": "The Unfinished Plans Stay in the Record Too"
+          }
+        },
+        {
+          "id": "home-story",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "这趟沈阳行没有把计划全部完成，却把故宫、大帅府、中街和大舞台接在了一起。白天的屋檐与红墙，晚上亮起来的舞台，再加上几张合影和餐桌照片，就是这次国庆短途行留下的具体片段。10月5日按计划打车去桃仙机场，返程航班的原定起飞时间是20:00。随心飞把我带到这里，相册把这几天留下来。",
+              "en": "We did not complete every plan in Shenyang, but we brought the palace, the mansion, Middle Street and the Grand Stage together. Eaves and red walls by day, an illuminated stage by night, a few photographs together and tables of food are the specific fragments this short National Day trip left behind. On October 5, we took a taxi to Taoxian Airport as planned; the return flight's scheduled departure was 20:00. Fly Anywhere brought me here, and the album kept these days."
+            },
+            {
+              "zh": "交通原记：康城→浦东为地铁；桃仙→酒店为已预约接机；酒店→桃仙为打车。浦东→康城接机仍是未勾选项，未确认完成。",
+              "en": "Original transport notes: metro from Kangcheng to Pudong; a reserved pickup from Taoxian to the hotel; taxi from the hotel to Taoxian. The Pudong-to-Kangcheng pickup remains unchecked and is not confirmed as completed."
+            },
+            {
+              "zh": "费用：留存两张演出票，票面各380元；实际支付金额未确认。机票、酒店、餐饮和交通金额未提供，不制作推测的总账。",
+              "en": "Costs: two surviving show tickets have a face value of RMB 380 each; the actual amount paid is unconfirmed. No amounts were supplied for flights, the hotel, meals or transport, so there is no estimated total bill."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
