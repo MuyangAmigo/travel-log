@@ -1,0 +1,1401 @@
+{
+  "version": 1,
+  "slug": "guangzhou-weekend-2022",
+  "metadata": {
+    "date": "2022-08-26",
+    "dateRange": "2022.08.26 — 08.28",
+    "coverImageId": "p-884b86d5d9efebac",
+    "title": {
+      "zh": "广州，把周末交给珠江",
+      "en": "Guangzhou, a Weekend by the Pearl River"
+    },
+    "subtitle": {
+      "zh": "江边散步，晚饭与一场戏",
+      "en": "A riverside walk, dinner and a show"
+    },
+    "location": {
+      "zh": "中国 · 广州",
+      "en": "Guangzhou, China"
+    },
+    "private": true,
+    "style": "photo-story"
+  },
+  "images": [
+    {
+      "id": "p-a7661c82346dde11",
+      "filename": "p-a7661c82346dde11.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "机场两人戴口罩合照",
+        "en": "A photo together before leaving Shanghai."
+      }
+    },
+    {
+      "id": "p-d046e0048842c23a",
+      "filename": "p-d046e0048842c23a.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "南航明珠贵宾室入口",
+        "en": "The China Southern lounge marked our wait at the airport."
+      }
+    },
+    {
+      "id": "p-290f1ecb27b100bf",
+      "filename": "p-290f1ecb27b100bf.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "贵宾室红色座椅",
+        "en": "The red seats were another detail from the wait."
+      }
+    },
+    {
+      "id": "p-e1a0abf8058ca429",
+      "filename": "p-e1a0abf8058ca429.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "酒店客房全景",
+        "en": "The room, photographed after our late-night arrival."
+      }
+    },
+    {
+      "id": "p-3e19d869fa615faf",
+      "filename": "p-3e19d869fa615faf.webp",
+      "width": 1500,
+      "height": 2000,
+      "alt": {
+        "zh": "早餐餐盘杯碟",
+        "en": "Breakfast first; the afternoon outing could wait."
+      }
+    },
+    {
+      "id": "p-8b21ce17978fbeb3",
+      "filename": "p-8b21ce17978fbeb3.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "楼群前两人合照",
+        "en": "Zhujiang New Town became the backdrop to our afternoon photo."
+      }
+    },
+    {
+      "id": "p-5ce29c5405f51ab9",
+      "filename": "p-5ce29c5405f51ab9.webp",
+      "width": 1125,
+      "height": 2000,
+      "alt": {
+        "zh": "广州塔完整竖图",
+        "en": "Looking up from the trees, with the tower's full outline intact."
+      }
+    },
+    {
+      "id": "p-0e51288ec8b512e3",
+      "filename": "p-0e51288ec8b512e3.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "江边两人近景合照",
+        "en": "One riverside photo, with flowers and Canton Tower behind us."
+      }
+    },
+    {
+      "id": "p-c254bfecf1d3db80",
+      "filename": "p-c254bfecf1d3db80.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "水边树荫两人近景合照",
+        "en": "Another photo by the water and the shade."
+      }
+    },
+    {
+      "id": "p-70a9865c84e362cb",
+      "filename": "p-70a9865c84e362cb.webp",
+      "width": 1309,
+      "height": 2000,
+      "alt": {
+        "zh": "两人站在花带前、背后完整广州塔",
+        "en": "The two of us, the flowers and Canton Tower in one frame."
+      }
+    },
+    {
+      "id": "p-884b86d5d9efebac",
+      "filename": "p-884b86d5d9efebac.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "蓝天白云树叶与珠江新城楼群",
+        "en": "Walking on from the river, our view turned to towers and treetops."
+      }
+    },
+    {
+      "id": "p-0ad9e9bd1cecff97",
+      "filename": "p-0ad9e9bd1cecff97.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "楼群与广场步道",
+        "en": "The towers and paths around Huacheng Square."
+      }
+    },
+    {
+      "id": "p-89f0cde567165a9f",
+      "filename": "p-89f0cde567165a9f.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "花城广场石头与广州塔",
+        "en": "The square's name and distant Canton Tower in the same view."
+      }
+    },
+    {
+      "id": "p-01a39c4edc45714c",
+      "filename": "p-01a39c4edc45714c.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "广东省博物馆外观",
+        "en": "The exterior of Guangdong Museum on our walk."
+      }
+    },
+    {
+      "id": "p-b2881eeb910f8e42",
+      "filename": "p-b2881eeb910f8e42.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "图书馆入口外观",
+        "en": "The entrance to Guangzhou Library, before the indoor details."
+      }
+    },
+    {
+      "id": "p-71d5296ab5fa91b5",
+      "filename": "p-71d5296ab5fa91b5.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "翻开书页造型雕塑",
+        "en": "An open-book sculpture at the library entrance."
+      }
+    },
+    {
+      "id": "p-e75b24a9ef8ef62c",
+      "filename": "p-e75b24a9ef8ef62c.webp",
+      "width": 2000,
+      "height": 1125,
+      "alt": {
+        "zh": "广州图书馆新馆记石碑",
+        "en": "The inscription recorded the new library building."
+      }
+    },
+    {
+      "id": "p-5bd3ded160c3e9ce",
+      "filename": "p-5bd3ded160c3e9ce.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "博多人形与顶福猫展示",
+        "en": "Hakata dolls and a lucky cat: seen and photographed, not a purchase."
+      }
+    },
+    {
+      "id": "p-1306dffd4da9e561",
+      "filename": "p-1306dffd4da9e561.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "广州人文馆彩色窗格剪纸",
+        "en": "Coloured panes and paper cuts in the Guangzhou Humanities Hall."
+      }
+    },
+    {
+      "id": "p-d5eed95898705829",
+      "filename": "p-d5eed95898705829.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "虾饺青菜鱿鱼及酱汁菜餐桌",
+        "en": "Our dinner at Tao Tao Ju; no bill or verdict was recorded."
+      }
+    },
+    {
+      "id": "p-9930245dfadeae53",
+      "filename": "p-9930245dfadeae53.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "整框小人偶展示",
+        "en": "A neatly arranged display of little figures before the show."
+      }
+    },
+    {
+      "id": "p-a1a8af4c40e12b7c",
+      "filename": "p-a1a8af4c40e12b7c.webp",
+      "width": 2000,
+      "height": 924,
+      "alt": {
+        "zh": "剧院座位两人合照",
+        "en": "From the river to the theatre: another backdrop to the weekend."
+      }
+    },
+    {
+      "id": "p-6a2faadb71b2996f",
+      "filename": "p-6a2faadb71b2996f.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": {
+        "zh": "蓝紫灯光舞台人物近景",
+        "en": "A closer stage view under blue-purple lights."
+      }
+    },
+    {
+      "id": "p-2e1681acdd7911d2",
+      "filename": "p-2e1681acdd7911d2.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "舞台布景演员全景",
+        "en": "Another frame took in the set and the cast."
+      }
+    },
+    {
+      "id": "p-6e1b9f5a647ba22e",
+      "filename": "p-6e1b9f5a647ba22e.webp",
+      "width": 2000,
+      "height": 2000,
+      "alt": {
+        "zh": "飞机机翼云层",
+        "en": "The final view on the return flight: clouds beside the wing."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "navigation": {
+        "marker": {
+          "zh": "序",
+          "en": "Intro"
+        },
+        "label": {
+          "zh": "广州，把周末交给珠江",
+          "en": "Guangzhou, a Weekend by the Pearl River"
+        },
+        "detail": {
+          "zh": "随心飞 · 广州",
+          "en": "Fly Anywhere · Guangzhou"
+        }
+      }
+    },
+    {
+      "id": "airport",
+      "navigation": {
+        "marker": {
+          "zh": "08-26",
+          "en": "08-26"
+        },
+        "label": {
+          "zh": "出发前夜",
+          "en": "The evening before"
+        },
+        "detail": {
+          "zh": "2022-08-26",
+          "en": "2022-08-26"
+        }
+      }
+    },
+    {
+      "id": "hotel-arrival",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "凌晨入住",
+          "en": "After-midnight arrival"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "hotel-breakfast",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "早餐与休整",
+          "en": "Breakfast and rest"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "city-start",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "珠江新城",
+          "en": "Zhujiang New Town"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "tower",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "看向广州塔",
+          "en": "Looking at Canton Tower"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "riverside",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "海心沙合照",
+          "en": "Together at Haixinsha"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "square",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "花城广场",
+          "en": "Huacheng Square"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "civic-walk",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "城市建筑",
+          "en": "City buildings"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "library",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "图书馆的细节",
+          "en": "Library details"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "dinner",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "陶陶居晚饭",
+          "en": "Dinner at Tao Tao Ju"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "theatre",
+      "navigation": {
+        "marker": {
+          "zh": "08-27",
+          "en": "08-27"
+        },
+        "label": {
+          "zh": "正佳的舞台",
+          "en": "The stage at Grandview"
+        },
+        "detail": {
+          "zh": "2022-08-27",
+          "en": "2022-08-27"
+        }
+      }
+    },
+    {
+      "id": "return",
+      "navigation": {
+        "marker": {
+          "zh": "08-28",
+          "en": "08-28"
+        },
+        "label": {
+          "zh": "返程的云",
+          "en": "Clouds on the way home"
+        },
+        "detail": {
+          "zh": "2022-08-28",
+          "en": "2022-08-28"
+        }
+      }
+    },
+    {
+      "id": "closing",
+      "navigation": {
+        "marker": {
+          "zh": "尾",
+          "en": "After"
+        },
+        "label": {
+          "zh": "留下来的周末",
+          "en": "What stayed"
+        },
+        "detail": {
+          "zh": "交通备忘",
+          "en": "Transport reminders"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover-page",
+      "sectionId": "overview",
+      "blocks": [
+        {
+          "id": "cover",
+          "type": "cover",
+          "eyebrow": {
+            "zh": "随心飞 · 广州周末",
+            "en": "FLY ANYWHERE · GUANGZHOU"
+          },
+          "title": {
+            "zh": "广州，把周末交给珠江",
+            "en": "Guangzhou, a Weekend by the Pearl River"
+          },
+          "subtitle": {
+            "zh": "江边散步，晚饭与一场戏",
+            "en": "A riverside walk, dinner and a show"
+          },
+          "date": {
+            "zh": "2022.08.26 — 08.28",
+            "en": "August 26–28, 2022"
+          },
+          "intro": {
+            "zh": "随心飞，把一个周末从上海搬到了广州。这趟没有铺开很长的景点清单，主要是在珠江新城走走，再到正佳吃晚饭、看一场开心麻花。照片里是白天的蓝天白云、江边的合照，和晚上换了灯光的舞台。",
+            "en": "With our Fly Anywhere pass, we moved a weekend from Shanghai to Guangzhou. We did not spread this trip across a long list of sights: we mostly walked around Zhujiang New Town, then went to Grandview Mall for dinner and a Mahua FunAge show. The photographs hold blue skies and white clouds, pictures together by the river, and a stage under different lights that evening."
+          },
+          "backgroundImageId": "p-884b86d5d9efebac"
+        }
+      ]
+    },
+    {
+      "id": "airport-selfie-page",
+      "sectionId": "airport",
+      "blocks": [
+        {
+          "id": "note-1",
+          "type": "note",
+          "title": {
+            "zh": "资料备忘",
+            "en": "Journal note"
+          },
+          "body": {
+            "zh": "日期说明：暂按照片和演出票采用 2022.08.26–08.28；原笔记的 2024 年尚待确认。照片中的两位同行者不作身份或关系推断。",
+            "en": "Date note: provisionally dated August 26–28, 2022 from the photos and theatre tickets; the original note's 2024 date remains unconfirmed. No identities or relationships are inferred for the two people in the photographs."
+          }
+        },
+        {
+          "id": "heading-2",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "出发前夜 · 8 月 26 日",
+            "en": "The evening before · August 26"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-3",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "周五晚上从上海出发。原来的交通记录里，康城到虹桥坐的是闵虹一线，上车点在凯旋门，记下了 19:45 和 20:10 两个班次，没有写最后坐的是哪一班。",
+              "en": "We left Shanghai on Friday evening. The transport note records taking the Minhong Line 1 shuttle from Kangcheng to Hongqiao, boarding at the Arc de Triomphe stop. It lists the 19:45 and 20:10 services, without saying which one we finally took."
+            }
+          ]
+        },
+        {
+          "id": "story-4",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到了机场，我们先留下一张戴着口罩的合照。还没到广州，这张照片就已经把短途旅行的开头留下来了。",
+              "en": "At the airport, we first took a photo together in our masks. We had not reached Guangzhou yet, but this picture already held the beginning of our short trip."
+            }
+          ]
+        },
+        {
+          "id": "airport-selfie",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-a7661c82346dde11",
+              "caption": {
+                "zh": "从上海出发前，先留下这张合照。",
+                "en": "A photo together before leaving Shanghai."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airport-lounge-page",
+      "sectionId": "airport",
+      "blocks": [
+        {
+          "id": "story-5",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "候机时也拍了南航明珠贵宾室的入口和里面的红色座椅，给这个从机场开始的周末多留了两张记录。",
+              "en": "While waiting, we also photographed the entrance to the China Southern Pearl Lounge and its red seats, leaving two more records of a weekend that began at the airport."
+            }
+          ]
+        },
+        {
+          "id": "airport-lounge",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-d046e0048842c23a",
+              "caption": {
+                "zh": "南航明珠贵宾室，把候机的地点留下来。",
+                "en": "The China Southern lounge marked our wait at the airport."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p-290f1ecb27b100bf",
+              "caption": {
+                "zh": "红色座椅，是这段候机记录的另一个细节。",
+                "en": "The red seats were another detail from the wait."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-room-page",
+      "sectionId": "hotel-arrival",
+      "blocks": [
+        {
+          "id": "heading-6",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "第一天 · 8 月 27 日",
+            "en": "Day one · August 27"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "heading-7",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "凌晨抵达，上午先不赶路",
+            "en": "Arriving after midnight, without rushing the morning"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-8",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "原笔记记着，航班周六 00:20 抵达白云机场，之后有接机送到酒店。住的是广州珠江新城琥珀东方酒店；抵达后的房间照片拍在凌晨，电视、床边的镜子和窗帘都在画面里。",
+              "en": "The original note records a 00:20 arrival at Baiyun Airport on Saturday, followed by an airport pickup to our hotel. We stayed at the Guangzhou Zhujiang New Town Amber East Hotel. The room photo was taken in the small hours, with the television, mirror beside the bed and curtains in view."
+            }
+          ]
+        },
+        {
+          "id": "hotel-room",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-e1a0abf8058ca429",
+              "caption": {
+                "zh": "凌晨到酒店后留下的房间记录。",
+                "en": "The room, photographed after our late-night arrival."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-breakfast-page",
+      "sectionId": "hotel-breakfast",
+      "blocks": [
+        {
+          "id": "story-9",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "早上在酒店吃早餐。照片里留下一盘华夫饼、蛋和其他配菜，还有杯碟。吃完先休整，下午再出发。",
+              "en": "We had breakfast at the hotel in the morning. The photo holds a plate of waffle, egg and other sides, along with cups and saucers. After eating, we rested before heading out in the afternoon."
+            }
+          ]
+        },
+        {
+          "id": "hotel-breakfast",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-3e19d869fa615faf",
+              "caption": {
+                "zh": "先吃早餐，下午再把行程展开。",
+                "en": "Breakfast first; the afternoon outing could wait."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-selfie-page",
+      "sectionId": "city-start",
+      "blocks": [
+        {
+          "id": "story-10",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "原本列过中午 13:00 去粤剧博物馆，最后没有去。这一天真正展开的路线还是海心沙、花城广场和正佳。",
+              "en": "We had originally listed a 13:00 visit to the Cantonese Opera Art Museum, but did not go in the end. The route that actually unfolded was Haixinsha, Huacheng Square and Grandview."
+            }
+          ]
+        },
+        {
+          "id": "heading-11",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "从楼群走到江边",
+            "en": "From the towers to the river"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-12",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "下午的第一张合照，背后已经是珠江新城的高楼。我们还是戴着口罩，比个剪刀手，把城市当作背景。",
+              "en": "The first afternoon photo together already had Zhujiang New Town's tall buildings behind us. Still wearing our masks, we made a peace sign with the city as our backdrop."
+            }
+          ]
+        },
+        {
+          "id": "city-selfie",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-8b21ce17978fbeb3",
+              "caption": {
+                "zh": "下午出发，珠江新城成了合照的背景。",
+                "en": "Zhujiang New Town became the backdrop to our afternoon photo."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canton-tower-page",
+      "sectionId": "tower",
+      "blocks": [
+        {
+          "id": "story-13",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "接着走到广州塔周边的视野里。细长的塔身从树梢一直往上伸，竖着拍，才把这段向上的线条保留下来。",
+              "en": "Then we came into view of Canton Tower. Its slender outline stretched up from the treetops; photographing it vertically kept that upward line intact."
+            }
+          ]
+        },
+        {
+          "id": "canton-tower",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-5ce29c5405f51ab9",
+              "caption": {
+                "zh": "从树梢往上看，把广州塔的线条留完整。",
+                "en": "Looking up from the trees, with the tower's full outline intact."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riverside-selfies-page",
+      "sectionId": "riverside",
+      "blocks": [
+        {
+          "id": "story-14",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "到了海心沙一带，江面、花带和对岸的广州塔都进了照片。两张近处的合照，一张把塔和花带放在后面，另一张换到了水边、楼群和树荫的背景。",
+              "en": "Around Haixinsha, the water, flower beds and Canton Tower on the opposite bank all entered the pictures. In two closer photos together, one had the tower and flowers behind us; the other changed the background to water, buildings and shade."
+            }
+          ]
+        },
+        {
+          "id": "riverside-selfies",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-0e51288ec8b512e3",
+              "caption": {
+                "zh": "江边合照之一，背后是花带和广州塔。",
+                "en": "One riverside photo, with flowers and Canton Tower behind us."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-c254bfecf1d3db80",
+              "caption": {
+                "zh": "换到水边和树荫，又留下一张。",
+                "en": "Another photo by the water and the shade."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tower-portrait-page",
+      "sectionId": "riverside",
+      "blocks": [
+        {
+          "id": "story-15",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "还有一张站在花带前的合照：两个人、整座塔和脚下的草地一起留在画面里。塔很高，我们站在画面的下方，花带正好隔在身后和江面之间。",
+              "en": "There was also a photo standing in front of the flowers: both of us, the entire tower and the grass at our feet stayed in the frame. The tower rose high above us near the bottom of the picture, with the flower beds between us and the water."
+            }
+          ]
+        },
+        {
+          "id": "tower-portrait",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-70a9865c84e362cb",
+              "caption": {
+                "zh": "人、花带和广州塔，一起留在这一张里。",
+                "en": "The two of us, the flowers and Canton Tower in one frame."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skyline-cover-page",
+      "sectionId": "square",
+      "blocks": [
+        {
+          "id": "heading-16",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "花城广场，顺路看看城市里的细节",
+            "en": "Huacheng Square and a few city details along the way"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-17",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从江边继续往花城广场走，照片的重心也从广州塔转到玻璃楼群和大片树冠。树叶从画面上方垂下来，蓝天和白云填在建筑之间；这张就是这篇手记的封面。",
+              "en": "Continuing from the river towards Huacheng Square, the photographs shifted from Canton Tower to glass buildings and broad treetops. Leaves hung into the top of the frame, with blue sky and clouds between the buildings. This picture is the cover of this journal."
+            }
+          ]
+        },
+        {
+          "id": "skyline-cover",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-884b86d5d9efebac",
+              "caption": {
+                "zh": "从江边继续走，视线转向楼群和树冠。",
+                "en": "Walking on from the river, our view turned to towers and treetops."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "square-views-page",
+      "sectionId": "square",
+      "blocks": [
+        {
+          "id": "story-18",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "广场上留了两种视角：一张看向楼群和步道，一张把写着“花城广场”的石头与远处的广州塔放在一起。",
+              "en": "We kept two views of the square: one towards the buildings and paths, and another bringing the stone marked “Huacheng Square” together with Canton Tower in the distance."
+            }
+          ]
+        },
+        {
+          "id": "square-views",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-0ad9e9bd1cecff97",
+              "caption": {
+                "zh": "花城广场的楼群与步道。",
+                "en": "The towers and paths around Huacheng Square."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p-89f0cde567165a9f",
+              "caption": {
+                "zh": "广场的名字和远处的广州塔落在同一画面。",
+                "en": "The square's name and distant Canton Tower in the same view."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civic-facades-page",
+      "sectionId": "civic-walk",
+      "blocks": [
+        {
+          "id": "story-19",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "附近也拍到了广东省博物馆的外观和广州图书馆的入口建筑，一座是深色、横向铺开的体量，另一座沿着玻璃入口向上伸展。",
+              "en": "Nearby, we also photographed the exterior of Guangdong Museum and the entrance building of Guangzhou Library. One was a dark, horizontally spread structure; the other rose along its glass entrance."
+            }
+          ]
+        },
+        {
+          "id": "civic-facades",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-01a39c4edc45714c",
+              "caption": {
+                "zh": "路过广东省博物馆，留下建筑外观。",
+                "en": "The exterior of Guangdong Museum on our walk."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p-b2881eeb910f8e42",
+              "caption": {
+                "zh": "广州图书馆的入口，接上下一段室内画面。",
+                "en": "The entrance to Guangzhou Library, before the indoor details."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-entry-page",
+      "sectionId": "library",
+      "blocks": [
+        {
+          "id": "story-20",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "图书馆里又留下了一些细节：入口翻开书页造型的雕塑，以及写着“广州图书馆新馆记”的石碑。和室外的高楼相比，这些画面把下午的散步带到更近的地方。",
+              "en": "The library supplied closer details: an open-book sculpture at the entrance and a stone inscribed with the account of Guangzhou Library's new building. Compared with the towers outside, these pictures brought our afternoon walk down to a smaller scale."
+            }
+          ]
+        },
+        {
+          "id": "library-entry",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-71d5296ab5fa91b5",
+              "caption": {
+                "zh": "图书馆入口翻开书页造型的雕塑。",
+                "en": "An open-book sculpture at the library entrance."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-e75b24a9ef8ef62c",
+              "caption": {
+                "zh": "新馆记，把建筑的名字留在照片里。",
+                "en": "The inscription recorded the new library building."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-displays-page",
+      "sectionId": "library",
+      "blocks": [
+        {
+          "id": "story-21",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "展示柜里拍到博多人形和“顶福猫”，还有“广州人文馆”的彩色窗格与剪纸。室外的城市轮廓，到了这里变成了人偶、文字和窗格里的细节。",
+              "en": "In a display case, we photographed Hakata dolls and a “Dingfu Cat”, as well as the coloured panes and paper cuts of the Guangzhou Humanities Hall. The outline of the city outside became figures, words and details within the window frames."
+            }
+          ]
+        },
+        {
+          "id": "library-displays",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-5bd3ded160c3e9ce",
+              "caption": {
+                "zh": "博多人形和顶福猫，只是看见、拍下。",
+                "en": "Hakata dolls and a lucky cat: seen and photographed, not a purchase."
+              },
+              "shape": "landscape"
+            },
+            {
+              "imageId": "p-1306dffd4da9e561",
+              "caption": {
+                "zh": "广州人文馆的窗格和剪纸。",
+                "en": "Coloured panes and paper cuts in the Guangzhou Humanities Hall."
+              },
+              "shape": "landscape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner-table-page",
+      "sectionId": "dinner",
+      "blocks": [
+        {
+          "id": "heading-22",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "陶陶居的晚饭，正佳的舞台",
+            "en": "Dinner at Tao Tao Ju and the stage at Grandview"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-23",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "晚饭去了正佳广场的陶陶居。桌上拍下了虾饺、青菜、切片的鱿鱼和一份带酱汁的菜。散步的照片到这里换成了一桌晚饭，接下来就是晚上的剧场。",
+              "en": "For dinner, we went to Tao Tao Ju in Grandview Mall. The table photo holds shrimp dumplings, greens, sliced squid and a dish with sauce. The pictures of our walk gave way to dinner, with the theatre coming next."
+            }
+          ]
+        },
+        {
+          "id": "dinner-table",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-d5eed95898705829",
+              "caption": {
+                "zh": "陶陶居的一桌晚饭，原笔记没有留下账单和评价。",
+                "en": "Our dinner at Tao Tao Ju; no bill or verdict was recorded."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theatre-figurines-page",
+      "sectionId": "theatre",
+      "blocks": [
+        {
+          "id": "story-24",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "原笔记还记着附近可以逛太古汇，不过没有记下实际去了那里。晚上的确定安排是正佳大剧院，20:00 看开心麻花《飞谎腾达》。",
+              "en": "The original note also mentions nearby Taikoo Hui as somewhere to browse, but does not record actually going there. The confirmed evening plan was Grandview Theatre at 20:00 for Mahua FunAge's Fei Huang Teng Da (The Lying Road to Success)."
+            }
+          ]
+        },
+        {
+          "id": "story-25",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "剧院附近拍了整齐排成一框的小人偶。",
+              "en": "Near the theatre, we photographed little figures neatly arranged in a frame."
+            }
+          ]
+        },
+        {
+          "id": "theatre-figurines",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-9930245dfadeae53",
+              "caption": {
+                "zh": "看戏前，拍下这一框排得整齐的小人偶。",
+                "en": "A neatly arranged display of little figures before the show."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theatre-selfie-page",
+      "sectionId": "theatre",
+      "blocks": [
+        {
+          "id": "story-26",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "入座后又留下一张合照。从白天的江边到晚上的剧场，同一个周末换了一个背景。",
+              "en": "Once seated, we took another photo together. From the riverside in daylight to the theatre at night, the same weekend had another backdrop."
+            }
+          ]
+        },
+        {
+          "id": "theatre-selfie",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-a1a8af4c40e12b7c",
+              "caption": {
+                "zh": "从江边换到剧场，周末又换了一个背景。",
+                "en": "From the river to the theatre: another backdrop to the weekend."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage-scenes-page",
+      "sectionId": "theatre",
+      "blocks": [
+        {
+          "id": "story-27",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "后面的照片里，舞台先是蓝紫色灯光下的人物近景，再是一张布景与演员同在的全景。白天拍的还是天空和楼群，到了晚上，背景就变成了舞台灯光。",
+              "en": "The later photos show a closer view of people under blue-purple stage lights, followed by a wider view of the set and cast. During the day, the background was sky and buildings; at night, it became stage lighting."
+            }
+          ]
+        },
+        {
+          "id": "stage-scenes",
+          "type": "gallery",
+          "layout": "two",
+          "images": [
+            {
+              "imageId": "p-6a2faadb71b2996f",
+              "caption": {
+                "zh": "蓝紫色灯光下，留下一张舞台近景。",
+                "en": "A closer stage view under blue-purple lights."
+              },
+              "shape": "square"
+            },
+            {
+              "imageId": "p-2e1681acdd7911d2",
+              "caption": {
+                "zh": "另一张把布景和演员一起留下。",
+                "en": "Another frame took in the set and the cast."
+              },
+              "shape": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "return-clouds-page",
+      "sectionId": "return",
+      "blocks": [
+        {
+          "id": "note-28",
+          "type": "note",
+          "title": {
+            "zh": "资料备忘",
+            "en": "Journal note"
+          },
+          "body": {
+            "zh": "费用备忘：票面 180 元／张，两张票面金额合计 360 元，实付未确认。其他费用没有金额记录。",
+            "en": "Cost note: the tickets show a face value of RMB 180 each, or RMB 360 for the two together. The actual payment is unconfirmed. No amounts were recorded for other expenses."
+          }
+        },
+        {
+          "id": "heading-29",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "第二天 · 8 月 28 日",
+            "en": "Day two · August 28"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-30",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "周日的安排简单：酒店早餐后出发去白云机场，有送机；原笔记也记着预留时间逛机场、买伴手礼。买了什么、花了多少没有留下记录。",
+              "en": "Sunday's plan was simple: hotel breakfast, then a transfer to Baiyun Airport. The original note also records leaving time to browse the airport and buy souvenirs, without details of what we bought or spent."
+            }
+          ]
+        },
+        {
+          "id": "story-31",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "返程航班原记为 13:00 起飞。13:33 的照片已经能看见机翼和云层，这能补上回程的画面，却不能据此断言实际起飞时间。",
+              "en": "The return flight was recorded as departing at 13:00. A photo at 13:33 already shows the wing and clouds. It completes the return journey in pictures, but does not establish the actual take-off time."
+            }
+          ]
+        },
+        {
+          "id": "return-clouds",
+          "type": "gallery",
+          "layout": "one",
+          "images": [
+            {
+              "imageId": "p-6e1b9f5a647ba22e",
+              "caption": {
+                "zh": "返程的最后一幕，机翼旁又是白云。",
+                "en": "The final view on the return flight: clouds beside the wing."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing-page",
+      "sectionId": "closing",
+      "blocks": [
+        {
+          "id": "story-32",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "从上海飞来，在珠江新城走上一下午，晚上吃饭、看戏，第二天又回去。把这趟周末串起来的不是很长的行程表，而是机场、江边和剧场的几张合照，以及从城市白云切换到机翼旁云层的最后一幕。",
+              "en": "We flew in from Shanghai, spent an afternoon walking around Zhujiang New Town, had dinner and saw a show, then went back the next day. What ties this weekend together is not a long itinerary, but the photos together at the airport, riverside and theatre, and the final change from clouds over the city to clouds beside the wing."
+            }
+          ]
+        },
+        {
+          "id": "heading-33",
+          "type": "header",
+          "markerLabel": {
+            "zh": "记",
+            "en": "Note"
+          },
+          "markerValue": {
+            "zh": "广州",
+            "en": "Guangzhou"
+          },
+          "title": {
+            "zh": "留在笔记里的交通备忘",
+            "en": "Transport reminders left in the note"
+          },
+          "subtitle": {
+            "zh": "随心飞 · 2022 年 8 月",
+            "en": "Fly Anywhere · August 2022"
+          }
+        },
+        {
+          "id": "story-34",
+          "type": "prose",
+          "paragraphs": [
+            {
+              "zh": "白云机场到酒店、酒店到白云机场，都记录为接送机。康城到虹桥的闵虹一线标为已完成；虹桥回康城的闵虹一线则没有勾选，备选时间是 16:25／16:55，上车点是虹桥枢纽西交通中心一楼。这是返程方案备忘，不是已确认的实际乘车记录。",
+              "en": "Both Baiyun Airport to hotel and hotel to Baiyun Airport were recorded as airport transfers. The Kangcheng-to-Hongqiao Minhong Line 1 shuttle was marked completed. The reverse shuttle was not checked off: the listed options were 16:25 and 16:55, boarding on the first floor of Hongqiao's West Transportation Center. That is a return-transport reminder, not a confirmed ride."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
