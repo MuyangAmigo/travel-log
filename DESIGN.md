@@ -645,7 +645,7 @@ The structured renderer adds `data-trip-document={document.slug}` in
 currently limits the common photo-story reading rules to:
 
 ```css
-.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"]))
+.presentation[data-trip-style="photo-story"]:has(:global([data-trip-document="phuket-2026"]), :global([data-trip-document="kansai-2025"]), :global([data-trip-document="kansai-family-2024"]), :global([data-trip-document="jiuzhaigou-2024"]), :global([data-trip-document="macau-2023"]), :global([data-trip-document="beijing-winter-awakening-2022"]), :global([data-trip-document="sanya-winter-sun-2023"]), :global([data-trip-document="guangzhou-weekend-2022"]))
 ```
 
 Consequently, setting `photo-story` alone does not yet give another document the
@@ -685,6 +685,15 @@ use `object-fit: contain`, including mixed native ratios; portrait and landscape
 frames remain 3:4 and 4:3. Pairs stack on phones, and triples stack at 760px and
 below. Each photograph retains its individual bilingual caption and full-image
 lightbox access. This document-scoped reuse leaves other trips unchanged.
+
+Guangzhou weekend 2022 (`guangzhou-weekend-2022`) reuses the shared Photo Story
+reading axis and Sanya's complete-image `contain` treatment in both locales and
+editor frames. Its 25 approved photographs form seven equal-frame pairs and
+eleven natural-ratio singles; pairs stack at 480px and below. The four consecutive
+singles around the hotel and start of the afternoon preserve distinct events and
+full compositions rather than forcing unrelated pairs. Local preparation does
+not authorize image upload: use the development-only loopback override until
+the approved web derivatives are separately authorized for Blob Storage.
 
 Changsha 2022 uses the explicitly requested default Classic presentation rather
 than opting into Photo Story. Its pairs use matching square, 4:3, or 16:9 cropped
