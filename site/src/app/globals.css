@@ -26,7 +26,7 @@
   --font-weight-reduction: 0;
   --input-focus-shadow:
     0 0 0 2px var(--surface-control),
-    0 0 0 5px color-mix(in srgb, var(--palette-text-primary) 38%, transparent);
+    0 0 0 5px color-mix(in srgb, var(--palette-text-primary) 60%, transparent);
   /* --- Airbnb palette (shell) --- */
   --palette-bg-primary-core: #ff385c;        /* Rausch Red */
   --palette-bg-tertiary-core: #e00b41;       /* Deep Rausch (pressed) */
@@ -181,6 +181,7 @@ svg:not(:root),
 }
 
 @media (forced-colors: active) {
+  :is(input:not([type="checkbox"]):not([type="radio"]), textarea, select):focus,
   :is(input, textarea, select):focus {
     outline: 2px solid Highlight;
     outline-offset: 2px;

@@ -28,7 +28,8 @@ colors, photography overlays, keyboard focus, and journal annotations remain.
 | Control | `--surface-control` | 100% | 28% |
 
 Input focus uses no outline or border highlight: deepen the dual-ring shadow
-instead. Preserve a visible system outline in forced-colors mode, where shadows
+instead. The outer ring must have at least 3:1 contrast against adjacent surfaces.
+Preserve a visible system outline in forced-colors mode, where shadows
 are unavailable. Links and buttons retain visible keyboard focus. All authored
 font weights, including shorthand declarations, subtract
 `--font-weight-reduction` (0 in light mode, **40 weight units** in dark mode).

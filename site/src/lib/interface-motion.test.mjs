@@ -38,3 +38,32 @@ test("shared interface styles and the standalone gate avoid pure black and unadj
     assert.doesNotMatch(source, /font-weight:\s*\d|font:\s*[3-8]\d{2}\s/, path);
   }
 });
+
+for (const [label, path, colorVariable] of [
+  ["shared inputs", "../app/globals.css", "--palette-text-primary"],
+  ["private gate", "../../../scripts/microsoft-auth-template.html", "--ink"],
+]) {
+  test(`${label} focus ring has at least 3:1 contrast on the light control surface`, () => {
+    const source = readFileSync(new URL(path, import.meta.url), "utf8");
+    const color = source.match(new RegExp(`${colorVariable}: #([\\da-f]{6});`, "i"))[1];
+    const opacity = Number(source.match(new RegExp(
+      `color-mix\\(in srgb, var\\(${colorVariable}\\) (\\d+)%, transparent\\)`
+    ))[1]) / 100;
+    const channels = color.match(/../g).map((hex) => {
+      const composite = opacity * parseInt(hex, 16) / 255 + 1 - opacity;
+      return composite <= 0.04045 ? composite / 12.92 : ((composite + 0.055) / 1.055) ** 2.4;
+    });
+    const luminance = channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+    const contrast = 1.05 / (luminance + 0.05);
+    assert.ok(contrast >= 3, `${label} focus contrast is ${contrast.toFixed(2)}:1`);
+  });
+}
+
+test("forced-colors override matches the text-input reset and still covers checkbox and radio focus", () => {
+  const source = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
+  const resetSelector = source.match(/^([^\n]+):focus \{\s*outline: none;/m)[1] + ":focus";
+  const forcedColors = source.match(/@media \(forced-colors: active\) \{([\s\S]*?)\n\}/)[1];
+  assert.ok(forcedColors.includes(resetSelector));
+  assert.ok(forcedColors.includes(":is(input, textarea, select):focus"));
+  assert.match(forcedColors, /outline: 2px solid Highlight;/);
+});
