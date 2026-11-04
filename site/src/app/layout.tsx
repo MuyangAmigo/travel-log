@@ -27,14 +27,12 @@ const themeInitializationScript = `
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   variable: "--font-inter",
   display: "swap",
 });
 
 const ebGaramond = EB_Garamond({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
   variable: "--font-eb-garamond",
   display: "swap",
@@ -42,7 +40,6 @@ const ebGaramond = EB_Garamond({
 
 const caveat = Caveat({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   variable: "--font-caveat",
   display: "swap",
 });
