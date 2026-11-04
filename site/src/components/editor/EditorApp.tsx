@@ -3,12 +3,14 @@
 import {
   useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
   type DragEvent,
 } from "react";
 import { localTripImage } from "@/lib/local-trip-images";
+import { DRAG_SETTLE_DURATION_MS, dragSettleKeyframes } from "@/lib/interface-motion";
 import TripPreviewFrame, { TripPreviewSizePicker, type PreviewViewport } from "./TripPreviewFrame";
 import { TRIP_STYLE_IDS, TRIP_STYLES, isTripStyle, resolveTripStyle } from "@/lib/trip-style";
 import {
@@ -353,6 +355,39 @@ export default function EditorApp() {
   const activeOperationRef = useRef<symbol | null>(null);
   const documentRef = useRef<TripDocument | null>(null);
   const documentRevisionRef = useRef(0);
+  const pageListRef = useRef<HTMLOListElement>(null);
+  const pagePositionsRef = useRef<Map<string, number> | null>(null);
+  const pageAnimationsRef = useRef(new Set<Animation>());
+
+  useLayoutEffect(() => {
+    const positions = pagePositionsRef.current;
+    pagePositionsRef.current = null;
+    const list = pageListRef.current;
+    const viewport = list?.ownerDocument.defaultView;
+    if (!positions || !list || !viewport
+      || viewport.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    for (const item of list.querySelectorAll<HTMLElement>("[data-page-id]")) {
+      const previousTop = positions.get(item.dataset.pageId!);
+      if (previousTop === undefined) continue;
+      const distance = previousTop - item.getBoundingClientRect().top;
+      if (Math.abs(distance) < 1) continue;
+      const animation = item.animate(dragSettleKeyframes(distance), {
+        duration: DRAG_SETTLE_DURATION_MS,
+        easing: "linear",
+      });
+      pageAnimationsRef.current.add(animation);
+      animation.onfinish = () => pageAnimationsRef.current.delete(animation);
+    }
+  }, [document?.pages]);
+
+  useEffect(() => {
+    const animations = pageAnimationsRef.current;
+    return () => {
+      animations.forEach((animation) => animation.cancel());
+      animations.clear();
+    };
+  }, []);
 
   const beginOperation = useCallback(
     (kind: NonNullable<typeof busy>): symbol | null => {
@@ -565,6 +600,17 @@ export default function EditorApp() {
   };
 
   const movePage = (index: number, nextIndex: number) => {
+    const list = pageListRef.current;
+    if (list) {
+      pagePositionsRef.current = new Map(
+        Array.from(list.querySelectorAll<HTMLElement>("[data-page-id]"), (item) => [
+          item.dataset.pageId!,
+          item.getBoundingClientRect().top,
+        ])
+      );
+      pageAnimationsRef.current.forEach((animation) => animation.cancel());
+      pageAnimationsRef.current.clear();
+    }
     replaceDocument((next) => {
       next.pages = moveItem(next.pages, index, nextIndex);
     });
@@ -960,12 +1006,14 @@ export default function EditorApp() {
                     <small>标题、日期、封面、隐私与图片</small>
                   </span>
                 </button>
-                <ol className="editor-tree-list">
+                <ol ref={pageListRef} className="editor-tree-list">
                   {document.pages.map((page, index) => (
                     <li
                       key={page.id}
+                      data-page-id={page.id}
                       draggable
                       onDragStart={() => setDragTarget({ kind: "page", id: page.id })}
+                      onDragEnd={() => setDragTarget(null)}
                       onDragOver={(event) => event.preventDefault()}
                       onDrop={(event) =>
                         handleDrop(event, { kind: "page", id: page.id }, index)

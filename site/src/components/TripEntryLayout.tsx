@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type MouseEvent, type ReactNode } from "react";
 
 export type TripEntrySection = {
   id: string;
@@ -122,6 +122,9 @@ export default function TripEntryLayout({
     sections ?? []
   );
   const [activeId, setActiveId] = useState(sections?.[0]?.id ?? "");
+  const [chaptersOpen, setChaptersOpen] = useState(false);
+  const chaptersId = useId();
+  const chaptersToggleRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const root = rootRef.current;
@@ -186,7 +189,10 @@ export default function TripEntryLayout({
     const target = root?.ownerDocument.getElementById(id);
     if (!root || !target) return;
     event.preventDefault();
-    event.currentTarget.closest("details")?.removeAttribute("open");
+    setChaptersOpen(false);
+    if (event.currentTarget.closest(".trip-entry-disclosure")) {
+      chaptersToggleRef.current?.focus({ preventScroll: true });
+    }
     target.scrollIntoView({ block: "start" });
     setActiveId(id);
     const viewport = root.ownerDocument.defaultView;
@@ -229,20 +235,45 @@ export default function TripEntryLayout({
 
       <div className="trip-entry-compact">
         {activeSection && (
-          <details>
-            <summary>
+          <div
+            onKeyDown={(event) => {
+              if (event.key === "Escape" && chaptersOpen) {
+                event.preventDefault();
+                setChaptersOpen(false);
+                chaptersToggleRef.current?.focus();
+              }
+            }}
+          >
+            <button
+              ref={chaptersToggleRef}
+              type="button"
+              className="trip-entry-disclosure-toggle"
+              aria-expanded={chaptersOpen}
+              aria-controls={chaptersId}
+              onClick={() => setChaptersOpen((open) => !open)}
+            >
               <span>{activeSection.marker}</span>
               <strong>{activeSection.label}</strong>
-            </summary>
-            <nav aria-label={labels.navigation}>
-              {visibleSections.map((section) => (
-                <a key={section.id} href={`#${section.id}`} onClick={(event) => navigateSection(event, section.id)}>
-                  <span>{section.marker}</span>
-                  {section.label}
-                </a>
-              ))}
-            </nav>
-          </details>
+            </button>
+            <div
+              id={chaptersId}
+              className="trip-entry-disclosure"
+              data-open={chaptersOpen}
+              inert={!chaptersOpen}
+              aria-hidden={!chaptersOpen}
+            >
+              <div>
+                <nav aria-label={labels.navigation}>
+                  {visibleSections.map((section) => (
+                    <a key={section.id} href={`#${section.id}`} onClick={(event) => navigateSection(event, section.id)}>
+                      <span>{section.marker}</span>
+                      {section.label}
+                    </a>
+                  ))}
+                </nav>
+              </div>
+            </div>
+          </div>
         )}
       </div>
 

@@ -11,6 +11,49 @@ index refinements below, [theme behavior](#10-theme-behavior),
 
 ## Journal index refinement
 
+### Shared interface rules
+
+Use the four shared surface tokens for the shell, editor, trip reading surfaces,
+and standalone private-trip gate. Adjacent levels differ by two OKLCH lightness
+percentage points, within the required 1–3% range. Use tonal separation rather
+than black frames; do not use pure black (`#000`, `#000000`, or equivalent RGB)
+in authored interface styles, including shadows and masks. Semantic accent
+colors, photography overlays, keyboard focus, and journal annotations remain.
+
+| Layer | Token | Light L | Dark L |
+|-------|-------|---------|--------|
+| Canvas | `--surface-canvas` | 94% | 22% |
+| Panel | `--surface-panel` | 96% | 24% |
+| Raised | `--surface-raised` | 98% | 26% |
+| Control | `--surface-control` | 100% | 28% |
+
+Input focus uses no outline or border highlight: deepen the dual-ring shadow
+instead. Preserve a visible system outline in forced-colors mode, where shadows
+are unavailable. Links and buttons retain visible keyboard focus. All authored
+font weights, including shorthand declarations, subtract
+`--font-weight-reduction` (0 in light mode, **40 weight units** in dark mode).
+Static fonts may resolve these requested weights to their nearest available face.
+Use `tabular-nums` for stable numbers, `text-wrap: pretty` for body copy, and a
+`0.125em` downward optical offset on icons without replacing existing transforms.
+
+Chapter disclosure uses a Grid `0fr` to `1fr` transition, not measured heights.
+Collapsed content is inert and hidden from assistive technology; its button
+exposes `aria-expanded` and `aria-controls`. Escape closes the menu and restores
+focus. Reduced-motion mode removes the transition. Editor page reordering uses
+a unit-mass **1200 stiffness / 80 damping** spring, sampled through Web Animations,
+with no overshoot; reduced-motion mode reorders immediately. Native drag tracking
+remains controlled by the browser.
+
+The site currently has no streaming text, like control, or clipboard-copy
+confirmation. Do not add these features merely to demonstrate motion. When
+those features are introduced, streaming characters must reveal from `blur(6px)`
+to sharp over **120ms**, staggered **30ms** per character; animate only newly
+arrived characters, keep accessible text intact, and disable blur/stagger for
+reduced motion. Likes must use a unit-mass **380 stiffness / 18 damping** spring
+with a small bounce. A successful copy checkmark must reset after **2500ms**;
+restart its timer on another successful copy, clear it on unmount, and show
+clipboard failures as errors rather than success.
+
 The index uses a personal editorial identity rather than a marketplace wordmark:
 Junjie's existing About-page portrait, one localized journal title, and one
 supporting line. The shared header uses the same portrait and localized name.
@@ -53,23 +96,23 @@ marketplace header and layout guidance below; font tokens remain unchanged.
 
 ### Ambient index palette
 
-The index softens the shell canvas to warm ivory (`#f7f3eb`) or lifted
-charcoal (`#202123`). Light mode pairs faint peach-and-cream radial gradients
-with warm white cards (`#fffdf9`) and an ivory dock. Dark mode retains its subtle
+The index softens the shell canvas to warm ivory or lifted
+charcoal using the four shared surface levels. Light mode pairs faint peach-and-cream radial gradients
+with warm white cards and an ivory dock. Dark mode retains its subtle
 warm/cool gradients, neutral surfaces, and softer primary text. The broad,
 low-opacity gradients fade into the base color down the page.
 Photography and red accents are unchanged. These CSS-only palette
 overrides apply only while `.index-wrap` is present, including viewport margins;
-trip pages and the editor retain their existing themes. There is no background
+trip pages and the editor use the neutral shared surface tokens. There is no background
 animation or additional image download.
 
 | Token / role | Light | Dark |
 |--------------|-------|------|
-| `--page-background` | `#f7f3eb` | `#202123` |
-| `--surface-elevated` (cards, overflow menu) | `#fffdf9` | `#2b2c2e` |
-| `--palette-surface` | `#fcf9f3` | `#27282a` |
-| `--palette-surface-muted` (selected controls) | `#eee9e0` | `#323335` |
-| `--header-background` (dock) | `rgba(252, 249, 243, 0.9)` | `rgba(39, 40, 42, 0.9)` |
+| `--page-background` | `--surface-canvas`, warm ivory | `--surface-canvas`, charcoal |
+| `--surface-elevated` (cards, overflow menu) | `--surface-raised` | `--surface-raised` |
+| `--palette-surface` | `--surface-panel` | `--surface-panel` |
+| `--palette-surface-muted` (selected controls) | `--surface-control` | `--surface-control` |
+| `--header-background` (dock) | 96% panel / transparent mix | 96% panel / transparent mix |
 | Primary text | `#222222` | `#e8e8e6` |
 | `--index-gradient-warm` | `rgba(222, 174, 139, 0.12)` | `rgba(177, 149, 123, 0.07)` |
 | `--index-gradient-haze` | `rgba(238, 217, 184, 0.16)` | `rgba(126, 151, 179, 0.09)` |
