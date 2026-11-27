@@ -78,7 +78,7 @@
         { "id": "opening", "type": "prose", "paragraphs": [
           { "zh": "这趟台州，是为凤凰传奇的演唱会来的。4 月 12 日晚上看演出，第二天顺便去国清寺，原本很简单的安排，在照片里留下了两种完全不同的画面：一边是红色舞台、满场荧光棒，一边是田地、溪水和黄墙。把两天连起来看，热闹和春光之间，还夹着合影、夜宵和一杯咖啡。", "en": "I came to Taizhou for the Phoenix Legend concert. The plan was simple: the show on the evening of 12 April, then a visit to Guoqing Temple the next day. The photos ended up holding two very different scenes: a red stage and an arena full of glow sticks, then fields, streams and yellow walls. Between the crowd and the spring light were photos of us together, a late-night meal and a cup of coffee." }
         ] },
-        { "id": "pairing-note", "type": "note", "title": { "zh": "关于这些照片", "en": "About the photos" }, "body": { "zh": "46 张照片按 23 组双图呈现，封面复用其中的舞台照。正文使用同组等比例、居中对称的裁剪预览图，点击可查看完整照片。配对按同一天的主题安排，不表示同时拍摄，也不完全按拍摄时刻排列。图注末尾是各自拍摄时刻，两天的行程先后以正文路线为准；照片时间不代表活动起止时间。", "en": "The 46 photos appear in 23 pairs, with one stage photo reused on the cover. Each pair uses matching frames with centered, symmetrically cropped previews; click to view the full photo. Pairs follow themes within the same day, not simultaneous moments or strict capture-time order. Each caption ends with its photo's capture time. The routes in the text give the day's sequence; photo times do not establish when activities began or ended." } }
+        { "id": "pairing-note", "type": "note", "title": { "zh": "关于这些照片", "en": "About the photos" }, "body": { "zh": "46 张照片按 23 组双图呈现，封面复用其中的舞台照。正文使用同组等比例、居中对称的裁剪预览图，点击可查看完整照片。配对按同一天的主题安排，不表示同时拍摄，也不完全按拍摄时刻排列。图注末尾是各自拍摄时刻，两天的行程先后以正文路线为准，照片时间不代表活动起止时间。", "en": "The 46 photos appear in 23 pairs, with one stage photo reused on the cover. Each pair uses matching frames with centered, symmetrically cropped previews; click to view the full photo. Pairs follow themes within the same day, not simultaneous moments or strict capture-time order. Each caption ends with its photo's capture time. The routes in the text give the day's sequence; photo times do not establish when activities began or ended." } }
       ]
     },
     {
@@ -107,7 +107,7 @@
       "blocks": [
         { "id": "red-curtain-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "1", "en": "1" }, "title": { "zh": "红色幕布前，先留一张合影", "en": "A photo together before the red curtain" }, "subtitle": { "zh": "4 月 12 日 · 凤凰传奇「吉祥如意」", "en": "12 April · Phoenix Legend: Jixiang Ruyi" } },
         { "id": "red-curtain-story", "type": "prose", "paragraphs": [
-          { "zh": "进场后，舞台上已经亮着「吉祥如意」几个大字。我在观众席前拍了单人照，也把两个人和身后的舞台一起放进镜头。开场前的照片里，荧光棒还是浅浅的粉白色；等灯光亮起来，整个画面都变了。", "en": "Once inside, the words Jixiang Ruyi were already glowing onstage. I took a solo photo in front of the audience seating, then put both of us and the stage into the frame. In the pre-show photos, the glow sticks were still a pale pinkish white. When the lights came on, the whole picture changed." }
+          { "zh": "进场后，舞台上已经亮着「吉祥如意」几个大字。我在观众席前拍了单人照，也把两个人和身后的舞台一起放进镜头。开场前的照片里，荧光棒还是浅浅的粉白色，等灯光亮起来，整个画面都变了。", "en": "Once inside, the words Jixiang Ruyi were already glowing onstage. I took a solo photo in front of the audience seating, then put both of us and the stage into the frame. In the pre-show photos, the glow sticks were still a pale pinkish white. When the lights came on, the whole picture changed." }
         ] },
         { "id": "d1-02", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p014", "shape": "portrait", "caption": { "zh": "红色舞台前，先留下一张单人照。\n18:45", "en": "First, a solo photo in front of the red stage.\n18:45" } },
@@ -131,7 +131,7 @@
           { "imageId": "p031", "shape": "square", "caption": { "zh": "大屏右侧的玲花，与中间的金色舞台图案。\n19:46", "en": "Linghua on the right-hand screen beside the golden design at center stage.\n19:46" } }
         ] },
         { "id": "watch-story", "type": "prose", "paragraphs": [
-          { "zh": "其中有一张不是舞台特写，而是手表。它弹出了高音量提醒，屏幕写着声音达到 90 分贝。我把手表和背后的红色灯光一起拍了下来，成了这晚一个很具体的小细节。", "en": "One photo was not a close-up of the stage, but of my watch. It had displayed a loud-environment alert saying the sound had reached 90 decibels. I photographed the watch with the red lights behind it: one very specific little detail from the evening." }
+          { "zh": "其中有一张拍的是手表，没拍舞台特写。表盘弹出了高音量提醒，屏幕写着声音达到 90 分贝。我把手表和背后的红色灯光一起拍了下来，成了这晚一个很具体的小细节。", "en": "One photo was not a close-up of the stage, but of my watch. It had displayed a loud-environment alert saying the sound had reached 90 decibels. I photographed the watch with the red lights behind it: one very specific little detail from the evening." }
         ] },
         { "id": "d1-04", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p030", "shape": "portrait", "caption": { "zh": "手表弹出的90分贝高音量提醒。\n19:43", "en": "The watch's 90-decibel loud-environment alert.\n19:43" } },
@@ -157,7 +157,7 @@
           { "imageId": "p068", "shape": "portrait", "caption": { "zh": "绿色灯海里，留下玲花的舞台瞬间。\n21:20", "en": "A moment of Linghua onstage amid a sea of green lights.\n21:20" } },
           { "imageId": "p069", "shape": "portrait", "caption": { "zh": "玲花举起双手，台下是紫色的荧光棒。\n21:22", "en": "Linghua raises both hands above purple glow sticks in the audience.\n21:22" } }
         ] },
-        { "id": "song-photo-note", "type": "note", "title": { "zh": "歌名与照片分开记", "en": "Song memories, not photo identifications" }, "body": { "zh": "喜欢这两首歌，是演唱会之后的回忆；不根据灯光颜色，把旁边的照片认定为某一首歌的演出画面。", "en": "Liking these two songs is a memory from after the concert. The lighting colors do not identify which song was being performed in the neighboring photos." } },
+        { "id": "song-photo-note", "type": "note", "title": { "zh": "歌名与照片分开记", "en": "Song memories, not photo identifications" }, "body": { "zh": "喜欢这两首歌，是演唱会之后的回忆，不根据灯光颜色，把旁边的照片认定为某一首歌的演出画面。", "en": "Liking these two songs is a memory from after the concert. The lighting colors do not identify which song was being performed in the neighboring photos." } },
         { "id": "d1-06", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p049", "shape": "square", "caption": { "zh": "演出中途，再补一张看台合影。\n20:35", "en": "Another photo together in the stands during the show.\n20:35" } },
           { "imageId": "p075", "shape": "square", "caption": { "zh": "当晚最后一张舞台照，仍是吉祥如意。\n21:43", "en": "Jixiang Ruyi, still there in the evening's last stage photo.\n21:43" } }
@@ -186,11 +186,11 @@
           { "id": "lunch", "time": { "zh": "中午", "en": "Midday" }, "event": { "zh": "台州希尔顿附近午饭", "en": "Lunch near Hilton Taizhou" }, "detail": { "zh": "天已经晴了，午饭是汤面和一盘肉片。", "en": "The sky had cleared; lunch was noodle soup and a plate of sliced meat." } },
           { "id": "tiantai", "time": { "zh": "午饭后", "en": "After lunch" }, "event": { "zh": "从市区转往天台", "en": "From the city to Tiantai" }, "detail": { "zh": "具体乘车方式留待补记。", "en": "The exact transport is still to be filled in." } },
           { "id": "guoqing", "time": { "zh": "下午", "en": "Afternoon" }, "event": { "zh": "国清寺与寺外田地", "en": "Guoqing Temple and the surrounding fields" }, "detail": { "zh": "从田野、溪水走进黄墙庭院，再回到寺外。", "en": "From fields and streams into the yellow-walled courtyards, then outside again." } },
-          { "id": "sanmu", "time": { "zh": "随后", "en": "Afterward" }, "event": { "zh": "三木與食咖啡停留", "en": "A stop at Sanmu Coffee / 三木與食" }, "detail": { "zh": "咖啡窗口、镜子与饮品；之后的返程还没补上。", "en": "The coffee window, mirror and drinks; the later return journey is still unrecorded." } }
+          { "id": "sanmu", "time": { "zh": "随后", "en": "Afterward" }, "event": { "zh": "三木與食咖啡停留", "en": "A stop at Sanmu Coffee / 三木與食" }, "detail": { "zh": "咖啡窗口、镜子与饮品，之后的返程还没补上。", "en": "The coffee window, mirror and drinks; the later return journey is still unrecorded." } }
         ] },
         { "id": "transport-note", "type": "note", "title": { "zh": "路线里还没补上的部分", "en": "The parts of the route still to fill in" }, "body": { "zh": "市区至天台的具体乘车方式、之后的返程待补。照片记录到 17:06，不把最后一张照片当作离开时间。", "en": "The exact transport from the city to Tiantai and the later return journey are still to be filled in. The photo record runs to 17:06; that last photo does not establish a departure time." } },
         { "id": "sunshine-story", "type": "prose", "paragraphs": [
-          { "zh": "第二天再拍窗外，天已经蓝了。同一片楼群和绿地，和前一天下午的灰天形成了对照。中午吃饭，桌上是一大碗汤面和一盘肉片；吃过午饭，行程从台州市区转向了天台。", "en": "When I photographed the view again the next day, the sky was blue. The same buildings and green space looked different from the grey afternoon before. At lunch, the table held a large bowl of noodle soup and a plate of sliced meat. Afterward, the trip moved from urban Taizhou toward Tiantai." }
+          { "zh": "第二天再拍窗外，天已经蓝了。同一片楼群和绿地，和前一天下午的灰天形成了对照。中午吃饭，桌上是一大碗汤面和一盘肉片。吃过午饭，行程从台州市区转向了天台。", "en": "When I photographed the view again the next day, the sky was blue. The same buildings and green space looked different from the grey afternoon before. At lunch, the table held a large bowl of noodle soup and a plate of sliced meat. Afterward, the trip moved from urban Taizhou toward Tiantai." }
         ] },
         { "id": "d2-01", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p082", "shape": "square", "caption": { "zh": "同一片楼群，第二天换成了晴天。\n12:19", "en": "The same buildings, with sunshine the next day.\n12:19" } },
@@ -203,7 +203,7 @@
       "blocks": [
         { "id": "fields-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "2", "en": "2" }, "title": { "zh": "田地、塔，还有我们", "en": "Fields, a pagoda, and us" }, "subtitle": { "zh": "4 月 13 日 · 国清寺一带", "en": "13 April · Around Guoqing Temple" } },
         { "id": "fields-story", "type": "prose", "paragraphs": [
-          { "zh": "下午来到国清寺一带，先进入镜头的不是殿堂，而是山脚下的田地。绿色一层层铺开，远处的塔立在山前。我们在栏杆边拍了合影，也分别站在同一片田野前留了单人照。", "en": "Around Guoqing Temple that afternoon, the fields at the foot of the hills reached the camera before the temple halls did. Layers of green spread out, with a distant pagoda standing before the hills. We took a photo together by the railing, then individual portraits in front of the same fields." },
+          { "zh": "下午来到国清寺一带，先进入镜头的是山脚下的田地，还没拍到殿堂。绿色一层层铺开，远处的塔立在山前。我们在栏杆边拍了合影，也分别站在同一片田野前留了单人照。", "en": "Around Guoqing Temple that afternoon, the fields at the foot of the hills reached the camera before the temple halls did. Layers of green spread out, with a distant pagoda standing before the hills. We took a photo together by the railing, then individual portraits in front of the same fields." },
           { "zh": "路上还拍下了石牌坊和树下的碑廊。牌坊把天光和远处的绿色框在一起，碑廊前的石灯则落在斑驳树影里。", "en": "Along the way, I also photographed a stone archway and a stele corridor beneath the trees. The arch framed the sky and distant green, while the stone lantern before the corridor sat in dappled shade." }
         ] },
         { "id": "d2-10", "type": "gallery", "layout": "two", "images": [
@@ -211,7 +211,7 @@
           { "imageId": "p106", "shape": "square", "caption": { "zh": "树下的碑廊与石灯，路上的一段阴影。\n15:10", "en": "The stele corridor and stone lantern: a shaded stretch along the way.\n15:10" } }
         ] },
         { "id": "fields-backdrop", "type": "prose", "paragraphs": [
-          { "zh": "这些照片里，人的背后不是景点说明牌，而是田地和山。昨晚镜头里的背景还是舞台，今天就换成了这一大片绿色。", "en": "Behind the people in these photos were fields and hills, not sightseeing information boards. Last night's backdrop had been the stage; today it was this wide sweep of green." }
+          { "zh": "这些照片里，人的背后只有田地和山，没有景点说明牌。昨晚镜头里的背景还是舞台，今天就换成了这一大片绿色。", "en": "Behind the people in these photos were fields and hills, not sightseeing information boards. Last night's backdrop had been the stage; today it was this wide sweep of green." }
         ] },
         { "id": "d2-02", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p091", "shape": "square", "caption": { "zh": "田地、山和远处的塔，国清寺前的绿色。\n15:02", "en": "Fields, hills and a distant pagoda: the green outside Guoqing Temple.\n15:02" } },
@@ -256,7 +256,7 @@
           { "imageId": "p138", "shape": "portrait", "caption": { "zh": "香炉的纹样和身后的深色木门。\n15:31", "en": "Patterns on the incense burner, with dark wooden doors behind.\n15:31" } }
         ] },
         { "id": "trees-and-doors", "type": "prose", "paragraphs": [
-          { "zh": "靠墙的树干盘曲向上，另一处石门上方又横过一片树冠。阳光从缝隙落下来，黄墙和台阶时明时暗；这些细节放在一起，才更像当时一路走过的国清寺。", "en": "A trunk twisted upward beside a wall; elsewhere a tree canopy stretched over a stone doorway. Sunlight fell through gaps, leaving yellow walls and steps alternately bright and shaded. Together, these details felt more like the Guoqing Temple we had walked through." }
+          { "zh": "靠墙的树干盘曲向上，另一处石门上方又横过一片树冠。阳光从缝隙落下来，黄墙和台阶时明时暗，这些细节放在一起，才更像当时一路走过的国清寺。", "en": "A trunk twisted upward beside a wall; elsewhere a tree canopy stretched over a stone doorway. Sunlight fell through gaps, leaving yellow walls and steps alternately bright and shaded. Together, these details felt more like the Guoqing Temple we had walked through." }
         ] },
         { "id": "d2-13", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p140", "shape": "portrait", "caption": { "zh": "靠墙的树干向上盘曲，枝叶伸出瓦檐。\n15:39", "en": "A trunk curls upward beside the wall, its branches reaching past the tiled eaves.\n15:39" } },
@@ -304,7 +304,7 @@
           { "imageId": "p173", "shape": "portrait", "caption": { "zh": "窗口旁的镜子，也留下一张自拍。\n16:31", "en": "A selfie in the mirror beside the window, too.\n16:31" } }
         ] },
         { "id": "coffee-table-story", "type": "prose", "paragraphs": [
-          { "zh": "饮品拿在手里，背景还是山和树。桌上另有一份装在白色烤碗里的餐点，表面撒着谷物和坚果。具体点了哪两杯、那份餐点叫什么，等补上记忆再写；先把当时的样子留在这里。", "en": "Holding the drinks, we still had hills and trees behind us. On the table was another dish in a white baking bowl, topped with grains and nuts. Which two drinks we ordered, and what that dish was called, can wait until I remember. For now, I am keeping how they looked." }
+          { "zh": "饮品拿在手里，背景还是山和树。桌上另有一份装在白色烤碗里的餐点，表面撒着谷物和坚果。具体点了哪两杯、那份餐点叫什么，等补上记忆再写，先把当时的样子留在这里。", "en": "Holding the drinks, we still had hills and trees behind us. On the table was another dish in a white baking bowl, topped with grains and nuts. Which two drinks we ordered, and what that dish was called, can wait until I remember. For now, I am keeping how they looked." }
         ] },
         { "id": "d2-09", "type": "gallery", "layout": "two", "images": [
           { "imageId": "p174", "shape": "portrait", "caption": { "zh": "杯子拿在手里，山和树还在身后。\n16:41", "en": "A cup in hand, with hills and trees still behind.\n16:41" } },

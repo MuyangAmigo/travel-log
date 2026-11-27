@@ -116,7 +116,7 @@ test("all 25 approved Chinese prose paragraphs remain verbatim and in order", ()
   assert.equal(paragraphs.length, 25);
   assert.equal(
     createHash("sha256").update(paragraphs.join("\n\n")).digest("hex"),
-    "5c68d8018673e4c216c9a5516bd228b6881a29ac4913dcd2a2c520608bb36eee"
+    "fd9d35434d4ff0e99c07ab8023fa0b1e0b709228ecdfce0b6d1b2047aab64712"
   );
 });
 

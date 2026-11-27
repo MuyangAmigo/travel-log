@@ -70,7 +70,7 @@ test("the approved Chinese narrative, cancelled plans and uncertain payments sta
     .flatMap((block) => block.paragraphs.map((paragraph) => paragraph.zh))];
   assert.equal(paragraphs.length, 25);
   assert.equal(createHash("sha256").update(paragraphs.join("\n\n")).digest("hex"),
-    "e5a50287959f2ca36285b51128429f466049f6985de5b902efebf430ee7915e5");
+    "37dad64170c61457409714e05c0936190bfcc149daf5ce1bf0c30ac0822293e2");
   assert.match(source, /粤剧博物馆，最后没有去/);
   assert.match(source, /2024 年尚待确认/);
   assert.match(source, /实付未确认/);

@@ -86,7 +86,7 @@
       "blocks": [
         { "id": "introduction-header", "type": "header", "markerVariant": "category", "markerLabel": { "zh": "序言", "en": "Intro" }, "markerValue": { "zh": "SYD", "en": "SYD" }, "title": { "zh": "日常，也是旅行的一部分", "en": "Everyday life belongs in the story" }, "subtitle": { "zh": "从生活琐事，到后半程的蓝天与歌剧院", "en": "From practical tasks to blue skies and the Opera House" } },
         { "id": "opening", "type": "prose", "paragraphs": [
-          { "zh": "前半程不是从景点开始的。逛超市、买东西、整理宿舍，等这些事情一件件安排起来，后面几天才有了校园、海港、动物园和海边的游玩。", "en": "We did not start with the sights. We went to supermarkets, bought supplies and sorted out my sister's room. Once those things were in place, there was time for campus, the harbour, the zoo and the beach." },
+          { "zh": "前半程不是从景点开始的。逛超市，买东西，整理宿舍，等这些事情一件件安排起来，后面几天才有了校园、海港、动物园和海边的游玩。", "en": "We did not start with the sights. We went to supermarkets, bought supplies and sorted out my sister's room. Once those things were in place, there was time for campus, the harbour, the zoo and the beach." },
           { "zh": "照片最多的是后半程，但没有拍照的那两天也属于这次旅行。把它们补回来，才看得出这趟行程原本的样子。", "en": "Most of the photos came from the second half, but the two days without photos belong here too. Including them gives this trip its full shape." }
         ] },
         { "id": "overview-route", "type": "route", "compact": true, "stops": [
@@ -95,7 +95,7 @@
           { "id": "zoo-coast", "icon": "07–08", "label": { "zh": "动物园与海岸", "en": "Zoo and coast" } },
           { "id": "home", "icon": "09", "label": { "zh": "回到上海", "en": "Home to Shanghai" } }
         ] },
-        { "id": "source-note", "type": "note", "title": { "zh": "照片、行程单与后来补充的回忆", "en": "Photos, itinerary and later memories" }, "body": { "zh": "50 张精选照片以 25 组双图呈现，正文使用统一比例的裁剪缩略图，点击可查看完整图片；封面另复用其中一张。配对兼顾画幅和主题，个别组跨越当天不同时段，先后以正文为准。没有把握的细节保持概括，航班时间只代表行程单所列的当地时间。", "en": "The 50 selected photos appear in 25 pairs with matching cropped thumbnails. Click a thumbnail to view the full photo; one image is also used on the cover. Pairs follow format and subject; some span different times on the same day, so the text gives the sequence. Uncertain details remain general. Flight times are the local times listed on the itinerary, not confirmed actual departure or arrival times." } }
+        { "id": "source-note", "type": "note", "title": { "zh": "照片、行程单与后来补充的回忆", "en": "Photos, itinerary and later memories" }, "body": { "zh": "50 张精选照片以 25 组双图呈现，正文使用统一比例的裁剪缩略图，点击可查看完整图片，封面另复用其中一张。配对兼顾画幅和主题，个别组跨越当天不同时段，先后以正文为准。没有把握的细节保持概括，航班时间只代表行程单所列的当地时间。", "en": "The 50 selected photos appear in 25 pairs with matching cropped thumbnails. Click a thumbnail to view the full photo; one image is also used on the cover. Pairs follow format and subject; some span different times on the same day, so the text gives the sequence. Uncertain details remain general. Flight times are the local times listed on the itinerary, not confirmed actual departure or arrival times." } }
       ]
     },
     {
@@ -199,7 +199,7 @@
           { "id": "evening", "time": { "zh": "傍晚至晚餐", "en": "Evening" }, "event": { "zh": "天文台山 → 西侧水面夕阳 → Barangaroo", "en": "Observatory Hill → Sunset over the water to the west → Barangaroo" }, "detail": { "zh": "以 The Butcher's Block 的晚餐收尾。", "en": "Finishing with dinner at The Butcher's Block." } }
         ] },
         { "id": "cathedral-story", "type": "prose", "paragraphs": [
-          { "zh": "中午先到了海德公园一带，拍了喷泉和圣玛丽大教堂。教堂外是砂岩墙、双尖塔和树荫下的步道；走到里面，画面换成了高高的尖拱、彩窗和祭坛。", "en": "Around midday we reached Hyde Park and photographed the fountain and St Mary's Cathedral. Outside were sandstone walls, twin spires and shaded paths. Inside, the view changed to tall pointed arches, stained glass and the altar." },
+          { "zh": "中午先到了海德公园一带，拍了喷泉和圣玛丽大教堂。教堂外是砂岩墙、双尖塔和树荫下的步道，走到里面，画面换成了高高的尖拱、彩窗和祭坛。", "en": "Around midday we reached Hyde Park and photographed the fountain and St Mary's Cathedral. Outside were sandstone walls, twin spires and shaded paths. Inside, the view changed to tall pointed arches, stained glass and the altar." },
           { "zh": "从教堂出来，我们在步道上拍了三人合影，双尖塔从树木后面露出来。接着去了海德公园南部的澳新军团战争纪念馆 Anzac Memorial，看正面建筑和前方水池的倒影，在台阶前留影，也拍了馆内的一角。", "en": "Outside the cathedral, we took a picture of the three of us on the path, with the twin spires rising behind the trees. Next was the Anzac Memorial in southern Hyde Park. We saw the building and its reflection in the pool, posed by the steps and photographed part of the interior." }
         ] },
         { "id": "cathedral-pair", "type": "gallery", "layout": "two", "images": [
@@ -217,9 +217,9 @@
       "blocks": [
         { "id": "harbour-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "6", "en": "6" }, "title": { "zh": "歌剧院、植物园与港湾两岸", "en": "Opera House, gardens and two harbour viewpoints" }, "subtitle": { "zh": "9 月 6 日 · 下午到傍晚 · 环形码头 → 天文台山", "en": "6 Sep · Afternoon into evening · Circular Quay to Observatory Hill" } },
         { "id": "harbour-story", "type": "prose", "paragraphs": [
-          { "zh": "下午到了环形码头。先从高处看码头和海港大桥，之后走到歌剧院附近。白色屋顶、蓝天和弧形的滨水岸线都很清楚；港边既有三人自拍，也拍了石墙旁的人像和海鸥。", "en": "In the afternoon we reached Circular Quay. We first looked over the wharves and Harbour Bridge from above, then walked towards the Opera House. Its white roofs stood against the blue sky and curved waterfront. By the harbour we took selfies of all three of us, portraits beside a stone wall and pictures of gulls." },
+          { "zh": "下午到了环形码头。先从高处看码头和海港大桥，之后走到歌剧院附近。白色屋顶、蓝天和弧形的滨水岸线都很清楚。港边既有三人自拍，也拍了石墙旁的人像和海鸥。", "en": "In the afternoon we reached Circular Quay. We first looked over the wharves and Harbour Bridge from above, then walked towards the Opera House. Its white roofs stood against the blue sky and curved waterfront. By the harbour we took selfies of all three of us, portraits beside a stone wall and pictures of gulls." },
           { "zh": "接着去了皇家植物园 Royal Botanic Garden Sydney。临海步道之后是草地、大树和花木，照片里还留下了躺在草地上的片段，远处是市区高楼。", "en": "Next came the Royal Botanic Garden Sydney. Beyond the waterfront path were lawns, large trees and flowering plants. The photos also kept a moment lying on the grass, with city towers in the distance." },
-          { "zh": "之后经过悉尼音乐学院外，再到了环形码头西侧。澳大利亚当代艺术博物馆的外墙和字样出现在照片里；从这边隔水回望歌剧院，又拍了一张三人合影，画面中还有经过的渡轮。两边都拍到了歌剧院，但不是同一机位的重复。", "en": "We passed the Sydney Conservatorium of Music exterior and reached the west side of Circular Quay. The Museum of Contemporary Art Australia facade and lettering appeared in our pictures. Looking back across the water, we took another group photo with the Opera House and a passing ferry. The Opera House appeared from both sides, but these were different viewpoints." }
+          { "zh": "之后经过悉尼音乐学院外，再到了环形码头西侧。澳大利亚当代艺术博物馆的外墙和字样出现在照片里。从这边隔水回望歌剧院，又拍了一张三人合影，画面中还有经过的渡轮。两边都拍到了歌剧院，但不是同一机位的重复。", "en": "We passed the Sydney Conservatorium of Music exterior and reached the west side of Circular Quay. The Museum of Contemporary Art Australia facade and lettering appeared in our pictures. Looking back across the water, we took another group photo with the Opera House and a passing ferry. The Opera House appeared from both sides, but these were different viewpoints." }
         ] },
         { "id": "harbour-portraits", "type": "gallery", "layout": "two", "images": [
           { "imageId": "img-4973", "shape": "portrait", "caption": { "zh": "靠近歌剧院时，大桥也在镜头里。", "en": "Near the Opera House, the bridge joined us in the frame." } },
@@ -269,7 +269,7 @@
         ] },
         { "id": "zoo-animals-story", "type": "prose", "paragraphs": [
           { "zh": "先拍了水池里的海狮类动物，之后看到长颈鹿。在大猩猩雕塑的手掌和脸旁留了单人照，再经过小猴与鸟类展区，在鸟舍里和栖鸟同框自拍。", "en": "We first photographed sea-lion-like animals in a pool, then saw the giraffes. We took a portrait beside the hand and face of a gorilla sculpture, passed small monkeys and bird exhibits, and took a selfie beside a perched bird in the aviary." },
-          { "zh": "后面还有袋鼠、蜥蜴、绿色的蛙、水下的龟、水豚、环尾狐猴和狐獴。照片很多，选片时没有把相近的动物连拍全放进来，而是给考拉、人物和港景都留了位置。", "en": "There were also kangaroos, lizards, a green frog, a turtle underwater, capybaras, ring-tailed lemurs and meerkats. There were many photos. Rather than include every similar animal shot, I left room for the koala, portraits and harbour views too." }
+          { "zh": "后面还有袋鼠、蜥蜴、绿色的蛙、水下的龟、水豚、环尾狐猴和狐獴。照片很多，选片时筛掉了相近的动物连拍，给考拉、人物和港景都留了位置。", "en": "There were also kangaroos, lizards, a green frog, a turtle underwater, capybaras, ring-tailed lemurs and meerkats. There were many photos. Rather than include every similar animal shot, I left room for the koala, portraits and harbour views too." }
         ] },
         { "id": "giraffe-sculpture-pair", "type": "gallery", "layout": "two", "images": [
           { "imageId": "img-5092", "shape": "portrait", "caption": { "zh": "长颈鹿的背景，就是悉尼的水面与高楼。", "en": "The giraffes had Sydney's water and towers as their backdrop." } },
@@ -286,7 +286,7 @@
       "blocks": [
         { "id": "zoo-afternoon-header", "type": "header", "markerLabel": { "zh": "DAY", "en": "DAY" }, "markerValue": { "zh": "7", "en": "7" }, "title": { "zh": "考拉、小熊猫，和回城后的晚餐", "en": "Koala, red panda and dinner back in town" }, "subtitle": { "zh": "9 月 7 日 · 塔龙加 → The Galeries · 雅瑶邑", "en": "7 Sep · Taronga to YAYOI at The Galeries" } },
         { "id": "zoo-afternoon-story", "type": "prose", "paragraphs": [
-          { "zh": "下午拍到考拉抱着树干，也在袋鼠围场前留下了人像。另有农场动物、企鹅、小熊猫以及后段展区的照片；小熊猫在枝叶之间活动，一连拍了不少张。", "en": "In the afternoon we photographed a koala holding onto a tree trunk and took a portrait by the kangaroo enclosure. There were also photos of farm animals, penguins, a red panda and later exhibits. The red panda moved among the branches, and we took quite a few pictures." }
+          { "zh": "下午拍到考拉抱着树干，也在袋鼠围场前留下了人像。另有农场动物、企鹅、小熊猫以及后段展区的照片，小熊猫在枝叶之间活动，一连拍了不少张。", "en": "In the afternoon we photographed a koala holding onto a tree trunk and took a portrait by the kangaroo enclosure. There were also photos of farm animals, penguins, a red panda and later exhibits. The red panda moved among the branches, and we took quite a few pictures." }
         ] },
         { "id": "koala-kangaroo-pair", "type": "gallery", "layout": "two", "images": [
           { "imageId": "img-5155", "shape": "portrait", "caption": { "zh": "桉叶之间，考拉抱着树干。", "en": "Among the eucalyptus leaves, the koala held onto its trunk." } },

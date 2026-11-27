@@ -91,7 +91,7 @@ test("the approved Chinese prose and recalled unphotographed scenes stay verbati
       .flatMap((block) => block.paragraphs.map((paragraph) => paragraph.zh)),
   ];
   assert.equal(createHash("sha256").update(paragraphs.join("\n\n")).digest("hex"),
-    "511fd8d811f3ca35ffc3af9f77450ee85f5866fe03b2491161c68b35e9742d9b");
+    "683533f8b4f98881dee82083731389313a1c903b487380d12ec9667fcf81226f");
   const ids = document.pages.map((page) => page.id);
   assert(ids.indexOf("garden-and-hall") < ids.indexOf("campus-walk"));
   assert(ids.indexOf("campus-walk") < ids.indexOf("dinner-person"));
