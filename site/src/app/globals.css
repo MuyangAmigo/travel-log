@@ -2,7 +2,7 @@
 
 /* ================================================================
    Travel Log — design tokens
-   Shell: Airbnb-inspired clean white canvas + Rausch Red accent.
+   Shell: warm ivory canvas + Rausch Red accent.
    Scrapbook: retained for hand-authored trip pages.
    ================================================================ */
 
@@ -19,7 +19,7 @@
 }
 
 :root {
-  --surface-canvas: oklch(94% 0.006 75);
+  --surface-canvas: #faf9f5;
   --surface-panel: oklch(96% 0.006 75);
   --surface-raised: oklch(98% 0.006 75);
   --surface-control: oklch(100% 0 75);
@@ -603,15 +603,12 @@ svg:not(:root),
   transform: rotate(45deg) scale(.7);
 }
 
-/* Keep the softer canvas route-scoped, including the outer viewport margins. */
+/* Keep index-specific surfaces route-scoped, including the outer viewport margins. */
 :root:has(.index-wrap) {
-  --surface-canvas: oklch(94% 0.018 75);
   --surface-panel: oklch(96% 0.018 75);
   --surface-raised: oklch(98% 0.012 75);
   --surface-control: oklch(100% 0 75);
   --header-background: color-mix(in srgb, var(--surface-panel) 96%, transparent);
-  --index-gradient-warm: rgba(222, 174, 139, 0.12);
-  --index-gradient-haze: rgba(238, 217, 184, 0.16);
   background: var(--page-background);
 }
 
@@ -627,7 +624,7 @@ svg:not(:root),
   --index-gradient-haze: rgba(126, 151, 179, 0.09);
 }
 
-body:has(.index-wrap) {
+:root[data-theme="dark"] body:has(.index-wrap) {
   background-image:
     radial-gradient(ellipse 90% 720px at 0% 0%, var(--index-gradient-warm), transparent),
     radial-gradient(ellipse 80% 900px at 100% 160px, var(--index-gradient-haze), transparent);
