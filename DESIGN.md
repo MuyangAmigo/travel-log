@@ -14,15 +14,16 @@ index refinements below, [theme behavior](#10-theme-behavior),
 ### Shared interface rules
 
 Use the four shared surface tokens for the shell, editor, trip reading surfaces,
-and standalone private-trip gate. Adjacent levels differ by two OKLCH lightness
-percentage points, within the required 1–3% range. Use tonal separation rather
+and standalone private-trip gate. The light canvas uses Anthropic News's ivory;
+the remaining light surfaces and the dark surfaces retain their existing tonal
+levels. Use tonal separation rather
 than black frames; do not use pure black (`#000`, `#000000`, or equivalent RGB)
 in authored interface styles, including shadows and masks. Semantic accent
 colors, photography overlays, keyboard focus, and journal annotations remain.
 
-| Layer | Token | Light L | Dark L |
+| Layer | Token | Light | Dark L |
 |-------|-------|---------|--------|
-| Canvas | `--surface-canvas` | 94% | 22% |
+| Canvas | `--surface-canvas` | `#faf9f5` | 22% |
 | Panel | `--surface-panel` | 96% | 24% |
 | Raised | `--surface-raised` | 98% | 26% |
 | Control | `--surface-control` | 100% | 28% |
@@ -97,14 +98,13 @@ marketplace header and layout guidance below; font tokens remain unchanged.
 
 ### Ambient index palette
 
-The index softens the shell canvas to warm ivory or lifted
-charcoal using the four shared surface levels. Light mode pairs faint peach-and-cream radial gradients
-with warm white cards and an ivory dock. Dark mode retains its subtle
+The index uses a flat warm ivory canvas in light mode, with warm white cards
+and an ivory dock. Dark mode retains its subtle
 warm/cool gradients, neutral surfaces, and softer primary text. The broad,
 low-opacity gradients fade into the base color down the page.
 Photography and red accents are unchanged. These CSS-only palette
-overrides apply only while `.index-wrap` is present, including viewport margins;
-trip pages and the editor use the neutral shared surface tokens. There is no background
+surface overrides apply only while `.index-wrap` is present, including viewport margins;
+trip pages and the editor use the shared surface tokens. There is no background
 animation or additional image download.
 
 | Token / role | Light | Dark |
@@ -115,14 +115,14 @@ animation or additional image download.
 | `--palette-surface-muted` (selected controls) | `--surface-control` | `--surface-control` |
 | `--header-background` (dock) | 96% panel / transparent mix | 96% panel / transparent mix |
 | Primary text | `#222222` | `#e8e8e6` |
-| `--index-gradient-warm` | `rgba(222, 174, 139, 0.12)` | `rgba(177, 149, 123, 0.07)` |
-| `--index-gradient-haze` | `rgba(238, 217, 184, 0.16)` | `rgba(126, 151, 179, 0.09)` |
+| `--index-gradient-warm` | none | `rgba(177, 149, 123, 0.07)` |
+| `--index-gradient-haze` | none | `rgba(126, 151, 179, 0.09)` |
 
-The warm gradient is a `90% 720px` ellipse anchored at the upper left. The haze
+In dark mode, the warm gradient is a `90% 720px` ellipse anchored at the upper left. The haze
 is an `80% 900px` ellipse anchored at `100% 160px`. Neither repeats or moves.
 Use these broad washes rather than distinct colored blobs, and keep photographs
-untinted. `:root:has(.index-wrap)` scopes the tokens; `body:has(.index-wrap)`
-paints the gradients. This also covers the viewport margins and requires no
+untinted. `:root:has(.index-wrap)` scopes the tokens; the dark-theme
+`body:has(.index-wrap)` paints the gradients. This also covers the viewport margins and requires no
 client-side theme or route effects.
 
 ## Phuket reading-flow pilot
@@ -484,7 +484,7 @@ The [ambient index palette](#ambient-index-palette) overrides them only while
 - "Refine list mode in its centered 1040px column: one shared card surface, a flush 220px-wide full-height photo with a 165px minimum height on desktop, and quiet inline privacy metadata. On phones use the existing `clamp(88px, 24vw, 116px)` photo width and `16px 12px` text padding. Keep outer clipping; no separate photo rounding, shadow, or inset margin."
 - "Maintain the index's bottom dock: compact and centered on desktop, full-width with safe-area spacing on phones. Reuse language, view, sorting, theme, and edit-menu controls with 44px targets and visible keyboard focus. Menus open above the dock and dismiss on outside click or Escape."
 - "Refine the shared header without replacing its identity: keep the existing portrait and localized journal name, use `--font-ui`, semantic text/surface tokens, and the existing responsive layout."
-- "Check both light and dark index themes using the existing ambient tokens: warm ivory or lifted charcoal, broad low-opacity gradients, untinted photographs, and sparse red accents. Keep this palette scoped to `.index-wrap`; leave trip and editor themes unchanged."
+- "Check both index themes: flat warm ivory in light mode, lifted charcoal with broad low-opacity gradients in dark mode, untinted photographs, and sparse red accents."
 
 ### Iteration Guide
 1. Start with semantic surfaces in both themes; retain the index-only ambient palette
