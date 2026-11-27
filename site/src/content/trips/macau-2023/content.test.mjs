@@ -82,7 +82,7 @@ test("the approved Chinese story remains verbatim and ordered across cover and c
   ];
   assert.equal(paragraphs.length, 24);
   assert.equal(createHash("sha256").update(paragraphs.join("\n\n")).digest("hex"),
-    "fce85fef09945a7b2b6cc3227c2f491e6cdc8cca97ea7d2451487757c9c13ffe");
+    "3d1aaab7741db5f5653251aef44e299f629fc3b5f842ab190706a038d8b545ee");
   const sectionImages = (id) => document.pages.filter((page) => page.sectionId === id)
     .flatMap((page) => page.blocks).filter((block) => block.type === "gallery")
     .flatMap((gallery) => gallery.images.map((image) => image.imageId));

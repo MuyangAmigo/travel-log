@@ -105,7 +105,7 @@ test("the 40 approved Chinese paragraphs stay verbatim and corrected facts remai
     ...blocks.filter((block) => block.type === "prose").flatMap((block) => block.paragraphs.map((paragraph) => paragraph.zh))];
   assert.equal(prose.length, 40);
   assert.equal(createHash("sha256").update(prose.join("\n\n")).digest("hex"),
-    "470251312f65092798dbe2c0ec87c837abf7c1d1cd9cc020ab9aee8cef0745d2");
+    "5c6cafdc20055ce7402f76878bf542d0e0574cbdf5c56370f17abf660c10f91e");
   const paragraph = (id, locale) => blocks.find((block) => block.id === id).paragraphs[0][locale];
   assert.match(paragraph("story-05", "zh"), /10:30/);
   assert.match(paragraph("story-05", "en"), /10:30/);

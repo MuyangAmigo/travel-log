@@ -491,7 +491,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "早上一个麦当劳匆匆出发，开车直奔浦东。机场免税店扫了根雪茄，还顺便尝了一把 O'Mills 的面包——强烈推荐给所有机场面包党。落地东京已经入夜，第一顿直奔高田馬場的麺屋武蔵，三张机打小票叠在一起，旅途就这样开始了。",
+              "zh": "早上一个麦当劳匆匆出发，开车直奔浦东。机场免税店扫了根雪茄，还顺便尝了一把 O'Mills 的面包，强烈推荐给所有机场面包党。落地东京已经入夜，第一顿直奔高田馬場的麺屋武蔵，三张机打小票叠在一起，旅途就这样开始了。",
               "en": "Quick McDonald's breakfast, then a car straight to Pudong. Picked up a Davidoff cigar in the duty-free shop and discovered O'Mills bakery at the terminal — easily the best airport bread I've had, total recommendation for any bread-in-transit person. Landed in Tokyo after dark; first stop was Menya Musashi in Takadanobaba. Three tickets stacked up, and the trip was officially on."
             }
           ]
@@ -558,7 +558,7 @@
                 "en": "Pudong T2, boarding pass in hand"
               },
               "detail": {
-                "zh": "免税店扫了一根 Davidoff 雪茄；O'Mills 面包强烈推荐",
+                "zh": "免税店扫了一根 Davidoff 雪茄，O'Mills 面包强烈推荐",
                 "en": "Duty-free Davidoff; O'Mills bakery, highly recommended"
               }
             },
@@ -626,7 +626,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "便利店抓两个饭团当早餐，从东京坐到大船换倒挂电车。江之岛上吃冰淇淋和布丁，商店街随便走走；七里滨找了家能看海的海边餐厅吃饭——本来应该能看富士山，可惜那天云层太厚，残念。",
+              "zh": "便利店抓两个饭团当早餐，从东京坐到大船换倒挂电车。江之岛上吃冰淇淋和布丁，商店街随便走走。七里滨找了家能看海的海边餐厅吃饭，本来应该能看富士山，可惜那天云层太厚，残念。",
               "en": "Two onigiri from the convenience store for breakfast, then JR from central Tokyo to Ofuna, switching onto the Shonan Monorail. Ice cream and pudding on Enoshima, then a slow walk through the shopping street. Lunch at a seaside restaurant in Shichirigahama — the one famous for its Mount Fuji view, except the clouds rolled in and Fuji-san played shy all afternoon."
             }
           ]
@@ -646,7 +646,7 @@
                 "en": "Enoden green train"
               },
               "caption": {
-                "zh": "江之电 —— 镰仓的标志",
+                "zh": "江之电，镰仓的标志",
                 "en": "The Enoden hanging train — Kamakura's signature"
               },
               "shape": "landscape",
@@ -733,7 +733,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "极乐寺的门洞特别小，进去买了本御朱印本子；长谷寺顾着写御朱印，结果一抬头发现忘记去看镰仓大佛了……小町通买了一包鸽子饼干，造型很特别，推荐试试。晚上回到鹤冈八幡宫看夜景，灯打下来又是另一番味道，最后用舞泉炸猪排收尾。",
+              "zh": "极乐寺的门洞特别小，进去买了本御朱印本子，长谷寺顾着写御朱印，结果一抬头发现忘记去看镰仓大佛了……小町通买了一包鸽子饼干，造型很特别，推荐试试。晚上回到鹤冈八幡宫看夜景，灯打下来又是另一番味道，最后用舞泉炸猪排收尾。",
               "en": "Gokurakuji's temple gate is so small you almost miss it; bought a goshuin book inside. At Hase-ji I got so absorbed writing my goshuin that I completely forgot to walk over to the Great Buddha — classic travel-brain fail. Komachi-dōri rewarded me with a bag of pigeon-shaped cookies, absolutely worth a try. Tsurugaoka Hachimangū at night hits different under the lights, and Maisen tonkatsu was the perfect closing act."
             }
           ]
@@ -750,7 +750,7 @@
                 "en": "Tsurugaoka Hachimangu at night"
               },
               "caption": {
-                "zh": "鹤冈八幡宫的夜色 —— 走完镰仓的句号",
+                "zh": "鹤冈八幡宫的夜色，走完镰仓的句号",
                 "en": "Tsurugaoka Hachimangū at night — Kamakura's full stop"
               },
               "shape": "hero",
@@ -786,7 +786,7 @@
                 "en": "Maizara tonkatsu set"
               },
               "caption": {
-                "zh": "舞泉炸猪排 —— 镰仓的完美收尾 🍛",
+                "zh": "舞泉炸猪排，镰仓的完美收尾 🍛",
                 "en": "Maizara tonkatsu — Kamakura's perfect ending 🍛"
               },
               "shape": "square",
@@ -841,7 +841,7 @@
             "en": "⚠️ Hase-ji lesson learned"
           },
           "body": {
-            "zh": "写御朱印很上头，但千万别在长谷寺正殿停留太久——镰仓大佛就在隔壁几步路。我们光顾着盖章，回头已经累到走不动，佛像就这么错过了。下次先看佛再盖章。",
+            "zh": "写御朱印很上头，但千万别在长谷寺正殿停留太久，镰仓大佛就在隔壁几步路。我们光顾着盖章，回头已经累到走不动，佛像就这么错过了。下次先看佛再盖章。",
             "en": "Goshuin-stamping is hypnotic, but don't linger too long in Hase-ji's main hall — the Great Buddha is literally a few steps away. We were so focused on the calligraphy that by the time we thought of the Buddha, our feet had given out. See the Buddha first, then go back for the stamp."
           }
         },
@@ -959,7 +959,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "睡到自然醒，下午直奔新宿。午饭用一顿六歌仙的和牛烤肉回血，人均 406 RMB；接着一整个下午用来扫货：石井运动收了一件始祖鸟短袖，Montbell 拿下了雷霆冲锋衣加一堆滑雪配件，United Arrows 拎走北面紫标卫衣和牛仔裤，City Tokyo 给宝子配了一身，Salomon XT Whisper 和昂跑 x4 全部到手，最后优衣库把打底衫、内裤、袜子打包。一天下来脚都走麻了，晚上马杀鸡放松，末了博多风龙拉面收尾。",
+              "zh": "睡到自然醒，下午直奔新宿。午饭用一顿六歌仙的和牛烤肉回血，人均 406 RMB。接着一整个下午用来扫货：石井运动收了一件始祖鸟短袖，Montbell 拿下了雷霆冲锋衣加一堆滑雪配件，United Arrows 拎走北面紫标卫衣和牛仔裤，City Tokyo 给宝子配了一身，Salomon XT Whisper 和昂跑 x4 全部到手，最后优衣库把打底衫、内裤、袜子打包。一天下来脚都走麻了，晚上马杀鸡放松，末了博多风龙拉面收尾。",
               "en": "Slept in, then headed straight to Shinjuku after lunch. Rokkasen's wagyu yakiniku recharged us for the afternoon — ¥406 per person. Then the spending began: an Arc'teryx tee at Ishii Sports, the Montbell Thunder Pass and ski accessories, a Purple Label sweatshirt and jeans at United Arrows, a full outfit for my partner at City Tokyo, the Salomon XT Whisper and four pairs of On runners, and basics at Uniqlo. Feet were numb by dinner; a quick massage sorted it out. Hakata Furyu ramen closed the night."
             }
           ]
@@ -979,7 +979,7 @@
                 "en": "Grill aprons"
               },
               "caption": {
-                "zh": "六歌仙的围裙 —— 准备开烤",
+                "zh": "六歌仙的围裙，准备开烤",
                 "en": "Rokkasen aprons — about to start grilling"
               },
               "shape": "landscape",
@@ -1452,7 +1452,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "麦当劳快速吃完早餐，坐上迪士尼度假区线入园。上午一开园直奔小飞侠（用了 DPA 2000 JPY），体验有点像变形金刚 3D Ride，推荐；午餐在 Lookout 解决，味道很一般。下午冰雪奇缘没抢到 DPA，排了将近两小时的水上小船，剧情还行但时间太长。Aquatopia 水上旋转小车排队不长，可以放松一下；Nemo 下午五点才去，半小时就排到了，像小黄人风格很好玩；海底两万里坐小潜艇下潜，看海底生物和失落古文明，排队只要 20 分钟，强推。阿拉丁音乐剧简短但音乐好听。",
+              "zh": "麦当劳快速吃完早餐，坐上迪士尼度假区线入园。上午一开园直奔小飞侠（用了 DPA 2000 JPY），体验有点像变形金刚 3D Ride，推荐。午餐在 Lookout 解决，味道很一般。下午冰雪奇缘没抢到 DPA，排了将近两小时的水上小船，剧情还行但时间太长。Aquatopia 水上旋转小车排队不长，可以放松一下。Nemo 下午五点才去，半小时就排到了，像小黄人风格很好玩。海底两万里坐小潜艇下潜，看海底生物和失落古文明，排队只要 20 分钟，强推。阿拉丁音乐剧简短但音乐好听。",
               "en": "Fast McDonald's breakfast, then the Disney Resort Line monorail into the park. Right at rope-drop, Peter Pan (DPA at 2,000 JPY) — feels like a 3D Transformers ride, easy recommendation. Lunch at Lookout was nothing to write home about. Frozen: no DPA, so we waited about two hours for the boat ride; the story is fine but it runs long. Aquatopia had a short line, a fun way to cool down. Nemo around 5 PM, only a 30-minute wait — Minions-style, very fun. 20,000 Leagues submarine dive, 20-minute line, lost civilization and reef fish, easy pick. Aladdin musical was short but the music was strong."
             }
           ]
@@ -1544,7 +1544,7 @@
                 "en": "Tangled lanterns ride"
               },
               "caption": {
-                "zh": "天灯 —— 坐在小船里抬头看满天灯火",
+                "zh": "天灯，坐在小船里抬头看满天灯火",
                 "en": "Tangled lanterns — floating lights from a little boat"
               },
               "shape": "hero",
@@ -1599,7 +1599,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "入夜后迪士尼海洋换了另一张脸。天灯用了 DPA，场景像长发公主漫天灯火，但太短了，有点意犹未尽。音乐秀要占好位置，城堡上方视野绝佳。最刺激的还是惊魂古堡——全园最值得的项目，没有之一，外面商店街东西也超多。最后松屋牛肉饭收尾，便宜管饱。",
+              "zh": "入夜后迪士尼海洋换了另一张脸。天灯用了 DPA，场景像长发公主漫天灯火，但太短了，有点意犹未尽。音乐秀要占好位置，城堡上方视野绝佳。最刺激的还是惊魂古堡，全园最值得的项目，没有之一，外面商店街东西也超多。最后松屋牛肉饭收尾，便宜管饱。",
               "en": "DisneySea becomes a different park after dark. Tangled (DPA) was a sea of floating lanterns in a tiny boat — gorgeous, but over before you wanted it to be. The night show needs a good spot; the castle terrace view is the best in the park. The big thrill was Tower of Terror — hands down the most fun ride in the entire park, and the shopping street outside is also stacked. Matsuya beef bowl on the way home, cheap and exactly enough."
             }
           ]
@@ -1616,7 +1616,7 @@
                 "en": "Mermaid lagoon at night"
               },
               "caption": {
-                "zh": "美人鱼礁湖 —— 夜晚的迪士尼海洋最像童话",
+                "zh": "美人鱼礁湖，夜晚的迪士尼海洋最像童话",
                 "en": "Mermaid Lagoon — DisneySea at night is straight out of a fairytale"
               },
               "shape": "hero",
@@ -1652,7 +1652,7 @@
                 "en": "Tower of Terror DPA"
               },
               "caption": {
-                "zh": "DPA 票 —— 全园最刺激",
+                "zh": "DPA 票，全园最刺激",
                 "en": "DPA ticket — the best ride in the park"
               },
               "shape": "square",
@@ -1731,7 +1731,7 @@
                 "en": "Disney plush"
               },
               "caption": {
-                "zh": "七宝挂件 —— 迪士尼的官方礼物",
+                "zh": "七宝挂件，迪士尼的官方礼物",
                 "en": "The crystal strap — Disney's official parting gift"
               },
               "shape": "portrait",
@@ -1771,7 +1771,7 @@
           "type": "prose",
           "paragraphs": [
             {
-              "zh": "最后一天，便利店早餐后直奔高岛屋代购 —— Pola、Fancl、Mikimoto、资生堂一次性收齐；自己血拼 Kanebo、Fancl 和一个 LV 小皮夹。Beams 看到始祖鸟联名款，颜值一般没入。转战伊势丹，LV Keepall 35 + Canada Goose 两件羽绒服强势拿下。高岛屋 B2 美食补给，最后用香奈儿百年艺术展收尾 —— 整趟旅行最文艺的一个小时。",
+              "zh": "最后一天，便利店早餐后直奔高岛屋代购，Pola、Fancl、Mikimoto、资生堂一次性收齐，自己血拼 Kanebo、Fancl 和一个 LV 小皮夹。Beams 看到始祖鸟联名款，颜值一般没入。转战伊势丹，LV Keepall 35 + Canada Goose 两件羽绒服强势拿下。高岛屋 B2 美食补给，最后用香奈儿百年艺术展收尾，算得上整趟旅行最文艺的一个小时。",
               "en": "Last day. Convenience-store breakfast, then straight to Takashimaya for the gift run — Pola, Fancl, Mikimoto, Shiseido, all done in one sweep. My own haul was Kanebo, Fancl, and a small LV wallet. Checked the Arc'teryx collaboration at Beams — the design was a miss, skipped it. Moved to Isetan: the LV Keepall 35 and two Canada Goose parkas went home with us. Snacks at Takashimaya B2, then the Chanel century exhibition — the most cultural hour of the whole trip, and the perfect closing act."
             }
           ]
@@ -1788,7 +1788,7 @@
                 "en": "Ginza Cocoon"
               },
               "caption": {
-                "zh": "新宿的 Cocoon 塔 —— 百货大战开始",
+                "zh": "新宿的 Cocoon 塔，百货大战开始",
                 "en": "Shinjuku's Cocoon Tower — the department-store war begins"
               },
               "shape": "hero",

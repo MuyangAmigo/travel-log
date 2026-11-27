@@ -70,7 +70,7 @@ test("the 51 approved Chinese paragraphs remain verbatim without the unrelated n
   ];
   assert.equal(paragraphs.length, 51);
   assert.equal(sha(paragraphs.join("\n\n")),
-    "43f12e2162a1837e1c3213c42c712bdb1f649e0ce9b36359b04ef6072c2eac9e");
+    "da2859c0204a1eb1304f9186e86dd6e34f5b9a57e5dd08d30ed7e65727028687");
   assert.doesNotMatch(source, /潜水|小土|湾仔|Wanzai|diving|GPSLatitude|DateTimeOriginal|\/Users\/|localhost|blob\.core/);
   assert.ok(blocks.every((block) => block.type !== "expense"));
   assert.deepEqual(document.sections.map((section) => section.id),

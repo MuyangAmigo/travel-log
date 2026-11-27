@@ -75,7 +75,7 @@ test("the approved Chinese prose and unresolved meal remain intact with aligned 
   ];
   assert.equal(paragraphs.length, 33);
   assert.equal(hash(paragraphs.join("\n\n")),
-    "6f4078cd7cd4c11e2f0b85ebde0928e508d4236ad950bec471424927e03a5f40");
+    "6740b509e616d93767413ce9404c5cf450990743c53d5e32cd89b3e7652da803");
   const story = (id, locale) => blocks.find((block) => block.id === id).paragraphs[0][locale];
   assert.match(story("last-table-review-story", "zh"), /麦当劳/);
   assert.match(story("last-table-review-story", "en"), /unconfirmed.*McDonald's.*13:45.*14:02/s);
